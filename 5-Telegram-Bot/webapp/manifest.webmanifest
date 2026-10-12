@@ -1,0 +1,19 @@
+{
+  "name": "VajeYar — English Vocabulary",
+  "short_name": "VajeYar",
+  "description": "English vocabulary trainer: IELTS, TOEFL & General English with spaced repetition, flashcards and quizzes.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F8F6FF",
+  "theme_color": "#8B6CF6",
+  "lang": "fa",
+  "dir": "auto",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

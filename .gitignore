@@ -1,0 +1,23 @@
+# بیلدهای آماده — در Releases منتشر می‌شوند، نه در ریپو
+builds/
+*.exe
+
+# رازها و دیتابیس محلی
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+storage/
+
+# وابستگی‌ها و خروجی ابزارها
+node_modules/
+.wrangler/
+__pycache__/
+*.pyc
+.venv/
+
+# سیستم‌عامل
+*.log
+.DS_Store
+Thumbs.db

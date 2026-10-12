@@ -1,0 +1,6 @@
+{
+  "appId": "com.vajeyar.app",
+  "appName": "VajeYar",
+  "webDir": "www",
+  "android": { "backgroundColor": "#F8F6FF" }
+}

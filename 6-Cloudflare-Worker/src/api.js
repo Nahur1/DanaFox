@@ -1,0 +1,140 @@
+/* HTTP API for the apps: accounts, word bank, sync, Telegram linking (admin API lives in admin.js) */
+import { ApiError, json, one, run, now, int, body, meta, clientIp } from './util.js';
+import { hashPassword, verifyPassword, newCode, parseLogin, passwordError, verifyInitData } from './security.js';
+import * as W from './words.js';
+import * as S from './sync.js';
+import { botToken, botUsername } from './bot/telegram.js';
+import { route } from './router.js';
+import { publicUser, currentUser, startSession, checkCredentials, telegramUser } from './auth.js';
+import { getSettings } from './settings.js';
+
+export const VERSION = '2.1.0';
+
+/* ---------- handlers ---------- */
+
+route('GET', '/api/config', async (env) => {
+  const bot = await botUsername(env), s = await getSettings(env);
+  return { app: env.APP_NAME || 'VajeYar', version: VERSION, registration: s.registration, guest: s.guest,
+    words_version: await meta(env, 'words_version', '0'), telegram: bot ? { bot } : null,
+    notice: s.notice ? { text: s.notice, level: s.notice_level } : null, maintenance: s.maintenance ? (s.maintenance_msg || true) : null };
+});
+
+route('POST', '/api/auth/register', async (env, req) => {
+  if (!(await getSettings(env)).registration) throw new ApiError(403, 'registration_closed');
+  const d = await body(req), [kind, value] = parseLogin(d.login);
+  if (!kind) throw new ApiError(400, value);
+  const pe = passwordError(d.password); if (pe) throw new ApiError(400, pe);
+  if (await one(env, `SELECT id FROM users WHERE ${kind}=?`, value)) throw new ApiError(409, 'already_registered');
+  const name = String(d.name || '').split(/\s+/).filter(Boolean).join(' ').slice(0, 60);
+  const r = await one(env, `INSERT INTO users(${kind},password_hash,display_name,created_at) VALUES(?,?,?,?) RETURNING id`, value, await hashPassword(d.password), name, now());
+  return [await startSession(env, req, r.id), 201];
+});
+
+route('POST', '/api/auth/login', async (env, req) => {
+  const d = await body(req), u = await checkCredentials(env, req, d.login, d.password);
+  if (u.blocked) throw new ApiError(403, 'account_blocked');
+  return startSession(env, req, u.id);
+});
+
+route('POST', '/api/auth/logout', async (env, req) => {
+  const u = await currentUser(env, req);
+  await run(env, 'DELETE FROM sessions WHERE token_hash=?', u._th);
+  return { ok: true };
+});
+
+/* Telegram Mini App: sign in with the Telegram account (same account the bot uses) */
+route('POST', '/api/auth/telegram', async (env, req) => {
+  const d = await body(req), tu = await verifyInitData(d.initData, await botToken(env));
+  if (!tu || !tu.id) throw new ApiError(401, 'bad_telegram_data');
+  const u = await telegramUser(env, tu);
+  if (u.blocked) throw new ApiError(403, 'account_blocked');
+  return startSession(env, req, u.id);
+});
+/* Method A — inside the Mini App: sign in with the site account (email/mobile + password) and link this Telegram to it.
+   The Telegram-only data (bot progress) is merged into the site account, then the Telegram-only account is removed. */
+route('POST', '/api/auth/telegram/link', async (env, req) => {
+  const d = await body(req), tu = await verifyInitData(d.initData, await botToken(env), 86400);
+  if (!tu || !tu.id) throw new ApiError(401, 'bad_telegram_data');
+  const web = await checkCredentials(env, req, d.login, d.password);
+  if (web.blocked) throw new ApiError(403, 'account_blocked');
+  if (web.telegram_id && +web.telegram_id === +tu.id) return startSession(env, req, web.id);           // already linked to this Telegram
+  if (web.telegram_id) throw new ApiError(409, 'already_linked');                                      // linked to another Telegram account
+  const tgu = await one(env, 'SELECT * FROM users WHERE telegram_id=?', tu.id);
+  if (tgu && (tgu.email || tgu.phone)) throw new ApiError(409, 'telegram_linked_other');              // this Telegram belongs to another site account
+  if (tgu && tgu.blocked) throw new ApiError(403, 'account_blocked');
+  let merged = false;
+  if (tgu) {
+    const c = await one(env, 'SELECT (SELECT COUNT(*) FROM user_progress WHERE user_id=?1) + (SELECT COUNT(*) FROM user_custom_words WHERE user_id=?1) c', tgu.id);
+    merged = c.c > 0;
+    await S.mergeAccounts(env, tgu.id, web.id);
+  }
+  const name = [tu.first_name, tu.last_name].filter(Boolean).join(' ').slice(0, 60);
+  await run(env, 'UPDATE users SET telegram_id=?, tg_username=?, tg_name=?, last_bot_at=COALESCE(last_bot_at, ?) WHERE id=?', tu.id, tu.username || null, name, tgu ? tgu.last_bot_at : null, web.id);
+  await run(env, 'DELETE FROM bot_state WHERE user_id=?', web.id);
+  return { ...(await startSession(env, req, web.id)), merged };
+});
+/* one-time sign-in link created by the bot (“Open on the web”) */
+route('POST', '/api/auth/code', async (env, req) => {
+  const d = await body(req), code = String(d.code || '').toUpperCase().slice(0, 20);
+  const c = await one(env, "DELETE FROM auth_codes WHERE code=? AND kind='login' RETURNING user_id, expires_at", code);
+  if (!c || c.expires_at < now()) throw new ApiError(400, 'bad_code');
+  return startSession(env, req, c.user_id);
+});
+
+route('GET', '/api/me', async (env, req) => {
+  const u = await currentUser(env, req);
+  const s = await one(env, 'SELECT xp, learned, mastered, total_reviews, last_active_day, best_streak FROM v_user_summary WHERE id=?', u.id);
+  return { user: publicUser(u), summary: s };
+});
+route('PUT', '/api/me', async (env, req) => {
+  const u = await currentUser(env, req), d = await body(req);
+  if ('name' in d) await run(env, 'UPDATE users SET display_name=? WHERE id=?', String(d.name).split(/\s+/).filter(Boolean).join(' ').slice(0, 60), u.id);
+  if (d.login) {             // add / change email or mobile (Telegram-only accounts can add a web login this way)
+    const [kind, value] = parseLogin(d.login); if (!kind) throw new ApiError(400, value);
+    const other = await one(env, `SELECT id FROM users WHERE ${kind}=?`, value);
+    if (other && other.id !== u.id) throw new ApiError(409, 'already_registered');
+    if (u.password_hash && !(await verifyPassword(String(d.password || ''), u.password_hash))) throw new ApiError(401, 'wrong_credentials');
+    await run(env, `UPDATE users SET ${kind}=? WHERE id=?`, value, u.id);
+  }
+  if (d.new_password) {
+    if (u.password_hash && !(await verifyPassword(String(d.password || ''), u.password_hash))) throw new ApiError(401, 'wrong_credentials');
+    const pe = passwordError(d.new_password); if (pe) throw new ApiError(400, pe);
+    const fresh = await one(env, 'SELECT email, phone FROM users WHERE id=?', u.id);
+    if (!fresh.email && !fresh.phone) throw new ApiError(400, 'login_required');
+    await run(env, 'UPDATE users SET password_hash=? WHERE id=?', await hashPassword(d.new_password), u.id);
+    await run(env, 'DELETE FROM sessions WHERE user_id=? AND token_hash<>?', u.id, u._th);
+  }
+  return { user: publicUser(await one(env, 'SELECT * FROM users WHERE id=?', u.id)) };
+});
+route('POST', '/api/me/reset', async (env, req) => { const u = await currentUser(env, req); await S.wipe(env, u.id); return { ok: true }; });
+route('POST', '/api/me/delete', async (env, req) => {
+  const u = await currentUser(env, req), d = await body(req);
+  if (u.password_hash ? !(await verifyPassword(String(d.password || ''), u.password_hash)) : d.confirm !== true) throw new ApiError(401, 'wrong_credentials');
+  await run(env, 'DELETE FROM users WHERE id=?', u.id);
+  return { ok: true };
+});
+/* connect this web account with Telegram: returns a t.me deep link, the bot finishes the link */
+route('POST', '/api/me/telegram', async (env, req) => {
+  const u = await currentUser(env, req), bot = await botUsername(env);
+  if (!bot) throw new ApiError(400, 'telegram_not_configured');
+  const code = newCode(10);
+  await run(env, "DELETE FROM auth_codes WHERE user_id=? AND kind='link'", u.id);
+  await run(env, "INSERT INTO auth_codes(code,kind,user_id,expires_at) VALUES(?,'link',?,?)", code, u.id, now() + 15 * 60000);
+  return { code, url: `https://t.me/${bot}?start=link_${code}`, expires_in: 900 };
+});
+route('DELETE', '/api/me/telegram', async (env, req) => {
+  const u = await currentUser(env, req);
+  if (!u.email && !u.phone) throw new ApiError(400, 'login_required');
+  await run(env, 'UPDATE users SET telegram_id=NULL, tg_username=NULL, tg_name=NULL WHERE id=?', u.id);
+  return { user: publicUser(await one(env, 'SELECT * FROM users WHERE id=?', u.id)) };
+});
+
+route('GET', '/api/words', async (env, req) => {
+  const ver = await meta(env, 'words_version', '0'), etag = `"w${ver}"`;
+  if (req.headers.get('If-None-Match') === etag) return new Response(null, { status: 304, headers: { ETag: etag } });
+  return json({ version: ver, categories: await W.categories(env), words: await W.publicWords(env) }, 200, { ETag: etag, 'Cache-Control': 'no-cache' });
+});
+route('POST', '/api/sync', async (env, req) => {
+  const u = await currentUser(env, req), d = await body(req);
+  return S.sync(env, u.id, d.since, d.changes || {});
+});

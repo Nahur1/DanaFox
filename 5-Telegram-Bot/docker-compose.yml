@@ -1,0 +1,12 @@
+services:
+  vajeyar-bot:
+    build: .
+    container_name: vajeyar-bot
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DB_PATH: /app/storage/vajeyar.db
+    volumes:
+      - ./storage:/app/storage
+    ports:
+      - "8080:8080"      # only needed when SERVE_WEBAPP=true

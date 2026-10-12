@@ -1,0 +1,34 @@
+# VajeYar on Cloudflare: web app + admin panel (static assets), API, sync and the Telegram bot — one Worker + one D1 database.
+name = "vajeyar"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "none"
+run_worker_first = ["/api/*", "/tg/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "vajeyar-db"
+database_id = "2de9384a-a623-4270-acc6-0b6381345e1c"
+migrations_dir = "migrations"
+
+# reminders + word of the day for the Telegram bot (checked every 15 minutes, sent at each user's chosen local time)
+[triggers]
+crons = ["*/15 * * * *"]
+
+[vars]
+APP_NAME = "VajeYar"
+ALLOW_REGISTRATION = "true"
+ALLOW_GUEST = "true"
+SESSION_DAYS = "90"
+PUBLIC_URL = "https://vajeyar.mohammadfakhari59.workers.dev"
+# ONLY these Telegram numeric ids can open the admin panel (comma separated). Nothing else (email, role column …) grants admin rights.
+ADMIN_TG_IDS = "8221804913"
+# the bot token is a secret:  npx wrangler secret put TG_BOT_TOKEN
+
+[observability]
+enabled = true

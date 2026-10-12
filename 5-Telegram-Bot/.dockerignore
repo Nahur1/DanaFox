@@ -1,0 +1,6 @@
+.env
+.venv
+*.db
+storage
+__pycache__
+tests
