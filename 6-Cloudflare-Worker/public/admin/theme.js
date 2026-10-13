@@ -8,3 +8,5 @@
     document.documentElement.lang = l; document.documentElement.dir = l === 'fa' ? 'rtl' : 'ltr';
   } catch (e) {}
 })();
+/* lets iOS Safari/WebView apply :active press states on touch (inline scripts are blocked by the CSP, so it lives here) */
+document.addEventListener('touchstart', function () {}, { passive: true });

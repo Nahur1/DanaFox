@@ -1,3 +1,16 @@
+/* ── Touch / tap feedback ──────────────────────────────────────────────
+   Android WebView (Capacitor APK, Telegram) and mobile Chrome paint their own
+   translucent blue box over every tapped element. Kill it everywhere — including
+   pseudo-elements and anything added later — and give touch screens real
+   :active press states instead (see the (hover:none) blocks below). */
+html{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+*,*::before,*::after{-webkit-tap-highlight-color:rgba(0,0,0,0)!important}
+a,button,label,summary,select,[role=button],[data-act],[data-a],[onclick],.btn{touch-action:manipulation;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+input,textarea,[contenteditable],[contenteditable] *{-webkit-user-select:text;user-select:text;-webkit-touch-callout:default}
+:focus:not(:focus-visible){outline:none}
+:focus-visible{outline:2px solid var(--primary,#8B6CF6);outline-offset:2px}
+input:focus-visible,textarea:focus-visible,select:focus-visible{outline:none}
+/* ────────────────────────────────────────────────────────────────────── */
 /* ===== VajeYar admin panel ===== */
 @font-face{font-family:Vazirmatn;font-weight:400;font-display:swap;src:url(../fonts/vazirmatn-arabic-400-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+200C-200E,U+FB50-FDFF,U+FE70-FEFF}
 @font-face{font-family:Vazirmatn;font-weight:500;font-display:swap;src:url(../fonts/vazirmatn-arabic-500-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+200C-200E,U+FB50-FDFF,U+FE70-FEFF}
@@ -45,7 +58,8 @@ svg.i{width:18px;height:18px;flex:none;stroke:currentColor;fill:none;stroke-widt
 
 /* ---------- buttons & inputs ---------- */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:40px;padding:0 16px;border-radius:12px;border:1px solid transparent;background:var(--card2);color:var(--text);font-weight:600;cursor:pointer;transition:.15s;white-space:nowrap;text-decoration:none;font-size:14px}
-.btn:hover{filter:brightness(.98);transform:translateY(-1px)} .btn:active{transform:none}
+@media (hover:hover){
+.btn:hover{filter:brightness(.98);transform:translateY(-1px)}} .btn:active{transform:none}
 .btn:disabled{opacity:.55;pointer-events:none}
 .btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;box-shadow:0 6px 18px rgba(124,92,240,.3)}
 .btn.soft{background:var(--brand-soft);color:var(--brand)}
@@ -83,7 +97,8 @@ textarea.input{height:auto;min-height:110px;padding:11px 13px;resize:vertical;li
 .side .brand{display:flex;align-items:center;gap:10px;padding:4px 8px 18px}
 .side .brand b{font-size:16px;display:block;line-height:1.3}.side .brand small{color:var(--muted);font-size:12px}
 .nav-a{display:flex;align-items:center;gap:11px;padding:10px 12px;border-radius:12px;color:var(--text2);text-decoration:none;font-weight:600;cursor:pointer;border:0;background:transparent;width:100%;text-align:start}
-.nav-a:hover{background:var(--bg2)} .nav-a.on{background:var(--brand-soft);color:var(--brand)}
+@media (hover:hover){
+.nav-a:hover{background:var(--bg2)}} .nav-a.on{background:var(--brand-soft);color:var(--brand)}
 .nav-a .cnt{margin-inline-start:auto;font-size:11px;background:var(--brand);color:#fff;border-radius:99px;padding:0 7px}
 .side .foot{margin-top:auto;padding:12px;border-radius:14px;background:var(--bg2);font-size:12.5px;color:var(--text2)}
 .main{flex:1;min-width:0;display:flex;flex-direction:column}
@@ -118,7 +133,8 @@ textarea.input{height:auto;min-height:110px;padding:11px 13px;resize:vertical;li
 .chart .grid-l{stroke:var(--line);stroke-width:1}
 .chart .axis{fill:var(--muted);font-size:10px}
 .chart .bar{fill:var(--brand);opacity:.85;transition:.15s}.chart .bar.b2{fill:var(--tg)}
-.chart .bar:hover,.chart .hit:hover+.bar{opacity:1}
+@media (hover:hover){
+.chart .bar:hover,.chart .hit:hover+.bar{opacity:1}}
 .chart .xlab{position:relative;height:20px;margin-top:4px}.chart .xlab span{position:absolute;transform:translateX(-50%);font-size:11px;color:var(--muted);white-space:nowrap;top:0}
 .chart .grid-l,.chart .ln{vector-effect:non-scaling-stroke}
 .chart .ln{fill:none;stroke:var(--green);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
@@ -140,7 +156,7 @@ textarea.input{height:auto;min-height:110px;padding:11px 13px;resize:vertical;li
 /* ---------- lists / tables ---------- */
 .list{display:flex;flex-direction:column}
 .li{display:flex;align-items:center;gap:12px;padding:11px 6px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:10px}
-.li:last-child{border-bottom:0}.li:hover{background:var(--card2)}
+.li:last-child{border-bottom:0}@media (hover:hover){.li:hover{background:var(--card2)}}
 .av{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;font-weight:800;color:#fff;flex:none;font-size:15px}
 .av.lg{width:58px;height:58px;border-radius:18px;font-size:22px}
 .li .t{flex:1;min-width:0}.li .t b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}
@@ -150,7 +166,7 @@ textarea.input{height:auto;min-height:110px;padding:11px 13px;resize:vertical;li
 table.tbl{width:100%;border-collapse:collapse;font-size:13.5px}
 .tbl th{text-align:start;font-size:12px;color:var(--muted);font-weight:700;padding:10px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
 .tbl td{padding:11px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
-.tbl tr.click{cursor:pointer}.tbl tr.click:hover td{background:var(--card2)}
+.tbl tr.click{cursor:pointer}@media (hover:hover){.tbl tr.click:hover td{background:var(--card2)}}
 .tbl .w{font-weight:700}
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
 .pager{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:14px;color:var(--muted);font-size:13px}
@@ -234,3 +250,12 @@ table.tbl{width:100%;border-collapse:collapse;font-size:13.5px}
 }
 @media (max-width:520px){.kpis{gap:10px}.stat-grid{grid-template-columns:repeat(2,1fr)}.acts-grid{grid-template-columns:1fr}.top .sess{display:none}.modal{padding:18px;border-radius:20px}}
 html.in-tg .top .tg-hide{display:none}
+
+/* touch screens: hover styles above are mouse-only; give taps a short press state instead */
+@media (hover:none) {.btn:active {filter:brightness(.98)}
+.nav-a:active {background:var(--bg2)}
+.chart .bar:active, .chart .hit:active+.bar {opacity:1}
+.li:active {background:var(--card2)}
+.tbl tr.click:active td {background:var(--card2)}
+}
+

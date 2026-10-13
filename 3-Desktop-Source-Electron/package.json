@@ -8,8 +8,10 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --win portable nsis --x64",
-    "dist:portable": "electron-builder --win portable --x64"
+    "dist": "npm run prepare-app && electron-builder --win portable nsis --x64",
+    "dist:portable": "npm run prepare-app && electron-builder --win portable --x64",
+    "prepare-app": "node -e \"const f=require('fs');f.rmSync('app',{recursive:true,force:true});f.cpSync('../2-Web-App-PWA','app',{recursive:true})\"",
+    "dist:linux-host": "npm run prepare-app && electron-builder --win portable dir --x64 && NSISDIR=$HOME/.cache/electron-builder/nsis/nsis-3.0.4.1 $HOME/.cache/electron-builder/nsis/nsis-3.0.4.1/linux/makensis -V2 -DVERSION=$npm_package_version build/setup-nowine.nsi"
   },
   "devDependencies": {
     "electron": "^33.2.0",

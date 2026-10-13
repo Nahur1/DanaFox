@@ -34,13 +34,15 @@ python -m http.server 8080
 ## 🤖 ساخت APK اندروید
 **روش ۱ — سریع (PWABuilder):** بعد از آپلود وب‌اپ روی HTTPS، آدرس را در [pwabuilder.com](https://www.pwabuilder.com) وارد کنید و Android → Download Package را بزنید (خروجی APK/AAB).
 
-**روش ۲ — Capacitor (پیشنهادی، کاملاً آفلاین):** نیازمند Node.js و Android Studio
+**روش ۲ — Capacitor (پیشنهادی):** نیازمند Node.js، JDK 17 و Android SDK
 ```
 cd 4-Android-APK-Capacitor
 npm install
-npm run android
+npm run apk        ← ساخت مستقیم APK دیباگ
 ```
-در Android Studio: `Build → Build Bundle(s) / APK(s) → Build APK(s)`
+خروجی: `android/app/build/outputs/apk/debug/app-debug.apk`
+
+آنچه داخل APK می‌نشیند از `6-Cloudflare-Worker/public` ساخته می‌شود (همان نسخه‌ای که حساب کاربری، همگام‌سازی و تلفظ صوتی سمت سرور را دارد) و آدرس سرور هنگام ساخت به `www/index.html` تزریق می‌شود. برای عوض‌کردن آدرس: `VAJEYAR_SERVER=https://your-domain npm run apk`. فقط برای بازکردن Android Studio: `npm run android`.
 
 ## 🛠 ساخت دوبارهٔ exe / نصب‌کننده
 ```

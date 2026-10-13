@@ -12,7 +12,11 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
+<!-- no blue tap flash in Android WebView, even before style.css loads -->
+<style>html{-webkit-tap-highlight-color:rgba(0,0,0,0)}*,*::before,*::after{-webkit-tap-highlight-color:rgba(0,0,0,0)!important}</style>
 <link rel="stylesheet" href="css/style.css">
+<!-- lets iOS Safari/WebView apply :active press states on touch -->
+<script>document.addEventListener('touchstart',function(){},{passive:true});</script>
 <script src="js/telegram-web-app.js"></script>
 <script src="js/telegram.js"></script>
 <script>(function(){try{var s=JSON.parse(localStorage.getItem('vajeyar_state_v1'));var th=s&&s.settings&&s.settings.theme;var d=th==='dark'||(th==='system'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.theme=d?'dark':'light';}catch(e){}})();</script>

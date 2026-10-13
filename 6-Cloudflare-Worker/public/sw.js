@@ -1,6 +1,6 @@
 /* VajeYar service worker — network-first for the app shell, cache fallback offline.
    API calls (/api/…) and the admin panel are never cached. */
-const CACHE = 'vajeyar-v5';
+const CACHE = 'vajeyar-v6';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./css/style.css','./js/icons.js','./js/i18n.js','./js/words_general.js','./js/words_ielts.js','./js/words_toefl.js','./js/words_extra.js','./js/core.js','./js/ui.js','./js/config.js','./js/account.js','./js/views.js','./js/telegram.js','./js/telegram-web-app.js','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png',
  './fonts/vazirmatn-arabic-400-normal.woff2','./fonts/vazirmatn-arabic-500-normal.woff2','./fonts/vazirmatn-arabic-700-normal.woff2','./fonts/vazirmatn-arabic-800-normal.woff2','./fonts/vazirmatn-latin-400-normal.woff2','./fonts/vazirmatn-latin-500-normal.woff2','./fonts/vazirmatn-latin-700-normal.woff2','./fonts/vazirmatn-latin-800-normal.woff2'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting())); });

@@ -156,17 +156,35 @@ VY.checkAch = () => { VY.ACH.forEach(a => { if(!VY.S.ach[a.id] && a.ok()){ VY.S.
 /* ---------- Toast ---------- */
 VY.toast = msg => { let box = document.querySelector('.toasts'); if(!box){ box = document.createElement('div'); box.className='toasts'; document.body.appendChild(box); } const el = document.createElement('div'); el.className='toast'; el.textContent = msg; box.appendChild(el); setTimeout(()=>{ el.style.opacity='0'; el.style.transition='opacity .3s'; setTimeout(()=>el.remove(), 300); }, 2400); };
 
-/* ---------- Text to speech ---------- */
+/* ---------- Text to speech: real audio from the server first, the device engine as fallback ---------- */
 let voices = [];
 const loadVoices = () => { voices = (window.speechSynthesis && speechSynthesis.getVoices()) || []; };
 if(window.speechSynthesis){ loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
-VY.hasTTS = () => !!window.speechSynthesis;
+VY.hasTTS = () => !!window.speechSynthesis || !!(VY.isServer && VY.isServer());
 VY.pickVoice = () => {
   const acc = VY.S.settings.accent; const en = voices.filter(v => /^en[-_]/i.test(v.lang));
   const score = v => (v.lang.replace('_','-').toLowerCase()===acc.toLowerCase()?10:0) + (/natural|online|neural/i.test(v.name)?4:0) + (/google|microsoft/i.test(v.name)?2:0) + (v.localService?1:0);
   return en.sort((a,b)=>score(b)-score(a))[0] || null;
 };
-VY.speak = (text, rate) => {
+VY.ttsUrl = (text, rate) => { const s = VY.S.settings;
+  return (VY.apiBase || '') + '/api/tts?text=' + encodeURIComponent(text) + '&accent=' + encodeURIComponent(s.accent) + '&rate=' + +(rate || s.rate || 1); };
+VY.speak = async (text, rate) => {
+  text = String(text || '').trim(); if(!text) return;
+  if(navigator.onLine && VY.isServer && VY.isServer()){
+    const a = new Audio(VY.ttsUrl(text, rate));
+    let r;
+    try{
+      r = await new Promise(res => {
+        a.onplaying = () => res('played');
+        a.onerror = () => res('failed');
+        a.play().catch(e => res(e && e.name === 'NotAllowedError' ? 'blocked' : 'failed'));
+        setTimeout(() => res('timeout'), 6000);
+      });
+    }catch(e){ r = 'failed'; }
+    if(r !== 'played') a.pause();
+    // 'blocked' = the browser refuses sound before the first tap; the device engine is refused too, so stay quiet
+    if(r === 'played' || r === 'blocked') return;
+  }
   if(!window.speechSynthesis){ VY.toast(VY.t('noVoice')); return; }
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);

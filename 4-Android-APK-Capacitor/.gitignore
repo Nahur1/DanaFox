@@ -1,0 +1,5 @@
+# خروجی npm run copy-web — از 6-Cloudflare-Worker/public ساخته می‌شود
+www/
+
+# Android release signing key + passwords — never commit
+keystore/

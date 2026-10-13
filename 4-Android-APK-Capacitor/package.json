@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "copy-web": "node -e \"require('fs').cpSync('../2-Web-App-PWA','www',{recursive:true})\"",
-    "android": "npm run copy-web && npx cap add android && npx cap sync android && npx cap open android"
+    "copy-web": "node scripts/copy-web.mjs",
+    "sync": "npm run copy-web && npx cap sync android",
+    "android": "npm run sync && npx cap open android",
+    "apk": "npm run sync && cd android && ./gradlew assembleRelease",
+    "apk:win": "npm run sync && cd android && gradlew.bat assembleRelease"
   },
-  "dependencies": { "@capacitor/android": "^6.1.2", "@capacitor/core": "^6.1.2" },
-  "devDependencies": { "@capacitor/cli": "^6.1.2" }
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
 }

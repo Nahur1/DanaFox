@@ -138,3 +138,23 @@ route('POST', '/api/sync', async (env, req) => {
   const u = await currentUser(env, req), d = await body(req);
   return S.sync(env, u.id, d.since, d.changes || {});
 });
+
+/* Pronunciation audio: the same Google TTS engine the bot's voice messages use.
+   Telegram's Android WebView exposes no speechSynthesis, so the web app cannot rely on the device engine. */
+route('GET', '/api/tts', async (env, req, g, url) => {
+  const text = String(url.searchParams.get('text') || '').replace(/\s+/g, ' ').trim().slice(0, 190);
+  if (!text || !/[A-Za-z]/.test(text)) throw new ApiError(400, 'bad_text');
+  const host = url.searchParams.get('accent') === 'en-GB' ? 'translate.google.co.uk' : 'translate.google.com';
+  const up = `https://${host}/translate_tts?ie=UTF-8&client=tw-ob&tl=en&ttsspeed=` +
+    (parseFloat(url.searchParams.get('rate')) < 0.9 ? '0.3' : '1') + '&q=' + encodeURIComponent(text);
+  let r;
+  try { r = await fetch(up, { headers: { 'User-Agent': 'Mozilla/5.0', Referer: `https://${host}/` } }); }
+  catch (e) { throw new ApiError(502, 'tts_unavailable'); }
+  if (!r.ok) throw new ApiError(502, 'tts_unavailable');
+  const mp3 = await r.arrayBuffer();
+  if (!mp3.byteLength) throw new ApiError(502, 'tts_unavailable');
+  return new Response(mp3, { headers: {
+    'Content-Type': 'audio/mpeg',
+    'Cache-Control': 'public, max-age=604800',
+  } });
+});

@@ -307,6 +307,7 @@ VY.useLocal = () => { localStorage.setItem(GKEY, '1'); if(location.hash.indexOf(
 const tgApp = () => { const w = window.Telegram && window.Telegram.WebApp; return w && w.initData ? w : null; };
 VY.boot = async () => {
   A.base = resolveBase();
+  VY.apiBase = A.base || '';                               // absolute API base for builds that are not served by the Worker itself
   if(A.base === null) return VY.renderShell();               // pure offline build
   const qs = new URLSearchParams(location.search), code = qs.get('login');
   if(code || qs.has('tg')){ try{ history.replaceState(null, '', location.pathname + location.hash); }catch(e){} }
