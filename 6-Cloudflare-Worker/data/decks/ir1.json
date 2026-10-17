@@ -1,0 +1,1746 @@
+{
+ "cat": "ir1",
+ "words": [
+  {
+   "id": "ir1:alter",
+   "word": "alter",
+   "pos": "v",
+   "fa": "تغییر دادن",
+   "def_": "/ˈɔːltər/ · change, adjust",
+   "level": 1,
+   "exs": [
+    "This alteration made velocipedes much lighter, but riders still had to work hard to pedal just a short distance.",
+    "The place has altered in the 10 years since I left.",
+    "Climate change alters habitats."
+   ]
+  },
+  {
+   "id": "ir1:design",
+   "word": "design",
+   "pos": "v",
+   "fa": "طراحی کردن",
+   "def_": "/dɪˈzaɪn/ · plan",
+   "level": 1,
+   "exs": [
+    "So they designed a bicycle with a giant front wheel.",
+    "She designed a new logo for the company."
+   ]
+  },
+  {
+   "id": "ir1:fee",
+   "word": "fee",
+   "pos": "n",
+   "fa": "هزینه، کارمزد، شهریه",
+   "def_": "/fiː/ · price, charge",
+   "level": 1,
+   "exs": [
+    "In fact, most riders preferred indoor tracks where they could rent a velocipede for a small fee and take riding lessons.",
+    "Tuition fees have now reached $9000 a year."
+   ]
+  },
+  {
+   "id": "ir1:framework",
+   "word": "framework",
+   "pos": "n",
+   "fa": "چارچوب، ساختار",
+   "def_": "/ˈfreɪmwɜːk/ · structure",
+   "level": 1,
+   "exs": [
+    "The frameworks were made of solid steel tubes, and the wooden wheels were covered with steel.",
+    "This paper provides a framework for future research."
+   ]
+  },
+  {
+   "id": "ir1:individual",
+   "word": "individual",
+   "pos": "n",
+   "fa": "فرد؛ فردی، شخصی",
+   "def_": "/ˌɪndəˈvɪdʒuəl/ · n., adj. · belonging to one person",
+   "level": 1,
+   "exs": [
+    "The bicycle was not invented by one individual or in one country.",
+    "The competition is open to both teams and individuals.",
+    "Every individual has the right to education."
+   ]
+  },
+  {
+   "id": "ir1:inherent",
+   "word": "inherent",
+   "pos": "adj",
+   "fa": "ذاتی، درونی",
+   "def_": "/ɪnˈherənt/ · intrinsic, innate",
+   "level": 1,
+   "exs": [
+    "Despite this inherent danger, “high wheelers” became very popular in England.",
+    "Every business has its own inherent risks.",
+    "There are risks inherent in any business."
+   ]
+  },
+  {
+   "id": "ir1:injure",
+   "word": "injure",
+   "pos": "v",
+   "fa": "مجروح کردن، آسیب زدن",
+   "def_": "/ˈɪndʒə(r)/ · to hurt a person or animal physically",
+   "level": 1,
+   "exs": [
+    "This meant they were in danger of falling off the bicycle and injuring themselves if they lost their balance."
+   ]
+  },
+  {
+   "id": "ir1:job",
+   "word": "job",
+   "pos": "n",
+   "fa": "شغل، کار",
+   "def_": "/dʒɑːb/ · regular paid work",
+   "level": 1,
+   "exs": [
+    "People didn’t ride velocipedes to the market or to their jobs.",
+    "It's a temporary job, but I'm hoping it will be made permanent."
+   ]
+  },
+  {
+   "id": "ir1:minimize",
+   "word": "minimize",
+   "pos": "v",
+   "fa": "به حداقل رساندن",
+   "def_": "/ˈmɪnɪmaɪz/ · reduced to the smallest size",
+   "level": 1,
+   "exs": [
+    "Because the new safety bicycle minimized the dangers inherent in bicycle riding, more and more people began using bicycles in their daily activities.",
+    "The aim is to minimize costs."
+   ]
+  },
+  {
+   "id": "ir1:overseas",
+   "word": "overseas",
+   "pos": "adj",
+   "fa": "خارجی، ماورای دریا",
+   "def_": "/ˌəʊvərˈsiːz/ · abroad, foreign",
+   "level": 1,
+   "exs": [
+    "Around 1870, American manufacturers saw that velocipedes were very popular overseas.",
+    "There are a lot of overseas students in Cambridge."
+   ]
+  },
+  {
+   "id": "ir1:primary",
+   "word": "primary",
+   "pos": "adj",
+   "fa": "اصلی، اولیه",
+   "def_": "/ˈpraɪməri/ · main",
+   "level": 1,
+   "exs": [
+    "Its primary purpose was to help the rider balance.",
+    "Their primary objective is to make money."
+   ]
+  },
+  {
+   "id": "ir1:revolution",
+   "word": "revolution",
+   "pos": "n",
+   "fa": "انقلاب",
+   "def_": "/ˌrevəˈluːʃn/ · complete change, revolt",
+   "level": 1,
+   "exs": [
+    "By the end of those 100 years, bicycles had revolutionized the way people traveled from place to place.",
+    "The king knew that there was a threat of revolution."
+   ]
+  },
+  {
+   "id": "ir1:subsequent",
+   "word": "subsequent",
+   "pos": "adj",
+   "fa": "بعدی، متعاقب",
+   "def_": "/ˈsʌbsɪkwənt/ · next, later",
+   "level": 1,
+   "exs": [
+    "A subsequent change by British engineers altered the wheels to make pedaling more efficient.",
+    "Subsequently, the drug was found to cause cancer.",
+    "Subsequent studies confirmed the result."
+   ]
+  },
+  {
+   "id": "ir1:substitute",
+   "word": "substitute",
+   "pos": "n",
+   "fa": "جایگزین، جانشین",
+   "def_": "a person or thing that takes the place of another",
+   "level": 1,
+   "exs": [
+    "They substituted a small wheel for the giant front wheel and put the driving mechanism in a larger rear wheel.",
+    "Honey can be used as a substitute for sugar.",
+    "There is no substitute for hard work."
+   ]
+  },
+  {
+   "id": "ir1:access",
+   "word": "access",
+   "pos": "n",
+   "fa": "دسترسی",
+   "def_": "/ˈækses/ · right to use something",
+   "level": 2,
+   "exs": [
+    "Unfortunately, many people live in far-away villages without access to quick medical care.",
+    "High-speed internet access has become a necessity.",
+    "Many villages still lack access to clean water."
+   ]
+  },
+  {
+   "id": "ir1:accompany",
+   "word": "accompany",
+   "pos": "v",
+   "fa": "همراهی کردن",
+   "def_": "/əˈkʌmpəni/ · go with sb, escort",
+   "level": 2,
+   "exs": [
+    "Nausea and vomiting often accompany these symptoms.",
+    "Children under 14 must be accompanied by an adult."
+   ]
+  },
+  {
+   "id": "ir1:conflict",
+   "word": "conflict",
+   "pos": "n",
+   "fa": "تعارض، درگیری",
+   "def_": "/ˈkɒnflɪkt/ · opposition",
+   "level": 2,
+   "exs": [
+    "Their old beliefs about illness may conflict with modern attempts to cure or prevent malaria.",
+    "Normal kids who are in conflict with their parents."
+   ]
+  },
+  {
+   "id": "ir1:cooperate",
+   "word": "cooperate",
+   "pos": "v",
+   "fa": "همکاری کردن",
+   "def_": "/kəʊˈɒpəreɪt/ · to work together toward the same goal",
+   "level": 2,
+   "exs": [
+    "Some people may be unwilling to cooperate with government efforts to help them."
+   ]
+  },
+  {
+   "id": "ir1:decline",
+   "word": "decline",
+   "pos": "n",
+   "fa": "کاهش؛ کاهش یافتن",
+   "def_": "/dɪˈklaɪn/ · n., v. · decrease",
+   "level": 2,
+   "exs": [
+    "Another problem is that the ability of quinine (the primary medicine used against malaria) to kill parasites has declined over time.",
+    "There has been a decline in the size of families.",
+    "The number of visitors declined in 2020."
+   ]
+  },
+  {
+   "id": "ir1:implement",
+   "word": "implement",
+   "pos": "v",
+   "fa": "اجرا کردن، پیاده‌سازی کردن",
+   "def_": "/ˈɪmpləment/ · do, carry out",
+   "level": 2,
+   "exs": [
+    "It is very difficult, however, to implement these plans.",
+    "We have decided to implement the committee's recommendations in full.",
+    "The policy was implemented in 2019."
+   ]
+  },
+  {
+   "id": "ir1:intense",
+   "word": "intense",
+   "pos": "adj",
+   "fa": "شدید",
+   "def_": "very strong",
+   "level": 2,
+   "exs": [
+    "The place most intensely affected by malaria is Africa south of the Sahara Desert.",
+    "The heat was intense.",
+    "The heat in the desert was intense."
+   ]
+  },
+  {
+   "id": "ir1:labor",
+   "word": "labor",
+   "pos": "n",
+   "fa": "کار، نیروی کار؛ زحمت کشیدن",
+   "def_": "/ˈleɪbər/ · n., v. · work, worker",
+   "level": 2,
+   "exs": [
+    "They may not have the money to buy insect poisons and pay a labor force to spray regularly.",
+    "Many women do hard manual labour."
+   ]
+  },
+  {
+   "id": "ir1:medical",
+   "word": "medical",
+   "pos": "adj",
+   "fa": "پزشکی",
+   "def_": "/ˈmedɪkl/ · relating to the study of medicine",
+   "level": 2,
+   "exs": [
+    "Becoming infected with malaria is a medical emergency.",
+    "The injury required urgent medical attention."
+   ]
+  },
+  {
+   "id": "ir1:ministry",
+   "word": "ministry",
+   "pos": "n",
+   "fa": "وزارتخانه",
+   "def_": "/ˈmɪnɪstri/ · government department",
+   "level": 2,
+   "exs": [
+    "Health ministries may not have the money to build clinics or hire trained medical practitioners.",
+    "the ministry of Defense"
+   ]
+  },
+  {
+   "id": "ir1:occur",
+   "word": "occur",
+   "pos": "v",
+   "fa": "رخ دادن، اتفاق افتادن",
+   "def_": "/əˈkɜːr/ · happen",
+   "level": 2,
+   "exs": [
+    "It occurs mostly in tropical and subtropical parts of the world, including parts of Africa, Asia, South America, Central America, and the Middle East.",
+    "The disease tends to occur in children under five.",
+    "Earthquakes occur along fault lines."
+   ]
+  },
+  {
+   "id": "ir1:practitioner",
+   "word": "practitioner",
+   "pos": "n",
+   "fa": "متخصص شاغل (پزشک یا وکیل)",
+   "def_": "/prækˈtɪʃənər/ · sb who works as a doctor or lawyer",
+   "level": 2,
+   "exs": [
+    "Health ministries may not have the money to build clinics or hire trained medical practitioners.",
+    "Patients are treated by skilled practitioners."
+   ]
+  },
+  {
+   "id": "ir1:priority",
+   "word": "priority",
+   "pos": "n",
+   "fa": "اولویت",
+   "def_": "/praɪˈɔːrəti/ · greater importance",
+   "level": 2,
+   "exs": [
+    "Immediate medical treatment must be a priority for people who are infected.",
+    "Education is a top priority.",
+    "Safety is our top priority."
+   ]
+  },
+  {
+   "id": "ir1:reside",
+   "word": "reside",
+   "pos": "v",
+   "fa": "سکونت داشتن، اقامت داشتن",
+   "def_": "/rɪˈzaɪd/ · to live in a particular place",
+   "level": 2,
+   "exs": [
+    "These parasites reside in the bodies of Anopheles mosquitoes."
+   ]
+  },
+  {
+   "id": "ir1:administrate",
+   "word": "administrate",
+   "pos": "v",
+   "fa": "اداره کردن، مدیریت کردن",
+   "def_": "/ədˈmɪnɪstreɪt/ · to manage or run an organization",
+   "level": 3,
+   "exs": [
+    "A survey administrated by the above consultants asked English speakers about their reactions to various letters of the alphabet."
+   ]
+  },
+  {
+   "id": "ir1:channel",
+   "word": "channel",
+   "pos": "n",
+   "fa": "کانال، مجرا",
+   "def_": "/ˈtʃænl/ · canal",
+   "level": 3,
+   "exs": [
+    "In short, the goal of marketing is to channel a shopper’s choices toward a single, specific product.",
+    "the river is confined in a narrow channel"
+   ]
+  },
+  {
+   "id": "ir1:convince",
+   "word": "convince",
+   "pos": "v",
+   "fa": "متقاعد کردن",
+   "def_": "/kənˈvɪns/ · persuade, induce",
+   "level": 3,
+   "exs": [
+    "Marketers use strategies such as attractive packaging, catchy slogans, and other clever ways to convince consumers to buy their product.",
+    "I am convinced the war will be over in a month.",
+    "She convinced me to join the club."
+   ]
+  },
+  {
+   "id": "ir1:domestic",
+   "word": "domestic",
+   "pos": "adj",
+   "fa": "داخلی؛ خانگی",
+   "def_": "/dəˈmestɪk/ · family, internal",
+   "level": 3,
+   "exs": [
+    "The team must also decide if the focus will be on domestic sales or if the baby food will be exported to foreign countries.",
+    "Unfortunately his domestic life wasn't very happy."
+   ]
+  },
+  {
+   "id": "ir1:explicit",
+   "word": "explicit",
+   "pos": "adj",
+   "fa": "صریح، روشن",
+   "def_": "/ɪkˈsplɪsɪt/ · clear",
+   "level": 3,
+   "exs": [
+    "This slogan has both an explicit and an implicit message.",
+    "He was quite explicit as to what he expected us to do for him.",
+    "The instructions were explicit."
+   ]
+  },
+  {
+   "id": "ir1:export",
+   "word": "export",
+   "pos": "n",
+   "fa": "صادرات؛ صادر کردن",
+   "def_": "/ˈekspɔːt/ · n., v. · sell goods to another country · ≠ import",
+   "level": 3,
+   "exs": [
+    "The team must also decide if the focus will be on domestic sales or if the baby food will be exported to foreign countries.",
+    "Wheat is one of the country's chief exports.",
+    "Iran exports pistachios to many countries."
+   ]
+  },
+  {
+   "id": "ir1:implicit",
+   "word": "implicit",
+   "pos": "adj",
+   "fa": "ضمنی، تلویحی",
+   "def_": "/ɪmˈplɪsɪt/ · indirect, hidden",
+   "level": 3,
+   "exs": [
+    "This slogan has both an explicit and an implicit message.",
+    "Her words contained an implicit threat.",
+    "There was an implicit criticism in his words."
+   ]
+  },
+  {
+   "id": "ir1:income",
+   "word": "income",
+   "pos": "n",
+   "fa": "درآمد",
+   "def_": "/ˈɪŋkʌm/ · money you earn from working",
+   "level": 3,
+   "exs": [
+    "Factors such as the sex, age, education, and income of future customers are considered.",
+    "He earns a good income as a consultant.",
+    "Average income has increased."
+   ]
+  },
+  {
+   "id": "ir1:innovate",
+   "word": "innovate",
+   "pos": "v",
+   "fa": "نوآوری کردن",
+   "def_": "/ˈɪnəveɪt/ · to introduce new ideas or methods",
+   "level": 3,
+   "exs": [
+    "Suppose that a company has developed an innovative new product: a powder made from dried fruit."
+   ]
+  },
+  {
+   "id": "ir1:invoke",
+   "word": "invoke",
+   "pos": "v",
+   "fa": "استناد کردن به؛ برانگیختن",
+   "def_": "/ɪnˈvəʊk/ · implement, evoke",
+   "level": 3,
+   "exs": [
+    "Maybe the ads will invoke the authority of a famous baby doctor to emphasize the health appeal.",
+    "The UN threatened to invoke economic sanctions."
+   ]
+  },
+  {
+   "id": "ir1:publish",
+   "word": "publish",
+   "pos": "v",
+   "fa": "منتشر کردن، چاپ کردن",
+   "def_": "/ˈpʌblɪʃ/ · print",
+   "level": 3,
+   "exs": [
+    "They must decide where to publish advertisements and what the ads should say.",
+    "The first edition was published in 1765."
+   ]
+  },
+  {
+   "id": "ir1:sector",
+   "word": "sector",
+   "pos": "n",
+   "fa": "بخش (اقتصادی)، حوزه",
+   "def_": "/ˈsektər/ · part of an area of business",
+   "level": 3,
+   "exs": [
+    "Then, a marketing team designs a plan aimed at a specific sector of the population, the group that they think is most likely to buy the product.",
+    "the agricultural sector of the economy"
+   ]
+  },
+  {
+   "id": "ir1:sex",
+   "word": "sex",
+   "pos": "n",
+   "fa": "جنسیت",
+   "def_": "/seks/ · the state of being male or female",
+   "level": 3,
+   "exs": [
+    "Factors such as the sex, age, education, and income of future customers are considered."
+   ]
+  },
+  {
+   "id": "ir1:survey",
+   "word": "survey",
+   "pos": "n",
+   "fa": "نظرسنجی، بررسی؛ بررسی کردن",
+   "def_": "/ˈsɜːrveɪ/ · n., v. · poll",
+   "level": 3,
+   "exs": [
+    "A marketing plan often begins with a survey to determine who is most likely to buy a certain type of product.",
+    "We conducted a survey of parents in the village.",
+    "A survey of 500 people was carried out."
+   ]
+  },
+  {
+   "id": "ir1:acquire",
+   "word": "acquire",
+   "pos": "v",
+   "fa": "کسب کردن",
+   "def_": "to gain or obtain",
+   "level": 4,
+   "exs": [
+    "The more umbrellas a ruler acquired, the more he impressed others; and, by analogy, the bigger his umbrellas, the more power the owner appeared to have.",
+    "Children acquire languages easily.",
+    "She acquired a good knowledge of English while living in London."
+   ]
+  },
+  {
+   "id": "ir1:ambiguous",
+   "word": "ambiguous",
+   "pos": "adj",
+   "fa": "مبهم، دوپهلو",
+   "def_": "/æmˈbɪɡjuəs/ · unclear, obscure",
+   "level": 4,
+   "exs": [
+    "If we give each a title, the ambiguous story becomes easier to understand.",
+    "Their position in society remains ambiguous.",
+    "The question was ambiguous."
+   ]
+  },
+  {
+   "id": "ir1:analogy",
+   "word": "analogy",
+   "pos": "n",
+   "fa": "قیاس، تشبیه",
+   "def_": "≈ comparison, parallel — Cambridge 13 · Test 4 · Passage 3: Psychology of Creativity",
+   "level": 4,
+   "exs": [
+    "These include the royal male titles king, emperor, and sultan and their analogous female titles queen, empress, and sultana.",
+    "Scientists use analogy to explain complex ideas."
+   ]
+  },
+  {
+   "id": "ir1:civil",
+   "word": "civil",
+   "pos": "adj",
+   "fa": "مدنی، غیرنظامی؛ مؤدب",
+   "def_": "/ˈsɪvl/ · polite, nonmilitary",
+   "level": 4,
+   "exs": [
+    "Every civil leader has a title, too, though these vary somewhat depending on a country’s system of government.",
+    "She was barely civil to me."
+   ]
+  },
+  {
+   "id": "ir1:constitute",
+   "word": "constitute",
+   "pos": "v",
+   "fa": "تشکیل دادن، به شمار آمدن",
+   "def_": "/ˈkɒnstɪtjuːt/ · to form or make up; to be considered as",
+   "level": 4,
+   "exs": [
+    "A given name plus the inherited title usually constitute their public names, such as King Faisal or Queen Elizabeth."
+   ]
+  },
+  {
+   "id": "ir1:context",
+   "word": "context",
+   "pos": "n",
+   "fa": "زمینه، بافت، شرایط",
+   "def_": "/ˈkɒntekst/ · situation",
+   "level": 4,
+   "exs": [
+    "The title engineer defines his status within the context of employment.",
+    "the political context of the election"
+   ]
+  },
+  {
+   "id": "ir1:convene",
+   "word": "convene",
+   "pos": "v",
+   "fa": "تشکیل جلسه دادن، گرد هم آمدن",
+   "def_": "/kənˈviːn/ · to come or bring together for a meeting",
+   "level": 4,
+   "exs": [
+    "When official meetings convene, the leaders are addressed in a formal style, such as Madam President or Governor Ramos."
+   ]
+  },
+  {
+   "id": "ir1:differentiate",
+   "word": "differentiate",
+   "pos": "v",
+   "fa": "متمایز کردن، فرق گذاشتن",
+   "def_": "/ˌdɪfəˈrenʃieɪt/ · distinguish, discriminate",
+   "level": 4,
+   "exs": [
+    "Within a group, titles help differentiate one person from another.",
+    "It's important to differentiate between fact and opinion."
+   ]
+  },
+  {
+   "id": "ir1:index",
+   "word": "index",
+   "pos": "n",
+   "fa": "فهرست، نمایه؛ شاخص",
+   "def_": "/ˈɪndeks/ · list, directory",
+   "level": 4,
+   "exs": [
+    "A person's job title also serves as an index (or measure) of his or her status within the company.",
+    "Try looking up 'heart disease' in the index."
+   ]
+  },
+  {
+   "id": "ir1:integral",
+   "word": "integral",
+   "pos": "adj",
+   "fa": "جدایی‌ناپذیر، ضروری",
+   "def_": "/ˈɪntɪɡrəl, ɪnˈteɡrəl/ · vital, essential",
+   "level": 4,
+   "exs": [
+    "Each person is an integral part of many different groups, so each person has many titles.",
+    "Games are an integral part of the school's curriculum.",
+    "Sport is an integral part of school life."
+   ]
+  },
+  {
+   "id": "ir1:military",
+   "word": "military",
+   "pos": "adj",
+   "fa": "نظامی",
+   "def_": "/ˈmɪləteri/ · related to the army",
+   "level": 4,
+   "exs": [
+    "Titles are especially important in the military, where authority is channeled from top to bottom via a strict chain of command.",
+    "We may have to take military action."
+   ]
+  },
+  {
+   "id": "ir1:somewhat",
+   "word": "somewhat",
+   "pos": "adv",
+   "fa": "تا حدی، کمی",
+   "def_": "/ˈsʌmwʌt/ · to some extent, slightly",
+   "level": 4,
+   "exs": [
+    "Every civil leader has a title, too, though these vary somewhat depending on a country’s system of government.",
+    "She is somewhat lazy."
+   ]
+  },
+  {
+   "id": "ir1:style",
+   "word": "style",
+   "pos": "n",
+   "fa": "سبک، شیوه",
+   "def_": "/staɪl/ · mode, fashion",
+   "level": 4,
+   "exs": [
+    "When official meetings convene, the leaders are addressed in a formal style, such as Madam President or Governor Ramos.",
+    "The car is available in several different styles."
+   ]
+  },
+  {
+   "id": "ir1:whereby",
+   "word": "whereby",
+   "pos": "adv",
+   "fa": "که به‌وسیلهٔ آن، به موجب آن",
+   "def_": "/werˈbaɪ/ · by which",
+   "level": 4,
+   "exs": [
+    "Titles also provide guidelines whereby people know how to address others.",
+    "A plan whereby we can make lots of money."
+   ]
+  },
+  {
+   "id": "ir1:attain",
+   "word": "attain",
+   "pos": "v",
+   "fa": "دست یافتن، رسیدن به",
+   "def_": "/əˈteɪn/ · succeed in doing sth, accomplish",
+   "level": 5,
+   "exs": [
+    "It is about attaining something that is valued by others.",
+    "He has attained the highest grade in his music exams.",
+    "Few students attain a perfect score."
+   ]
+  },
+  {
+   "id": "ir1:aware",
+   "word": "aware",
+   "pos": "adj",
+   "fa": "آگاه، مطلع",
+   "def_": "/əˈwer/ · conscious, informed",
+   "level": 5,
+   "exs": [
+    "If parents are aware that a lack of ambition is common in teenagers, they may be able to minimize it by providing positive learning experiences in the early years.",
+    "The children are aware of the danger of taking drugs.",
+    "Are you aware of the risks?"
+   ]
+  },
+  {
+   "id": "ir1:coincide",
+   "word": "coincide",
+   "pos": "v",
+   "fa": "همزمان شدن، مصادف شدن",
+   "def_": "/ˌkəʊɪnˈsaɪd/ · happen at the same time",
+   "level": 5,
+   "exs": [
+    "It is not a coincidence that successful parents tend to raise successful children.",
+    "The goals of the business partners coincide.",
+    "The festival coincides with the harvest."
+   ]
+  },
+  {
+   "id": "ir1:colleague",
+   "word": "colleague",
+   "pos": "n",
+   "fa": "همکار",
+   "def_": "/ˈkɑːliːɡ/ · coworker",
+   "level": 5,
+   "exs": [
+    "They seek assistance from anyone who might further their chances to succeed, including family members, friends, coaches, and colleagues.",
+    "A colleague of mine will be speaking at the conference."
+   ]
+  },
+  {
+   "id": "ir1:demonstrate",
+   "word": "demonstrate",
+   "pos": "v",
+   "fa": "نشان دادن، اثبات کردن",
+   "def_": "/ˈdemənstreɪt/ · show",
+   "level": 5,
+   "exs": [
+    "Consider the ambition that babies demonstrate as they try to sit up, crawl, and walk.",
+    "These figures clearly demonstrate the size of the economic problem.",
+    "The study demonstrates the value of exercise."
+   ]
+  },
+  {
+   "id": "ir1:dominate",
+   "word": "dominate",
+   "pos": "v",
+   "fa": "مسلط شدن، غالب بودن، تسلط داشتن",
+   "def_": "to control or have power over; to be the most important feature",
+   "level": 5,
+   "exs": [
+    "With their eyes on the future, their goals dominate the choices they make.",
+    "Large companies dominate the market.",
+    "The castle dominates the town."
+   ]
+  },
+  {
+   "id": "ir1:dynamic",
+   "word": "dynamic",
+   "pos": "adj",
+   "fa": "پویا",
+   "def_": "/daɪˈnæmɪk/ · continuously moving or changing # static",
+   "level": 5,
+   "exs": [
+    "Despite their backgrounds, it is people with dynamic personalities who are most likely to succeed.",
+    "dynamic and ambitious people."
+   ]
+  },
+  {
+   "id": "ir1:exploit",
+   "word": "exploit",
+   "pos": "v",
+   "fa": "بهره‌برداری کردن؛ استثمار کردن",
+   "def_": "/ɪkˈsplɔɪt/ · take advantage of, abuse",
+   "level": 5,
+   "exs": [
+    "They exploit—that is, take advantage of—opportunities to broaden their knowledge through experience and observation.",
+    "the exploitation of migrant workers",
+    "Some firms exploit cheap labor."
+   ]
+  },
+  {
+   "id": "ir1:generate",
+   "word": "generate",
+   "pos": "v",
+   "fa": "تولید کردن، ایجاد کردن",
+   "def_": "/ˈdʒenəreɪt/ · produce",
+   "level": 5,
+   "exs": [
+    "For each person it will be different, though, because individuals generate their own definitions of success.",
+    "The wind turbines are used to generate electricity.",
+    "The new factory will generate hundreds of jobs."
+   ]
+  },
+  {
+   "id": "ir1:inhibit",
+   "word": "inhibit",
+   "pos": "v",
+   "fa": "مانع شدن، بازداشتن",
+   "def_": "/ɪnˈhɪbɪt/ · prevent, prohibit",
+   "level": 5,
+   "exs": [
+    "During the teen years, however, a fear of failure or a fear of being laughed at by others for trying to “be somebody” may inhibit, or stop, their persistence.",
+    "the obstacles which inhibit change"
+   ]
+  },
+  {
+   "id": "ir1:media",
+   "word": "media",
+   "pos": "n",
+   "fa": "رسانه‌ها",
+   "def_": "/ˈmiːdiə/ · press, mass media",
+   "level": 5,
+   "exs": [
+    "That’s because stories in the media about successful business executives, professional golfers, glamorous movie stars, best-selling authors, and powerful politicians lead us to believe that only a few special people are successful.",
+    "The media are covering the speech tonight.",
+    "The media has a strong influence on opinion."
+   ]
+  },
+  {
+   "id": "ir1:positive",
+   "word": "positive",
+   "pos": "adj",
+   "fa": "مثبت",
+   "def_": "/ˈpɒzətɪv/ · good, hopeful; certain · ≠ negative",
+   "level": 5,
+   "exs": [
+    "If parents are aware that a lack of ambition is common in teenagers, they may be able to minimize it by providing positive learning experiences in the early years.",
+    "You've got to be more positive about your work."
+   ]
+  },
+  {
+   "id": "ir1:professional",
+   "word": "professional",
+   "pos": "adj",
+   "fa": "حرفه‌ای، متخصص",
+   "def_": "/prəˈfeʃənl/ · expert",
+   "level": 5,
+   "exs": [
+    "That’s because stories in the media about successful business executives, professional golfers, glamorous movie stars, best-selling authors, and powerful politicians lead us to believe that only a few special people are successful.",
+    "Their music is both memorable and professional."
+   ]
+  },
+  {
+   "id": "ir1:role",
+   "word": "role",
+   "pos": "n",
+   "fa": "نقش",
+   "def_": "/roʊl/ · part",
+   "level": 5,
+   "exs": [
+    "Evidence suggests that both play a role in determining ambition.",
+    "They want to limit the role of government."
+   ]
+  },
+  {
+   "id": "ir1:authority",
+   "word": "authority",
+   "pos": "n",
+   "fa": "اقتدار، اختیار؛ مقامات، مسئولان",
+   "def_": "/əˈθɒrəti/ · power; people in charge",
+   "level": 6,
+   "exs": [
+    "Authorities accused the servant of theft, and he confessed to the crime.",
+    "The French authorities have refused to issue him a visa.",
+    "Local authorities closed the road."
+   ]
+  },
+  {
+   "id": "ir1:conclude",
+   "word": "conclude",
+   "pos": "v",
+   "fa": "نتیجه گرفتن",
+   "def_": "to decide after thinking",
+   "level": 6,
+   "exs": [
+    "“Someone has been in here,” Susan concluded.",
+    "The researchers concluded that the drug works.",
+    "The researchers concluded that the drug was safe."
+   ]
+  },
+  {
+   "id": "ir1:consult",
+   "word": "consult",
+   "pos": "v",
+   "fa": "مشورت کردن، رجوع کردن به",
+   "def_": "/kənˈsʌlt/ · exchange views, confer",
+   "level": 6,
+   "exs": [
+    "He consulted Eduard and Susan, but only the jewelry seemed to be missing.",
+    "I need to consult with my lawyer."
+   ]
+  },
+  {
+   "id": "ir1:contrary",
+   "word": "contrary",
+   "pos": "adj",
+   "fa": "مخالف، متضاد",
+   "def_": "/ˈkɑːntreri/ · different, opposite",
+   "level": 6,
+   "exs": [
+    "To the contrary, this thief seemed to know exactly where to find valuables.",
+    "Contrary to popular belief, many cats dislike milk."
+   ]
+  },
+  {
+   "id": "ir1:detect",
+   "word": "detect",
+   "pos": "v",
+   "fa": "کشف کردن، تشخیص دادن",
+   "def_": "/dɪˈtekt/ · discover, solve",
+   "level": 6,
+   "exs": [
+    "She was told that a police detective would be at the site in a few minutes.",
+    "the public can help the police to detect crime"
+   ]
+  },
+  {
+   "id": "ir1:establish",
+   "word": "establish",
+   "pos": "v",
+   "fa": "تأسیس کردن، برقرار کردن",
+   "def_": "/ɪˈstæblɪʃ/ · set up, found",
+   "level": 6,
+   "exs": [
+    "Subsequent tests done at a police laboratory established that the grass stains on the shirt matched the type of grass at the mansion.",
+    "The company was established in 1899."
+   ]
+  },
+  {
+   "id": "ir1:instance",
+   "word": "instance",
+   "pos": "n",
+   "fa": "مورد، نمونه",
+   "def_": "/ˈɪnstəns/ · example",
+   "level": 6,
+   "exs": [
+    "In each instance, the evidence pointed to the servant's guilt.",
+    "for instance"
+   ]
+  },
+  {
+   "id": "ir1:logic",
+   "word": "logic",
+   "pos": "n",
+   "fa": "منطق",
+   "def_": "/ˈlɑːdʒɪk/ · a system of reasoning",
+   "level": 6,
+   "exs": [
+    "It seemed logical that the thief knew the house.",
+    "If you just use a little logic, you'll see I'm right."
+   ]
+  },
+  {
+   "id": "ir1:motive",
+   "word": "motive",
+   "pos": "n",
+   "fa": "انگیزه",
+   "def_": "/ˈməʊtɪv/ · a reason for doing something",
+   "level": 6,
+   "exs": [
+    "What motive would they have for faking a theft?"
+   ]
+  },
+  {
+   "id": "ir1:panel",
+   "word": "panel",
+   "pos": "n",
+   "fa": "هیئت، پنل؛ صفحه",
+   "def_": "/ˈpænl/ · a board; a group of experts",
+   "level": 6,
+   "exs": [
+    "He pushed open a wall panel and used a code to open a hidden safe.",
+    "The roof is covered with solar panels that absorb the sun's rays."
+   ]
+  },
+  {
+   "id": "ir1:site",
+   "word": "site",
+   "pos": "n",
+   "fa": "محل، مکان",
+   "def_": "/saɪt/ · place",
+   "level": 6,
+   "exs": [
+    "She was told that a police detective would be at the site in a few minutes.",
+    "Hard hats must be worn on the construction site."
+   ]
+  },
+  {
+   "id": "ir1:specific",
+   "word": "specific",
+   "pos": "adj",
+   "fa": "خاص، مشخص، ویژه",
+   "def_": "/spəˈsɪfɪk/ · particular",
+   "level": 6,
+   "exs": [
+    "He wanted to know the specific time they had returned home.",
+    "Could you be more specific about what you're looking for?"
+   ]
+  },
+  {
+   "id": "ir1:tape",
+   "word": "tape",
+   "pos": "n",
+   "fa": "نوار",
+   "def_": "/teɪp/ · cassette",
+   "level": 6,
+   "exs": [
+    "They put these pieces of evidence into envelopes and taped them shut.",
+    "Bring me a blank tape and I'll record it for you."
+   ]
+  },
+  {
+   "id": "ir1:technical",
+   "word": "technical",
+   "pos": "adj",
+   "fa": "فنی",
+   "def_": "/ˈteknɪkəl/ · relating to a complex process",
+   "level": 6,
+   "exs": [
+    "Technically, Eduard was guilty, too, and he was sentenced to prison for his role in the crime.",
+    "Our staff will be available to give you technical support."
+   ]
+  },
+  {
+   "id": "ir1:abandon",
+   "word": "abandon",
+   "pos": "v",
+   "fa": "رها کردن، ترک کردن",
+   "def_": "/əˈbændən/ · quit, leave, give up",
+   "level": 7,
+   "exs": [
+    "Before abandoning their successful business, however, they decided to try a new system of preparing and serving food.",
+    "How could she abandon her own child?",
+    "They abandoned the old car in the desert."
+   ]
+  },
+  {
+   "id": "ir1:acknowledge",
+   "word": "acknowledge",
+   "pos": "v",
+   "fa": "تصدیق کردن، اذعان کردن",
+   "def_": "/əkˈnɒlɪdʒ/ · admit, recognize",
+   "level": 7,
+   "exs": [
+    "He acknowledged that this new restaurant system was a good business model.",
+    "Claire acknowledged that she was guilty.",
+    "He acknowledged his mistake."
+   ]
+  },
+  {
+   "id": "ir1:albeit",
+   "word": "albeit",
+   "pos": "conj",
+   "fa": "اگرچه، هرچند",
+   "def_": "/ˌɔːlˈbiːɪt/ · although",
+   "level": 7,
+   "exs": [
+    "Carl Karcher heard that a nearby restaurant was selling cheap, albeit top-grade hamburgers for 15 cents.",
+    "He was making progress, albeit rather slowly.",
+    "It was a success, albeit a small one."
+   ]
+  },
+  {
+   "id": "ir1:complement",
+   "word": "complement",
+   "pos": "v",
+   "fa": "مکمل؛ تکمیل کردن",
+   "def_": "/ˈkɑːmplɪment/ · v., adj. · complete, accompany",
+   "level": 7,
+   "exs": [
+    "These were complemented by new fast-food restaurants where travelers could eat a quick meal.",
+    "Fruit would be a good complement for this meal."
+   ]
+  },
+  {
+   "id": "ir1:contemporary",
+   "word": "contemporary",
+   "pos": "adj",
+   "fa": "معاصر، هم‌دوره",
+   "def_": "/kənˈtempəreri/ · belonging to the same time",
+   "level": 7,
+   "exs": [
+    "Among the contemporary start-ups in the 1950s and 1960s were Burger King, Wendy's, Domino’s Pizza, and Kentucky Fried Chicken (KFC).",
+    "He doesn't like contemporary art.",
+    "He was a contemporary of Shakespeare."
+   ]
+  },
+  {
+   "id": "ir1:contrast",
+   "word": "contrast",
+   "pos": "n",
+   "fa": "تضاد، تقابل؛ مقایسه کردن",
+   "def_": "/ˈkɒntrɑːst/ · n., v. · find the differences",
+   "level": 7,
+   "exs": [
+    "Their remodeled restaurant contrasted with the original.",
+    "Compare and contrast the two novels.",
+    "In contrast, sales in Asia rose."
+   ]
+  },
+  {
+   "id": "ir1:decade",
+   "word": "decade",
+   "pos": "n",
+   "fa": "دهه",
+   "def_": "/ˈdekeɪd, deˈkeɪd/ · ten years",
+   "level": 7,
+   "exs": [
+    "A decade later, there were nearly 3,000 restaurants in the McDonald’s restaurant chain, all owned by one corporation.",
+    "The fourth decade of the nineteenth century",
+    "The city has grown rapidly over the last decade."
+   ]
+  },
+  {
+   "id": "ir1:economy",
+   "word": "economy",
+   "pos": "n",
+   "fa": "اقتصاد",
+   "def_": "the system of money and trade",
+   "level": 7,
+   "exs": [
+    "One factor was that the U.S. economy was expanding.",
+    "Tourism is vital to the economy.",
+    "Tourism is important for the local economy."
+   ]
+  },
+  {
+   "id": "ir1:expand",
+   "word": "expand",
+   "pos": "v",
+   "fa": "گسترش دادن، گسترش یافتن",
+   "def_": "/ɪkˈspænd/ · grow, extend",
+   "level": 7,
+   "exs": [
+    "One factor was that the U.S. economy was expanding.",
+    "a period of rapid economic expansion",
+    "The company plans to expand overseas."
+   ]
+  },
+  {
+   "id": "ir1:generation",
+   "word": "generation",
+   "pos": "n",
+   "fa": "نسل",
+   "def_": "/ˌdʒenəˈreɪʃn/ · same age group",
+   "level": 7,
+   "exs": [
+    "The young people in the 1950s were an optimistic generation.",
+    "My generation have grown up with the internet.",
+    "The younger generation uses smartphones daily."
+   ]
+  },
+  {
+   "id": "ir1:grade",
+   "word": "grade",
+   "pos": "n",
+   "fa": "درجه، رتبه؛ نمره",
+   "def_": "/ɡreɪd/ · level, rank",
+   "level": 7,
+   "exs": [
+    "Carl Karcher heard that a nearby restaurant was selling cheap, albeit top-grade hamburgers for 15 cents.",
+    "You need to improve your grades."
+   ]
+  },
+  {
+   "id": "ir1:incline",
+   "word": "incline",
+   "pos": "v",
+   "fa": "متمایل بودن؛ شیب",
+   "def_": "/ɪnˈklaɪn/ · to tend toward; a slope",
+   "level": 7,
+   "exs": [
+    "They were inclined to believe that they would be successful in life if they worked hard."
+   ]
+  },
+  {
+   "id": "ir1:output",
+   "word": "output",
+   "pos": "n",
+   "fa": "خروجی، تولید",
+   "def_": "/ˈaʊtpʊt/ · the amount produced · ≠ input",
+   "level": 7,
+   "exs": [
+    "Increasing the speed of food preparation increased the kitchen’s output and lowered its costs.",
+    "Manufacturing output has increased."
+   ]
+  },
+  {
+   "id": "ir1:overlap",
+   "word": "overlap",
+   "pos": "v",
+   "fa": "همپوشانی داشتن",
+   "def_": "/ˌoʊvərˈlæp/ · cover, overlie",
+   "level": 7,
+   "exs": [
+    "Although many people worldwide rejected the idea of globalization, business chains were soon overlapping their national borders.",
+    "My vacation overlaps with yours."
+   ]
+  },
+  {
+   "id": "ir1:reject",
+   "word": "reject",
+   "pos": "v",
+   "fa": "رد کردن، نپذیرفتن",
+   "def_": "/rɪˈdʒekt/ · refuse, dismiss",
+   "level": 7,
+   "exs": [
+    "Although many people worldwide rejected the idea of globalization, business chains were soon overlapping their national borders.",
+    "It's obvious why his application was rejected."
+   ]
+  },
+  {
+   "id": "ir1:appropriate",
+   "word": "appropriate",
+   "pos": "adj",
+   "fa": "مناسب، شایسته",
+   "def_": "/əˈprəʊpriət/ · suitable",
+   "level": 8,
+   "exs": [
+    "Schools usually fail to accurately assess the abilities of autistic children because classroom tasks are not appropriate for them.",
+    "appropriate to the needs of the students"
+   ]
+  },
+  {
+   "id": "ir1:assess",
+   "word": "assess",
+   "pos": "v",
+   "fa": "ارزیابی کردن، سنجیدن",
+   "def_": "/əˈses/ · evaluate; judge",
+   "level": 8,
+   "exs": [
+    "Schools usually fail to accurately assess the abilities of autistic children because classroom tasks are not appropriate for them.",
+    "a report to assess the impact of advertising on children",
+    "Teachers assess students regularly."
+   ]
+  },
+  {
+   "id": "ir1:capable",
+   "word": "capable",
+   "pos": "adj",
+   "fa": "توانا، قادر",
+   "def_": "/ˈkeɪpəbl/ · able",
+   "level": 8,
+   "exs": [
+    "Most autistic kids can’t pretend because they’re not capable of imagining something that is not real.",
+    "She's a very capable woman/worker/judge."
+   ]
+  },
+  {
+   "id": "ir1:constrain",
+   "word": "constrain",
+   "pos": "v",
+   "fa": "محدود کردن، مقید کردن",
+   "def_": "/kənˈstreɪn/ · to limit or restrict",
+   "level": 8,
+   "exs": [
+    "Like most autistic children, Shawn likes repetition, and he can’t constrain his behavior."
+   ]
+  },
+  {
+   "id": "ir1:infer",
+   "word": "infer",
+   "pos": "v",
+   "fa": "استنباط کردن، نتیجه گرفتن",
+   "def_": "/ɪnˈfɜːr/ · deduce, conclude",
+   "level": 8,
+   "exs": [
+    "His mom infers that the noise hurts his ears.",
+    "From these facts we can infer that crime has been increasing."
+   ]
+  },
+  {
+   "id": "ir1:interact",
+   "word": "interact",
+   "pos": "v",
+   "fa": "تعامل داشتن، برهم‌کنش داشتن",
+   "def_": "/ˌɪntərˈækt/ · to communicate or act together; to affect each other",
+   "level": 8,
+   "exs": [
+    "Their personalities were thought to be so cold and uncaring that their children grew up unable to speak or interact with others."
+   ]
+  },
+  {
+   "id": "ir1:link",
+   "word": "link",
+   "pos": "n",
+   "fa": "پیوند، ارتباط",
+   "def_": "/lɪŋk/ · a connection, relation",
+   "level": 8,
+   "exs": [
+    "For instance, many autistic children are not able to link a printed word with something that is not real.",
+    "He retained strong links with the media."
+   ]
+  },
+  {
+   "id": "ir1:mature",
+   "word": "mature",
+   "pos": "adj",
+   "fa": "بالغ، پخته",
+   "def_": "/məˈtʃʊr/ · grown-up, adult",
+   "level": 8,
+   "exs": [
+    "Shawn is very bright, but not academically mature.",
+    "Laura is very mature for her age."
+   ]
+  },
+  {
+   "id": "ir1:odd",
+   "word": "odd",
+   "pos": "adj",
+   "fa": "عجیب، غیرعادی",
+   "def_": "/ɑːd/ · strange, unusual",
+   "level": 8,
+   "exs": [
+    "The odd hand-flapping behavior is common in kids with autism.",
+    "That drawer is full of odd socks."
+   ]
+  },
+  {
+   "id": "ir1:participate",
+   "word": "participate",
+   "pos": "v",
+   "fa": "شرکت کردن، مشارکت کردن",
+   "def_": "/pɑːrˈtɪsəpeɪt/ · take part",
+   "level": 8,
+   "exs": [
+    "Autistic kids may have excellent physical skills, but they rarely participate in team sports because they don’t understand the rules.",
+    "We want more participation in the decision-making."
+   ]
+  },
+  {
+   "id": "ir1:phase",
+   "word": "phase",
+   "pos": "n",
+   "fa": "مرحله، فاز",
+   "def_": "/feɪz/ · stage",
+   "level": 8,
+   "exs": [
+    "Shawn’s parents have learned that spinning is not a typical phase of childhood.",
+    "The project will be done in three phases."
+   ]
+  },
+  {
+   "id": "ir1:predominant",
+   "word": "predominant",
+   "pos": "adj",
+   "fa": "غالب، مسلط، عمده",
+   "def_": "most common or most important",
+   "level": 8,
+   "exs": [
+    "That’s because kids with autism are predominantly male, with boys outnumbering girls by a ratio of 4 to 1.",
+    "Green is the predominant color in the forest.",
+    "Farming is the predominant industry."
+   ]
+  },
+  {
+   "id": "ir1:ratio",
+   "word": "ratio",
+   "pos": "n",
+   "fa": "نسبت",
+   "def_": "/ˈreɪʃiəʊ/ · rate, proportion",
+   "level": 8,
+   "exs": [
+    "That’s because kids with autism are predominantly male, with boys outnumbering girls by a ratio of 4 to 1.",
+    "Women outnumbered men by a ratio of 3 to 2."
+   ]
+  },
+  {
+   "id": "ir1:relax",
+   "word": "relax",
+   "pos": "v",
+   "fa": "آرام شدن، استراحت کردن",
+   "def_": "/rɪˈlæks/ · be without anxiety",
+   "level": 8,
+   "exs": [
+    "Finally, his handsome face and sturdy body relax.",
+    "Just relax and enjoy the movie."
+   ]
+  },
+  {
+   "id": "ir1:task",
+   "word": "task",
+   "pos": "n",
+   "fa": "وظیفه، تکلیف",
+   "def_": "/tæsk/ · duty",
+   "level": 8,
+   "exs": [
+    "Schools usually fail to accurately assess the abilities of autistic children because classroom tasks are not appropriate for them.",
+    "perform/ complete a task"
+   ]
+  },
+  {
+   "id": "ir1:aggregate",
+   "word": "aggregate",
+   "pos": "v",
+   "fa": "مجموع، کل؛ جمع کردن",
+   "def_": "/ˈæɡrɪɡət/ · v., n. · collect, amount",
+   "level": 9,
+   "exs": [
+    "As the run-off increases, the aggregation of algae and bacteria increases, further eroding the marine environment.",
+    "They purchased an aggregate of 3000 shares in the company."
+   ]
+  },
+  {
+   "id": "ir1:annual",
+   "word": "annual",
+   "pos": "adj",
+   "fa": "سالانه",
+   "def_": "/ˈænjuəl/ · yearly, once a year",
+   "level": 9,
+   "exs": [
+    "In the United States, an estimated 15,000 tons of automobile oil annually washes off roads into rivers and streams and ultimately into the sea.",
+    "The school trip has become an annual event.",
+    "The annual rainfall here is low."
+   ]
+  },
+  {
+   "id": "ir1:compatible",
+   "word": "compatible",
+   "pos": "adj",
+   "fa": "سازگار، هماهنگ",
+   "def_": "/kəmˈpætəbl/ · able to exist or work together without problems",
+   "level": 9,
+   "exs": [
+    "Are healthy oceans compatible with an industrialized world?"
+   ]
+  },
+  {
+   "id": "ir1:conduct",
+   "word": "conduct",
+   "pos": "v",
+   "fa": "اجرا کردن، انجام دادن؛ رفتار",
+   "def_": "/kənˈdʌkt/ · v., n. · manage, behavior",
+   "level": 9,
+   "exs": [
+    "Such conduct pollutes the water and kills sea life.",
+    "We are conducting a survey of consumer attitudes towards organic food."
+   ]
+  },
+  {
+   "id": "ir1:contribute",
+   "word": "contribute",
+   "pos": "v",
+   "fa": "کمک کردن، سهم داشتن",
+   "def_": "/kənˈtrɪbjuːt/ · participate, support",
+   "level": 9,
+   "exs": [
+    "Spills from a single oil tanker can contribute 200,000 tons of oil to the already polluted oceans.",
+    "The agency is mainly financed from voluntary contributions.",
+    "Everyone contributed to the project."
+   ]
+  },
+  {
+   "id": "ir1:erode",
+   "word": "erode",
+   "pos": "v",
+   "fa": "فرسایش یافتن، فرسودن",
+   "def_": "/ɪˈrəʊd/ · wear away, rot",
+   "level": 9,
+   "exs": [
+    "As the run-off increases, the aggregation of algae and bacteria increases, further eroding the marine environment.",
+    "the gradual erosion of our civil liberties",
+    "Waves eroded the cliffs."
+   ]
+  },
+  {
+   "id": "ir1:finite",
+   "word": "finite",
+   "pos": "adj",
+   "fa": "محدود، متناهی",
+   "def_": "/ˈfaɪnaɪt/ · limited",
+   "level": 9,
+   "exs": [
+    "For all of human history, people regarded the oceans as an indestructible and infinite resource.",
+    "the earth's finite supply of natural resources"
+   ]
+  },
+  {
+   "id": "ir1:impact",
+   "word": "impact",
+   "pos": "n",
+   "fa": "تأثیر، اثر",
+   "def_": "/ˈɪmpækt/ · influence",
+   "level": 9,
+   "exs": [
+    "Until recently, humans had little impact on the oceans.",
+    "We need to assess the impact on climate change.",
+    "Tourism has a big impact on the economy."
+   ]
+  },
+  {
+   "id": "ir1:occupy",
+   "word": "occupy",
+   "pos": "v",
+   "fa": "اشغال کردن، ساکن بودن در",
+   "def_": "/ˈɑːkjupaɪ/ · reside, inhabit",
+   "level": 9,
+   "exs": [
+    "The oceans of the world occupy over 70% of the earth’s surface.",
+    "They occupied the house for 35 years."
+   ]
+  },
+  {
+   "id": "ir1:process",
+   "word": "process",
+   "pos": "n",
+   "fa": "فرایند، روند",
+   "def_": "/ˈprəʊses/ · a series of actions or steps",
+   "level": 9,
+   "exs": [
+    "In the process, they almost destroyed the species.",
+    "the aging process",
+    "Photosynthesis is a complex process."
+   ]
+  },
+  {
+   "id": "ir1:temporary",
+   "word": "temporary",
+   "pos": "adj",
+   "fa": "موقت",
+   "def_": "/ˈtempəreri/ · not permanent",
+   "level": 9,
+   "exs": [
+    "Governments can also create sea reserves, areas where fishing is temporarily banned until the fish population increases.",
+    "The ceasefire will only provide a temporary solution to the crisis."
+   ]
+  },
+  {
+   "id": "ir1:terminate",
+   "word": "terminate",
+   "pos": "v",
+   "fa": "خاتمه دادن، پایان دادن",
+   "def_": "/ˈtɜːrmɪneɪt/ · end, complete",
+   "level": 9,
+   "exs": [
+    "What can be done to terminate the steady destruction of the oceans?",
+    "You may face a reduction or terminate of benefits."
+   ]
+  },
+  {
+   "id": "ir1:trace",
+   "word": "trace",
+   "pos": "v",
+   "fa": "ردیابی کردن، پیدا کردن",
+   "def_": "/treɪs/ · find, detect",
+   "level": 9,
+   "exs": [
+    "However, scientists are planning to trace the development of vents by revisiting some they studied earlier.",
+    "We finally traced him to an address in Mashhad!"
+   ]
+  },
+  {
+   "id": "ir1:ultimate",
+   "word": "ultimate",
+   "pos": "adj",
+   "fa": "نهایی، غایی؛ بزرگ‌ترین",
+   "def_": "final; the greatest or most extreme",
+   "level": 9,
+   "exs": [
+    "However, as the earth’s population increases, human activity will ultimately destroy the oceans unless immediate steps are taken.",
+    "Our ultimate goal is to protect the forest.",
+    "The ultimate responsibility lies with the government."
+   ]
+  },
+  {
+   "id": "ir1:advocate",
+   "word": "advocate",
+   "pos": "n",
+   "fa": "طرفدار، مدافع؛ حمایت کردن",
+   "def_": "/ˈædvəkeɪt/ · n., v. · support, back",
+   "level": 10,
+   "exs": [
+    "When the process of making rubber was perfected in 1851, dentists immediately advocated its use as a base material for dentures.",
+    "He was an untiring advocate of economic reform.",
+    "She advocates for animal rights."
+   ]
+  },
+  {
+   "id": "ir1:alternative",
+   "word": "alternative",
+   "pos": "adj",
+   "fa": "جایگزین، گزینه",
+   "def_": "/ɒːlˈtɜːrnətɪv/ · adj., n. · option, choice",
+   "level": 10,
+   "exs": [
+    "There is now a surgical alternative to improve hearing without an external device.",
+    "Have you any alternative suggestions?",
+    "Cycling is a healthy alternative to driving."
+   ]
+  },
+  {
+   "id": "ir1:confine",
+   "word": "confine",
+   "pos": "v",
+   "fa": "محدود کردن، محصور کردن",
+   "def_": "/kənˈfaɪn/ · restrict",
+   "level": 10,
+   "exs": [
+    "The exploration of an ancient Mayan burial site in Honduras uncovered the tomb of a young woman, confined there for 1,400 years.",
+    "It wasn't easy to sleep in such a confined space."
+   ]
+  },
+  {
+   "id": "ir1:discriminate",
+   "word": "discriminate",
+   "pos": "v",
+   "fa": "تبعیض قائل شدن؛ تمایز قائل شدن",
+   "def_": "/dɪˈskrɪmɪneɪt/ · to treat unfairly; to see a difference between",
+   "level": 10,
+   "exs": [
+    "They provide not only better amplification, but also better discrimination between various sounds."
+   ]
+  },
+  {
+   "id": "ir1:error",
+   "word": "error",
+   "pos": "n",
+   "fa": "خطا، اشتباه",
+   "def_": "/ˈerər/ · mistake",
+   "level": 10,
+   "exs": [
+    "Somehow, he made an error and contacted with a live wire on the ground that gave him a 7,200-volt shock of electricity.",
+    "I made an error in my calculations."
+   ]
+  },
+  {
+   "id": "ir1:evaluate",
+   "word": "evaluate",
+   "pos": "v",
+   "fa": "ارزیابی کردن",
+   "def_": "/ɪˈvæljueɪt/ · assess",
+   "level": 10,
+   "exs": [
+    "A medical evaluation can determine whether this alternative—a cochlear implant—might be right for someone with a hearing loss.",
+    "We need to evaluate our options.",
+    "We need to evaluate the results."
+   ]
+  },
+  {
+   "id": "ir1:impose",
+   "word": "impose",
+   "pos": "v",
+   "fa": "تحمیل کردن، وضع کردن",
+   "def_": "/ɪmˈpəʊz/ · force",
+   "level": 10,
+   "exs": [
+    "Was the dental implant a punishment imposed on her, or was it a voluntary procedure?",
+    "The government imposed a ban on the sale of ivory."
+   ]
+  },
+  {
+   "id": "ir1:incentive",
+   "word": "incentive",
+   "pos": "n",
+   "fa": "انگیزه، مشوق",
+   "def_": "/ɪnˈsentɪv/ · motivation",
+   "level": 10,
+   "exs": [
+    "Over time, the incentive to survive led people to develop devices that would fix these impaired conditions.",
+    "There is no incentive for people to save fuel.",
+    "Tax incentives encourage green energy."
+   ]
+  },
+  {
+   "id": "ir1:objective",
+   "word": "objective",
+   "pos": "n",
+   "fa": "هدف؛ عینی، بی‌طرف",
+   "def_": "/əbˈdʒektɪv/ · goal, unbiased",
+   "level": 10,
+   "exs": [
+    "The objective of the earliest lenses was to help people see things that were close up so they could do tasks like carving or sewing.",
+    "to achieve/meet/accomplish your objectives"
+   ]
+  },
+  {
+   "id": "ir1:proportion",
+   "word": "proportion",
+   "pos": "n",
+   "fa": "نسبت، بخش",
+   "def_": "/prəˈpɔːʃən/ · ratio",
+   "level": 10,
+   "exs": [
+    "Today a disproportionate amount of research into brain-controlled artificial arms is focused on implanting sensors in the brain to link the brain to the arm.",
+    "The decision affects a significant proportion of the population.",
+    "A large proportion of students live at home."
+   ]
+  },
+  {
+   "id": "ir1:sum",
+   "word": "sum",
+   "pos": "n",
+   "fa": "مبلغ، مقدار؛ مجموع",
+   "def_": "/sʌm/ · amount",
+   "level": 10,
+   "exs": [
+    "More recently, a real bionic man has been created, and for a sum nearly as great as the original one.",
+    "We donated a small sum (of money) to the charity."
+   ]
+  },
+  {
+   "id": "ir1:suspend",
+   "word": "suspend",
+   "pos": "v",
+   "fa": "معلق کردن، به تعویق انداختن",
+   "def_": "/səˈspend/ · temporarily inactive",
+   "level": 10,
+   "exs": [
+    "Modern framed glasses, suspended from the ears by earpieces, were uncommon until the 19th century.",
+    "The judge suspended judgment until January 15."
+   ]
+  },
+  {
+   "id": "ir1:tense",
+   "word": "tense",
+   "pos": "adj",
+   "fa": "پرتنش، نگران",
+   "def_": "/tens/ · nervous and anxious; stretched tight",
+   "level": 10,
+   "exs": [
+    "Early glasses were held in the hand or clipped on the nose, held there by the tension of the stiff wire they were made from."
+   ]
+  },
+  {
+   "id": "ir1:voluntary",
+   "word": "voluntary",
+   "pos": "adj",
+   "fa": "داوطلبانه",
+   "def_": "/ˈvɑːlənteri/ · of your own free will",
+   "level": 10,
+   "exs": [
+    "Was the dental implant a punishment imposed on her, or was it a voluntary procedure?",
+    "She made a voluntary decision to go back to school."
+   ]
+  }
+ ]
+}

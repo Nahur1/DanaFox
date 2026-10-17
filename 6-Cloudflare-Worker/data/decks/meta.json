@@ -182,5 +182,212 @@
    "fa": "لغات و عبارت‌های فایل «۱۲۰۰ لغت پرتکرار آزمون لیسنینگ آیلتس»، دسته‌بندی‌شده بر اساس موضوع. املای دقیق واژه‌ها (بریتانیایی/آمریکایی) را تمرین کنید — در لیسنینگ، پاسخ با غلط املایی، غلط حساب می‌شود."
   },
   "levels": "from-file"
+ },
+ "ir0": {
+  "sort": 7,
+  "icon": "📘",
+  "section": "reading",
+  "name": {
+   "en": "Inside Reading Intro",
+   "fa": "اینساید ریدینگ اینترو"
+  },
+  "short": {
+   "en": "Inside Reading Intro",
+   "fa": "اینساید ریدینگ اینترو"
+  },
+  "about": {
+   "en": "Oxford Inside Reading Intro — 10 units, each with two academic readings (True/False comprehension), a reading-skill lesson, vocabulary activities with the answer key, and the unit's target academic words (AWL) as a study deck.",
+   "fa": "کتاب Inside Reading Intro (آکسفورد) — ۱۰ یونیت؛ هر یونیت دو متن آکادمیک با سؤال‌های درست/نادرست، آموزش یک مهارت ریدینگ، تمرین‌های واژگان همراه پاسخ‌نامه و لغات هدف آکادمیک (AWL) همان یونیت برای مطالعه و مرور."
+  },
+  "levels": [
+   [
+    "Unit 1 · Mapping the Human Brain",
+    "یونیت ۱ · نقشه‌برداری از مغز انسان",
+    ""
+   ],
+   [
+    "Unit 2 · It’s About Time",
+    "یونیت ۲ · موضوع زمان است",
+    ""
+   ],
+   [
+    "Unit 3 · Living with Bacteria",
+    "یونیت ۳ · زندگی با باکتری‌ها",
+    ""
+   ],
+   [
+    "Unit 4 · A Changing World",
+    "یونیت ۴ · جهانی در حال تغییر",
+    ""
+   ],
+   [
+    "Unit 5 · Cities are Growing Up",
+    "یونیت ۵ · شهرها رو به بالا رشد می‌کنند",
+    ""
+   ],
+   [
+    "Unit 6 · The History of Food",
+    "یونیت ۶ · تاریخچهٔ غذا",
+    ""
+   ],
+   [
+    "Unit 7 · Patterns of Technology",
+    "یونیت ۷ · الگوهای فناوری",
+    ""
+   ],
+   [
+    "Unit 8 · Stealing from All of Us",
+    "یونیت ۸ · دزدی از همهٔ ما",
+    ""
+   ],
+   [
+    "Unit 9 · Farms of Tomorrow",
+    "یونیت ۹ · مزرعه‌های فردا",
+    ""
+   ],
+   [
+    "Unit 10 · The Forces of Nature",
+    "یونیت ۱۰ · نیروهای طبیعت",
+    ""
+   ]
+  ]
+ },
+ "ir1": {
+  "sort": 8,
+  "icon": "📗",
+  "section": "reading",
+  "name": {
+   "en": "Inside Reading 1",
+   "fa": "اینساید ریدینگ ۱"
+  },
+  "short": {
+   "en": "Inside Reading 1",
+   "fa": "اینساید ریدینگ ۱"
+  },
+  "about": {
+   "en": "Oxford Inside Reading 1 — 10 units, each with two academic readings (True/False comprehension), a reading-skill lesson, vocabulary activities with the answer key, and the unit's target academic words (AWL) as a study deck.",
+   "fa": "کتاب Inside Reading 1 (آکسفورد) — ۱۰ یونیت؛ هر یونیت دو متن آکادمیک با سؤال‌های درست/نادرست، آموزش یک مهارت ریدینگ، تمرین‌های واژگان همراه پاسخ‌نامه و لغات هدف آکادمیک (AWL) همان یونیت برای مطالعه و مرور."
+  },
+  "levels": [
+   [
+    "Unit 1 · Riding through History",
+    "یونیت ۱ · سواری در دل تاریخ",
+    ""
+   ],
+   [
+    "Unit 2 · Fighting Diseases",
+    "یونیت ۲ · مبارزه با بیماری‌ها",
+    ""
+   ],
+   [
+    "Unit 3 · They Know What You Want",
+    "یونیت ۳ · آن‌ها می‌دانند شما چه می‌خواهید",
+    ""
+   ],
+   [
+    "Unit 4 · Identifying People",
+    "یونیت ۴ · شناسایی افراد",
+    ""
+   ],
+   [
+    "Unit 5 · Success Story",
+    "یونیت ۵ · داستان موفقیت",
+    ""
+   ],
+   [
+    "Unit 6 · Solving Crimes with Science",
+    "یونیت ۶ · حل جرم با علم",
+    ""
+   ],
+   [
+    "Unit 7 · The Fast-Food Revolution",
+    "یونیت ۷ · انقلاب فست‌فود",
+    ""
+   ],
+   [
+    "Unit 8 · The Autism Puzzle",
+    "یونیت ۸ · معمای اوتیسم",
+    ""
+   ],
+   [
+    "Unit 9 · Sea of Life",
+    "یونیت ۹ · دریای زندگی",
+    ""
+   ],
+   [
+    "Unit 10 · Giving Nature a Hand",
+    "یونیت ۱۰ · کمک به طبیعت",
+    ""
+   ]
+  ]
+ },
+ "ir2": {
+  "sort": 9,
+  "icon": "📙",
+  "section": "reading",
+  "name": {
+   "en": "Inside Reading 2",
+   "fa": "اینساید ریدینگ ۲"
+  },
+  "short": {
+   "en": "Inside Reading 2",
+   "fa": "اینساید ریدینگ ۲"
+  },
+  "about": {
+   "en": "Oxford Inside Reading 2 — 10 units, each with two academic readings (True/False comprehension), a reading-skill lesson, vocabulary activities with the answer key, and the unit's target academic words (AWL) as a study deck.",
+   "fa": "کتاب Inside Reading 2 (آکسفورد) — ۱۰ یونیت؛ هر یونیت دو متن آکادمیک با سؤال‌های درست/نادرست، آموزش یک مهارت ریدینگ، تمرین‌های واژگان همراه پاسخ‌نامه و لغات هدف آکادمیک (AWL) همان یونیت برای مطالعه و مرور."
+  },
+  "levels": [
+   [
+    "Unit 1 · Going Underground",
+    "یونیت ۱ · زیر زمین",
+    ""
+   ],
+   [
+    "Unit 2 · The Business of Branding",
+    "یونیت ۲ · کسب‌وکار برندسازی",
+    ""
+   ],
+   [
+    "Unit 3 · Who Are You, Really?",
+    "یونیت ۳ · واقعاً چه کسی هستی؟",
+    ""
+   ],
+   [
+    "Unit 4 · How Could They Do That?",
+    "یونیت ۴ · چطور توانستند؟",
+    ""
+   ],
+   [
+    "Unit 5 · Weather Warnings",
+    "یونیت ۵ · هشدارهای هواشناسی",
+    ""
+   ],
+   [
+    "Unit 6 · Brain Food",
+    "یونیت ۶ · غذای مغز",
+    ""
+   ],
+   [
+    "Unit 7 · Roving Continents",
+    "یونیت ۷ · قاره‌های سرگردان",
+    ""
+   ],
+   [
+    "Unit 8 · Clicks and Cliques",
+    "یونیت ۸ · کلیک‌ها و دسته‌ها",
+    ""
+   ],
+   [
+    "Unit 9 · True and False",
+    "یونیت ۹ · راست و دروغ",
+    ""
+   ],
+   [
+    "Unit 10 · Bites and Stings",
+    "یونیت ۱۰ · نیش‌ها و گزش‌ها",
+    ""
+   ]
+  ]
  }
 }

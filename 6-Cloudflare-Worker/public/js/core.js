@@ -8,7 +8,7 @@ const KEY = 'vajeyar_state_v1';
 /* ---------- Categories & levels ---------- */
 VY.CATS = {
   general:{icon:'🌍', levels:[{en:'Basic',fa:'پایه',tag:'A1–A2'},{en:'Regular',fa:'متوسط',tag:'B1'},{en:'Upper-Intermediate',fa:'فوق‌متوسط',tag:'B2'},{en:'Advanced',fa:'پیشرفته',tag:'C1–C2'}]},
-  ielts:{icon:'🎓', levels:[{en:'Band 5 – 6',fa:'نمرهٔ ۵ تا ۶',tag:'B1'},{en:'Band 6.5 – 7',fa:'نمرهٔ ۶٫۵ تا ۷',tag:'B2'},{en:'Band 7.5 – 9',fa:'نمرهٔ ۷٫۵ تا ۹',tag:'C1–C2'},{en:'Reading · Core',fa:'ریدینگ · پایه',tag:'B2'},{en:'Reading · Upper',fa:'ریدینگ · متوسط',tag:'B2–C1'},{en:'Reading · Advanced',fa:'ریدینگ · پیشرفته',tag:'C1–C2'}]},
+  ielts:{icon:'🎓', levels:[{en:'Band 5 – 6',fa:'نمرهٔ ۵ تا ۶',tag:'B1'},{en:'Band 6.5 – 7',fa:'نمرهٔ ۶٫۵ تا ۷',tag:'B2'},{en:'Band 7.5 – 9',fa:'نمرهٔ ۷٫۵ تا ۹',tag:'C1–C2'}]},
   toefl:{icon:'🏛️', levels:[{en:'Foundation',fa:'پایه',tag:'B1'},{en:'Intermediate',fa:'متوسط',tag:'B2'},{en:'Advanced',fa:'پیشرفته',tag:'C1–C2'}]},
   custom:{icon:'✍️', levels:[{en:'My list',fa:'فهرست من',tag:'—'}]}
 };

@@ -1,0 +1,1225 @@
+{
+ "cat": "ir0",
+ "words": [
+  {
+   "id": "ir0:analyze",
+   "word": "analyze",
+   "pos": "v",
+   "fa": "تحلیل کردن",
+   "def_": "to examine in detail",
+   "level": 1,
+   "exs": [
+    "If so, a doctor could learn about a person’s behavior by analyzing these bumps.",
+    "Scientists analyzed the data.",
+    "Scientists analyzed the water samples."
+   ]
+  },
+  {
+   "id": "ir0:average",
+   "word": "average",
+   "pos": "adj",
+   "fa": "میانگین، معمولی",
+   "def_": "typical or usual",
+   "level": 1,
+   "exs": [
+    "He created a complex map of an average human head.",
+    "The average temperature in July is 30 degrees.",
+    "The average age of the students is twenty."
+   ]
+  },
+  {
+   "id": "ir0:behavior",
+   "word": "behavior",
+   "pos": "n",
+   "fa": "رفتار",
+   "def_": "the way someone acts",
+   "level": 1,
+   "exs": [
+    "Throughout history, human behavior seemed impossible to understand.",
+    "His behavior in class has improved.",
+    "The teacher was pleased with the students' behavior."
+   ]
+  },
+  {
+   "id": "ir0:complex",
+   "word": "complex",
+   "pos": "adj",
+   "fa": "پیچیده",
+   "def_": "/ˈkɑːmpleks/ · complicated",
+   "level": 1,
+   "exs": [
+    "In the early 19th century, a German doctor thought he could answer these complex questions.",
+    "Photosynthesis is a highly complex process."
+   ]
+  },
+  {
+   "id": "ir0:create",
+   "word": "create",
+   "pos": "v",
+   "fa": "ایجاد کردن، خلق کردن، ساختن",
+   "def_": "/kriˈeɪt/ · make, produce",
+   "level": 1,
+   "exs": [
+    "Gall wondered if the functions of the brain created bumps on a person’s skull (the skull is the bone around a person’s head).",
+    "He believes the universe was created by a big explosion."
+   ]
+  },
+  {
+   "id": "ir0:function",
+   "word": "function",
+   "pos": "n",
+   "fa": "کارکرد، عملکرد؛ مراسم",
+   "def_": "/ˈfʌŋkʃən/ · purpose, event",
+   "level": 1,
+   "exs": [
+    "He thought it was possible to understand human behavior if we understood how the brain functioned.",
+    "The church fulfils a valuable social function.",
+    "The function of the heart is to pump blood."
+   ]
+  },
+  {
+   "id": "ir0:link",
+   "word": "link",
+   "pos": "n",
+   "fa": "پیوند، ارتباط",
+   "def_": "/lɪŋk/ · a connection, relation",
+   "level": 1,
+   "exs": [
+    "He believed that each area of the brain was linked to a certain behavior, such as bravery.",
+    "He retained strong links with the media."
+   ]
+  },
+  {
+   "id": "ir0:locate",
+   "word": "locate",
+   "pos": "v",
+   "fa": "پیدا کردن (مکان)؛ قرار دادن",
+   "def_": "/ləʊˈkeɪt/ · to find the exact position of; to put in a place",
+   "level": 1,
+   "exs": [
+    "He could analyze the location and size of the bumps on the skull."
+   ]
+  },
+  {
+   "id": "ir0:possible",
+   "word": "possible",
+   "pos": "adj",
+   "fa": "ممکن، امکان‌پذیر",
+   "def_": "/ˈpɒsəbl/ · able to happen or be done",
+   "level": 1,
+   "exs": [
+    "He thought it was possible to understand human behavior if we understood how the brain functioned."
+   ]
+  },
+  {
+   "id": "ir0:wonder",
+   "word": "wonder",
+   "pos": "v",
+   "fa": "تعجب کردن، از خود پرسیدن؛ شگفتی",
+   "def_": "/ˈwʌndə(r)/ · to think about something with curiosity; amazement",
+   "level": 1,
+   "exs": [
+    "Teachers wondered why some students were good at math but other students were not."
+   ]
+  },
+  {
+   "id": "ir0:accurate",
+   "word": "accurate",
+   "pos": "adj",
+   "fa": "دقیق، درست",
+   "def_": "/ˈækjərət/ · exact; correct",
+   "level": 2,
+   "exs": [
+    "This method of showing time was useful, but not very accurate.",
+    "The film is not historically accurate.",
+    "The report gives an accurate picture."
+   ]
+  },
+  {
+   "id": "ir0:appear",
+   "word": "appear",
+   "pos": "v",
+   "fa": "ظاهر شدن، به نظر رسیدن",
+   "def_": "to come into view; to seem",
+   "level": 2,
+   "exs": [
+    "They woke up when the sun appeared.",
+    "A rainbow appeared in the sky.",
+    "A strange man appeared at the door."
+   ]
+  },
+  {
+   "id": "ir0:confuse",
+   "word": "confuse",
+   "pos": "v",
+   "fa": "گیج کردن؛ اشتباه گرفتن",
+   "def_": "/kənˈfjuːz/ · to make someone unable to understand clearly",
+   "level": 2,
+   "exs": [
+    "Also, people were confused to see the time on sundials vary with the seasons."
+   ]
+  },
+  {
+   "id": "ir0:develop",
+   "word": "develop",
+   "pos": "v",
+   "fa": "توسعه دادن، رشد کردن",
+   "def_": "to grow or make more advanced",
+   "level": 2,
+   "exs": [
+    "About 4,000 years ago, ancient Egyptians developed a 12-hour time system.",
+    "The company is developing a new app.",
+    "Children develop very quickly in their first years."
+   ]
+  },
+  {
+   "id": "ir0:difference",
+   "word": "difference",
+   "pos": "n",
+   "fa": "تفاوت، فرق",
+   "def_": "/ˈdɪfrəns/ · the way in which things are not the same",
+   "level": 2,
+   "exs": [
+    "The difference was that sand shifted from the top bowl into the bottom bowl."
+   ]
+  },
+  {
+   "id": "ir0:feature",
+   "word": "feature",
+   "pos": "n",
+   "fa": "ویژگی، خصوصیت",
+   "def_": "/ˈfiːtʃər/ · characteristic",
+   "level": 2,
+   "exs": [
+    "About 1,000 years ago, an Arab engineer added mechanical features to water clocks.",
+    "Air bags are a standard feature in most new cars.",
+    "The app has many useful features."
+   ]
+  },
+  {
+   "id": "ir0:shift",
+   "word": "shift",
+   "pos": "n",
+   "fa": "تغییر، جابه‌جایی؛ شیفت",
+   "def_": "/ʃɪft/ · change",
+   "level": 2,
+   "exs": [
+    "As the sun shifted across the sky, the short piece of wood created shadows on the long piece.",
+    "a marked shift in attitudes towards women"
+   ]
+  },
+  {
+   "id": "ir0:similar",
+   "word": "similar",
+   "pos": "adj",
+   "fa": "مشابه، همانند",
+   "def_": "/ˈsɪmələr/ · almost the same",
+   "level": 2,
+   "exs": [
+    "Similarly, people traveling west had to shift the time back one hour.",
+    "We have similar tastes in music."
+   ]
+  },
+  {
+   "id": "ir0:system",
+   "word": "system",
+   "pos": "n",
+   "fa": "سیستم، نظام",
+   "def_": "/ˈsɪstəm/ · a set of connected parts working together",
+   "level": 2,
+   "exs": [
+    "About 4,000 years ago, ancient Egyptians developed a 12-hour time system."
+   ]
+  },
+  {
+   "id": "ir0:vary",
+   "word": "vary",
+   "pos": "v",
+   "fa": "متفاوت بودن، تغییر کردن",
+   "def_": "/ˈveəri/ · to be different; to change",
+   "level": 2,
+   "exs": [
+    "Also, people were confused to see the time on sundials vary with the seasons."
+   ]
+  },
+  {
+   "id": "ir0:cause",
+   "word": "cause",
+   "pos": "n",
+   "fa": "علت، سبب؛ باعث شدن",
+   "def_": "/kɔːz/ · the reason something happens; to make something happen",
+   "level": 3,
+   "exs": [
+    "Germs can cause terrible diseases such as cholera and tuberculosis."
+   ]
+  },
+  {
+   "id": "ir0:effect",
+   "word": "effect",
+   "pos": "n",
+   "fa": "اثر، تأثیر، نتیجه",
+   "def_": "/ɪˈfekt/ · a change that is a result of something",
+   "level": 3,
+   "exs": [
+    "Yet bacteria have many effects on humans."
+   ]
+  },
+  {
+   "id": "ir0:environment",
+   "word": "environment",
+   "pos": "n",
+   "fa": "محیط، محیط زیست",
+   "def_": "/ɪnˈvaɪrənmənt/ · surroundings; the natural world",
+   "level": 3,
+   "exs": [
+    "Bacteria—tiny living things—exist everywhere in the environment.",
+    "We're trying to create a better business environment.",
+    "We must protect the environment."
+   ]
+  },
+  {
+   "id": "ir0:exist",
+   "word": "exist",
+   "pos": "v",
+   "fa": "وجود داشتن",
+   "def_": "/ɪɡˈzɪst/ · to be real; to be present",
+   "level": 3,
+   "exs": [
+    "Bacteria—tiny living things—exist everywhere in the environment."
+   ]
+  },
+  {
+   "id": "ir0:harm",
+   "word": "harm",
+   "pos": "n",
+   "fa": "آسیب، ضرر؛ آسیب رساندن",
+   "def_": "/hɑːm/ · damage or injury; to hurt or damage",
+   "level": 3,
+   "exs": [
+    "Scientists know that bacteria can harm and can help humans."
+   ]
+  },
+  {
+   "id": "ir0:infect",
+   "word": "infect",
+   "pos": "v",
+   "fa": "آلوده کردن، مبتلا کردن",
+   "def_": "/ɪnˈfekt/ · to give a disease to a person, animal or plant",
+   "level": 3,
+   "exs": [
+    "If a person drinks the dirty water, the bacteria will infect his digestive system."
+   ]
+  },
+  {
+   "id": "ir0:prevent",
+   "word": "prevent",
+   "pos": "v",
+   "fa": "جلوگیری کردن",
+   "def_": "to stop something from happening",
+   "level": 3,
+   "exs": [
+    "However, there are ways to prevent getting sick.",
+    "Washing hands prevents disease.",
+    "Washing your hands can prevent illness."
+   ]
+  },
+  {
+   "id": "ir0:proceed",
+   "word": "proceed",
+   "pos": "v",
+   "fa": "ادامه دادن، پیش رفتن",
+   "def_": "/prəˈsiːd/ · continue to do sth",
+   "level": 3,
+   "exs": [
+    "As he proceeded to watch, the things moved.",
+    "Work is proceeding according to plan."
+   ]
+  },
+  {
+   "id": "ir0:react",
+   "word": "react",
+   "pos": "v",
+   "fa": "واکنش نشان دادن",
+   "def_": "/riˈækt/ · to behave in a particular way as a response",
+   "level": 3,
+   "exs": [
+    "For instance, he found that one reaction of carbolic acid (a strong chemical) was to destroy bacteria on laboratory equipment."
+   ]
+  },
+  {
+   "id": "ir0:transfer",
+   "word": "transfer",
+   "pos": "v",
+   "fa": "منتقل کردن، انتقال دادن",
+   "def_": "/trænsˈfɜːr/ · move",
+   "level": 3,
+   "exs": [
+    "Some diseases easily transfer from one person to another.",
+    "I'd like to transfer $500 to my checking account."
+   ]
+  },
+  {
+   "id": "ir0:assist",
+   "word": "assist",
+   "pos": "v",
+   "fa": "کمک کردن، یاری رساندن",
+   "def_": "/əˈsɪst/ · to help someone do something",
+   "level": 4,
+   "exs": [
+    "The government would assist 300 to 500 million people to move from farms to cities by 2020."
+   ]
+  },
+  {
+   "id": "ir0:assume",
+   "word": "assume",
+   "pos": "v",
+   "fa": "فرض کردن، پنداشتن",
+   "def_": "/əˈsuːm/ · presume",
+   "level": 4,
+   "exs": [
+    "Each boy assumed he would be a farmer when he grew up.",
+    "I think we can safely assume that he is out of town.",
+    "I assume you have heard the news."
+   ]
+  },
+  {
+   "id": "ir0:community",
+   "word": "community",
+   "pos": "n",
+   "fa": "جامعه، اجتماع",
+   "def_": "/kəˈmjuːnəti/ · society",
+   "level": 4,
+   "exs": [
+    "And each girl assumed she would become the wife of a farmer in the community.",
+    "The festival was a great way for the local community to get together.",
+    "The community built a new park."
+   ]
+  },
+  {
+   "id": "ir0:consequence",
+   "word": "consequence",
+   "pos": "n",
+   "fa": "پیامد، نتیجه",
+   "def_": "/ˈkɑːnsɪkwens/ · result",
+   "level": 4,
+   "exs": [
+    "As a consequence, the traditional way of life in China is changing.",
+    "What were the economic consequences of the war?",
+    "Every decision has consequences."
+   ]
+  },
+  {
+   "id": "ir0:define",
+   "word": "define",
+   "pos": "v",
+   "fa": "تعریف کردن، مشخص کردن",
+   "def_": "/dɪˈfaɪn/ · describe",
+   "level": 4,
+   "exs": [
+    "When the boys and girls grew up and got married, their lives were clearly defined.",
+    "There are many definitions of the word 'feminism'.",
+    "How do you define success?"
+   ]
+  },
+  {
+   "id": "ir0:factor",
+   "word": "factor",
+   "pos": "n",
+   "fa": "عامل",
+   "def_": "/ˈfæktər/ · one of several things that influence sth",
+   "level": 4,
+   "exs": [
+    "In the last 50 years, several factors have caused young adults to leave the farms.",
+    "Obesity is a major risk factor for heart disease.",
+    "Diet is a key factor in health."
+   ]
+  },
+  {
+   "id": "ir0:physical",
+   "word": "physical",
+   "pos": "adj",
+   "fa": "جسمی، بدنی؛ فیزیکی",
+   "def_": "/ˈfɪzɪkəl/ · related to someone's body · ≠ mental",
+   "level": 4,
+   "exs": [
+    "City jobs seemed physically easier than farming.",
+    "She was in constant physical pain."
+   ]
+  },
+  {
+   "id": "ir0:seek",
+   "word": "seek",
+   "pos": "v",
+   "fa": "جستجو کردن، به دنبال چیزی بودن",
+   "def_": "/siːk/ · search, try to get (past: sought /sɔːt/)",
+   "level": 4,
+   "exs": [
+    "They are seeking jobs in a city.",
+    "During the war, she sought asylum in Spain."
+   ]
+  },
+  {
+   "id": "ir0:sufficient",
+   "word": "sufficient",
+   "pos": "adj",
+   "fa": "کافی",
+   "def_": "/səˈfɪʃənt/ · enough · ≠ insufficient",
+   "level": 4,
+   "exs": [
+    "Farming did not provide sufficient money to buy computers or cell phones.",
+    "He had an income which was sufficient for his needs.",
+    "We have sufficient food for a week."
+   ]
+  },
+  {
+   "id": "ir0:tradition",
+   "word": "tradition",
+   "pos": "n",
+   "fa": "سنت، رسم",
+   "def_": "/trəˈdɪʃn/ · a belief or custom passed down over time",
+   "level": 4,
+   "exs": [
+    "Farming was the traditional way of life for Chinese people."
+   ]
+  },
+  {
+   "id": "ir0:area",
+   "word": "area",
+   "pos": "n",
+   "fa": "منطقه، ناحیه؛ حوزه",
+   "def_": "/ˈeriə/ · region, zone",
+   "level": 5,
+   "exs": [
+    "The Burj Khalifa is one of many skyscrapers constructed in different areas of the world recently.",
+    "Crime rates are much higher in urban areas."
+   ]
+  },
+  {
+   "id": "ir0:construct",
+   "word": "construct",
+   "pos": "v",
+   "fa": "ساختن، بنا کردن",
+   "def_": "/kənˈstrʌkt/ · build",
+   "level": 5,
+   "exs": [
+    "The Burj Khalifa is one of many skyscrapers constructed in different areas of the world recently.",
+    "The hotel is currently under construction.",
+    "The bridge was constructed in 1890."
+   ]
+  },
+  {
+   "id": "ir0:design",
+   "word": "design",
+   "pos": "v",
+   "fa": "طراحی کردن",
+   "def_": "/dɪˈzaɪn/ · plan",
+   "level": 5,
+   "exs": [
+    "These structures used a new construction design.",
+    "She designed a new logo for the company."
+   ]
+  },
+  {
+   "id": "ir0:height",
+   "word": "height",
+   "pos": "n",
+   "fa": "ارتفاع، قد",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "Today, the Burj Khalifa building in Dubai is nearly six times that height.",
+    "What is the height of the tower?"
+   ]
+  },
+  {
+   "id": "ir0:major",
+   "word": "major",
+   "pos": "adj",
+   "fa": "اصلی، مهم، عمده",
+   "def_": "/ˈmeɪdʒər/ · main, important",
+   "level": 5,
+   "exs": [
+    "Two major inventions in the 19th century made the construction of taller buildings possible.",
+    "The use of drugs is a major problem."
+   ]
+  },
+  {
+   "id": "ir0:previous",
+   "word": "previous",
+   "pos": "adj",
+   "fa": "قبلی، پیشین",
+   "def_": "/ˈpriːviəs/ · past, former",
+   "level": 5,
+   "exs": [
+    "Previously, elevators had been used for lifting things on ships or in factories.",
+    "I had met them the previous day."
+   ]
+  },
+  {
+   "id": "ir0:restrict",
+   "word": "restrict",
+   "pos": "v",
+   "fa": "محدود کردن",
+   "def_": "/rɪˈstrɪkt/ · limit",
+   "level": 5,
+   "exs": [
+    "This restricted the height of the walls.",
+    "He is on a severely restricted diet."
+   ]
+  },
+  {
+   "id": "ir0:structure",
+   "word": "structure",
+   "pos": "n",
+   "fa": "ساختار، ساختمان",
+   "def_": "/ˈstrʌktʃər/ · n., v. · building or form",
+   "level": 5,
+   "exs": [
+    "About 2,800 years ago, the tallest structure in the world was the Great Pyramid of Giza in ancient Egypt.",
+    "the structure of an atom",
+    "The structure of DNA is a double helix."
+   ]
+  },
+  {
+   "id": "ir0:support",
+   "word": "support",
+   "pos": "v",
+   "fa": "حمایت کردن",
+   "def_": "to help or encourage",
+   "level": 5,
+   "exs": [
+    "Also, the entire structure of an old building was supported by its four outside walls.",
+    "My family always supports me.",
+    "My family supports me in everything."
+   ]
+  },
+  {
+   "id": "ir0:vertical",
+   "word": "vertical",
+   "pos": "adj",
+   "fa": "عمودی",
+   "def_": "standing or pointing straight up",
+   "level": 5,
+   "exs": [
+    "These walls were made of vertical piles of bricks or stones.",
+    "The cliff is almost vertical.",
+    "Draw a vertical line down the middle of the page."
+   ]
+  },
+  {
+   "id": "ir0:available",
+   "word": "available",
+   "pos": "adj",
+   "fa": "در دسترس، موجود",
+   "def_": "/əˈveɪləbəl/ · accessible",
+   "level": 6,
+   "exs": [
+    "The diet of early humans depended on what foods were available to them.",
+    "Tickets are available from the box office.",
+    "Is this room available tonight?"
+   ]
+  },
+  {
+   "id": "ir0:culture",
+   "word": "culture",
+   "pos": "n",
+   "fa": "فرهنگ",
+   "def_": "customs and beliefs of a group",
+   "level": 6,
+   "exs": [
+    "Every culture in the world has its own style of cooking and eating.",
+    "Food is an important part of culture.",
+    "Food is an important part of every culture."
+   ]
+  },
+  {
+   "id": "ir0:diet",
+   "word": "diet",
+   "pos": "n",
+   "fa": "رژیم غذایی، تغذیه",
+   "def_": "/ˈdaɪət/ · the food a person or animal usually eats",
+   "level": 6,
+   "exs": [
+    "The diet of early humans depended on what foods were available to them."
+   ]
+  },
+  {
+   "id": "ir0:discover",
+   "word": "discover",
+   "pos": "v",
+   "fa": "کشف کردن، پی بردن",
+   "def_": "/dɪˈskʌvə(r)/ · to find or learn something for the first time",
+   "level": 6,
+   "exs": [
+    "Travelers who went to distant places discovered new foods."
+   ]
+  },
+  {
+   "id": "ir0:ensure",
+   "word": "ensure",
+   "pos": "v",
+   "fa": "اطمینان حاصل کردن، تضمین کردن",
+   "def_": "/ɪnˈʃʊər/ · make sure",
+   "level": 6,
+   "exs": [
+    "The animals and crops ensured that the farmers would have a supply of food available to eat.",
+    "The book ensured his success.",
+    "Please ensure that all windows are closed."
+   ]
+  },
+  {
+   "id": "ir0:preserve",
+   "word": "preserve",
+   "pos": "v",
+   "fa": "حفظ کردن، نگهداری کردن",
+   "def_": "to keep something in its original state or protect it from harm",
+   "level": 6,
+   "exs": [
+    "They have preserved this eating technique and still use chopsticks today.",
+    "The ancient city has been well preserved.",
+    "Salt was used to preserve meat."
+   ]
+  },
+  {
+   "id": "ir0:rely",
+   "word": "rely",
+   "pos": "v",
+   "fa": "تکیه کردن",
+   "def_": "to depend on",
+   "level": 6,
+   "exs": [
+    "People in other cultures rely on pieces of flat bread to pick up food.",
+    "You can rely on me.",
+    "Many farmers rely on rain for their crops."
+   ]
+  },
+  {
+   "id": "ir0:significant",
+   "word": "significant",
+   "pos": "adj",
+   "fa": "قابل توجه، مهم",
+   "def_": "/sɪɡˈnɪfɪkənt/ · important, major",
+   "level": 6,
+   "exs": [
+    "Potatoes, for example, became a significant part of the Irish diet.",
+    "a significant increase in sales",
+    "There was a significant drop in crime."
+   ]
+  },
+  {
+   "id": "ir0:supply",
+   "word": "supply",
+   "pos": "n",
+   "fa": "عرضه، تأمین؛ تأمین کردن",
+   "def_": "/səˈplaɪ/ · an amount available; to provide something",
+   "level": 6,
+   "exs": [
+    "For example, humans who lived near an ocean relied on the ocean to supply them with fish to eat."
+   ]
+  },
+  {
+   "id": "ir0:technique",
+   "word": "technique",
+   "pos": "n",
+   "fa": "فن، تکنیک، روش",
+   "def_": "/tekˈniːk/ · method",
+   "level": 6,
+   "exs": [
+    "They also learned about new cooking techniques.",
+    "We learned some techniques for relieving stress."
+   ]
+  },
+  {
+   "id": "ir0:automatic",
+   "word": "automatic",
+   "pos": "adj",
+   "fa": "خودکار، اتوماتیک",
+   "def_": "/ˌɔːtəˈmætɪk/ · working by itself without human control",
+   "level": 7,
+   "exs": [
+    "Then it automatically enters the correct price into the cash register."
+   ]
+  },
+  {
+   "id": "ir0:consist",
+   "word": "consist",
+   "pos": "v",
+   "fa": "تشکیل شدن (از)",
+   "def_": "/kənˈsɪst/ · to be made up of (consist of)",
+   "level": 7,
+   "exs": [
+    "Each printed bar code consists of a unique pattern of black and white lines that represent numbers from 0 to 9."
+   ]
+  },
+  {
+   "id": "ir0:identify",
+   "word": "identify",
+   "pos": "v",
+   "fa": "شناسایی کردن، تشخیص دادن",
+   "def_": "/aɪˈdentɪfaɪ/ · recognize",
+   "level": 7,
+   "exs": [
+    "Each system is based on creating a unique identification number for every manufacturer.",
+    "The corpse was identified on the basis of dental records.",
+    "Can you identify this plant?"
+   ]
+  },
+  {
+   "id": "ir0:invent",
+   "word": "invent",
+   "pos": "v",
+   "fa": "اختراع کردن",
+   "def_": "/ɪnˈvent/ · to create something that did not exist before",
+   "level": 7,
+   "exs": [
+    "Before bar codes were invented, supermarket customers waited in long lines."
+   ]
+  },
+  {
+   "id": "ir0:item",
+   "word": "item",
+   "pos": "n",
+   "fa": "مورد، قلم (در فهرست)",
+   "def_": "/ˈaɪtəm/ · one thing on a list",
+   "level": 7,
+   "exs": [
+    "Look at the items you have purchased recently.",
+    "I need to buy a few household items like soap."
+   ]
+  },
+  {
+   "id": "ir0:pattern",
+   "word": "pattern",
+   "pos": "n",
+   "fa": "الگو، طرح",
+   "def_": "/ˈpætn/ · a regular way in which something happens or is done",
+   "level": 7,
+   "exs": [
+    "A bar code is a printed pattern of black and white lines."
+   ]
+  },
+  {
+   "id": "ir0:produce",
+   "word": "produce",
+   "pos": "v",
+   "fa": "تولید کردن",
+   "def_": "/prəˈdjuːs/ · to make or grow something",
+   "level": 7,
+   "exs": [
+    "The next five digits identify a certain product."
+   ]
+  },
+  {
+   "id": "ir0:purchase",
+   "word": "purchase",
+   "pos": "v",
+   "fa": "خریدن، خریداری کردن",
+   "def_": "/ˈpɜːrtʃɪs/ · buy",
+   "level": 7,
+   "exs": [
+    "Look at the items you have purchased recently.",
+    "Tickets may be purchased in advance from the box office."
+   ]
+  },
+  {
+   "id": "ir0:technology",
+   "word": "technology",
+   "pos": "n",
+   "fa": "فناوری، تکنولوژی",
+   "def_": "/tekˈnɒlədʒi/ · application of science to business",
+   "level": 7,
+   "exs": [
+    "The technology is especially useful in supermarkets.",
+    "major new developments in satellite technology",
+    "Technology makes communication easier."
+   ]
+  },
+  {
+   "id": "ir0:unique",
+   "word": "unique",
+   "pos": "adj",
+   "fa": "منحصربه‌فرد، بی‌نظیر",
+   "def_": "/juˈniːk/ · be the only one of its kind",
+   "level": 7,
+   "exs": [
+    "Each system is based on creating a unique identification number for every manufacturer.",
+    "Each person's DNA is unique.",
+    "Every person's fingerprints are unique."
+   ]
+  },
+  {
+   "id": "ir0:circumstance",
+   "word": "circumstance",
+   "pos": "n",
+   "fa": "شرایط، موقعیت",
+   "def_": "/ˈsɜːrkəmstæns/ · situation",
+   "level": 8,
+   "exs": [
+    "Under those circumstances, they may not try to steal from large museums.",
+    "The circumstances of his death are suspicious."
+   ]
+  },
+  {
+   "id": "ir0:collection",
+   "word": "collection",
+   "pos": "n",
+   "fa": "مجموعه؛ جمع‌آوری",
+   "def_": "/kəˈlekʃn/ · a group of things gathered together",
+   "level": 8,
+   "exs": [
+    "Sometimes valuable works of art or ancient artifacts are stolen from museum collections."
+   ]
+  },
+  {
+   "id": "ir0:commit",
+   "word": "commit",
+   "pos": "v",
+   "fa": "متعهد شدن؛ مرتکب شدن",
+   "def_": "/kəˈmɪt/ · to promise to do something; to do something wrong",
+   "level": 8,
+   "exs": [
+    "If a theft is committed, the museum issues a report to local police."
+   ]
+  },
+  {
+   "id": "ir0:display",
+   "word": "display",
+   "pos": "v",
+   "fa": "نمایش دادن",
+   "def_": "/dɪˈspleɪ/ · exhibit, show",
+   "level": 8,
+   "exs": [
+    "People enjoy visiting museums to see displays of wonderful paintings and sculptures.",
+    "Family photographs were displayed on the wall."
+   ]
+  },
+  {
+   "id": "ir0:evidence",
+   "word": "evidence",
+   "pos": "n",
+   "fa": "شواهد، مدرک",
+   "def_": "/ˈevɪdəns/ · proof, document",
+   "level": 8,
+   "exs": [
+    "They check the museum for evidence, such as fingerprints or a camera photograph.",
+    "Evidence shows that global warming is definitely occurring.",
+    "There is no evidence of life on Mars."
+   ]
+  },
+  {
+   "id": "ir0:initial",
+   "word": "initial",
+   "pos": "adj",
+   "fa": "اولیه، آغازین",
+   "def_": "/ɪˈnɪʃəl/ · first, primary",
+   "level": 8,
+   "exs": [
+    "Stealing a painting or small object may be easy initially.",
+    "What was his initial reaction?"
+   ]
+  },
+  {
+   "id": "ir0:issue",
+   "word": "issue",
+   "pos": "n",
+   "fa": "موضوع، مسئله؛ صادر کردن",
+   "def_": "/ˈɪʃuː/ · n., v. · an important topic",
+   "level": 8,
+   "exs": [
+    "If a theft is committed, the museum issues a report to local police.",
+    "Water purity is a public health issue.",
+    "Climate change is a global issue."
+   ]
+  },
+  {
+   "id": "ir0:remove",
+   "word": "remove",
+   "pos": "v",
+   "fa": "برداشتن، حذف کردن",
+   "def_": "/rɪˈmuːv/ · omit, cut out",
+   "level": 8,
+   "exs": [
+    "They use an alarm system that rings if someone removes a painting.",
+    "Remove the old wallpaper and fill any holes in the walls."
+   ]
+  },
+  {
+   "id": "ir0:secure",
+   "word": "secure",
+   "pos": "adj",
+   "fa": "امن، مطمئن؛ به دست آوردن، تأمین کردن",
+   "def_": "/sɪˈkjʊə(r)/ · safe; to get or achieve something",
+   "level": 8,
+   "exs": [
+    "They use security guards and cameras to watch museum visitors."
+   ]
+  },
+  {
+   "id": "ir0:steal",
+   "word": "steal",
+   "pos": "v",
+   "fa": "دزدیدن",
+   "def_": "/stiːl/ · to take something that belongs to someone else",
+   "level": 8,
+   "exs": [
+    "This means the thief is stealing a piece of our history and culture."
+   ]
+  },
+  {
+   "id": "ir0:absorb",
+   "word": "absorb",
+   "pos": "v",
+   "fa": "جذب کردن",
+   "def_": "to take in a liquid or gas",
+   "level": 9,
+   "exs": [
+    "The roots of the plants grow in the water mixture and absorb the nutrients.",
+    "Plants absorb carbon dioxide.",
+    "Plants absorb carbon dioxide from the air."
+   ]
+  },
+  {
+   "id": "ir0:achieve",
+   "word": "achieve",
+   "pos": "v",
+   "fa": "دست یافتن، به دست آوردن",
+   "def_": "/əˈtʃiːv/ · get, attain",
+   "level": 9,
+   "exs": [
+    "When the carrots achieve the right size, they will be removed, packaged, transported, and sold.",
+    "They achieved high scores on their math tests.",
+    "She achieved her goal of running a marathon."
+   ]
+  },
+  {
+   "id": "ir0:benefit",
+   "word": "benefit",
+   "pos": "n",
+   "fa": "سود، مزیت، فایده",
+   "def_": "/ˈbenəfɪt/ · advantage",
+   "level": 9,
+   "exs": [
+    "If plants cannot grow straight up, they receive less benefit from the sunlight.",
+    "the benefits of a university education",
+    "Exercise has many benefits."
+   ]
+  },
+  {
+   "id": "ir0:maintain",
+   "word": "maintain",
+   "pos": "v",
+   "fa": "حفظ کردن، نگه داشتن",
+   "def_": "to keep in good condition",
+   "level": 9,
+   "exs": [
+    "The soil surrounding the plant roots helps the plants maintain a vertical growth pattern.",
+    "It is hard to maintain an old house.",
+    "It's important to maintain a healthy weight."
+   ]
+  },
+  {
+   "id": "ir0:principle",
+   "word": "principle",
+   "pos": "n",
+   "fa": "اصل، قاعده",
+   "def_": "/ˈprɪnsəpəl/ · rule",
+   "level": 9,
+   "exs": [
+    "The principles of hydroponics are simple, and very little special knowledge or equipment is needed to achieve success.",
+    "the basic principles of business management",
+    "The machine works on a simple principle."
+   ]
+  },
+  {
+   "id": "ir0:regulation",
+   "word": "regulation",
+   "pos": "n",
+   "fa": "مقررات، قانون",
+   "def_": "/ˌreɡjəˈleɪʃən/ · rule",
+   "level": 9,
+   "exs": [
+    "An automatic timer regulates the watering schedule.",
+    "Smoke detectors must be installed to comply with fire regulations."
+   ]
+  },
+  {
+   "id": "ir0:require",
+   "word": "require",
+   "pos": "v",
+   "fa": "نیاز داشتن، لازم داشتن",
+   "def_": "/rɪˈkwaɪər/ · need",
+   "level": 9,
+   "exs": [
+    "The water is mixed with nutrients—vitamins and minerals— that plants require in order to grow.",
+    "Most houseplants require regular watering.",
+    "The job requires good English."
+   ]
+  },
+  {
+   "id": "ir0:strategy",
+   "word": "strategy",
+   "pos": "n",
+   "fa": "راهبرد، استراتژی",
+   "def_": "/ˈstrætɪdʒi/ · skilful planning",
+   "level": 9,
+   "exs": [
+    "Hydroponics is one strategy to help provide food to the billions of people on our planet.",
+    "He was a genius when it came to military strategy."
+   ]
+  },
+  {
+   "id": "ir0:theory",
+   "word": "theory",
+   "pos": "n",
+   "fa": "نظریه، تئوری",
+   "def_": "/ˈθɪəri/ · hypothesis",
+   "level": 9,
+   "exs": [
+    "The theory of hydroponics is not new.",
+    "Darwin's theory of evolution",
+    "Darwin developed the theory of evolution."
+   ]
+  },
+  {
+   "id": "ir0:transport",
+   "word": "transport",
+   "pos": "v",
+   "fa": "حمل کردن، جابه‌جا کردن",
+   "def_": "/ˈtrænspɔːrt/ · carry, transfer",
+   "level": 9,
+   "exs": [
+    "In contrast, a commercial farm might use a hydroponic system to grow thousands of tomatoes and carrots that will eventually be transported to nearby markets and sold.",
+    "The company will arrange transport from the airport.",
+    "Public transport should be free."
+   ]
+  },
+  {
+   "id": "ir0:affect",
+   "word": "affect",
+   "pos": "v",
+   "fa": "تأثیر گذاشتن بر",
+   "def_": "/əˈfekt/ · influence",
+   "level": 10,
+   "exs": [
+    "The powers of nature have always affected human life.",
+    "the areas affected by the hurricane",
+    "Lack of sleep can affect your mood."
+   ]
+  },
+  {
+   "id": "ir0:approach",
+   "word": "approach",
+   "pos": "v",
+   "fa": "نزدیک شدن؛ رویکرد، روش",
+   "def_": "/əˈproʊtʃ/ · v., n. · move nearer; method",
+   "level": 10,
+   "exs": [
+    "Likewise, a wave might approach land, where it washed away houses and drowned people.",
+    "He approached the issue from a historical perspective.",
+    "We need a new approach to the problem."
+   ]
+  },
+  {
+   "id": "ir0:concept",
+   "word": "concept",
+   "pos": "n",
+   "fa": "مفهوم، انگاره",
+   "def_": "/ˈkɒnsept/ · idea",
+   "level": 10,
+   "exs": [
+    "The concept of climate change worries humans.",
+    "She is familiar with basic concepts of psychology.",
+    "The concept of time is difficult to explain."
+   ]
+  },
+  {
+   "id": "ir0:consume",
+   "word": "consume",
+   "pos": "v",
+   "fa": "مصرف کردن",
+   "def_": "/kənˈsuːm/ · use",
+   "level": 10,
+   "exs": [
+    "The plants became food for the humans to consume.",
+    "Many consumers are not comfortable making purchases on the Internet.",
+    "Cows consume a lot of grass."
+   ]
+  },
+  {
+   "id": "ir0:data",
+   "word": "data",
+   "pos": "n",
+   "fa": "داده‌ها، اطلاعات",
+   "def_": "/ˈdeɪtə, ˈdɑːtə/ · information or facts",
+   "level": 10,
+   "exs": [
+    "Recent scientific data indicate that the Earth is warming.",
+    "The analysis was based on data collected in the field.",
+    "The data show a clear pattern."
+   ]
+  },
+  {
+   "id": "ir0:derive",
+   "word": "derive",
+   "pos": "v",
+   "fa": "به دست آوردن، مشتق شدن (از)",
+   "def_": "/dɪˈraɪv/ · get sth from sth",
+   "level": 10,
+   "exs": [
+    "They believe that humans have not used the fuels that we derived from nature in a good way.",
+    "Dairy products are derived from milk."
+   ]
+  },
+  {
+   "id": "ir0:indicate",
+   "word": "indicate",
+   "pos": "v",
+   "fa": "نشان دادن، حاکی بودن از",
+   "def_": "/ˈɪndɪkeɪt/ · show, demonstrate",
+   "level": 10,
+   "exs": [
+    "Without any indication of danger, a giant ocean wave might suddenly sink boats.",
+    "Research indicates that teachers are dissatisfied with their salary.",
+    "The results indicate a strong link."
+   ]
+  },
+  {
+   "id": "ir0:obtain",
+   "word": "obtain",
+   "pos": "v",
+   "fa": "به دست آوردن، کسب کردن",
+   "def_": "/əbˈteɪn/ · get, achieve",
+   "level": 10,
+   "exs": [
+    "Rain filled lakes and rivers where they could obtain water to drink and catch fish to eat.",
+    "You will need to obtain permission from the principal."
+   ]
+  },
+  {
+   "id": "ir0:potential",
+   "word": "potential",
+   "pos": "adj",
+   "fa": "بالقوه، احتمالی",
+   "def_": "/pəˈtenʃəl/ · possible",
+   "level": 10,
+   "exs": [
+    "Homes were washed away when gentle rivers grew into potential killers.",
+    "potential customers",
+    "This student has great potential."
+   ]
+  },
+  {
+   "id": "ir0:source",
+   "word": "source",
+   "pos": "n",
+   "fa": "منبع، سرچشمه",
+   "def_": "/sɔːrs/ · origin",
+   "level": 10,
+   "exs": [
+    "The sun warmed them and was a source of light.",
+    "The sun is our source of energy.",
+    "Tourism is the main source of income for the island."
+   ]
+  }
+ ]
+}

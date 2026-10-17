@@ -1,7 +1,7 @@
 /* ===== VajeYar placement test: adaptive vocabulary + yes/no recognition + short reading → CEFR, vocabulary size, IELTS/TOEFL estimate ===== */
 (function(){
 const {t, n, esc} = VY; const ACT = VY.ACT, V = VY.V;
-const BAND = {'general:1':1.5, 'general:2':3, 'general:3':4, 'general:4':5.3, 'ielts:1':3.2, 'ielts:2':4.2, 'ielts:3':5.4, 'ielts:4':4, 'ielts:5':4.6, 'ielts:6':5.5, 'toefl:1':3.2, 'toefl:2':4.2, 'toefl:3':5.4};
+const BAND = {'general:1':1.5, 'general:2':3, 'general:3':4, 'general:4':5.3, 'ielts:1':3.2, 'ielts:2':4.2, 'ielts:3':5.4, 'toefl:1':3.2, 'toefl:2':4.2, 'toefl:3':5.4};
 const bandOf = w => BAND[w.cat + ':' + w.level];
 const FAKE = ['flomper','grastle','prendical','ombrify','tasculent','brimbish','scrandle','vorcious','plemish','kriddle','mardulate','sopherous','crunkle','deplanish','wendicate','proptious','stalvery','mulpish','trevolent','plausic','renticle','obsterate','framulous','stendid'];
 const CEFR = ['A1','A2','B1','B2','C1','C2'];

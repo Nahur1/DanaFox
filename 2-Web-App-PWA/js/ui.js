@@ -159,6 +159,7 @@ const lvCls = (c, l) => 'l' + (VY.CATS[c].levels.length > 6 ? ((l-1) % 4) + 1 : 
 const lvNum = (c, l) => { const x = VY.CATS[c].levels[l-1]; return x && x.num != null ? esc(String(x.num)) : n(l); };
 function catCard(c, cur){ const ws = VY.deckWords(c), seen = ws.filter(w=>VY.P(w.id)&&VY.P(w.id).seen).length;
   return `<div class="cat-card ${c}" data-act="pickCat" data-cat="${c}" style="${c===cur?'outline:3px solid var(--yellow);outline-offset:3px':''}"><div class="row between"><span style="font-size:28px">${VY.CATS[c].icon}</span>${c===cur?'<span class="chip" style="background:rgba(255,255,255,.3);color:inherit">✓</span>':''}</div><div><h3>${VY.catName(c)}</h3><div class="cnt">${n(seen)} / ${n(ws.length)} ${t('words')}</div></div></div>`; }
+VY.deckCard = (c, l, s) => deckCard(c, l, s);
 function deckCard(c, l, s){
   s = s || VY.deckStats(c, l); const pct = s.total ? s.seen/s.total : 0;
   return `<div class="card deck" data-act="startLearn" data-cat="${c}" data-level="${l}">

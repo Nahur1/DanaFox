@@ -8,7 +8,7 @@ const EXAMS = {
 };
 const LEVELS = [{en:'Level 1 · Easier', fa:'سطح ۱ · آسان‌تر', tag:'B1'}, {en:'Level 2 · Medium', fa:'سطح ۲ · متوسط', tag:'B2'}, {en:'Level 3 · Hard', fa:'سطح ۳ · دشوار', tag:'C1'}, {en:'Level 4 · Expert', fa:'سطح ۴ · خیلی دشوار', tag:'C1–C2'}];
 const fa = () => VY.lang() === 'fa';
-VY.examName = e => (EXAMS[e] || EXAMS.general)[fa() ? 'fa' : 'en'];
+VY.examName = e => e === 'inside' ? 'Inside Reading' : (EXAMS[e] || EXAMS.general)[fa() ? 'fa' : 'en'];
 const lvName = l => (LEVELS[l-1] || LEVELS[0])[fa() ? 'fa' : 'en'];
 const L = i => String.fromCharCode(65 + i);
 const loadJ = (k, d) => { try{ return JSON.parse(localStorage.getItem(k)) || d; }catch(e){ return d; } };
@@ -23,7 +23,7 @@ VY.readings = () => {
   return [...m.values()].filter(r => Array.isArray(r.paras) && r.paras.length && Array.isArray(r.qs) && r.qs.length)
     .sort((a, b) => (ord.indexOf(a.exam) - ord.indexOf(b.exam)) || (a.level - b.level) || String(a.title).localeCompare(String(b.title)));
 };
-VY.readingById = id => VY.readings().find(r => r.id === id);
+VY.readingById = id => VY.readings().find(r => r.id === id) || (VY.insideReadings ? VY.insideReadings().find(r => r.id === id) : undefined);
 VY.fetchReadings = async () => {
   if(!(VY.isServer && VY.isServer()) || navigator.onLine === false) return false;
   try{
@@ -65,7 +65,8 @@ function rdCard(r){
 function listView(){
   return VY.secTabs('reading', '', {k:'', e:'📄', label:t('rdTexts'), sub:`${n(VY.readings().length)} ${t('rdTextsS')}`}) + textsView();
 }
-function deckView(c){ return VY.secTabs('reading', '@' + c, {k:'', e:'📄', label:t('rdTexts'), sub:`${n(VY.readings().length)} ${t('rdTextsS')}`}) + VY.deckSection(c); }
+function deckView(c, u){ if(VY.isInside && VY.isInside(c)) return VY.secTabs('reading', '@' + c, {k:'', e:'📄', label:t('rdTexts'), sub:`${n(VY.readings().length)} ${t('rdTextsS')}`}) + (u ? VY.insideUnit(c, u) : VY.insideBook(c));
+  return VY.secTabs('reading', '@' + c, {k:'', e:'📄', label:t('rdTexts'), sub:`${n(VY.readings().length)} ${t('rdTextsS')}`}) + VY.deckSection(c); }
 function textsView(){
   const all = VY.readings(), ex = VY.rdExam = VY.rdExam || trackExam(), st = VY.readingStats();
   const items = all.filter(r => r.exam === ex), nx = VY.nextReading();
@@ -83,7 +84,7 @@ ACT.rdExam = el => { VY.rdExam = el.dataset.v; VY.rerender(); };
 /* ---------- reader ---------- */
 VY.RDS = VY.RDS || {};
 const st = id => VY.RDS[id] || (VY.RDS[id] = {ans:{}, done:false, t0:Date.now(), tab:'text', fa:{}, allFa:false});
-const wrap = (s, pi, insertP) => { let k = 0; return String(s).split(/([A-Za-z](?:[A-Za-z'’\-]*[A-Za-z])?)/).map((x, i) => i % 2 ? `<span class="w">${esc(x)}</span>` :
+const wrap = (s, pi, insertP, twRe) => { let k = 0; return String(s).split(/([A-Za-z](?:[A-Za-z'’\-]*[A-Za-z])?)/).map((x, i) => i % 2 ? `<span class="w${twRe && twRe.test(x) ? ' tw' : ''}">${esc(x)}</span>` :
   esc(x).replace(/■/g, () => pi === insertP ? `<button class="sq" data-act="rdSq" data-k="${k++}" title="${n(k)}">■</button>` : '■')).join(''); };
 const labelled = r => Array.isArray(r.labels) ? r.labels : r.qs.some(q => q.type === 'head' || q.type === 'match') ? r.paras.map((_, i) => L(i)) : null;
 const norm = s => String(s == null ? '' : s).toLowerCase().replace(/[’']/g, "'").replace(/[^a-z0-9' ]+/g, ' ').replace(/\s+/g, ' ').trim().replace(/^(the|a|an) /, '');
@@ -99,11 +100,11 @@ function isRight(q, v){
     default: return v === q.a;
   }
 }
-const TF = {tfng:[['T','TRUE'],['F','FALSE'],['NG','NOT GIVEN']], ynng:[['Y','YES'],['N','NO'],['NG','NOT GIVEN']]};
+const TF = {tf:[['T','TRUE'],['F','FALSE']], tfng:[['T','TRUE'],['F','FALSE'],['NG','NOT GIVEN']], ynng:[['Y','YES'],['N','NO'],['NG','NOT GIVEN']]};
 function fmtAns(q, v){
   if(v == null || (Array.isArray(v) && !v.length) || v === '') return '—';
   switch(q.type){
-    case 'tfng': case 'ynng': return (TF[q.type].find(x => x[0] === v) || [0, v])[1];
+    case 'tf': case 'tfng': case 'ynng': return (TF[q.type].find(x => x[0] === v) || [0, v])[1];
     case 'gap': return Array.isArray(v) ? v[0] : v;
     case 'multi': return v.slice().sort().map(L).join(', ');
     case 'order': return v.map(i => n(i + 1)).join(' → ');
@@ -118,7 +119,7 @@ function qBody(q, i, S){
   const v = S.ans[i], dis = S.done ? 'disabled' : '', ok = S.done && isRight(q, v);
   const optCls = j => { let c = ''; const sel = Array.isArray(v) ? v.includes(j) : v === j; if(sel) c += ' on'; if(S.done){ const right = Array.isArray(q.a) ? q.a.includes(j) : q.a === j; if(right) c += ' right'; else if(sel) c += ' bad'; } return c; };
   switch(q.type){
-    case 'tfng': case 'ynng':
+    case 'tf': case 'tfng': case 'ynng':
       return `<div class="rq-chips">${TF[q.type].map(([k, l]) => { let c = v === k ? ' on' : ''; if(S.done){ if(q.a === k) c += ' right'; else if(v === k) c += ' bad'; } return `<button class="rchip${c}" data-act="rdPick" data-q="${i}" data-v="${k}" ${dis}>${l}</button>`; }).join('')}</div>`;
     case 'gap':
       return `<div class="row mt8"><input class="input en rq-in ${S.done ? (ok ? 'ok' : 'bad') : ''}" dir="ltr" data-q="${i}" value="${esc(v || '')}" placeholder="${q.w ? esc(t('maxWords', {n: n(q.w)})) : '…'}" autocomplete="off" autocapitalize="off" spellcheck="false" ${dis}></div>`;
@@ -142,7 +143,7 @@ function qBody(q, i, S){
   }
 }
 const qText = q => q.type === 'tc' ? esc(q.q).replace(/\[(\d)\]/g, (_, d) => `<b class="tc-gap">(${n(d)})</b>`) : esc(q.q).replace(/_{3,}/g, '<b class="gap-line">______</b>').replace(/\n/g, '<br>');
-const HELP = {tfng:'rh_tfng', ynng:'rh_ynng', head:'rh_head', match:'rh_match', gap:'rh_gap', bank:'rh_bank', insert:'rh_insert', order:'rh_order', select:'rh_select', tc:'rh_tc', multi:'rh_multi'};
+const HELP = {tf:'rh_tf', tfng:'rh_tfng', ynng:'rh_ynng', head:'rh_head', match:'rh_match', gap:'rh_gap', bank:'rh_bank', insert:'rh_insert', order:'rh_order', select:'rh_select', tc:'rh_tc', multi:'rh_multi'};
 function questionsHTML(r, S){
   let out = '', seenHelp = {};
   r.qs.forEach((q, i) => {
@@ -159,7 +160,7 @@ function questionsHTML(r, S){
 }
 function resultHTML(r, S){
   const total = r.qs.length, score = r.qs.reduce((a, q, i) => a + (isRight(q, S.ans[i]) ? 1 : 0), 0), p = score / total, sc = scaled(r.exam, p);
-  const x = res(r.id) || {}, nx = VY.readings().filter(z => z.exam === r.exam && z.id !== r.id && !res(z.id))[0];
+  const x = res(r.id) || {}, nx = r.exam === 'inside' ? VY.insideNext(r) : VY.readings().filter(z => z.exam === r.exam && z.id !== r.id && !res(z.id))[0];
   return `<div class="card rd-result">
     <div class="row between wrap"><h3>${p >= .8 ? '🏆' : p >= .5 ? '👏' : '💪'} ${t('rdResult')}</h3><span class="chip purple">⏱ ${fmtTime(S.time || 0)}</span></div>
     <div class="kv mt12"><div><b>${n(score)} / ${n(total)}</b><span>${t('score')}</span></div><div><b style="color:${p>=.8?'var(--green)':p>=.5?'var(--yellow-strong)':'var(--red)'}">${VY.pct(p*100)}</b><span>${t('accuracy')}</span></div><div><b class="en" dir="ltr">${sc.v}</b><span>${sc.k} ≈</span></div><div><b>${VY.pct((x.best != null ? x.best : p)*100)}</b><span>${t('best')}</span></div></div>
@@ -169,14 +170,16 @@ function resultHTML(r, S){
 const fmtTime = s => { s = Math.max(0, Math.round(s)); return n(Math.floor(s/60)) + ':' + n(String(s%60).padStart(2, '0')); };
 function readerView(id){
   const r = VY.readingById(id);
+  if(!r && /^ir\d-/.test(id) && !window.VY_INSIDE && VY.insideWait) return VY.insideWait();
   if(!r) return `<div class="card empty"><div class="em">📭</div><p>${t('rdEmpty')}</p><a class="btn btn-primary" href="#/reading">${t('back')}</a></div>`;
   const S = st(id), labs = labelled(r), ins = r.qs.find(q => q.type === 'insert'), insP = ins ? (ins.p != null ? ins.p : -1) : -1;
   const answeredN = r.qs.filter((q, i) => answered(q, S.ans[i])).length, pfa = Array.isArray(r.paras_fa) ? r.paras_fa : [];
-  const gl = Object.entries(r.gl || {});
+  const gl = Object.entries(r.gl || {}), isIn = r.exam === 'inside', back = isIn ? `#/reading/@${r.book}/${r.unit}` : '#/reading', twRe = isIn && VY.insideWordRe ? VY.insideWordRe(r.words) : null;
+  const sub = isIn ? `${VY.CATS[r.book] ? VY.CATS[r.book].icon : '📘'} ${esc(VY.insideBookName(r.book))} · ${t('irUnit')} ${n(r.unit)} · ${t('irReadingN', {n: n(r.no)})}` : `${EXAMS[r.exam] ? EXAMS[r.exam].e : ''} ${VY.examName(r.exam)} · ${lvName(r.level)}`;
   return `<div class="rd ${S.tab === 'qs' ? 'tab-qs' : 'tab-text'}">
     <div class="rd-top card">
-      <a class="icon-btn" href="#/reading" title="${t('back')}">${icon('back')}</a>
-      <div class="rd-tt"><b class="en" dir="ltr">${esc(r.title)}</b><span>${EXAMS[r.exam] ? EXAMS[r.exam].e : ''} ${VY.examName(r.exam)} · ${lvName(r.level)}</span></div>
+      <a class="icon-btn" href="${back}" title="${t('back')}">${icon('back')}</a>
+      <div class="rd-tt"><b class="en" dir="ltr">${esc(r.title)}</b><span>${sub}</span></div>
       <span class="chip ${S.done ? 'green' : 'yellow'}" id="rd-time">⏱ ${S.done ? fmtTime(S.time) : fmtTime((Date.now() - S.t0)/1000)}</span>
       ${pfa.length ? `<button class="btn btn-ghost btn-sm" data-act="rdAllFa" data-id="${esc(id)}" title="${t('translation')}">${S.allFa ? '✓ ' : ''}فا</button>` : ''}
     </div>
@@ -184,9 +187,11 @@ function readerView(id){
     <div class="rd-grid">
       <section class="card rd-text" id="rd-text" data-id="${esc(id)}">
         <h2 class="en" dir="ltr">${esc(r.title)}</h2>${r.title_fa ? `<div class="muted" dir="rtl">${esc(r.title_fa)}</div>` : ''}
-        <div class="rd-hint small muted">👆 ${t('tapWordHint')}</div>
-        ${r.paras.map((p, i) => `<div class="rd-p">${labs && labs[i] ? `<span class="rd-lab">${esc(labs[i])}</span>` : ''}<div class="rd-pb"><p class="en" dir="ltr">${wrap(p, i, insP)}</p>
+        <div class="rd-hint small muted">👆 ${t('tapWordHint')}${twRe ? ` · <span class="tw-key">${t('irTwHint')}</span>` : ''}</div>
+        ${r.pre ? `<p class="rd-pre en" dir="ltr">${esc(r.pre)}</p>` : ''}
+        ${r.paras.map((p, i) => /^## /.test(p) ? `<h3 class="rd-h en" dir="ltr">${esc(p.slice(3))}</h3>` : `<div class="rd-p">${labs && labs[i] ? `<span class="rd-lab">${esc(labs[i])}</span>` : ''}<div class="rd-pb"><p class="en" dir="ltr">${wrap(p, i, insP, twRe)}</p>
           ${pfa[i] ? `<div class="rd-fa ${S.allFa || S.fa[i] ? '' : 'hide'}" dir="rtl">${esc(pfa[i])}</div><button class="rd-tr" data-act="rdParaFa" data-id="${esc(id)}" data-i="${i}">${S.allFa || S.fa[i] ? t('hideTr') : t('showTr')}</button>` : ''}</div></div>`).join('')}
+        ${Array.isArray(r.notes) && r.notes.length ? `<div class="rd-notes en" dir="ltr">${r.notes.map(x => `<div>${esc(x)}</div>`).join('')}</div>` : ''}
         ${gl.length ? `<div class="rd-gl"><div class="lbl">📚 ${t('glossary')}</div><div class="row wrap">${gl.map(([w, f]) => `<button class="chip purple" data-act="rdGlWord" data-w="${esc(w)}"><span class="en" dir="ltr">${esc(w)}</span> · ${esc(f)}</button>`).join('')}</div></div>` : ''}
         <button class="btn btn-primary btn-block mt16 rd-goq" data-act="rdTab" data-id="${esc(id)}" data-v="qs">${t('goQuestions')} ${icon('arrow')}</button>
       </section>
@@ -199,8 +204,8 @@ function readerView(id){
     </div>
   </div>`;
 }
-V.reading = {title: () => { const id = VY.params && VY.params[0]; if(id && id[0] === '@'){ const C = VY.CATS[id.slice(1)]; return t('reading') + (C && C.short ? ' · ' + VY.L(C.short) : ''); } const r = id && VY.readingById(decodeURIComponent(id)); return r ? t('reading') + ' · ' + VY.examName(r.exam) : t('reading'); },
-  render(){ const id = VY.params && VY.params[0]; if(id && id[0] === '@'){ const c = id.slice(1); return VY.deckCats('reading').includes(c) ? deckView(c) : listView(); } return id ? readerView(decodeURIComponent(id)) : listView(); },
+V.reading = {title: () => { const id = VY.params && VY.params[0]; if(id && id[0] === '@'){ const C = VY.CATS[id.slice(1)]; return t('reading') + (C && C.short ? ' · ' + VY.L(C.short) : ''); } const r = id && VY.readingById(decodeURIComponent(id)); return r ? t('reading') + ' · ' + (r.exam === 'inside' ? VY.insideBookName(r.book) : VY.examName(r.exam)) : t('reading'); },
+  render(){ const id = VY.params && VY.params[0]; if(id && id[0] === '@'){ const c = id.slice(1); return VY.deckCats('reading').includes(c) ? deckView(c, VY.params[1]) : listView(); } return id ? readerView(decodeURIComponent(id)) : listView(); },
   after(){
     const id = VY.params && VY.params[0] ? decodeURIComponent(VY.params[0]) : null;
     if(!id){ VY.fetchReadings().then(ch => { if(ch && VY.current === 'reading' && !(VY.params||[])[0]) VY.rerender(); }); return; }

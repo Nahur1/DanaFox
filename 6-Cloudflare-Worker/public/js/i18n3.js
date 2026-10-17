@@ -122,3 +122,18 @@ Object.assign(I18N.fa, {
  secN:'دسته', secCats:'دسته‌بندی‌ها', secCatsS:'یک دسته را انتخاب کنید و لغاتش را یاد بگیرید',
  deckSource:'منبع'
 });
+/* v3.2 — Inside Reading Intro / 1 / 2 */
+Object.assign(I18N.en, {
+ irLoadErr:'Could not load the book. Check your connection and try again.', irUnits:'Units', irUnitsS:'Each unit: 2 readings · exercises with answer key · target words', irReadings:'Readings', irSkill:'Skill', irReadingN:'Reading {n}', irExercises:'Exercises', irUnit:'Unit', irTargetWords:'target words', irWords:'Vocabulary',
+ irHowTitle:'How to study a unit', irHow:'1) Study the unit’s target words (Vocabulary tab). 2) Read Reading 1 and answer the True/False questions — target words are highlighted. 3) Do Reading 2 the same way. 4) Do the exercises in your notebook and check them with the answer key.',
+ irExHint:'Write your answers, then check them with the key.', irShowAll:'Show all answers', irHideAll:'Hide all answers', irShowKey:'Show answer', irHideKey:'Hide answer', irPage:'Book p.', irTwHint:'target words are underlined',
+ irK_byr:'Before you read', irK_skill:'Reading skill', irK_review:'Review a skill', irK_voc:'Vocabulary activities', irK_rcx:'Reading comprehension', irK_wd:'Writing & discussion', irK_sar:'Self-assessment',
+ rh_tf:'TRUE = the passage says this · FALSE = the passage does not agree with it.'
+});
+Object.assign(I18N.fa, {
+ irLoadErr:'بارگیری کتاب ممکن نشد. اتصال اینترنت را بررسی کنید و دوباره تلاش کنید.', irUnits:'یونیت‌ها', irUnitsS:'هر یونیت: ۲ متن · تمرین‌ها با پاسخ‌نامه · لغات هدف', irReadings:'متن‌ها', irSkill:'مهارت', irReadingN:'متن {n}', irExercises:'تمرین‌ها', irUnit:'یونیت', irTargetWords:'لغت هدف', irWords:'لغات',
+ irHowTitle:'روش مطالعهٔ هر یونیت', irHow:'۱) اول لغات هدف یونیت را یاد بگیرید (زبانهٔ لغات). ۲) متن ۱ را بخوانید و به سؤال‌های درست/نادرست جواب دهید — لغات هدف در متن مشخص شده‌اند. ۳) متن ۲ را هم همین‌طور. ۴) تمرین‌ها را در دفترتان حل کنید و با پاسخ‌نامه چک کنید.',
+ irExHint:'جواب‌ها را بنویسید و بعد با پاسخ‌نامه مقایسه کنید.', irShowAll:'نمایش همهٔ پاسخ‌ها', irHideAll:'پنهان کردن پاسخ‌ها', irShowKey:'نمایش پاسخ', irHideKey:'پنهان کردن پاسخ', irPage:'صفحهٔ کتاب', irTwHint:'لغات هدف زیرخط دارند',
+ irK_byr:'پیش از خواندن', irK_skill:'مهارت ریدینگ', irK_review:'مرور مهارت', irK_voc:'تمرین واژگان', irK_rcx:'درک مطلب', irK_wd:'نوشتن و بحث', irK_sar:'خودارزیابی',
+ rh_tf:'TRUE = متن همین را می‌گوید · FALSE = متن با آن موافق نیست.'
+});

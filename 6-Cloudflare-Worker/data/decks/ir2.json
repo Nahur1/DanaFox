@@ -1,0 +1,1741 @@
+{
+ "cat": "ir2",
+ "words": [
+  {
+   "id": "ir2:assume",
+   "word": "assume",
+   "pos": "v",
+   "fa": "فرض کردن، پنداشتن",
+   "def_": "/əˈsuːm/ · presume",
+   "level": 1,
+   "exs": [
+    "The homes are essentially artificial caves, but don’t assume there is anything primitive about them.",
+    "I think we can safely assume that he is out of town.",
+    "I assume you have heard the news."
+   ]
+  },
+  {
+   "id": "ir2:create",
+   "word": "create",
+   "pos": "v",
+   "fa": "ایجاد کردن، خلق کردن، ساختن",
+   "def_": "/kriˈeɪt/ · make, produce",
+   "level": 1,
+   "exs": [
+    "To create a typical dug-out, you need a hill and a drill.",
+    "He believes the universe was created by a big explosion."
+   ]
+  },
+  {
+   "id": "ir2:emerge",
+   "word": "emerge",
+   "pos": "v",
+   "fa": "پدیدار شدن، ظاهر شدن",
+   "def_": "/ɪˈmɜːrdʒ/ · appear",
+   "level": 1,
+   "exs": [
+    "If the hill doesn’t have a side of exposed rock, bulldozers push sand and loose soil away until a sandstone face emerges.",
+    "The facts emerged after a lengthy investigation.",
+    "New species emerged after the ice age."
+   ]
+  },
+  {
+   "id": "ir2:environment",
+   "word": "environment",
+   "pos": "n",
+   "fa": "محیط، محیط زیست",
+   "def_": "/ɪnˈvaɪrənmənt/ · surroundings; the natural world",
+   "level": 1,
+   "exs": [
+    "In hopes of getting rich, gemstone miners endure the harsh outback environment.",
+    "We're trying to create a better business environment.",
+    "We must protect the environment."
+   ]
+  },
+  {
+   "id": "ir2:ethnic",
+   "word": "ethnic",
+   "pos": "adj",
+   "fa": "قومی، نژادی",
+   "def_": "/ˈeθnɪk/ · racial, tribal",
+   "level": 1,
+   "exs": [
+    "The current population of 3,500 includes members of more than 40 ethnic or national groups, including Greeks, Poles, Germans, Italians, Serbs, and Croats.",
+    "The school teaches pupils from different ethnic groups.",
+    "The city has many ethnic groups."
+   ]
+  },
+  {
+   "id": "ir2:immigrate",
+   "word": "immigrate",
+   "pos": "v",
+   "fa": "مهاجرت کردن (به کشوری)",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "Most miners arrived in the 1960s and 1970s, immigrating to Australia and Coober Pedy from around the globe.",
+    "His parents immigrated to Canada in 1990."
+   ]
+  },
+  {
+   "id": "ir2:liberal",
+   "word": "liberal",
+   "pos": "adj",
+   "fa": "آزادی‌خواه، لیبرال",
+   "def_": "/ˈlɪbərəl/ · with a lot of political & economic freedom",
+   "level": 1,
+   "exs": [
+    "The miners may enjoy a rough kind of fun—including occasional fights—but the community takes a liberal attitude toward this behavior.",
+    "liberal attitudes/views/ policies"
+   ]
+  },
+  {
+   "id": "ir2:locate",
+   "word": "locate",
+   "pos": "v",
+   "fa": "پیدا کردن (مکان)؛ قرار دادن",
+   "def_": "/ləʊˈkeɪt/ · to find the exact position of; to put in a place",
+   "level": 1,
+   "exs": [
+    "Just outside town are colorful rocky areas, used as the location for numerous films, including Red Planet and Mad Max Beyond Thunderdome."
+   ]
+  },
+  {
+   "id": "ir2:notwithstanding",
+   "word": "notwithstanding",
+   "pos": "prep",
+   "fa": "با وجود، علی‌رغم",
+   "def_": "/ˌnɑːtwɪθˈstændɪŋ/ · in spite of",
+   "level": 1,
+   "exs": [
+    "Its rough edges notwithstanding, Coober Pedy has a warmth and raw charm.",
+    "Notwithstanding his parents objections; he left of the house.",
+    "Notwithstanding the costs, the project continued."
+   ]
+  },
+  {
+   "id": "ir2:predict",
+   "word": "predict",
+   "pos": "v",
+   "fa": "پیش‌بینی کردن",
+   "def_": "/prɪˈdɪkt/ · foretell, forecast",
+   "level": 1,
+   "exs": [
+    "Some town planners predict that Coober Pedy will sprawl out to great distances as more miners seek a place to dig.",
+    "Newspapers predicted that Davis would be re- elected.",
+    "Experts predict more rain."
+   ]
+  },
+  {
+   "id": "ir2:similar",
+   "word": "similar",
+   "pos": "adj",
+   "fa": "مشابه، همانند",
+   "def_": "/ˈsɪmələr/ · almost the same",
+   "level": 1,
+   "exs": [
+    "Three-bedroom plans are common, and having your cave drilled out costs about the same as building a new above-ground home of similar size.",
+    "We have similar tastes in music."
+   ]
+  },
+  {
+   "id": "ir2:structure",
+   "word": "structure",
+   "pos": "n",
+   "fa": "ساختار، ساختمان",
+   "def_": "/ˈstrʌktʃər/ · n., v. · building or form",
+   "level": 1,
+   "exs": [
+    "Needless to say, the structure is solid, which creates some challenges.",
+    "the structure of an atom",
+    "The structure of DNA is a double helix."
+   ]
+  },
+  {
+   "id": "ir2:technique",
+   "word": "technique",
+   "pos": "n",
+   "fa": "فن، تکنیک، روش",
+   "def_": "/tekˈniːk/ · method",
+   "level": 1,
+   "exs": [
+    "Drilling, with huge machines meant to dig tunnels through mountains, is now the technique of choice.",
+    "We learned some techniques for relieving stress."
+   ]
+  },
+  {
+   "id": "ir2:unique",
+   "word": "unique",
+   "pos": "adj",
+   "fa": "منحصربه‌فرد، بی‌نظیر",
+   "def_": "/juˈniːk/ · be the only one of its kind",
+   "level": 1,
+   "exs": [
+    "Some fell in love with the unique (though sometimes scary) scenery.",
+    "Each person's DNA is unique.",
+    "Every person's fingerprints are unique."
+   ]
+  },
+  {
+   "id": "ir2:consume",
+   "word": "consume",
+   "pos": "v",
+   "fa": "مصرف کردن",
+   "def_": "/kənˈsuːm/ · use",
+   "level": 2,
+   "exs": [
+    "To turn things around, you have to convert your product’s old-fashioned image into something new, and make sure consumers get the message.",
+    "Many consumers are not comfortable making purchases on the Internet.",
+    "Cows consume a lot of grass."
+   ]
+  },
+  {
+   "id": "ir2:contradict",
+   "word": "contradict",
+   "pos": "v",
+   "fa": "تناقض داشتن",
+   "def_": "to be opposite to",
+   "level": 2,
+   "exs": [
+    "When that happens to a brand with a worldwide presence, the company may get contradictory results.",
+    "The new data contradict the earlier findings.",
+    "The evidence contradicts his story."
+   ]
+  },
+  {
+   "id": "ir2:convert",
+   "word": "convert",
+   "pos": "v",
+   "fa": "تبدیل کردن",
+   "def_": "/kənˈvɜːrt/ · change",
+   "level": 2,
+   "exs": [
+    "To turn things around, you have to convert your product’s old-fashioned image into something new, and make sure consumers get the message.",
+    "The sofa converts to a bed."
+   ]
+  },
+  {
+   "id": "ir2:corporate",
+   "word": "corporate",
+   "pos": "adj",
+   "fa": "شرکتی",
+   "def_": "≈ organizational, business-related — Cambridge 15 · Test 1 · Passage 2: Corporate Social Responsibility (CSR)",
+   "level": 2,
+   "exs": [
+    "The McDonald’s restaurant franchise offers just one prominent case of a corporation fighting to guide its brand through these difficult situations.",
+    "Corporate policies must align with ethical principles."
+   ]
+  },
+  {
+   "id": "ir2:equate",
+   "word": "equate",
+   "pos": "v",
+   "fa": "برابر دانستن، یکی دانستن",
+   "def_": "/iˈkweɪt/ · to consider one thing to be the same as another",
+   "level": 2,
+   "exs": [
+    "They must equate your product with some larger idea that has nothing to do with shoes—beauty, wealth, or even world peace."
+   ]
+  },
+  {
+   "id": "ir2:finance",
+   "word": "finance",
+   "pos": "n",
+   "fa": "امور مالی؛ تأمین مالی کردن",
+   "def_": "/ˈfaɪnæns/ · the management of money; to provide money for",
+   "level": 2,
+   "exs": [
+    "It can finance many of its operations by, for instance, allowing its name to appear on products and selling advertising space alongside its racetracks."
+   ]
+  },
+  {
+   "id": "ir2:label",
+   "word": "label",
+   "pos": "n",
+   "fa": "برچسب",
+   "def_": "/ˈleɪbl/ · tag",
+   "level": 2,
+   "exs": [
+    "The brand is a kind of label, a device for creating recognition.",
+    "The name is prominently displayed on the label."
+   ]
+  },
+  {
+   "id": "ir2:medium",
+   "word": "medium",
+   "pos": "n",
+   "fa": "رسانه، وسیله، واسطه",
+   "def_": "/ˈmiːdiəm/ · means, method",
+   "level": 2,
+   "exs": [
+    "Because NASCAR has a connection to such a large segment of the population, it is a medium in itself.",
+    "using the latest technology as a medium for job creation"
+   ]
+  },
+  {
+   "id": "ir2:presume",
+   "word": "presume",
+   "pos": "v",
+   "fa": "فرض کردن، گمان کردن",
+   "def_": "/prɪˈzuːm/ · assume, suppose",
+   "level": 2,
+   "exs": [
+    "A customer might buy Nike shoes because she considers herself a no-nonsense athlete—and she wants others to presume this, too.",
+    "There is no scientific evidence to support such presumptions.",
+    "I presume you have read the report."
+   ]
+  },
+  {
+   "id": "ir2:register",
+   "word": "register",
+   "pos": "v",
+   "fa": "ثبت‌نام کردن، ثبت کردن",
+   "def_": "/ˈredʒɪstər/ · enroll",
+   "level": 2,
+   "exs": [
+    "It even registers with people who have never seen one of the company’s cars.",
+    "How many students have registered for English classes?"
+   ]
+  },
+  {
+   "id": "ir2:revenue",
+   "word": "revenue",
+   "pos": "n",
+   "fa": "درآمد (دولت یا شرکت)",
+   "def_": "/ˈrevənuː/ · income",
+   "level": 2,
+   "exs": [
+    "Nevertheless, other companies have sped past you in the race for fame and the revenue that goes with it.",
+    "advertising revenue"
+   ]
+  },
+  {
+   "id": "ir2:subsidy",
+   "word": "subsidy",
+   "pos": "n",
+   "fa": "یارانه، کمک مالی دولتی",
+   "def_": "≈ financial aid, grant — Cambridge 10 · Test 2 · Passage 1: European Transport Systems",
+   "level": 2,
+   "exs": [
+    "For TV networks and movie companies, product placement is great because it costs very little while earning significant income to help subsidize their shows and films.",
+    "Governments offer subsidies for electric buses."
+   ]
+  },
+  {
+   "id": "ir2:symbol",
+   "word": "symbol",
+   "pos": "n",
+   "fa": "نماد",
+   "def_": "/ˈsɪmbl/ · an object or picture that represents sth else",
+   "level": 2,
+   "exs": [
+    "Products with the logos of the other companies are status symbols.",
+    "Wedding rings are symbols of eternal love."
+   ]
+  },
+  {
+   "id": "ir2:theme",
+   "word": "theme",
+   "pos": "n",
+   "fa": "مضمون، موضوع اصلی",
+   "def_": "/θiːm/ · main idea",
+   "level": 2,
+   "exs": [
+    "Rolls-Royce turned 100 years old in 2004, and the brand continues to use the themes of integrity, dependability, and even Britishness in its advertising.",
+    "The book's theme is the conflict between love and duty."
+   ]
+  },
+  {
+   "id": "ir2:adjacent",
+   "word": "adjacent",
+   "pos": "adj",
+   "fa": "مجاور، همسایه",
+   "def_": "/əˈdʒeɪsnt/ · near or close to",
+   "level": 3,
+   "exs": [
+    "The difference in types of systems is illustrated by another camera system in Tampa, this one in Ybor City, an entertainment district adjacent to downtown Tampa.",
+    "They lived in a house adjacent to the railway.",
+    "The lab is adjacent to the library."
+   ]
+  },
+  {
+   "id": "ir2:analyze",
+   "word": "analyze",
+   "pos": "v",
+   "fa": "تحلیل کردن",
+   "def_": "to examine in detail",
+   "level": 3,
+   "exs": [
+    "It analyzes facial characteristics (the features of the face) to establish a person’s identity.",
+    "Scientists analyzed the data.",
+    "Scientists analyzed the water samples."
+   ]
+  },
+  {
+   "id": "ir2:anticipate",
+   "word": "anticipate",
+   "pos": "v",
+   "fa": "پیش‌بینی کردن، انتظار داشتن",
+   "def_": "/ænˈtɪsɪpeɪt/ · expect, predict",
+   "level": 3,
+   "exs": [
+    "The organizers of any huge sporting event have to anticipate trouble and try to stop it before it starts.",
+    "Are you anticipating a lot of people at the party tonight?",
+    "We anticipate a busy summer."
+   ]
+  },
+  {
+   "id": "ir2:consequent",
+   "word": "consequent",
+   "pos": "adj",
+   "fa": "ناشی از، حاصل",
+   "def_": "/ˈkɒnsɪkwənt/ · happening as a result of something",
+   "level": 3,
+   "exs": [
+    "The police might see a crime as it was happening or use the video to help in any consequent investigations."
+   ]
+  },
+  {
+   "id": "ir2:controversy",
+   "word": "controversy",
+   "pos": "n",
+   "fa": "جدل، مناقشه",
+   "def_": "/ˈkɑːntrəvɜːrsi/ · dispute, debate",
+   "level": 3,
+   "exs": [
+    "In the United States, it has stirred some controversy about possible threats to the privacy rights of individuals.",
+    "The judges' decision provoked controversy.",
+    "The decision caused controversy."
+   ]
+  },
+  {
+   "id": "ir2:data",
+   "word": "data",
+   "pos": "n",
+   "fa": "داده‌ها، اطلاعات",
+   "def_": "/ˈdeɪtə, ˈdɑːtə/ · information or facts",
+   "level": 3,
+   "exs": [
+    "Each face seen by the gate-mounted cameras was compared to the data in local and federal law-enforcement computer systems.",
+    "The analysis was based on data collected in the field.",
+    "The data show a clear pattern."
+   ]
+  },
+  {
+   "id": "ir2:device",
+   "word": "device",
+   "pos": "n",
+   "fa": "دستگاه، وسیله",
+   "def_": "/dɪˈvaɪs/ · tool",
+   "level": 3,
+   "exs": [
+    "They argue that machines are easily fooled by such simple devices as hats, new hairstyles, or glasses.",
+    "a device for separating metal from garbage."
+   ]
+  },
+  {
+   "id": "ir2:equip",
+   "word": "equip",
+   "pos": "v",
+   "fa": "مجهز کردن",
+   "def_": "/ɪˈkwɪp/ · to provide with the tools or things needed",
+   "level": 3,
+   "exs": [
+    "Banks, shopping malls, and government buildings are already equipped with security cameras, and no one has a problem with that."
+   ]
+  },
+  {
+   "id": "ir2:federal",
+   "word": "federal",
+   "pos": "adj",
+   "fa": "فدرال، مربوط به دولت مرکزی",
+   "def_": "/ˈfedərəl/ · relating to the central government of a country",
+   "level": 3,
+   "exs": [
+    "Each face seen by the gate-mounted cameras was compared to the data in local and federal law-enforcement computer systems.",
+    "The US has local, state, and federal courts."
+   ]
+  },
+  {
+   "id": "ir2:involve",
+   "word": "involve",
+   "pos": "v",
+   "fa": "شامل شدن، در بر داشتن؛ درگیر کردن",
+   "def_": "/ɪnˈvɒlv/ · include",
+   "level": 3,
+   "exs": [
+    "One big difference is that a system like the one used at the Super Bowl involves “biometric” technology.",
+    "More than 30 software firms were involved in the project."
+   ]
+  },
+  {
+   "id": "ir2:justify",
+   "word": "justify",
+   "pos": "v",
+   "fa": "توجیه کردن",
+   "def_": "/ˈdʒʌstɪfaɪ/ · explain, rationalize",
+   "level": 3,
+   "exs": [
+    "Security officials say the face-recognition (FR) system’s great benefits justify any small inconvenience.",
+    "He tried to present a justification for his behavior.",
+    "Can the high cost be justified?"
+   ]
+  },
+  {
+   "id": "ir2:legal",
+   "word": "legal",
+   "pos": "adj",
+   "fa": "قانونی، حقوقی",
+   "def_": "/ˈliːɡəl/ · allowed by law",
+   "level": 3,
+   "exs": [
+    "The ID-making equipment can be legally purchased because it has other, perfectly legal uses.",
+    "What the company has done is perfectly legal."
+   ]
+  },
+  {
+   "id": "ir2:modify",
+   "word": "modify",
+   "pos": "v",
+   "fa": "اصلاح کردن، تغییر دادن",
+   "def_": "/ˈmɑːdɪfaɪ/ · change",
+   "level": 3,
+   "exs": [
+    "Then Tampa modified those cameras to link directly to the police department’s own database.",
+    "The regulations can only be modified by a special committee.",
+    "The plan was modified after the test."
+   ]
+  },
+  {
+   "id": "ir2:monitor",
+   "word": "monitor",
+   "pos": "v",
+   "fa": "نظارت کردن، پایش کردن",
+   "def_": "/ˈmɑːnɪtər/ · supervise, observe",
+   "level": 3,
+   "exs": [
+    "If a fan’s picture matches one in the database, security officials could closely monitor him or her and perhaps even make an arrest.",
+    "The temperature is carefully monitored."
+   ]
+  },
+  {
+   "id": "ir2:undertake",
+   "word": "undertake",
+   "pos": "v",
+   "fa": "بر عهده گرفتن، متعهد شدن",
+   "def_": "/ˌʌndərˈteɪk/ · promise to do",
+   "level": 3,
+   "exs": [
+    "A biometric system undertakes not just to display or record an event but to instantly identify the people involved in it.",
+    "Sometimes I undertake more projects than I can finish.",
+    "The university undertook a major research project."
+   ]
+  },
+  {
+   "id": "ir2:accumulate",
+   "word": "accumulate",
+   "pos": "v",
+   "fa": "انباشته شدن",
+   "def_": "to gather over time",
+   "level": 4,
+   "exs": [
+    "Neither side in this debate seems likely to accumulate the evidence necessary to settle the matter.",
+    "Snow accumulated on the roof.",
+    "Dust accumulates quickly in an empty house."
+   ]
+  },
+  {
+   "id": "ir2:adequate",
+   "word": "adequate",
+   "pos": "adj",
+   "fa": "کافی، مناسب",
+   "def_": "/ˈædɪkwət/ · sufficient · ≠ inadequate",
+   "level": 4,
+   "exs": [
+    "A background like that could not have been adequate for writing such brilliant plays.",
+    "He didn't give an adequate answer to the question.",
+    "The hotel offers adequate parking."
+   ]
+  },
+  {
+   "id": "ir2:author",
+   "word": "author",
+   "pos": "n",
+   "fa": "نویسنده، مؤلف",
+   "def_": "/ˈɒːθər/ · writer",
+   "level": 4,
+   "exs": [
+    "Oxfordians say the actor Shakespeare was too poorly educated to have been the author of the plays.",
+    "He is the author of three books on art."
+   ]
+  },
+  {
+   "id": "ir2:debate",
+   "word": "debate",
+   "pos": "v",
+   "fa": "بحث کردن، مناظره کردن",
+   "def_": "/dɪˈbeɪt/ · discuss",
+   "level": 4,
+   "exs": [
+    "The strongest current debate is between groups known as the Oxfordians and the Stratfordians.",
+    "There has been much discussion about prices.",
+    "There is a heated debate about nuclear power."
+   ]
+  },
+  {
+   "id": "ir2:depress",
+   "word": "depress",
+   "pos": "v",
+   "fa": "افسرده کردن؛ کاهش دادن، رکود ایجاد کردن",
+   "def_": "/dɪˈpres/ · to make sad; to reduce activity or value",
+   "level": 4,
+   "exs": [
+    "For example, the perceptive portrayal of emotional depression in Hamlet seems to indicate that the author had experienced the ailment."
+   ]
+  },
+  {
+   "id": "ir2:indicate",
+   "word": "indicate",
+   "pos": "v",
+   "fa": "نشان دادن، حاکی بودن از",
+   "def_": "/ˈɪndɪkeɪt/ · show, demonstrate",
+   "level": 4,
+   "exs": [
+    "For example, the perceptive portrayal of emotional depression in Hamlet seems to indicate that the author had experienced the ailment.",
+    "Research indicates that teachers are dissatisfied with their salary.",
+    "The results indicate a strong link."
+   ]
+  },
+  {
+   "id": "ir2:invest",
+   "word": "invest",
+   "pos": "v",
+   "fa": "سرمایه‌گذاری کردن",
+   "def_": "/ɪnˈvest/ · put money in sth",
+   "level": 4,
+   "exs": [
+    "He was just an actor and an occasional real-estate investor.",
+    "I've got a few thousand dollars to invest.",
+    "The country invested heavily in railways."
+   ]
+  },
+  {
+   "id": "ir2:persist",
+   "word": "persist",
+   "pos": "v",
+   "fa": "پافشاری کردن؛ ادامه یافتن",
+   "def_": "/pəˈsɪst/ · to continue firmly; to continue to exist",
+   "level": 4,
+   "exs": [
+    "But the Oxford camp persists in their position."
+   ]
+  },
+  {
+   "id": "ir2:precede",
+   "word": "precede",
+   "pos": "v",
+   "fa": "مقدم بودن بر، پیش از چیزی آمدن",
+   "def_": "/prɪˈsiːd/ · come before, come first",
+   "level": 4,
+   "exs": [
+    "A great deal of careful work has confirmed these dates, and most Oxfordians reluctantly concede that de Vere’s death preceded the appearance of these plays.",
+    "in the moments which immediately preceded the earthquake"
+   ]
+  },
+  {
+   "id": "ir2:protocol",
+   "word": "protocol",
+   "pos": "n",
+   "fa": "پروتکل، آداب رسمی",
+   "def_": "/ˈprəʊtəkɑːl/ · customs, rituals, treaty",
+   "level": 4,
+   "exs": [
+    "The Oxford camp claims that de Vere wanted to hide his authorship because it went against protocol for the noble class.",
+    "The soldier's actions constitute a breach of military protocol."
+   ]
+  },
+  {
+   "id": "ir2:reluctance",
+   "word": "reluctance",
+   "pos": "n",
+   "fa": "بی‌میلی، اکراه",
+   "def_": "/rɪˈlʌktəns/ · unwillingness to do something",
+   "level": 4,
+   "exs": [
+    "A great deal of careful work has confirmed these dates, and most Oxfordians reluctantly concede that de Vere’s death preceded the appearance of these plays."
+   ]
+  },
+  {
+   "id": "ir2:sustain",
+   "word": "sustain",
+   "pos": "v",
+   "fa": "حفظ کردن، ادامه دادن؛ متحمل شدن",
+   "def_": "/səˈsteɪn/ · to keep something going; to experience (damage)",
+   "level": 4,
+   "exs": [
+    "The part hardest to believe is that a plan like that could be sustained for decades without the secret being revealed."
+   ]
+  },
+  {
+   "id": "ir2:text",
+   "word": "text",
+   "pos": "n",
+   "fa": "متن",
+   "def_": "/tekst/ · textbook, passage",
+   "level": 4,
+   "exs": [
+    "In addition, the texts of many Shakespeare plays contain references to events after 1604.",
+    "Students will read and discuss various literary texts."
+   ]
+  },
+  {
+   "id": "ir2:volume",
+   "word": "volume",
+   "pos": "n",
+   "fa": "حجم، مقدار؛ جلد (کتاب)",
+   "def_": "/ˈvɑːljəm/ · amount",
+   "level": 4,
+   "exs": [
+    "The sheer volume of Shakespeare’s work—37 plays, 154 sonnets, 2 other poems, and an elegy—has led to suggestions that “William Shakespeare” was actually several people, not one.",
+    "The volume is too loud. Can you turn the volume down?"
+   ]
+  },
+  {
+   "id": "ir2:assist",
+   "word": "assist",
+   "pos": "v",
+   "fa": "کمک کردن، یاری رساندن",
+   "def_": "/əˈsɪst/ · to help someone do something",
+   "level": 5,
+   "exs": [
+    "Anyone with an Internet connection can find that information in five minutes, without any assistance from a highly paid meteorologist."
+   ]
+  },
+  {
+   "id": "ir2:coherent",
+   "word": "coherent",
+   "pos": "adj",
+   "fa": "منسجم",
+   "def_": "logical and consistent",
+   "level": 5,
+   "exs": [
+    "The expert analysis draws scattered facts together into a coherent picture.",
+    "She presented a coherent argument.",
+    "He gave a clear and coherent explanation."
+   ]
+  },
+  {
+   "id": "ir2:core",
+   "word": "core",
+   "pos": "n",
+   "fa": "هسته، مرکز",
+   "def_": "/kɔːr/ · central part of sth",
+   "level": 5,
+   "exs": [
+    "His insurance company disputes the core argument of his case—that the damage was done by hail.",
+    "Debt is at the core of the problem.",
+    "The Earth's core is extremely hot."
+   ]
+  },
+  {
+   "id": "ir2:energy",
+   "word": "energy",
+   "pos": "n",
+   "fa": "انرژی، نیرو",
+   "def_": "/ˈenərdʒi/ · the ability to do work",
+   "level": 5,
+   "exs": [
+    "The destructive energy of hail, she testifies, produces damage from above, not from the side.",
+    "Helping people takes time and energy.",
+    "Solar energy is becoming cheaper."
+   ]
+  },
+  {
+   "id": "ir2:ensure",
+   "word": "ensure",
+   "pos": "v",
+   "fa": "اطمینان حاصل کردن، تضمین کردن",
+   "def_": "/ɪnˈʃʊər/ · make sure",
+   "level": 5,
+   "exs": [
+    "So what ensures that someone claiming to be a forensic meteorologist really is?",
+    "The book ensured his success.",
+    "Please ensure that all windows are closed."
+   ]
+  },
+  {
+   "id": "ir2:exhibit",
+   "word": "exhibit",
+   "pos": "v",
+   "fa": "نمایش دادن، به نمایش گذاشتن",
+   "def_": "/ɪɡˈzɪbɪt/ · show",
+   "level": 5,
+   "exs": [
+    "This case exhibits how meteorology can be considered a branch of forensic science.",
+    "They will be exhibiting a collection of paintings."
+   ]
+  },
+  {
+   "id": "ir2:interval",
+   "word": "interval",
+   "pos": "n",
+   "fa": "فاصله، وقفه",
+   "def_": "/ˈɪntərvəl/ · period of time between 2 events",
+   "level": 5,
+   "exs": [
+    "But in that short interval, the character of the storm changed.",
+    "We see each other at regular intervals -once a month.",
+    "Trees were planted at regular intervals."
+   ]
+  },
+  {
+   "id": "ir2:orient",
+   "word": "orient",
+   "pos": "v",
+   "fa": "جهت دادن؛ آشنا کردن",
+   "def_": "/ˈɔːrient/ · to direct toward; to help someone become familiar",
+   "level": 5,
+   "exs": [
+    "An expert's true value is presenting data to orient you to the general circumstances and then interpreting that data and pointing out possibilities."
+   ]
+  },
+  {
+   "id": "ir2:phenomenon",
+   "word": "phenomenon",
+   "pos": "n",
+   "fa": "پدیده",
+   "def_": "/fəˈnɑːmɪnən/ · event, happening",
+   "level": 5,
+   "exs": [
+    "Many people interpreted the brutal heat as evidence that the climate of Earth really has changed, that the phenomenon known as global warming has really set in.",
+    "natural phenomena like lightning and earthquakes",
+    "Globalization is a modern phenomenon."
+   ]
+  },
+  {
+   "id": "ir2:previous",
+   "word": "previous",
+   "pos": "adj",
+   "fa": "قبلی، پیشین",
+   "def_": "/ˈpriːviəs/ · past, former",
+   "level": 5,
+   "exs": [
+    "Could the previous witness have seen the defendant talking?",
+    "I had met them the previous day."
+   ]
+  },
+  {
+   "id": "ir2:reinforce",
+   "word": "reinforce",
+   "pos": "v",
+   "fa": "تقویت کردن",
+   "def_": "/ˌriːɪnˈfɔːrs/ · strengthen",
+   "level": 5,
+   "exs": [
+    "These doubts are reinforced when the meteorologist explains that radar data also show an extremely strong burst of wind at the farm's location.",
+    "You should reinforce your argument by giving more facts.",
+    "The walls were reinforced with steel."
+   ]
+  },
+  {
+   "id": "ir2:route",
+   "word": "route",
+   "pos": "n",
+   "fa": "مسیر، راه",
+   "def_": "/ruːt/ · way, road",
+   "level": 5,
+   "exs": [
+    "The best route to professional status is to earn the title of Certified Consulting Meteorologist from the American Meteorological Society (AMS).",
+    "We live on a rural route.",
+    "The Silk Road was a famous trade route."
+   ]
+  },
+  {
+   "id": "ir2:section",
+   "word": "section",
+   "pos": "n",
+   "fa": "بخش، قسمت",
+   "def_": "/ˈsekʃən/ · part, piece",
+   "level": 5,
+   "exs": [
+    "A large section of his cornfield has been flattened.",
+    "She taught three sections of English composition."
+   ]
+  },
+  {
+   "id": "ir2:strategy",
+   "word": "strategy",
+   "pos": "n",
+   "fa": "راهبرد، استراتژی",
+   "def_": "/ˈstrætɪdʒi/ · skilful planning",
+   "level": 5,
+   "exs": [
+    "His strategy was to make the jury doubt what they had just heard.",
+    "He was a genius when it came to military strategy."
+   ]
+  },
+  {
+   "id": "ir2:allocate",
+   "word": "allocate",
+   "pos": "v",
+   "fa": "تخصیص دادن، اختصاص دادن",
+   "def_": "/ˈæləkeɪt/ · give,assign",
+   "level": 6,
+   "exs": [
+    "The key to health is to allocate a percentage of your fat intake to each type of fat.",
+    "The government allocated enough funds to infrastructures.",
+    "The council allocated funds to new schools."
+   ]
+  },
+  {
+   "id": "ir2:commit",
+   "word": "commit",
+   "pos": "v",
+   "fa": "متعهد شدن؛ مرتکب شدن",
+   "def_": "/kəˈmɪt/ · to promise to do something; to do something wrong",
+   "level": 6,
+   "exs": [
+    "It is smart to commit to a balanced-fat diet, not to a no-fat diet."
+   ]
+  },
+  {
+   "id": "ir2:compile",
+   "word": "compile",
+   "pos": "v",
+   "fa": "گردآوری کردن",
+   "def_": "/kəmˈpaɪl/ · gather together",
+   "level": 6,
+   "exs": [
+    "The research team compiled data on how long each child focused on a toy.",
+    "He compiled a book of poems."
+   ]
+  },
+  {
+   "id": "ir2:coordinate",
+   "word": "coordinate",
+   "pos": "v",
+   "fa": "هماهنگ کردن",
+   "def_": "/kəʊˈɔːdɪneɪt/ · to organize people or things to work together",
+   "level": 6,
+   "exs": [
+    "Many therapists now say they are determined to coordinate psychological therapy with dietary therapy in order to rely less on drugs."
+   ]
+  },
+  {
+   "id": "ir2:discrete",
+   "word": "discrete",
+   "pos": "adj",
+   "fa": "مجزا، جداگانه",
+   "def_": "/dɪˈskriːt/ · separate",
+   "level": 6,
+   "exs": [
+    "Instead of conceiving of it as a single thing, we have to recognize it as several discrete types of a similar compound.",
+    "The organisms can be divided into discrete categories."
+   ]
+  },
+  {
+   "id": "ir2:journal",
+   "word": "journal",
+   "pos": "n",
+   "fa": "مجله (علمی)؛ دفتر خاطرات",
+   "def_": "/ˈdʒɜːrnl/ · diary",
+   "level": 6,
+   "exs": [
+    "In psychology and physiology journals, articles routinely confirm the value of omega-3 fatty acids.",
+    "He decided to keep a journal."
+   ]
+  },
+  {
+   "id": "ir2:mental",
+   "word": "mental",
+   "pos": "adj",
+   "fa": "ذهنی، روانی",
+   "def_": "/ˈmentl/ · involving the mind or intellectual processes",
+   "level": 6,
+   "exs": [
+    "A diet high in saturated fat can also make you depressed and antisocial, and impair your general mental performance.",
+    "The very old man still had all his mental powers."
+   ]
+  },
+  {
+   "id": "ir2:overall",
+   "word": "overall",
+   "pos": "adj",
+   "fa": "کلی، روی‌هم‌رفته",
+   "def_": "/ˌəʊvərˈɔːl/ · in general",
+   "level": 6,
+   "exs": [
+    "The smart approach is to keep your overall fat intake low and make sure that most of it is in the form of unsaturated fats.",
+    "Overall, the project was successful."
+   ]
+  },
+  {
+   "id": "ir2:paradigm",
+   "word": "paradigm",
+   "pos": "n",
+   "fa": "الگو، پارادایم",
+   "def_": "/ˈpærədaɪm/ · example, model, pattern",
+   "level": 6,
+   "exs": [
+    "To understand its nutritional benefits, however, we have to change the paradigm for how we think about fat.",
+    "a new study that challenges the current evolutionary paradigm",
+    "The discovery caused a paradigm shift."
+   ]
+  },
+  {
+   "id": "ir2:period",
+   "word": "period",
+   "pos": "n",
+   "fa": "دوره، مدت",
+   "def_": "/ˈpɪəriəd/ · a length of time",
+   "level": 6,
+   "exs": [
+    "These children focused for longer periods and spent much less time simply looking around, unfocused.",
+    "We had two power failures in a five-month period.",
+    "The Victorian period lasted over 60 years."
+   ]
+  },
+  {
+   "id": "ir2:promote",
+   "word": "promote",
+   "pos": "v",
+   "fa": "ترفیع دادن؛ ترویج کردن",
+   "def_": "/prəˈməʊt/ · move to higher rank",
+   "level": 6,
+   "exs": [
+    "Beyond that level, saturated fat may promote heart disease and perhaps some types of cancer.",
+    "He was promoted to senior editor.",
+    "The campaign promotes healthy eating."
+   ]
+  },
+  {
+   "id": "ir2:prospect",
+   "word": "prospect",
+   "pos": "n",
+   "fa": "چشم‌انداز، احتمال",
+   "def_": "/ˈprɑːspekt/ · view, future",
+   "level": 6,
+   "exs": [
+    "This evidence improves the prospects for treating depressed patients effectively.",
+    "the frightening prospect of going to war",
+    "Graduates face poor job prospects."
+   ]
+  },
+  {
+   "id": "ir2:react",
+   "word": "react",
+   "pos": "v",
+   "fa": "واکنش نشان دادن",
+   "def_": "/riˈækt/ · to behave in a particular way as a response",
+   "level": 6,
+   "exs": [
+    "The right foods can help you concentrate, keep you motivated, sharpen your memory, speed your reaction time, reduce stress, and perhaps even prevent brain aging."
+   ]
+  },
+  {
+   "id": "ir2:team",
+   "word": "team",
+   "pos": "n",
+   "fa": "تیم، گروه",
+   "def_": "/tiːm/ · a group of people",
+   "level": 6,
+   "exs": [
+    "The research team compiled data on how long each child focused on a toy.",
+    "The company hired a team of lawyers to advise them."
+   ]
+  },
+  {
+   "id": "ir2:accommodate",
+   "word": "accommodate",
+   "pos": "v",
+   "fa": "جا دادن؛ وفق دادن، سازگار کردن",
+   "def_": "/əˈkɒmədeɪt/ · to provide space for; to adapt to needs",
+   "level": 7,
+   "exs": [
+    "The big opening along Africa’s western coast would easily accommodate the “hump” in South America’s eastern coastline."
+   ]
+  },
+  {
+   "id": "ir2:aid",
+   "word": "aid",
+   "pos": "n",
+   "fa": "کمک، یاری",
+   "def_": "/eɪd/ · assist, help",
+   "level": 7,
+   "exs": [
+    "Finally, in the late 20th century, the theory of plate tectonics came to the aid of the theory of continental drift.",
+    "economic/ financial/legal/emergency aid"
+   ]
+  },
+  {
+   "id": "ir2:community",
+   "word": "community",
+   "pos": "n",
+   "fa": "جامعه، اجتماع",
+   "def_": "/kəˈmjuːnəti/ · society",
+   "level": 7,
+   "exs": [
+    "Even before this theory of plate tectonics became accepted, many in the geological community believed Earth’s continents had moved during the history of the planet.",
+    "The festival was a great way for the local community to get together.",
+    "The community built a new park."
+   ]
+  },
+  {
+   "id": "ir2:comprehensive",
+   "word": "comprehensive",
+   "pos": "adj",
+   "fa": "جامع، کامل",
+   "def_": "/ˌkɑːmprɪˈhensɪv/ · thorough, complete, full",
+   "level": 7,
+   "exs": [
+    "It offered the comprehensive explanation of landmass movement that Wegener had been unable to provide.",
+    "a comprehensive history of the revolution.",
+    "The report gives a comprehensive overview."
+   ]
+  },
+  {
+   "id": "ir2:displace",
+   "word": "displace",
+   "pos": "v",
+   "fa": "جابه‌جا کردن، آواره کردن",
+   "def_": "/dɪsˈpleɪs/ · replace, shift",
+   "level": 7,
+   "exs": [
+    "Catastrophism was displaced by “uniformitarianism,” a term derived from the word uniform.",
+    "The building of a new dam will displace a lot of people.",
+    "The flood displaced thousands."
+   ]
+  },
+  {
+   "id": "ir2:evolve",
+   "word": "evolve",
+   "pos": "v",
+   "fa": "تکامل یافتن",
+   "def_": "to develop gradually",
+   "level": 7,
+   "exs": [
+    "More geologists began to think that the arrangement of today’s continents gradually evolved.",
+    "Birds evolved from dinosaurs.",
+    "The company has evolved into a global business."
+   ]
+  },
+  {
+   "id": "ir2:fluctuate",
+   "word": "fluctuate",
+   "pos": "v",
+   "fa": "نوسان داشتن",
+   "def_": "/ˈflʌktʃueɪt/ · vary, differ",
+   "level": 7,
+   "exs": [
+    "It fluctuates over very long time periods, and has clearly shifted several times.",
+    "The price of gold continually fluctuates.",
+    "Oil prices fluctuated throughout the year."
+   ]
+  },
+  {
+   "id": "ir2:integrate",
+   "word": "integrate",
+   "pos": "v",
+   "fa": "ادغام کردن، یکپارچه کردن",
+   "def_": "/ˈɪntɪɡreɪt/ · to combine parts into a whole; to become part of a group",
+   "level": 7,
+   "exs": [
+    "It integrated pieces of evidence ranging from volcanic activity to the formation of mountains to the distribution of fossil plants."
+   ]
+  },
+  {
+   "id": "ir2:intermediate",
+   "word": "intermediate",
+   "pos": "adj",
+   "fa": "متوسط، میانی",
+   "def_": "/ˌɪntərˈmiːdiət/ · middle, midway",
+   "level": 7,
+   "exs": [
+    "One of Wegener’s biggest supporters, Alexander Du Toit, proposed an intermediate stage.",
+    "intermediate learners of English"
+   ]
+  },
+  {
+   "id": "ir2:nuclear",
+   "word": "nuclear",
+   "pos": "adj",
+   "fa": "هسته‌ای",
+   "def_": "/ˈnuːkliər/ · atomic",
+   "level": 7,
+   "exs": [
+    "There were 162 quakes measuring more than 4 on the Richter scale in just two weeks—a quake measuring 5 on the scale releases as much energy as the nuclear explosion that destroyed Hiroshima in World War II.",
+    "the threat of nuclear attack"
+   ]
+  },
+  {
+   "id": "ir2:random",
+   "word": "random",
+   "pos": "adj",
+   "fa": "تصادفی",
+   "def_": "/ˈrændəm/ · by chance",
+   "level": 7,
+   "exs": [
+    "These similarities seemed too numerous to be random coincidences.",
+    "The computer will generate apparently random numbers."
+   ]
+  },
+  {
+   "id": "ir2:restrain",
+   "word": "restrain",
+   "pos": "v",
+   "fa": "مهار کردن، جلوگیری کردن",
+   "def_": "/rɪˈstreɪn/ · to stop or control someone or something",
+   "level": 7,
+   "exs": [
+    "Then, a revival of science in Europe restrained the imaginations of geographers."
+   ]
+  },
+  {
+   "id": "ir2:reverse",
+   "word": "reverse",
+   "pos": "adj",
+   "fa": "معکوس، وارونه",
+   "def_": "/rɪˈvɜːrs/ · backwards",
+   "level": 7,
+   "exs": [
+    "It also states that the trend toward separation will eventually reverse.",
+    "Can you say the alphabet in reverse order?"
+   ]
+  },
+  {
+   "id": "ir2:rigid",
+   "word": "rigid",
+   "pos": "adj",
+   "fa": "سخت، انعطاف‌ناپذیر",
+   "def_": "/ˈrɪdʒɪd/ · fixed, firm",
+   "level": 7,
+   "exs": [
+    "In geology, a plate is a large, rigid area of solid rock.",
+    "She maintained rigid control over her emotional and sexual life.",
+    "The rules are too rigid."
+   ]
+  },
+  {
+   "id": "ir2:transform",
+   "word": "transform",
+   "pos": "v",
+   "fa": "دگرگون کردن",
+   "def_": "to change completely",
+   "level": 7,
+   "exs": [
+    "According to this explanation, a few sudden, violent events (catastrophes) periodically transformed Earth’s surface.",
+    "The caterpillar transforms into a butterfly.",
+    "The internet has transformed the way we live."
+   ]
+  },
+  {
+   "id": "ir2:arbitrary",
+   "word": "arbitrary",
+   "pos": "adj",
+   "fa": "دلبخواهی، اختیاری، بی‌قاعده",
+   "def_": "/ˈɑːrbɪtreri/ · random, casual",
+   "level": 8,
+   "exs": [
+    "Most students mistakenly believe the roommate-assignment system is arbitrary.",
+    "He makes unpredictable, arbitrary decisions.",
+    "The rules seemed arbitrary."
+   ]
+  },
+  {
+   "id": "ir2:clause",
+   "word": "clause",
+   "pos": "n",
+   "fa": "بند، ماده (قانون)",
+   "def_": "/klɔːz/ · an item in a legal document",
+   "level": 8,
+   "exs": [
+    "Clauses in the user agreements for social-networking sites set some rules for profiles, but nothing in the agreement says they have to be true.",
+    "A confidentiality clause was added to the contract."
+   ]
+  },
+  {
+   "id": "ir2:converse",
+   "word": "converse",
+   "pos": "v",
+   "fa": "گفت‌وگو کردن؛ عکس، وارونه",
+   "def_": "/kənˈvɜːs/ · to have a conversation; the opposite",
+   "level": 8,
+   "exs": [
+    "Inside, in the cafeteria, a converse society exists."
+   ]
+  },
+  {
+   "id": "ir2:deviate",
+   "word": "deviate",
+   "pos": "v",
+   "fa": "منحرف شدن",
+   "def_": "/ˈdiːvieɪt/ · diverge, stray",
+   "level": 8,
+   "exs": [
+    "Any indication that a roommate’s life deviates from the familiar can heighten a student's fear of the unknown.",
+    "deviate from the normal procedure"
+   ]
+  },
+  {
+   "id": "ir2:diverse",
+   "word": "diverse",
+   "pos": "adj",
+   "fa": "متنوع",
+   "def_": "very different from each other",
+   "level": 8,
+   "exs": [
+    "They expect a diverse student body at almost any college, but many students fear diversity as much as they look forward to it.",
+    "London is a diverse city.",
+    "The city has a diverse population."
+   ]
+  },
+  {
+   "id": "ir2:domain",
+   "word": "domain",
+   "pos": "n",
+   "fa": "حوزه، قلمرو",
+   "def_": "/dəʊˈmeɪn/ · area, realm",
+   "level": 8,
+   "exs": [
+    "They are used to their rooms being their exclusive domains.",
+    "These documents are in the public domain."
+   ]
+  },
+  {
+   "id": "ir2:gender",
+   "word": "gender",
+   "pos": "n",
+   "fa": "جنسیت",
+   "def_": "/ˈdʒendər/ · sex",
+   "level": 8,
+   "exs": [
+    "The school might separate students by gender, they think, but beyond that it’s a matter of chance.",
+    "discrimination on the basis of race, gender or age"
+   ]
+  },
+  {
+   "id": "ir2:guarantee",
+   "word": "guarantee",
+   "pos": "n",
+   "fa": "ضمانت، تضمین",
+   "def_": "/ˌɡærənˈtiː/ · assurance",
+   "level": 8,
+   "exs": [
+    "They don’t guarantee roommates will get along, but they succeed much more often than they fail.",
+    "They wanted a guarantee that the document was authentic."
+   ]
+  },
+  {
+   "id": "ir2:inevitable",
+   "word": "inevitable",
+   "pos": "adj",
+   "fa": "اجتناب‌ناپذیر",
+   "def_": "certain to happen",
+   "level": 8,
+   "exs": [
+    "It’s inevitable that students will worry about potential problems with a roommate—a complete stranger.",
+    "Change is inevitable.",
+    "Change is inevitable in life."
+   ]
+  },
+  {
+   "id": "ir2:institute",
+   "word": "institute",
+   "pos": "v",
+   "fa": "برقرار کردن، راه‌اندازی کردن",
+   "def_": "/ˈɪnstɪtuːt/ · establish",
+   "level": 8,
+   "exs": [
+    "For that reason, some schools have instituted “reality training” for social networkers.",
+    "They have instituted new policies to increase public safety."
+   ]
+  },
+  {
+   "id": "ir2:intervene",
+   "word": "intervene",
+   "pos": "v",
+   "fa": "مداخله کردن، میانجی‌گری کردن",
+   "def_": "/ˌɪntərˈviːn/ · involve, intercede",
+   "level": 8,
+   "exs": [
+    "At some campuses, residential-life counselors have decided it’s easier to prevent roommate problems than to intervene in them later.",
+    "We do not need further government intervention.",
+    "The government intervened to stop prices rising."
+   ]
+  },
+  {
+   "id": "ir2:maximize",
+   "word": "maximize",
+   "pos": "v",
+   "fa": "به حداکثر رساندن",
+   "def_": "/ˈmæksɪmaɪz/ · to make as large or great as possible",
+   "level": 8,
+   "exs": [
+    "The idea is to maximize your attractiveness to people with tastes similar to yours."
+   ]
+  },
+  {
+   "id": "ir2:passive",
+   "word": "passive",
+   "pos": "adj",
+   "fa": "منفعل، غیرفعال",
+   "def_": "/ˈpæsɪv/ · inactive",
+   "level": 8,
+   "exs": [
+    "Since everything happens anonymously”, normally passive students can spring into investigative action without having to approach a live person.",
+    "He's very passive in the relationship."
+   ]
+  },
+  {
+   "id": "ir2:so-called",
+   "word": "so-called",
+   "pos": "adj",
+   "fa": "به‌اصطلاح",
+   "def_": "/ˌsəʊ ˈkɔːld/ · supposed",
+   "level": 8,
+   "exs": [
+    "Students in the so-called millennial generation, in particular, are anxious about sharing a room with another person.",
+    "The so-called manager had no idea how to manage."
+   ]
+  },
+  {
+   "id": "ir2:apparent",
+   "word": "apparent",
+   "pos": "adj",
+   "fa": "آشکار، ظاهری",
+   "def_": "/əˈpærənt/ · evident",
+   "level": 9,
+   "exs": [
+    "Someone, apparently not the best speller in town, spray-painted “Terrist” on their property.",
+    "The other team's superiority was apparent in the game.",
+    "For no apparent reason, he left."
+   ]
+  },
+  {
+   "id": "ir2:assign",
+   "word": "assign",
+   "pos": "v",
+   "fa": "واگذار کردن، تعیین کردن",
+   "def_": "/əˈsaɪn/ · designate",
+   "level": 9,
+   "exs": [
+    "When a report, script, article, or manuscript is being prepared, the fact-checkers are assigned to make sure everything is right.",
+    "UN troops were assigned the task of rebuilding the hospital."
+   ]
+  },
+  {
+   "id": "ir2:eliminate",
+   "word": "eliminate",
+   "pos": "v",
+   "fa": "حذف کردن، از بین بردن",
+   "def_": "/ɪˈlɪməneɪt/ · remove, omit",
+   "level": 9,
+   "exs": [
+    "In far more cases, fact-checking departments have been severely cut back or even eliminated.",
+    "Fatty foods should be eliminated from the diet.",
+    "We must eliminate errors from the report."
+   ]
+  },
+  {
+   "id": "ir2:emphasis",
+   "word": "emphasis",
+   "pos": "n",
+   "fa": "تأکید",
+   "def_": "/ˈemfəsɪs/ · stress",
+   "level": 9,
+   "exs": [
+    "Then, in the 1990s, managing editor Tina Brown, emphasizing accuracy, hired the people necessary to restore the department’s good reputation.",
+    "They placed great emphasis on the individual's freedom."
+   ]
+  },
+  {
+   "id": "ir2:ethic",
+   "word": "ethic",
+   "pos": "n",
+   "fa": "اخلاق، اصول اخلاقی",
+   "def_": "/ˈeθɪk/ · a set of moral principles",
+   "level": 9,
+   "exs": [
+    "Most journalists believe they have an ethical responsibility to be as accurate as possible."
+   ]
+  },
+  {
+   "id": "ir2:grant",
+   "word": "grant",
+   "pos": "v",
+   "fa": "اعطا کردن، پذیرفتن؛ کمک‌هزینه",
+   "def_": "/ɡrænt/ · admit, permit",
+   "level": 9,
+   "exs": [
+    "Even other publications granted that The New Yorker was the fact-checking champion.",
+    "My request was granted."
+   ]
+  },
+  {
+   "id": "ir2:ignorance",
+   "word": "ignorance",
+   "pos": "n",
+   "fa": "ناآگاهی، جهل",
+   "def_": "/ˈɪɡnərəns/ · lack of knowledge or information",
+   "level": 9,
+   "exs": [
+    "The editors of these publications were not ignorant of the president’s disability."
+   ]
+  },
+  {
+   "id": "ir2:insert",
+   "word": "insert",
+   "pos": "v",
+   "fa": "وارد کردن، داخل کردن",
+   "def_": "/ɪnˈsɜːrt/ · put into, inject",
+   "level": 9,
+   "exs": [
+    "Inserting this one important step in the process might have taken the staff 30 minutes or so.",
+    "Insert your credit card here."
+   ]
+  },
+  {
+   "id": "ir2:levy",
+   "word": "levy",
+   "pos": "n",
+   "fa": "مالیات، عوارض",
+   "def_": "/ˈlevi/ · tax",
+   "level": 9,
+   "exs": [
+    "If either the Voricks or the alleged terrorist decides to file a lawsuit, the court could levy huge penalties against the cable network, the commentator, or both.",
+    "The government imposed a levy on gasoline."
+   ]
+  },
+  {
+   "id": "ir2:perceive",
+   "word": "perceive",
+   "pos": "v",
+   "fa": "درک کردن، فهمیدن",
+   "def_": "/pərˈsiːv/ · notice, sense",
+   "level": 9,
+   "exs": [
+    "Many advertisers are nervous about purchasing air time on a network that is perceived as careless.",
+    "I perceived a change in his behavior.",
+    "How do others perceive you?"
+   ]
+  },
+  {
+   "id": "ir2:purchase",
+   "word": "purchase",
+   "pos": "v",
+   "fa": "خریدن، خریداری کردن",
+   "def_": "/ˈpɜːrtʃɪs/ · buy",
+   "level": 9,
+   "exs": [
+    "Many advertisers are nervous about purchasing air time on a network that is perceived as careless.",
+    "Tickets may be purchased in advance from the box office."
+   ]
+  },
+  {
+   "id": "ir2:restrict",
+   "word": "restrict",
+   "pos": "v",
+   "fa": "محدود کردن",
+   "def_": "/rɪˈstrɪkt/ · limit",
+   "level": 9,
+   "exs": [
+    "A copy editor might occasionally question a “fact” that seems incorrect, but newspapers operate under severe time restrictions.",
+    "He is on a severely restricted diet."
+   ]
+  },
+  {
+   "id": "ir2:submit",
+   "word": "submit",
+   "pos": "v",
+   "fa": "ارائه دادن، تسلیم کردن؛ تسلیم شدن",
+   "def_": "/səbˈmɪt/ · give in, accept",
+   "level": 9,
+   "exs": [
+    "Reporters are expected to get the facts right in the copy they submit.",
+    "All countries in the EU must submit to its laws."
+   ]
+  },
+  {
+   "id": "ir2:successor",
+   "word": "successor",
+   "pos": "n",
+   "fa": "جانشین",
+   "def_": "/səkˈsesə(r)/ · a person or thing that comes after another",
+   "level": 9,
+   "exs": [
+    "Photo-editing software is simply a far smarter successor to those tools."
+   ]
+  },
+  {
+   "id": "ir2:append",
+   "word": "append",
+   "pos": "v",
+   "fa": "پیوست کردن، افزودن (به انتها)",
+   "def_": "/əˈpend/ · to add something at the end of a text",
+   "level": 10,
+   "exs": [
+    "Like their close relatives, the bees, many species of ant have a sharp appendage, called a stinger, at the end of their body."
+   ]
+  },
+  {
+   "id": "ir2:chemical",
+   "word": "chemical",
+   "pos": "n",
+   "fa": "ماده شیمیایی؛ شیمیایی",
+   "def_": "/ˈkemɪkl/ · n., adj. · a substance produced by a chemical process",
+   "level": 10,
+   "exs": [
+    "These cells are filled with a chemical called “histamine.",
+    "The teacher showed us two kinds of chemical reactions today.",
+    "Farmers use chemicals to protect their crops."
+   ]
+  },
+  {
+   "id": "ir2:circumstance",
+   "word": "circumstance",
+   "pos": "n",
+   "fa": "شرایط، موقعیت",
+   "def_": "/ˈsɜːrkəmstæns/ · situation",
+   "level": 10,
+   "exs": [
+    "Following World War II, circumstances in the U.S. worked in the ants’ favor.",
+    "The circumstances of his death are suspicious."
+   ]
+  },
+  {
+   "id": "ir2:contact",
+   "word": "contact",
+   "pos": "n",
+   "fa": "تماس، ارتباط",
+   "def_": "/ˈkɒntækt/ · the act of communicating with somebody",
+   "level": 10,
+   "exs": [
+    "The venom is also necrotic—it kills the tissue that it comes in contact with.",
+    "Many of us have no direct contact with elderly people."
+   ]
+  },
+  {
+   "id": "ir2:estimate",
+   "word": "estimate",
+   "pos": "n",
+   "fa": "تخمین؛ برآورد کردن",
+   "def_": "/ˈestəmət/ · n., v. · calculate, judge",
+   "level": 10,
+   "exs": [
+    "Public health experts estimate that, in any given year, from 30 to 60 percent of people living in Solenopsis zones in the United States are stung.",
+    "It is not easy to estimate how many people have the disease.",
+    "Scientists estimate that the tree is 2,000 years old."
+   ]
+  },
+  {
+   "id": "ir2:external",
+   "word": "external",
+   "pos": "adj",
+   "fa": "خارجی، بیرونی",
+   "def_": "/ɪkˈstɜːrnl/ · outside",
+   "level": 10,
+   "exs": [
+    "Under these circumstances, external temperatures would make no difference at all, and fire ants would become a much bigger problem for humans.",
+    "The external walls of the building"
+   ]
+  },
+  {
+   "id": "ir2:initiate",
+   "word": "initiate",
+   "pos": "v",
+   "fa": "آغاز کردن، راه‌اندازی کردن",
+   "def_": "to cause something to begin",
+   "level": 10,
+   "exs": [
+    "That landing in Alabama initiated a full-scale invasion.",
+    "The government initiated a program to plant trees.",
+    "Who initiated the conversation?"
+   ]
+  },
+  {
+   "id": "ir2:minimal",
+   "word": "minimal",
+   "pos": "adj",
+   "fa": "حداقل، بسیار کم",
+   "def_": "/ˈmɪnɪml/ · least",
+   "level": 10,
+   "exs": [
+    "Immunotherapy is currently the best option for minimalizing reactions.",
+    "This is a practical course, with only a minimal amount of theory."
+   ]
+  },
+  {
+   "id": "ir2:neutral",
+   "word": "neutral",
+   "pos": "adj",
+   "fa": "بی‌طرف، خنثی",
+   "def_": "/ˈnuːtrəl/ · impartial, unbiased",
+   "level": 10,
+   "exs": [
+    "Nothing can completely neutralize the effects of fire-ant venom, but people sensitive to it who live in fire-ant territory have some treatment choices.",
+    "When her friends had a quarrel, she remained neutral.",
+    "Switzerland remained neutral during the war."
+   ]
+  },
+  {
+   "id": "ir2:percent",
+   "word": "percent",
+   "pos": "n",
+   "fa": "درصد",
+   "def_": "/pərˈsent/ · per hundred (%)",
+   "level": 10,
+   "exs": [
+    "Public health experts estimate that, in any given year, from 30 to 60 percent of people living in Solenopsis zones in the United States are stung.",
+    "New car sales may be down nineteen percent."
+   ]
+  },
+  {
+   "id": "ir2:regime",
+   "word": "regime",
+   "pos": "n",
+   "fa": "رژیم، نظام حکومتی",
+   "def_": "/reɪˈʒiːm/ · government, diet",
+   "level": 10,
+   "exs": [
+    "The immunotherapy regime is expensive, and it also requires a long-term commitment.",
+    "The new regime is sure to fall."
+   ]
+  },
+  {
+   "id": "ir2:sufficient",
+   "word": "sufficient",
+   "pos": "adj",
+   "fa": "کافی",
+   "def_": "/səˈfɪʃənt/ · enough · ≠ insufficient",
+   "level": 10,
+   "exs": [
+    "Eventually, patients have sufficient defenses to tolerate a fire-ant sting.",
+    "He had an income which was sufficient for his needs.",
+    "We have sufficient food for a week."
+   ]
+  },
+  {
+   "id": "ir2:summary",
+   "word": "summary",
+   "pos": "n",
+   "fa": "خلاصه",
+   "def_": "/ˈsʌməri/ · abstract",
+   "level": 10,
+   "exs": [
+    "In summary, research shows that, like any insect, a fire ant becomes less active as the weather grows colder.",
+    "A brief summary is given on a separate sheet."
+   ]
+  },
+  {
+   "id": "ir2:virtual",
+   "word": "virtual",
+   "pos": "adj",
+   "fa": "مجازی؛ تقریباً کامل",
+   "def_": "/ˈvɜːtʃuəl/ · created by computers; almost but not completely",
+   "level": 10,
+   "exs": [
+    "Virtually everyone who is stung by a fire ant develops a red welt that stays painful for several days."
+   ]
+  }
+ ]
+}
