@@ -4,7 +4,7 @@ import { one, all, run, now } from '../util.js';
 import { newCode } from '../security.js';
 import { mergeAccounts } from '../sync.js';
 import { telegramUser } from '../auth.js';
-import { isAdminTg, tehranDay, tehranMidnight } from '../util.js';
+import { isAdminTg, isAdminUser, tehranDay, tehranMidnight } from '../util.js';
 import { getSettings } from '../settings.js';
 import { tg, publicOrigin, botUsername, adminCommands } from './telegram.js';
 import { t, n as N, esc } from './texts.js';
@@ -709,7 +709,7 @@ export async function handleUpdate(env, upd) {
   const msg = upd.message, cb = upd.callback_query;
   const from = (msg || cb || {}).from, chat = msg ? msg.chat : cb && cb.message ? cb.message.chat : null;
   if (!from || !chat || chat.type !== 'private' || from.is_bot) { if (cb) await tg(env, 'answerCallbackQuery', { callback_query_id: cb.id }).catch(() => {}); return; }
-  const user = await telegramUser(env, from), admin = isAdminTg(env, from.id);
+  const user = await telegramUser(env, from), admin = isAdminTg(env, from.id) || isAdminUser(env, user);
   if (!admin && (user.blocked || (await getSettings(env)).maintenance)) {
     const lang = (from.language_code || 'fa').startsWith('fa') ? 'fa' : 'en', s = await getSettings(env);
     const text = user.blocked ? t(lang, 'blocked_acc') : s.maintenance_msg ? `🛠 ${esc(s.maintenance_msg)}` : t(lang, 'maint');

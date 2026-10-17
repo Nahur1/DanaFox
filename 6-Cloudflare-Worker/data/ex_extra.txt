@@ -1,0 +1,689 @@
+0|Will you be able to come to my party on Saturday?|After months of practice, he was finally able to read English books.
+1|Please accept my apologies for being late.|The shop does not accept credit cards.
+2|Don't be afraid to ask questions in class.|I'm afraid I can't help you today.
+3|We all agreed to meet at the station at nine.|My sister and I never agree about music.
+4|Smoking is not allowed inside the building.|The teacher allowed us to use dictionaries in the test.
+5|Mom gets angry when I leave my room messy.|Please don't be angry with me; it was an accident.
+6|She didn't give me an answer to my email.|Write your answers on the sheet of paper.
+7|What time does the train arrive in Tehran?|The package arrived two days late.
+8|I borrowed three books from the library.|You can borrow my car if you need it.
+9|It was brave of you to tell the truth.|The brave little girl wasn't scared of the big dog.
+10|He fell and broke his arm.|My phone broke when I dropped it.
+11|She wore a bright yellow dress to the party.|The sun is very bright today, so take your sunglasses.
+12|The streets are always busy in the morning.|She is busy with her homework right now.
+13|Be careful when you cross the street.|He is a careful driver and never drives fast.
+14|We celebrated Nowruz with our whole family.|They went out to dinner to celebrate their anniversary.
+15|I want to change my phone number.|The city has changed a lot in ten years.
+16|Fruit is cheap in the summer.|This hotel is cheap but very clean.
+17|You can choose any color you like.|It was hard to choose between the two jobs.
+18|Please keep your room clean.|I need a clean shirt for tomorrow.
+19|My brother collects old coins.|The teacher collected our homework at the end of class.
+20|This sofa is really comfortable.|Wear comfortable shoes for the long walk.
+21|It is dangerous to swim in this river.|Driving fast in the rain is very dangerous.
+22|We decided to stay at home because of the rain.|Have you decided what to study at university?
+23|My two sisters are very different from each other.|This city looks different at night.
+24|The exam was more difficult than I expected.|It's difficult to sleep when it's so hot.
+25|I get up early every morning to study.|The bus arrived ten minutes early.
+26|The questions on the test were easy.|It's not easy to learn a new language quickly.
+27|Did you enjoy the movie?|We really enjoyed our holiday in Shiraz.
+28|Can you explain this word to me?|He explained why he was late.
+29|Hafez is a famous Persian poet.|This restaurant is famous for its kebabs.
+30|What's your favorite food?|Blue is my favorite color.
+31|I finished my homework before dinner.|What time does the class finish?
+32|Don't forget to call your grandmother.|I forgot my keys at home again.
+33|The people in this village are very friendly.|Our new neighbor seems friendly.
+34|Nobody knows what will happen in the future.|She wants to be a doctor in the future.
+35|Eating vegetables helps you stay healthy.|My grandfather is ninety and still very healthy.
+36|This box is too heavy for me to carry.|There was heavy traffic on the way home.
+37|We hope the weather will be nice tomorrow.|I hope you feel better soon.
+38|The children were hungry after school.|Are you hungry? I can make you a sandwich.
+39|It's important to drink enough water.|She has an important meeting this afternoon.
+40|They invited us to their wedding.|Who did you invite to your birthday party?
+41|The journey from Tehran to Mashhad took twelve hours.|Have a safe journey!
+42|It's very kind of you to help me.|My teacher is always kind to everyone.
+43|How many languages can you speak?|English is an international language.
+44|Everyone laughed at his funny story.|The baby laughs when you sing to her.
+45|I want to learn how to play the guitar.|Children learn quickly when they enjoy the lesson.
+46|I lost my wallet on the bus.|Our team lost the game by one goal.
+47|We buy fresh vegetables at the market every Friday.|The old market in Isfahan is very beautiful.
+48|They live in a modern apartment downtown.|Modern phones can do almost everything.
+49|Our neighbors invited us for tea.|My neighbor's dog barks all night.
+50|The classroom was noisy before the teacher came in.|I can't sleep because the street is so noisy.
+51|How often do you go to the gym?|We often eat dinner together on weekends.
+52|Let's order a pizza tonight.|I ordered a new book online.
+53|How much did you pay for that jacket?|You can pay by card or in cash.
+54|It's polite to say thank you.|The waiter was very polite to us.
+55|Football is the most popular sport in Iran.|This song is very popular with teenagers.
+56|Do you prefer coffee or tea?|I prefer walking to taking the bus.
+57|Mom is preparing dinner in the kitchen.|We need to prepare for the exam next week.
+58|The library is a quiet place to study.|Please be quiet; the baby is sleeping.
+59|Do you remember the name of that restaurant?|Remember to lock the door when you leave.
+60|Could you repeat that, please?|Repeat the new words every day so you don't forget them.
+61|He became rich after selling his company.|This soil is rich in minerals.
+62|Keep your passport in a safe place.|Is it safe to walk here at night?
+63|We shared a pizza for lunch.|She shared the photos with her friends.
+64|The instructions are simple and clear.|Let's keep the plan simple.
+65|You need strong arms to lift this.|I like my tea strong.
+66|I love to travel by train.|They traveled all over Europe last summer.
+67|Try this cake; it's delicious.|I tried to call you, but you didn't answer.
+68|A dictionary is very useful for language learners.|He gave me some useful advice.
+69|We visited my grandparents last weekend.|Millions of tourists visit Persepolis every year.
+70|What's the weather like in Tabriz today?|The weather was perfect for a picnic.
+71|Don't worry; everything will be fine.|My parents worry when I come home late.
+72|She achieved her goal of running a marathon.|You can achieve a lot if you work hard.
+73|One advantage of living in the city is good transport.|Speaking two languages is a big advantage.
+74|My teacher gave me good advice about the exam.|Can I ask you for some advice?
+75|The cold weather affected the crops.|Stress can affect your health.
+76|The view from the mountain was amazing.|You did an amazing job on this project.
+77|The company announced its new phone yesterday.|They announced the winners on the radio.
+78|He apologized for breaking the window.|You should apologize to your sister.
+79|A strange man appeared at the door.|She appears to be very tired today.
+80|The children argued about whose turn it was.|My parents rarely argue.
+81|She has a positive attitude towards her work.|His attitude changed after he met her.
+82|Is this seat available?|The new book is available in all bookstores.
+83|Try to avoid eating too much sugar.|He left early to avoid the traffic.
+84|The teacher was pleased with the students' behavior.|Scientists study animal behavior.
+85|Regular exercise has many health benefits.|The new law will be of benefit to everyone.
+86|She complained about the noise from next door.|Customers complained that the food was cold.
+87|I feel confident about tomorrow's interview.|He is a confident speaker.
+88|We are considering moving to another city.|Please consider my suggestion.
+89|This box contains old photographs.|Orange juice contains a lot of vitamin C.
+90|She convinced me to join the club.|I'm not convinced that this is a good idea.
+91|The storm caused serious damage to the houses.|Smoking can cause damage to your lungs.
+92|He denied taking the money.|She doesn't deny that she made a mistake.
+93|Can you describe the man you saw?|Words cannot describe how happy I am.
+94|The company is developing a new app.|Children develop very quickly in their first years.
+95|I was disappointed with my exam results.|She looked disappointed when she heard the news.
+96|We must protect the environment for future generations.|Children need a safe and happy home environment.
+97|I love fruit, especially apples.|It's especially cold in the mornings.
+98|Do you have any experience of working with children?|Traveling alone was an amazing experience.
+99|I expect to finish the work by Friday.|We didn't expect so many people to come.
+100|Your face looks familiar; have we met before?|Are you familiar with this software?
+101|The rain forced us to cancel the match.|Nobody can force you to do it.
+102|My uncle is very generous with his money.|Thank you for your generous gift.
+103|Reading every day will improve your vocabulary.|The weather improved in the afternoon.
+104|The price includes breakfast.|The team includes three new players.
+105|The number of students has increased this year.|Prices increased by ten percent.
+106|She became financially independent at twenty.|India became independent in 1947.
+107|Parents have a strong influence on their children.|Social media has a big influence on young people.
+108|Let me introduce you to my friend Sara.|The government introduced a new tax.
+109|Climate change is an important global issue.|We discussed several issues at the meeting.
+110|She manages a small team of engineers.|How did you manage to finish so fast?
+111|He didn't mention his new job.|As I mentioned before, the meeting is at ten.
+112|This job is a great opportunity for you.|I had the opportunity to study abroad.
+113|Be patient; the bus will come soon.|Doctors must be patient with their patients.
+114|I persuaded my father to buy a new car.|She tried to persuade him to stay.
+115|Washing your hands can prevent illness.|The rain prevented us from going out.
+116|Sunscreen protects your skin from the sun.|The law protects the rights of workers.
+117|What is the purpose of your visit?|The purpose of this lesson is to learn new words.
+118|I didn't realize it was so late.|She realized that she had left her bag on the train.
+119|Can you recommend a good restaurant?|Doctors recommend sleeping at least seven hours.
+120|We need to reduce the amount of plastic we use.|The shop reduced its prices for the holiday.
+121|He refused to answer my question.|She refused the job offer.
+122|They have a very close relationship.|The relationship between the two countries has improved.
+123|My old car is still very reliable.|We need reliable information before we decide.
+124|This job requires a lot of patience.|All passengers are required to show their tickets.
+125|Parents are responsible for their children's safety.|Who is responsible for this mess?
+126|The police solved the mystery.|We need to solve this problem quickly.
+127|If you work hard, you will succeed.|She succeeded in passing the exam.
+128|What do you suggest we do this weekend?|The doctor suggested that I rest for a few days.
+129|My family supports me in everything.|Which football team do you support?
+130|To my surprise, the exam was easy.|They planned a surprise party for her birthday.
+131|We wore traditional clothes for the festival.|Ghormeh sabzi is a traditional Persian dish.
+132|The shop sells various kinds of tea.|People left for various reasons.
+133|Don't waste your money on things you don't need.|He wasted the whole afternoon watching TV.
+134|They had to abandon their car in the snow.|She never abandoned her dream of becoming a writer.
+135|Make sure your measurements are accurate.|The report gave an accurate picture of the situation.
+136|He acknowledged that he had made a mistake.|The company acknowledged the problem and apologized.
+137|The room was small but adequate for our needs.|Make sure you get adequate sleep before the exam.
+138|We don't anticipate any problems with the new system.|They anticipated heavy traffic and left early.
+139|She was anxious about her first day at work.|Parents are often anxious when their children travel alone.
+140|I really appreciate your help.|You can't fully appreciate this film without knowing its history.
+141|I assumed that you already knew.|Let's assume the price stays the same.
+142|He passed the driving test on his first attempt.|They made an attempt to climb the mountain.
+143|There was an awkward silence after his joke.|This box is an awkward shape to carry.
+144|She was reluctant to lend him money.|Many people are reluctant to change their habits.
+145|Be cautious when you invest your money.|The doctor was cautious about giving a diagnosis.
+146|Learning a language requires time and commitment.|The company has a strong commitment to quality.
+147|After a long discussion, they reached a compromise.|Marriage is often about compromise.
+148|She was conscious of people staring at her.|He is very conscious of his health.
+149|If you break the rules, you must accept the consequences.|One consequence of the storm was a power cut.
+150|Everyone contributed to the success of the project.|Pollution contributes to climate change.
+151|Sleep is crucial for good health.|This is a crucial moment in the game.
+152|Children are naturally curious about the world.|I'm curious to know what happened next.
+153|He deliberately ignored my message.|The fire was started deliberately.
+154|The teacher demonstrated how to use the microscope.|The study demonstrates the importance of exercise.
+155|She was determined to win the race.|He is determined to learn English this year.
+156|This new heater is very efficient.|We need a more efficient way to work.
+157|The team was eliminated in the first round.|We must eliminate unnecessary costs.
+158|The teacher emphasized the importance of practice.|He emphasized that safety comes first.
+159|My parents always encouraged me to read.|The government encourages people to recycle.
+160|They live in an enormous house.|The project was an enormous success.
+161|Teachers evaluate students' progress every term.|We need to evaluate the results carefully.
+162|After many attempts, he eventually passed the exam.|Eventually, they found the lost dog.
+163|He always exaggerates his stories.|Don't exaggerate; it wasn't that bad.
+164|My working hours are very flexible.|Yoga helps keep your body flexible.
+165|She felt frustrated when nobody listened to her.|He got frustrated with the slow internet.
+166|This bag is made of genuine leather.|She showed a genuine interest in our work.
+167|Don't hesitate to call me if you need help.|He hesitated before answering the question.
+168|She ignored my advice and went anyway.|You can't ignore the problem forever.
+169|Change is inevitable in life.|With such poor planning, failure was inevitable.
+170|Her story inspired many young people.|What inspired you to become a teacher?
+171|How do you interpret this poem?|She interpreted his silence as agreement.
+172|It's important to maintain a healthy weight.|The building is poorly maintained.
+173|What motivates you to study every day?|Good teachers know how to motivate their students.
+174|They negotiated a better price for the car.|The two sides are negotiating a peace deal.
+175|It's obvious that she is very talented.|The answer seemed obvious after he explained it.
+176|She overcame her fear of flying.|We must overcome many difficulties to succeed.
+177|This young player has great potential.|Solar energy has enormous potential.
+178|My family is my top priority.|Safety should be our first priority.
+179|She left her job to pursue a career in music.|He is pursuing a degree in engineering.
+180|You can rely on me.|Many farmers rely on rain for their crops.
+181|The investigation revealed new information.|She refused to reveal her secret.
+182|We have sufficient time to finish the project.|There is not sufficient evidence to prove it.
+183|I tend to wake up early in the summer.|Prices tend to rise before the holidays.
+184|I can't tolerate rude behavior.|These plants can tolerate very dry conditions.
+185|He gave a vague answer to my question.|I have only a vague memory of that day.
+186|Old people are more vulnerable to the flu.|The city is vulnerable to earthquakes.
+187|The witness described the thief to the police.|She was a witness to the accident.
+188|The cold day in July was an aberration.|His bad behavior was an aberration, not his usual self.|Statisticians removed the aberration from the data.
+189|She acquiesced to her parents' wishes.|The manager finally acquiesced in the plan.|He would never acquiesce to such unfair demands.
+190|This medicine will alleviate the pain.|The new road should alleviate traffic in the city center.|Volunteers worked hard to alleviate poverty in the area.
+191|She feels ambivalent about moving abroad.|Many voters remain ambivalent about the new law.|He had an ambivalent attitude toward his father.
+192|She is an astute observer of human behavior.|It was an astute decision to invest early.|An astute businessman, he saw the opportunity before anyone else.
+193|The thieves carried out an audacious robbery in daylight.|It was an audacious plan, but it worked.|She made an audacious claim that surprised everyone.
+194|The benevolent old man gave money to the poor.|She smiled with a benevolent expression.|The charity was founded by a benevolent businessman.
+195|Let me be candid with you: I don't like the idea.|She gave a candid interview about her illness.|I appreciate your candid opinion.
+196|How to pay for the new hospital is a real conundrum.|The detectives faced a conundrum they couldn't solve.|Choosing between the two jobs was a conundrum for her.
+197|The old computer was large and cumbersome.|The application process is cumbersome and slow.|Hikers left their cumbersome bags at the hotel.
+198|She is a diligent student who never misses a class.|After years of diligent research, he made a discovery.|Diligent workers are often promoted quickly.
+199|He gave an eloquent speech at the wedding.|Her eyes were more eloquent than words.|The writer is famous for his eloquent style.
+200|Fame in the internet age is often ephemeral.|The beauty of cherry blossoms is ephemeral.|Most fashion trends are ephemeral.
+201|Scratching will only exacerbate the itching.|The drought exacerbated the food shortage.|His comments exacerbated the tension between them.
+202|He is fastidious about keeping his desk clean.|She is fastidious about what she eats.|The editor was fastidious about grammar and punctuation.
+203|She is gregarious and loves parties.|Dolphins are gregarious animals that live in groups.|Her gregarious personality made her popular at school.
+204|His English is impeccable.|The hotel staff provided impeccable service.|She has impeccable taste in clothes.
+205|He seemed indifferent to the result of the match.|Many people are indifferent to politics.|The waiter's indifferent attitude annoyed us.
+206|There are risks inherent in every investment.|Curiosity is inherent in human nature.|The problem is inherent in the design of the system.
+207|Children have an insatiable curiosity about the world.|He had an insatiable appetite for books.|The public's appetite for celebrity news seems insatiable.
+208|One mistake could jeopardize your whole career.|Bad weather jeopardized the rescue mission.|Don't jeopardize your health by working too much.
+209|The heat made everyone feel lethargic.|I always feel lethargic after a big lunch.|The economy has been lethargic for months.
+210|She keeps meticulous records of her expenses.|The plan was prepared with meticulous care.|He is meticulous about every detail of his work.
+211|He was nonchalant about losing his job.|She gave a nonchalant shrug.|Despite the danger, he remained nonchalant.
+212|Typewriters became obsolete when computers arrived.|Much of this equipment is now obsolete.|The new law made the old rules obsolete.
+213|They live in an ostentatious mansion with gold doors.|She wore an ostentatious diamond ring.|His ostentatious lifestyle attracted attention.
+214|It's a paradox that the more choices we have, the less happy we feel.|The paradox of modern life is that we are connected yet lonely.|"Less is more" is a famous paradox.
+215|We need a pragmatic solution, not a perfect one.|She took a pragmatic approach to the problem.|Pragmatic leaders focus on what actually works.
+216|Agatha Christie was a prolific writer.|Rabbits are prolific breeders.|He was one of the most prolific composers of his time.
+217|Tea is the quintessential British drink.|He is the quintessential gentleman.|This village is the quintessential image of rural life.
+218|Children are often more resilient than adults think.|The economy proved resilient during the crisis.|This plant is resilient and can survive cold winters.
+219|The lawyer scrutinized the contract carefully.|Customs officers scrutinized our passports.|Every detail of the plan was scrutinized by experts.
+220|By pure serendipity, I met my best friend on a train.|Many scientific discoveries happen through serendipity.|It was serendipity that we found this restaurant.
+221|The audience broke into spontaneous applause.|We made a spontaneous decision to go to the beach.|Children are often more spontaneous than adults.
+222|Remove any superfluous words from your essay.|His explanation was superfluous; we already understood.|The design is clean, with nothing superfluous.
+223|She is a tenacious player who never gives up.|The tenacious reporter finally discovered the truth.|Ivy has a tenacious grip on the wall.
+224|Smartphones have become ubiquitous in modern life.|Coffee shops are ubiquitous in big cities.|Plastic waste is now ubiquitous, even in the oceans.
+225|The pandemic caused unprecedented changes in daily life.|Prices have risen to unprecedented levels.|The team enjoyed unprecedented success this season.
+226|The venerable professor has taught here for fifty years.|This venerable tree is over five hundred years old.|The newspaper is a venerable institution.
+227|The film has a whimsical sense of humor.|She decorated the room in a whimsical style.|His whimsical drawings made the children laugh.
+228|He is a zealous supporter of animal rights.|The zealous new manager changed everything in a week.|She was zealous in her efforts to help the poor.
+229|Students have free access to the library.|Many villages still lack access to clean water.
+230|It is hard to find affordable housing in big cities.|The government wants to make healthcare more affordable.
+231|Money is only one aspect of a good job.|We discussed every aspect of the problem.
+232|The festival attracts thousands of visitors every year.|Bright colors attract bees to flowers.
+233|Local authorities closed the road after the flood.|Parents need to have authority over young children.
+234|The average age of the students is twenty.|He is a student of average ability.
+235|The project was finished on time and within budget.|Families on a tight budget must plan their spending.
+236|She started her career as a teacher.|Choosing a career is one of life's big decisions.
+237|Learning a new language is a real challenge.|The new manager faces many challenges.
+238|The library is the heart of our community.|The online community helped him find a job.
+239|Compare your answers with your partner's.|Compared with last year, sales have doubled.
+240|There is growing concern about air pollution.|Your safety is our main concern.
+241|Consumers are spending less on luxury goods.|The new law protects consumers from false advertising.
+242|Crime rates have fallen in the city center.|Stealing is a serious crime.
+243|Food is an important part of every culture.|She is interested in Japanese culture.
+244|The number of birds has declined sharply.|He declined the invitation politely.
+245|There is a high demand for doctors in rural areas.|The workers' demands were finally accepted.
+246|Education is the key to a better future.|She received her education in Canada.
+247|The factory provides employment for five hundred people.|Finding employment after graduation can be difficult.
+248|Solar energy is clean and renewable.|I don't have the energy to go out tonight.
+249|The hotel has excellent sports facilities.|The city needs better health facilities.
+250|Prices fluctuated wildly during the year.|The temperature fluctuates between 10 and 25 degrees.
+251|Climate change is a global problem.|The company has a global network of offices.
+252|The government announced new measures to fight inflation.|Local government is responsible for schools and roads.
+253|The country has experienced rapid economic growth.|Children need good food for healthy growth.
+254|Smoking is a bad habit.|Reading before bed is a good habit.
+255|Every individual has the right to free speech.|Teachers should treat students as individuals.
+256|The tourism industry employs millions of people.|The car industry is changing quickly.
+257|He invested all his savings in the company.|Countries should invest more in education.
+258|A healthy lifestyle includes exercise and good food.|City life offers a very different lifestyle.
+259|The media play an important role in society.|Social media can spread news very quickly.
+260|There are many methods of learning vocabulary.|Scientists used a new method to test the water.
+261|Air pollution is a serious problem in Tehran.|Plastic pollution is harming sea life.
+262|The population of the city has doubled since 1990.|Most of the population lives near the coast.
+263|A large proportion of the students are women.|The proportion of older people is increasing.
+264|Smoking is banned in public places.|The museum is open to the public on weekends.
+265|The quality of the food was excellent.|We need to improve the quality of education.
+266|The unemployment rate rose to ten percent.|The birth rate has fallen in many countries.
+267|Water is a precious natural resource.|The school lacks the resources to buy new computers.
+268|Many young people are leaving rural areas.|Rural life is quieter than city life.
+269|Women play an important role in society.|Modern society depends on technology.
+270|A recent survey showed that most people want more parks.|We conducted a survey of five hundred students.
+271|Technology has changed the way we learn.|The company invests heavily in new technology.
+272|Traffic is very heavy during rush hour.|I was late because I was stuck in traffic.
+273|There is a growing trend toward online shopping.|Fashion trends change every season.
+274|Unemployment is high among young people.|The factory closure led to a rise in unemployment.
+275|Urban areas are becoming more crowded.|Urban planning is important for growing cities.
+276|She works as a volunteer at the hospital.|Volunteers cleaned the beach on Saturday.
+277|The drug has no adverse side effects.|Adverse weather conditions delayed the flight.
+278|The government allocated more money to education.|Each team was allocated a room for the meeting.
+279|We need to find an alternative to plastic bags.|Cycling is a healthy alternative to driving.
+280|We need a new approach to this problem.|Her approach to teaching is very creative.
+281|Regular exercise is beneficial to health.|The agreement will be beneficial for both countries.
+282|High taxes are a heavy burden on poor families.|He didn't want to be a burden to his children.
+283|The book gives a comprehensive guide to the city.|We need a comprehensive plan to reduce pollution.
+284|The project cost a considerable amount of money.|She has considerable experience in marketing.
+285|Nuclear energy remains a controversial topic.|The film's ending was controversial.
+286|She coped well with the stress of her new job.|Many cities cannot cope with the growing population.
+287|What criteria are used to judge the competition?|Applicants must meet certain criteria.
+288|His health deteriorated quickly last winter.|The relationship between the two countries has deteriorated.
+289|Discrimination based on gender is illegal.|They fought against racial discrimination.
+290|The city has a diverse population.|The course covers a diverse range of topics.
+291|Prices have risen dramatically this year.|Life changed dramatically after the war.
+292|Cars are a major source of carbon emissions.|The government wants to cut emissions by half.
+293|Good lighting can enhance the beauty of a room.|This course will enhance your career prospects.
+294|Water is essential for life.|It's essential to book tickets in advance.
+295|The company plans to expand into Asia.|Metal expands when it is heated.
+296|Some companies exploit their workers.|We should exploit renewable energy sources more.
+297|The new software will facilitate communication.|Good lighting facilitates reading.
+298|There are fundamental differences between the two systems.|Education is a fundamental human right.
+299|Technology has a huge impact on our lives.|The new law had little impact on crime.
+300|The school will implement the new rules next year.|It is difficult to implement such a big change.
+301|Income inequality has increased in many countries.|The report highlights gender inequality in education.
+302|The country needs to invest in its infrastructure.|Roads, bridges and railways are part of a city's infrastructure.
+303|The new initiative aims to reduce youth unemployment.|She took the initiative and solved the problem herself.
+304|How can you justify spending so much money?|The results justified our hard work.
+305|New legislation will protect endangered animals.|The government introduced legislation to ban smoking indoors.
+306|Planting trees can help mitigate climate change.|Measures were taken to mitigate the effects of the flood.
+307|Obesity is a growing problem among children.|Lack of exercise is a major cause of obesity.
+308|The benefits of the plan outweigh the costs.|For me, the advantages of city life outweigh the disadvantages.
+309|Try to see the problem from a different perspective.|The book is written from a child's perspective.
+310|Northern lights are a natural phenomenon.|Online shopping is a relatively recent phenomenon.
+311|Temperatures plummeted overnight.|The company's profits plummeted last year.
+312|The town's population is predominantly young.|The workforce is predominantly female.
+313|There is little prospect of finding a job here.|The prospect of moving abroad excited her.
+314|The government regulates the price of bread.|Sweating helps regulate body temperature.
+315|A sedentary lifestyle can lead to health problems.|Office workers often have sedentary jobs.
+316|There has been a significant increase in prices.|Her research made a significant contribution to science.
+317|We need sustainable sources of energy.|The company is committed to sustainable farming.
+318|The city is undergoing major changes.|He underwent surgery on his knee.
+319|There is widespread concern about the economy.|The storm caused widespread damage.
+320|Stress can aggravate skin problems.|Running aggravated his knee injury.|Don't aggravate the situation by shouting.
+321|The plan worked, albeit slowly.|She accepted the offer, albeit reluctantly.|It was a beautiful, albeit small, apartment.
+322|The new policy aims to ameliorate living conditions.|Steps were taken to ameliorate the effects of poverty.|Good management can ameliorate many problems.
+323|She was apprehensive about her job interview.|Many people feel apprehensive about flying.|He felt apprehensive as he opened the letter.
+324|The rules seem completely arbitrary.|The selection of winners was arbitrary.|Choosing a number is an arbitrary decision.
+325|The region was granted autonomy in 1990.|Teenagers want more autonomy from their parents.|Workers value autonomy in their jobs.
+326|Oil is a valuable commodity.|Time is a precious commodity.|Coffee is one of the most traded commodities in the world.
+327|She made a compelling argument for change.|The film tells a compelling story.|There is compelling evidence that smoking causes cancer.
+328|I concur with your opinion.|Most experts concur that the climate is changing.|The judges concurred in their decision.
+329|A quiet room is conducive to studying.|The warm climate is conducive to growing fruit.|Stress is not conducive to good health.
+330|The government is trying to curb inflation.|You should curb your spending.|New laws aim to curb air pollution.
+331|Smoking is detrimental to your health.|Too much screen time can be detrimental to children.|The decision had a detrimental effect on the economy.
+332|There is a growing disparity between rich and poor.|The study found wide disparities in income.|Disparities in healthcare remain a serious issue.
+333|Their savings dwindled over the years.|The number of tigers has dwindled dramatically.|Support for the plan began to dwindle.
+334|The theory is supported by empirical evidence.|We need empirical data, not opinions.|The study is based on empirical research.
+335|Several celebrities endorsed the new product.|The committee endorsed the proposal.|I fully endorse what the speaker said.
+336|The new policy only exacerbated the housing crisis.|Lack of sleep can exacerbate stress.|The heat exacerbated the water shortage.
+337|Is it feasible to finish the project by May?|The plan is technically feasible but very expensive.|We need a feasible solution to the problem.
+338|Bad weather hindered the rescue efforts.|A lack of funds hindered the research.|Noise can hinder concentration.
+339|It is imperative that we act now.|Good communication is imperative in business.|It's imperative to wear a helmet when cycling.
+340|Economic growth and education are inextricably linked.|His fate became inextricably tied to hers.|Language and culture are inextricably connected.
+341|Exercise is an integral part of a healthy lifestyle.|Music is integral to the film.|Teamwork is integral to our success.
+342|The exhibition juxtaposes old and new art.|The writer juxtaposes wealth and poverty in the novel.|The photo juxtaposes a skyscraper with an old temple.
+343|Real estate can be a lucrative investment.|He left teaching for a more lucrative career.|The company won a lucrative contract.
+344|She was tired of the mundane routine of office life.|Even mundane tasks can be enjoyable with music.|We talked about mundane things like the weather.
+345|Notwithstanding the bad weather, the event was a success.|The plan went ahead, notwithstanding strong opposition.|Notwithstanding his age, he runs every day.
+346|Safety is of paramount importance.|The needs of the child are paramount.|Customer satisfaction is paramount for any business.
+347|The influence of social media is pervasive.|A pervasive smell of smoke filled the house.|Corruption was pervasive in the system.
+348|The proliferation of smartphones has changed society.|Scientists are worried about the proliferation of weapons.|There has been a proliferation of fast-food restaurants.
+349|It would be prudent to save some money.|A prudent driver slows down in the rain.|She made a prudent decision not to invest.
+350|Crime was rampant in the city in the 1980s.|Rampant inflation destroyed the economy.|Weeds grew rampant in the garden.
+351|The two countries signed a reciprocal agreement.|Their love was reciprocal.|Friendship should be based on reciprocal respect.
+352|The plan came under close scrutiny.|Politicians are always under public scrutiny.|The documents were subjected to careful scrutiny.
+353|The country has stringent rules on immigration.|Stringent safety measures were introduced.|The factory faces stringent environmental standards.
+354|He could not substantiate his claims.|There is no evidence to substantiate the rumor.|The research substantiates earlier findings.
+355|We need tangible results, not promises.|The project brought tangible benefits to the town.|There was a tangible sense of excitement in the room.
+356|The minister unequivocally denied the rumors.|The results show unequivocally that the drug works.|She stated unequivocally that she would not resign.
+357|Is solar power a viable alternative to oil?|The business plan is not commercially viable.|Doctors said the treatment was a viable option.
+358|Plants absorb carbon dioxide from the air.|Children absorb new languages quickly.
+359|Animals must adapt to changes in their environment.|It took her a while to adapt to life in a new country.
+360|Scientists analyzed the water samples.|We need to analyze the data carefully.
+361|Ancient Persia was a powerful empire.|They found ancient coins under the house.
+362|The company holds an annual meeting in March.|The annual rainfall in this region is very low.
+363|The journey takes approximately three hours.|Approximately half of the students passed.
+364|Curiosity is a characteristic of young children.|One characteristic of desert plants is their thick leaves.
+365|The climate here is hot and dry.|Climate change affects the whole planet.
+366|Ants live in large colonies.|India was once a British colony.
+367|The researchers concluded that the drug was safe.|The meeting concluded at five o'clock.
+368|The bridge was constructed in 1920.|Birds construct nests from twigs and grass.
+369|The data show a clear increase in temperature.|Scientists collected data from hundreds of patients.
+370|How would you define happiness?|The border between the two countries is clearly defined.
+371|Volunteers distributed food to the families.|Wealth is not evenly distributed in society.
+372|There is no evidence that he stole the money.|Scientists found evidence of water on Mars.
+373|Birds evolved from dinosaurs.|The company has evolved into a global business.
+374|Don't expose your skin to the sun for too long.|The report exposed serious problems in the system.
+375|Dinosaurs became extinct millions of years ago.|Many species are in danger of becoming extinct.
+376|Price is an important factor when buying a house.|Several factors contributed to the problem.
+377|The phone has many useful features.|The tall towers are a feature of the city.
+378|Scientists found fossils of ancient fish in the desert.|Coal and oil are fossil fuels.
+379|The function of the heart is to pump blood.|This button has several functions.
+380|Wind turbines generate electricity.|The new factory will generate hundreds of jobs.
+381|Pandas live in a mountain forest habitat.|Pollution is destroying the natural habitat of many animals.
+382|The scientists tested their hypothesis in the lab.|The results supported the hypothesis.
+383|The police identified the man from the photo.|Scientists have identified a new type of virus.
+384|Dark clouds indicate that rain is coming.|The survey indicates that most people are happy.
+385|Many birds migrate south for the winter.|Salmon migrate up rivers to lay their eggs.
+386|Scientists observed the behavior of the monkeys.|We observed a change in the patient's condition.
+387|Earthquakes often occur in this region.|It never occurred to me that he was lying.
+388|Bacteria are tiny organisms.|Every living organism needs energy to survive.
+389|The Safavid period was a golden age for Persian art.|He lived in Paris for a short period.
+390|Learning a language is a slow process.|The process of making paper is quite simple.
+391|This region is famous for its wine.|The northern regions of Iran are green and rainy.
+392|The prisoner was released after five years.|Factories release harmful gases into the air.
+393|There was a significant drop in the number of fish.|Water played a significant role in the city's development.
+394|The sun is a major source of energy.|Tourism is the main source of income for the island.
+395|There are thousands of species of ants.|The panda is an endangered species.
+396|The structure of the human brain is very complex.|The bridge is a steel structure.
+397|Camels can survive for weeks without water.|Only three people survived the crash.
+398|Darwin's theory of evolution changed science.|In theory, the plan should work.
+399|The internet has transformed the way we live.|A caterpillar transforms into a butterfly.
+400|Fish are abundant in these waters.|The region has abundant natural resources.
+401|Dust accumulates quickly in an empty house.|Over the years, he accumulated a lot of money.
+402|Doctors advocate a diet rich in vegetables.|She advocates equal rights for women.
+403|The instructions were ambiguous.|His answer was deliberately ambiguous.
+404|The museum displays artifacts from ancient Egypt.|Archaeologists discovered stone artifacts in the cave.
+405|My birthday coincides with the holiday this year.|The two events happened to coincide.
+406|The committee comprises ten members.|The house comprises three bedrooms and a kitchen.
+407|It rained for five consecutive days.|The team won its third consecutive title.
+408|The evidence contradicts his story.|Don't contradict your mother!
+409|Fallen leaves decay and enrich the soil.|Sugar causes tooth decay.
+410|The pain gradually diminished.|Their influence has diminished over time.
+411|Lions are the dominant animals in the savanna.|English has become the dominant language of the internet.
+412|The volcano has been dormant for centuries.|Seeds can remain dormant in the soil for years.
+413|She cooked an elaborate meal for the guests.|The thieves had an elaborate plan.
+414|Wind and rain have eroded the cliffs.|The scandal eroded public trust in the government.
+415|The cost of the project exceeded our budget.|Do not exceed the speed limit.
+416|The Nile valley has very fertile soil.|She has a fertile imagination.
+417|Archaeologists found fragments of ancient pottery.|I only heard fragments of their conversation.
+418|The desert is a hostile environment for most animals.|The crowd was hostile to the speaker.
+419|Polar bears inhabit the Arctic.|The island was once inhabited by fishermen.
+420|Innovation is the key to the company's success.|The smartphone was a major technological innovation.
+421|The heat in the desert was intense.|She felt intense pressure before the exam.
+422|Sweating is the body's mechanism for cooling down.|There is no mechanism for solving such disputes.
+423|It was raining; nevertheless, we went for a walk.|The task was difficult; nevertheless, they finished it.
+424|The bird feeds its offspring with insects.|Many animals protect their offspring from predators.
+425|We need precise measurements.|At that precise moment, the phone rang.
+426|Lions are natural predators of zebras.|Some fish change color to hide from predators.
+427|She is a prominent scientist in her field.|The castle stands in a prominent position on the hill.
+428|The school has rigid rules about uniforms.|The box is made of rigid plastic.
+429|The DNA sequence of the virus has been identified.|Describe the sequence of events that led to the accident.
+430|Vegetation is sparse in the desert.|The population of the region is sparse.
+431|Subsequent research confirmed the results.|The disease and its subsequent treatment took a year.
+432|Loud noises can trigger a panic attack.|The earthquake triggered a huge tsunami.
+433|The Sahara is a vast desert.|A vast majority of people agreed.
+434|The farm yields two crops a year.|The research yielded interesting results.
+435|The building has great aesthetic appeal.|Her choices were based on aesthetic rather than practical reasons.|The garden was designed with aesthetic harmony in mind.
+436|Scientists could not explain the anomaly in the data.|The warm winter was an anomaly.|Any anomaly in the test results must be reported.
+437|Few plants can grow in arid regions.|The climate of central Iran is arid.|Arid lands cover about a third of the Earth's surface.
+438|The enzyme acts as a catalyst in the reaction.|The protests were a catalyst for political change.|Her speech served as a catalyst for reform.
+439|He gave a clear and coherent explanation.|The essay lacks a coherent structure.|The government needs a coherent energy policy.
+440|The witness corroborated her story.|New evidence corroborates the theory.|Lab results corroborated the doctor's diagnosis.
+441|Overfishing has depleted fish stocks.|The long war depleted the country's resources.|Intensive farming depletes the soil of nutrients.
+442|The internet helps disseminate information quickly.|The results were disseminated to all hospitals.|Bees disseminate pollen from flower to flower.
+443|The two scientists hold divergent views.|The species followed divergent evolutionary paths.|There are divergent opinions about the new law.
+444|The kangaroo is endemic to Australia.|Malaria is endemic in some tropical regions.|Many endemic plants grow only on this island.
+445|This building exemplifies modern architecture.|Her career exemplifies hard work and dedication.|The case exemplifies the problems of the system.
+446|The class is a heterogeneous group of students.|The city has a heterogeneous population.|Soil is a heterogeneous mixture of minerals and organic matter.
+447|Heavy snow impeded the traffic.|Lack of funding impeded the research.|Fear can impede learning.
+448|I inadvertently deleted the file.|He inadvertently revealed the secret.|Species are sometimes introduced inadvertently by ships.
+449|The indigenous people of the region speak their own language.|Kangaroos are indigenous to Australia.|Indigenous plants need less water.
+450|She gave a lucid explanation of the theory.|His writing is lucid and easy to follow.|The patient was lucid and able to answer questions.
+451|The scientists kept meticulous notes.|The restoration of the painting required meticulous work.|Meticulous planning made the expedition a success.
+452|A genetic mutation can cause disease.|Viruses change through mutation.|The mutation allowed the insects to resist pesticides.
+453|Bats are nocturnal animals.|Many desert animals are nocturnal to avoid the heat.|Owls are well-known nocturnal hunters.
+454|Sand is more permeable than clay.|Cell membranes are permeable to water.|Rain soaks quickly into permeable soil.
+455|Annual precipitation in the desert is very low.|Precipitation includes rain, snow and hail.|The forecast predicts heavy precipitation tomorrow.
+456|Other scientists could not replicate the results.|The virus replicates inside the cell.|The study was replicated in five countries.
+457|Sediment builds up at the mouth of the river.|Fossils are often found in layers of sediment.|The water was cloudy with sediment.
+458|Bees and flowers have a symbiotic relationship.|The fungus lives in symbiotic association with the tree.|The two companies formed a symbiotic partnership.
+459|They reached a tentative agreement.|The results are only tentative.|She took a few tentative steps on the ice.
+460|Wi-Fi has become ubiquitous in cafés.|Mobile phones are ubiquitous among teenagers.|Advertising is ubiquitous in modern cities.
+461|Oil prices are extremely volatile.|Petrol is a volatile liquid that evaporates quickly.|The political situation remains volatile.
+462|I can't believe it's already Friday!|Do you believe in luck?
+463|They are building a new hospital in our town.|Birds build nests in the spring.
+464|Can you help me carry these bags?|She always carries an umbrella in her bag.
+465|Catch the ball!|I have to catch the 7:30 bus.
+466|We climbed Mount Damavand last summer.|The cat climbed up the tree.
+467|My father cooks dinner on Fridays.|Do you know how to cook rice?
+468|Put your dirty clothes in the washing machine.|The kitchen floor is dirty.
+469|The fridge is almost empty.|The streets were empty at midnight.
+470|Can you fix my bike?|The plumber fixed the leaking pipe.
+471|Follow me; I know the way.|Please follow the instructions carefully.
+472|I'm glad you came.|She was glad to hear the good news.
+473|Tomatoes grow well in this soil.|My little brother has grown a lot this year.
+474|Hurry up, or we'll miss the train!|There's no need to hurry; we have time.
+475|That's a great idea!|I have no idea where my keys are.
+476|My cat is very lazy; it sleeps all day.|Don't be lazy; finish your homework.
+477|You're lucky to have such good friends.|It was a lucky guess.
+478|Everyone makes mistakes.|I took your umbrella by mistake.
+479|I always feel nervous before exams.|The dog gets nervous during thunderstorms.
+480|What are your plans for the weekend?|Everything went according to plan.
+481|I promise I'll call you tomorrow.|He promised to help me with my homework.
+482|Can I ask you a quick question?|She is a quick learner.
+483|Dinner is ready!|Are you ready for the exam?
+484|You must follow the school rules.|Do you know the rules of chess?
+485|I'm saving money to buy a new laptop.|The doctor saved the boy's life.
+486|I sent you an email this morning.|She sent her son to the shop for bread.
+487|He stayed home because he was sick.|I feel sick after eating too much.
+488|The flowers smell wonderful.|Can you smell something burning?
+489|I'm too tired to go out tonight.|She was tired of waiting.
+490|We had a wonderful time at the beach.|What a wonderful idea!
+491|My grandmother was a teacher when she was young.|The young players trained hard.
+492|I can't afford a new car right now.|We can't afford to waste any more time.
+493|My ancestors came from Kashan.|The dog's wild ancestors were wolves.
+494|It really annoys me when people talk during films.|The noise from the street annoyed her.
+495|I have a dentist appointment at four.|You need to make an appointment to see the doctor.
+496|Are you aware of the risks?|I wasn't aware that the shop was closed.
+497|Who does this bag belong to?|These books belong to the library.
+498|Our community organized a clean-up day.|There is a large Iranian community in Toronto.
+499|Ten teams will compete in the tournament.|Small shops can't compete with big supermarkets.
+500|The bus was so crowded that I had to stand.|The beach is crowded in summer.
+501|There was a two-hour delay at the airport.|Please reply without delay.
+502|In an emergency, call 115.|The plane made an emergency landing.
+503|The gym has modern equipment.|We need new camping equipment.
+504|It's not fair that I always wash the dishes.|The judge was fair to both sides.
+505|It's my fault that we were late.|There's a fault in the engine.
+506|My goal is to speak English fluently.|He scored the winning goal.
+507|The weather gradually got warmer.|Her English is gradually improving.
+508|It's hard to break a bad habit.|He has a habit of biting his nails.
+509|Please be honest with me.|To be honest, I didn't like the film.
+510|This is the ideal place for a picnic.|In an ideal world, everyone would have enough food.
+511|She has a good knowledge of history.|Knowledge is power.
+512|We buy bread from the local bakery.|The local people were very friendly.
+513|I have a terrible memory for names.|That trip is one of my happiest memories.
+514|It was just an ordinary day.|He is an ordinary man with an extraordinary story.
+515|Nobody can predict the future.|Experts predict that prices will rise.
+516|My parents are proud of me.|She is proud of her Persian heritage.
+517|This bird is very rare.|It's rare to see snow in Bushehr.
+518|I regret not studying harder at school.|You won't regret it.
+519|We need to replace the old windows.|Robots may replace many workers.
+520|Communication is an important skill.|She wants to improve her writing skills.
+521|She is ambitious and wants to start her own company.|The government has an ambitious plan to build new schools.
+522|It was apparent that he was tired.|For no apparent reason, she started crying.
+523|Teachers assess students' work every week.|We need to assess the damage after the storm.
+524|The judge must not show any bias.|There is a bias against older workers.
+525|What a coincidence to meet you here!|It was no coincidence that they arrived together.
+526|Please keep your answers clear and concise.|She gave a concise summary of the report.
+527|She dedicated her life to helping children.|He dedicated his first book to his mother.
+528|I'm in a dilemma about which job to take.|Doctors often face moral dilemmas.
+529|Can you distinguish between these two sounds?|What distinguishes this phone from others?
+530|They had to endure many hardships during the war.|I can't endure this noise any longer.
+531|Excessive use of phones can harm your eyes.|The fine seemed excessive for such a small mistake.
+532|Be careful with that vase; it's fragile.|The peace between the two countries is fragile.
+533|I'm grateful for all your help.|We are grateful to our teachers.
+534|Despite his success, he is very humble.|She comes from a humble family.
+535|He made an impulsive decision to quit his job.|Children are often impulsive.
+536|Don't let the exam intimidate you.|The bigger boys tried to intimidate him.
+537|It's a myth that goldfish have three-second memories.|Greek myths are full of gods and heroes.
+538|He neglected his health for years.|The old house had been neglected.
+539|Old songs fill me with nostalgia.|She felt nostalgia for her childhood home.
+540|Lack of money was the biggest obstacle.|The runners jumped over the obstacles.
+541|I'm optimistic about the future.|Doctors are optimistic that she will recover.
+542|Colors are perceived differently by different people.|He perceived the change as a threat.
+543|Take precautions against the cold weather.|As a precaution, we backed up all the files.
+544|The doctor reassured me that it was nothing serious.|She reassured the children that everything was fine.
+545|The old palace has been restored.|The government promised to restore order.
+546|Please accept my sincere apologies.|He is a sincere and honest man.
+547|The police made a thorough search of the house.|She has a thorough knowledge of the subject.
+548|Constant criticism can undermine a child's confidence.|The scandal undermined trust in the government.
+549|Eggs are a versatile ingredient.|She is a versatile actress who can play any role.
+550|I abhor violence of any kind.|She abhors cruelty to animals.|Most people abhor injustice.
+551|The teacher admonished the students for being late.|His mother admonished him to drive carefully.|The judge admonished the witness to tell the truth.
+552|The drunk man became belligerent.|The two belligerent nations finally signed a peace treaty.|His belligerent tone surprised everyone.
+553|She cajoled her father into buying her a phone.|He cajoled the children to eat their vegetables.|They tried to cajole him into staying.
+554|The weather here is capricious.|The capricious boss changed his mind every day.|Fame can be capricious.
+555|We can't afford to be complacent about safety.|After years of success, the company became complacent.|Don't get complacent just because you passed the first test.
+556|He removed his hat out of deference to the elders.|She treated her teacher with great deference.|In deference to her wishes, the funeral was private.
+557|He often disparages his colleagues' work.|Don't disparage other people's beliefs.|The article disparaged the government's efforts.
+558|The Mona Lisa is famous for her enigmatic smile.|He gave an enigmatic answer.|She remained an enigmatic figure throughout her life.
+559|She faced the crisis with equanimity.|He accepted the bad news with equanimity.|Meditation helps you keep your equanimity.
+560|He made a facetious remark about the serious problem.|Stop being facetious; this is important.|Her facetious comments annoyed the teacher.
+561|The film was full of gratuitous violence.|His gratuitous insults hurt her feelings.|The report contains gratuitous details.
+562|One of his idiosyncrasies is wearing two watches.|Every writer has stylistic idiosyncrasies.|We learned to accept each other's idiosyncrasies.
+563|The incessant rain lasted for a week.|I'm tired of his incessant complaining.|The incessant noise kept us awake.
+564|He gave a laconic reply: "No."|The cowboy was known for his laconic style.|Her laconic emails often seemed rude.
+565|He was magnanimous in victory.|She made a magnanimous offer to help her rival.|It was magnanimous of him to forgive them.
+566|The police uncovered a nefarious plot.|He was involved in nefarious activities.|The villain had nefarious plans for the city.
+567|The politician tried to obfuscate the facts.|Technical language can obfuscate the real issue.|Don't obfuscate; just tell me the truth.
+568|He gave a perfunctory nod and walked away.|The guard made a perfunctory check of our bags.|Her apology sounded perfunctory.
+569|The recalcitrant child refused to go to bed.|The government struggled with recalcitrant rebels.|Recalcitrant students were sent to the principal.
+570|She is sanguine about her chances of winning.|Experts are less sanguine about the economy.|He remained sanguine despite the setbacks.
+571|She gave him a surreptitious glance.|He took a surreptitious photo of the document.|They had a surreptitious meeting at night.
+572|She opened the letter with trepidation.|He approached the dog with trepidation.|There was some trepidation about the new plan.
+573|The new evidence vindicated the prisoner.|Her decision was vindicated by the results.|He felt vindicated when the truth came out.
+574|The company advertises on television.|They advertised the job online.
+575|The new park will benefit the whole community.|One benefit of online learning is flexibility.
+576|The government launched a campaign against smoking.|Her election campaign was very successful.
+577|There is a sharp contrast between rich and poor areas.|In contrast to her sister, she is very quiet.
+578|The hotel is in a convenient location near the station.|Online shopping is very convenient.
+579|Developing countries need investment in education.|She developed a new method of teaching.
+580|Tourism is important for the local economy.|The economy grew by three percent last year.
+581|Teachers should encourage students to ask questions.|Low prices encourage people to buy more.
+582|Cars are harmful to the environment.|A friendly working environment improves productivity.
+583|The younger generation uses technology every day.|Three generations live in the same house.
+584|Smoking is bad for your health.|Mental health is as important as physical health.
+585|Families on low incomes need more support.|Tourism is the island's main source of income.
+586|There has been an increase in house prices.|The increase in traffic has caused more pollution.
+587|Unemployment is a major issue in many countries.|The issue of climate change concerns everyone.
+588|Modern technology makes life easier.|Many people prefer modern architecture.
+589|In my opinion, education should be free.|Public opinion is divided on the issue.
+590|A high percentage of students passed the exam.|The percentage of people who own cars has risen.
+591|Students are under a lot of pressure to succeed.|There is growing pressure on the government to act.
+592|We must reduce our use of plastic.|Exercise can reduce stress.
+593|Research shows that sleep improves memory.|She is doing research on climate change.
+594|Doctors earn a high salary.|He asked for an increase in his salary.
+595|Public transport in the city is cheap and fast.|The transport of goods by road is expensive.
+596|The museum is accessible to wheelchair users.|Education should be accessible to all.
+597|She acquired a good knowledge of English while living in London.|The company acquired a smaller competitor.
+598|Many experts advocate the use of public transport.|He advocates free education for everyone.
+599|Pollution has serious consequences for health.|As a consequence of the strike, schools were closed.
+600|Tourism contributes greatly to the economy.|Everyone should contribute to protecting the environment.
+601|Many children are deprived of education.|Lack of sleep deprives the brain of rest.
+602|There are two distinct types of learners.|The region has a distinct culture.
+603|Vaccines have helped to eradicate many diseases.|The government aims to eradicate poverty.
+604|It is evident that more needs to be done.|The effects of climate change are evident.
+605|There have been sharp fluctuations in oil prices.|The graph shows fluctuations in temperature.
+606|Globalization has increased international trade.|Some people blame globalization for job losses.
+607|Smoking is hazardous to health.|Factories must dispose of hazardous waste safely.
+608|Some job losses are inevitable with new technology.|It was inevitable that prices would rise.
+609|Online learning reduces face-to-face interaction.|Social interaction is important for children.
+610|Rewards can motivate employees to work harder.|Teachers should motivate students to read.
+611|Sales peaked in December.|Traffic usually peaks at eight in the morning.
+612|The campaign aims to promote healthy eating.|She was promoted to manager.
+613|The city has made remarkable progress in reducing pollution.|She has a remarkable talent for music.
+614|Our reliance on cars causes pollution.|Reliance on a single source of income is risky.
+615|There was a surge in demand for electric cars.|The graph shows a sudden surge in prices.
+616|The government must tackle unemployment.|We need new ways to tackle climate change.
+617|The sudden drop in sales was an anomaly.|Researchers noticed an anomaly in the figures.|This hot October is a climatic anomaly.
+618|She attained the highest score in the class.|Few countries have attained full employment.|He finally attained his goal of becoming a doctor.
+619|A good essay presents a coherent argument.|The government lacks a coherent strategy.|Her ideas were clear and coherent.
+620|Complacency is the biggest danger after success.|There is no room for complacency in road safety.|Public complacency about the disease is worrying.
+621|Some people love city life; conversely, others prefer the countryside.|Prices rose in the north; conversely, they fell in the south.|Higher taxes reduce spending; conversely, lower taxes encourage it.
+622|The essay explores the dichotomy between work and family.|There is a clear dichotomy between theory and practice.|The dichotomy of rich and poor is growing.
+623|The poor pay a disproportionate amount of their income in taxes.|Young people are disproportionately affected by unemployment.|The punishment was disproportionate to the crime.
+624|The report was based on erroneous data.|It is an erroneous belief that money brings happiness.|The erroneous results were corrected.
+625|This project exemplifies the benefits of teamwork.|The city exemplifies sustainable development.|Her success exemplifies what hard work can achieve.
+626|Doctors are taking a more holistic approach to health.|A holistic education develops the whole person.|We need a holistic solution to urban problems.
+627|Tax breaks are an incentive for companies to invest.|There is little incentive to save money.|Bonuses provide an incentive for staff to work harder.
+628|The problems seemed insurmountable at first.|They faced insurmountable obstacles.|No challenge is insurmountable with good planning.
+629|Climate change mitigation requires global cooperation.|Flood mitigation measures were introduced.|The mitigation of risks is a key part of planning.
+630|Many workers are in precarious jobs.|The economy is in a precarious state.|The climber was in a precarious position on the cliff.
+631|His injury precluded him from playing.|Lack of money precludes many students from studying abroad.|The rules preclude any changes after submission.
+632|The salient points of the report are summarized below.|Write down the salient features of the graph.|Cost was the most salient issue in the debate.
+633|Plastic is ubiquitous in modern life.|Fast food has become ubiquitous worldwide.|Security cameras are now ubiquitous in cities.
+634|The city has seen unprecedented growth.|Tourism reached unprecedented levels last year.|The crisis required unprecedented measures.
+635|Agriculture is the main industry in this region.|Modern agriculture uses a lot of water.
+636|The Earth's atmosphere contains oxygen.|The restaurant has a relaxed atmosphere.
+637|Plants benefit from regular watering.|Everyone will benefit from the new policy.
+638|The human body contains trillions of cells.|Red blood cells carry oxygen.
+639|Cars consume a lot of fuel.|Americans consume a lot of sugar.
+640|The population of the species is declining.|His health declined rapidly.
+641|Oxygen is a chemical element.|Trust is an important element of friendship.
+642|Plants get their energy from the sun.|Wind is a clean source of energy.
+643|The universe is expanding.|The empire expanded across Asia.
+644|Scientists conducted an experiment to test the theory.|The experiment showed that plants need light.
+645|She studied geology at university.|The geology of the area is very complex.
+646|Gravity keeps the planets in orbit around the sun.|Newton discovered the law of gravity.
+647|Water is a liquid at room temperature.|Drink plenty of liquids when you have a fever.
+648|Whales are mammals, not fish.|Bats are the only mammals that can fly.
+649|This is a new method for measuring air quality.|Farmers use traditional methods of growing rice.
+650|Plants absorb nutrients from the soil.|Fruit is full of important nutrients.
+651|The Moon is in orbit around the Earth.|The satellite was launched into orbit.
+652|Water pressure increases with depth.|Blood pressure is measured in millimeters of mercury.
+653|Three quarters of the Earth's surface is water.|The surface of the table is smooth.
+654|Water boils at a temperature of 100 degrees Celsius.|The nurse took my temperature.
+655|Language acquisition is fastest in early childhood.|The museum's latest acquisition is a Persian carpet.
+656|The library is adjacent to the school.|They live in adjacent apartments.
+657|Climate change could alter the ecosystem.|The tailor altered my suit.
+658|Exercise improves blood circulation.|Ocean circulation affects the climate.
+659|Nothing can compensate for the loss of a child.|The company compensated workers for the injury.
+660|Rich deposits of gold were found in the mountains.|The river leaves deposits of mud on its banks.
+661|The war displaced thousands of families.|Native plants were displaced by invasive species.
+662|The sun emerged from behind the clouds.|New evidence has emerged about the case.
+663|Archaeologists excavated an ancient city.|Workers excavated the soil to build the foundation.
+664|There are dangers inherent in deep-sea diving.|The ability to learn language is inherent in humans.
+665|The desert landscape was beautiful at sunset.|The political landscape has changed.
+666|Plants need moisture to grow.|This cream helps your skin keep its moisture.
+667|Birds use the Earth's magnetic field to navigate.|Early sailors navigated by the stars.
+668|Primitive people used stone tools.|The bacteria is a primitive form of life.
+669|The Earth rotates once every 24 hours.|Farmers rotate their crops each year.
+670|Archaeologists found the remains of an ancient settlement.|The two sides reached a settlement after long talks.
+671|Water is the most common substance on Earth.|The police found an illegal substance in his car.
+672|Cacti thrive in hot, dry climates.|Some people thrive under pressure.
+673|Immigrants often assimilate into the new culture.|The body assimilates nutrients from food.|It takes time to assimilate so much information.
+674|He attributes his success to hard work.|The painting is attributed to a student of Rembrandt.|Scientists attribute the warming to greenhouse gases.
+675|The chameleon uses camouflage to hide.|Soldiers wore camouflage uniforms.|The moth's camouflage makes it look like tree bark.
+676|She is a famous contemporary artist.|The novel was popular with contemporary readers.|Contemporary architecture uses a lot of glass.
+677|Farmers cultivate rice in the north of Iran.|She cultivated friendships with influential people.|The land has been cultivated for centuries.
+678|The paintings deteriorated in the damp room.|Air quality has deteriorated in recent years.|Without care, the old building will deteriorate.
+679|The excavation revealed ancient tombs.|Excavation of the site began in 1931.|The excavation uncovered Roman coins.
+680|Animal populations fluctuate with the seasons.|Her mood fluctuates from day to day.|The price of gold fluctuates daily.
+681|There is a strict hierarchy in the army.|Wolves live in a social hierarchy.|She rose quickly through the company hierarchy.
+682|Scientists hypothesize that the asteroid caused extinction.|Researchers hypothesized that sleep improves memory.|We can only hypothesize about what happened.
+683|The discovery caused a paradigm shift in physics.|The old paradigm of education is changing.|Darwin's theory became the new paradigm in biology.
+684|Prehistoric people painted animals on cave walls.|The museum displays prehistoric tools.|Dinosaurs lived in prehistoric times.
+685|Bacteria proliferate in warm conditions.|Fast-food restaurants have proliferated in the city.|Cancer cells proliferate rapidly.
+686|There is still some residual pain after the operation.|Residual chemicals were found in the water.|The residual heat kept the room warm.
+687|Each stratum of rock represents a different period.|Fossils were found in the lowest stratum.|The policy affects every stratum of society.
+688|Plants synthesize sugar from sunlight.|The drug was synthesized in a laboratory.|The essay synthesizes ideas from many sources.

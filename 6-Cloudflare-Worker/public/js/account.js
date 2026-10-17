@@ -140,10 +140,11 @@ function snapshot(){
   (S.custom||[]).forEach(c => m['c:'+c.id] = JSON.stringify(c));
   for(const a in S.ach) m['a:'+a] = String(S.ach[a]);
   (S.quizzes||[]).forEach(q => { if(q && q.d) m['q:'+q.d] = JSON.stringify(q); });
+  for(const k in (S.kv||{})) if(S.kv[k] != null) m['k:'+k] = JSON.stringify(S.kv[k]);
   return m;
 }
 function buildChanges(snap, shadow){
-  const now = Date.now(), ch = {progress:{}, days:{}, custom:{}, ach:{}, quizzes:[]}; let n = 0;
+  const now = Date.now(), ch = {progress:{}, days:{}, custom:{}, ach:{}, quizzes:[], kv:{}}; let n = 0;
   for(const k in snap){
     if(snap[k] === shadow[k]) continue;
     const v = snap[k], kind = k.slice(0, 2), id = k.slice(2); n++;
@@ -153,12 +154,14 @@ function buildChanges(snap, shadow){
     else if(kind === 'c:') ch.custom[id] = {u: now, data: JSON.parse(v)};
     else if(kind === 'a:') ch.ach[id] = +v;
     else if(kind === 'q:') ch.quizzes.push(JSON.parse(v));
+    else if(kind === 'k:') ch.kv[id] = {u: now, data: JSON.parse(v)};
   }
   for(const k in shadow){
     if(k in snap) continue;
     const kind = k.slice(0, 2), id = k.slice(2);
     if(kind === 'p:'){ ch.progress[id] = {u: now, data: null}; n++; }
     else if(kind === 'c:'){ ch.custom[id] = {u: now, data: null}; n++; }
+    else if(kind === 'k:'){ ch.kv[id] = {u: now, data: null}; n++; }
   }
   return n ? ch : null;
 }
@@ -169,6 +172,7 @@ function curVal(k){
   if(kind === 'd:') return S.days[id] ? JSON.stringify(S.days[id]) : undefined;
   if(kind === 'c:'){ const c = (S.custom||[]).find(x => x.id === id); return c ? JSON.stringify(c) : undefined; }
   if(kind === 'a:') return S.ach[id] != null ? String(S.ach[id]) : undefined;
+  if(kind === 'k:') return S.kv && S.kv[id] != null ? JSON.stringify(S.kv[id]) : undefined;
   return undefined;
 }
 function applyIncoming(ch, sent){
@@ -195,6 +199,12 @@ function applyIncoming(ch, sent){
     if(d){ S.custom.push(d); sh[k] = JSON.stringify(d); } else delete sh[k];
     words = any = true;
   }
+  for(const id in (ch.kv||{})){
+    const k = 'k:'+id; if(!clean(k)) continue;
+    const d = ch.kv[id]; S.kv = S.kv || {};
+    if(d != null){ S.kv[id] = d; sh[k] = JSON.stringify(d); } else { delete S.kv[id]; delete sh[k]; }
+    any = true;
+  }
   for(const a in (ch.ach||{})){ if(S.ach[a] == null){ S.ach[a] = ch.ach[a]; any = true; } sh['a:'+a] = String(S.ach[a]); }
   (ch.quizzes||[]).forEach(q => { if(!S.quizzes.some(x => x.d === q.d)){ S.quizzes.push(q); any = true; } sh['q:'+q.d] = JSON.stringify(S.quizzes.find(x => x.d === q.d)); });
   if(any) S.quizzes.sort((a, b) => a.d - b.d);
@@ -211,7 +221,7 @@ function schedule(ms=2500){
   if(!A.auto){ A.timer = setTimeout(updatePending, 600); return; }
   A.timer = setTimeout(() => VY.sync(), ms);
 }
-function pendingCount(){ const snap = snapshot(), sh = A.meta.shadow; let n = 0; for(const k in snap) if(snap[k] !== sh[k]) n++; for(const k in sh) if(!(k in snap) && (k[0]==='p'||k[0]==='c')) n++; return n; }
+function pendingCount(){ const snap = snapshot(), sh = A.meta.shadow; let n = 0; for(const k in snap) if(snap[k] !== sh[k]) n++; for(const k in sh) if(!(k in snap) && (k[0]==='p'||k[0]==='c'||k[0]==='k')) n++; return n; }
 function updatePending(){ if(!VY.isLoggedIn()) return; A.pend = pendingCount(); if(A.status !== 'syncing') setStatus(A.pend && !A.auto ? 'pending' : (A.status === 'pending' ? 'ok' : A.status)); }
 function setStatus(s){ A.status = s; const el = document.getElementById('sync-ind'); if(el){ el.className = 'sync-ind ' + s; el.title = statusText(); } const c = document.getElementById('acc-status'); if(c) c.innerHTML = statusChip(); }
 VY.setAutoSync = on => { A.auto = !!on; localStorage.setItem(AKEY, on ? '1' : '0'); if(on) schedule(300); else updatePending(); };
@@ -224,7 +234,7 @@ VY.sync = async ({keepalive=false} = {}) => {
   try{
     const snap = snapshot(), changes = buildChanges(snap, A.meta.shadow);
     const sent = {};
-    if(changes){ for(const k in snap) if(snap[k] !== A.meta.shadow[k]) sent[k] = snap[k]; for(const k in A.meta.shadow) if(!(k in snap) && (k[0]==='p'||k[0]==='c')) sent[k] = undefined; }
+    if(changes){ for(const k in snap) if(snap[k] !== A.meta.shadow[k]) sent[k] = snap[k]; for(const k in A.meta.shadow) if(!(k in snap) && (k[0]==='p'||k[0]==='c'||k[0]==='k')) sent[k] = undefined; }
     const res = await api('/sync', {method:'POST', body:{since: A.meta.rev || 0, changes: changes || {}}, keepalive, timeout: 20000});
     if(gen !== A.gen || !VY.isLoggedIn()) return false;          // signed out / switched account meanwhile
     if(res.reset){                      // account was reset on another device
@@ -256,7 +266,7 @@ const settle = () => A.busy ? new Promise(r => { A.settleFn = r; setTimeout(r, 2
 VY.resetAll = () => { origReset(); if(VY.isLoggedIn()){ api('/me/reset', {method:'POST', body:{}}).then(() => { A.meta.shadow = {}; A.meta.rev = 0; saveMeta(); VY.sync(); }).catch(() => {}); } };
 
 document.addEventListener('visibilitychange', () => { if(!A.auto) return; if(document.visibilityState === 'hidden') VY.sync({keepalive:true}); else schedule(300); });
-window.addEventListener('online', () => { A.online = true; if(A.auto) schedule(500); });
+window.addEventListener('online', () => { A.online = true; if(A.cfg && A.cfg.placeholder) refreshConfig(); if(A.auto) schedule(500); });
 window.addEventListener('offline', () => { A.online = false; if(VY.isLoggedIn() && A.status !== 'syncing') setStatus('offline'); });
 setInterval(() => { if(A.auto && document.visibilityState === 'visible') VY.sync(); }, 60000);
 setInterval(() => { if(A.auto && VY.isServer() && document.visibilityState === 'visible') fetchWords().then(ch => { if(ch && !['study','quiz','games'].includes(VY.current)) VY.rerender(); }); }, 10 * 60000);
@@ -305,44 +315,68 @@ VY.useLocal = () => { localStorage.setItem(GKEY, '1'); if(location.hash.indexOf(
 
 /* ---------- boot ---------- */
 const tgApp = () => { const w = window.Telegram && window.Telegram.WebApp; return w && w.initData ? w : null; };
+/* Offline-first start: the app opens at once from the cached config/user/word bank; the server is contacted in the background.
+   Only a first sign-in (or Telegram / one-time-link sign-in) waits for the network. */
+const PLACEHOLDER_CFG = {registration: true, guest: true, placeholder: true};
+function refreshConfig(){
+  return api('/config', {timeout: 8000}).then(c => {
+    A.cfg = c; A.online = true; try{ localStorage.setItem(CKEY, JSON.stringify(c)); }catch(e){}
+    if(document.querySelector('.main')) noticeBanner();
+    if(VY.onConfig) VY.onConfig(c);
+    return c;
+  }).catch(() => { A.online = false; return null; });
+}
+function backgroundStart(){
+  // runs after the shell is visible: verify the session, then pull/push changes and the word bank
+  api('/me', {timeout: 10000}).then(me => {
+    setUser(me.user); A.summary = me.summary; A.online = true;
+    if(A.auto) VY.sync();
+    fetchWords().then(c => { if(c && !['study','quiz','games','reading','duel','placement'].includes(VY.current)) VY.rerender(); });
+  }).catch(e => {
+    if(e.status === 401){ A.token = null; localStorage.removeItem(TKEY); setUser(null); A.gen++; return showLogin(); }
+    setStatus('offline');
+  });
+}
 VY.boot = async () => {
   A.base = resolveBase();
   VY.apiBase = A.base || '';                               // absolute API base for builds that are not served by the Worker itself
   if(A.base === null) return VY.renderShell();               // pure offline build
   const qs = new URLSearchParams(location.search), code = qs.get('login');
-  if(code || qs.has('tg')){ try{ history.replaceState(null, '', location.pathname + location.hash); }catch(e){} }
-  showSplash(T('loading'));
-  try{ A.cfg = await api('/config', {timeout: 5000}); A.online = true; try{ localStorage.setItem(CKEY, JSON.stringify(A.cfg)); }catch(e){} }
-  catch(e){ A.cfg = loadJ(CKEY, null); A.online = false; }
+  if(qs.get('duel')) VY.pendingDuel = qs.get('duel');
+  if(code || qs.has('tg') || qs.has('duel')){ try{ history.replaceState(null, '', location.pathname + location.hash); }catch(e){} }
   useWords(loadJ(WKEY, null));
-  if(!A.cfg) return VY.renderShell();                        // no server reachable and never seen one → normal offline app
+  const tw = tgApp(), tu = tw && tw.initDataUnsafe && tw.initDataUnsafe.user, cu = loadJ(UKEY, null);
+  const needNet = !!code || !!(tu && (!A.token || !cu || !cu.telegram || +cu.telegram.id !== +tu.id));
+  A.cfg = loadJ(CKEY, null);
+  if(!A.cfg || needNet){
+    if(needNet || navigator.onLine !== false){ showSplash(T('loading')); await refreshConfig(); }
+    if(!A.cfg) A.cfg = Object.assign({}, PLACEHOLDER_CFG);     // never reached the server: still offer sign-in + guest mode
+  } else refreshConfig();
   // one-time sign-in link from the Telegram bot (?login=CODE)
   if(code && A.online){
     try{ const res = await api('/auth/code', {method:'POST', body:{code}}); return afterLogin(res); }
     catch(e){ setTimeout(() => VY.toast(T('err_' + (e.code || 'bad_code'))), 900); }
   }
   // inside Telegram: use the same account as the bot
-  const tw = tgApp(), tu = tw && tw.initDataUnsafe && tw.initDataUnsafe.user;
-  if(tu && A.cfg.telegram && A.online){
-    const cu = loadJ(UKEY, null);
-    if(!A.token || !cu || !cu.telegram || +cu.telegram.id !== +tu.id){
-      try{ const res = await api('/auth/telegram', {method:'POST', body:{initData: tw.initData}}); return afterLogin(res); }catch(e){}
-    }
+  if(tu && A.online && needNet){
+    try{ const res = await api('/auth/telegram', {method:'POST', body:{initData: tw.initData}}); return afterLogin(res); }catch(e){}
   }
   if(!A.token){
-    if(localStorage.getItem(GKEY) || (!A.online && hasLocalData())){ if(A.online) fetchWords().then(c => c && VY.rerender()); return VY.renderShell(); }
-    if(!A.online) return VY.renderShell();
-    return showLogin();
+    if(localStorage.getItem(GKEY)){ fetchWords().then(c => c && VY.rerender()); return VY.renderShell(); }
+    return showLogin();                                        // works offline too (guest button)
   }
-  const cached = loadJ(UKEY, null);
-  if(!A.online){ setUser(cached || {id: A.meta.uid, email: '', phone: '', name: ''}); setStatus('offline'); return VY.renderShell(); }
-  try{ const me = await api('/me', {timeout: 6000}); setUser(me.user); A.summary = me.summary; }
+  if(cu && A.meta.uid && +cu.id === +A.meta.uid){              // known account on this device → open immediately
+    setUser(cu); if(location.hash.indexOf('#/') !== 0) location.hash = '#/home';
+    VY.renderShell(); setStatus(navigator.onLine === false ? 'offline' : 'idle'); updatePending();
+    return backgroundStart();
+  }
+  showSplash(T('loading'));
+  try{ const me = await api('/me', {timeout: 8000}); setUser(me.user); A.summary = me.summary; }
   catch(e){
     if(e.status === 401){ A.token = null; localStorage.removeItem(TKEY); setUser(null); return showLogin(); }
-    if(A.meta.uid){ setUser(cached || {id: A.meta.uid, email: '', phone: '', name: ''}); setStatus('offline'); return VY.renderShell(); }   // server down: keep working offline
+    if(A.meta.uid){ setUser(cu || {id: A.meta.uid, email: '', phone: '', name: ''}); setStatus('offline'); return VY.renderShell(); }   // server down: keep working offline
     return showLogin();
   }
-  if(A.meta.uid === A.user.id && !A.auto){ updatePending(); if(location.hash.indexOf('#/') !== 0) location.hash = '#/home'; return VY.renderShell(); }  // manual sync: open immediately
   await afterLogin();
 };
 

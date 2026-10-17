@@ -1,0 +1,2444 @@
+[
+ {
+  "id": "ielts-1-rooftop-gardens",
+  "exam": "ielts",
+  "level": 1,
+  "minutes": 15,
+  "title": "Gardens in the Sky",
+  "title_fa": "باغ‌هایی در آسمان",
+  "topic": "Urban environment",
+  "paras": [
+   "In many large cities, space at ground level is expensive and limited. As a result, architects and city planners have started to look upwards. Rooftop gardens, which were once seen as a luxury for wealthy homeowners, are now appearing on schools, hospitals, office blocks and even bus shelters.",
+   "The benefits of these gardens are both environmental and social. Plants on roofs absorb rainwater, which reduces the pressure on city drainage systems during heavy storms. They also help to cool buildings in summer. A study in Toronto found that a green roof could lower the temperature of the roof surface by more than 20 degrees Celsius on a hot day, which means that less energy is needed for air conditioning.",
+   "Rooftop gardens can also improve the quality of city life. Office workers who have access to a garden during their breaks report lower levels of stress, and some companies use their roofs to grow vegetables for staff canteens. In Singapore, a number of public housing blocks have community gardens on top, where residents of different ages meet and share their harvest.",
+   "However, building a garden on a roof is not simple. The structure must be strong enough to carry the weight of wet soil, which can be very heavy. Older buildings often need expensive strengthening work before a garden can be added. In addition, a waterproof layer has to be installed to stop water from leaking into the rooms below, and the plants must be chosen carefully because roofs are usually windier and drier than gardens on the ground.",
+   "Despite these challenges, several cities now encourage green roofs. Since 2009, Toronto has required many new large buildings to include one, and some European cities offer money to property owners who install them. Supporters believe that, in the future, the view from a city tower may be more green than grey."
+  ],
+  "gl": {
+   "luxury": "تجملات",
+   "drainage": "زهکشی",
+   "absorb": "جذب کردن",
+   "strengthening": "تقویت",
+   "waterproof": "ضدآب",
+   "harvest": "محصول، برداشت",
+   "canteen": "غذاخوری"
+  },
+  "qs": [
+   {
+    "g": "Questions 1–5 · Do the following statements agree with the information in the passage? Choose TRUE, FALSE or NOT GIVEN.",
+    "type": "tfng",
+    "q": "Rooftop gardens used to be found mainly on the homes of rich people.",
+    "a": "T"
+   },
+   {
+    "type": "tfng",
+    "q": "Green roofs increase the amount of rainwater that enters city drains.",
+    "a": "F"
+   },
+   {
+    "type": "tfng",
+    "q": "The Toronto study was carried out over a period of ten years.",
+    "a": "NG"
+   },
+   {
+    "type": "tfng",
+    "q": "Some companies grow food on their roofs for their employees.",
+    "a": "T"
+   },
+   {
+    "type": "tfng",
+    "q": "All public housing blocks in Singapore have rooftop gardens.",
+    "a": "F"
+   },
+   {
+    "g": "Questions 6–8 · Choose the correct letter.",
+    "type": "mcq",
+    "q": "According to the passage, older buildings",
+    "o": [
+     "are too tall for rooftop gardens.",
+     "may need to be made stronger first.",
+     "already have waterproof roofs.",
+     "are not allowed to have gardens."
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "q": "Plants for roof gardens must be chosen carefully because roofs are usually",
+    "o": [
+     "shadier than ground gardens.",
+     "colder at night.",
+     "windier and drier.",
+     "too small for trees."
+    ],
+    "a": 2
+   },
+   {
+    "type": "mcq",
+    "q": "What has Toronto done since 2009?",
+    "o": [
+     "It has paid owners to remove old roofs.",
+     "It has required many new large buildings to have green roofs.",
+     "It has banned air conditioning in offices.",
+     "It has built gardens on all bus shelters."
+    ],
+    "a": 1
+   },
+   {
+    "g": "Questions 9–10 · Complete the sentences. Write NO MORE THAN TWO WORDS from the passage.",
+    "type": "gap",
+    "q": "A green roof can reduce the energy needed for ______ on a hot day.",
+    "a": [
+     "air conditioning"
+    ],
+    "w": 2
+   },
+   {
+    "type": "gap",
+    "q": "A ______ layer stops water from leaking into the rooms below.",
+    "a": [
+     "waterproof"
+    ],
+    "w": 2
+   }
+  ],
+  "words": 309
+ },
+ {
+  "id": "ielts-2-sleep-memory",
+  "exam": "ielts",
+  "level": 2,
+  "minutes": 18,
+  "title": "Sleep and the Learning Brain",
+  "title_fa": "خواب و مغز یادگیرنده",
+  "topic": "Psychology",
+  "labels": true,
+  "paras": [
+   "For centuries, sleep was regarded as a passive state in which the body simply rested. Today, however, researchers see it as an active and highly organised process that is essential for learning. Experiments in sleep laboratories have shown that the brain does not switch off at night; instead, it replays and reorganises the information it has collected during the day.",
+   "One of the clearest demonstrations came from studies with rats. Scientists recorded the activity of nerve cells in the hippocampus, a region of the brain linked to memory, while the animals learned to find their way through a maze. When the rats later fell asleep, the same cells fired again in almost the same order, as if the animals were mentally running through the maze. Rats that were woken up during this replay performed worse the next day.",
+   "Human studies point in the same direction. In a typical experiment, volunteers learn a list of word pairs or a sequence of finger movements in the evening. Half of them then sleep normally, while the other half stay awake. When both groups are tested twelve hours later, those who have slept usually remember significantly more. Interestingly, sleep seems to help most with material that has been only partly learned, rather than with information that is already well known.",
+   "Different stages of sleep appear to have different functions. Deep, slow-wave sleep, which dominates the first half of the night, is thought to strengthen memories of facts and events. Rapid eye movement (REM) sleep, which becomes longer towards morning, may be more important for emotional memories and for creative problem-solving. Cutting sleep short by getting up very early may therefore remove a disproportionate amount of REM sleep.",
+   "These findings have practical implications for students. Staying up all night before an examination is likely to be counter-productive, because new information has little chance to be consolidated. Several researchers recommend reviewing difficult material shortly before going to bed and then revising it again the following day. Even a short daytime nap of around sixty to ninety minutes has been shown to improve performance on some memory tasks."
+  ],
+  "gl": {
+   "passive": "منفعل",
+   "hippocampus": "هیپوکامپ (بخشی از مغز)",
+   "maze": "هزارتو",
+   "replay": "بازپخش",
+   "consolidated": "تثبیت‌شده",
+   "disproportionate": "نامتناسب",
+   "counter-productive": "نتیجهٔ معکوس",
+   "nap": "چرت"
+  },
+  "qs": [
+   {
+    "g": "Questions 1–5 · The passage has five paragraphs, A–E. Choose the correct heading for each paragraph.",
+    "type": "head",
+    "q": "Paragraph A",
+    "o": [
+     "i. Advice for people preparing for tests",
+     "ii. Evidence from experiments on animals",
+     "iii. A changing view of what sleep is",
+     "iv. The dangers of sleeping too much",
+     "v. Separate roles for separate phases",
+     "vi. Similar results with people"
+    ],
+    "a": 2
+   },
+   {
+    "type": "head",
+    "q": "Paragraph B",
+    "o": [
+     "i. Advice for people preparing for tests",
+     "ii. Evidence from experiments on animals",
+     "iii. A changing view of what sleep is",
+     "iv. The dangers of sleeping too much",
+     "v. Separate roles for separate phases",
+     "vi. Similar results with people"
+    ],
+    "a": 1
+   },
+   {
+    "type": "head",
+    "q": "Paragraph C",
+    "o": [
+     "i. Advice for people preparing for tests",
+     "ii. Evidence from experiments on animals",
+     "iii. A changing view of what sleep is",
+     "iv. The dangers of sleeping too much",
+     "v. Separate roles for separate phases",
+     "vi. Similar results with people"
+    ],
+    "a": 5
+   },
+   {
+    "type": "head",
+    "q": "Paragraph D",
+    "o": [
+     "i. Advice for people preparing for tests",
+     "ii. Evidence from experiments on animals",
+     "iii. A changing view of what sleep is",
+     "iv. The dangers of sleeping too much",
+     "v. Separate roles for separate phases",
+     "vi. Similar results with people"
+    ],
+    "a": 4
+   },
+   {
+    "type": "head",
+    "q": "Paragraph E",
+    "o": [
+     "i. Advice for people preparing for tests",
+     "ii. Evidence from experiments on animals",
+     "iii. A changing view of what sleep is",
+     "iv. The dangers of sleeping too much",
+     "v. Separate roles for separate phases",
+     "vi. Similar results with people"
+    ],
+    "a": 0
+   },
+   {
+    "g": "Questions 6–9 · TRUE, FALSE or NOT GIVEN?",
+    "type": "tfng",
+    "q": "Rats that were disturbed while their brain cells were replaying the maze did less well afterwards.",
+    "a": "T"
+   },
+   {
+    "type": "tfng",
+    "q": "In human studies, sleep helps most with information that people already know very well.",
+    "a": "F"
+   },
+   {
+    "type": "tfng",
+    "q": "REM sleep is longer in the later part of the night.",
+    "a": "T"
+   },
+   {
+    "type": "tfng",
+    "q": "Most university students sleep less than seven hours a night.",
+    "a": "NG"
+   },
+   {
+    "g": "Questions 10–13 · Complete the summary using the list of words below.",
+    "type": "bank",
+    "q": "Slow-wave sleep is believed to ______ memories of facts and events.",
+    "o": [
+     "strengthen",
+     "replace",
+     "creative",
+     "emotional",
+     "review",
+     "nap",
+     "early"
+    ],
+    "a": 0
+   },
+   {
+    "type": "bank",
+    "q": "REM sleep may matter more for ______ memories.",
+    "o": [
+     "strengthen",
+     "replace",
+     "creative",
+     "emotional",
+     "review",
+     "nap",
+     "early"
+    ],
+    "a": 3
+   },
+   {
+    "type": "bank",
+    "q": "Students are advised to ______ hard material shortly before bed.",
+    "o": [
+     "strengthen",
+     "replace",
+     "creative",
+     "emotional",
+     "review",
+     "nap",
+     "early"
+    ],
+    "a": 4
+   },
+   {
+    "type": "bank",
+    "q": "A daytime ______ of 60–90 minutes can also improve some memory tasks.",
+    "o": [
+     "strengthen",
+     "replace",
+     "creative",
+     "emotional",
+     "review",
+     "nap",
+     "early"
+    ],
+    "a": 5
+   }
+  ],
+  "words": 351
+ },
+ {
+  "id": "ielts-3-desalination",
+  "exam": "ielts",
+  "level": 3,
+  "minutes": 20,
+  "title": "Turning the Sea into Drinking Water",
+  "title_fa": "تبدیل دریا به آب آشامیدنی",
+  "topic": "Technology & resources",
+  "labels": true,
+  "paras": [
+   "Although nearly three-quarters of the Earth's surface is covered by water, less than one per cent of it is fresh water that is readily accessible for human use. With populations growing and rainfall patterns becoming less predictable, a number of countries have turned to desalination – the removal of salt from seawater – as a means of securing their supplies. More than 20,000 desalination plants are now in operation worldwide, and the Middle East alone accounts for nearly half of global capacity.",
+   "The earliest large-scale plants relied on thermal methods, in which seawater is heated until it evaporates, leaving the salt behind; the vapour is then condensed into fresh water. Such plants consume vast quantities of energy and were viable mainly in places where fuel was cheap. Since the 1980s, however, they have been steadily overtaken by reverse osmosis, a process in which seawater is forced at high pressure through membranes whose pores are small enough to block salt molecules. Advances in membrane design and the introduction of devices that recover energy from the high-pressure waste stream have cut the electricity needed per cubic metre by more than half.",
+   "Even so, desalination remains considerably more expensive than treating river or ground water, and its environmental costs are a matter of growing concern. For every litre of fresh water produced, a plant typically generates around one and a half litres of brine – a concentrated salt solution that often contains traces of chemicals used to clean the membranes. When this is discharged back into the sea, it tends to sink and spread across the seabed, where it can harm organisms that cannot tolerate high salinity. Intake pipes pose a further problem, since fish larvae and plankton may be drawn in with the seawater.",
+   "Engineers are exploring several ways to reduce this impact. Diffusers can be fitted to outlet pipes so that brine is mixed rapidly with surrounding water, and some plants dilute their discharge with treated wastewater before releasing it. A more ambitious idea is to treat brine as a resource rather than as waste. Pilot projects have extracted magnesium, lithium and other valuable minerals from it, although none has yet proved commercially viable on a large scale.",
+   "Critics argue that, for many regions, money spent on desalination would be better invested in repairing leaking pipes, recycling wastewater and encouraging more efficient irrigation, which can save water far more cheaply. Supporters reply that these measures, while valuable, cannot on their own meet the demands of rapidly expanding coastal cities. What seems clear is that desalination will be one tool among many, and that its future depends heavily on whether it can be powered by renewable energy."
+  ],
+  "gl": {
+   "desalination": "نمک‌زدایی",
+   "evaporates": "تبخیر می‌شود",
+   "condensed": "متراکم/میعان‌شده",
+   "reverse osmosis": "اسمز معکوس",
+   "membranes": "غشاها",
+   "brine": "آب‌شور غلیظ",
+   "salinity": "شوری",
+   "larvae": "لاروها",
+   "diffusers": "پخش‌کننده‌ها",
+   "irrigation": "آبیاری",
+   "viable": "عملی، مقرون‌به‌صرفه"
+  },
+  "qs": [
+   {
+    "g": "Questions 1–5 · Which paragraph (A–E) contains the following information?",
+    "type": "match",
+    "q": "a comparison of desalination with cheaper alternative approaches",
+    "o": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "a": 4
+   },
+   {
+    "type": "match",
+    "q": "a reference to living things being sucked into a plant",
+    "o": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "a": 2
+   },
+   {
+    "type": "match",
+    "q": "an explanation of why early plants were limited to certain locations",
+    "o": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "a": 1
+   },
+   {
+    "type": "match",
+    "q": "a figure showing the regional concentration of desalination",
+    "o": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "a": 0
+   },
+   {
+    "type": "match",
+    "q": "an attempt to obtain useful substances from a by-product",
+    "o": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "a": 3
+   },
+   {
+    "g": "Questions 6–9 · Do the following statements agree with the claims of the writer? Choose YES, NO or NOT GIVEN.",
+    "type": "ynng",
+    "q": "Reverse osmosis now requires less than half the electricity that it once did.",
+    "a": "Y"
+   },
+   {
+    "type": "ynng",
+    "q": "Desalinated water is now cheaper than water taken from rivers.",
+    "a": "N"
+   },
+   {
+    "type": "ynng",
+    "q": "Brine discharged into the sea usually rises to the surface.",
+    "a": "N"
+   },
+   {
+    "type": "ynng",
+    "q": "Lithium extracted from brine is likely to become the main source of lithium within ten years.",
+    "a": "NG"
+   },
+   {
+    "g": "Questions 10–11 · Choose the correct letter.",
+    "type": "mcq",
+    "q": "According to paragraph B, reverse osmosis works by",
+    "o": [
+     "heating seawater until the salt evaporates.",
+     "pushing seawater through very fine filters under pressure.",
+     "mixing seawater with treated wastewater.",
+     "adding chemicals that make salt sink."
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "q": "What is the writer's overall conclusion?",
+    "o": [
+     "Desalination should be abandoned in favour of recycling.",
+     "Desalination is the only realistic answer for coastal cities.",
+     "Desalination will be part of the solution, especially if powered renewably.",
+     "Desalination plants should be built only in the Middle East."
+    ],
+    "a": 2
+   },
+   {
+    "g": "Questions 12–13 · Complete the sentences. Write NO MORE THAN TWO WORDS from the passage.",
+    "type": "gap",
+    "q": "Brine may contain traces of chemicals that are used to clean the ______.",
+    "a": [
+     "membranes"
+    ],
+    "w": 2
+   },
+   {
+    "type": "gap",
+    "q": "Critics suggest that money could instead be spent on fixing ______.",
+    "a": [
+     "leaking pipes"
+    ],
+    "w": 2
+   }
+  ],
+  "words": 445
+ },
+ {
+  "id": "ielts-4-cartography",
+  "exam": "ielts",
+  "level": 4,
+  "minutes": 20,
+  "title": "The Politics of the Map",
+  "title_fa": "سیاستِ نقشه",
+  "topic": "History & geography",
+  "labels": true,
+  "paras": [
+   "To most people, a map is a neutral record of the world: a scaled-down, objective picture of coastlines, rivers and roads. Historians of cartography, however, have increasingly insisted that every map is an argument. Choices about what to include, what to omit, where to place the centre and how to represent a curved surface on a flat sheet inevitably reflect the priorities – and sometimes the prejudices – of the people who made it.",
+   "The problem of projection illustrates the point. Because a sphere cannot be flattened without distortion, cartographers must decide which properties to preserve. Gerardus Mercator's projection of 1569 kept angles accurate, which made it invaluable to navigators plotting straight-line compass courses. The price was a dramatic exaggeration of areas far from the equator: Greenland appears roughly the size of Africa, although Africa is in fact about fourteen times larger. For centuries, this navigational tool also served as the standard image of the world in schoolrooms, and some critics have argued that it subtly enlarged the apparent importance of Europe and North America.",
+   "In 1973 the German historian Arno Peters launched a fierce public campaign for an \"equal-area\" projection, which he presented as a fairer alternative. His map was adopted by several aid agencies and churches, yet professional cartographers were largely unimpressed. They pointed out that equal-area projections had been described more than a century earlier, and that Peters' version badly distorted shapes, stretching tropical continents into elongated forms. The controversy revealed less about mathematics than about the symbolic weight that people attach to maps.",
+   "Maps have also been used more directly as instruments of power. During the colonial era, surveys allowed governments to tax land, settle disputes and plan the extraction of resources, while the act of naming places on paper often erased the names used by indigenous inhabitants. Borders drawn with a ruler across territories that their designers had never visited continue to shape political conflicts today. Conversely, communities have in recent decades produced \"counter-maps\" documenting traditional land use, and such maps have occasionally been accepted as evidence in courts.",
+   "Digital mapping has not ended these debates; it has given them new forms. Online map services can display different borders depending on the country from which they are viewed, and the decision about which businesses appear at a given zoom level has commercial consequences. Moreover, because these maps are generated by algorithms trained on existing data, areas that are poorly documented – often poorer neighbourhoods or rural regions – can remain all but invisible. The map, it seems, is still an argument; the difference is that its authors are harder to identify."
+  ],
+  "gl": {
+   "cartography": "نقشه‌نگاری",
+   "projection": "تصویر (در نقشه‌کشی)",
+   "distortion": "اعوجاج، تحریف",
+   "exaggeration": "اغراق",
+   "elongated": "کشیده",
+   "indigenous": "بومی",
+   "extraction": "استخراج",
+   "counter-maps": "نقشه‌های جایگزین",
+   "prejudices": "تعصبات"
+  },
+  "qs": [
+   {
+    "g": "Questions 1–5 · Choose the correct heading for paragraphs A–E.",
+    "type": "head",
+    "q": "Paragraph A",
+    "o": [
+     "i. A mapping tool that shaped how the world was imagined",
+     "ii. Old disputes in a technological setting",
+     "iii. Why no map can be truly impartial",
+     "iv. The failure of satellite surveys",
+     "v. Maps as means of control and resistance",
+     "vi. A debate driven more by symbolism than by science",
+     "vii. The rise of the professional cartographer"
+    ],
+    "a": 2
+   },
+   {
+    "type": "head",
+    "q": "Paragraph B",
+    "o": [
+     "i. A mapping tool that shaped how the world was imagined",
+     "ii. Old disputes in a technological setting",
+     "iii. Why no map can be truly impartial",
+     "iv. The failure of satellite surveys",
+     "v. Maps as means of control and resistance",
+     "vi. A debate driven more by symbolism than by science",
+     "vii. The rise of the professional cartographer"
+    ],
+    "a": 0
+   },
+   {
+    "type": "head",
+    "q": "Paragraph C",
+    "o": [
+     "i. A mapping tool that shaped how the world was imagined",
+     "ii. Old disputes in a technological setting",
+     "iii. Why no map can be truly impartial",
+     "iv. The failure of satellite surveys",
+     "v. Maps as means of control and resistance",
+     "vi. A debate driven more by symbolism than by science",
+     "vii. The rise of the professional cartographer"
+    ],
+    "a": 5
+   },
+   {
+    "type": "head",
+    "q": "Paragraph D",
+    "o": [
+     "i. A mapping tool that shaped how the world was imagined",
+     "ii. Old disputes in a technological setting",
+     "iii. Why no map can be truly impartial",
+     "iv. The failure of satellite surveys",
+     "v. Maps as means of control and resistance",
+     "vi. A debate driven more by symbolism than by science",
+     "vii. The rise of the professional cartographer"
+    ],
+    "a": 4
+   },
+   {
+    "type": "head",
+    "q": "Paragraph E",
+    "o": [
+     "i. A mapping tool that shaped how the world was imagined",
+     "ii. Old disputes in a technological setting",
+     "iii. Why no map can be truly impartial",
+     "iv. The failure of satellite surveys",
+     "v. Maps as means of control and resistance",
+     "vi. A debate driven more by symbolism than by science",
+     "vii. The rise of the professional cartographer"
+    ],
+    "a": 1
+   },
+   {
+    "g": "Questions 6–8 · Match each statement with the correct person or group.",
+    "type": "match",
+    "q": "claimed that a particular map offered a more just view of the world",
+    "o": [
+     "Gerardus Mercator",
+     "Arno Peters",
+     "professional cartographers",
+     "indigenous communities"
+    ],
+    "a": 1
+   },
+   {
+    "type": "match",
+    "q": "noted that an idea presented as new had existed for a long time",
+    "o": [
+     "Gerardus Mercator",
+     "Arno Peters",
+     "professional cartographers",
+     "indigenous communities"
+    ],
+    "a": 2
+   },
+   {
+    "type": "match",
+    "q": "created a design that was particularly useful for sailors",
+    "o": [
+     "Gerardus Mercator",
+     "Arno Peters",
+     "professional cartographers",
+     "indigenous communities"
+    ],
+    "a": 0
+   },
+   {
+    "g": "Questions 9–10 · Choose TWO letters. Which TWO problems with digital maps does the writer mention?",
+    "type": "multi",
+    "k": 2,
+    "q": "Which TWO problems with digital maps are mentioned?",
+    "o": [
+     "They are updated too slowly.",
+     "They may show different borders to different users.",
+     "They are too expensive for small businesses.",
+     "Places with little existing data may be overlooked.",
+     "They cannot show traditional place names."
+    ],
+    "a": [
+     1,
+     3
+    ]
+   },
+   {
+    "g": "Questions 11–13 · Complete the sentences. Write NO MORE THAN THREE WORDS from the passage.",
+    "type": "gap",
+    "q": "On Mercator's map, Greenland looks about as big as ______.",
+    "a": [
+     "africa"
+    ],
+    "w": 3
+   },
+   {
+    "type": "gap",
+    "q": "Peters' map stretched tropical continents into ______.",
+    "a": [
+     "elongated forms"
+    ],
+    "w": 3
+   },
+   {
+    "type": "gap",
+    "q": "Some counter-maps have been accepted as ______ in courts.",
+    "a": [
+     "evidence"
+    ],
+    "w": 3
+   }
+  ],
+  "words": 436
+ },
+ {
+  "id": "toefl-1-honeybees",
+  "exam": "toefl",
+  "level": 1,
+  "minutes": 14,
+  "title": "How Honeybees Communicate",
+  "title_fa": "زبان ارتباطی زنبورهای عسل",
+  "topic": "Biology",
+  "paras": [
+   "Honeybees live in large colonies that may contain tens of thousands of individuals. To survive, a colony must collect enormous amounts of nectar and pollen from flowers that are often scattered over a wide area. Searching blindly would waste time and energy, so bees have developed a remarkable way of sharing information about where food can be found.",
+   "When a forager bee discovers a rich source of food, it returns to the hive and performs a series of movements known as the \"waggle dance.\" The bee runs in a straight line while shaking its body from side to side, then circles back and repeats the run. ■ The angle of the straight run in relation to the vertical surface of the honeycomb indicates the direction of the food relative to the position of the sun. ■ The length of the waggle run tells the other bees how far away the food is: the longer the run, the greater the distance. ■ Other bees follow the dancer closely, touching it with their antennae, and then fly out to find the flowers themselves. ■",
+   "The meaning of the dance was first explained by the Austrian scientist Karl von Frisch, who studied bees for decades and received a Nobel Prize in 1973. At first, many scientists doubted that insects could communicate in such an abstract way. Later experiments, including some using small robotic bees that performed the dance, confirmed that the movements really do guide other foragers.",
+   "Scent also plays an important role. Bees that follow a dance can smell the flowers the dancer has visited, which helps them recognize the right flowers when they arrive. In this way, movement and smell work together to make the colony an efficient food-gathering team."
+  ],
+  "gl": {
+   "colonies": "کلونی‌ها",
+   "nectar": "شهد",
+   "pollen": "گرده",
+   "forager": "جست‌وجوگر غذا",
+   "hive": "کندو",
+   "honeycomb": "شانهٔ عسل",
+   "antennae": "شاخک‌ها",
+   "abstract": "انتزاعی"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "According to paragraph 1, why do bees share information about food?",
+    "o": [
+     "Because flowers bloom for only one day",
+     "Because searching without information would waste time and energy",
+     "Because the queen bee requires it",
+     "Because bees cannot see colors"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Vocabulary",
+    "q": "The word \"scattered\" in paragraph 1 is closest in meaning to",
+    "o": [
+     "spread out",
+     "hidden",
+     "damaged",
+     "grown"
+    ],
+    "a": 0
+   },
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "According to paragraph 2, what does the length of the waggle run indicate?",
+    "o": [
+     "The type of flower",
+     "The amount of nectar",
+     "The distance to the food",
+     "The time of day"
+    ],
+    "a": 2
+   },
+   {
+    "type": "insert",
+    "kind": "Insert text",
+    "q": "Look at the four squares [■] in paragraph 2. Where would the following sentence best fit?\n\"For example, a run straight up the comb means that the food lies in the same direction as the sun.\"",
+    "p": 1,
+    "o": [
+     "First square",
+     "Second square",
+     "Third square",
+     "Fourth square"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Negative factual",
+    "q": "All of the following are mentioned about Karl von Frisch EXCEPT",
+    "o": [
+     "He was Austrian.",
+     "He studied bees for a long time.",
+     "He received a Nobel Prize.",
+     "He built the first robotic bee."
+    ],
+    "a": 3
+   },
+   {
+    "type": "mcq",
+    "kind": "Inference",
+    "q": "What can be inferred from paragraph 3 about early reactions to von Frisch's ideas?",
+    "o": [
+     "They were immediately accepted by everyone.",
+     "Some scientists were skeptical that insects could communicate abstractly.",
+     "Scientists believed bees used only sound.",
+     "Robotic bees disproved his theory."
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Rhetorical purpose",
+    "q": "Why does the author mention scent in paragraph 4?",
+    "o": [
+     "To show that the dance is not important",
+     "To describe a second factor that helps bees find the correct flowers",
+     "To explain how bees make honey",
+     "To compare bees with ants"
+    ],
+    "a": 1
+   },
+   {
+    "type": "multi",
+    "kind": "Prose summary",
+    "k": 3,
+    "q": "Introductory sentence: \"Honeybees have an effective system for telling one another where food is located.\" Select THREE answer choices that express the most important ideas.",
+    "o": [
+     "The waggle dance shows both the direction and the distance of food.",
+     "A colony may contain tens of thousands of bees.",
+     "Von Frisch's explanation was later confirmed by experiments.",
+     "Bees touch the dancer with their antennae.",
+     "Smell helps bees identify the flowers the dancer visited.",
+     "Von Frisch won his prize in 1973."
+    ],
+    "a": [
+     0,
+     2,
+     4
+    ]
+   }
+  ],
+  "words": 289
+ },
+ {
+  "id": "toefl-2-ice-ages",
+  "exam": "toefl",
+  "level": 2,
+  "minutes": 18,
+  "title": "What Causes Ice Ages?",
+  "title_fa": "علت عصرهای یخبندان چیست؟",
+  "topic": "Earth science",
+  "paras": [
+   "During the last two and a half million years, the Earth has repeatedly alternated between long glacial periods, when vast ice sheets covered much of North America and northern Europe, and shorter, warmer interglacial periods like the one we live in today. For much of the nineteenth century, scientists struggled to explain why these dramatic shifts should occur at all.",
+   "The most influential explanation was developed in the early twentieth century by the Serbian mathematician Milutin Milanković. He proposed that ice ages are paced by slow, regular changes in the Earth's orbit and orientation. ■ The shape of the orbit varies from nearly circular to slightly elliptical over a cycle of about 100,000 years. ■ The tilt of the Earth's axis shifts between roughly 22 and 24.5 degrees over 41,000 years, and the axis also wobbles like a spinning top over a period of around 23,000 years. ■ Together, these cycles alter the amount of sunlight reaching high northern latitudes in summer. ■",
+   "Milanković reasoned that the key factor was not winter cold but summer warmth. If northern summers are cool enough, some of the previous winter's snow survives until the next winter. Year after year, the snow accumulates and is compressed into ice, and because ice reflects most of the sunlight that strikes it, the growing ice sheets cool the planet still further. This process, in which an initial change is amplified, is called a positive feedback.",
+   "For decades the theory remained controversial, partly because there was no reliable way to date past climate changes. The breakthrough came in the 1970s, when scientists analysed cores of sediment drilled from the ocean floor. The chemical composition of tiny fossil shells in these cores revealed past temperatures and ice volumes, and the results showed cycles matching Milanković's predictions remarkably well.",
+   "Nevertheless, orbital changes alone cannot account for the full size of the temperature swings. Air bubbles trapped in Antarctic ice show that the concentration of carbon dioxide in the atmosphere rose and fell along with the ice ages, strengthening the effect of the orbital cycles. Scientists today therefore regard orbital variations as the \"pacemaker\" of ice ages, while feedbacks involving ice, oceans and greenhouse gases determine how large the changes become."
+  ],
+  "gl": {
+   "glacial": "یخچالی",
+   "interglacial": "میان‌یخچالی",
+   "orbit": "مدار",
+   "elliptical": "بیضوی",
+   "tilt": "انحراف، شیب",
+   "wobbles": "لق می‌زند",
+   "amplified": "تقویت‌شده",
+   "sediment": "رسوب",
+   "pacemaker": "تنظیم‌کنندهٔ ضربان"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "kind": "Vocabulary",
+    "q": "The word \"alternated\" in paragraph 1 is closest in meaning to",
+    "o": [
+     "switched back and forth",
+     "remained constant",
+     "developed slowly",
+     "ended suddenly"
+    ],
+    "a": 0
+   },
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "According to paragraph 2, which cycle has the longest period?",
+    "o": [
+     "The wobble of the axis",
+     "The change in the tilt of the axis",
+     "The change in the shape of the orbit",
+     "The change in summer temperature"
+    ],
+    "a": 2
+   },
+   {
+    "type": "insert",
+    "kind": "Insert text",
+    "q": "Look at the four squares [■] in paragraph 2. Where would the following sentence best fit?\n\"These variations, now known as Milanković cycles, operate on very different time scales.\"",
+    "p": 1,
+    "o": [
+     "First square",
+     "Second square",
+     "Third square",
+     "Fourth square"
+    ],
+    "a": 0
+   },
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "According to paragraph 3, why did Milanković focus on summer temperatures?",
+    "o": [
+     "Because winters were always mild",
+     "Because cool summers allow snow to survive and build up",
+     "Because the sun is farther away in summer",
+     "Because ice melts only in winter"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Inference",
+    "q": "It can be inferred from paragraph 3 that a positive feedback",
+    "o": [
+     "reverses an initial change",
+     "has no effect on climate",
+     "makes an initial change larger",
+     "only occurs in warm periods"
+    ],
+    "a": 2
+   },
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "What made it possible to test Milanković's theory in the 1970s?",
+    "o": [
+     "Satellite photographs of ice sheets",
+     "Analysis of ocean sediment cores",
+     "Measurements of the Earth's tilt",
+     "Computer models of the atmosphere"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Negative factual",
+    "q": "According to the passage, all of the following influence the size of ice-age temperature changes EXCEPT",
+    "o": [
+     "ice reflecting sunlight",
+     "carbon dioxide levels",
+     "the oceans",
+     "volcanic eruptions"
+    ],
+    "a": 3
+   },
+   {
+    "type": "mcq",
+    "kind": "Rhetorical purpose",
+    "q": "Why does the author describe orbital variations as a \"pacemaker\" in paragraph 5?",
+    "o": [
+     "To suggest that they control the timing but not the full size of changes",
+     "To show that they are unimportant",
+     "To compare the Earth to a living body in every respect",
+     "To argue that carbon dioxide causes orbital changes"
+    ],
+    "a": 0
+   },
+   {
+    "type": "multi",
+    "kind": "Prose summary",
+    "k": 3,
+    "q": "Introductory sentence: \"Scientists have developed a detailed explanation of why ice ages occur.\" Select THREE answer choices that express the most important ideas.",
+    "o": [
+     "Regular changes in the Earth's orbit and axis alter the summer sunlight in the north.",
+     "Milanković was born in Serbia.",
+     "Evidence from ocean sediments supported the orbital theory.",
+     "Feedbacks such as ice reflection and carbon dioxide strengthen the orbital effect.",
+     "The Earth's tilt can reach 24.5 degrees.",
+     "Ice sheets once covered northern Europe."
+    ],
+    "a": [
+     0,
+     2,
+     3
+    ]
+   }
+  ],
+  "words": 370
+ },
+ {
+  "id": "toefl-3-printing-press",
+  "exam": "toefl",
+  "level": 3,
+  "minutes": 18,
+  "title": "The Printing Press and the Spread of Knowledge",
+  "title_fa": "چاپخانه و گسترش دانش",
+  "topic": "History",
+  "paras": [
+   "Before the middle of the fifteenth century, books in Europe were produced almost entirely by hand. Professional scribes, many of them working in monasteries, could spend months copying a single volume, and the resulting manuscripts were so costly that only churches, universities and the wealthiest individuals could afford substantial collections. Errors crept in with every copy, so that two versions of the same text frequently disagreed.",
+   "Around 1450, Johannes Gutenberg, a goldsmith from the German city of Mainz, combined several existing technologies into a system that transformed this situation. His crucial innovation was a hand mould for casting large numbers of identical metal letters, or \"type,\" which could be arranged into pages, inked, printed and then rearranged for the next job. ■ He also developed an oil-based ink that adhered well to metal and adapted the screw press, a device already used for pressing grapes and olives. ■ Gutenberg's famous Bible, completed around 1455, demonstrated that printed books could match the beauty of the finest manuscripts. ■ Ironically, Gutenberg himself profited little; a lawsuit cost him much of his equipment. ■",
+   "The new technology spread with astonishing speed. By 1500, printing shops had been established in more than 250 European towns, and it has been estimated that some twenty million volumes had already been produced. Prices fell sharply, and books became accessible to merchants, lawyers and craftsmen who would never have owned a manuscript. Printers, who needed to sell their products, quickly diversified beyond religious texts into grammars, almanacs, medical handbooks and pamphlets on current affairs.",
+   "Historians continue to debate the consequences. Some argue that printing was a precondition for the Protestant Reformation, since Martin Luther's writings circulated in hundreds of thousands of copies within a few years. Others emphasize its role in the Scientific Revolution: because printed tables, diagrams and observations could be reproduced exactly, scholars in different countries could build on one another's work rather than wasting effort correcting copying errors. Standardized printed texts also encouraged the stabilization of spelling and grammar in vernacular languages.",
+   "Yet the transformation was neither immediate nor complete. Literacy rates remained low for centuries in many regions, and handwritten copies continued to circulate, particularly for texts that authorities wished to restrict. Moreover, the flood of printed material included much that was inaccurate or deliberately misleading, prompting complaints that readers were being overwhelmed – a concern that sounds strikingly familiar in the digital age."
+  ],
+  "gl": {
+   "scribes": "کاتبان",
+   "monasteries": "صومعه‌ها",
+   "manuscripts": "نسخه‌های خطی",
+   "goldsmith": "زرگر",
+   "mould": "قالب",
+   "adhered": "چسبید",
+   "diversified": "متنوع کردند",
+   "almanacs": "تقویم‌های سالانه",
+   "pamphlets": "جزوه‌ها",
+   "vernacular": "زبان بومی/محلی",
+   "precondition": "پیش‌شرط"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "According to paragraph 1, what was one problem with hand-copied books?",
+    "o": [
+     "They were printed on poor paper.",
+     "Copies of the same text often differed.",
+     "They could only be read in monasteries.",
+     "They were written in an unknown alphabet."
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Vocabulary",
+    "q": "The word \"substantial\" in paragraph 1 is closest in meaning to",
+    "o": [
+     "large",
+     "religious",
+     "ancient",
+     "private"
+    ],
+    "a": 0
+   },
+   {
+    "type": "insert",
+    "kind": "Insert text",
+    "q": "Look at the four squares [■] in paragraph 2. Where would the following sentence best fit?\n\"None of these elements was entirely new, but their combination was.\"",
+    "p": 1,
+    "o": [
+     "First square",
+     "Second square",
+     "Third square",
+     "Fourth square"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "What was Gutenberg's most important innovation, according to paragraph 2?",
+    "o": [
+     "The screw press",
+     "A method of making many identical metal letters",
+     "A new type of paper",
+     "Printing in color"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Inference",
+    "q": "What can be inferred from paragraph 3 about printers around 1500?",
+    "o": [
+     "They were mostly monks.",
+     "They printed what would sell, not only religious works.",
+     "They were forbidden to print grammars.",
+     "They worked only in Mainz."
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "According to paragraph 4, how did printing help the Scientific Revolution?",
+    "o": [
+     "By making scientific instruments cheaper",
+     "By allowing exact copies of data and diagrams to be shared",
+     "By replacing Latin with English",
+     "By funding universities"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Negative factual",
+    "q": "Which of the following is NOT mentioned as a limitation of the printing revolution?",
+    "o": [
+     "Low literacy rates",
+     "The continued use of handwritten copies",
+     "Misleading printed material",
+     "The high cost of metal type after 1500"
+    ],
+    "a": 3
+   },
+   {
+    "type": "mcq",
+    "kind": "Rhetorical purpose",
+    "q": "Why does the author mention the digital age at the end of the passage?",
+    "o": [
+     "To point out a parallel between past and present concerns",
+     "To argue that printing is no longer important",
+     "To explain how computers print books",
+     "To criticize modern historians"
+    ],
+    "a": 0
+   },
+   {
+    "type": "multi",
+    "kind": "Prose summary",
+    "k": 3,
+    "q": "Introductory sentence: \"The printing press changed how knowledge was produced and shared in Europe.\" Select THREE answer choices that express the most important ideas.",
+    "o": [
+     "Gutenberg combined existing techniques with movable metal type to create an efficient system.",
+     "Gutenberg lost much of his equipment in a lawsuit.",
+     "Printing spread quickly, lowering prices and widening the readership of books.",
+     "Printing contributed to religious, scientific and linguistic change, although its effects were gradual.",
+     "Grapes and olives were pressed with screw presses.",
+     "Martin Luther wrote in German."
+    ],
+    "a": [
+     0,
+     2,
+     3
+    ]
+   }
+  ],
+  "words": 400
+ },
+ {
+  "id": "toefl-4-coral-symbiosis",
+  "exam": "toefl",
+  "level": 4,
+  "minutes": 20,
+  "title": "Partnership and Crisis on Coral Reefs",
+  "title_fa": "همزیستی و بحران در صخره‌های مرجانی",
+  "topic": "Marine ecology",
+  "paras": [
+   "Coral reefs occupy less than one per cent of the ocean floor, yet they support roughly a quarter of all known marine species. This productivity is paradoxical, because the clear tropical waters in which reefs flourish are notoriously poor in nutrients. The solution to the paradox lies in an intimate partnership between corals and microscopic algae called zooxanthellae, which live inside the tissues of the coral animals themselves.",
+   "Each coral polyp is a small, soft-bodied animal related to jellyfish. The algae within its cells carry out photosynthesis, supplying the polyp with sugars and other organic compounds that may meet up to ninety per cent of its energy needs. ■ In return, the coral provides the algae with a protected environment and with the carbon dioxide and nitrogen-rich wastes that they require. ■ Nutrients are thus recycled with extraordinary efficiency between partner and host, rather than being lost to the surrounding water. ■ The energy surplus allows corals to deposit calcium carbonate skeletons at a rate sufficient to build structures that, over thousands of years, may stretch for hundreds of kilometres. ■",
+   "The partnership, however, operates within narrow limits. When water temperatures rise just one or two degrees Celsius above the usual summer maximum for several weeks, the algae's photosynthetic machinery becomes damaged and begins to produce harmful reactive oxygen compounds. The coral responds by expelling the algae, and because the algae supply most of the coral's colour, the animal's white skeleton becomes visible through its transparent tissue – a phenomenon known as bleaching. A bleached coral is not dead, but it is starving; if favourable conditions do not return within a few weeks, it is likely to perish.",
+   "Mass bleaching events, once virtually unknown, have become increasingly frequent as ocean temperatures have risen. The Great Barrier Reef experienced severe episodes in 1998, 2002, 2016, 2017 and 2020, and recovery between events has been incomplete. Some researchers had hoped that corals would adapt by acquiring more heat-tolerant strains of algae. There is evidence that such shifts occur, but they appear to be too slow, and the tolerant strains sometimes supply less food, leaving the coral weaker.",
+   "Scientists are now pursuing interventions that would have seemed fanciful a generation ago, from breeding corals selectively for heat resistance to shading reefs with fine sprays of seawater droplets. Most specialists stress, nevertheless, that such measures can at best buy time. Without substantial reductions in greenhouse gas emissions, they warn, the conditions to which the coral-algae partnership has been adapted for millions of years will simply cease to exist in many parts of the tropics."
+  ],
+  "gl": {
+   "paradoxical": "متناقض‌نما",
+   "zooxanthellae": "جلبک‌های همزیست مرجان",
+   "polyp": "پولیپ",
+   "photosynthesis": "فتوسنتز",
+   "surplus": "مازاد",
+   "expelling": "بیرون راندن",
+   "bleaching": "سفیدشدگی",
+   "perish": "از بین رفتن",
+   "fanciful": "خیال‌پردازانه",
+   "interventions": "مداخلات"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "According to paragraph 1, why is the productivity of coral reefs described as paradoxical?",
+    "o": [
+     "Reefs cover a large part of the ocean floor.",
+     "Reefs thrive in waters that contain few nutrients.",
+     "Reefs are found only in cold waters.",
+     "Reefs contain very few species."
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Vocabulary",
+    "q": "The word \"intimate\" in paragraph 1 is closest in meaning to",
+    "o": [
+     "close",
+     "temporary",
+     "secret",
+     "unequal"
+    ],
+    "a": 0
+   },
+   {
+    "type": "insert",
+    "kind": "Insert text",
+    "q": "Look at the four squares [■] in paragraph 2. Where would the following sentence best fit?\n\"This closed loop is the key to the reef's success in otherwise barren waters.\"",
+    "p": 1,
+    "o": [
+     "First square",
+     "Second square",
+     "Third square",
+     "Fourth square"
+    ],
+    "a": 2
+   },
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "What does the coral provide to the algae, according to paragraph 2?",
+    "o": [
+     "Sugars and sunlight",
+     "Shelter and waste products the algae can use",
+     "Calcium carbonate and oxygen",
+     "Protection from fish only"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Inference",
+    "q": "It can be inferred from paragraph 3 that bleached coral appears white because",
+    "o": [
+     "its skeleton changes color",
+     "the algae that give it color have left",
+     "it is covered with salt",
+     "it has already died"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Factual",
+    "q": "Why does the hope that corals will acquire heat-tolerant algae seem limited, according to paragraph 4?",
+    "o": [
+     "Such algae do not exist.",
+     "The change is too slow and may reduce the coral's food supply.",
+     "Tolerant algae are poisonous to fish.",
+     "Corals reject all new algae."
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "kind": "Negative factual",
+    "q": "All of the following are mentioned as interventions EXCEPT",
+    "o": [
+     "selective breeding of corals",
+     "shading reefs with seawater spray",
+     "moving whole reefs to colder oceans",
+     "cutting greenhouse gas emissions"
+    ],
+    "a": 2
+   },
+   {
+    "type": "mcq",
+    "kind": "Author's attitude",
+    "q": "Which of the following best describes the attitude of most specialists toward the interventions described in paragraph 5?",
+    "o": [
+     "Enthusiastic: they will solve the problem.",
+     "Cautious: they may only delay the damage.",
+     "Hostile: they should be banned.",
+     "Indifferent: they are irrelevant."
+    ],
+    "a": 1
+   },
+   {
+    "type": "multi",
+    "kind": "Prose summary",
+    "k": 3,
+    "q": "Introductory sentence: \"The survival of coral reefs depends on a delicate partnership that is now under threat.\" Select THREE answer choices that express the most important ideas.",
+    "o": [
+     "Algae living inside corals supply most of their energy, allowing reefs to grow in nutrient-poor seas.",
+     "Coral polyps are related to jellyfish.",
+     "Small rises in temperature cause corals to expel their algae, which can lead to starvation.",
+     "The Great Barrier Reef bleached in 1998.",
+     "Bleaching is becoming more frequent, and natural adaptation and human interventions may not be enough without lower emissions.",
+     "Seawater droplets are very fine."
+    ],
+    "a": [
+     0,
+     2,
+     4
+    ]
+   }
+  ],
+  "words": 430
+ },
+ {
+  "id": "gre-1-urban-heat",
+  "exam": "gre",
+  "level": 1,
+  "minutes": 10,
+  "title": "Urban Heat Islands",
+  "title_fa": "جزیره‌های گرمایی شهری",
+  "topic": "Environmental science",
+  "paras": [
+   "Cities are often several degrees warmer than the surrounding countryside, a phenomenon known as the urban heat island. The usual explanation emphasizes materials: asphalt and concrete absorb sunlight during the day and release the stored heat slowly at night. Yet materials are only part of the story. The geometry of streets also matters, since tall buildings lining narrow streets trap radiation that would otherwise escape to the sky. Furthermore, the scarcity of vegetation deprives cities of the cooling that plants provide when water evaporates from their leaves.",
+   "Because the effect is strongest at night, its consequences are frequently underestimated. During heat waves, the absence of nighttime relief can be more dangerous to health than high daytime temperatures, particularly for elderly residents who lack air conditioning."
+  ],
+  "gl": {
+   "asphalt": "آسفالت",
+   "geometry": "هندسه",
+   "scarcity": "کمبود",
+   "deprives": "محروم می‌کند",
+   "underestimated": "دست‌کم گرفته‌شده",
+   "relief": "تسکین"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "q": "The primary purpose of the first paragraph is to",
+    "o": [
+     "dismiss a common explanation as entirely mistaken",
+     "broaden a familiar explanation by adding further causes",
+     "describe how asphalt is manufactured",
+     "argue that cities should be abandoned",
+     "compare urban and rural lifestyles"
+    ],
+    "a": 1
+   },
+   {
+    "type": "multi",
+    "k": 0,
+    "q": "Consider each of the choices separately and select ALL that apply. According to the passage, which of the following contribute to urban heat islands?",
+    "o": [
+     "Materials that store heat",
+     "The arrangement of tall buildings along narrow streets",
+     "A lack of plants"
+    ],
+    "a": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "type": "select",
+    "q": "Select the sentence in the passage that explains why the health effects of heat islands may not be fully recognized.",
+    "o": [
+     "Cities are often several degrees warmer than the surrounding countryside, a phenomenon known as the urban heat island.",
+     "Yet materials are only part of the story.",
+     "Because the effect is strongest at night, its consequences are frequently underestimated.",
+     "During heat waves, the absence of nighttime relief can be more dangerous to health than high daytime temperatures, particularly for elderly residents who lack air conditioning."
+    ],
+    "a": 2
+   },
+   {
+    "type": "tc",
+    "q": "Although the city council had long considered the heat island a minor [1], the deadly heat wave forced its members to treat the problem as [2].",
+    "o": [
+     [
+      "nuisance",
+      "catastrophe",
+      "virtue"
+     ],
+     [
+      "trivial",
+      "urgent",
+      "imaginary"
+     ]
+    ],
+    "a": [
+     0,
+     1
+    ]
+   },
+   {
+    "type": "multi",
+    "kind": "Sentence equivalence",
+    "k": 2,
+    "q": "Select the TWO answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.\nPlanting trees is a ______ remedy: it is inexpensive, popular and effective.",
+    "o": [
+     "costly",
+     "practical",
+     "feasible",
+     "controversial",
+     "temporary",
+     "obscure"
+    ],
+    "a": [
+     1,
+     2
+    ]
+   }
+  ],
+  "words": 125
+ },
+ {
+  "id": "gre-2-historians-memory",
+  "exam": "gre",
+  "level": 2,
+  "minutes": 12,
+  "title": "Oral History and Its Critics",
+  "title_fa": "تاریخ شفاهی و منتقدانش",
+  "topic": "Humanities",
+  "paras": [
+   "When oral history emerged as an academic practice in the mid-twentieth century, many historians regarded it with suspicion. Memories, they argued, are notoriously unreliable: people forget, embellish, and unconsciously reshape their recollections to fit later beliefs. Documents, by contrast, were assumed to record events as they happened. Proponents of oral history responded in two ways. First, they pointed out that documents are hardly free of distortion, since they are produced by individuals with their own interests and are preserved selectively by institutions. Second, and more provocatively, they insisted that the so-called unreliability of memory is itself a source of historical insight.",
+   "If a factory worker recalls a strike as a moment of triumph although it ended in defeat, the discrepancy reveals how the event was understood and what it came to mean in the community. On this view, the task of the oral historian is not merely to extract facts from testimony but to interpret the significance that people attach to the past. Critics have objected that such an approach risks blurring the line between history and literature; supporters reply that the line was never as sharp as traditional historians supposed."
+  ],
+  "gl": {
+   "embellish": "آب‌وتاب دادن",
+   "recollections": "خاطرات",
+   "proponents": "طرفداران",
+   "provocatively": "به‌طور تحریک‌آمیز",
+   "discrepancy": "ناهمخوانی",
+   "testimony": "شهادت، روایت",
+   "blurring": "محو کردن"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "q": "The passage is primarily concerned with",
+    "o": [
+     "describing a methodological debate and the defense offered by one side",
+     "proving that documents are more reliable than memories",
+     "narrating the history of a particular strike",
+     "explaining why literature is superior to history",
+     "listing the techniques used to record interviews"
+    ],
+    "a": 0
+   },
+   {
+    "type": "mcq",
+    "q": "The example of the factory worker serves mainly to",
+    "o": [
+     "show that oral testimony is worthless",
+     "illustrate how inaccuracies in memory can be historically meaningful",
+     "prove that the strike was successful",
+     "criticize factory owners",
+     "demonstrate that documents were lost"
+    ],
+    "a": 1
+   },
+   {
+    "type": "multi",
+    "k": 0,
+    "q": "Select ALL that apply. Which of the following can be inferred about the proponents of oral history?",
+    "o": [
+     "They believed that documents can also be biased.",
+     "They denied that memories ever change.",
+     "They saw the interpretation of meaning as part of the historian's work."
+    ],
+    "a": [
+     0,
+     2
+    ]
+   },
+   {
+    "type": "select",
+    "q": "Select the sentence in which the author presents the response of supporters to a specific criticism.",
+    "o": [
+     "Memories, they argued, are notoriously unreliable: people forget, embellish, and unconsciously reshape their recollections to fit later beliefs.",
+     "Documents, by contrast, were assumed to record events as they happened.",
+     "On this view, the task of the oral historian is not merely to extract facts from testimony but to interpret the significance that people attach to the past.",
+     "Critics have objected that such an approach risks blurring the line between history and literature; supporters reply that the line was never as sharp as traditional historians supposed."
+    ],
+    "a": 3
+   },
+   {
+    "type": "tc",
+    "q": "The critic's review was far from [1]; she praised the book's ambition while [2] its careless use of sources.",
+    "o": [
+     [
+      "ambivalent",
+      "unqualified",
+      "hostile"
+     ],
+     [
+      "lamenting",
+      "celebrating",
+      "ignoring"
+     ]
+    ],
+    "a": [
+     1,
+     0
+    ]
+   },
+   {
+    "type": "multi",
+    "kind": "Sentence equivalence",
+    "k": 2,
+    "q": "Select the TWO choices that produce sentences alike in meaning.\nThe archive's holdings are ______, consisting largely of letters that happened to survive rather than a planned collection.",
+    "o": [
+     "comprehensive",
+     "haphazard",
+     "random",
+     "systematic",
+     "luxurious",
+     "recent"
+    ],
+    "a": [
+     1,
+     2
+    ]
+   }
+  ],
+  "words": 191
+ },
+ {
+  "id": "gre-3-island-dwarfism",
+  "exam": "gre",
+  "level": 3,
+  "minutes": 14,
+  "title": "The Island Rule",
+  "title_fa": "قاعدهٔ جزیره",
+  "topic": "Evolutionary biology",
+  "paras": [
+   "Biologists have long observed that animals isolated on islands tend to evolve toward unusual body sizes: large mammals such as elephants and deer often become dwarfed, while small animals such as rodents sometimes become giants. This pattern, termed the island rule, has typically been attributed to ecological release. On islands, predators are frequently absent, and resources are limited; large species, freed from the need to be big for defense and constrained by scarce food, shrink, whereas small species, freed from the need to hide and from competition with larger rivals, grow.",
+   "Recent analyses, however, have complicated this tidy account. A survey of hundreds of island populations found that the rule holds strongly for some groups, such as carnivores and certain rodents, but weakly or not at all for others, including many bats and birds. Moreover, the magnitude of change correlates with island area and isolation in ways that the simple model does not predict. Some researchers now suggest that the island rule is not a single phenomenon at all but a statistical tendency produced by several distinct processes, each operating more strongly in some lineages than in others. Far from diminishing the rule's interest, this reinterpretation arguably makes islands even more valuable as natural laboratories, since the variations themselves can be used to test which mechanisms matter where."
+  ],
+  "gl": {
+   "dwarfed": "کوتوله‌شده",
+   "rodents": "جوندگان",
+   "ecological release": "رهایی بوم‌شناختی",
+   "constrained": "محدودشده",
+   "magnitude": "اندازه، بزرگی",
+   "lineages": "دودمان‌ها",
+   "diminishing": "کاستن"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "q": "The author's attitude toward the reinterpretation of the island rule described in the second paragraph is best described as",
+    "o": [
+     "dismissive",
+     "cautiously appreciative",
+     "openly hostile",
+     "confused",
+     "indifferent"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "q": "According to the passage, the traditional explanation of the island rule holds that large species shrink on islands because",
+    "o": [
+     "islands are colder than mainlands",
+     "they no longer need large size for defense and food is scarce",
+     "small species eat their food",
+     "they interbreed with smaller species",
+     "island predators prefer large prey"
+    ],
+    "a": 1
+   },
+   {
+    "type": "multi",
+    "k": 0,
+    "q": "Select ALL that apply. The recent analyses mentioned in the passage found that",
+    "o": [
+     "the island rule applies with different strength to different groups",
+     "the size of the change is related to island area and isolation",
+     "bats show the strongest island effect of all mammals"
+    ],
+    "a": [
+     0,
+     1
+    ]
+   },
+   {
+    "type": "mcq",
+    "q": "In the context of the passage, \"tidy\" most nearly means",
+    "o": [
+     "clean",
+     "neatly simple",
+     "small",
+     "organized by size",
+     "well documented"
+    ],
+    "a": 1
+   },
+   {
+    "type": "select",
+    "q": "Select the sentence that presents a reason why the new view may increase the scientific importance of islands.",
+    "o": [
+     "Biologists have long observed that animals isolated on islands tend to evolve toward unusual body sizes: large mammals such as elephants and deer often become dwarfed, while small animals such as rodents sometimes become giants.",
+     "Recent analyses, however, have complicated this tidy account.",
+     "Some researchers now suggest that the island rule is not a single phenomenon at all but a statistical tendency produced by several distinct processes, each operating more strongly in some lineages than in others.",
+     "Far from diminishing the rule's interest, this reinterpretation arguably makes islands even more valuable as natural laboratories, since the variations themselves can be used to test which mechanisms matter where."
+    ],
+    "a": 3
+   },
+   {
+    "type": "tc",
+    "q": "The theory's appeal lay in its [1]: a single principle seemed to explain a [2] range of cases. Its critics, however, regarded this very simplicity as [3].",
+    "o": [
+     [
+      "parsimony",
+      "obscurity",
+      "novelty"
+     ],
+     [
+      "narrow",
+      "bewildering",
+      "negligible"
+     ],
+     [
+      "suspect",
+      "admirable",
+      "irrelevant"
+     ]
+    ],
+    "a": [
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "type": "multi",
+    "kind": "Sentence equivalence",
+    "k": 2,
+    "q": "Select the TWO choices that produce sentences alike in meaning.\nThe data were so ______ that each team claimed they supported its own hypothesis.",
+    "o": [
+     "ambiguous",
+     "equivocal",
+     "conclusive",
+     "meagre",
+     "fabricated",
+     "definitive"
+    ],
+    "a": [
+     0,
+     1
+    ]
+   }
+  ],
+  "words": 218
+ },
+ {
+  "id": "gre-4-market-morality",
+  "exam": "gre",
+  "level": 4,
+  "minutes": 15,
+  "title": "Markets and Moral Motivation",
+  "title_fa": "بازار و انگیزهٔ اخلاقی",
+  "topic": "Economics & philosophy",
+  "paras": [
+   "Standard economic theory treats incentives as additive: if people are already inclined to perform a socially valuable act, offering them money to do so should, at worst, leave their behavior unchanged and, at best, increase it. A growing body of evidence suggests that this assumption is sometimes false. In a widely cited study of Israeli day-care centers, the introduction of a modest fine for parents who arrived late to collect their children was followed not by a decline but by a marked increase in late arrivals; more striking still, when the fine was abolished, lateness remained at its new, higher level.",
+   "The researchers interpreted the result as a case of \"crowding out.\" Before the fine, parents had understood punctuality as an obligation toward the teachers, enforced by guilt; the fine reframed lateness as a service that could be purchased, and once the moral framing had been displaced, removing the price did not restore it. Skeptics have cautioned against generalizing from such cases, noting that in many contexts monetary incentives work much as theory predicts and that the size of the payment matters: small sums may insult, whereas large ones persuade. The more defensible conclusion, then, is not that markets inevitably corrode morality, but that the meaning participants attach to a transaction is itself an economic variable – one that conventional models, by treating preferences as fixed, are poorly equipped to capture."
+  ],
+  "gl": {
+   "incentives": "مشوق‌ها",
+   "additive": "جمع‌پذیر",
+   "abolished": "لغو شد",
+   "punctuality": "وقت‌شناسی",
+   "reframed": "از نو تعریف کرد",
+   "displaced": "جابه‌جا شده",
+   "corrode": "فرسوده کردن",
+   "defensible": "قابل دفاع"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "q": "The passage suggests that the persistence of late arrivals after the fine was abolished is significant because it",
+    "o": [
+     "proves that the fine was too large",
+     "indicates that the change in how parents understood lateness was lasting",
+     "shows that teachers stopped caring about punctuality",
+     "demonstrates that parents never noticed the fine",
+     "confirms the predictions of standard theory"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "q": "Which of the following best describes the function of the final sentence?",
+    "o": [
+     "It rejects the day-care study as flawed.",
+     "It offers a qualified conclusion that accommodates both the evidence and the skeptics' objections.",
+     "It restates the standard economic assumption.",
+     "It introduces an unrelated topic.",
+     "It argues that all markets corrupt morality."
+    ],
+    "a": 1
+   },
+   {
+    "type": "multi",
+    "k": 0,
+    "q": "Select ALL that apply. The skeptics mentioned in the passage would most likely agree that",
+    "o": [
+     "monetary incentives often have their expected effect",
+     "the amount of money offered can influence the outcome",
+     "the day-care findings apply to every market transaction"
+    ],
+    "a": [
+     0,
+     1
+    ]
+   },
+   {
+    "type": "select",
+    "q": "Select the sentence that describes a mechanism proposed to explain an unexpected result.",
+    "o": [
+     "Standard economic theory treats incentives as additive: if people are already inclined to perform a socially valuable act, offering them money to do so should, at worst, leave their behavior unchanged and, at best, increase it.",
+     "A growing body of evidence suggests that this assumption is sometimes false.",
+     "Before the fine, parents had understood punctuality as an obligation toward the teachers, enforced by guilt; the fine reframed lateness as a service that could be purchased, and once the moral framing had been displaced, removing the price did not restore it.",
+     "Skeptics have cautioned against generalizing from such cases, noting that in many contexts monetary incentives work much as theory predicts and that the size of the payment matters: small sums may insult, whereas large ones persuade."
+    ],
+    "a": 2
+   },
+   {
+    "type": "mcq",
+    "q": "The author implies that conventional economic models are limited because they",
+    "o": [
+     "ignore the size of payments",
+     "assume that preferences do not change in response to how a transaction is framed",
+     "are based only on Israeli data",
+     "overestimate the importance of guilt",
+     "treat fines as illegal"
+    ],
+    "a": 1
+   },
+   {
+    "type": "tc",
+    "q": "Far from being [1], the policy's failure was predictable: anyone familiar with the research on crowding out could have [2] that a small fine would [3] the very behavior it was meant to curb.",
+    "o": [
+     [
+      "anomalous",
+      "foreseeable",
+      "deliberate"
+     ],
+     [
+      "denied",
+      "anticipated",
+      "regretted"
+     ],
+     [
+      "encourage",
+      "eliminate",
+      "conceal"
+     ]
+    ],
+    "a": [
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "type": "multi",
+    "kind": "Sentence equivalence",
+    "k": 2,
+    "q": "Select the TWO choices that produce sentences alike in meaning.\nHer argument was ______: it acknowledged the evidence on both sides and claimed no more than the data allowed.",
+    "o": [
+     "measured",
+     "tendentious",
+     "judicious",
+     "polemical",
+     "evasive",
+     "florid"
+    ],
+    "a": [
+     0,
+     2
+    ]
+   }
+  ],
+  "words": 231
+ },
+ {
+  "id": "pte-1-microplastics",
+  "exam": "pte",
+  "level": 1,
+  "minutes": 10,
+  "title": "Microplastics in Our Water",
+  "title_fa": "میکروپلاستیک‌ها در آب ما",
+  "topic": "Environment",
+  "paras": [
+   "Microplastics are pieces of plastic smaller than five millimetres. Some are made deliberately, such as the tiny beads once added to face scrubs, but most come from larger items that slowly break apart in sunlight and seawater. Washing synthetic clothes also releases thousands of plastic fibres, which pass through treatment plants and enter rivers.",
+   "Scientists have now found microplastics almost everywhere they have looked, from Arctic ice to bottled drinking water. Their effects on human health are still unclear. However, researchers are concerned because the particles can carry harmful chemicals and are easily swallowed by fish and other animals. Several countries have already banned plastic microbeads in cosmetics, and some washing-machine makers are developing filters to catch fibres before they leave the home."
+  ],
+  "gl": {
+   "deliberately": "عمداً",
+   "scrubs": "لایه‌بردارها",
+   "synthetic": "مصنوعی",
+   "fibres": "الیاف",
+   "particles": "ذرات",
+   "cosmetics": "لوازم آرایشی"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "kind": "Multiple choice, single answer",
+    "q": "According to the text, where do most microplastics come from?",
+    "o": [
+     "Face scrubs",
+     "Larger plastic items that break down",
+     "Arctic ice",
+     "Water treatment plants"
+    ],
+    "a": 1
+   },
+   {
+    "type": "multi",
+    "kind": "Multiple choice, multiple answers",
+    "k": 0,
+    "q": "Which of the following are mentioned as responses to the problem? Select all correct answers.",
+    "o": [
+     "Bans on microbeads in cosmetics",
+     "Filters for washing machines",
+     "A tax on bottled water",
+     "Cleaning Arctic ice",
+     "Stopping the production of synthetic clothes"
+    ],
+    "a": [
+     0,
+     1
+    ]
+   },
+   {
+    "type": "order",
+    "kind": "Re-order paragraphs",
+    "q": "The text boxes have been placed in a random order. Restore the original order.",
+    "o": [
+     "Over time, sunlight and waves break it into smaller and smaller pieces.",
+     "A plastic bottle is thrown into the sea.",
+     "Finally, the tiny fragments are swallowed by fish.",
+     "Eventually these pieces become microplastics, less than five millimetres long."
+    ],
+    "a": [
+     1,
+     0,
+     3,
+     2
+    ]
+   },
+   {
+    "g": "Reading: Fill in the blanks · Choose the word that best fits each gap.",
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "The effects of microplastics on human health are still ______.",
+    "o": [
+     "unclear",
+     "banned",
+     "synthetic",
+     "deliberate"
+    ],
+    "a": 0
+   },
+   {
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "Washing ______ clothes releases plastic fibres.",
+    "o": [
+     "cotton",
+     "synthetic",
+     "clean",
+     "heavy"
+    ],
+    "a": 1
+   },
+   {
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "Fish can easily ______ the particles.",
+    "o": [
+     "swallow",
+     "filter",
+     "produce",
+     "ban"
+    ],
+    "a": 0
+   }
+  ],
+  "words": 123
+ },
+ {
+  "id": "pte-2-remote-work",
+  "exam": "pte",
+  "level": 2,
+  "minutes": 12,
+  "title": "The Remote Work Revolution",
+  "title_fa": "انقلاب دورکاری",
+  "topic": "Work & society",
+  "paras": [
+   "Before 2020, working from home was a privilege enjoyed by a small minority of employees. The pandemic changed that almost overnight, as offices closed and companies discovered that many tasks could be performed perfectly well from a kitchen table. Several years later, a large proportion of office workers in developed economies continue to spend at least part of the week at home.",
+   "Supporters of remote work point to the time and money saved on commuting, as well as greater flexibility for parents and carers. Some studies have also found modest gains in productivity, particularly for tasks that require concentration. Critics, however, argue that remote arrangements weaken the informal contacts through which junior staff learn and through which new ideas often emerge. Managers also report difficulties in building trust within teams whose members rarely meet.",
+   "As a result, many organisations have settled on hybrid models, in which employees come to the office on certain days. The challenge now is to make those days worthwhile, using them for collaboration and mentoring rather than for tasks that could be done equally well at home."
+  ],
+  "gl": {
+   "privilege": "امتیاز ویژه",
+   "pandemic": "همه‌گیری",
+   "commuting": "رفت‌وآمد به محل کار",
+   "carers": "مراقبان",
+   "modest": "اندک",
+   "informal": "غیررسمی",
+   "hybrid": "ترکیبی",
+   "mentoring": "راهنمایی، مربیگری"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "kind": "Multiple choice, single answer",
+    "q": "What is the main idea of the passage?",
+    "o": [
+     "Remote work has no disadvantages.",
+     "Remote work expanded rapidly and has benefits and costs, leading many firms to hybrid models.",
+     "Offices will disappear completely.",
+     "Productivity always falls at home."
+    ],
+    "a": 1
+   },
+   {
+    "type": "multi",
+    "kind": "Multiple choice, multiple answers",
+    "k": 0,
+    "q": "According to the passage, which are disadvantages of remote work?",
+    "o": [
+     "Less informal learning for junior staff",
+     "Higher commuting costs",
+     "Difficulty building trust in teams",
+     "Less flexibility for parents",
+     "Fewer opportunities for ideas to emerge informally"
+    ],
+    "a": [
+     0,
+     2,
+     4
+    ]
+   },
+   {
+    "type": "order",
+    "kind": "Re-order paragraphs",
+    "q": "Restore the original order of the sentences.",
+    "o": [
+     "As a result, the company introduced a hybrid schedule.",
+     "At first, employees enjoyed working from home every day.",
+     "Now staff meet in the office on Tuesdays and Thursdays for team projects.",
+     "After a few months, however, managers noticed that new staff were struggling to learn."
+    ],
+    "a": [
+     1,
+     3,
+     0,
+     2
+    ]
+   },
+   {
+    "g": "Reading & Writing: Fill in the blanks · Choose the best option for each gap.",
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "Remote work saves the time ______ on commuting.",
+    "o": [
+     "spent",
+     "spend",
+     "spending",
+     "spends"
+    ],
+    "a": 0
+   },
+   {
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "Some studies found modest gains ______ productivity.",
+    "o": [
+     "on",
+     "in",
+     "at",
+     "for"
+    ],
+    "a": 1
+   },
+   {
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "Office days should be used for collaboration ______ than routine tasks.",
+    "o": [
+     "more",
+     "rather",
+     "better",
+     "instead"
+    ],
+    "a": 1
+   }
+  ],
+  "words": 181
+ },
+ {
+  "id": "pte-3-placebo",
+  "exam": "pte",
+  "level": 3,
+  "minutes": 12,
+  "title": "The Puzzle of the Placebo",
+  "title_fa": "معمای دارونما",
+  "topic": "Medicine",
+  "paras": [
+   "A placebo is a treatment with no active ingredient, such as a sugar pill, that is given to patients in clinical trials so that the effects of a real drug can be measured against it. For decades, the improvement that many patients experience after taking a placebo was regarded as a nuisance – a source of \"noise\" that researchers needed to subtract. Increasingly, however, scientists are treating the placebo effect as a genuine phenomenon worth studying in its own right.",
+   "Brain-imaging studies have shown that, in people who expect pain relief, placebos can trigger the release of the body's own pain-relieving chemicals. The effect depends heavily on context: larger pills tend to work better than small ones, injections better than tablets, and expensive \"brands\" better than cheap ones. Remarkably, some trials have found that placebos can help even when patients are told openly that they are receiving an inactive pill, which challenges the assumption that deception is essential.",
+   "The placebo effect has limits. It can reduce symptoms such as pain, nausea and fatigue, but it does not shrink tumours or cure infections. Nevertheless, a better understanding of how expectations shape experience may help doctors communicate in ways that strengthen the benefits of real treatments."
+  ],
+  "gl": {
+   "placebo": "دارونما",
+   "active ingredient": "مادهٔ مؤثره",
+   "nuisance": "مزاحمت",
+   "subtract": "کم کردن",
+   "trigger": "راه انداختن",
+   "deception": "فریب",
+   "nausea": "حالت تهوع",
+   "fatigue": "خستگی",
+   "tumours": "تومورها"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "kind": "Multiple choice, single answer",
+    "q": "How has the scientific attitude towards the placebo effect changed?",
+    "o": [
+     "It was once studied closely but is now ignored.",
+     "It was once seen as noise but is now studied as a real effect.",
+     "It has always been considered harmful.",
+     "It is now used to cure infections."
+    ],
+    "a": 1
+   },
+   {
+    "type": "multi",
+    "kind": "Multiple choice, multiple answers",
+    "k": 0,
+    "q": "Which factors are said to make placebos more effective?",
+    "o": [
+     "Larger pills",
+     "Injections rather than tablets",
+     "Cheaper brands",
+     "Higher prices",
+     "Taking them at night"
+    ],
+    "a": [
+     0,
+     1,
+     3
+    ]
+   },
+   {
+    "type": "mcq",
+    "kind": "Multiple choice, single answer",
+    "q": "What is surprising about \"open-label\" placebo trials?",
+    "o": [
+     "Patients refused to take the pills.",
+     "Placebos still helped although patients knew they were inactive.",
+     "The pills contained active ingredients.",
+     "Doctors could not measure any effect."
+    ],
+    "a": 1
+   },
+   {
+    "type": "order",
+    "kind": "Re-order paragraphs",
+    "q": "Restore the original order.",
+    "o": [
+     "Half of the volunteers receive the new drug, and half receive a placebo.",
+     "Researchers want to know whether a new painkiller works.",
+     "Only if the drug group improves significantly more is the drug considered effective.",
+     "Neither the volunteers nor the doctors know who has received which pill."
+    ],
+    "a": [
+     1,
+     0,
+     3,
+     2
+    ]
+   },
+   {
+    "g": "Reading: Fill in the blanks",
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "Placebos can ______ the release of natural pain-relieving chemicals.",
+    "o": [
+     "trigger",
+     "cure",
+     "subtract",
+     "shrink"
+    ],
+    "a": 0
+   },
+   {
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "The placebo effect does not cure ______.",
+    "o": [
+     "nausea",
+     "pain",
+     "infections",
+     "fatigue"
+    ],
+    "a": 2
+   }
+  ],
+  "words": 204
+ },
+ {
+  "id": "pte-4-language-extinction",
+  "exam": "pte",
+  "level": 4,
+  "minutes": 14,
+  "title": "When Languages Disappear",
+  "title_fa": "وقتی زبان‌ها ناپدید می‌شوند",
+  "topic": "Linguistics",
+  "paras": [
+   "Of the roughly 7,000 languages spoken in the world today, linguists estimate that as many as half may cease to be spoken by the end of this century. Language death is not new – countless languages have vanished throughout history – but its current pace is unprecedented. Most endangered languages have few speakers, many of whom are elderly, and children are no longer acquiring them at home.",
+   "The causes are rarely linguistic. Communities shift to dominant languages because those languages offer access to education, employment and political participation; in some cases, earlier generations were actively punished for speaking their ancestral tongue at school. The loss is not merely sentimental. Each language encodes a distinctive way of categorising experience, and many contain detailed knowledge of local plants, animals and ecosystems that has never been written down.",
+   "Revitalisation efforts have had mixed results. Hebrew, revived as an everyday spoken language in the late nineteenth and twentieth centuries, is often cited as a success, while Welsh and Māori have regained ground through immersion schooling and broadcasting. Yet such cases depend on sustained institutional support and, above all, on the willingness of parents to speak the language to their children. Digital tools – from recorded dictionaries to social-media groups – can assist, but they cannot substitute for a community of everyday users."
+  ],
+  "gl": {
+   "unprecedented": "بی‌سابقه",
+   "endangered": "در معرض خطر",
+   "ancestral": "اجدادی",
+   "sentimental": "احساساتی",
+   "encodes": "رمزگذاری می‌کند",
+   "revitalisation": "احیا",
+   "immersion": "غوطه‌وری (آموزش کاملاً به آن زبان)",
+   "substitute": "جایگزین شدن"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "kind": "Multiple choice, single answer",
+    "q": "According to the passage, what is the main reason communities abandon their languages?",
+    "o": [
+     "The languages are too difficult to learn.",
+     "Dominant languages provide social and economic opportunities.",
+     "Linguists encourage them to do so.",
+     "Digital tools are unavailable."
+    ],
+    "a": 1
+   },
+   {
+    "type": "multi",
+    "kind": "Multiple choice, multiple answers",
+    "k": 0,
+    "q": "Which of the following does the writer present as necessary for successful revitalisation?",
+    "o": [
+     "Long-term institutional support",
+     "Parents speaking the language to children",
+     "Social-media groups alone",
+     "A written literature of at least 1,000 books",
+     "A community of everyday users"
+    ],
+    "a": [
+     0,
+     1,
+     4
+    ]
+   },
+   {
+    "type": "mcq",
+    "kind": "Multiple choice, single answer",
+    "q": "Why does the writer say the loss of languages is \"not merely sentimental\"?",
+    "o": [
+     "Because languages contain unique knowledge and ways of seeing the world",
+     "Because languages are expensive to maintain",
+     "Because most endangered languages are written",
+     "Because children prefer dominant languages"
+    ],
+    "a": 0
+   },
+   {
+    "type": "order",
+    "kind": "Re-order paragraphs",
+    "q": "Restore the original order.",
+    "o": [
+     "Their children, however, answered only in the national language.",
+     "By the third generation, nobody in the family could understand the old songs.",
+     "A family moved from their village to the capital in search of work.",
+     "At home, the parents continued to speak their native language."
+    ],
+    "a": [
+     2,
+     3,
+     0,
+     1
+    ]
+   },
+   {
+    "g": "Reading & Writing: Fill in the blanks",
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "The current pace of language loss is ______.",
+    "o": [
+     "unprecedented",
+     "sentimental",
+     "ancestral",
+     "reversible"
+    ],
+    "a": 0
+   },
+   {
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "Digital tools cannot ______ for a community of speakers.",
+    "o": [
+     "replace",
+     "substitute",
+     "exchange",
+     "support"
+    ],
+    "a": 1
+   },
+   {
+    "type": "bank",
+    "kind": "Fill in the blanks",
+    "q": "Welsh and Māori have regained ground through ______ schooling.",
+    "o": [
+     "immersion",
+     "private",
+     "distance",
+     "evening"
+    ],
+    "a": 0
+   }
+  ],
+  "words": 218
+ },
+ {
+  "id": "general-1-library-notice",
+  "exam": "general",
+  "level": 1,
+  "minutes": 8,
+  "title": "New Library Opening Hours",
+  "title_fa": "ساعات کاری جدید کتابخانه",
+  "topic": "Everyday life",
+  "paras": [
+   "From Monday 3 March, Greenfield Public Library will have new opening hours. The library will open at 9 a.m. from Monday to Friday and close at 8 p.m., two hours later than before. On Saturdays, it will open from 10 a.m. to 4 p.m. The library will stay closed on Sundays.",
+   "We are also starting a free homework club for children aged 8 to 12. It will meet every Tuesday and Thursday from 4 to 6 p.m. in the Children's Room. Parents do not need to book, but children must bring their library card.",
+   "Please remember that books can now be returned at any time using the new book drop next to the main entrance. If you have any questions, ask a member of staff at the information desk or call us on 0123 456 789."
+  ],
+  "gl": {
+   "opening hours": "ساعات کاری",
+   "homework club": "کلاس تکلیف",
+   "book": "رزرو کردن",
+   "book drop": "صندوق بازگرداندن کتاب",
+   "entrance": "ورودی"
+  },
+  "qs": [
+   {
+    "type": "tfng",
+    "q": "The library will now close at 8 p.m. on weekdays.",
+    "a": "T"
+   },
+   {
+    "type": "tfng",
+    "q": "Before March, the library closed at 7 p.m.",
+    "a": "F"
+   },
+   {
+    "type": "tfng",
+    "q": "The library is open on Sunday mornings.",
+    "a": "F"
+   },
+   {
+    "type": "tfng",
+    "q": "The homework club is free.",
+    "a": "T"
+   },
+   {
+    "type": "tfng",
+    "q": "The homework club has a maximum of 20 children.",
+    "a": "NG"
+   },
+   {
+    "type": "mcq",
+    "q": "What must children bring to the homework club?",
+    "o": [
+     "Money",
+     "Their library card",
+     "A parent",
+     "A booking form"
+    ],
+    "a": 1
+   },
+   {
+    "type": "gap",
+    "q": "You can return books at any time using the new ______. (TWO WORDS)",
+    "a": [
+     "book drop"
+    ],
+    "w": 2
+   }
+  ],
+  "words": 136
+ },
+ {
+  "id": "general-2-job-email",
+  "exam": "general",
+  "level": 2,
+  "minutes": 10,
+  "title": "An Email from a New Manager",
+  "title_fa": "ایمیلی از یک مدیر جدید",
+  "topic": "Work",
+  "paras": [
+   "Dear team,\nAs many of you know, I joined the company last Monday as the new customer service manager. I have really enjoyed meeting most of you this week, and I'd like to thank everyone for making me feel so welcome.",
+   "Over the next month, I am planning to meet each of you individually for about thirty minutes. I want to hear about your work, what is going well and what could be improved. Please choose a time that suits you using the online calendar; the link is at the bottom of this email. If none of the times are convenient, let me know and we can find another slot.",
+   "I would also like to try a small change. From next week, our Monday meeting will start at 9:30 instead of 9:00, so that colleagues who take their children to school have enough time to arrive. The meeting will also be shorter – no more than 30 minutes – and we will share the notes by email afterwards for anyone who cannot attend.",
+   "I'm looking forward to working with all of you.\nBest wishes,\nSara Ahmadi"
+  ],
+  "gl": {
+   "individually": "به‌صورت جداگانه",
+   "suits": "مناسب است",
+   "convenient": "مناسب، راحت",
+   "slot": "بازهٔ زمانی",
+   "attend": "شرکت کردن"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "q": "Why did Sara write this email?",
+    "o": [
+     "To complain about the team",
+     "To introduce herself and explain some plans",
+     "To announce that she is leaving",
+     "To invite the team to a party"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "q": "How long will the individual meetings last?",
+    "o": [
+     "About 15 minutes",
+     "About 30 minutes",
+     "About an hour",
+     "All morning"
+    ],
+    "a": 1
+   },
+   {
+    "type": "mcq",
+    "q": "Why is the Monday meeting moving to 9:30?",
+    "o": [
+     "Because Sara arrives late",
+     "To help parents who take children to school",
+     "Because the room is busy",
+     "To make the meeting longer"
+    ],
+    "a": 1
+   },
+   {
+    "type": "tfng",
+    "q": "Sara has already met every member of the team.",
+    "a": "F"
+   },
+   {
+    "type": "tfng",
+    "q": "People who miss the Monday meeting will receive the notes.",
+    "a": "T"
+   },
+   {
+    "type": "tfng",
+    "q": "Sara worked in a bank before joining the company.",
+    "a": "NG"
+   },
+   {
+    "type": "gap",
+    "q": "Team members should book a meeting using the online ______. (ONE WORD)",
+    "a": [
+     "calendar"
+    ],
+    "w": 1
+   }
+  ],
+  "words": 186
+ },
+ {
+  "id": "general-3-digital-detox",
+  "exam": "general",
+  "level": 3,
+  "minutes": 12,
+  "title": "Is It Time for a Digital Detox?",
+  "title_fa": "آیا وقت سم‌زدایی دیجیتال است؟",
+  "topic": "Lifestyle & health",
+  "paras": [
+   "The average adult now checks their phone dozens of times a day, often without any clear purpose. For some people, this constant connection has begun to feel less like a convenience and more like a burden. As a result, the idea of a \"digital detox\" – a period of time without smartphones, social media or other devices – has become increasingly popular.",
+   "Advocates claim that even a short break can improve sleep, concentration and mood. Some hotels now offer packages in which guests hand in their phones at reception, and summer camps for adults promise a return to conversation and outdoor activity. Research on the subject, however, is mixed. While several studies have found that reducing social-media use can lower feelings of loneliness and anxiety, others suggest that the benefits of a complete break may disappear soon after people reconnect.",
+   "Many psychologists therefore recommend changing habits rather than escaping technology altogether. Simple steps include turning off non-essential notifications, keeping phones out of the bedroom and setting specific times for checking messages. The goal, they argue, is not to reject useful tools, but to make sure that we use them deliberately instead of reacting automatically every time a screen lights up."
+  ],
+  "gl": {
+   "detox": "سم‌زدایی",
+   "burden": "بار، سربار",
+   "advocates": "طرفداران",
+   "packages": "بسته‌ها",
+   "reconnect": "دوباره وصل شدن",
+   "non-essential": "غیرضروری",
+   "notifications": "اعلان‌ها",
+   "deliberately": "آگاهانه"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "q": "What is the writer's main point in the final paragraph?",
+    "o": [
+     "People should stop using phones completely.",
+     "It is better to use technology consciously than to avoid it entirely.",
+     "Notifications are always useful.",
+     "Phones should be kept in the bedroom."
+    ],
+    "a": 1
+   },
+   {
+    "type": "ynng",
+    "q": "For some people, constant connection has become a burden.",
+    "a": "Y"
+   },
+   {
+    "type": "ynng",
+    "q": "All research shows that a digital detox has long-lasting benefits.",
+    "a": "N"
+   },
+   {
+    "type": "ynng",
+    "q": "Digital detox hotels are more expensive than ordinary hotels.",
+    "a": "NG"
+   },
+   {
+    "type": "multi",
+    "k": 2,
+    "q": "Choose TWO simple steps that psychologists recommend.",
+    "o": [
+     "Deleting all social-media accounts",
+     "Keeping phones out of the bedroom",
+     "Buying a second phone",
+     "Setting times for checking messages",
+     "Going to a summer camp"
+    ],
+    "a": [
+     1,
+     3
+    ]
+   },
+   {
+    "type": "gap",
+    "q": "Some hotels ask guests to hand in their phones at ______. (ONE WORD)",
+    "a": [
+     "reception"
+    ],
+    "w": 1
+   },
+   {
+    "type": "gap",
+    "q": "Reducing social-media use may lower feelings of loneliness and ______. (ONE WORD)",
+    "a": [
+     "anxiety"
+    ],
+    "w": 1
+   }
+  ],
+  "words": 200
+ },
+ {
+  "id": "general-4-four-day-week",
+  "exam": "general",
+  "level": 4,
+  "minutes": 14,
+  "title": "The Four-Day Week: Utopia or Experiment?",
+  "title_fa": "هفتهٔ کاری چهارروزه: آرمان‌شهر یا آزمایش؟",
+  "topic": "Economy & society",
+  "paras": [
+   "A century ago, the eight-hour day and the two-day weekend were regarded by many employers as dangerously utopian demands. Today they are taken for granted, and a growing movement argues that the next step should be a four-day working week with no loss of pay. Proponents insist that this is not a call for people to do less, but for organisations to stop confusing hours spent at a desk with value produced.",
+   "Large trials conducted in several countries have provided encouraging, if not conclusive, evidence. In a widely reported British pilot involving around sixty companies, most participants chose to keep the shorter week after the trial ended, citing lower staff turnover, fewer sick days and broadly stable revenue. Employees, unsurprisingly, reported less burnout and more time for family and exercise. Sceptics, however, point out that the firms involved volunteered to take part and were therefore likely to be those best suited to the change.",
+   "Indeed, the model translates unevenly across sectors. Software developers or marketing teams may be able to eliminate unnecessary meetings and compress their work, but a hospital, a school or a bus company cannot simply close for an extra day; it must hire additional staff, which raises costs. There is also a risk that compressing five days of work into four simply intensifies pressure, replacing one form of exhaustion with another.",
+   "Perhaps the most valuable outcome of the debate is that it has forced managers to scrutinise how time is actually used. Even organisations that never adopt a four-day week may benefit from asking which meetings, reports and rituals genuinely contribute to their goals – and which survive merely out of habit."
+  ],
+  "gl": {
+   "utopian": "آرمان‌گرایانه",
+   "taken for granted": "بدیهی فرض شده",
+   "proponents": "طرفداران",
+   "conclusive": "قطعی",
+   "turnover": "جابه‌جایی نیرو",
+   "burnout": "فرسودگی شغلی",
+   "sceptics": "شکاکان",
+   "compress": "فشرده کردن",
+   "intensifies": "تشدید می‌کند",
+   "scrutinise": "موشکافانه بررسی کردن"
+  },
+  "qs": [
+   {
+    "type": "mcq",
+    "q": "Why does the writer mention the eight-hour day in the first paragraph?",
+    "o": [
+     "To show that once-radical working reforms can become normal",
+     "To argue that people worked harder in the past",
+     "To criticise employers today",
+     "To explain how wages were calculated"
+    ],
+    "a": 0
+   },
+   {
+    "type": "mcq",
+    "q": "What is the sceptics' main criticism of the British pilot?",
+    "o": [
+     "It lasted only one week.",
+     "The companies chose to participate and may not be typical.",
+     "Employees were paid less.",
+     "Revenue fell sharply."
+    ],
+    "a": 1
+   },
+   {
+    "type": "ynng",
+    "q": "Most companies in the British trial decided to continue with the four-day week.",
+    "a": "Y"
+   },
+   {
+    "type": "ynng",
+    "q": "Hospitals can adopt a four-day week without any extra cost.",
+    "a": "N"
+   },
+   {
+    "type": "ynng",
+    "q": "The four-day week will be compulsory in Britain within ten years.",
+    "a": "NG"
+   },
+   {
+    "type": "match",
+    "q": "Match the idea with the paragraph: the risk that shorter weeks create a new kind of stress",
+    "o": [
+     "Paragraph 1",
+     "Paragraph 2",
+     "Paragraph 3",
+     "Paragraph 4"
+    ],
+    "a": 2
+   },
+   {
+    "type": "match",
+    "q": "Match the idea with the paragraph: a benefit of the debate for all organisations",
+    "o": [
+     "Paragraph 1",
+     "Paragraph 2",
+     "Paragraph 3",
+     "Paragraph 4"
+    ],
+    "a": 3
+   },
+   {
+    "type": "gap",
+    "q": "Employees in the trial reported less ______. (ONE WORD)",
+    "a": [
+     "burnout"
+    ],
+    "w": 1
+   }
+  ],
+  "words": 275
+ }
+]

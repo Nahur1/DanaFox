@@ -1,5 +1,5 @@
 /* Admin API — only for the Telegram ids in ADMIN_TG_IDS, only with short-lived admin sessions, every change is audited */
-import { ApiError, one, all, run, now, int, body, isAdminTg, adminIds, tehranDay, tehranMidnight, clientIp } from './util.js';
+import { ApiError, one, all, run, now, int, body, isAdminTg, isAdminUser, adminIds, adminEmails, tehranDay, tehranMidnight, clientIp } from './util.js';
 import { hashPassword, passwordError, verifyInitData, newCode, isBlocked, failAttempt } from './security.js';
 import * as W from './words.js';
 import * as S from './sync.js';
@@ -24,7 +24,8 @@ route('POST', '/api/admin/auth/telegram', async (env, req) => {
   await guardIp(env, req);
   const d = await body(req), tu = await verifyInitData(d.initData, await botToken(env), 7200);
   if (!tu || !tu.id) throw await denied(env, req, 'telegram', 'bad initData');
-  if (!isAdminTg(env, tu.id)) throw await denied(env, req, 'telegram', { tg: tu.id, username: tu.username || null });
+  const linked = await one(env, 'SELECT * FROM users WHERE telegram_id=?', tu.id);
+  if (!isAdminTg(env, tu.id) && !isAdminUser(env, linked)) throw await denied(env, req, 'telegram', { tg: tu.id, username: tu.username || null });
   const u = await telegramUser(env, tu);
   const res = await startSession(env, req, u.id, { admin: true });
   await audit(env, req, u, 'login', 'telegram mini app');
@@ -36,16 +37,16 @@ route('POST', '/api/admin/auth/code', async (env, req) => {
   const d = await body(req), code = String(d.code || '').toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 32);
   const c = code && await one(env, "DELETE FROM auth_codes WHERE code=? AND kind='admin' RETURNING user_id, expires_at", code);
   const u = c && c.expires_at > now() && await one(env, 'SELECT * FROM users WHERE id=?', c.user_id);
-  if (!u || !isAdminTg(env, u.telegram_id)) throw await denied(env, req, 'code', 'bad or expired code');
+  if (!u || !isAdminUser(env, u)) throw await denied(env, req, 'code', 'bad or expired code');
   const res = await startSession(env, req, u.id, { admin: true });
   await audit(env, req, u, 'login', 'one-time link from the bot');
   return res;
 });
-/* 3) password — only for a site account that is linked to an admin Telegram id */
+/* 3) password — only for a site account linked to an admin Telegram id or whose e-mail is in ADMIN_EMAILS */
 route('POST', '/api/admin/auth/login', async (env, req) => {
   await guardIp(env, req);
   const d = await body(req), u = await checkCredentials(env, req, d.login, d.password, 'adm');
-  if (!isAdminTg(env, u.telegram_id)) throw await denied(env, req, 'password', { user: u.id });
+  if (!isAdminUser(env, u)) throw await denied(env, req, 'password', { user: u.id });
   const res = await startSession(env, req, u.id, { admin: true });
   await audit(env, req, u, 'login', 'password');
   return res;
@@ -120,7 +121,7 @@ route('GET', '/api/admin/users', async (env, req, p, url) => {
   const W_ = where.join(' AND ');
   const total = (await one(env, `SELECT COUNT(*) c FROM users u WHERE ${W_}`, ...args)).c;
   const items = await all(env, `SELECT ${USER_COLS} FROM users u LEFT JOIN user_profile p ON p.user_id=u.id WHERE ${W_} ORDER BY ${SORTS[g('sort')] || SORTS.recent} LIMIT ${size} OFFSET ${(page - 1) * size}`, ...args);
-  for (const it of items) it.is_admin = isAdminTg(env, it.telegram_id);
+  for (const it of items) it.is_admin = isAdminUser(env, it);
   return { items, total, page, size };
 });
 async function target(env, id) { const u = await one(env, 'SELECT * FROM users WHERE id=?', int(id)); if (!u) throw new ApiError(404, 'not_found'); return u; }
@@ -142,7 +143,7 @@ route('GET', '/api/admin/users/{id}', async (env, req, p) => {
      (SELECT COUNT(*) FROM sessions WHERE user_id=?1 AND expires_at>?2 AND is_admin=0) sessions`, u.id, now());
   const days = await all(env, 'SELECT day, reviews, new_words, xp FROM user_daily_activity WHERE user_id=? AND day>=? ORDER BY day', u.id, tehranDay(now() - 29 * DAY));
   const quizzes = await all(env, 'SELECT taken_at, score, total FROM quiz_results WHERE user_id=? ORDER BY taken_at DESC LIMIT 6', u.id);
-  return { user: { ...u, is_admin: isAdminTg(env, u.telegram_id), lang: st.lang || 'fa', track: st.track || 'general', goal: st.goal || 20 }, stats, days, quizzes };
+  return { user: { ...u, is_admin: isAdminUser(env, u), lang: st.lang || 'fa', track: st.track || 'general', goal: st.goal || 20 }, stats, days, quizzes };
 });
 route('POST', '/api/admin/users/{id}/message', async (env, req, p) => {
   const a = await requireAdmin(env, req), u = await target(env, p.id), d = await body(req);
@@ -174,7 +175,7 @@ route('POST', '/api/admin/users/{id}/logout', async (env, req, p) => {
 });
 route('POST', '/api/admin/users/{id}/block', async (env, req, p) => {
   const a = await requireAdmin(env, req), u = await target(env, p.id), d = await body(req);
-  if (isAdminTg(env, u.telegram_id)) throw new ApiError(400, 'cannot_change_admin');
+  if (isAdminUser(env, u)) throw new ApiError(400, 'cannot_change_admin');
   await run(env, 'UPDATE users SET blocked=? WHERE id=?', d.blocked ? 1 : 0, u.id);
   if (d.blocked) await run(env, 'DELETE FROM sessions WHERE user_id=?', u.id);
   await audit(env, req, a, d.blocked ? 'user.block' : 'user.unblock', { user: u.id });
@@ -188,7 +189,7 @@ route('POST', '/api/admin/users/{id}/reset', async (env, req, p) => {
 });
 route('DELETE', '/api/admin/users/{id}', async (env, req, p) => {
   const a = await requireAdmin(env, req), u = await target(env, p.id);
-  if (isAdminTg(env, u.telegram_id)) throw new ApiError(400, 'cannot_change_admin');
+  if (isAdminUser(env, u)) throw new ApiError(400, 'cannot_change_admin');
   await run(env, 'DELETE FROM users WHERE id=?', u.id);
   await audit(env, req, a, 'user.delete', { user: u.id, login: u.email || u.phone || (u.telegram_id ? 'tg:' + u.telegram_id : '') });
   return { ok: true };
@@ -302,7 +303,7 @@ route('GET', '/api/admin/security', async (env, req, p, url) => {
     .map(s => ({ id: s.token_hash.slice(0, 16), current: s.token_hash === a._th, created_at: s.created_at, last_seen_at: s.last_seen_at, expires_at: Math.min(s.expires_at, s.created_at + ADMIN_SESSION_MS), ip: s.ip, ua: s.user_agent }));
   const denied24 = (await one(env, "SELECT COUNT(*) c FROM admin_log WHERE action LIKE 'denied_%' AND at>?", now() - DAY)).c;
   const blockedKeys = (await one(env, 'SELECT COUNT(*) c FROM login_attempts WHERE fails>=8 AND until>?', now())).c;
-  return { log, total, page, sessions, denied24, blocked_keys: blockedKeys, admin_ids: adminIds(env), session_hours: ADMIN_SESSION_MS / 3600000 };
+  return { log, total, page, sessions, denied24, blocked_keys: blockedKeys, admin_ids: adminIds(env), admin_emails: adminEmails(env), session_hours: ADMIN_SESSION_MS / 3600000 };
 });
 route('POST', '/api/admin/security/revoke', async (env, req) => {
   const a = await requireAdmin(env, req), d = await body(req);
@@ -331,6 +332,7 @@ route('POST', '/api/admin/export/telegram', async (env, req) => {
   const kind = d.kind === 'words' ? 'words' : 'users';
   const csv = kind === 'words' ? await W.exportCsv(env, !!d.all) : (await usersCsv(env)).csv;
   const fd = new FormData();
+  if (!a.telegram_id) throw new ApiError(400, 'no_telegram');
   fd.append('chat_id', String(a.telegram_id));
   fd.append('caption', kind === 'words' ? '📚 VajeYar — word bank export' : '👥 VajeYar — users export');
   fd.append('document', new Blob([csv], { type: 'text/csv' }), `vajeyar-${kind}-${tehranDay()}.csv`);

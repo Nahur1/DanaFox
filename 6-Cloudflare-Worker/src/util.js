@@ -21,9 +21,13 @@ export async function meta(env, key, def = null) { const r = await one(env, 'SEL
 export const setMeta = (env, key, value) => run(env, 'INSERT OR REPLACE INTO meta(key,value) VALUES(?,?)', key, String(value));
 export const bumpWords = env => setMeta(env, 'words_version', now());
 
-/* admins = Telegram numeric ids listed in the ADMIN_TG_IDS variable (nothing else grants admin rights) */
+/* admins = Telegram numeric ids listed in ADMIN_TG_IDS, or e-mails listed in ADMIN_EMAILS (nothing else grants admin rights) */
 export const adminIds = env => String(env.ADMIN_TG_IDS || '').split(/[\s,;]+/).map(x => parseInt(x, 10)).filter(x => Number.isFinite(x) && x > 0);
 export const isAdminTg = (env, id) => !!id && adminIds(env).includes(Number(id));
+/* …or site accounts whose (lower-case) e-mail is listed in ADMIN_EMAILS */
+export const adminEmails = env => String(env.ADMIN_EMAILS || '').toLowerCase().split(/[\s,;]+/).filter(x => x.includes('@'));
+export const isAdminEmail = (env, email) => !!email && adminEmails(env).includes(String(email).toLowerCase());
+export const isAdminUser = (env, u) => !!u && (isAdminTg(env, u.telegram_id) || isAdminEmail(env, u.email));
 export const clientIp = req => req.headers.get('CF-Connecting-IP') || req.headers.get('X-Forwarded-For') || '';
 /* calendar day in Tehran (UTC+3:30) — used for admin statistics */
 export const tehranDay = (t = Date.now()) => new Date(t + 12600000).toISOString().slice(0, 10);

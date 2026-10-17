@@ -48,9 +48,10 @@ function distractors(w, field, k=3){
 }
 function makeQuestion(w, type){
   if(type==='mixed'){ const types = ['enfa','faen','def','type','enfa','blank','tf']; if(VY.hasTTS()) types.push('listen'); type = types[Math.floor(Math.random()*types.length)]; }
-  if(type==='blank' && !VY.blank(w.ex||'', w.word)) type = 'enfa';
+  const bx = type==='blank' ? (VY.blankEx ? VY.blankEx(w) : (VY.blank(w.ex||'', w.word) ? [w.ex,''] : null)) : null;
+  if(type==='blank' && !bx) type = 'enfa';
   if(type==='def' && !w.def) type = 'enfa';
-  const q = {id:w.id, type};
+  const q = {id:w.id, type}; if(type==='blank') q.ex = bx;
   if(['enfa','faen','def','blank'].includes(type)){
     const field = type==='enfa' ? 'fa' : 'word';
     const opts = VY.shuffle([w, ...distractors(w, field)]);
@@ -73,7 +74,7 @@ function quizQuestion(){
   if(q.type==='enfa'){ prompt = `<div class="q-type">${t('qWhatMeans')}</div><div class="row" style="justify-content:center;gap:12px"><div class="q-main en" dir="ltr">${esc(w.word)}</div>${VY.speakBtn(w.word,'sm')}</div><div class="chip purple mt8">${VY.posName(w.pos)}</div>`; body = opts(); }
   if(q.type==='faen'){ prompt = `<div class="q-type">${t('qWhichWord')}</div><div class="q-main">${esc(w.fa)}</div>`; body = opts(); }
   if(q.type==='def'){ prompt = `<div class="q-type">${t('qWhichDef')}</div><div class="q-sent en" dir="ltr">“${esc(w.def)}”</div>`; body = opts(); }
-  if(q.type==='blank'){ prompt = `<div class="q-type">${t('qFill')}</div><div class="q-sent en" dir="ltr">${VY.blank(w.ex, w.word)}</div><div class="muted small mt8">${esc(w.fa)}</div>`; body = opts(); }
+  if(q.type==='blank'){ const bx = q.ex || [w.ex,'']; prompt = `<div class="q-type">${t('qFill')}</div><div class="q-sent en" dir="ltr">${VY.blank(bx[0], w.word)}</div>${bx[1] && VY.S.settings.exFa!==false ? `<div class="muted small mt8" dir="rtl">${esc(bx[1])}</div>` : `<div class="muted small mt8">${esc(w.fa)}</div>`}`; body = opts(); }
   if(q.type==='type'){ prompt = `<div class="q-type">${t('qTypeIt')}</div><div class="q-main">${esc(w.fa)}</div><div class="muted small en mt8" dir="ltr">${esc(w.def)}</div><div class="muted mt8 en" dir="ltr" style="letter-spacing:4px" id="q-mask">${w.word.replace(/[a-z]/gi,'_ ')}</div>`; body = typeBox(); }
   if(q.type==='listen'){ prompt = `<div class="q-type">${t('qListenIt')}</div><div class="row mt16" style="justify-content:center"><button class="btn btn-primary btn-lg" data-act="speak" data-text="${esc(w.word)}">${icon('volume')} ${t('play')}</button><button class="btn btn-ghost btn-lg" data-act="speak" data-text="${esc(w.word)}" data-rate="0.55">🐢 ${t('slow')}</button></div>`; body = typeBox(); }
   if(q.type==='tf'){ prompt = `<div class="q-type">${t('qTrue')}</div><div class="row" style="justify-content:center;gap:12px"><div class="q-main en" dir="ltr">${esc(w.word)}</div>${VY.speakBtn(w.word,'sm')}</div><div class="q-sent" style="font-weight:800;color:var(--primary)">= ${esc(q.shown)}</div>`; body = `<div class="opts"><button class="opt" data-act="qAnswer" data-v="true"><span class="k">${n(1)}</span>✓ ${t('trueW')}</button><button class="opt" data-act="qAnswer" data-v="false"><span class="k">${n(2)}</span>✗ ${t('falseW')}</button></div>`; }
@@ -197,11 +198,11 @@ VY.openWord = id => {
   <div class="modal-head"><div><div class="row" style="gap:12px"><h2 class="en" dir="ltr" style="margin:0;font-size:32px">${esc(w.word)}</h2>${VY.speakBtn(w.word)}</div><div class="row wrap mt8"><span class="chip purple">${VY.posName(w.pos)}</span><span class="chip">${VY.catName(w.cat)} · ${VY.levelName(w.cat,w.level)}</span>${VY.statusChip(id)}<span class="muted en" dir="ltr" id="m-phon"></span><span id="m-audio"></span></div></div><div class="spacer"></div>${VY.starBtn(id)}<button class="icon-btn" data-act="closeModal">${icon('x')}</button></div>
   <div style="font-size:24px;font-weight:800;color:var(--primary)">${esc(w.fa)}</div>
   ${w.def?`<div class="mt8"><span class="lbl" style="display:inline">${t('definition')}:</span> <span class="en" dir="ltr">${esc(w.def)}</span></div>`:''}
-  ${w.ex?`<div class="example"><div class="en" dir="ltr" style="flex:1">${VY.highlight(w.ex, w.word)}</div>${VY.speakBtn(w.ex,'sm')}</div>`:''}
+  ${VY.exHTML ? VY.exHTML(w, 5) : ''}
   <div id="m-online" class="mt16 small muted">${VY.S.settings.online?(navigator.onLine?t('loadingOnline'):t('offlineInfo')):''}</div>
   ${p.seen?`<div class="kv mt16"><div><b>${p.due<=Date.now()?t('today'):new Date(p.due).toLocaleDateString(VY.lang()==='fa'?'fa-IR':'en-GB')}</b><span>${t('nextReview')}</span></div><div><b>${VY.intervalLabel(p.interval)}</b><span>${t('interval')}</span></div><div><b>${n(VY.box(p))} / ${n(6)}</b><span>${t('box')}</span></div><div><b><span style="color:var(--green)">${n(p.ok)}</span> / <span style="color:var(--red)">${n(p.bad)}</span></b><span>✓ / ✗</span></div></div>`:''}
   <div class="mt16"><label class="lbl">📝 ${t('note')}</label><textarea class="input" id="m-note" placeholder="${t('notePh')}">${esc(p.note||'')}</textarea></div>
-  <div class="row wrap mt16"><button class="btn btn-primary btn-sm" data-act="mSave" data-id="${esc(id)}">${icon('check')} ${t('save')}</button><button class="btn btn-soft btn-sm" data-act="mReview" data-id="${esc(id)}">${icon('repeat')} ${t('addReview')}</button><button class="btn btn-ghost btn-sm" data-act="mKnown" data-id="${esc(id)}">✓ ${t('markKnown')}</button>${p.seen?`<button class="btn btn-danger btn-sm" data-act="mReset" data-id="${esc(id)}">${t('reset')}</button>`:''}</div>`);
+  <div class="row wrap mt16"><button class="btn btn-primary btn-sm" data-act="mSave" data-id="${esc(id)}">${icon('check')} ${t('save')}</button><button class="btn btn-soft btn-sm" data-act="mReview" data-id="${esc(id)}">${icon('repeat')} ${t('addReview')}</button><button class="btn btn-ghost btn-sm" data-act="mKnown" data-id="${esc(id)}">✓ ${t('markKnown')}</button><button class="btn btn-ghost btn-sm" data-act="aiTutor" data-id="${esc(id)}">✨ ${t('aiTutor')}</button>${p.seen?`<button class="btn btn-danger btn-sm" data-act="mReset" data-id="${esc(id)}">${t('reset')}</button>`:''}</div>`);
   VY.fetchDict(w.word).then(d => { const box = document.getElementById('m-online'); if(!box) return;
     if(!d || d.none){ box.innerHTML = d && d.none ? '' : (VY.S.settings.online?t('offlineInfo'):''); return; }
     const ph = document.getElementById('m-phon'); if(ph) ph.textContent = d.phonetic||'';
@@ -289,13 +290,17 @@ const sw = (k) => `<label class="switch"><input type="checkbox" data-set="${k}" 
 const row = (ic, title, sub, ctrl) => `<div class="set-row"><div class="stat-ic p" style="width:40px;height:40px">${icon(ic)}</div><div class="t"><b>${title}</b><span>${sub||''}</span></div>${ctrl}</div>`;
 V.settings = {title:'settings', render(){
   const s = VY.S.settings;
-  return `<div class="grid g2">
+  return `${VY.accountCard ? VY.accountCard() : ''}<div class="grid g2">
   <div class="card">
     ${row('globe', t('language'), t('languageS'), seg('lang', [['fa','فارسی'],['en','English']]))}
     ${row('sun', t('theme'), '', seg('theme', [['light',t('light')],['dark',t('dark')],['system',t('system')]]))}
+    ${row('type', t('fontSize'), t('fontSizeS'), seg('fs', [[0.9,'<span style="font-size:12px">A</span>'],[1,'<span style="font-size:14px">A</span>'],[1.15,'<span style="font-size:16px">A</span>'],[1.3,'<span style="font-size:18px">A</span>'],[1.45,'<span style="font-size:20px">A</span>']]))}
+    ${row('text', t('exFa'), t('exFaS'), sw('exFa'))}
     ${row('target', t('dailyGoal'), t('goalS'), seg('goal', [[10,n(10)],[20,n(20)],[30,n(30)],[50,n(50)]]))}
     ${row('sparkles', t('sessionSize'), t('sessionSizeS'), seg('sessionSize', [[5,n(5)],[10,n(10)],[15,n(15)],[20,n(20)]]))}
     ${row('layers', t('cardFront'), t('cardFrontS'), seg('front', [['en',t('frontEn')],['fa',t('frontFa')],['mix',t('frontMix')]]))}
+    ${row('plus', t('newPerDay'), t('newPerDayS'), seg('newPerDay', [[5,n(5)],[10,n(10)],[15,n(15)],[20,n(20)],[30,n(30)]]))}
+    ${row('brain', t('retention'), t('retentionS'), seg('retention', [[0.85,VY.pct(85)],[0.9,VY.pct(90)],[0.95,VY.pct(95)]]))}
     ${row('bell', t('reminder'), t('reminderS'), `<input type="time" class="input" style="width:120px" id="s-time" value="${s.reminderTime}">${sw('reminder')}`)}
   </div>
   <div class="card">
@@ -308,21 +313,28 @@ V.settings = {title:'settings', render(){
     ${deferredPrompt?row('plus','Install app','PWA', `<button class="btn btn-primary btn-sm" data-act="install">Install</button>`):''}
     ${row('trash', t('resetAll'), t('resetAllS'), `<button class="btn btn-danger btn-sm" data-act="resetAll">${t('reset')}</button>`)}
   </div></div>
-  <div class="card mt16"><h3>⌨️ ${t('shortcuts')}</h3><div class="row wrap mt12 small">${[['Space',t('showAnswer')],['1',t('again')],['2',t('gotIt')],['3–7',t('repeatIn')+' '+t('d1')+' … '+t('m1')],['K',t('iKnow')],['S',t('listen')],['1–4',t('quiz')],['Esc',t('exit')]].map(([k,l])=>`<span class="chip"><span class="kbd" style="margin:0">${k}</span> ${l}</span>`).join('')}</div>
+  <div class="card mt16"><h3>🤝 ${t('community')}</h3>
+    ${VY.isLoggedIn && VY.isLoggedIn() ? row('user', t('unameTitle'), (VY.account.user||{}).username ? '<span class="en" dir="ltr">@'+esc(VY.account.user.username)+'</span>' : t('unameWhy'), `<button class="btn btn-soft btn-sm" data-act="unameSet">${(VY.account.user||{}).username ? t('edit') : t('unameSetBtn')}</button>`) : ''}
+    ${row('target', t('placementTest'), VY.kvGet('placement') ? t('yourLevel')+': '+esc(VY.kvGet('placement').cefr)+' · '+t('vocabSize')+' ≈ '+n(VY.kvGet('placement').vocab) : t('placementS'), `<button class="btn btn-soft btn-sm" data-act="go" data-to="placement">${t('open')}</button>`)}
+    ${row('message', t('feedback'), t('feedbackS'), `<button class="btn btn-primary btn-sm" data-act="feedback">${t('send')}</button>`)}
+  </div>
+  <div class="card mt16"><h3>⌨️ ${t('shortcuts')}</h3><div class="row wrap mt12 small">${[['Space',t('showAnswer')],['1',t('again')],['2',t('hard')],['3',t('gotIt')],['4',t('easy')],['5–9',t('repeatIn')+' '+t('d1')+' … '+t('m1')],['K',t('iKnow')],['S',t('listen')],['1–4',t('quiz')],['Esc',t('exit')]].map(([k,l])=>`<span class="chip"><span class="kbd" style="margin:0">${k}</span> ${l}</span>`).join('')}</div>
   <p class="small muted mt16">${t('aboutS')}</p></div>`;
 }, after(){
-  document.querySelectorAll('[data-set]').forEach(i => i.onchange = () => { VY.S.settings[i.dataset.set] = i.checked; VY.save(); if(i.dataset.set==='reminder' && i.checked && window.Notification && Notification.permission!=='granted') Notification.requestPermission(); });
+  document.querySelectorAll('[data-set]').forEach(i => i.onchange = () => { VY.S.settings[i.dataset.set] = i.checked; VY.save(); if(i.dataset.set==='exFa') VY.rerender(); if(i.dataset.set==='reminder' && i.checked && window.Notification && Notification.permission!=='granted') Notification.requestPermission(); });
   const r = document.getElementById('s-rate'); r.oninput = () => { VY.S.settings.rate = +r.value; VY.save(); };
   const tm = document.getElementById('s-time'); tm.onchange = () => { VY.S.settings.reminderTime = tm.value; VY.S.notified = null; VY.save(); };
 }};
-ACT.setv = el => { const k = el.dataset.k, v = el.dataset.v; VY.S.settings[k] = /^\d+$/.test(v) ? +v : v; VY.save(); if(k==='lang' || k==='theme') VY.renderShell(); else VY.rerender(); };
+ACT.setv = el => { const k = el.dataset.k, v = el.dataset.v; VY.S.settings[k] = /^\d+(\.\d+)?$/.test(v) ? +v : v; VY.save(); if(k==='lang' || k==='theme' || k==='fs'){ const y = scrollY; VY.renderShell(); scrollTo(0, y); } else VY.rerender(); };
 ACT.bExport = () => { VY.saveNow(); VY.download('vajeyar-backup-'+VY.dayKey()+'.json', JSON.stringify(VY.S)); VY.toast('✓ '+t('exported')); };
 ACT.bImport = () => VY.pickFile('.json', text => { try{ const s = JSON.parse(text); if(!s || !s.v) throw 0; localStorage.setItem('vajeyar_state_v1', text); location.reload(); }catch(e){ VY.toast('✗ Invalid file'); } });
 ACT.resetAll = () => { if(confirm(t('confirmReset'))){ VY.resetAll(); VY.renderShell(); } };
 ACT.install = async () => { if(deferredPrompt){ deferredPrompt.prompt(); deferredPrompt = null; VY.rerender(); } };
 
 /* ================= MORE (mobile) ================= */
-V.more = {title:'more', render(){ return `<div class="grid g2">${[['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']].map(([k,ic])=>`<a class="card stat" href="#/${k}" style="text-decoration:none;color:inherit"><div class="stat-ic p">${icon(ic)}</div><div><b style="font-size:17px">${k==='mywords'?t('myWords'):t(k)}</b></div></a>`).join('')}</div>`; }};
+V.more = {title:'more', render(){ const pl = VY.kvGet('placement');
+  return `<div class="grid g2 more-grid">${VY.MORE.map(([k,ic])=>`<a class="card stat" href="#/${k}" style="text-decoration:none;color:inherit"><div class="stat-ic p">${icon(ic)}</div><div style="min-width:0"><b>${k==='mywords'?t('myWords'):k==='duel'?t('duelTitle'):k==='placement'?t('placementTest'):t(k)}</b>${k==='placement'&&pl?`<span>${t('yourLevel')}: ${esc(pl.cefr)}</span>`:k==='review'?'':''}</div></a>`).join('')}
+  <button class="card stat" data-act="feedback" style="text-align:start;color:inherit;font:inherit;cursor:pointer"><div class="stat-ic y">${icon('message')}</div><div><b>${t('feedback')}</b><span>${t('feedbackShort')}</span></div></button></div>`; }};
 
 /* ================= ONBOARDING ================= */
 VY.onb = {step:0};
@@ -339,11 +351,12 @@ V.onboarding = {render(){
     <div class="row between"><div class="brand" style="padding:0"><div class="brand-logo">${icon('logo')}</div><div><div class="brand-name">${t('appName')}</div><div class="brand-sub">${t('appSub')}</div></div></div><button class="icon-btn" data-act="toggleThemeOnb">${icon(document.documentElement.dataset.theme==='dark'?'sun':'moon')}</button></div>
     <div class="mt24">${steps}</div>
     ${body}
-    <div class="row mt24">${st>0?`<button class="btn btn-ghost" data-act="onbBack">${t('back')}</button>`:''}<div style="flex:1"></div><button class="btn btn-primary btn-lg" data-act="onbNext">${st<2?t('continue'):t('letsGo')} ${icon('arrow')}</button></div>
+    <div class="row mt24">${st>0?`<button class="btn btn-ghost" data-act="onbBack">${t('back')}</button>`:''}<div style="flex:1"></div>${st===2?`<button class="btn btn-ghost" data-act="onbPlacement">🎯 ${t('onbPlacement')}</button>`:''}<button class="btn btn-primary btn-lg" data-act="onbNext">${st<2?t('continue'):t('letsGo')} ${icon('arrow')}</button></div>
   </div></div>`;
 }};
 ACT.onbSet = el => { const k = el.dataset.k; VY.S.settings[k] = k==='goal' ? +el.dataset.v : el.dataset.v; VY.save(); VY.renderShell(); };
 ACT.onbNext = () => { if(VY.onb.step < 2){ VY.onb.step++; VY.renderShell(); } else { VY.S.onboarded = true; VY.learnCat = VY.S.settings.track; VY.save(); location.hash = '#/home'; VY.renderShell(); } };
+ACT.onbPlacement = () => { VY.S.onboarded = true; VY.learnCat = VY.S.settings.track; VY.save(); location.hash = '#/placement'; VY.renderShell(); };
 ACT.onbBack = () => { VY.onb.step--; VY.renderShell(); };
 ACT.toggleThemeOnb = () => { VY.S.settings.theme = document.documentElement.dataset.theme==='dark'?'light':'dark'; VY.save(); VY.renderShell(); };
 
@@ -352,7 +365,4 @@ setInterval(() => { const s = VY.S.settings; if(!s.reminder || !window.Notificat
   const now = new Date(), hm = String(now.getHours()).padStart(2,'0')+':'+String(now.getMinutes()).padStart(2,'0');
   if(hm >= s.reminderTime && VY.S.notified !== VY.dayKey()){ VY.S.notified = VY.dayKey(); VY.save(); const due = VY.dueIds().length; try{ new Notification(t('notifTitle'), {body:t('notifBody',{n:n(due)}), icon:'icons/icon-192.png'}); }catch(e){} } }, 30000);
 
-/* ================= Boot ================= */
-VY.renderShell();
-if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(()=>{});
 })();

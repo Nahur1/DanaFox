@@ -3,6 +3,8 @@ import { ApiError } from './util.js';
 import { handleApi } from './router.js';
 import './api.js';
 import './admin.js';
+import './social.js';
+import './admin2.js';
 import { webhookSecret, ensureBot } from './bot/telegram.js';
 import { handleUpdate, cronTick } from './bot/handlers.js';
 import { broadcastCron } from './broadcast.js';
@@ -34,7 +36,7 @@ function withHeaders(r, extra) {
 const errJson = (status, error, extra) => new Response(JSON.stringify({ error, ...(extra ? { detail: extra } : {}) }), { status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
 
 // maintenance mode keeps these working: config + word list for everyone, the whole admin API
-const OPEN_IN_MAINTENANCE = /^\/api\/(config|words|admin\/)/;
+const OPEN_IN_MAINTENANCE = /^\/api\/(config|words|readings|admin\/)/;
 async function api(req, env, url) {
   const isAdmin = url.pathname.startsWith('/api/admin/');
   const hdr = isAdmin ? { ...BASE_HEADERS, 'Cache-Control': 'no-store' } : { ...BASE_HEADERS, ...CORS };   // admin API: same origin only (no CORS)

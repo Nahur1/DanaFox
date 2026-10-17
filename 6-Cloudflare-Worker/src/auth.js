@@ -1,12 +1,12 @@
 /* sessions, current user, credentials check, admin guard and audit log */
-import { ApiError, one, run, now, int, isAdminTg, clientIp } from './util.js';
+import { ApiError, one, run, now, int, isAdminUser, clientIp } from './util.js';
 import { sha256, newToken, parseLogin, verifyPassword, isBlocked, failAttempt, clearAttempts } from './security.js';
 
 const DAY = 86400000;
 export const ADMIN_SESSION_MS = 12 * 3600000;      // admin-panel sessions expire after 12 hours, no matter what
 
 export function publicUser(u) {
-  return { id: u.id, email: u.email, phone: u.phone, name: u.display_name, has_password: !!u.password_hash,
+  return { id: u.id, email: u.email, phone: u.phone, name: u.display_name, username: u.username || null, has_password: !!u.password_hash,
     telegram: u.telegram_id ? { id: u.telegram_id, username: u.tg_username, name: u.tg_name } : null };
 }
 
@@ -26,12 +26,12 @@ export async function currentUser(env, req, { required = true } = {}) {
   if (u && u.blocked) throw new ApiError(403, 'account_blocked');
   return u;
 }
-/** admin guard: an admin-panel session (is_admin=1, younger than 12h) of a user whose Telegram id is in ADMIN_TG_IDS */
+/** admin guard: an admin-panel session (is_admin=1, younger than 12h) of a user whose Telegram id is in ADMIN_TG_IDS or e-mail in ADMIN_EMAILS */
 export async function requireAdmin(env, req) {
   const u = await sessionUser(env, req);
   if (!u || !u._adm) throw new ApiError(401, 'unauthorized');
   if (now() - u._created > ADMIN_SESSION_MS) { await run(env, 'DELETE FROM sessions WHERE token_hash=?', u._th); throw new ApiError(401, 'session_expired'); }
-  if (!isAdminTg(env, u.telegram_id)) { await run(env, 'DELETE FROM sessions WHERE token_hash=?', u._th); throw new ApiError(403, 'forbidden'); }
+  if (!isAdminUser(env, u)) { await run(env, 'DELETE FROM sessions WHERE token_hash=?', u._th); throw new ApiError(403, 'forbidden'); }
   u._req = req;
   return u;
 }

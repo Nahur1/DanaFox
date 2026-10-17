@@ -1,5 +1,5 @@
 /* Two-way sync between devices and D1 — same protocol as the self-hosted Python server.
-   request  {since, changes:{profile:{u,data}, progress:{slug:{u,data|null}}, days:{day:{…}}, custom:{slug:{u,data|null}}, ach:{id:ts}, quizzes:[…]}}
+   request  {since, changes:{profile:{u,data}, progress:{slug:{u,data|null}}, days:{day:{…}}, custom:{slug:{u,data|null}}, kv:{key:{u,data|null}}, ach:{id:ts}, quizzes:[…]}}
    response {rev, changes:{…rows changed after `since`}, reset?}
    Rules: progress/custom/profile → newest edit wins; days → per-field max; achievements → union; quizzes → append. */
 import { one, all, run, q, now, int, num, str, meta, setMeta } from './util.js';
@@ -41,6 +41,16 @@ export function customRow(slug, u, d) {
   if (!d) return { s: slug, u, word: slug.split(':').slice(1).join(':') || slug, pos: 'n', fa: '', def: '', ex: '', del: 1 };
   return { s: slug, u, word: str(d.word, 80), pos: str(d.pos || 'n', 8), fa: str(d.fa, 300), def: str(d.def, 600), ex: str(d.ex, 600), del: 0 };
 }
+/* generic key/value records (reading results, placement test, plan state …): newest edit wins */
+export const kvUpsert = (env, uid, rev, rows) => q(env, `INSERT INTO user_kv(user_id,k,data,deleted,updated_at,rev)
+  SELECT ?1, json_extract(value,'$.s'), json_extract(value,'$.data'), json_extract(value,'$.del'), json_extract(value,'$.u'), ?2 FROM json_each(?3) WHERE true
+  ON CONFLICT(user_id,k) DO UPDATE SET data=excluded.data, deleted=excluded.deleted, updated_at=excluded.updated_at, rev=excluded.rev`, uid, rev, J(rows));
+export function kvRow(k, u, d) {
+  if (d == null) return { s: k, u, data: 'null', del: 1 };
+  const t = J(d);
+  return { s: k, u, data: t.length > 60000 ? 'null' : t, del: t.length > 60000 ? 1 : 0 };
+}
+export const kvOut = r => { if (r.deleted) return null; try { return JSON.parse(r.data); } catch (e) { return null; } };
 export const profileUpsert = (env, uid, rev, u, d, prevXp = 0, prevBest = 0) => {
   const st = d.streak || {}, gm = d.games || {};
   return q(env, `INSERT INTO user_profile(user_id,settings_json,onboarded,xp,streak_count,streak_best,streak_last,streak_freezes,match_best,speed_best,notified,updated_at,rev)
@@ -75,6 +85,10 @@ async function merge(env, uid, rev, ch, forced) {
   };
   await lww(ch.progress, 'user_progress', 'word_slug', progressRow, progressUpsert, forced.progress);
   await lww(ch.custom, 'user_custom_words', 'slug', customRow, customUpsert, forced.custom);
+  if (ch.kv && typeof ch.kv === 'object') {
+    const kv = {}; for (const k of Object.keys(ch.kv).slice(0, 2000)) if (/^[\w:.\-]{1,80}$/.test(k)) kv[k] = ch.kv[k];
+    await lww(kv, 'user_kv', 'k', (k, u, d) => kvRow(k, u, d), kvUpsert, forced.kv);
+  }
 
   const days = Object.keys(ch.days || {}).filter(d => d.length === 10 && ch.days[d] && typeof ch.days[d] === 'object').slice(0, 5000);
   if (days.length) {
@@ -102,7 +116,8 @@ async function merge(env, uid, rev, ch, forced) {
   return res.some(r => r.meta && r.meta.changes > 0);
 }
 
-export async function changesSince(env, uid, since, forced = { profile: false, progress: new Set(), days: new Set(), custom: new Set() }) {
+const newForced = () => ({ profile: false, progress: new Set(), days: new Set(), custom: new Set(), kv: new Set() });
+export async function changesSince(env, uid, since, forced = newForced()) {
   const out = {};
   const pr = await one(env, 'SELECT * FROM user_profile WHERE user_id=? AND (rev>? OR ?)', uid, since, forced.profile ? 1 : 0);
   if (pr) out.profile = { u: pr.updated_at, data: profileOut(pr) };
@@ -114,13 +129,14 @@ export async function changesSince(env, uid, since, forced = { profile: false, p
   out.progress = {}; for (const r of await pick('user_progress', 'word_slug', forced.progress)) out.progress[r.word_slug] = progressOut(r);
   out.days = {}; for (const r of await pick('user_daily_activity', 'day', forced.days)) out.days[r.day] = dayOut(r);
   out.custom = {}; for (const r of await pick('user_custom_words', 'slug', forced.custom)) out.custom[r.slug] = customOut(r);
+  out.kv = {}; for (const r of await pick('user_kv', 'k', forced.kv || new Set())) out.kv[r.k] = kvOut(r);
   out.ach = {}; for (const r of await all(env, 'SELECT * FROM user_achievements WHERE user_id=? AND rev>?', uid, since)) out.ach[r.achievement_id] = r.unlocked_at;
   out.quizzes = (await all(env, 'SELECT * FROM quiz_results WHERE user_id=? AND rev>? ORDER BY taken_at', uid, since)).map(r => ({ d: r.taken_at, score: r.score, total: r.total }));
   return out;
 }
 
 export async function sync(env, uid, since, changes) {
-  const forced = { profile: false, progress: new Set(), days: new Set(), custom: new Set() };
+  const forced = newForced();
   const rev = await nextRev(env, uid);
   await merge(env, uid, rev, changes || {}, forced);
   await run(env, 'UPDATE users SET last_sync_at=? WHERE id=?', now(), uid);
@@ -130,7 +146,7 @@ export async function sync(env, uid, since, changes) {
   return { rev, changes: await changesSince(env, uid, since, forced) };
 }
 
-const DATA_TABLES = ['user_progress', 'user_daily_activity', 'user_custom_words', 'user_achievements', 'quiz_results', 'user_profile'];
+const DATA_TABLES = ['user_kv', 'user_progress', 'user_daily_activity', 'user_custom_words', 'user_achievements', 'quiz_results', 'user_profile'];
 export async function wipe(env, uid) {
   await env.DB.batch(DATA_TABLES.map(t => q(env, `DELETE FROM ${t} WHERE user_id=?`, uid)));
   const rev = await nextRev(env, uid);
@@ -156,6 +172,8 @@ export async function mergeAccounts(env, fromId, toId) {
       ON CONFLICT(user_id,day) DO UPDATE SET reviews=user_daily_activity.reviews+excluded.reviews, new_words=user_daily_activity.new_words+excluded.new_words,
         correct=user_daily_activity.correct+excluded.correct, wrong=user_daily_activity.wrong+excluded.wrong, xp=user_daily_activity.xp+excluded.xp, rev=excluded.rev`, fromId, toId, rev),
     q(env, `INSERT OR IGNORE INTO user_achievements(user_id,achievement_id,unlocked_at,rev) SELECT ?2,achievement_id,unlocked_at,?3 FROM user_achievements WHERE user_id=?1`, fromId, toId, rev),
+    q(env, `INSERT INTO user_kv(user_id,k,data,deleted,updated_at,rev) SELECT ?2,k,data,deleted,updated_at,?3 FROM user_kv WHERE user_id=?1 AND true
+      ON CONFLICT(user_id,k) DO UPDATE SET data=excluded.data, deleted=excluded.deleted, updated_at=excluded.updated_at, rev=excluded.rev WHERE excluded.updated_at > user_kv.updated_at`, fromId, toId, rev),
     q(env, `INSERT OR IGNORE INTO quiz_results(user_id,taken_at,score,total,rev) SELECT ?2,taken_at,score,total,?3 FROM quiz_results WHERE user_id=?1`, fromId, toId, rev),
     // profile: keep the web account's settings, add up XP, keep the best records
     q(env, `INSERT INTO user_profile(user_id,settings_json,onboarded,xp,streak_count,streak_best,streak_last,streak_freezes,match_best,speed_best,notified,updated_at,rev)

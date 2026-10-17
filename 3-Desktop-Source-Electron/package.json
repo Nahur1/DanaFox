@@ -1,17 +1,23 @@
 {
   "name": "vajeyar",
   "productName": "VajeYar",
-  "version": "1.0.0",
-  "description": "VajeYar - English vocabulary trainer (IELTS, TOEFL, General)",
+  "version": "3.0.0",
+  "description": "VajeYar - English vocabulary, reading & exam trainer (IELTS, TOEFL, GRE, PTE, General)",
   "main": "main.js",
-  "author": "VajeYar",
+  "author": {
+    "name": "VajeYar",
+    "email": "nahuram7798@gmail.com"
+  },
   "license": "MIT",
   "scripts": {
     "start": "electron .",
     "dist": "npm run prepare-app && electron-builder --win portable nsis --x64",
     "dist:portable": "npm run prepare-app && electron-builder --win portable --x64",
-    "prepare-app": "node -e \"const f=require('fs');f.rmSync('app',{recursive:true,force:true});f.cpSync('../2-Web-App-PWA','app',{recursive:true})\"",
-    "dist:linux-host": "npm run prepare-app && electron-builder --win portable dir --x64 && NSISDIR=$HOME/.cache/electron-builder/nsis/nsis-3.0.4.1 $HOME/.cache/electron-builder/nsis/nsis-3.0.4.1/linux/makensis -V2 -DVERSION=$npm_package_version build/setup-nowine.nsi"
+    "prepare-app": "node scripts/prepare-app.js",
+    "dist:linux-host": "npm run prepare-app && electron-builder --win portable dir --x64 && NSISDIR=$HOME/.cache/electron-builder/nsis/nsis-3.0.4.1 $HOME/.cache/electron-builder/nsis/nsis-3.0.4.1/linux/makensis -V2 -DVERSION=$npm_package_version build/setup-nowine.nsi",
+    "dist:win": "npm run prepare-app && electron-builder --win portable nsis --x64 --publish never",
+    "dist:mac": "npm run prepare-app && electron-builder --mac dmg zip --universal --publish never",
+    "dist:linux": "npm run prepare-app && electron-builder --linux AppImage deb --x64 --publish never"
   },
   "devDependencies": {
     "electron": "^33.2.0",
@@ -63,6 +69,36 @@
       "artifactName": "VajeYar-Setup-${version}.exe",
       "installerIcon": "build/icon.ico",
       "uninstallerIcon": "build/icon.ico"
+    },
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "icon": "build/icon-512.png",
+      "category": "public.app-category.education",
+      "identity": "-",
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false,
+      "artifactName": "VajeYar-${version}-mac-${arch}.${ext}"
+    },
+    "dmg": {
+      "artifactName": "VajeYar-${version}-mac.dmg"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "icon": "build/icon-512.png",
+      "category": "Education",
+      "synopsis": "English vocabulary & reading trainer",
+      "maintainer": "VajeYar <nahuram7798@gmail.com>",
+      "artifactName": "VajeYar-${version}-linux-${arch}.${ext}"
+    },
+    "deb": {
+      "artifactName": "VajeYar-${version}-linux-amd64.deb"
     }
-  }
+  },
+  "homepage": "https://vajeyar.mohammadfakhari59.workers.dev"
 }

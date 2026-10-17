@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#8B6CF6">
-<meta name="description" content="VajeYar — English vocabulary trainer for IELTS, TOEFL and General English with spaced repetition, flashcards and quizzes.">
+<meta name="description" content="VajeYar — English vocabulary & reading trainer for IELTS, TOEFL, GRE, PTE and General English: FSRS spaced repetition, Persian translations, placement test, reading practice and live duels.">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="VajeYar">
@@ -17,6 +17,8 @@
 <link rel="stylesheet" href="css/style.css">
 <!-- lets iOS Safari/WebView apply :active press states on touch -->
 <script>document.addEventListener('touchstart',function(){},{passive:true});</script>
+<script src="js/telegram-web-app.js"></script>
+<script src="js/telegram.js"></script>
 <script>(function(){try{var s=JSON.parse(localStorage.getItem('vajeyar_state_v1'));var th=s&&s.settings&&s.settings.theme;var d=th==='dark'||(th==='system'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.theme=d?'dark':'light';}catch(e){}})();</script>
 </head>
 <body>
@@ -24,12 +26,20 @@
 <noscript>Please enable JavaScript.</noscript>
 <script src="js/icons.js"></script>
 <script src="js/i18n.js"></script>
-<script src="js/words_general.js"></script>
-<script src="js/words_ielts.js"></script>
-<script src="js/words_toefl.js"></script>
-<script src="js/words_extra.js"></script>
+<script src="js/i18n3.js"></script>
+<script src="js/words_data.js"></script>
+<script src="js/reading_data.js"></script>
 <script src="js/core.js"></script>
 <script src="js/ui.js"></script>
+<script>window.VY_SERVER = "https://vajeyar.mohammadfakhari59.workers.dev";</script>
+<script src="js/config.js"></script>
+<script src="js/account.js"></script>
 <script src="js/views.js"></script>
+<script src="js/smart.js"></script>
+<script src="js/reading.js"></script>
+<script src="js/placement.js"></script>
+<script src="js/duel.js"></script>
+<script src="js/social.js"></script>
+<script src="js/boot.js"></script>
 </body>
 </html>

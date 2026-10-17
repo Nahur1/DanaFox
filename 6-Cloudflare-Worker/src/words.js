@@ -5,9 +5,10 @@ export const POS = new Set(['n', 'v', 'adj', 'adv', 'prep', 'conj', 'phr']);
 const POS_ALIASES = { noun: 'n', verb: 'v', adjective: 'adj', adverb: 'adv', preposition: 'prep', conjunction: 'conj', phrase: 'phr', idiom: 'phr', 'اسم': 'n', 'فعل': 'v', 'صفت': 'adj', 'قید': 'adv' };
 const KEY_ALIASES = { meaning_fa: 'fa', meaning: 'fa', persian: 'fa', 'معنی': 'fa', definition: 'def', df: 'def', example: 'ex', category: 'cat', category_id: 'cat',
   level_no: 'level', part_of_speech: 'pos', type: 'pos', english: 'word', 'لغت': 'word' };
-export const LEVELS = { general: 4, ielts: 3, toefl: 3 };
+export const LEVELS = { general: 4, ielts: 6, toefl: 3 };
 
-export const toPublic = r => ({ id: r.slug, word: r.word, pos: r.pos, fa: r.meaning_fa, def: r.definition, ex: r.example, cat: r.category_id, level: r.level_no });
+const exsOf = r => { try { const a = JSON.parse(r.examples || '[]'); if (Array.isArray(a) && a.length) return a; } catch (e) {} return r.example ? [[r.example, '']] : []; };
+export const toPublic = r => ({ id: r.slug, word: r.word, pos: r.pos, fa: r.meaning_fa, def: r.definition, ex: r.example, exs: exsOf(r), cat: r.category_id, level: r.level_no });
 export const toAdmin = r => ({ ...toPublic(r), pk: r.id, active: !!r.is_active, updated_at: r.updated_at, created_at: r.created_at });
 export const normPos = p => { p = String(p || 'n').trim().toLowerCase(); p = POS_ALIASES[p] || p; return POS.has(p) ? p : null; };
 
@@ -32,6 +33,13 @@ function validate(d, partial = false) {
   if (!partial || 'fa' in d) { const fa = String(d.fa || '').trim(); if (!fa) throw new ApiError(400, 'meaning_required'); out.meaning_fa = fa.slice(0, 300); }
   if (!partial || 'pos' in d) { const p = normPos(d.pos); if (!p) throw new ApiError(400, 'bad_pos'); out.pos = p; }
   for (const [k, col] of [['def', 'definition'], ['ex', 'example']]) if (!partial || k in d) out[col] = String(d[k] || '').trim().slice(0, 600);
+  if ('exs' in d) {           // examples with translations: [[english, persian], …] or lines "english | persian"
+    let a = d.exs;
+    if (typeof a === 'string') a = a.split('\n').map(l => l.split('|').map(x => x.trim())).filter(x => x[0]);
+    a = (Array.isArray(a) ? a : []).filter(x => Array.isArray(x) && x[0]).slice(0, 8).map(x => [String(x[0]).trim().slice(0, 400), String(x[1] || '').trim().slice(0, 400)]);
+    out.examples = JSON.stringify(a);
+    if (a.length) out.example = a[0][0];
+  } else if (!partial && out.example) out.examples = JSON.stringify([[out.example, '']]);
   if (!partial || 'cat' in d || 'level' in d) {
     const cat = String(d.cat || '').trim().toLowerCase(), level = parseInt(d.level || 1, 10);
     if (!LEVELS[cat] || !(level >= 1 && level <= LEVELS[cat])) throw new ApiError(400, 'bad_category_or_level');
@@ -44,8 +52,9 @@ export async function createWord(env, d) {
   const v = validate(d), slug = `${v.category_id}:${v.word.toLowerCase()}`, t = now();
   const ex = await one(env, 'SELECT * FROM words WHERE slug=?', slug);
   if (ex && ex.is_active) throw new ApiError(400, 'duplicate');
-  if (ex) await run(env, 'UPDATE words SET word=?,pos=?,meaning_fa=?,definition=?,example=?,level_no=?,is_active=1,updated_at=? WHERE id=?', v.word, v.pos, v.meaning_fa, v.definition, v.example, v.level_no, t, ex.id);
-  else await run(env, 'INSERT INTO words(slug,word,pos,meaning_fa,definition,example,category_id,level_no,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?)', slug, v.word, v.pos, v.meaning_fa, v.definition, v.example, v.category_id, v.level_no, t, t);
+  const exs = v.examples || '[]';
+  if (ex) await run(env, 'UPDATE words SET word=?,pos=?,meaning_fa=?,definition=?,example=?,examples=?,level_no=?,is_active=1,updated_at=? WHERE id=?', v.word, v.pos, v.meaning_fa, v.definition, v.example, exs, v.level_no, t, ex.id);
+  else await run(env, 'INSERT INTO words(slug,word,pos,meaning_fa,definition,example,examples,category_id,level_no,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?)', slug, v.word, v.pos, v.meaning_fa, v.definition, v.example, exs, v.category_id, v.level_no, t, t);
   await bumpWords(env);
   return toAdmin(await one(env, 'SELECT * FROM words WHERE slug=?', slug));
 }
@@ -123,13 +132,14 @@ export async function importText(env, text, cat = '', level = 1, update = true) 
   for (const [slug, v] of items) {
     if (existing.has(slug) && !update && existing.get(slug)) { res.skipped++; continue; }
     existing.has(slug) ? res.updated++ : res.added++;
-    rows.push({ s: slug, w: v.word, p: v.pos, f: v.meaning_fa, d: v.definition, e: v.example, c: v.category_id, l: v.level_no });
+    rows.push({ s: slug, w: v.word, p: v.pos, f: v.meaning_fa, d: v.definition, e: v.example, x: v.examples || JSON.stringify(v.example ? [[v.example, '']] : []), c: v.category_id, l: v.level_no });
   }
   const stmts = [];
-  for (let i = 0; i < rows.length; i += 200) stmts.push(q(env, `INSERT INTO words(slug,word,pos,meaning_fa,definition,example,category_id,level_no,created_at,updated_at)
-    SELECT json_extract(value,'$.s'), json_extract(value,'$.w'), json_extract(value,'$.p'), json_extract(value,'$.f'), json_extract(value,'$.d'), json_extract(value,'$.e'),
+  for (let i = 0; i < rows.length; i += 200) stmts.push(q(env, `INSERT INTO words(slug,word,pos,meaning_fa,definition,example,examples,category_id,level_no,created_at,updated_at)
+    SELECT json_extract(value,'$.s'), json_extract(value,'$.w'), json_extract(value,'$.p'), json_extract(value,'$.f'), json_extract(value,'$.d'), json_extract(value,'$.e'), json_extract(value,'$.x'),
            json_extract(value,'$.c'), json_extract(value,'$.l'), ?1, ?1 FROM json_each(?2) WHERE true
     ON CONFLICT(slug) DO UPDATE SET word=excluded.word, pos=excluded.pos, meaning_fa=excluded.meaning_fa, definition=excluded.definition, example=excluded.example,
+      examples=CASE WHEN excluded.example=words.example THEN words.examples ELSE excluded.examples END,
       level_no=excluded.level_no, is_active=1, updated_at=excluded.updated_at`, t, JSON.stringify(rows.slice(i, i + 200))));
   if (stmts.length) { await env.DB.batch(stmts); await bumpWords(env); }
   return res;

@@ -865,5 +865,262 @@ ACT.secRevoke = el => busy(el, async () => { await api('/security/revoke', { met
 ACT.secRevokeAll = async el => { if (!(await ask(t('sec_revokeAll'), t('sec_revokeAll') + '?', { danger: true }))) return; busy(el, async () => { await api('/security/revoke', { method: 'POST', body: {} }); toast(t('done'), 'ok'); route(); }); };
 ACT.secClear = el => busy(el, async () => { await api('/security/unblock', { method: 'POST', body: {} }); toast(t('done'), 'ok'); route(); });
 
+/* ===================== v3: analytics · readings CMS · feedback · duels · leaderboards ===================== */
+Object.assign(IC, {
+  chart: '<path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/>',
+  bookOpen: '<path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/>',
+  inbox: '<path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5.1 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.5-6.9A2 2 0 0 0 16.7 4H7.3a2 2 0 0 0-1.8 1.1z"/>',
+  medal: '<circle cx="12" cy="15" r="6"/><path d="M8.2 10.4 5 3h4l3 6M15.8 10.4 19 3h-4l-3 6"/>',
+});
+Object.assign(L.fa, {
+  stats: 'آمار و تحلیل', readings: 'متن‌های ریدینگ', fb: 'پیام‌های کاربران', duels: 'مسابقه‌ها', board: 'جدول امتیازات',
+  an_range: 'بازهٔ زمانی', an_days: '{n} روز', k_dau: 'کاربر فعال روزانه', k_wau: 'فعال هفتگی', k_mau: 'فعال ماهانه', k_stick: 'چسبندگی (DAU/MAU)', k_acc: 'دقت پاسخ‌ها', k_rpd: 'مرور در هر روز فعال', k_dpu: 'میانگین روز فعال هر کاربر', k_newW: 'لغت جدید یادگرفته',
+  an_activity: 'فعالیت روزانه', an_aud: 'کاربران فعال (روزانه / ماهانه)', an_ret: 'ماندگاری کاربران (گروه‌های ثبت‌نام هفتگی)', an_retNote: 'روز N = درصد کسانی که دقیقاً N روز بعد از ثبت‌نام فعال بودند · ۷+ = برگشت در روز هفتم یا بعدتر',
+  r_week: 'هفتهٔ ثبت‌نام', r_size: 'تعداد', r_d1: 'روز ۱', r_d7: 'روز ۷', r_d30: 'روز ۳۰', r_r7: '۷+', r_ret: 'برگشتند', r_all: 'میانگین کل',
+  an_funnel: 'قیف تبدیل (ثبت‌نام‌های این بازه)', fu_signed: 'ثبت‌نام', fu_one: 'اولین لغت', fu_20: '۲۰ لغت', fu_3d: '۳ روز فعال', fu_7d: '۷ روز فعال',
+  an_learn: 'وضعیت یادگیری', l_seen: 'لغت دیده‌شده', l_learning: 'در حال یادگیری', l_review: 'مرور', l_mastered: 'تسلط کامل', l_due: 'آمادهٔ مرور', l_ease: 'میانگین آسانی', l_lapses: 'فراموشی‌ها', l_learners: 'زبان‌آموز', l_starred: 'نشان‌دار',
+  an_hard: 'سخت‌ترین لغات', h_err: 'خطا', h_learners: 'نفر', an_decks: 'عملکرد هر بسته', d_deck: 'بسته', d_seen: 'دیده‌شده', d_acc: 'دقت',
+  an_quiz: 'نتایج آزمون‌ها', q_n: 'آزمون', q_avg: 'میانگین نمره', an_place: 'تعیین سطح', pl_n: 'آزمون تعیین سطح', pl_vocab: 'دامنهٔ لغات', an_read: 'ریدینگ', rd_n: 'تمرین', rd_avg: 'میانگین', rd_top: 'پرتمرین‌ترین متن‌ها',
+  an_duels: 'مسابقه‌ها', du_total: 'کل', du_done: 'تمام‌شده', du_active: 'در جریان', du_invited: 'دعوت', du_dropped: 'لغو/رد', du_draws: 'مساوی', du_starters: 'شروع‌کننده',
+  an_plat: 'پلتفرم‌ها (کاربران فعال)', pf_web: 'وب', pf_mobile_web: 'وب موبایل', pf_android: 'اندروید', pf_desktop: 'دسکتاپ', pf_telegram: 'مینی‌اپ تلگرام', pf_telegram_bot: 'ربات تلگرام', pf_other: 'سایر',
+  an_streak: 'زنجیره‌ها', st_n: 'زنجیرهٔ فعال', st_avg: 'میانگین', st_best: 'رکورد', st_week: '۷ روز به بالا',
+  an_fb: 'پیام‌ها', an_exp: 'خروجی داده‌ها', ex_analytics: 'فعالیت روزانه (۹۰ روز)', ex_retention: 'ماندگاری', ex_hardest: 'سخت‌ترین لغات', ex_feedback: 'پیام‌های کاربران', ex_duels: 'مسابقه‌ها', ex_placement: 'تعیین سطح', ex_readings: 'متن‌های ریدینگ (JSON)',
+  rd_new: 'متن جدید', rd_edit: 'ویرایش متن', rd_exam: 'آزمون', rd_level: 'سطح', rd_title: 'عنوان', rd_sort: 'ترتیب', rd_json: 'محتوا (JSON: paras, qs, gl, title_fa, topic, minutes)', rd_active: 'فعال در اپ', rd_attempts: '{n} تمرین', rd_avgS: 'میانگین {n}٪',
+  rd_paras: '{a} پاراگراف · {b} سؤال', rd_bad: 'JSON نامعتبر است', rd_delQ: 'متن «{w}» حذف شود؟ نتایج قبلی کاربران باقی می‌ماند.', rd_none: 'متنی در پایگاه داده نیست؛ متن‌های داخلی اپ نمایش داده می‌شوند.', rd_fmt: 'قالب JSON', rd_builtinNote: 'متن‌های این بخش علاوه بر متن‌های داخلی اپ نمایش داده می‌شوند و با همان شناسه جایگزین آن‌ها می‌شوند. بعد از ذخیره، اپ‌ها در اولین اتصال نسخهٔ جدید را می‌گیرند.',
+  fb_all: 'همه', fb_new: 'جدید', fb_seen: 'دیده‌شده', fb_planned: 'برنامه‌ریزی‌شده', fb_done: 'انجام‌شده', fb_rejected: 'ردشده', fk_all: 'همه', fk_idea: 'پیشنهاد', fk_bug: 'مشکل', fk_content: 'محتوا', fk_praise: 'تشکر', fk_other: 'سایر',
+  fb_guest: 'مهمان', fb_reply: 'پاسخ شما', fb_notify: 'پاسخ در تلگرام برای کاربر ارسال شود', fb_noTg: 'این کاربر تلگرام ندارد؛ پاسخ در بخش «پیام‌های من» اپ نشان داده می‌شود.', fb_status: 'وضعیت', fb_none: 'پیامی نیست', fb_delQ: 'این پیام حذف شود؟', fb_sentTg: 'ذخیره و در تلگرام ارسال شد ✓', fb_n: '{n} پیام',
+  du_recent: 'مسابقه‌های اخیر', du_daily: 'مسابقه‌های ۳۰ روز اخیر', du_cats: 'بسته‌های محبوب', du_vs: 'در برابر', du_wait: 'منتظر حریف', s_invited: 'دعوت', s_active: 'در جریان', s_done: 'تمام‌شده', s_declined: 'ردشده', s_cancelled: 'لغو', s_expired: 'منقضی', s_waiting: 'در صف',
+  lb_week: 'امتیاز این هفته', lb_xp: 'کل امتیاز', lb_duel: 'رتبهٔ مسابقه', lb_streak: 'زنجیره', lb_empty: 'هنوز کسی در این جدول نیست', rating: 'رتبه', wins: 'برد', losses: 'باخت', draws: 'مساوی', reviewsN: '{n} مرور',
+  err_bad_exam: 'آزمون نامعتبر است.', err_bad_json: 'JSON نامعتبر است.', err_no_text: 'متن (paras) خالی است.', err_no_questions: 'هیچ سؤال معتبری نیست.', err_too_large: 'متن خیلی بزرگ است.', err_slug_exists: 'این شناسه قبلاً ثبت شده است.',
+  'act_reading.create': 'افزودن متن ریدینگ', 'act_reading.update': 'ویرایش متن ریدینگ', 'act_reading.delete': 'حذف متن ریدینگ', 'act_feedback.update': 'پاسخ به پیام', 'act_feedback.delete': 'حذف پیام', 'act_export.analytics': 'خروجی آمار',
+});
+Object.assign(L.en, {
+  stats: 'Analytics', readings: 'Reading passages', fb: 'User feedback', duels: 'Duels', board: 'Leaderboards',
+  an_range: 'Range', an_days: '{n} days', k_dau: 'Daily active users', k_wau: 'Weekly active', k_mau: 'Monthly active', k_stick: 'Stickiness (DAU/MAU)', k_acc: 'Answer accuracy', k_rpd: 'Reviews per active day', k_dpu: 'Active days per user', k_newW: 'New words learned',
+  an_activity: 'Daily activity', an_aud: 'Active users (daily / monthly)', an_ret: 'Retention (weekly sign-up cohorts)', an_retNote: 'Day N = share of users active exactly N days after sign-up · 7+ = came back on day 7 or later',
+  r_week: 'Cohort week', r_size: 'Users', r_d1: 'Day 1', r_d7: 'Day 7', r_d30: 'Day 30', r_r7: '7+', r_ret: 'Returned', r_all: 'Overall',
+  an_funnel: 'Funnel (sign-ups in range)', fu_signed: 'Signed up', fu_one: 'First word', fu_20: '20 words', fu_3d: '3 active days', fu_7d: '7 active days',
+  an_learn: 'Learning state', l_seen: 'Words seen', l_learning: 'Learning', l_review: 'Reviewing', l_mastered: 'Mastered', l_due: 'Due now', l_ease: 'Avg. ease', l_lapses: 'Lapses', l_learners: 'Learners', l_starred: 'Starred',
+  an_hard: 'Hardest words', h_err: 'error', h_learners: 'learners', an_decks: 'Deck performance', d_deck: 'Deck', d_seen: 'Seen', d_acc: 'Accuracy',
+  an_quiz: 'Quiz results', q_n: 'Quizzes', q_avg: 'Average score', an_place: 'Placement', pl_n: 'Placement tests', pl_vocab: 'Vocabulary size', an_read: 'Reading', rd_n: 'Attempts', rd_avg: 'Average', rd_top: 'Most practised passages',
+  an_duels: 'Duels', du_total: 'Total', du_done: 'Finished', du_active: 'Live', du_invited: 'Invited', du_dropped: 'Dropped', du_draws: 'Draws', du_starters: 'Starters',
+  an_plat: 'Platforms (active users)', pf_web: 'Web', pf_mobile_web: 'Mobile web', pf_android: 'Android', pf_desktop: 'Desktop', pf_telegram: 'Telegram Mini App', pf_telegram_bot: 'Telegram bot', pf_other: 'Other',
+  an_streak: 'Streaks', st_n: 'Active streaks', st_avg: 'Average', st_best: 'Record', st_week: '7+ days',
+  an_fb: 'Feedback', an_exp: 'Data exports', ex_analytics: 'Daily activity (90 days)', ex_retention: 'Retention', ex_hardest: 'Hardest words', ex_feedback: 'User feedback', ex_duels: 'Duels', ex_placement: 'Placement', ex_readings: 'Reading passages (JSON)',
+  rd_new: 'New passage', rd_edit: 'Edit passage', rd_exam: 'Exam', rd_level: 'Level', rd_title: 'Title', rd_sort: 'Order', rd_json: 'Content (JSON: paras, qs, gl, title_fa, topic, minutes)', rd_active: 'Active in the apps', rd_attempts: '{n} attempts', rd_avgS: 'avg {n}%',
+  rd_paras: '{a} paragraphs · {b} questions', rd_bad: 'Invalid JSON', rd_delQ: 'Delete “{w}”? Users’ past results are kept.', rd_none: 'No passages in the database; the apps show their built-in passages.', rd_fmt: 'JSON format', rd_builtinNote: 'These passages are shown in addition to the built-in ones and replace any built-in passage with the same id. Apps pick up changes on their next connection.',
+  fb_all: 'All', fb_new: 'New', fb_seen: 'Seen', fb_planned: 'Planned', fb_done: 'Done', fb_rejected: 'Rejected', fk_all: 'All', fk_idea: 'Idea', fk_bug: 'Bug', fk_content: 'Content', fk_praise: 'Praise', fk_other: 'Other',
+  fb_guest: 'Guest', fb_reply: 'Your reply', fb_notify: 'Send the reply to the user on Telegram', fb_noTg: 'This user has no Telegram; the reply appears under “My messages” in the app.', fb_status: 'Status', fb_none: 'No messages', fb_delQ: 'Delete this message?', fb_sentTg: 'Saved and sent on Telegram ✓', fb_n: '{n} messages',
+  du_recent: 'Recent duels', du_daily: 'Duels — last 30 days', du_cats: 'Popular decks', du_vs: 'vs', du_wait: 'waiting for opponent', s_invited: 'invited', s_active: 'live', s_done: 'finished', s_declined: 'declined', s_cancelled: 'cancelled', s_expired: 'expired', s_waiting: 'queued',
+  lb_week: 'This week', lb_xp: 'All-time XP', lb_duel: 'Duel rating', lb_streak: 'Streak', lb_empty: 'Nobody on this board yet', rating: 'rating', wins: 'W', losses: 'L', draws: 'D', reviewsN: '{n} reviews',
+  err_bad_exam: 'Invalid exam.', err_bad_json: 'Invalid JSON.', err_no_text: 'The text (paras) is empty.', err_no_questions: 'No valid questions.', err_too_large: 'The passage is too large.', err_slug_exists: 'This id already exists.',
+  'act_reading.create': 'Added a passage', 'act_reading.update': 'Edited a passage', 'act_reading.delete': 'Deleted a passage', 'act_feedback.update': 'Replied to feedback', 'act_feedback.delete': 'Deleted feedback', 'act_export.analytics': 'Exported analytics',
+});
+NAV.splice(1, 0, ['stats', 'chart']);
+NAV.splice(5, 0, ['readings', 'bookOpen'], ['fb', 'inbox'], ['duels', 'zap'], ['board', 'medal']);
+
+const PCT = v => v == null ? '—' : N(v) + (fa() ? '٪' : '%');
+const tehToday = () => new Date(Date.now() + 12600000).toISOString().slice(0, 10);
+async function loadCats3() { try { await cats(); } catch (e) {} }
+const deckLabel = (cat, lv) => { const c = Array.isArray(S.cats) ? S.cats.find(x => x.id === cat) : null, l = c && lv && (c.levels || []).find(x => x.no === lv); return (c ? (c.icon ? c.icon + ' ' : '') + catName(c) : cat === 'custom' ? (fa() ? 'لغات شخصی' : 'Personal') : cat === 'mix' ? (fa() ? 'ترکیبی' : 'Mixed') : cat) + (lv ? ' · ' + (l ? (fa() ? l.fa : l.en) : N(lv)) : ''); };
+const heat = v => v == null ? '' : `background:color-mix(in srgb, var(--green) ${Math.round(Math.min(100, v) * 0.55 + 5)}%, transparent)`;
+const hbars = (rows, fmt = N) => { const m = Math.max(1, ...rows.map(r => r.v || 0)); return `<div class="bars-h">${rows.map(r => `<div class="r"><span>${r.l}</span><div class="t"><i style="width:${100 * (r.v || 0) / m}%"></i></div><b class="num">${fmt(r.v || 0)}</b></div>`).join('')}</div>`; };
+async function dlExport(kind) {
+  const r = await api('/export/' + kind, { raw: true });
+  const blob = await r.blob(), a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = `vajeyar-${kind}-${tehToday()}.${kind === 'readings' ? 'json' : 'csv'}`; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+}
+ACT.exp = el => busy(el, () => dlExport(el.dataset.k));
+
+/* ---------- analytics ---------- */
+S.an = { days: 30 };
+VIEWS.stats = async p => {
+  const d = await api('/analytics?days=' + S.an.days); await loadCats3();
+  const k = d.kpi, days = d.series.map(x => x.day), lr = d.learning || {}, q = d.quiz || {}, du = d.duels || {}, fu = d.funnel || {}, st = d.streaks || {};
+  const kpi = (cls, icon, v, l, s = '&nbsp;') => `<div class="kpi ${cls}"><div class="ic">${ic(icon)}</div><div class="v num">${v}</div><div class="l">${l}</div><div class="s">${s}</div></div>`;
+  const plat = Object.entries(d.platforms || {}).sort((a, b) => b[1] - a[1]);
+  const PC = { web: '#8B6CF6', mobile_web: '#E2558E', android: '#16A34A', desktop: '#2F80ED', telegram: '#229ED9', telegram_bot: '#0EA5A4', other: '#A0A6B5' };
+  const ret = d.retention || [];
+  p.innerHTML = `
+  <div class="toolbar"><span class="muted small">${t('an_range')}</span><div class="seg" id="an-d">${[7, 14, 30, 60, 90].map(n => `<button class="${S.an.days === n ? 'on' : ''}" data-d="${n}">${t('an_days', { n: N(n) })}</button>`).join('')}</div>
+    <span class="grow"></span><button class="btn sm ghost" data-a="reload">${ic('refresh')}</button></div>
+  <div class="kpis">
+    ${kpi('', 'users', N(k.dau), t('k_dau'), `${t('k_wau')} ${N(k.wau)} · ${t('k_mau')} ${N(k.mau)}`)}
+    ${kpi('c3', 'activity', PCT(k.stickiness), t('k_stick'), `${t('today')} ${PCT(k.dau_mau_today)}`)}
+    ${kpi('c4', 'refresh', N(k.reviews), t('lg_rev'), `${t('k_rpd')}: ${N(k.reviews_per_active_day)}`)}
+    ${kpi('c5', 'check', PCT(k.accuracy), t('k_acc'), `${N(k.correct)} ✓ · ${N(k.wrong)} ×`)}
+    ${kpi('c6', 'brain', N(k.new_words), t('k_newW'), `${N(k.xp)} ${t('xp')}`)}
+    ${kpi('c7', 'clock', N(k.avg_days_per_user), t('k_dpu'), `${N(k.active_users)} ${t('users')}`)}
+  </div>
+  <div class="grid g2 mt16">
+    <div class="card"><h3>${ic('activity')} ${t('an_activity')}</h3>
+      <div class="legend mb8"><span><i style="background:var(--brand)"></i>${t('lg_rev')}</span><span><i style="background:var(--green)"></i>${t('k_newW')}</span></div>
+      ${barChart(days, d.series, { bar: 'reviews', line: 'new_words', labels: [t('lg_rev'), t('k_newW')] })}</div>
+    <div class="card"><h3>${ic('users')} ${t('an_aud')}</h3>
+      <div class="legend mb8"><span><i style="background:var(--brand)"></i>DAU</span><span><i style="background:var(--green)"></i>MAU</span></div>
+      ${barChart(days, d.series, { bar: 'dau', line: 'mau', labels: ['DAU', 'MAU'] })}</div>
+  </div>
+  <div class="card mt16"><h3>${ic('undo')} ${t('an_ret')}</h3><p class="muted small">${t('an_retNote')}</p>
+    ${ret.length ? `<div class="tbl-wrap"><table class="tbl mt8"><thead><tr><th>${t('r_week')}</th><th>${t('r_size')}</th><th>${t('r_d1')}</th><th>${t('r_d7')}</th><th>${t('r_d30')}</th><th>${t('r_r7')}</th><th>${t('r_ret')}</th></tr></thead><tbody>
+      ${ret.map(c => `<tr><td>${esc(dayLabel(c.week))}</td><td class="num">${N(c.size)}</td>${['d1', 'd7', 'd30', 'rolling7', 'returned'].map(x => `<td class="num" style="${heat(c[x])}">${PCT(c[x])}</td>`).join('')}</tr>`).join('')}
+      <tr><td><b>${t('r_all')}</b></td><td></td>${['d1', 'd7', 'd30', 'rolling7'].map(x => `<td class="num"><b>${PCT(d.retention_all[x])}</b></td>`).join('')}<td></td></tr></tbody></table></div>` : `<div class="empty">${ic('users')}—</div>`}</div>
+  <div class="grid g3 mt16">
+    <div class="card"><h3>${ic('userPlus')} ${t('an_funnel')}</h3>${hbars([{ l: t('fu_signed'), v: fu.signed_up }, { l: t('fu_one'), v: fu.learned_one }, { l: t('fu_20'), v: fu.learned_20 }, { l: t('fu_3d'), v: fu.active_3days }, { l: t('fu_7d'), v: fu.active_7days }])}</div>
+    <div class="card"><h3>${ic('brain')} ${t('an_learn')}</h3><div class="stat-grid">
+      ${[['l_seen', lr.seen], ['l_learning', lr.learning], ['l_review', lr.review], ['l_mastered', lr.mastered], ['l_due', lr.due], ['l_learners', lr.learners], ['l_lapses', lr.lapses], ['l_starred', lr.starred]].map(([l, v]) => `<div class="stat"><b class="num">${N(v)}</b><span>${t(l)}</span></div>`).join('')}
+      <div class="stat"><b class="num">${lr.ease ? N(lr.ease) : '—'}</b><span>${t('l_ease')}</span></div></div></div>
+    <div class="card"><h3>${ic('device')} ${t('an_plat')}</h3>${plat.length ? donut(plat.map(([key, v]) => ({ l: t('pf_' + key), v, c: PC[key] || '#A0A6B5' }))) : `<div class="empty">${ic('device')}—</div>`}</div>
+  </div>
+  <div class="grid g2 mt16">
+    <div class="card"><h3>${ic('alert')} ${t('an_hard')}</h3>${(d.hardest || []).length ? `<div class="tbl-wrap"><table class="tbl"><thead><tr><th>${t('w_word')}</th><th>${t('w_fa')}</th><th>${t('h_err')}</th><th class="hide-m">${t('h_learners')}</th></tr></thead><tbody>
+      ${d.hardest.map(w => `<tr><td class="en"><b>${esc(w.word)}</b><div class="muted tiny">${esc(deckLabel(w.cat, w.level))}</div></td><td>${esc(w.fa)}</td><td class="num">${PCT(Math.round(1000 * w.bad / Math.max(1, w.bad + w.ok)) / 10)}<div class="muted tiny">${N(w.bad)}/${N(w.bad + w.ok)}</div></td><td class="num hide-m">${N(w.learners)}</td></tr>`).join('')}</tbody></table></div>` : `<div class="empty">${ic('check')}—</div>`}</div>
+    <div class="card"><h3>${ic('book')} ${t('an_decks')}</h3>${(d.decks || []).length ? `<div class="tbl-wrap"><table class="tbl"><thead><tr><th>${t('d_deck')}</th><th>${t('d_seen')}</th><th>${t('l_mastered')}</th><th>${t('d_acc')}</th><th class="hide-m">${t('h_learners')}</th></tr></thead><tbody>
+      ${d.decks.map(x => `<tr><td>${esc(deckLabel(x.cat, x.level))}</td><td class="num">${N(x.seen)}</td><td class="num">${N(x.mastered)}</td><td class="num" style="${heat(x.accuracy)}">${PCT(x.accuracy)}</td><td class="num hide-m">${N(x.learners)}</td></tr>`).join('')}</tbody></table></div>` : `<div class="empty">${ic('book')}—</div>`}</div>
+  </div>
+  <div class="grid g3 mt16">
+    <div class="card"><h3>${ic('quiz')} ${t('an_quiz')}</h3><div class="stat-grid" style="grid-template-columns:repeat(3,1fr)"><div class="stat"><b class="num">${N(q.n)}</b><span>${t('q_n')}</span></div><div class="stat"><b class="num">${PCT(q.avg)}</b><span>${t('q_avg')}</span></div><div class="stat"><b class="num">${N(q.users)}</b><span>${t('users')}</span></div></div>
+      <div class="mt12">${hbars([{ l: '<50%', v: q.b0 }, { l: '50–69%', v: q.b1 }, { l: '70–89%', v: q.b2 }, { l: '≥90%', v: q.b3 }])}</div></div>
+    <div class="card"><h3>${ic('star')} ${t('an_place')}</h3>${(d.placement || []).length ? hbars(d.placement.map(x => ({ l: `<b class="en">${esc(x.cefr || '?')}</b> <span class="muted tiny">${t('pl_vocab')} ${N(x.vocab)}</span>`, v: x.n }))) : `<div class="empty">${ic('star')}—</div>`}</div>
+    <div class="card"><h3>${ic('bookOpen')} ${t('an_read')}</h3>${(d.reading || []).length ? hbars(d.reading.map(x => ({ l: `<b class="en">${esc(String(x.exam || '?').toUpperCase())}</b> <span class="muted tiny">${t('rd_avg')} ${PCT(x.avg)}</span>`, v: x.n }))) : `<div class="empty">${ic('bookOpen')}—</div>`}
+      ${(d.reading_top || []).length ? `<div class="muted small mt12">${t('rd_top')}</div><div class="list">${d.reading_top.slice(0, 5).map(x => `<div class="li" style="cursor:default"><div class="t"><b class="en">${esc(x.slug)}</b></div><div class="r">${N(x.n)} · ${PCT(x.avg)}</div></div>`).join('')}</div>` : ''}</div>
+  </div>
+  <div class="grid g3 mt16">
+    <div class="card"><h3>${ic('zap')} ${t('an_duels')}</h3><div class="stat-grid">${[['du_total', du.total], ['du_done', du.done], ['du_active', du.active], ['du_invited', du.invited], ['du_dropped', du.dropped], ['du_draws', du.draws]].map(([l, v]) => `<div class="stat"><b class="num">${N(v)}</b><span>${t(l)}</span></div>`).join('')}</div></div>
+    <div class="card"><h3>${ic('flame')} ${t('an_streak')}</h3><div class="stat-grid" style="grid-template-columns:repeat(2,1fr)">${[['st_n', N(st.n)], ['st_avg', N(st.avg)], ['st_best', N(st.best)], ['st_week', N(st.week_plus)]].map(([l, v]) => `<div class="stat"><b class="num">${v}</b><span>${t(l)}</span></div>`).join('')}</div></div>
+    <div class="card"><h3>${ic('inbox')} ${t('an_fb')}</h3>${hbars(['new', 'seen', 'planned', 'done', 'rejected'].map(s => ({ l: t('fb_' + s), v: (d.feedback || {})[s] })))}<button class="btn soft sm mt12" data-nav="fb">${ic('inbox')} ${t('fb')}</button></div>
+  </div>
+  <div class="card mt16"><h3>${ic('download')} ${t('an_exp')}</h3><div class="row" style="flex-wrap:wrap">
+    ${['analytics', 'retention', 'hardest', 'feedback', 'duels', 'placement', 'readings'].map(x => `<button class="btn ghost sm" data-a="exp" data-k="${x}">${ic('download')} ${t('ex_' + x)}</button>`).join('')}</div></div>`;
+  $('#an-d').onclick = e => { const b = e.target.closest('[data-d]'); if (!b) return; S.an.days = +b.dataset.d; haptic('sel'); route(); };
+};
+
+/* ---------- reading passages CMS ---------- */
+S.rd = { exam: '' };
+const EXAMS3 = ['ielts', 'toefl', 'gre', 'pte', 'general'];
+VIEWS.readings = async p => {
+  const r = await api('/readings'), f = S.rd; S.rdItems = r.items;
+  const items = r.items.filter(x => !f.exam || x.exam === f.exam);
+  p.innerHTML = `<div class="tip-box">${ic('bookOpen')} ${t('rd_builtinNote')}</div>
+  <div class="card mt16">
+    <div class="toolbar"><div class="chips" id="rd-f" style="margin:0">${['', ...EXAMS3].map(k => `<button class="chip ${f.exam === k ? 'on' : ''}" data-f="${k}">${k ? k.toUpperCase() : t('f_all')} <span class="muted">${N(k ? r.items.filter(x => x.exam === k).length : r.items.length)}</span></button>`).join('')}</div>
+      <span class="grow"></span><button class="btn ghost sm" data-a="exp" data-k="readings">${ic('download')} JSON</button><button class="btn primary sm" data-a="rdEdit">${ic('plus')} ${t('rd_new')}</button></div>
+    ${items.length ? `<div class="list">${items.map(x => `<div class="li" data-a="rdEdit" data-id="${x.id}">
+      <div class="av" style="background:${COLORS[EXAMS3.indexOf(x.exam) % COLORS.length]};font-size:11px">${esc(x.exam.toUpperCase().slice(0, 4))}</div>
+      <div class="t"><b class="en">${esc(x.title)}</b><span>${esc((x.data && x.data.title_fa) || '')} · ${t('rd_level')} ${N(x.level)} · ${t('rd_paras', { a: N(((x.data || {}).paras || []).length), b: N(((x.data || {}).qs || []).length) })}</span>
+        <div class="row mt8" style="gap:5px">${x.active ? `<span class="badge g">${ic('eye')} ${t('w_active')}</span>` : `<span class="badge a">${ic('eyeOff')} ${t('w_deleted')}</span>`}<span class="badge">${t('rd_attempts', { n: N(x.attempts) })}</span>${x.avg != null ? `<span class="badge b">${t('rd_avgS', { n: N(x.avg) })}</span>` : ''}</div></div>
+      <div class="r"><label class="switch" data-stop="1"><input type="checkbox" data-rdtog="${x.id}" ${x.active ? 'checked' : ''}><i></i></label></div></div>`).join('')}</div>`
+      : `<div class="empty">${ic('bookOpen')}${t('rd_none')}</div>`}</div>`;
+  $('#rd-f').onclick = e => { const b = e.target.closest('[data-f]'); if (!b) return; f.exam = b.dataset.f; haptic('sel'); route(); };
+  p.querySelectorAll('[data-stop]').forEach(s => s.addEventListener('click', e => e.stopPropagation()));
+  p.querySelectorAll('[data-rdtog]').forEach(c => c.onchange = async () => {
+    try { await api('/readings/' + c.dataset.rdtog, { method: 'PUT', body: { active: c.checked } }); toast(t('saved'), 'ok'); } catch (e) { c.checked = !c.checked; fail(e); }
+  });
+};
+const RD_TEMPLATE = { title_fa: '', topic: '', minutes: 20, paras: ['Paragraph one…', 'Paragraph two…'], gl: { word: 'معنی' },
+  qs: [{ g: 'Questions 1–2 · Choose TRUE, FALSE or NOT GIVEN.', type: 'tfng', q: 'Statement…', a: 'T' }, { g: 'Questions 3 · Choose the correct letter.', type: 'mcq', q: 'Question…', o: ['A…', 'B…', 'C…', 'D…'], a: 0 }, { type: 'gap', q: 'The ______ is …', a: ['answer'], w: 2 }] };
+ACT.rdEdit = el => {
+  const id = el && el.dataset && el.dataset.id ? +el.dataset.id : 0, x = id ? S.rdItems.find(i => i.id === id) : null;
+  const data = x ? { ...x.data } : RD_TEMPLATE;
+  const m = modal(`<h2>${ic(x ? 'edit' : 'plus')} ${t(x ? 'rd_edit' : 'rd_new')}</h2>
+    <div class="grid g2" style="gap:10px">
+      <label class="field"><span>${t('rd_exam')}</span><select class="input" id="rd-exam">${EXAMS3.map(e => `<option value="${e}" ${(x ? x.exam : 'ielts') === e ? 'selected' : ''}>${e.toUpperCase()}</option>`).join('')}</select></label>
+      <label class="field"><span>${t('rd_level')}</span><select class="input" id="rd-level">${[1, 2, 3, 4].map(l => `<option value="${l}" ${(x ? x.level : 2) === l ? 'selected' : ''}>${N(l)}</option>`).join('')}</select></label></div>
+    <label class="field"><span>${t('rd_title')}</span><input class="input en" id="rd-title" dir="ltr" value="${esc(x ? x.title : '')}"></label>
+    <div class="grid g2" style="gap:10px"><label class="field"><span>${t('rd_sort')}</span><input class="input en" id="rd-sort" type="number" dir="ltr" value="${x ? x.sort || 0 : 0}"></label>
+      <label class="row" style="gap:10px;margin-top:22px"><label class="switch"><input type="checkbox" id="rd-act" ${!x || x.active ? 'checked' : ''}><i></i></label>${t('rd_active')}</label></div>
+    <label class="field"><span>${t('rd_json')}</span><textarea class="input en" id="rd-json" dir="ltr" spellcheck="false" style="min-height:300px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;white-space:pre">${esc(JSON.stringify(data, null, 2))}</textarea></label>
+    <div class="muted small" id="rd-info"></div>
+    <div class="acts">${x ? `<button class="btn danger-soft" data-x="del">${ic('trash')} ${t('del')}</button><span class="grow"></span>` : ''}<button class="btn ghost" data-x="no">${t('cancel')}</button><button class="btn primary" data-x="ok">${ic('check')} ${t('save')}</button></div>`, { wide: true });
+  const ta = m.querySelector('#rd-json'), info = m.querySelector('#rd-info');
+  const parse = () => { try { const j = JSON.parse(ta.value); info.style.color = ''; info.textContent = t('rd_paras', { a: N((j.paras || []).length), b: N((j.qs || []).length) }); return j; } catch (e) { info.style.color = 'var(--red)'; info.textContent = t('rd_bad') + ' — ' + e.message; return null; } };
+  ta.oninput = parse; parse();
+  m.querySelector('[data-x=no]').onclick = () => closeTop();
+  if (x) m.querySelector('[data-x=del]').onclick = async () => { if (!(await ask(t('del'), t('rd_delQ', { w: x.title }), { danger: true, ok: t('del') }))) return; try { await api('/readings/' + x.id, { method: 'DELETE' }); toast(t('done'), 'ok'); closeAll(); route(); } catch (e) { fail(e); } };
+  m.querySelector('[data-x=ok]').onclick = e => busy(e.currentTarget, async () => {
+    const j = parse(); if (!j) throw Object.assign(new Error('bad_json'), { code: 'bad_json' });
+    const b = { exam: m.querySelector('#rd-exam').value, level: +m.querySelector('#rd-level').value, title: m.querySelector('#rd-title').value.trim(), sort: +m.querySelector('#rd-sort').value || 0, active: m.querySelector('#rd-act').checked, data: j };
+    if (!b.title) throw Object.assign(new Error('required'), { code: 'required' });
+    if (x) await api('/readings/' + x.id, { method: 'PUT', body: b }); else await api('/readings', { method: 'POST', body: b });
+    toast(t('saved'), 'ok'); closeAll(); route();
+  });
+};
+
+/* ---------- feedback inbox ---------- */
+S.fb = { status: 'new', kind: '', page: 1 };
+const FBC = { new: 'p', seen: '', planned: 'b', done: 'g', rejected: 'r' }, FKI = { idea: '💡', bug: '🐞', content: '📚', praise: '💜', other: '💬' };
+VIEWS.fb = async p => {
+  const f = S.fb, r = await api(`/feedback?status=${f.status}&kind=${f.kind}&page=${f.page}`); S.fbItems = r.items;
+  const pages = Math.max(1, Math.ceil(r.total / 30)), all_ = Object.values(r.counts || {}).reduce((a, b) => a + b, 0);
+  p.innerHTML = `<div class="card">
+    <div class="chips" id="fb-s">${['', 'new', 'seen', 'planned', 'done', 'rejected'].map(k => `<button class="chip ${f.status === k ? 'on' : ''}" data-f="${k}">${t('fb_' + (k || 'all'))} <span class="muted">${N(k ? (r.counts || {})[k] : all_)}</span></button>`).join('')}</div>
+    <div class="toolbar mt12"><div class="seg" id="fb-k">${['', 'idea', 'bug', 'content', 'praise', 'other'].map(k => `<button class="${f.kind === k ? 'on' : ''}" data-k="${k}">${k ? FKI[k] + ' ' : ''}${t('fk_' + (k || 'all'))}</button>`).join('')}</div>
+      <span class="grow"></span><button class="btn ghost sm" data-a="exp" data-k="feedback">${ic('download')} CSV</button></div>
+    <div class="muted small">${t('fb_n', { n: N(r.total) })}</div>
+    ${r.items.length ? `<div class="list mt8">${r.items.map(x => `<div class="li" data-a="fbOpen" data-id="${x.id}" style="align-items:flex-start">
+      <div class="av" style="background:var(--bg2);font-size:18px">${FKI[x.kind] || '💬'}</div>
+      <div class="t"><b style="white-space:normal;font-weight:600;line-height:1.7" dir="auto">${esc(x.text.length > 220 ? x.text.slice(0, 220) + '…' : x.text)}</b>
+        <span>${esc(x.display_name || (x.username ? '@' + x.username : '') || x.email || (x.user_id ? '#' + x.user_id : t('fb_guest')))}${x.platform ? ' · ' + esc(x.platform) : ''}${x.ref ? ' · <span class="en">' + esc(x.ref) + '</span>' : ''}</span>
+        <div class="row mt8" style="gap:5px"><span class="badge ${FBC[x.status] || ''}">${t('fb_' + x.status)}</span>${x.reply ? `<span class="badge g">${ic('msg')} ${t('fb_reply')}</span>` : ''}${x.telegram_id ? `<span class="badge t">${ic('send')}</span>` : ''}</div></div>
+      <div class="r">${ago(x.created_at)}</div></div>`).join('')}</div>` : `<div class="empty">${ic('inbox')}${t('fb_none')}</div>`}
+    ${pages > 1 ? `<div class="pager"><button class="btn sm ghost" data-a="fbPage" data-d="-1" ${f.page <= 1 ? 'disabled' : ''}>${t('prev')}</button><span>${t('page', { a: N(f.page), b: N(pages) })}</span><button class="btn sm ghost" data-a="fbPage" data-d="1" ${f.page >= pages ? 'disabled' : ''}>${t('next')}</button></div>` : ''}</div>`;
+  $('#fb-s').onclick = e => { const b = e.target.closest('[data-f]'); if (!b) return; f.status = b.dataset.f; f.page = 1; haptic('sel'); route(); };
+  $('#fb-k').onclick = e => { const b = e.target.closest('[data-k]'); if (!b) return; f.kind = b.dataset.k; f.page = 1; haptic('sel'); route(); };
+};
+ACT.fbPage = el => { S.fb.page += +el.dataset.d; route(); };
+ACT.fbOpen = async el => {
+  const x = S.fbItems.find(i => i.id === +el.dataset.id); if (!x) return;
+  if (x.status === 'new') { api('/feedback/' + x.id, { method: 'PUT', body: { status: 'seen' } }).then(() => { x.status = 'seen'; }).catch(() => {}); x.status = 'seen'; }
+  let st = x.status;
+  const who = x.display_name || (x.username ? '@' + x.username : '') || x.email || (x.user_id ? '#' + x.user_id : t('fb_guest'));
+  const m = modal(`<h2>${FKI[x.kind] || '💬'} ${t('fk_' + x.kind)} <span class="muted small" style="font-weight:400">· ${esc(dt(x.created_at))}</span></h2>
+    <div class="row" style="gap:6px;flex-wrap:wrap">${x.user_id ? `<button class="btn sm ghost" data-a="openUser" data-id="${x.user_id}">${ic('user')} ${esc(who)}</button>` : `<span class="badge">${t('fb_guest')}</span>`}${x.platform ? `<span class="badge">${esc(x.platform)}</span>` : ''}${x.ref ? `<span class="badge en">${esc(x.ref)}</span>` : ''}</div>
+    <div class="tip-box mt12" dir="auto" style="white-space:pre-wrap;line-height:1.9">${esc(x.text)}</div>
+    <label class="field mt12"><span>${t('fb_status')}</span></label><div class="seg" id="fb-st">${['new', 'seen', 'planned', 'done', 'rejected'].map(s => `<button class="${st === s ? 'on' : ''}" data-s="${s}">${t('fb_' + s)}</button>`).join('')}</div>
+    <label class="field mt12"><span>${t('fb_reply')}</span><textarea class="input" id="fb-rep" dir="auto" style="min-height:110px">${esc(x.reply || '')}</textarea></label>
+    ${x.telegram_id ? `<label class="row mt8" style="gap:10px"><label class="switch"><input type="checkbox" id="fb-ntf" checked><i></i></label>${t('fb_notify')}</label>` : `<div class="muted small mt8">${t('fb_noTg')}</div>`}
+    <div class="acts"><button class="btn danger-soft" data-x="del">${ic('trash')}</button><span class="grow"></span><button class="btn ghost" data-x="no">${t('cancel')}</button><button class="btn primary" data-x="ok">${ic('check')} ${t('save')}</button></div>`, { onClose: () => { if (S.view === 'fb') route(); } });
+  m.querySelector('#fb-st').onclick = e => { const b = e.target.closest('[data-s]'); if (!b) return; st = b.dataset.s; m.querySelectorAll('#fb-st button').forEach(c => c.classList.toggle('on', c === b)); };
+  m.querySelector('[data-x=no]').onclick = () => closeTop();
+  m.querySelector('[data-x=del]').onclick = async () => { if (!(await ask(t('del'), t('fb_delQ'), { danger: true, ok: t('del') }))) return; try { await api('/feedback/' + x.id, { method: 'DELETE' }); toast(t('done'), 'ok'); closeAll(); route(); } catch (e) { fail(e); } };
+  m.querySelector('[data-x=ok]').onclick = e => busy(e.currentTarget, async () => {
+    const reply = m.querySelector('#fb-rep').value.trim(), ntf = m.querySelector('#fb-ntf');
+    if (reply && reply !== (x.reply || '') && st === 'seen') st = 'done';
+    const r = await api('/feedback/' + x.id, { method: 'PUT', body: { status: st, reply, notify: !!(ntf && ntf.checked && reply !== (x.reply || '')) } });
+    toast(r.sent ? t('fb_sentTg') : t('saved'), 'ok'); closeTop();
+  });
+};
+
+/* ---------- duels ---------- */
+VIEWS.duels = async p => {
+  const d = await api('/duels'); await loadCats3();
+  const b = d.by_status || {}, tot = Object.values(b).reduce((a, c) => a + c, 0), days = lastDays(tehToday());
+  const kpi = (cls, icon, v, l) => `<div class="kpi ${cls}"><div class="ic">${ic(icon)}</div><div class="v num">${N(v)}</div><div class="l">${l}</div></div>`;
+  const SC = { done: 'g', active: 'b', invited: 'p', waiting: 'p', declined: 'r', cancelled: '', expired: 'a' };
+  p.innerHTML = `<div class="kpis">${kpi('', 'zap', tot, t('du_total'))}${kpi('c3', 'check', b.done, t('du_done'))}${kpi('c2', 'activity', (b.active || 0), t('du_active'))}${kpi('c5', 'mail', (b.invited || 0) + (b.waiting || 0), t('du_invited'))}</div>
+  <div class="grid g3 mt16">
+    <div class="card span2"><h3>${ic('activity')} ${t('du_daily')}</h3><div class="legend mb8"><span><i style="background:var(--brand)"></i>${t('du_total')}</span><span><i style="background:var(--green)"></i>${t('du_done')}</span></div>
+      ${barChart(days, d.daily || [], { bar: 'n', line: 'done', labels: [t('du_total'), t('du_done')] })}</div>
+    <div class="card"><h3>${ic('book')} ${t('du_cats')}</h3>${(d.cats || []).length ? hbars(d.cats.map(c => ({ l: esc(deckLabel(c.cat || 'mix', 0)), v: c.n }))) : `<div class="empty">${ic('zap')}—</div>`}</div>
+  </div>
+  <div class="card mt16"><div class="row between"><h3>${ic('clock')} ${t('du_recent')}</h3><button class="btn ghost sm" data-a="exp" data-k="duels">${ic('download')} CSV</button></div>
+    ${(d.recent || []).length ? `<div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>${t('users')}</th><th>${t('d_deck')}</th><th>${t('fb_status')}</th><th class="hide-m">${t('joined')}</th></tr></thead><tbody>
+    ${d.recent.map(x => { const w = x.winner_id; const nm = (id, n, s) => `<span style="${w && w === id ? 'font-weight:800;color:var(--green)' : ''}">${esc(n || '—')}</span> <b class="num">${x.status === 'done' || x.status === 'active' ? N(s) : ''}</b>`;
+      return `<tr><td class="en tiny">${esc(x.code || x.id)}</td><td>${nm(x.a_id, x.a_name, x.a_score)} <span class="muted">${t('du_vs')}</span> ${x.b_id ? nm(x.b_id, x.b_name, x.b_score) : `<span class="muted">${t('du_wait')}</span>`}${x.status === 'done' && x.a_delta != null ? ` <span class="muted tiny">(${x.a_delta > 0 ? '+' : ''}${N(x.a_delta)})</span>` : ''}</td>
+        <td>${esc(deckLabel(x.cat || 'mix', x.level_no))} · ${N(x.n)}</td><td><span class="badge ${SC[x.status] || ''}">${t('s_' + x.status)}</span></td><td class="hide-m">${ago(x.created_at)}</td></tr>`; }).join('')}</tbody></table></div>` : `<div class="empty">${ic('zap')}—</div>`}</div>`;
+};
+
+/* ---------- leaderboards ---------- */
+S.lb = { tab: 'week' };
+VIEWS.board = async p => {
+  const d = await api('/leaderboard'), tab = S.lb.tab, rows = d[tab] || [];
+  const sub = u => tab === 'week' ? t('reviewsN', { n: N(u.reviews) }) : tab === 'duel' ? `${N(u.wins)} ${t('wins')} · ${N(u.losses)} ${t('losses')} · ${N(u.draws)} ${t('draws')}` : tab === 'streak' ? `${t('u_best')} ${N(u.best)}` : `🔥 ${N(u.streak)}`;
+  const unit = tab === 'duel' ? t('rating') : tab === 'streak' ? '🔥' : t('xp');
+  p.innerHTML = `<div class="card"><div class="seg" id="lb-t">${['week', 'xp', 'duel', 'streak'].map(k => `<button class="${tab === k ? 'on' : ''}" data-t="${k}">${t('lb_' + k)}</button>`).join('')}</div>
+    ${rows.length ? `<div class="list mt12">${rows.map((u, i) => `<div class="li" data-a="openUser" data-id="${u.id}"><div class="av" style="background:${['#F5B301', '#A0A6B5', '#CD7F32'][i] || COLORS[u.id % COLORS.length]}">${i < 3 ? ['🥇', '🥈', '🥉'][i] : N(i + 1)}</div>
+      <div class="t"><b>${esc(u.name)}</b><span>${u.username ? '<span class="en">@' + esc(u.username) + '</span> · ' : ''}${sub(u)}</span></div><div class="r"><b class="num" style="font-size:16px">${N(u.score)}</b> ${unit}</div></div>`).join('')}</div>` : `<div class="empty">${ic('trophy')}${t('lb_empty')}</div>`}</div>`;
+  $('#lb-t').onclick = e => { const b = e.target.closest('[data-t]'); if (!b) return; S.lb.tab = b.dataset.t; haptic('sel'); route(); };
+};
+
+
 boot();
 })();

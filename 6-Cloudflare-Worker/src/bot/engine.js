@@ -3,11 +3,11 @@ import { one, all, run, q, now, meta } from '../util.js';
 import { nextRev, progressUpsert, progressRow, progressOut, profileOut, profileUpsert, customUpsert, customRow, customOut } from '../sync.js';
 
 export const DAY = 86400000;
-export const CATS = { general: 4, ielts: 3, toefl: 3 };
+export const CATS = { general: 4, ielts: 6, toefl: 3 };
 export const CAT_ICON = { general: '🌍', ielts: '🎓', toefl: '🏛', custom: '✍️' };
 export const LEVEL_NAMES = {
   general: [['Basic', 'پایه'], ['Regular', 'متوسط'], ['Upper-Intermediate', 'فوق‌متوسط'], ['Advanced', 'پیشرفته']],
-  ielts: [['Band 5 – 6', 'نمرهٔ ۵ تا ۶'], ['Band 6.5 – 7', 'نمرهٔ ۶٫۵ تا ۷'], ['Band 7.5 – 9', 'نمرهٔ ۷٫۵ تا ۹']],
+  ielts: [['Band 5 – 6', 'نمرهٔ ۵ تا ۶'], ['Band 6.5 – 7', 'نمرهٔ ۶٫۵ تا ۷'], ['Band 7.5 – 9', 'نمرهٔ ۷٫۵ تا ۹'], ['Reading · Core', 'ریدینگ · پایه'], ['Reading · Upper', 'ریدینگ · متوسط'], ['Reading · Advanced', 'ریدینگ · پیشرفته']],
   toefl: [['Foundation', 'پایه'], ['Intermediate', 'متوسط'], ['Advanced', 'پیشرفته']],
 };
 export const CAT_NAMES = { general: ['General English', 'لغات عمومی'], ielts: ['IELTS', 'آیلتس'], toefl: ['TOEFL', 'تافل'], custom: ['My words', 'لغات من'] };

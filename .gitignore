@@ -21,3 +21,6 @@ __pycache__/
 *.log
 .DS_Store
 Thumbs.db
+
+# local-only wrangler config (no Workers AI binding)
+wrangler.dev.toml

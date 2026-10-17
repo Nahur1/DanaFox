@@ -5,7 +5,7 @@ import time
 
 B = re.compile(r"VY_DATA\.push\(\{\s*cat:'(\w+)',\s*level:(\d+),\s*raw:`(.*?)`\s*\}\)", re.S)
 POS = {"n", "v", "adj", "adv", "prep", "conj", "phr"}
-SRC = pathlib.Path(__file__).resolve().parents[2] / "server" / "seed"
+SRC = pathlib.Path(__file__).resolve().parents[1] / "data" / "legacy"   # original word lists (the app now ships public/js/words_data.js)
 OUT = pathlib.Path(__file__).resolve().parents[1] / "migrations" / "0002_seed_words.sql"
 
 

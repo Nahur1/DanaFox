@@ -8,7 +8,7 @@ const KEY = 'vajeyar_state_v1';
 /* ---------- Categories & levels ---------- */
 VY.CATS = {
   general:{icon:'🌍', levels:[{en:'Basic',fa:'پایه',tag:'A1–A2'},{en:'Regular',fa:'متوسط',tag:'B1'},{en:'Upper-Intermediate',fa:'فوق‌متوسط',tag:'B2'},{en:'Advanced',fa:'پیشرفته',tag:'C1–C2'}]},
-  ielts:{icon:'🎓', levels:[{en:'Band 5 – 6',fa:'نمرهٔ ۵ تا ۶',tag:'B1'},{en:'Band 6.5 – 7',fa:'نمرهٔ ۶٫۵ تا ۷',tag:'B2'},{en:'Band 7.5 – 9',fa:'نمرهٔ ۷٫۵ تا ۹',tag:'C1–C2'}]},
+  ielts:{icon:'🎓', levels:[{en:'Band 5 – 6',fa:'نمرهٔ ۵ تا ۶',tag:'B1'},{en:'Band 6.5 – 7',fa:'نمرهٔ ۶٫۵ تا ۷',tag:'B2'},{en:'Band 7.5 – 9',fa:'نمرهٔ ۷٫۵ تا ۹',tag:'C1–C2'},{en:'Reading · Core',fa:'ریدینگ · پایه',tag:'B2'},{en:'Reading · Upper',fa:'ریدینگ · متوسط',tag:'B2–C1'},{en:'Reading · Advanced',fa:'ریدینگ · پیشرفته',tag:'C1–C2'}]},
   toefl:{icon:'🏛️', levels:[{en:'Foundation',fa:'پایه',tag:'B1'},{en:'Intermediate',fa:'متوسط',tag:'B2'},{en:'Advanced',fa:'پیشرفته',tag:'C1–C2'}]},
   custom:{icon:'✍️', levels:[{en:'My list',fa:'فهرست من',tag:'—'}]}
 };
@@ -17,8 +17,8 @@ VY.POS = {n:{en:'noun',fa:'اسم'},v:{en:'verb',fa:'فعل'},adj:{en:'adjective
 /* ---------- State ---------- */
 const defaults = () => ({
   v:1, onboarded:false,
-  settings:{lang:'fa', theme:'light', goal:20, sessionSize:10, front:'en', accent:'en-US', rate:0.9, autoplay:true, online:true, reminder:false, reminderTime:'20:00', sounds:true, track:'general'},
-  progress:{}, custom:[], days:{}, xp:0,
+  settings:{lang:'fa', theme:'light', goal:20, sessionSize:10, front:'en', accent:'en-US', rate:0.9, autoplay:true, online:true, reminder:false, reminderTime:'20:00', sounds:true, track:'general', fs:1, exFa:true, retention:0.9, newPerDay:10},
+  progress:{}, custom:[], days:{}, xp:0, kv:{},
   streak:{count:0, best:0, last:null, freezes:0},
   ach:{}, games:{matchBest:null, speedBest:0}, quizzes:[], notified:null
 });
@@ -54,42 +54,99 @@ VY.addDays = (ts, n) => { const d = new Date(ts); d.setDate(d.getDate()+n); retu
 
 /* ---------- Words ---------- */
 VY.buildWords = () => {
-  const list = [], byId = {};
+  const list = [], byId = {}, builtin = {};
   const add = w => { if(byId[w.id]) return; byId[w.id]=w; list.push(w); };
-  (window.VY_DATA||[]).forEach(block => {
+  (window.VY_WORDS||[]).forEach(r => builtin[r[0]] = r);
+  const exsOf = (w, b) => {           // [[english, persian], …] — server copy first, Persian from the built-in bank when the server has none
+    let a = Array.isArray(w.exs) && w.exs.length ? w.exs.map(x => [x[0]||'', x[1]||'']) : (w.ex ? [[w.ex, '']] : []);
+    if(b && b[7]){ const m = {}; b[7].forEach(x => m[x[0]] = x[1]); a = a.map(x => [x[0], x[1] || m[x[0]] || '']); if(!a.length) a = b[7].slice(); }
+    return a.filter(x => x[0]);
+  };
+  if(Array.isArray(VY.serverWords) && VY.serverWords.length){        // word bank delivered by the server (database)
+    VY.serverWords.forEach(w => { if(w && w.id && w.word && VY.CATS[w.cat]){ const exs = exsOf(w, builtin[w.id]); add({id:w.id, word:w.word, pos:w.pos||'', fa:w.fa||'', def:w.def||'', ex:(exs[0]||[w.ex||''])[0], exs, cat:w.cat, level:+w.level||1}); } });
+  } else if(window.VY_WORDS){                                          // built-in bank (offline, ships with every app)
+    VY_WORDS.forEach(r => { if(!VY.CATS[r[5]]) return; const exs = (r[7]||[]).filter(x => x[0]); add({id:r[0], word:r[1], pos:r[2], fa:r[3], def:r[4], ex:(exs[0]||[''])[0], exs, cat:r[5], level:r[6]}); });
+  } else (window.VY_DATA||[]).forEach(block => {
     block.raw.trim().split('\n').forEach(line => {
       const p = line.split('|'); if(p.length < 3) return;
-      const word = p[0].trim();
-      add({id:block.cat+':'+word.toLowerCase(), word, pos:p[1].trim(), fa:p[2].trim(), def:(p[3]||'').trim(), ex:(p[4]||'').trim(), cat:block.cat, level:block.level});
+      const word = p[0].trim(), ex = (p[4]||'').trim();
+      add({id:block.cat+':'+word.toLowerCase(), word, pos:p[1].trim(), fa:p[2].trim(), def:(p[3]||'').trim(), ex, exs: ex ? [[ex, '']] : [], cat:block.cat, level:block.level});
     });
   });
-  (VY.S.custom||[]).forEach(c => add(Object.assign({cat:'custom', level:1}, c)));
+  (VY.S.custom||[]).forEach(c => add(Object.assign({cat:'custom', level:1}, c, {exs: c.exs || (c.ex ? [[c.ex, '']] : [])})));
   VY.words = list; VY.byId = byId;
 };
 VY.buildWords();
 VY.deckWords = (cat, level) => VY.words.filter(w => w.cat===cat && (!level || w.level===level));
 
-/* ---------- Progress & SRS (SM-2 inspired + Leitner boxes) ---------- */
+/* ---------- Progress & spaced repetition: FSRS-6 (free spaced repetition scheduler, default parameters) ----------
+   Stored in the synced fields: interval = stability-based interval (days), ease = difficulty mapped to 1.3–3.0.
+   p.s (stability) / p.d (difficulty) are kept locally too; on other devices they are rebuilt from interval/ease. */
 VY.P = id => VY.S.progress[id];
 VY.ensureP = id => VY.S.progress[id] || (VY.S.progress[id] = {seen:false, reps:0, ease:2.5, interval:0, due:0, lapses:0, ok:0, bad:0, star:false, note:'', first:0, last:0});
 VY.status = id => { const p = VY.P(id); if(!p || !p.seen) return 'new'; if(p.interval >= 21) return 'mastered'; if(p.interval >= 3) return 'review'; return 'learning'; };
 VY.box = p => { if(!p || !p.seen) return 0; const i = p.interval; return i < 1 ? 1 : i < 3 ? 2 : i < 7 ? 3 : i < 21 ? 4 : i < 60 ? 5 : 6; };
 VY.isDue = id => { const p = VY.P(id); return !!(p && p.seen && p.due <= Date.now()); };
-VY.dueIds = () => VY.words.filter(w => VY.isDue(w.id)).sort((a,b)=>VY.P(a.id).due - VY.P(b.id).due).map(w=>w.id);
+const F = VY.FSRS = (() => {
+  const w = [0.212,1.2931,2.3065,8.2956,6.4133,0.8334,3.0194,0.001,1.8722,0.1666,0.796,1.4835,0.0614,0.2629,1.6483,0.6014,1.8729,0.5425,0.0912,0.0658,0.1542];
+  const decay = -w[20], factor = Math.pow(0.9, 1/decay) - 1;
+  const clamp = (x, a, b) => Math.min(b, Math.max(a, x));
+  const D0 = g => clamp(w[4] - Math.exp(w[5]*(g-1)) + 1, 1, 10);
+  const R = (t, S) => Math.pow(1 + factor * t / Math.max(S, 0.01), decay);
+  const interval = (S, r) => clamp(Math.round(S / factor * (Math.pow(r, 1/decay) - 1)), 1, 36500);
+  const nextD = (d, g) => clamp(w[7]*D0(4) + (1-w[7]) * (d + (-w[6]*(g-3)) * (10-d)/9), 1, 10);
+  const recall = (d, s, r, g) => s * (1 + Math.exp(w[8]) * (11-d) * Math.pow(s, -w[9]) * (Math.exp(w[10]*(1-r)) - 1) * (g===2 ? w[15] : 1) * (g===4 ? w[16] : 1));
+  const forget = (d, s, r) => Math.min(w[11] * Math.pow(d, -w[12]) * (Math.pow(s+1, w[13]) - 1) * Math.exp(w[14]*(1-r)), s / Math.exp(w[17]*w[18]));
+  const shortTerm = (s, g) => { let k = Math.pow(s, -w[19]) * Math.exp(w[17]*(g-3+w[18])); if(g >= 3) k = Math.max(k, 1); return clamp(s*k, 0.01, 36500); };
+  const dOf = p => p.d != null ? p.d : clamp(1 + (3.0 - (p.ease || 2.5)) * 9 / 1.7, 1, 10);
+  const sOf = p => p.s != null ? p.s : Math.max(0.1, p.interval || 0.5);
+  /** state after grading (1 again · 2 hard · 3 good · 4 easy) — does not modify p */
+  const next = (p, g, now = Date.now()) => {
+    const r0 = +VY.S.settings.retention || 0.9;
+    if(!p || !p.seen || !p.reps && !p.last){ const s = w[g-1], d = D0(g); return {s, d, ivl: g === 1 ? 0 : interval(s, r0)}; }
+    const s = sOf(p), d = dOf(p), t = Math.max(0, (now - (p.last || now)) / 86400000), r = R(t, s);
+    let s2, d2 = nextD(d, g);
+    if(t < 1) s2 = shortTerm(s, g);                                     // reviewed again the same day
+    else s2 = g === 1 ? forget(d, s, r) : recall(d, s, r, g);
+    s2 = clamp(s2, 0.01, 36500);
+    let ivl = g === 1 ? 0 : interval(s2, r0);
+    if(g >= 3 && p.interval >= 1 && t >= 1) ivl = Math.max(ivl, Math.min(p.interval + 1, interval(s2 * 1.2, r0)));   // never shrink a passed card
+    return {s: s2, d: d2, ivl};
+  };
+  return {w, R, next, sOf, dOf, interval, retr: (p, now = Date.now()) => (!p || !p.seen) ? 0 : R(Math.max(0, (now - (p.last || now)) / 86400000), sOf(p))};
+})();
+VY.retrievability = id => F.retr(VY.P(id));
+/* due cards, most-forgotten first (lowest predicted recall), so a short session fixes the weakest memories */
+VY.dueIds = () => { const now = Date.now(); return VY.words.filter(w => VY.isDue(w.id)).map(w => [w.id, F.retr(VY.P(w.id), now)]).sort((a,b) => a[1] - b[1]).map(x => x[0]); };
 const touch = p => { const now = Date.now(); if(!p.seen){ p.seen = true; p.first = now; VY.logDay({newWords:1}); } p.last = now; };
-VY.previewGood = id => { const p = VY.P(id) || {reps:0, interval:0, ease:2.5}; return goodInterval(p); };
-function goodInterval(p){ if(!p.reps) return 1; if(p.reps===1) return 3; return Math.max(p.interval+1, Math.round(p.interval * p.ease)); }
+VY.preview = (id, g) => F.next(VY.P(id), g).ivl;
+VY.previewGood = id => VY.preview(id, 3);
+const GRADE = {again:1, hard:2, good:3, easy:4};
 VY.rate = (id, kind, days) => {
-  const p = VY.ensureP(id); touch(p);
-  const sod = VY.startOfDay();
-  if(kind==='again'){ p.lapses++; p.bad++; p.ease = Math.max(1.3, p.ease-0.2); p.reps = 0; p.interval = 0; p.due = Date.now(); }
-  else if(kind==='good'){ p.interval = goodInterval(p); p.reps++; p.ok++; p.ease = Math.min(3.0, p.ease+0.05); p.due = VY.addDays(sod, p.interval); }
-  else if(kind==='days'){ p.interval = days; p.reps = Math.max(1, p.reps+1); p.ok++; if(days<=1) p.ease = Math.max(1.3, p.ease-0.1); if(days>=30) p.ease = Math.min(3.0, p.ease+0.1); p.due = VY.addDays(sod, days); }
-  else if(kind==='known'){ p.interval = 120; p.reps = Math.max(3, p.reps); p.ok++; p.ease = 2.8; p.due = VY.addDays(sod, 120); }
-  VY.logDay({reviews:1, correct: kind==='again'?0:1, wrong: kind==='again'?1:0});
-  VY.addXP(kind==='again' ? 2 : 10);
+  const p = VY.ensureP(id), now = Date.now(), sod = VY.startOfDay();
+  let g = kind === 'days' ? (days <= 1 ? 2 : days >= 30 ? 4 : 3) : kind === 'known' ? 4 : (GRADE[kind] || 3);
+  const nx = F.next(p, g, now);
+  touch(p);
+  p.s = nx.s; p.d = Math.round(nx.d * 100) / 100;
+  p.ease = Math.round((3.0 - (nx.d - 1) / 9 * 1.7) * 100) / 100;
+  if(g === 1){ p.lapses++; p.bad++; p.reps = 0; p.interval = 0; p.due = now + 60000; }
+  else {
+    let ivl = nx.ivl;
+    if(kind === 'days'){ ivl = days; p.s = Math.max(p.s, days); }
+    if(kind === 'known' && p.reps === 0 && ivl < 60){ ivl = 60; p.s = Math.max(p.s, 60); }      // "I already know this word"
+    p.interval = ivl; p.reps++; p.ok++; p.due = VY.addDays(sod, ivl);
+  }
+  VY.logDay({reviews:1, correct: g===1?0:1, wrong: g===1?1:0});
+  VY.addXP(g===1 ? 2 : 10);
   VY.save();
 };
+/* words that keep being forgotten ("leeches") and words with weak memory right now */
+VY.leechIds = () => VY.words.filter(w => { const p = VY.P(w.id); return p && p.seen && p.lapses >= 4; }).map(w => w.id);
+VY.weakIds = (limit = 40) => { const now = Date.now(); return VY.words.map(w => [w, VY.P(w.id)]).filter(([w,p]) => p && p.seen && (F.retr(p, now) < 0.8 || (p.ok + p.bad >= 3 && p.bad / (p.ok + p.bad) > 0.35) || p.lapses >= 2))
+  .map(([w,p]) => [w.id, F.retr(p, now) - p.lapses * 0.05]).sort((a,b) => a[1] - b[1]).slice(0, limit).map(x => x[0]); };
+/* synced key/value records (reading results, placement test, …) */
+VY.kvGet = k => (VY.S.kv || {})[k];
+VY.kvSet = (k, v) => { VY.S.kv = VY.S.kv || {}; if(v == null) delete VY.S.kv[k]; else VY.S.kv[k] = v; VY.save(); };
 VY.quizResult = (id, ok) => {
   const p = VY.ensureP(id);
   if(ok){ p.ok++; } else { p.bad++; if(p.seen){ p.due = Math.min(p.due, Date.now()); p.interval = Math.min(p.interval, 1); } }
@@ -98,6 +155,8 @@ VY.quizResult = (id, ok) => {
   VY.save();
 };
 VY.resetWord = id => { delete VY.S.progress[id]; VY.save(); };
+/* user font size (Settings): every font-size in style.css is multiplied by --fs */
+VY.applyFont = () => { const f = +VY.S.settings.fs || 1; document.documentElement.style.setProperty('--fs', f); document.documentElement.classList.toggle('fs-big', f > 1.1); };
 VY.toggleStar = id => { const p = VY.ensureP(id); p.star = !p.star; VY.save(); return p.star; };
 
 /* ---------- Activity, streak, XP ---------- */
@@ -154,17 +213,35 @@ VY.checkAch = () => { VY.ACH.forEach(a => { if(!VY.S.ach[a.id] && a.ok()){ VY.S.
 /* ---------- Toast ---------- */
 VY.toast = msg => { let box = document.querySelector('.toasts'); if(!box){ box = document.createElement('div'); box.className='toasts'; document.body.appendChild(box); } const el = document.createElement('div'); el.className='toast'; el.textContent = msg; box.appendChild(el); setTimeout(()=>{ el.style.opacity='0'; el.style.transition='opacity .3s'; setTimeout(()=>el.remove(), 300); }, 2400); };
 
-/* ---------- Text to speech ---------- */
+/* ---------- Text to speech: real audio from the server first, the device engine as fallback ---------- */
 let voices = [];
 const loadVoices = () => { voices = (window.speechSynthesis && speechSynthesis.getVoices()) || []; };
 if(window.speechSynthesis){ loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
-VY.hasTTS = () => !!window.speechSynthesis;
+VY.hasTTS = () => !!window.speechSynthesis || !!(VY.isServer && VY.isServer());
 VY.pickVoice = () => {
   const acc = VY.S.settings.accent; const en = voices.filter(v => /^en[-_]/i.test(v.lang));
   const score = v => (v.lang.replace('_','-').toLowerCase()===acc.toLowerCase()?10:0) + (/natural|online|neural/i.test(v.name)?4:0) + (/google|microsoft/i.test(v.name)?2:0) + (v.localService?1:0);
   return en.sort((a,b)=>score(b)-score(a))[0] || null;
 };
-VY.speak = (text, rate) => {
+VY.ttsUrl = (text, rate) => { const s = VY.S.settings;
+  return (VY.apiBase || '') + '/api/tts?text=' + encodeURIComponent(text) + '&accent=' + encodeURIComponent(s.accent) + '&rate=' + +(rate || s.rate || 1); };
+VY.speak = async (text, rate) => {
+  text = String(text || '').trim(); if(!text) return;
+  if(navigator.onLine && VY.isServer && VY.isServer()){
+    const a = new Audio(VY.ttsUrl(text, rate));
+    let r;
+    try{
+      r = await new Promise(res => {
+        a.onplaying = () => res('played');
+        a.onerror = () => res('failed');
+        a.play().catch(e => res(e && e.name === 'NotAllowedError' ? 'blocked' : 'failed'));
+        setTimeout(() => res('timeout'), 6000);
+      });
+    }catch(e){ r = 'failed'; }
+    if(r !== 'played') a.pause();
+    // 'blocked' = the browser refuses sound before the first tap; the device engine is refused too, so stay quiet
+    if(r === 'played' || r === 'blocked') return;
+  }
   if(!window.speechSynthesis){ VY.toast(VY.t('noVoice')); return; }
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);

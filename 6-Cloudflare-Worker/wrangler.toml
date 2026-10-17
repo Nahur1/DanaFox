@@ -26,9 +26,15 @@ ALLOW_REGISTRATION = "true"
 ALLOW_GUEST = "true"
 SESSION_DAYS = "90"
 PUBLIC_URL = "https://vajeyar.mohammadfakhari59.workers.dev"
-# ONLY these Telegram numeric ids can open the admin panel (comma separated). Nothing else (email, role column …) grants admin rights.
+# Admin access is granted ONLY to these Telegram numeric ids (comma separated) …
 ADMIN_TG_IDS = "8221804913"
+# …and site accounts with these e-mails (comma separated) can also sign in to the admin panel with their password
+ADMIN_EMAILS = "nahuram7798@gmail.com"
 # the bot token is a secret:  npx wrangler secret put TG_BOT_TOKEN
+
+# optional AI tutor (sentence check / word explanation). Remove this block if your account has no Workers AI.
+[ai]
+binding = "AI"
 
 [observability]
 enabled = true

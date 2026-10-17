@@ -8,7 +8,7 @@ import { route } from './router.js';
 import { publicUser, currentUser, startSession, checkCredentials, telegramUser } from './auth.js';
 import { getSettings } from './settings.js';
 
-export const VERSION = '2.1.0';
+export const VERSION = '3.0.0';
 
 /* ---------- handlers ---------- */
 
@@ -16,7 +16,8 @@ route('GET', '/api/config', async (env) => {
   const bot = await botUsername(env), s = await getSettings(env);
   return { app: env.APP_NAME || 'VajeYar', version: VERSION, registration: s.registration, guest: s.guest,
     words_version: await meta(env, 'words_version', '0'), telegram: bot ? { bot } : null,
-    notice: s.notice ? { text: s.notice, level: s.notice_level } : null, maintenance: s.maintenance ? (s.maintenance_msg || true) : null };
+    notice: s.notice ? { text: s.notice, level: s.notice_level } : null, maintenance: s.maintenance ? (s.maintenance_msg || true) : null,
+    readings_version: await meta(env, 'readings_version', '0'), features: { duel: true, leaderboard: true, feedback: true, ai: !!env.AI, translate: true } };
 });
 
 route('POST', '/api/auth/register', async (env, req) => {
@@ -157,4 +158,29 @@ route('GET', '/api/tts', async (env, req, g, url) => {
     'Content-Type': 'audio/mpeg',
     'Cache-Control': 'public, max-age=604800',
   } });
+});
+
+/* quick English → Persian translation for words tapped in reading passages that are not in the word bank */
+route('GET', '/api/translate', async (env, req, g, url) => {
+  const text = String(url.searchParams.get('q') || '').replace(/\s+/g, ' ').trim().slice(0, 120);
+  if (!text || !/[A-Za-z]/.test(text)) throw new ApiError(400, 'bad_text');
+  let fa = '', alts = [], via = '';
+  try {
+    const r = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=fa&dt=t&dt=bd&q=' + encodeURIComponent(text), { headers: { 'User-Agent': 'Mozilla/5.0' } });
+    const j = r.ok ? await r.json().catch(() => null) : null;
+    if (j) { fa = (j[0] || []).map(x => x && x[0]).filter(Boolean).join(''); alts = (j[1] || []).map(b => ({ pos: b[0], terms: (b[1] || []).slice(0, 5) })).filter(b => b.terms.length).slice(0, 3); via = 'g'; }
+  } catch (e) { /* try the next provider */ }
+  if (!fa && env.AI) {
+    try { const o = await env.AI.run('@cf/meta/m2m100-1.2b', { text, source_lang: 'en', target_lang: 'fa' }); fa = String((o && o.translated_text) || '').trim(); if (fa) via = 'ai'; } catch (e) { /* no Workers AI */ }
+  }
+  if (!fa) {
+    try {
+      const r = await fetch('https://api.mymemory.translated.net/get?langpair=en|fa&q=' + encodeURIComponent(text));
+      const j = r.ok ? await r.json().catch(() => null) : null;
+      const tr = j && j.responseData && j.responseData.translatedText;
+      if (tr && !/MYMEMORY|INVALID/i.test(tr)) { fa = String(tr).trim(); via = 'mm'; }
+    } catch (e) { /* offline */ }
+  }
+  if (!fa) throw new ApiError(502, 'translate_unavailable');
+  return json({ text, fa, alts, via }, 200, { 'Cache-Control': 'public, max-age=604800' });
 });

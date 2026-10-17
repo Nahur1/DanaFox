@@ -259,3 +259,10 @@ html.in-tg .top .tg-hide{display:none}
 .tbl tr.click:active td {background:var(--card2)}
 }
 
+/* v3 */
+.mb8{margin-bottom:8px}
+.side{overflow-y:auto}
+.side .nav-a{padding-top:9px;padding-bottom:9px}
+.tbl td.num{white-space:nowrap}
+.bars-h .r span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:520px){.bars-h .r{grid-template-columns:96px 1fr auto}.seg{max-width:100%}}
