@@ -22,7 +22,7 @@
   "devDependencies": {
     "electron": "^33.2.0",
     "electron-builder": "^25.1.8",
-    "resedit": "^3.1.1"
+    "resedit": "^3.1.0"
   },
   "build": {
     "appId": "com.vajeyar.app",
