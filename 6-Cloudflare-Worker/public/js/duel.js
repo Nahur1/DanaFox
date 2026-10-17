@@ -33,7 +33,7 @@ function lobbyView(){
     ${L.invites.length ? `<div class="card mt16"><h3>📨 ${t('duelInvites')}</h3><div class="list">${L.invites.map(d => row(d) + `<button class="btn btn-primary btn-sm" data-act="duelAccept" data-code="${d.code}">${t('accept')}</button><button class="btn btn-ghost btn-sm" data-act="duelDecline" data-code="${d.code}">${icon('x')}</button></div>`).join('')}</div></div>` : ''}
     <div class="grid g2 mt16">
       <div class="card"><h3>⚡ ${t('quickMatch')}</h3><p class="small muted">${t('quickMatchS')}</p>
-        <label class="lbl mt12">${t('duelWords')}</label>${segs('cat', [['mix', t('allWords')], ['general', VY.catName('general')], ['ielts', 'IELTS'], ['toefl', 'TOEFL']])}
+        <label class="lbl mt12">${t('duelWords')}</label>${segs('cat', [['mix', t('allWords')], ['general', VY.catName('general')], ['ielts', 'IELTS'], ['toefl', 'TOEFL'], ...VY.deckCats('reading').concat(VY.deckCats('listening')).map(c => [c, VY.CATS[c].short ? VY.L(VY.CATS[c].short) : VY.catName(c)])])}
         <label class="lbl mt12">${t('qCount')}</label>${segs('n', [[5, n(5)], [10, n(10)], [15, n(15)]])}
         <div class="row wrap mt16"><button class="btn btn-yellow btn-lg" data-act="duelRandom">${icon('zap')} ${t('findOpponent')}</button><button class="btn btn-ghost" data-act="botStart">${icon('game')} ${t('duelBot')}</button></div></div>
       <div class="card"><h3>🤝 ${t('inviteFriend')}</h3><p class="small muted">${t('inviteFriendS')}</p>

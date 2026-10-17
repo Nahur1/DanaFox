@@ -793,3 +793,11 @@ textarea.input{padding:12px 14px;line-height:1.7;resize:vertical}
   .d-sc{font-size:calc(22px*var(--fs,1))}
   .rd-text{padding:14px 12px}
 }
+/* v3.1 — reading & listening vocabulary decks */
+.cat-card.awl{background:linear-gradient(135deg,#6FCF97,#2E9E6A)}
+.cat-card.cambridge{background:linear-gradient(135deg,#FF9A8B,#E0525F)}
+.cat-card.listening{background:linear-gradient(135deg,#7FB8FF,#3A6FE0)}
+.section-title.sub-sec{margin:22px 0 10px;flex-wrap:wrap;gap:4px 12px}
+.section-title.sub-sec h3{margin:0;font-size:calc(15.5px*var(--fs,1));font-weight:800}
+.deck-about{margin:-4px 0 14px;line-height:1.8}
+#deck-list{scroll-margin-top:84px}

@@ -1,7 +1,7 @@
 {
   "name": "vajeyar",
   "productName": "VajeYar",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "VajeYar - English vocabulary, reading & exam trainer (IELTS, TOEFL, GRE, PTE, General)",
   "main": "main.js",
   "author": {

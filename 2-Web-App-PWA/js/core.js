@@ -12,6 +12,11 @@ VY.CATS = {
   toefl:{icon:'🏛️', levels:[{en:'Foundation',fa:'پایه',tag:'B1'},{en:'Intermediate',fa:'متوسط',tag:'B2'},{en:'Advanced',fa:'پیشرفته',tag:'C1–C2'}]},
   custom:{icon:'✍️', levels:[{en:'My list',fa:'فهرست من',tag:'—'}]}
 };
+/* extra decks shipped in js/decks_data.js (AWL, Cambridge Reading, IELTS Listening …) — section: 'reading' | 'listening' */
+(function(){ const D = window.VY_DECKS || {}, c = VY.CATS.custom; delete VY.CATS.custom; for(const k in D) VY.CATS[k] = D[k]; VY.CATS.custom = c; })();
+VY.MAIN_CATS = ['general','ielts','toefl'];
+VY.deckCats = sec => Object.keys(VY.CATS).filter(k => VY.CATS[k].section === sec);
+VY.allCats = () => [...VY.MAIN_CATS, ...Object.keys(VY.CATS).filter(k => VY.CATS[k].section)];
 VY.POS = {n:{en:'noun',fa:'اسم'},v:{en:'verb',fa:'فعل'},adj:{en:'adjective',fa:'صفت'},adv:{en:'adverb',fa:'قید'},prep:{en:'preposition',fa:'حرف اضافه'},conj:{en:'conjunction',fa:'حرف ربط'},phr:{en:'phrase',fa:'عبارت'}};
 
 /* ---------- State ---------- */
@@ -43,8 +48,8 @@ const faD = '۰۱۲۳۴۵۶۷۸۹';
 VY.n = x => { const s = String(x); return VY.lang()==='fa' ? s.replace(/\d/g, d=>faD[d]).replace(/\./g,'٫') : s; };
 VY.esc = s => String(s ?? '').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 VY.en = s => `<span class="en" dir="ltr">${VY.esc(s)}</span>`;
-VY.catName = c => VY.t(c);
-VY.levelName = (c,l) => VY.L(VY.CATS[c].levels[l-1]);
+VY.catName = c => VY.CATS[c] && VY.CATS[c].name ? VY.L(VY.CATS[c].name) : VY.t(c);
+VY.levelName = (c,l) => VY.CATS[c] && VY.CATS[c].levels[l-1] ? VY.L(VY.CATS[c].levels[l-1]) : String(l);
 VY.posName = p => VY.L(VY.POS[p]) || p || '';
 
 /* ---------- Dates ---------- */

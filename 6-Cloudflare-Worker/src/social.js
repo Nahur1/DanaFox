@@ -64,7 +64,7 @@ const Q_MS = 15000;                       // time per question
 const START_DELAY = 3500;                 // countdown before the first question
 const WAIT_MS = 45000;                    // random match search
 const INVITE_MS = DAY;                    // invitation lifetime
-const CATS = ['mix', 'general', 'ielts', 'toefl'];
+const CATS = ['mix', 'general', 'ielts', 'toefl', 'awl', 'cambridge', 'listening'];
 const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
 async function makeQuestions(env, cat, level, n) {

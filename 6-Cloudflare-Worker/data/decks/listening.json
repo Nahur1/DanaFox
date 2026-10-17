@@ -1,0 +1,10262 @@
+{
+ "cat": "listening",
+ "levels": [
+  {
+   "no": 1,
+   "en": "Days, months & time",
+   "fa": "روزها، ماه‌ها و زمان"
+  },
+  {
+   "no": 2,
+   "en": "Money matters",
+   "fa": "امور مالی و پول"
+  },
+  {
+   "no": 3,
+   "en": "Subjects",
+   "fa": "رشته‌ها و دروس"
+  },
+  {
+   "no": 4,
+   "en": "Studying at college / university",
+   "fa": "تحصیل در کالج و دانشگاه"
+  },
+  {
+   "no": 5,
+   "en": "Marketing",
+   "fa": "بازاریابی"
+  },
+  {
+   "no": 6,
+   "en": "Health & food",
+   "fa": "سلامت و تغذیه"
+  },
+  {
+   "no": 7,
+   "en": "Nature",
+   "fa": "طبیعت"
+  },
+  {
+   "no": 8,
+   "en": "The environment",
+   "fa": "محیط زیست"
+  },
+  {
+   "no": 9,
+   "en": "Animals & plants",
+   "fa": "حیوانات و گیاهان"
+  },
+  {
+   "no": 10,
+   "en": "Continents & countries",
+   "fa": "قاره‌ها و کشورها"
+  },
+  {
+   "no": 11,
+   "en": "Languages",
+   "fa": "زبان‌ها"
+  },
+  {
+   "no": 12,
+   "en": "Architecture & homes",
+   "fa": "معماری، ساختمان‌ها و خانه"
+  },
+  {
+   "no": 13,
+   "en": "City & places",
+   "fa": "شهر و مکان‌ها"
+  },
+  {
+   "no": 14,
+   "en": "Workplaces",
+   "fa": "محیط کار"
+  },
+  {
+   "no": 15,
+   "en": "Works & jobs",
+   "fa": "مشاغل و حرفه‌ها"
+  },
+  {
+   "no": 16,
+   "en": "Touring",
+   "fa": "گردشگری و سفر"
+  },
+  {
+   "no": 17,
+   "en": "Transportation",
+   "fa": "حمل‌ونقل"
+  },
+  {
+   "no": 18,
+   "en": "Vehicles",
+   "fa": "وسایل نقلیه"
+  },
+  {
+   "no": 19,
+   "en": "Weather",
+   "fa": "آب‌وهوا"
+  },
+  {
+   "no": 20,
+   "en": "Hobbies",
+   "fa": "سرگرمی‌ها"
+  },
+  {
+   "no": 21,
+   "en": "Sports",
+   "fa": "ورزش‌ها"
+  },
+  {
+   "no": 22,
+   "en": "Arts & media",
+   "fa": "هنر و رسانه"
+  },
+  {
+   "no": 23,
+   "en": "Materials, equipment & tools",
+   "fa": "مواد، تجهیزات و ابزار"
+  },
+  {
+   "no": 24,
+   "en": "Colours, shapes & measurement",
+   "fa": "رنگ‌ها، شکل‌ها و اندازه‌گیری"
+  },
+  {
+   "no": 25,
+   "en": "Verbs",
+   "fa": "افعال پرکاربرد"
+  },
+  {
+   "no": 26,
+   "en": "Adjectives & qualities",
+   "fa": "صفت‌ها و ویژگی‌ها"
+  },
+  {
+   "no": 27,
+   "en": "Other useful words",
+   "fa": "سایر واژه‌های پرتکرار"
+  }
+ ],
+ "words": [
+  {
+   "id": "listening:monday",
+   "word": "Monday",
+   "pos": "n",
+   "fa": "دوشنبه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The library is closed on Monday mornings."
+   ]
+  },
+  {
+   "id": "listening:tuesday",
+   "word": "Tuesday",
+   "pos": "n",
+   "fa": "سه‌شنبه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "Our first seminar is on Tuesday at ten."
+   ]
+  },
+  {
+   "id": "listening:wednesday",
+   "word": "Wednesday",
+   "pos": "n",
+   "fa": "چهارشنبه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The deadline for the essay is next Wednesday."
+   ]
+  },
+  {
+   "id": "listening:thursday",
+   "word": "Thursday",
+   "pos": "n",
+   "fa": "پنج‌شنبه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The museum stays open late on Thursday."
+   ]
+  },
+  {
+   "id": "listening:friday",
+   "word": "Friday",
+   "pos": "n",
+   "fa": "جمعه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "Payment must be made by Friday."
+   ]
+  },
+  {
+   "id": "listening:saturday",
+   "word": "Saturday",
+   "pos": "n",
+   "fa": "شنبه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The market is held every Saturday."
+   ]
+  },
+  {
+   "id": "listening:sunday",
+   "word": "Sunday",
+   "pos": "n",
+   "fa": "یکشنبه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The shop is closed on Sunday."
+   ]
+  },
+  {
+   "id": "listening:weekdays",
+   "word": "weekdays",
+   "pos": "n",
+   "fa": "روزهای کاری هفته",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The office is open on weekdays from nine to five."
+   ]
+  },
+  {
+   "id": "listening:weekend",
+   "word": "weekend",
+   "pos": "n",
+   "fa": "آخر هفته",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "We are going camping at the weekend."
+   ]
+  },
+  {
+   "id": "listening:january",
+   "word": "January",
+   "pos": "n",
+   "fa": "ژانویه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The course starts in January."
+   ]
+  },
+  {
+   "id": "listening:february",
+   "word": "February",
+   "pos": "n",
+   "fa": "فوریه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "February is the shortest month of the year."
+   ]
+  },
+  {
+   "id": "listening:march",
+   "word": "March",
+   "pos": "n",
+   "fa": "مارس",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The conference will take place in March."
+   ]
+  },
+  {
+   "id": "listening:april",
+   "word": "April",
+   "pos": "n",
+   "fa": "آوریل",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The new timetable begins in April."
+   ]
+  },
+  {
+   "id": "listening:may",
+   "word": "May",
+   "pos": "n",
+   "fa": "مه (ماه می)",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The festival is held every May."
+   ]
+  },
+  {
+   "id": "listening:june",
+   "word": "June",
+   "pos": "n",
+   "fa": "ژوئن",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "Exams finish at the end of June."
+   ]
+  },
+  {
+   "id": "listening:july",
+   "word": "July",
+   "pos": "n",
+   "fa": "ژوئیه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "We are moving house in July."
+   ]
+  },
+  {
+   "id": "listening:august",
+   "word": "August",
+   "pos": "n",
+   "fa": "اوت (آگوست)",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The swimming pool is closed in August."
+   ]
+  },
+  {
+   "id": "listening:september",
+   "word": "September",
+   "pos": "n",
+   "fa": "سپتامبر",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The academic year begins in September."
+   ]
+  },
+  {
+   "id": "listening:october",
+   "word": "October",
+   "pos": "n",
+   "fa": "اکتبر",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "Please send your application before October."
+   ]
+  },
+  {
+   "id": "listening:november",
+   "word": "November",
+   "pos": "n",
+   "fa": "نوامبر",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The results will be published in November."
+   ]
+  },
+  {
+   "id": "listening:december",
+   "word": "December",
+   "pos": "n",
+   "fa": "دسامبر",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The office closes for two weeks in December."
+   ]
+  },
+  {
+   "id": "listening:three times",
+   "word": "three times",
+   "pos": "phr",
+   "fa": "سه بار",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "You need to take the medicine three times a day."
+   ]
+  },
+  {
+   "id": "listening:three times per week",
+   "word": "three times per week",
+   "pos": "phr",
+   "fa": "سه بار در هفته",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The class meets three times per week."
+   ]
+  },
+  {
+   "id": "listening:gap year",
+   "word": "gap year",
+   "pos": "n",
+   "fa": "سال وقفه (یک سال استراحت قبل از دانشگاه)",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "She is taking a gap year to travel before university."
+   ]
+  },
+  {
+   "id": "listening:full-time",
+   "word": "full-time",
+   "pos": "adj",
+   "fa": "تمام‌وقت",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "He has a full-time job in a bank."
+   ]
+  },
+  {
+   "id": "listening:part-time",
+   "word": "part-time",
+   "pos": "adj",
+   "fa": "پاره‌وقت",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "Many students have part-time jobs."
+   ]
+  },
+  {
+   "id": "listening:midday",
+   "word": "midday",
+   "pos": "n",
+   "fa": "ظهر",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The tour starts at midday."
+   ]
+  },
+  {
+   "id": "listening:midnight",
+   "word": "midnight",
+   "pos": "n",
+   "fa": "نیمه‌شب",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The last train leaves at midnight."
+   ]
+  },
+  {
+   "id": "listening:millennium",
+   "word": "millennium",
+   "pos": "n",
+   "fa": "هزاره",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The bridge was built to celebrate the new millennium."
+   ]
+  },
+  {
+   "id": "listening:century",
+   "word": "century",
+   "pos": "n",
+   "fa": "قرن، سده",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The castle dates from the twelfth century."
+   ]
+  },
+  {
+   "id": "listening:decade",
+   "word": "decade",
+   "pos": "n",
+   "fa": "دهه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "Prices have doubled over the last decade."
+   ]
+  },
+  {
+   "id": "listening:fortnight",
+   "word": "fortnight",
+   "pos": "n",
+   "fa": "دو هفته",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "The course lasts a fortnight."
+   ]
+  },
+  {
+   "id": "listening:cash",
+   "word": "cash",
+   "pos": "n",
+   "fa": "پول نقد",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Do you want to pay in cash or by card?"
+   ]
+  },
+  {
+   "id": "listening:debit",
+   "word": "debit",
+   "pos": "n",
+   "fa": "برداشت (از حساب)؛ بدهی",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The bank will take the money by direct debit."
+   ]
+  },
+  {
+   "id": "listening:credit card",
+   "word": "credit card",
+   "pos": "n",
+   "fa": "کارت اعتباری",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Can I pay by credit card?"
+   ]
+  },
+  {
+   "id": "listening:cheque",
+   "word": "cheque",
+   "pos": "n",
+   "fa": "چک (بانکی)",
+   "def_": "AmE: check",
+   "level": 2,
+   "exs": [
+    "I'd like to pay by cheque."
+   ]
+  },
+  {
+   "id": "listening:in advance",
+   "word": "in advance",
+   "pos": "phr",
+   "fa": "از قبل، پیش‌پیش",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "You have to pay the rent one month in advance."
+   ]
+  },
+  {
+   "id": "listening:annual fee",
+   "word": "annual fee",
+   "pos": "n",
+   "fa": "حق عضویت سالانه",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The annual fee for the gym is 300 dollars."
+   ]
+  },
+  {
+   "id": "listening:monthly membership",
+   "word": "monthly membership",
+   "pos": "n",
+   "fa": "عضویت ماهانه",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Monthly membership costs twenty pounds."
+   ]
+  },
+  {
+   "id": "listening:interest rate",
+   "word": "interest rate",
+   "pos": "n",
+   "fa": "نرخ بهره",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The bank offers a low interest rate on loans."
+   ]
+  },
+  {
+   "id": "listening:deposit",
+   "word": "deposit",
+   "pos": "n",
+   "fa": "ودیعه، بیعانه؛ سپرده",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "You need to pay a deposit of fifty pounds."
+   ]
+  },
+  {
+   "id": "listening:tuition fees",
+   "word": "tuition fees",
+   "pos": "n",
+   "fa": "شهریه تحصیلی",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Tuition fees have risen this year."
+   ]
+  },
+  {
+   "id": "listening:poverty",
+   "word": "poverty",
+   "pos": "n",
+   "fa": "فقر",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Many families still live in poverty."
+   ]
+  },
+  {
+   "id": "listening:bank statement",
+   "word": "bank statement",
+   "pos": "n",
+   "fa": "صورت‌حساب بانکی",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Please bring a copy of your bank statement."
+   ]
+  },
+  {
+   "id": "listening:money management",
+   "word": "money management",
+   "pos": "n",
+   "fa": "مدیریت پول",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The workshop teaches basic money management."
+   ]
+  },
+  {
+   "id": "listening:current account",
+   "word": "current account",
+   "pos": "n",
+   "fa": "حساب جاری",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "I'd like to open a current account."
+   ]
+  },
+  {
+   "id": "listening:student account",
+   "word": "student account",
+   "pos": "n",
+   "fa": "حساب دانشجویی",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "A student account has no monthly charges."
+   ]
+  },
+  {
+   "id": "listening:withdraw",
+   "word": "withdraw",
+   "pos": "v",
+   "fa": "برداشت کردن (پول)",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "You can withdraw cash at any branch."
+   ]
+  },
+  {
+   "id": "listening:low-risk investment",
+   "word": "low-risk investment",
+   "pos": "n",
+   "fa": "سرمایه‌گذاری کم‌خطر",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Government bonds are a low-risk investment."
+   ]
+  },
+  {
+   "id": "listening:mortgage",
+   "word": "mortgage",
+   "pos": "n",
+   "fa": "وام مسکن",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "They took out a mortgage to buy the house."
+   ]
+  },
+  {
+   "id": "listening:grace period",
+   "word": "grace period",
+   "pos": "n",
+   "fa": "مهلت پرداخت (دوره تنفس)",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "There is a ten-day grace period for late payment."
+   ]
+  },
+  {
+   "id": "listening:budget deficit",
+   "word": "budget deficit",
+   "pos": "n",
+   "fa": "کسری بودجه",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The country has a large budget deficit."
+   ]
+  },
+  {
+   "id": "listening:retail voucher",
+   "word": "retail voucher",
+   "pos": "n",
+   "fa": "کارت هدیه فروشگاه",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "You will receive a retail voucher worth ten pounds."
+   ]
+  },
+  {
+   "id": "listening:coupon",
+   "word": "coupon",
+   "pos": "n",
+   "fa": "کوپن، بن تخفیف",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Bring this coupon to get a free drink."
+   ]
+  },
+  {
+   "id": "listening:counterfeit money",
+   "word": "counterfeit money",
+   "pos": "n",
+   "fa": "پول تقلبی",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The police found a large amount of counterfeit money."
+   ]
+  },
+  {
+   "id": "listening:public money",
+   "word": "public money",
+   "pos": "n",
+   "fa": "پول عمومی (بیت‌المال)",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The new stadium was built with public money."
+   ]
+  },
+  {
+   "id": "listening:taxpayers' money",
+   "word": "taxpayers' money",
+   "pos": "n",
+   "fa": "پول مالیات‌دهندگان",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The project wasted taxpayers' money."
+   ]
+  },
+  {
+   "id": "listening:debt",
+   "word": "debt",
+   "pos": "n",
+   "fa": "بدهی، قرض",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "He is trying to pay off his debt."
+   ]
+  },
+  {
+   "id": "listening:interest-free credit",
+   "word": "interest-free credit",
+   "pos": "n",
+   "fa": "اعتبار بدون بهره",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The shop offers interest-free credit for six months."
+   ]
+  },
+  {
+   "id": "listening:purchase",
+   "word": "purchase",
+   "pos": "n",
+   "fa": "خرید",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Keep the receipt as proof of purchase."
+   ]
+  },
+  {
+   "id": "listening:partial refund",
+   "word": "partial refund",
+   "pos": "n",
+   "fa": "بازپرداخت بخشی از پول",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "You may get a partial refund if you cancel."
+   ]
+  },
+  {
+   "id": "listening:annuity",
+   "word": "annuity",
+   "pos": "n",
+   "fa": "مستمری سالانه",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "She receives an annuity from her pension plan."
+   ]
+  },
+  {
+   "id": "listening:non-refundable",
+   "word": "non-refundable",
+   "pos": "adj",
+   "fa": "غیرقابل استرداد",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The booking fee is non-refundable."
+   ]
+  },
+  {
+   "id": "listening:mastercard",
+   "word": "MasterCard",
+   "pos": "n",
+   "fa": "مسترکارت (نوعی کارت اعتباری)",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "We accept MasterCard and Visa."
+   ]
+  },
+  {
+   "id": "listening:visa",
+   "word": "Visa",
+   "pos": "n",
+   "fa": "ویزا (نوعی کارت اعتباری)",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Can I pay with my Visa card?"
+   ]
+  },
+  {
+   "id": "listening:distribution costs",
+   "word": "distribution costs",
+   "pos": "n",
+   "fa": "هزینه‌های توزیع",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Distribution costs have increased this year."
+   ]
+  },
+  {
+   "id": "listening:income",
+   "word": "income",
+   "pos": "n",
+   "fa": "درآمد",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Her monthly income is quite low."
+   ]
+  },
+  {
+   "id": "listening:finance department",
+   "word": "finance department",
+   "pos": "n",
+   "fa": "بخش مالی، امور مالی",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Send the invoice to the finance department."
+   ]
+  },
+  {
+   "id": "listening:family finances",
+   "word": "family finances",
+   "pos": "n",
+   "fa": "امور مالی خانواده",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "The course helps parents manage family finances."
+   ]
+  },
+  {
+   "id": "listening:duty-free store",
+   "word": "duty-free store",
+   "pos": "n",
+   "fa": "فروشگاه معاف از گمرک (فری‌شاپ)",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "You can buy perfume at the duty-free store."
+   ]
+  },
+  {
+   "id": "listening:science",
+   "word": "science",
+   "pos": "n",
+   "fa": "علم، علوم",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "She wants to study science at university."
+   ]
+  },
+  {
+   "id": "listening:politics",
+   "word": "politics",
+   "pos": "n",
+   "fa": "سیاست، علوم سیاسی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "He is interested in politics."
+   ]
+  },
+  {
+   "id": "listening:history",
+   "word": "history",
+   "pos": "n",
+   "fa": "تاریخ",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "We have a history lecture on Monday."
+   ]
+  },
+  {
+   "id": "listening:biology",
+   "word": "biology",
+   "pos": "n",
+   "fa": "زیست‌شناسی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "Biology is the study of living things."
+   ]
+  },
+  {
+   "id": "listening:architecture",
+   "word": "architecture",
+   "pos": "n",
+   "fa": "معماری",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "He studied architecture in Rome."
+   ]
+  },
+  {
+   "id": "listening:law",
+   "word": "law",
+   "pos": "n",
+   "fa": "حقوق، قانون",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "She is in her second year of law."
+   ]
+  },
+  {
+   "id": "listening:geography",
+   "word": "geography",
+   "pos": "n",
+   "fa": "جغرافیا",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "Our geography teacher took us on a field trip."
+   ]
+  },
+  {
+   "id": "listening:archaeology",
+   "word": "archaeology",
+   "pos": "n",
+   "fa": "باستان‌شناسی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "Archaeology students worked on the dig."
+   ]
+  },
+  {
+   "id": "listening:literature",
+   "word": "literature",
+   "pos": "n",
+   "fa": "ادبیات",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "English literature is my favourite subject."
+   ]
+  },
+  {
+   "id": "listening:business management",
+   "word": "business management",
+   "pos": "n",
+   "fa": "مدیریت بازرگانی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "He has a degree in business management."
+   ]
+  },
+  {
+   "id": "listening:agriculture",
+   "word": "agriculture",
+   "pos": "n",
+   "fa": "کشاورزی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "Agriculture is the main industry in the region."
+   ]
+  },
+  {
+   "id": "listening:statistics",
+   "word": "statistics",
+   "pos": "n",
+   "fa": "آمار (علم آمار)",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "We need statistics for our research project."
+   ]
+  },
+  {
+   "id": "listening:mathematics",
+   "word": "mathematics",
+   "pos": "n",
+   "fa": "ریاضیات",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "Mathematics is a compulsory subject."
+   ]
+  },
+  {
+   "id": "listening:logic",
+   "word": "logic",
+   "pos": "n",
+   "fa": "منطق",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "The course includes an introduction to logic."
+   ]
+  },
+  {
+   "id": "listening:physics",
+   "word": "physics",
+   "pos": "n",
+   "fa": "فیزیک",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "She got top marks in physics."
+   ]
+  },
+  {
+   "id": "listening:psychology",
+   "word": "psychology",
+   "pos": "n",
+   "fa": "روان‌شناسی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "He is doing a psychology degree."
+   ]
+  },
+  {
+   "id": "listening:anthropology",
+   "word": "anthropology",
+   "pos": "n",
+   "fa": "انسان‌شناسی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "Anthropology is the study of human societies."
+   ]
+  },
+  {
+   "id": "listening:economics",
+   "word": "economics",
+   "pos": "n",
+   "fa": "اقتصاد (علم اقتصاد)",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "She teaches economics at the university."
+   ]
+  },
+  {
+   "id": "listening:philosophy",
+   "word": "philosophy",
+   "pos": "n",
+   "fa": "فلسفه",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "Philosophy students discuss big questions."
+   ]
+  },
+  {
+   "id": "listening:performing arts",
+   "word": "performing arts",
+   "pos": "n",
+   "fa": "هنرهای نمایشی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "The college has a performing arts centre."
+   ]
+  },
+  {
+   "id": "listening:visual arts",
+   "word": "visual arts",
+   "pos": "n",
+   "fa": "هنرهای تجسمی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "Painting and sculpture are visual arts."
+   ]
+  },
+  {
+   "id": "listening:chemistry",
+   "word": "chemistry",
+   "pos": "n",
+   "fa": "شیمی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "The chemistry lab is on the second floor."
+   ]
+  },
+  {
+   "id": "listening:humanities",
+   "word": "humanities",
+   "pos": "n",
+   "fa": "علوم انسانی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "History and languages are part of the humanities."
+   ]
+  },
+  {
+   "id": "listening:course outline",
+   "word": "course outline",
+   "pos": "n",
+   "fa": "سرفصل درس، طرح کلی دوره",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The tutor gave us the course outline on the first day."
+   ]
+  },
+  {
+   "id": "listening:group discussion",
+   "word": "group discussion",
+   "pos": "n",
+   "fa": "بحث گروهی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Each seminar ends with a group discussion."
+   ]
+  },
+  {
+   "id": "listening:handout",
+   "word": "handout",
+   "pos": "n",
+   "fa": "جزوه، برگه توزیعی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Please read the handout before the lecture."
+   ]
+  },
+  {
+   "id": "listening:written work",
+   "word": "written work",
+   "pos": "n",
+   "fa": "کار کتبی، تکالیف نوشتاری",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Your written work must be handed in on time."
+   ]
+  },
+  {
+   "id": "listening:report writing",
+   "word": "report writing",
+   "pos": "n",
+   "fa": "گزارش‌نویسی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "There is a workshop on report writing next week."
+   ]
+  },
+  {
+   "id": "listening:research",
+   "word": "research",
+   "pos": "n",
+   "fa": "پژوهش، تحقیق",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "She is doing research on climate change."
+   ]
+  },
+  {
+   "id": "listening:proofreading",
+   "word": "proofreading",
+   "pos": "n",
+   "fa": "نمونه‌خوانی، بازخوانی متن",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Proofreading helps you find spelling mistakes."
+   ]
+  },
+  {
+   "id": "listening:experiment",
+   "word": "experiment",
+   "pos": "n",
+   "fa": "آزمایش",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "We carried out an experiment in the lab."
+   ]
+  },
+  {
+   "id": "listening:experience",
+   "word": "experience",
+   "pos": "n",
+   "fa": "تجربه",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Do you have any experience of teaching?"
+   ]
+  },
+  {
+   "id": "listening:reference",
+   "word": "reference",
+   "pos": "n",
+   "fa": "منبع، ارجاع؛ معرفی‌نامه",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Include a list of references at the end of your essay."
+   ]
+  },
+  {
+   "id": "listening:textbook",
+   "word": "textbook",
+   "pos": "n",
+   "fa": "کتاب درسی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "You can buy the textbook in the campus bookshop."
+   ]
+  },
+  {
+   "id": "listening:dictionary",
+   "word": "dictionary",
+   "pos": "n",
+   "fa": "فرهنگ لغت",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "You may use a dictionary in the exam."
+   ]
+  },
+  {
+   "id": "listening:laptop",
+   "word": "laptop",
+   "pos": "n",
+   "fa": "لپ‌تاپ",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Students can borrow a laptop from the library."
+   ]
+  },
+  {
+   "id": "listening:printer",
+   "word": "printer",
+   "pos": "n",
+   "fa": "چاپگر، پرینتر",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The printer on the first floor is out of order."
+   ]
+  },
+  {
+   "id": "listening:student advisor",
+   "word": "student advisor",
+   "pos": "n",
+   "fa": "مشاور دانشجویی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Make an appointment with your student advisor."
+   ]
+  },
+  {
+   "id": "listening:teamwork",
+   "word": "teamwork",
+   "pos": "n",
+   "fa": "کار گروهی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The project requires good teamwork."
+   ]
+  },
+  {
+   "id": "listening:module",
+   "word": "module",
+   "pos": "n",
+   "fa": "واحد درسی، ماژول",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "This module is assessed by a final exam."
+   ]
+  },
+  {
+   "id": "listening:topic",
+   "word": "topic",
+   "pos": "n",
+   "fa": "موضوع",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Choose a topic for your presentation."
+   ]
+  },
+  {
+   "id": "listening:assessment",
+   "word": "assessment",
+   "pos": "n",
+   "fa": "ارزشیابی، سنجش",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The assessment is based on two essays."
+   ]
+  },
+  {
+   "id": "listening:library",
+   "word": "library",
+   "pos": "n",
+   "fa": "کتابخانه",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The library opens at 8 a.m."
+   ]
+  },
+  {
+   "id": "listening:department",
+   "word": "department",
+   "pos": "n",
+   "fa": "دانشکده، گروه آموزشی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Contact the history department for details."
+   ]
+  },
+  {
+   "id": "listening:computer centre",
+   "word": "computer centre",
+   "pos": "n",
+   "fa": "مرکز رایانه",
+   "def_": "AmE: computer center",
+   "level": 4,
+   "exs": [
+    "The computer centre is next to the library."
+   ]
+  },
+  {
+   "id": "listening:classroom",
+   "word": "classroom",
+   "pos": "n",
+   "fa": "کلاس درس",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The classroom has a new projector."
+   ]
+  },
+  {
+   "id": "listening:lecture",
+   "word": "lecture",
+   "pos": "n",
+   "fa": "سخنرانی، کلاس درس",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The lecture starts at nine o'clock."
+   ]
+  },
+  {
+   "id": "listening:tutor",
+   "word": "tutor",
+   "pos": "n",
+   "fa": "استاد راهنما، مدرس",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "My tutor helped me plan my essay."
+   ]
+  },
+  {
+   "id": "listening:main hall",
+   "word": "main hall",
+   "pos": "n",
+   "fa": "سالن اصلی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The exam will be held in the main hall."
+   ]
+  },
+  {
+   "id": "listening:attendance",
+   "word": "attendance",
+   "pos": "n",
+   "fa": "حضور (در کلاس)",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Attendance at all seminars is compulsory."
+   ]
+  },
+  {
+   "id": "listening:deadline",
+   "word": "deadline",
+   "pos": "n",
+   "fa": "مهلت، آخرین موعد",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The deadline for the assignment is Friday."
+   ]
+  },
+  {
+   "id": "listening:give a talk",
+   "word": "give a talk",
+   "pos": "phr",
+   "fa": "سخنرانی کردن، ارائه دادن",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Each student must give a talk on their project."
+   ]
+  },
+  {
+   "id": "listening:speech",
+   "word": "speech",
+   "pos": "n",
+   "fa": "سخنرانی، نطق",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The principal gave a speech at graduation."
+   ]
+  },
+  {
+   "id": "listening:computer laboratory",
+   "word": "computer laboratory",
+   "pos": "n",
+   "fa": "آزمایشگاه رایانه",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The computer laboratory is open until ten."
+   ]
+  },
+  {
+   "id": "listening:certificate",
+   "word": "certificate",
+   "pos": "n",
+   "fa": "گواهی‌نامه، مدرک",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "You will receive a certificate at the end of the course."
+   ]
+  },
+  {
+   "id": "listening:diploma",
+   "word": "diploma",
+   "pos": "n",
+   "fa": "دیپلم، مدرک تحصیلی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "She has a diploma in nursing."
+   ]
+  },
+  {
+   "id": "listening:placement test",
+   "word": "placement test",
+   "pos": "n",
+   "fa": "آزمون تعیین سطح",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "New students take a placement test."
+   ]
+  },
+  {
+   "id": "listening:overseas students",
+   "word": "overseas students",
+   "pos": "n",
+   "fa": "دانشجویان خارجی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The university has many overseas students."
+   ]
+  },
+  {
+   "id": "listening:facilities",
+   "word": "facilities",
+   "pos": "n",
+   "fa": "امکانات، تسهیلات",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The college has excellent sports facilities."
+   ]
+  },
+  {
+   "id": "listening:college",
+   "word": "college",
+   "pos": "n",
+   "fa": "کالج، دانشکده",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "He goes to college in the city."
+   ]
+  },
+  {
+   "id": "listening:dining room",
+   "word": "dining room",
+   "pos": "n",
+   "fa": "ناهارخوری، اتاق غذاخوری",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Meals are served in the dining room."
+   ]
+  },
+  {
+   "id": "listening:specialist",
+   "word": "specialist",
+   "pos": "n",
+   "fa": "متخصص",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "She is a specialist in child psychology."
+   ]
+  },
+  {
+   "id": "listening:knowledge",
+   "word": "knowledge",
+   "pos": "n",
+   "fa": "دانش، آگاهی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The job requires a good knowledge of computers."
+   ]
+  },
+  {
+   "id": "listening:international",
+   "word": "international",
+   "pos": "adj",
+   "fa": "بین‌المللی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "It is an international conference."
+   ]
+  },
+  {
+   "id": "listening:accommodation",
+   "word": "accommodation",
+   "pos": "n",
+   "fa": "محل اقامت، اسکان",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The university helps students find accommodation."
+   ]
+  },
+  {
+   "id": "listening:home stay",
+   "word": "home stay",
+   "pos": "n",
+   "fa": "اقامت در خانه خانواده میزبان",
+   "def_": "also written: homestay",
+   "level": 4,
+   "exs": [
+    "Many language students choose a home stay."
+   ]
+  },
+  {
+   "id": "listening:primary",
+   "word": "primary",
+   "pos": "adj",
+   "fa": "ابتدایی؛ اصلی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "She teaches at a primary school."
+   ]
+  },
+  {
+   "id": "listening:secondary",
+   "word": "secondary",
+   "pos": "adj",
+   "fa": "متوسطه؛ ثانویه",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "He finished secondary school last year."
+   ]
+  },
+  {
+   "id": "listening:intermediate",
+   "word": "intermediate",
+   "pos": "adj",
+   "fa": "متوسط (سطح)",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "I'm in the intermediate class."
+   ]
+  },
+  {
+   "id": "listening:media room",
+   "word": "media room",
+   "pos": "n",
+   "fa": "اتاق رسانه",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The media room has DVDs and computers."
+   ]
+  },
+  {
+   "id": "listening:resources room",
+   "word": "resources room",
+   "pos": "n",
+   "fa": "اتاق منابع آموزشی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Past papers are kept in the resources room."
+   ]
+  },
+  {
+   "id": "listening:staff",
+   "word": "staff",
+   "pos": "n",
+   "fa": "کارکنان، کادر",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "All staff must wear an ID card."
+   ]
+  },
+  {
+   "id": "listening:commencement",
+   "word": "commencement",
+   "pos": "n",
+   "fa": "آغاز؛ مراسم فارغ‌التحصیلی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The commencement of the course is in October."
+   ]
+  },
+  {
+   "id": "listening:dissertation",
+   "word": "dissertation",
+   "pos": "n",
+   "fa": "پایان‌نامه",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "She is writing her dissertation on urban planning."
+   ]
+  },
+  {
+   "id": "listening:leaflet",
+   "word": "leaflet",
+   "pos": "n",
+   "fa": "بروشور، تراکت",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "You can find more information in this leaflet."
+   ]
+  },
+  {
+   "id": "listening:faculty",
+   "word": "faculty",
+   "pos": "n",
+   "fa": "دانشکده؛ هیئت علمی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The Faculty of Science is in the new building."
+   ]
+  },
+  {
+   "id": "listening:pupils",
+   "word": "pupils",
+   "pos": "n",
+   "fa": "دانش‌آموزان",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The school has about 500 pupils."
+   ]
+  },
+  {
+   "id": "listening:pencil",
+   "word": "pencil",
+   "pos": "n",
+   "fa": "مداد",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Write your answers in pencil."
+   ]
+  },
+  {
+   "id": "listening:feedback",
+   "word": "feedback",
+   "pos": "n",
+   "fa": "بازخورد",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The tutor will give you feedback on your essay."
+   ]
+  },
+  {
+   "id": "listening:tasks",
+   "word": "tasks",
+   "pos": "n",
+   "fa": "وظایف، تکالیف",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Students complete different tasks each week."
+   ]
+  },
+  {
+   "id": "listening:outcomes",
+   "word": "outcomes",
+   "pos": "n",
+   "fa": "نتایج، دستاوردها",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The learning outcomes are listed in the handbook."
+   ]
+  },
+  {
+   "id": "listening:advanced",
+   "word": "advanced",
+   "pos": "adj",
+   "fa": "پیشرفته",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "This is an advanced course in economics."
+   ]
+  },
+  {
+   "id": "listening:introductory",
+   "word": "introductory",
+   "pos": "adj",
+   "fa": "مقدماتی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "There is an introductory session for new students."
+   ]
+  },
+  {
+   "id": "listening:extra background",
+   "word": "extra background",
+   "pos": "n",
+   "fa": "اطلاعات زمینه‌ای بیشتر",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Read chapter two for extra background."
+   ]
+  },
+  {
+   "id": "listening:higher education",
+   "word": "higher education",
+   "pos": "n",
+   "fa": "آموزش عالی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "More people are going into higher education."
+   ]
+  },
+  {
+   "id": "listening:guidelines",
+   "word": "guidelines",
+   "pos": "n",
+   "fa": "رهنمودها، دستورالعمل‌ها",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Follow the guidelines when writing your report."
+   ]
+  },
+  {
+   "id": "listening:post-secondary",
+   "word": "post-secondary",
+   "pos": "adj",
+   "fa": "پس از دوره متوسطه",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "She works in post-secondary education."
+   ]
+  },
+  {
+   "id": "listening:supervisor",
+   "word": "supervisor",
+   "pos": "n",
+   "fa": "سرپرست؛ استاد راهنما",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "My supervisor reads every chapter of my thesis."
+   ]
+  },
+  {
+   "id": "listening:bachelor's degree",
+   "word": "bachelor's degree",
+   "pos": "n",
+   "fa": "مدرک کارشناسی (لیسانس)",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "He has a bachelor's degree in engineering."
+   ]
+  },
+  {
+   "id": "listening:compound",
+   "word": "compound",
+   "pos": "n",
+   "fa": "محوطه؛ ترکیب",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The university compound has its own shops."
+   ]
+  },
+  {
+   "id": "listening:vocabulary",
+   "word": "vocabulary",
+   "pos": "n",
+   "fa": "واژگان",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Reading helps you build your vocabulary."
+   ]
+  },
+  {
+   "id": "listening:student support services",
+   "word": "student support services",
+   "pos": "n",
+   "fa": "خدمات پشتیبانی دانشجویی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Student support services can help with stress."
+   ]
+  },
+  {
+   "id": "listening:student retention",
+   "word": "student retention",
+   "pos": "n",
+   "fa": "حفظ و ماندگاری دانشجویان",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The college is trying to improve student retention."
+   ]
+  },
+  {
+   "id": "listening:publication",
+   "word": "publication",
+   "pos": "n",
+   "fa": "انتشار؛ نشریه",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The report is ready for publication."
+   ]
+  },
+  {
+   "id": "listening:foreign students",
+   "word": "foreign students",
+   "pos": "n",
+   "fa": "دانشجویان خارجی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Foreign students need a student visa."
+   ]
+  },
+  {
+   "id": "listening:schedule",
+   "word": "schedule",
+   "pos": "n",
+   "fa": "برنامه زمانی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Check the schedule for your exam dates."
+   ]
+  },
+  {
+   "id": "listening:school reunion",
+   "word": "school reunion",
+   "pos": "n",
+   "fa": "گردهمایی دانش‌آموختگان مدرسه",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "I met my old friends at the school reunion."
+   ]
+  },
+  {
+   "id": "listening:registrar's office",
+   "word": "registrar's office",
+   "pos": "n",
+   "fa": "اداره ثبت‌نام و امور آموزشی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Get your transcript from the registrar's office."
+   ]
+  },
+  {
+   "id": "listening:stationery",
+   "word": "stationery",
+   "pos": "n",
+   "fa": "لوازم‌التحریر",
+   "def_": "not \"stationary\" (= not moving)",
+   "level": 4,
+   "exs": [
+    "You can buy stationery at the campus shop."
+   ]
+  },
+  {
+   "id": "listening:catalogue",
+   "word": "catalogue",
+   "pos": "n",
+   "fa": "کاتالوگ",
+   "def_": "AmE: catalog",
+   "level": 5,
+   "exs": [
+    "Our new catalogue will be out in May."
+   ]
+  },
+  {
+   "id": "listening:interview",
+   "word": "interview",
+   "pos": "n",
+   "fa": "مصاحبه",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "We conducted interviews with fifty customers."
+   ]
+  },
+  {
+   "id": "listening:newsletter",
+   "word": "newsletter",
+   "pos": "n",
+   "fa": "خبرنامه",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "Sign up for our monthly newsletter."
+   ]
+  },
+  {
+   "id": "listening:competition",
+   "word": "competition",
+   "pos": "n",
+   "fa": "رقابت؛ مسابقه",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "There is strong competition between the two companies."
+   ]
+  },
+  {
+   "id": "listening:tv program",
+   "word": "TV program",
+   "pos": "n",
+   "fa": "برنامه تلویزیونی",
+   "def_": "BrE: TV programme",
+   "level": 5,
+   "exs": [
+    "The product was advertised on a TV program."
+   ]
+  },
+  {
+   "id": "listening:strategies",
+   "word": "strategies",
+   "pos": "n",
+   "fa": "راهبردها، استراتژی‌ها",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "We need new marketing strategies."
+   ]
+  },
+  {
+   "id": "listening:research method",
+   "word": "research method",
+   "pos": "n",
+   "fa": "روش تحقیق",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "A survey is a common research method."
+   ]
+  },
+  {
+   "id": "listening:entertainment industry",
+   "word": "entertainment industry",
+   "pos": "n",
+   "fa": "صنعت سرگرمی",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "She works in the entertainment industry."
+   ]
+  },
+  {
+   "id": "listening:leadership",
+   "word": "leadership",
+   "pos": "n",
+   "fa": "رهبری",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "The course develops leadership skills."
+   ]
+  },
+  {
+   "id": "listening:management",
+   "word": "management",
+   "pos": "n",
+   "fa": "مدیریت",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "The management decided to cut prices."
+   ]
+  },
+  {
+   "id": "listening:display",
+   "word": "display",
+   "pos": "n",
+   "fa": "نمایش، ویترین",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "The new products are on display near the entrance."
+   ]
+  },
+  {
+   "id": "listening:products",
+   "word": "products",
+   "pos": "n",
+   "fa": "محصولات",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "The company sells organic products."
+   ]
+  },
+  {
+   "id": "listening:customer",
+   "word": "customer",
+   "pos": "n",
+   "fa": "مشتری",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "The customer is always right."
+   ]
+  },
+  {
+   "id": "listening:special offer",
+   "word": "special offer",
+   "pos": "n",
+   "fa": "پیشنهاد ویژه، حراج",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "These shoes are on special offer this week."
+   ]
+  },
+  {
+   "id": "listening:collecting data",
+   "word": "collecting data",
+   "pos": "phr",
+   "fa": "جمع‌آوری داده",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "We spent a month collecting data."
+   ]
+  },
+  {
+   "id": "listening:questionnaire",
+   "word": "questionnaire",
+   "pos": "n",
+   "fa": "پرسش‌نامه",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "Please fill in this questionnaire."
+   ]
+  },
+  {
+   "id": "listening:survey",
+   "word": "survey",
+   "pos": "n",
+   "fa": "نظرسنجی، بررسی",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "A survey of 500 shoppers was carried out."
+   ]
+  },
+  {
+   "id": "listening:mass media",
+   "word": "mass media",
+   "pos": "n",
+   "fa": "رسانه‌های جمعی",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "Advertising in the mass media is expensive."
+   ]
+  },
+  {
+   "id": "listening:statistic",
+   "word": "statistic",
+   "pos": "n",
+   "fa": "آمار، رقم آماری",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "One surprising statistic is that most buyers are under 30."
+   ]
+  },
+  {
+   "id": "listening:profit margin",
+   "word": "profit margin",
+   "pos": "n",
+   "fa": "حاشیه سود",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "The profit margin on these items is small."
+   ]
+  },
+  {
+   "id": "listening:poll",
+   "word": "poll",
+   "pos": "n",
+   "fa": "نظرسنجی",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "A recent poll shows that prices are the main concern."
+   ]
+  },
+  {
+   "id": "listening:business card",
+   "word": "business card",
+   "pos": "n",
+   "fa": "کارت ویزیت",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "Here's my business card."
+   ]
+  },
+  {
+   "id": "listening:training",
+   "word": "training",
+   "pos": "n",
+   "fa": "آموزش، کارآموزی",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "All new staff receive training."
+   ]
+  },
+  {
+   "id": "listening:trainee",
+   "word": "trainee",
+   "pos": "n",
+   "fa": "کارآموز",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "She started as a trainee in the sales department."
+   ]
+  },
+  {
+   "id": "listening:merchandise",
+   "word": "merchandise",
+   "pos": "n",
+   "fa": "کالا، اجناس",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "The shop sells football merchandise."
+   ]
+  },
+  {
+   "id": "listening:manufacture",
+   "word": "manufacture",
+   "pos": "v",
+   "fa": "تولید کردن، ساختن",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "The company manufactures sports equipment."
+   ]
+  },
+  {
+   "id": "listening:recruitment",
+   "word": "recruitment",
+   "pos": "n",
+   "fa": "استخدام، جذب نیرو",
+   "def_": "",
+   "level": 5,
+   "exs": [
+    "The recruitment of new staff begins next month."
+   ]
+  },
+  {
+   "id": "listening:yoga",
+   "word": "yoga",
+   "pos": "n",
+   "fa": "یوگا",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "She does yoga every morning."
+   ]
+  },
+  {
+   "id": "listening:tai-chi",
+   "word": "tai-chi",
+   "pos": "n",
+   "fa": "تای‌چی",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Tai-chi classes are held in the park."
+   ]
+  },
+  {
+   "id": "listening:keep-fit",
+   "word": "keep-fit",
+   "pos": "n",
+   "fa": "ورزش برای تناسب اندام",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "The centre runs keep-fit classes for older people."
+   ]
+  },
+  {
+   "id": "listening:salad bar",
+   "word": "salad bar",
+   "pos": "n",
+   "fa": "سالادبار",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "The canteen has a salad bar."
+   ]
+  },
+  {
+   "id": "listening:vegetarian",
+   "word": "vegetarian",
+   "pos": "adj",
+   "fa": "گیاه‌خوار؛ گیاهی",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Is there a vegetarian option on the menu?"
+   ]
+  },
+  {
+   "id": "listening:outdoor activities",
+   "word": "outdoor activities",
+   "pos": "n",
+   "fa": "فعالیت‌های فضای باز",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "The camp offers lots of outdoor activities."
+   ]
+  },
+  {
+   "id": "listening:leisure time",
+   "word": "leisure time",
+   "pos": "n",
+   "fa": "اوقات فراغت",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "How do you spend your leisure time?"
+   ]
+  },
+  {
+   "id": "listening:disease",
+   "word": "disease",
+   "pos": "n",
+   "fa": "بیماری",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Heart disease is a major health problem."
+   ]
+  },
+  {
+   "id": "listening:meal",
+   "word": "meal",
+   "pos": "n",
+   "fa": "وعده غذایی",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Try to eat three meals a day."
+   ]
+  },
+  {
+   "id": "listening:protein",
+   "word": "protein",
+   "pos": "n",
+   "fa": "پروتئین",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Eggs are a good source of protein."
+   ]
+  },
+  {
+   "id": "listening:balanced diet",
+   "word": "balanced diet",
+   "pos": "n",
+   "fa": "رژیم غذایی متعادل",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "A balanced diet includes fruit and vegetables."
+   ]
+  },
+  {
+   "id": "listening:food pyramid",
+   "word": "food pyramid",
+   "pos": "n",
+   "fa": "هرم غذایی",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "The food pyramid shows what we should eat."
+   ]
+  },
+  {
+   "id": "listening:vitamin",
+   "word": "vitamin",
+   "pos": "n",
+   "fa": "ویتامین",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Oranges are rich in vitamin C."
+   ]
+  },
+  {
+   "id": "listening:carbohydrates",
+   "word": "carbohydrates",
+   "pos": "n",
+   "fa": "کربوهیدرات‌ها",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Bread and pasta contain carbohydrates."
+   ]
+  },
+  {
+   "id": "listening:rice",
+   "word": "rice",
+   "pos": "n",
+   "fa": "برنج",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Rice is the main food in many countries."
+   ]
+  },
+  {
+   "id": "listening:pasta",
+   "word": "pasta",
+   "pos": "n",
+   "fa": "پاستا، ماکارونی",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "We had pasta for dinner."
+   ]
+  },
+  {
+   "id": "listening:potatoes",
+   "word": "potatoes",
+   "pos": "n",
+   "fa": "سیب‌زمینی‌ها",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Boil the potatoes for twenty minutes."
+   ]
+  },
+  {
+   "id": "listening:pizza",
+   "word": "pizza",
+   "pos": "n",
+   "fa": "پیتزا",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Let's order a pizza."
+   ]
+  },
+  {
+   "id": "listening:tomatoes",
+   "word": "tomatoes",
+   "pos": "n",
+   "fa": "گوجه‌فرنگی‌ها",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Tomatoes are full of vitamins."
+   ]
+  },
+  {
+   "id": "listening:bread",
+   "word": "bread",
+   "pos": "n",
+   "fa": "نان",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "We buy fresh bread every morning."
+   ]
+  },
+  {
+   "id": "listening:cereals",
+   "word": "cereals",
+   "pos": "n",
+   "fa": "غلات؛ غلات صبحانه",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Cereals such as wheat and oats are healthy."
+   ]
+  },
+  {
+   "id": "listening:minerals",
+   "word": "minerals",
+   "pos": "n",
+   "fa": "مواد معدنی",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Milk contains important minerals like calcium."
+   ]
+  },
+  {
+   "id": "listening:zinc",
+   "word": "zinc",
+   "pos": "n",
+   "fa": "روی (فلز)",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Zinc helps the body fight infection."
+   ]
+  },
+  {
+   "id": "listening:meat",
+   "word": "meat",
+   "pos": "n",
+   "fa": "گوشت",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "He doesn't eat red meat."
+   ]
+  },
+  {
+   "id": "listening:seafood",
+   "word": "seafood",
+   "pos": "n",
+   "fa": "غذای دریایی",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "The restaurant is famous for its seafood."
+   ]
+  },
+  {
+   "id": "listening:eggs",
+   "word": "eggs",
+   "pos": "n",
+   "fa": "تخم‌مرغ‌ها",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "She had two boiled eggs for breakfast."
+   ]
+  },
+  {
+   "id": "listening:beans",
+   "word": "beans",
+   "pos": "n",
+   "fa": "لوبیا",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Beans are a cheap source of protein."
+   ]
+  },
+  {
+   "id": "listening:milk",
+   "word": "milk",
+   "pos": "n",
+   "fa": "شیر",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Children should drink milk every day."
+   ]
+  },
+  {
+   "id": "listening:cheese",
+   "word": "cheese",
+   "pos": "n",
+   "fa": "پنیر",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Would you like some cheese?"
+   ]
+  },
+  {
+   "id": "listening:yoghurt",
+   "word": "yoghurt",
+   "pos": "n",
+   "fa": "ماست",
+   "def_": "AmE: yogurt",
+   "level": 6,
+   "exs": [
+    "Yoghurt is good for your digestion."
+   ]
+  },
+  {
+   "id": "listening:fruit",
+   "word": "fruit",
+   "pos": "n",
+   "fa": "میوه",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Eat plenty of fresh fruit."
+   ]
+  },
+  {
+   "id": "listening:vegetables",
+   "word": "vegetables",
+   "pos": "n",
+   "fa": "سبزیجات",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Vegetables should be part of every meal."
+   ]
+  },
+  {
+   "id": "listening:citrus fruits",
+   "word": "citrus fruits",
+   "pos": "n",
+   "fa": "مرکبات",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Citrus fruits like lemons contain vitamin C."
+   ]
+  },
+  {
+   "id": "listening:green pepper",
+   "word": "green pepper",
+   "pos": "n",
+   "fa": "فلفل دلمه‌ای سبز",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Add a chopped green pepper to the salad."
+   ]
+  },
+  {
+   "id": "listening:blackcurrant",
+   "word": "blackcurrant",
+   "pos": "n",
+   "fa": "انگور فرنگی سیاه",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Blackcurrant juice is rich in vitamin C."
+   ]
+  },
+  {
+   "id": "listening:nuts",
+   "word": "nuts",
+   "pos": "n",
+   "fa": "آجیل، مغزها",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Nuts are a healthy snack."
+   ]
+  },
+  {
+   "id": "listening:egg yolk",
+   "word": "egg yolk",
+   "pos": "n",
+   "fa": "زرده تخم‌مرغ",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Egg yolk contains vitamin D."
+   ]
+  },
+  {
+   "id": "listening:liver",
+   "word": "liver",
+   "pos": "n",
+   "fa": "جگر، کبد",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Liver is a good source of iron."
+   ]
+  },
+  {
+   "id": "listening:medicine",
+   "word": "medicine",
+   "pos": "n",
+   "fa": "دارو؛ پزشکی",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Take this medicine twice a day."
+   ]
+  },
+  {
+   "id": "listening:treatment",
+   "word": "treatment",
+   "pos": "n",
+   "fa": "درمان",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "The new treatment was very successful."
+   ]
+  },
+  {
+   "id": "listening:remedy",
+   "word": "remedy",
+   "pos": "n",
+   "fa": "درمان، چاره",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Honey is a traditional remedy for a sore throat."
+   ]
+  },
+  {
+   "id": "listening:nursing care",
+   "word": "nursing care",
+   "pos": "n",
+   "fa": "مراقبت پرستاری",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Elderly patients need nursing care."
+   ]
+  },
+  {
+   "id": "listening:nursery",
+   "word": "nursery",
+   "pos": "n",
+   "fa": "مهدکودک؛ نوزادان",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "My daughter goes to a nursery near our house."
+   ]
+  },
+  {
+   "id": "listening:regular exercise",
+   "word": "regular exercise",
+   "pos": "n",
+   "fa": "ورزش منظم",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Regular exercise keeps you healthy."
+   ]
+  },
+  {
+   "id": "listening:field",
+   "word": "field",
+   "pos": "n",
+   "fa": "مزرعه، کشتزار؛ زمین بازی",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "Cows were grazing in the field."
+   ]
+  },
+  {
+   "id": "listening:footbridge",
+   "word": "footbridge",
+   "pos": "n",
+   "fa": "پل عابر پیاده",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "Cross the river by the footbridge."
+   ]
+  },
+  {
+   "id": "listening:environment",
+   "word": "environment",
+   "pos": "n",
+   "fa": "محیط زیست، محیط",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "We must protect the environment."
+   ]
+  },
+  {
+   "id": "listening:waterfall",
+   "word": "waterfall",
+   "pos": "n",
+   "fa": "آبشار",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The waterfall is fifty metres high."
+   ]
+  },
+  {
+   "id": "listening:river",
+   "word": "river",
+   "pos": "n",
+   "fa": "رودخانه",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The river flows through the city."
+   ]
+  },
+  {
+   "id": "listening:mountain",
+   "word": "mountain",
+   "pos": "n",
+   "fa": "کوه",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "They climbed the highest mountain in Wales."
+   ]
+  },
+  {
+   "id": "listening:forest",
+   "word": "forest",
+   "pos": "n",
+   "fa": "جنگل",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The forest is home to many birds."
+   ]
+  },
+  {
+   "id": "listening:village",
+   "word": "village",
+   "pos": "n",
+   "fa": "روستا، دهکده",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "They live in a small village."
+   ]
+  },
+  {
+   "id": "listening:coast",
+   "word": "coast",
+   "pos": "n",
+   "fa": "ساحل، کرانه",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "We drove along the coast."
+   ]
+  },
+  {
+   "id": "listening:reef",
+   "word": "reef",
+   "pos": "n",
+   "fa": "صخره مرجانی، آب‌سنگ",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The Great Barrier Reef is in Australia."
+   ]
+  },
+  {
+   "id": "listening:lake",
+   "word": "lake",
+   "pos": "n",
+   "fa": "دریاچه",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "We went swimming in the lake."
+   ]
+  },
+  {
+   "id": "listening:valley",
+   "word": "valley",
+   "pos": "n",
+   "fa": "دره",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The village lies in a green valley."
+   ]
+  },
+  {
+   "id": "listening:hill",
+   "word": "hill",
+   "pos": "n",
+   "fa": "تپه",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The castle stands on a hill."
+   ]
+  },
+  {
+   "id": "listening:cliff",
+   "word": "cliff",
+   "pos": "n",
+   "fa": "صخره، پرتگاه",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "Don't walk too close to the edge of the cliff."
+   ]
+  },
+  {
+   "id": "listening:island",
+   "word": "island",
+   "pos": "n",
+   "fa": "جزیره",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The island can only be reached by boat."
+   ]
+  },
+  {
+   "id": "listening:peninsula",
+   "word": "peninsula",
+   "pos": "n",
+   "fa": "شبه‌جزیره",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The hotel is on a small peninsula."
+   ]
+  },
+  {
+   "id": "listening:earthquake",
+   "word": "earthquake",
+   "pos": "n",
+   "fa": "زلزله",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The earthquake destroyed many buildings."
+   ]
+  },
+  {
+   "id": "listening:avalanche",
+   "word": "avalanche",
+   "pos": "n",
+   "fa": "بهمن",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The avalanche blocked the mountain road."
+   ]
+  },
+  {
+   "id": "listening:tornado",
+   "word": "tornado",
+   "pos": "n",
+   "fa": "گردباد",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "A tornado hit the town last night."
+   ]
+  },
+  {
+   "id": "listening:typhoon",
+   "word": "typhoon",
+   "pos": "n",
+   "fa": "توفان (طوفان استوایی آسیا)",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The typhoon caused serious flooding."
+   ]
+  },
+  {
+   "id": "listening:desertification",
+   "word": "desertification",
+   "pos": "n",
+   "fa": "بیابان‌زایی",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "Desertification is a growing problem in Africa."
+   ]
+  },
+  {
+   "id": "listening:volcano",
+   "word": "volcano",
+   "pos": "n",
+   "fa": "آتشفشان",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The volcano last erupted in 1980."
+   ]
+  },
+  {
+   "id": "listening:disaster",
+   "word": "disaster",
+   "pos": "n",
+   "fa": "فاجعه، بلا",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The flood was a natural disaster."
+   ]
+  },
+  {
+   "id": "listening:catastrophe",
+   "word": "catastrophe",
+   "pos": "n",
+   "fa": "فاجعه بزرگ",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The oil spill was an environmental catastrophe."
+   ]
+  },
+  {
+   "id": "listening:erosion",
+   "word": "erosion",
+   "pos": "n",
+   "fa": "فرسایش",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "Trees help prevent soil erosion."
+   ]
+  },
+  {
+   "id": "listening:landslides",
+   "word": "landslides",
+   "pos": "n",
+   "fa": "رانش‌های زمین",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "Heavy rain caused landslides in the hills."
+   ]
+  },
+  {
+   "id": "listening:storm",
+   "word": "storm",
+   "pos": "n",
+   "fa": "طوفان",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The storm damaged several roofs."
+   ]
+  },
+  {
+   "id": "listening:flood",
+   "word": "flood",
+   "pos": "n",
+   "fa": "سیل",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The flood destroyed many homes."
+   ]
+  },
+  {
+   "id": "listening:hurricane",
+   "word": "hurricane",
+   "pos": "n",
+   "fa": "توفند، هاریکن",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The hurricane reached the coast on Monday."
+   ]
+  },
+  {
+   "id": "listening:pond",
+   "word": "pond",
+   "pos": "n",
+   "fa": "برکه، آبگیر",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "There are fish in the pond."
+   ]
+  },
+  {
+   "id": "listening:jungle",
+   "word": "jungle",
+   "pos": "n",
+   "fa": "جنگل انبوه (استوایی)",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "Tigers live in the jungle."
+   ]
+  },
+  {
+   "id": "listening:oasis",
+   "word": "oasis",
+   "pos": "n",
+   "fa": "واحه",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The travellers stopped at an oasis."
+   ]
+  },
+  {
+   "id": "listening:dam",
+   "word": "dam",
+   "pos": "n",
+   "fa": "سد",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The dam provides electricity for the region."
+   ]
+  },
+  {
+   "id": "listening:canyon",
+   "word": "canyon",
+   "pos": "n",
+   "fa": "دره عمیق، تنگه",
+   "def_": "",
+   "level": 7,
+   "exs": [
+    "The Grand Canyon is in Arizona."
+   ]
+  },
+  {
+   "id": "listening:greenhouse effect",
+   "word": "greenhouse effect",
+   "pos": "n",
+   "fa": "اثر گلخانه‌ای",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "The greenhouse effect is warming the planet."
+   ]
+  },
+  {
+   "id": "listening:acid rain",
+   "word": "acid rain",
+   "pos": "n",
+   "fa": "باران اسیدی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Acid rain damages forests and lakes."
+   ]
+  },
+  {
+   "id": "listening:global warming",
+   "word": "global warming",
+   "pos": "n",
+   "fa": "گرمایش جهانی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Global warming is causing sea levels to rise."
+   ]
+  },
+  {
+   "id": "listening:carbon dioxide",
+   "word": "carbon dioxide",
+   "pos": "n",
+   "fa": "دی‌اکسید کربن",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Cars produce carbon dioxide."
+   ]
+  },
+  {
+   "id": "listening:burning fossil fuels",
+   "word": "burning fossil fuels",
+   "pos": "phr",
+   "fa": "سوزاندن سوخت‌های فسیلی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Burning fossil fuels pollutes the air."
+   ]
+  },
+  {
+   "id": "listening:exhaust fumes",
+   "word": "exhaust fumes",
+   "pos": "n",
+   "fa": "دود اگزوز",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Exhaust fumes from cars harm our health."
+   ]
+  },
+  {
+   "id": "listening:deforestation",
+   "word": "deforestation",
+   "pos": "n",
+   "fa": "جنگل‌زدایی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Deforestation destroys animal habitats."
+   ]
+  },
+  {
+   "id": "listening:nitrogen oxide",
+   "word": "nitrogen oxide",
+   "pos": "n",
+   "fa": "اکسید نیتروژن",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Power stations release nitrogen oxide."
+   ]
+  },
+  {
+   "id": "listening:smog",
+   "word": "smog",
+   "pos": "n",
+   "fa": "مه‌دود",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "The city is often covered in smog."
+   ]
+  },
+  {
+   "id": "listening:climate",
+   "word": "climate",
+   "pos": "n",
+   "fa": "آب‌وهوا، اقلیم",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "The climate here is mild."
+   ]
+  },
+  {
+   "id": "listening:pollution",
+   "word": "pollution",
+   "pos": "n",
+   "fa": "آلودگی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Air pollution is a serious problem in big cities."
+   ]
+  },
+  {
+   "id": "listening:temperature",
+   "word": "temperature",
+   "pos": "n",
+   "fa": "دما",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "The temperature dropped below zero."
+   ]
+  },
+  {
+   "id": "listening:power plants",
+   "word": "power plants",
+   "pos": "n",
+   "fa": "نیروگاه‌ها",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Coal power plants are being closed down."
+   ]
+  },
+  {
+   "id": "listening:landfill",
+   "word": "landfill",
+   "pos": "n",
+   "fa": "محل دفن زباله",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Most of our rubbish ends up in landfill."
+   ]
+  },
+  {
+   "id": "listening:cattle",
+   "word": "cattle",
+   "pos": "n",
+   "fa": "گاو و گوساله، احشام",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Cattle produce large amounts of methane."
+   ]
+  },
+  {
+   "id": "listening:wind turbine",
+   "word": "wind turbine",
+   "pos": "n",
+   "fa": "توربین بادی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "A wind turbine converts wind into electricity."
+   ]
+  },
+  {
+   "id": "listening:solar power",
+   "word": "solar power",
+   "pos": "n",
+   "fa": "انرژی خورشیدی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Solar power is a clean source of energy."
+   ]
+  },
+  {
+   "id": "listening:hydroelectric power",
+   "word": "hydroelectric power",
+   "pos": "n",
+   "fa": "نیروی برق‌آبی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "The dam produces hydroelectric power."
+   ]
+  },
+  {
+   "id": "listening:renewable",
+   "word": "renewable",
+   "pos": "adj",
+   "fa": "تجدیدپذیر",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Wind is a renewable energy source."
+   ]
+  },
+  {
+   "id": "listening:source of energy",
+   "word": "source of energy",
+   "pos": "n",
+   "fa": "منبع انرژی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Oil is still the main source of energy."
+   ]
+  },
+  {
+   "id": "listening:reliable",
+   "word": "reliable",
+   "pos": "adj",
+   "fa": "قابل اعتماد",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Solar energy is not always reliable."
+   ]
+  },
+  {
+   "id": "listening:solar panels",
+   "word": "solar panels",
+   "pos": "n",
+   "fa": "صفحات خورشیدی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "We put solar panels on the roof."
+   ]
+  },
+  {
+   "id": "listening:environmentally friendly",
+   "word": "environmentally friendly",
+   "pos": "adj",
+   "fa": "سازگار با محیط زیست",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "These bags are environmentally friendly."
+   ]
+  },
+  {
+   "id": "listening:oxygen",
+   "word": "oxygen",
+   "pos": "n",
+   "fa": "اکسیژن",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Plants produce oxygen."
+   ]
+  },
+  {
+   "id": "listening:chemical-free",
+   "word": "chemical-free",
+   "pos": "adj",
+   "fa": "بدون مواد شیمیایی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "The farm grows chemical-free vegetables."
+   ]
+  },
+  {
+   "id": "listening:desert",
+   "word": "desert",
+   "pos": "n",
+   "fa": "بیابان، صحرا",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Very little rain falls in the desert."
+   ]
+  },
+  {
+   "id": "listening:degradation",
+   "word": "degradation",
+   "pos": "n",
+   "fa": "تخریب، تنزل",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Land degradation reduces food production."
+   ]
+  },
+  {
+   "id": "listening:vegetation",
+   "word": "vegetation",
+   "pos": "n",
+   "fa": "پوشش گیاهی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "The hills are covered in thick vegetation."
+   ]
+  },
+  {
+   "id": "listening:sea level",
+   "word": "sea level",
+   "pos": "n",
+   "fa": "سطح دریا",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "The town is two metres above sea level."
+   ]
+  },
+  {
+   "id": "listening:ocean currents",
+   "word": "ocean currents",
+   "pos": "n",
+   "fa": "جریان‌های اقیانوسی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Ocean currents affect the climate."
+   ]
+  },
+  {
+   "id": "listening:soil conditioner",
+   "word": "soil conditioner",
+   "pos": "n",
+   "fa": "بهساز خاک",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Compost is an excellent soil conditioner."
+   ]
+  },
+  {
+   "id": "listening:coal",
+   "word": "coal",
+   "pos": "n",
+   "fa": "زغال‌سنگ",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Coal is a fossil fuel."
+   ]
+  },
+  {
+   "id": "listening:fossil fuels",
+   "word": "fossil fuels",
+   "pos": "n",
+   "fa": "سوخت‌های فسیلی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Oil, gas and coal are fossil fuels."
+   ]
+  },
+  {
+   "id": "listening:firewood",
+   "word": "firewood",
+   "pos": "n",
+   "fa": "هیزم",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "They collected firewood for the fire."
+   ]
+  },
+  {
+   "id": "listening:drought",
+   "word": "drought",
+   "pos": "n",
+   "fa": "خشکسالی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "The drought killed most of the crops."
+   ]
+  },
+  {
+   "id": "listening:contaminated",
+   "word": "contaminated",
+   "pos": "adj",
+   "fa": "آلوده",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "The water was contaminated with chemicals."
+   ]
+  },
+  {
+   "id": "listening:birds of prey",
+   "word": "birds of prey",
+   "pos": "n",
+   "fa": "پرندگان شکاری",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Eagles and owls are birds of prey."
+   ]
+  },
+  {
+   "id": "listening:seabirds",
+   "word": "seabirds",
+   "pos": "n",
+   "fa": "پرندگان دریایی",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Thousands of seabirds nest on the cliffs."
+   ]
+  },
+  {
+   "id": "listening:poultry and game",
+   "word": "poultry and game",
+   "pos": "n",
+   "fa": "ماکیان و گوشت شکار",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The butcher sells poultry and game."
+   ]
+  },
+  {
+   "id": "listening:mammals",
+   "word": "mammals",
+   "pos": "n",
+   "fa": "پستانداران",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Whales and dolphins are mammals."
+   ]
+  },
+  {
+   "id": "listening:cetacean",
+   "word": "cetacean",
+   "pos": "n",
+   "fa": "آب‌بازسان (نهنگ‌ها و دلفین‌ها)",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "A dolphin is a type of cetacean."
+   ]
+  },
+  {
+   "id": "listening:whale",
+   "word": "whale",
+   "pos": "n",
+   "fa": "نهنگ، وال",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The blue whale is the largest animal on Earth."
+   ]
+  },
+  {
+   "id": "listening:primates",
+   "word": "primates",
+   "pos": "n",
+   "fa": "نخستی‌ها (پریمات‌ها)",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Monkeys and apes are primates."
+   ]
+  },
+  {
+   "id": "listening:rodents",
+   "word": "rodents",
+   "pos": "n",
+   "fa": "جوندگان",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Rats and mice are rodents."
+   ]
+  },
+  {
+   "id": "listening:fish",
+   "word": "fish",
+   "pos": "n",
+   "fa": "ماهی",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The lake is full of fish."
+   ]
+  },
+  {
+   "id": "listening:amphibian",
+   "word": "amphibian",
+   "pos": "n",
+   "fa": "دوزیست",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "A frog is an amphibian."
+   ]
+  },
+  {
+   "id": "listening:reptile",
+   "word": "reptile",
+   "pos": "n",
+   "fa": "خزنده",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Snakes and lizards are reptiles."
+   ]
+  },
+  {
+   "id": "listening:insects",
+   "word": "insects",
+   "pos": "n",
+   "fa": "حشرات",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Bees and ants are insects."
+   ]
+  },
+  {
+   "id": "listening:octopus",
+   "word": "octopus",
+   "pos": "n",
+   "fa": "اختاپوس",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "An octopus has eight arms."
+   ]
+  },
+  {
+   "id": "listening:phylum",
+   "word": "phylum",
+   "pos": "n",
+   "fa": "شاخه (رده‌بندی جانوران)",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Insects belong to the phylum Arthropoda."
+   ]
+  },
+  {
+   "id": "listening:class",
+   "word": "class",
+   "pos": "n",
+   "fa": "رده (رده‌بندی زیستی)",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Birds form a class of animals."
+   ]
+  },
+  {
+   "id": "listening:order",
+   "word": "order",
+   "pos": "n",
+   "fa": "راسته (رده‌بندی زیستی)",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Bats belong to a different order from rodents."
+   ]
+  },
+  {
+   "id": "listening:family",
+   "word": "family",
+   "pos": "n",
+   "fa": "تیره، خانواده (رده‌بندی زیستی)",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Lions and tigers are in the cat family."
+   ]
+  },
+  {
+   "id": "listening:genus",
+   "word": "genus",
+   "pos": "n",
+   "fa": "سرده، جنس (رده‌بندی زیستی)",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Lions belong to the genus Panthera."
+   ]
+  },
+  {
+   "id": "listening:species",
+   "word": "species",
+   "pos": "n",
+   "fa": "گونه",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "This species of frog is very rare."
+   ]
+  },
+  {
+   "id": "listening:livestock",
+   "word": "livestock",
+   "pos": "n",
+   "fa": "دام، احشام",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The farmers keep livestock such as sheep and goats."
+   ]
+  },
+  {
+   "id": "listening:creature",
+   "word": "creature",
+   "pos": "n",
+   "fa": "موجود، جانور",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The forest is full of strange creatures."
+   ]
+  },
+  {
+   "id": "listening:lion",
+   "word": "lion",
+   "pos": "n",
+   "fa": "شیر (جانور)",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The lion is known as the king of the jungle."
+   ]
+  },
+  {
+   "id": "listening:penguin",
+   "word": "penguin",
+   "pos": "n",
+   "fa": "پنگوئن",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Penguins cannot fly."
+   ]
+  },
+  {
+   "id": "listening:mushroom",
+   "word": "mushroom",
+   "pos": "n",
+   "fa": "قارچ (خوراکی)",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Some wild mushrooms are poisonous."
+   ]
+  },
+  {
+   "id": "listening:fungus",
+   "word": "fungus",
+   "pos": "n",
+   "fa": "قارچ (عمومی)",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "A fungus is growing on the tree."
+   ]
+  },
+  {
+   "id": "listening:leaves",
+   "word": "leaves",
+   "pos": "n",
+   "fa": "برگ‌ها",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The leaves turn red in autumn."
+   ]
+  },
+  {
+   "id": "listening:seed",
+   "word": "seed",
+   "pos": "n",
+   "fa": "دانه، بذر",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Plant the seeds in spring."
+   ]
+  },
+  {
+   "id": "listening:core",
+   "word": "core",
+   "pos": "n",
+   "fa": "مغز میوه، هسته",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Throw the apple core in the bin."
+   ]
+  },
+  {
+   "id": "listening:bark",
+   "word": "bark",
+   "pos": "n",
+   "fa": "پوست درخت",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The bark of this tree is used in medicine."
+   ]
+  },
+  {
+   "id": "listening:trunk",
+   "word": "trunk",
+   "pos": "n",
+   "fa": "تنه درخت",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The tree has a very thick trunk."
+   ]
+  },
+  {
+   "id": "listening:twig",
+   "word": "twig",
+   "pos": "n",
+   "fa": "ترکه، شاخه کوچک",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Birds use twigs to build nests."
+   ]
+  },
+  {
+   "id": "listening:branch",
+   "word": "branch",
+   "pos": "n",
+   "fa": "شاخه",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "A bird was sitting on a branch."
+   ]
+  },
+  {
+   "id": "listening:flower",
+   "word": "flower",
+   "pos": "n",
+   "fa": "گل",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "This flower only opens at night."
+   ]
+  },
+  {
+   "id": "listening:stem",
+   "word": "stem",
+   "pos": "n",
+   "fa": "ساقه",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Cut the stems before putting the flowers in water."
+   ]
+  },
+  {
+   "id": "listening:roots",
+   "word": "roots",
+   "pos": "n",
+   "fa": "ریشه‌ها",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The roots take water from the soil."
+   ]
+  },
+  {
+   "id": "listening:cluster",
+   "word": "cluster",
+   "pos": "n",
+   "fa": "خوشه، دسته",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The grapes grow in clusters."
+   ]
+  },
+  {
+   "id": "listening:fertilizer",
+   "word": "fertilizer",
+   "pos": "n",
+   "fa": "کود",
+   "def_": "BrE also: fertiliser",
+   "level": 9,
+   "exs": [
+    "Farmers use fertilizer to improve their crops."
+   ]
+  },
+  {
+   "id": "listening:south america",
+   "word": "South America",
+   "pos": "n",
+   "fa": "آمریکای جنوبی",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Brazil is the largest country in South America."
+   ]
+  },
+  {
+   "id": "listening:north america",
+   "word": "North America",
+   "pos": "n",
+   "fa": "آمریکای شمالی",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Canada is in North America."
+   ]
+  },
+  {
+   "id": "listening:africa",
+   "word": "Africa",
+   "pos": "n",
+   "fa": "آفریقا",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Africa is the second largest continent."
+   ]
+  },
+  {
+   "id": "listening:asia",
+   "word": "Asia",
+   "pos": "n",
+   "fa": "آسیا",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Asia has the largest population."
+   ]
+  },
+  {
+   "id": "listening:europe",
+   "word": "Europe",
+   "pos": "n",
+   "fa": "اروپا",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "She is travelling around Europe this summer."
+   ]
+  },
+  {
+   "id": "listening:australia",
+   "word": "Australia",
+   "pos": "n",
+   "fa": "استرالیا",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Australia is both a country and a continent."
+   ]
+  },
+  {
+   "id": "listening:antarctica",
+   "word": "Antarctica",
+   "pos": "n",
+   "fa": "جنوبگان (قطب جنوب)",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Antarctica is the coldest continent."
+   ]
+  },
+  {
+   "id": "listening:egypt",
+   "word": "Egypt",
+   "pos": "n",
+   "fa": "مصر",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "The pyramids are in Egypt."
+   ]
+  },
+  {
+   "id": "listening:mexico",
+   "word": "Mexico",
+   "pos": "n",
+   "fa": "مکزیک",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Mexico is famous for its food."
+   ]
+  },
+  {
+   "id": "listening:france",
+   "word": "France",
+   "pos": "n",
+   "fa": "فرانسه",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Paris is the capital of France."
+   ]
+  },
+  {
+   "id": "listening:indonesia",
+   "word": "Indonesia",
+   "pos": "n",
+   "fa": "اندونزی",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Indonesia has thousands of islands."
+   ]
+  },
+  {
+   "id": "listening:turkey",
+   "word": "Turkey",
+   "pos": "n",
+   "fa": "ترکیه",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "We spent our holiday in Turkey."
+   ]
+  },
+  {
+   "id": "listening:england",
+   "word": "England",
+   "pos": "n",
+   "fa": "انگلستان",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "London is the capital of England."
+   ]
+  },
+  {
+   "id": "listening:germany",
+   "word": "Germany",
+   "pos": "n",
+   "fa": "آلمان",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Germany is famous for its cars."
+   ]
+  },
+  {
+   "id": "listening:china",
+   "word": "China",
+   "pos": "n",
+   "fa": "چین",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "China has the largest population in the world."
+   ]
+  },
+  {
+   "id": "listening:greece",
+   "word": "Greece",
+   "pos": "n",
+   "fa": "یونان",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Greece has many ancient temples."
+   ]
+  },
+  {
+   "id": "listening:brazil",
+   "word": "Brazil",
+   "pos": "n",
+   "fa": "برزیل",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "The Amazon rainforest is mostly in Brazil."
+   ]
+  },
+  {
+   "id": "listening:india",
+   "word": "India",
+   "pos": "n",
+   "fa": "هند",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "India is famous for its spicy food."
+   ]
+  },
+  {
+   "id": "listening:north korea",
+   "word": "North Korea",
+   "pos": "n",
+   "fa": "کره شمالی",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "North Korea borders China."
+   ]
+  },
+  {
+   "id": "listening:malaysia",
+   "word": "Malaysia",
+   "pos": "n",
+   "fa": "مالزی",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Kuala Lumpur is in Malaysia."
+   ]
+  },
+  {
+   "id": "listening:new zealand",
+   "word": "New Zealand",
+   "pos": "n",
+   "fa": "نیوزیلند",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "New Zealand has beautiful mountains."
+   ]
+  },
+  {
+   "id": "listening:nigeria",
+   "word": "Nigeria",
+   "pos": "n",
+   "fa": "نیجریه",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Nigeria is in West Africa."
+   ]
+  },
+  {
+   "id": "listening:pakistan",
+   "word": "Pakistan",
+   "pos": "n",
+   "fa": "پاکستان",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Pakistan borders Iran."
+   ]
+  },
+  {
+   "id": "listening:singapore",
+   "word": "Singapore",
+   "pos": "n",
+   "fa": "سنگاپور",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Singapore is a small but rich country."
+   ]
+  },
+  {
+   "id": "listening:switzerland",
+   "word": "Switzerland",
+   "pos": "n",
+   "fa": "سوئیس",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Switzerland is famous for its chocolate."
+   ]
+  },
+  {
+   "id": "listening:united kingdom",
+   "word": "United Kingdom",
+   "pos": "n",
+   "fa": "بریتانیا (پادشاهی متحد)",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "The United Kingdom includes Scotland and Wales."
+   ]
+  },
+  {
+   "id": "listening:italy",
+   "word": "Italy",
+   "pos": "n",
+   "fa": "ایتالیا",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Rome is the capital of Italy."
+   ]
+  },
+  {
+   "id": "listening:the dominican republic",
+   "word": "the Dominican Republic",
+   "pos": "n",
+   "fa": "جمهوری دومینیکن",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "The Dominican Republic is in the Caribbean."
+   ]
+  },
+  {
+   "id": "listening:the philippines",
+   "word": "the Philippines",
+   "pos": "n",
+   "fa": "فیلیپین",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Manila is the capital of the Philippines."
+   ]
+  },
+  {
+   "id": "listening:denmark",
+   "word": "Denmark",
+   "pos": "n",
+   "fa": "دانمارک",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Copenhagen is the capital of Denmark."
+   ]
+  },
+  {
+   "id": "listening:linguistics",
+   "word": "linguistics",
+   "pos": "n",
+   "fa": "زبان‌شناسی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "She is studying linguistics at university."
+   ]
+  },
+  {
+   "id": "listening:bilingual",
+   "word": "bilingual",
+   "pos": "adj",
+   "fa": "دوزبانه",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Their children are bilingual."
+   ]
+  },
+  {
+   "id": "listening:trilingual",
+   "word": "trilingual",
+   "pos": "adj",
+   "fa": "سه‌زبانه",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "He is trilingual: he speaks English, French and Arabic."
+   ]
+  },
+  {
+   "id": "listening:polyglot",
+   "word": "polyglot",
+   "pos": "n",
+   "fa": "چندزبانه (کسی که چند زبان می‌داند)",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "A polyglot can speak many languages."
+   ]
+  },
+  {
+   "id": "listening:portuguese",
+   "word": "Portuguese",
+   "pos": "n",
+   "fa": "پرتغالی (زبان)",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Portuguese is spoken in Brazil."
+   ]
+  },
+  {
+   "id": "listening:mandarin",
+   "word": "Mandarin",
+   "pos": "n",
+   "fa": "ماندارین (چینی رسمی)",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Mandarin is the official language of China."
+   ]
+  },
+  {
+   "id": "listening:bengali",
+   "word": "Bengali",
+   "pos": "n",
+   "fa": "بنگالی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Bengali is spoken in Bangladesh."
+   ]
+  },
+  {
+   "id": "listening:chinese",
+   "word": "Chinese",
+   "pos": "n",
+   "fa": "چینی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Learning Chinese takes a long time."
+   ]
+  },
+  {
+   "id": "listening:hindi",
+   "word": "Hindi",
+   "pos": "n",
+   "fa": "هندی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Hindi is one of the languages of India."
+   ]
+  },
+  {
+   "id": "listening:russian",
+   "word": "Russian",
+   "pos": "n",
+   "fa": "روسی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "She speaks fluent Russian."
+   ]
+  },
+  {
+   "id": "listening:japanese",
+   "word": "Japanese",
+   "pos": "n",
+   "fa": "ژاپنی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "I'm taking Japanese classes."
+   ]
+  },
+  {
+   "id": "listening:german",
+   "word": "German",
+   "pos": "n",
+   "fa": "آلمانی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "German is spoken in Austria too."
+   ]
+  },
+  {
+   "id": "listening:punjabi",
+   "word": "Punjabi",
+   "pos": "n",
+   "fa": "پنجابی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Punjabi is spoken in India and Pakistan."
+   ]
+  },
+  {
+   "id": "listening:thai",
+   "word": "Thai",
+   "pos": "n",
+   "fa": "تایلندی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "He learned Thai while living in Bangkok."
+   ]
+  },
+  {
+   "id": "listening:persian",
+   "word": "Persian",
+   "pos": "n",
+   "fa": "فارسی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Persian is spoken in Iran, Afghanistan and Tajikistan."
+   ]
+  },
+  {
+   "id": "listening:filipino",
+   "word": "Filipino",
+   "pos": "n",
+   "fa": "فیلیپینی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Filipino is the national language of the Philippines."
+   ]
+  },
+  {
+   "id": "listening:french",
+   "word": "French",
+   "pos": "n",
+   "fa": "فرانسوی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "French is spoken in Canada and many African countries."
+   ]
+  },
+  {
+   "id": "listening:italian",
+   "word": "Italian",
+   "pos": "n",
+   "fa": "ایتالیایی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Italian is a beautiful language."
+   ]
+  },
+  {
+   "id": "listening:greek",
+   "word": "Greek",
+   "pos": "n",
+   "fa": "یونانی",
+   "def_": "",
+   "level": 11,
+   "exs": [
+    "Many English words come from Greek."
+   ]
+  },
+  {
+   "id": "listening:dome",
+   "word": "dome",
+   "pos": "n",
+   "fa": "گنبد",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The mosque has a huge golden dome."
+   ]
+  },
+  {
+   "id": "listening:palace",
+   "word": "palace",
+   "pos": "n",
+   "fa": "کاخ",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The queen lives in the palace."
+   ]
+  },
+  {
+   "id": "listening:fort",
+   "word": "fort",
+   "pos": "n",
+   "fa": "دژ، قلعه نظامی",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The old fort protected the harbour."
+   ]
+  },
+  {
+   "id": "listening:castle",
+   "word": "castle",
+   "pos": "n",
+   "fa": "قلعه، کاخ قلعه‌ای",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The castle was built in the 11th century."
+   ]
+  },
+  {
+   "id": "listening:glasshouse",
+   "word": "glasshouse",
+   "pos": "n",
+   "fa": "گلخانه",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "Tomatoes are grown in a glasshouse."
+   ]
+  },
+  {
+   "id": "listening:pyramid",
+   "word": "pyramid",
+   "pos": "n",
+   "fa": "هرم",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The Great Pyramid is in Egypt."
+   ]
+  },
+  {
+   "id": "listening:log cabin",
+   "word": "log cabin",
+   "pos": "n",
+   "fa": "کلبه چوبی",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "They spent the holiday in a log cabin."
+   ]
+  },
+  {
+   "id": "listening:lighthouse",
+   "word": "lighthouse",
+   "pos": "n",
+   "fa": "فانوس دریایی",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The lighthouse warns ships of the rocks."
+   ]
+  },
+  {
+   "id": "listening:hut",
+   "word": "hut",
+   "pos": "n",
+   "fa": "کلبه، آلونک",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The farmers live in simple huts."
+   ]
+  },
+  {
+   "id": "listening:skyscraper",
+   "word": "skyscraper",
+   "pos": "n",
+   "fa": "آسمان‌خراش",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The city is full of skyscrapers."
+   ]
+  },
+  {
+   "id": "listening:sculpture",
+   "word": "sculpture",
+   "pos": "n",
+   "fa": "مجسمه، پیکره",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "There is a large sculpture in the square."
+   ]
+  },
+  {
+   "id": "listening:semi-detached house",
+   "word": "semi-detached house",
+   "pos": "n",
+   "fa": "خانه دوقلو (نیمه‌مستقل)",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "They live in a semi-detached house."
+   ]
+  },
+  {
+   "id": "listening:duplex",
+   "word": "duplex",
+   "pos": "n",
+   "fa": "خانه دوبلکس (دو طبقه یا دو واحدی)",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "We rent a duplex near the beach."
+   ]
+  },
+  {
+   "id": "listening:terraced house",
+   "word": "terraced house",
+   "pos": "n",
+   "fa": "خانه ردیفی (به‌هم‌چسبیده)",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "Terraced houses are common in British cities."
+   ]
+  },
+  {
+   "id": "listening:town house",
+   "word": "town house",
+   "pos": "n",
+   "fa": "خانه شهری چندطبقه",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "They bought a town house in the city centre."
+   ]
+  },
+  {
+   "id": "listening:row house",
+   "word": "row house",
+   "pos": "n",
+   "fa": "خانه ردیفی (آمریکایی)",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "Row houses share side walls."
+   ]
+  },
+  {
+   "id": "listening:bungalow",
+   "word": "bungalow",
+   "pos": "n",
+   "fa": "خانه یک‌طبقه (ویلایی)",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "My grandparents live in a bungalow."
+   ]
+  },
+  {
+   "id": "listening:thatched cottage",
+   "word": "thatched cottage",
+   "pos": "n",
+   "fa": "کلبه با سقف کاه‌گلی",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The village has many thatched cottages."
+   ]
+  },
+  {
+   "id": "listening:mobile home",
+   "word": "mobile home",
+   "pos": "n",
+   "fa": "خانه سیار",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "They live in a mobile home by the lake."
+   ]
+  },
+  {
+   "id": "listening:houseboat",
+   "word": "houseboat",
+   "pos": "n",
+   "fa": "قایق‌خانه",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "They live on a houseboat on the river."
+   ]
+  },
+  {
+   "id": "listening:block of flats",
+   "word": "block of flats",
+   "pos": "n",
+   "fa": "ساختمان آپارتمانی",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "She lives on the top floor of a block of flats."
+   ]
+  },
+  {
+   "id": "listening:apartment building",
+   "word": "apartment building",
+   "pos": "n",
+   "fa": "ساختمان آپارتمانی",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The new apartment building has twenty floors."
+   ]
+  },
+  {
+   "id": "listening:condominium",
+   "word": "condominium",
+   "pos": "n",
+   "fa": "آپارتمان ملکی (کاندو)",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "They bought a condominium in Miami."
+   ]
+  },
+  {
+   "id": "listening:chimney",
+   "word": "chimney",
+   "pos": "n",
+   "fa": "دودکش",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "Smoke was coming out of the chimney."
+   ]
+  },
+  {
+   "id": "listening:bedroom",
+   "word": "bedroom",
+   "pos": "n",
+   "fa": "اتاق خواب",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The flat has two bedrooms."
+   ]
+  },
+  {
+   "id": "listening:basement",
+   "word": "basement",
+   "pos": "n",
+   "fa": "زیرزمین",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The washing machine is in the basement."
+   ]
+  },
+  {
+   "id": "listening:landlord",
+   "word": "landlord",
+   "pos": "n",
+   "fa": "صاحب‌خانه، موجر",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "Call the landlord if the heating breaks."
+   ]
+  },
+  {
+   "id": "listening:tenant",
+   "word": "tenant",
+   "pos": "n",
+   "fa": "مستأجر",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The tenant pays the rent every month."
+   ]
+  },
+  {
+   "id": "listening:rent",
+   "word": "rent",
+   "pos": "n",
+   "fa": "اجاره‌بها",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The rent is due on the first of the month."
+   ]
+  },
+  {
+   "id": "listening:lease",
+   "word": "lease",
+   "pos": "n",
+   "fa": "اجاره‌نامه، قرارداد اجاره",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "We signed a one-year lease."
+   ]
+  },
+  {
+   "id": "listening:neighborhood",
+   "word": "neighborhood",
+   "pos": "n",
+   "fa": "محله",
+   "def_": "BrE: neighbourhood",
+   "level": 12,
+   "exs": [
+    "It is a quiet neighborhood."
+   ]
+  },
+  {
+   "id": "listening:suburb",
+   "word": "suburb",
+   "pos": "n",
+   "fa": "حومه شهر",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "They live in a suburb of London."
+   ]
+  },
+  {
+   "id": "listening:sofa",
+   "word": "sofa",
+   "pos": "n",
+   "fa": "کاناپه، مبل",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The sofa is in the living room."
+   ]
+  },
+  {
+   "id": "listening:coffee table",
+   "word": "coffee table",
+   "pos": "n",
+   "fa": "میز جلومبلی",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "Put the drinks on the coffee table."
+   ]
+  },
+  {
+   "id": "listening:dormitory",
+   "word": "dormitory",
+   "pos": "n",
+   "fa": "خوابگاه",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "First-year students live in the dormitory."
+   ]
+  },
+  {
+   "id": "listening:storey",
+   "word": "storey",
+   "pos": "n",
+   "fa": "طبقه (ساختمان)",
+   "def_": "AmE: story",
+   "level": 12,
+   "exs": [
+    "It is a three-storey building."
+   ]
+  },
+  {
+   "id": "listening:kitchen",
+   "word": "kitchen",
+   "pos": "n",
+   "fa": "آشپزخانه",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The kitchen is shared by four students."
+   ]
+  },
+  {
+   "id": "listening:refrigerator",
+   "word": "refrigerator",
+   "pos": "n",
+   "fa": "یخچال",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "Keep the milk in the refrigerator."
+   ]
+  },
+  {
+   "id": "listening:microwave",
+   "word": "microwave",
+   "pos": "n",
+   "fa": "مایکروویو",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "Heat the food in the microwave."
+   ]
+  },
+  {
+   "id": "listening:ground floor",
+   "word": "ground floor",
+   "pos": "n",
+   "fa": "طبقه همکف",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The reception is on the ground floor."
+   ]
+  },
+  {
+   "id": "listening:oven",
+   "word": "oven",
+   "pos": "n",
+   "fa": "فر، اجاق",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "Bake the cake in the oven for 40 minutes."
+   ]
+  },
+  {
+   "id": "listening:hallway",
+   "word": "hallway",
+   "pos": "n",
+   "fa": "راهرو",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "Leave your shoes in the hallway."
+   ]
+  },
+  {
+   "id": "listening:insurance",
+   "word": "insurance",
+   "pos": "n",
+   "fa": "بیمه",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The rent includes home insurance."
+   ]
+  },
+  {
+   "id": "listening:cities",
+   "word": "cities",
+   "pos": "n",
+   "fa": "شهرها",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "Big cities are often crowded."
+   ]
+  },
+  {
+   "id": "listening:street",
+   "word": "street",
+   "pos": "n",
+   "fa": "خیابان",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The bank is on the main street."
+   ]
+  },
+  {
+   "id": "listening:lane",
+   "word": "lane",
+   "pos": "n",
+   "fa": "کوچه، جاده باریک؛ لاین",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "Turn left into the narrow lane."
+   ]
+  },
+  {
+   "id": "listening:city centre",
+   "word": "city centre",
+   "pos": "n",
+   "fa": "مرکز شهر",
+   "def_": "AmE: city center",
+   "level": 13,
+   "exs": [
+    "The hotel is in the city centre."
+   ]
+  },
+  {
+   "id": "listening:central station",
+   "word": "central station",
+   "pos": "n",
+   "fa": "ایستگاه مرکزی",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The bus leaves from the central station."
+   ]
+  },
+  {
+   "id": "listening:car park",
+   "word": "car park",
+   "pos": "n",
+   "fa": "پارکینگ",
+   "def_": "AmE: parking lot",
+   "level": 13,
+   "exs": [
+    "The car park is behind the supermarket."
+   ]
+  },
+  {
+   "id": "listening:department store",
+   "word": "department store",
+   "pos": "n",
+   "fa": "فروشگاه بزرگ (چندبخشی)",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "She works in a department store."
+   ]
+  },
+  {
+   "id": "listening:bridge",
+   "word": "bridge",
+   "pos": "n",
+   "fa": "پل",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "Cross the bridge and turn right."
+   ]
+  },
+  {
+   "id": "listening:temple",
+   "word": "temple",
+   "pos": "n",
+   "fa": "معبد",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The ancient temple attracts many visitors."
+   ]
+  },
+  {
+   "id": "listening:embassy",
+   "word": "embassy",
+   "pos": "n",
+   "fa": "سفارتخانه",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "You can get a visa at the embassy."
+   ]
+  },
+  {
+   "id": "listening:road system",
+   "word": "road system",
+   "pos": "n",
+   "fa": "شبکه جاده‌ای",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The city has a modern road system."
+   ]
+  },
+  {
+   "id": "listening:hospital",
+   "word": "hospital",
+   "pos": "n",
+   "fa": "بیمارستان",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The hospital is next to the park."
+   ]
+  },
+  {
+   "id": "listening:garden",
+   "word": "garden",
+   "pos": "n",
+   "fa": "باغ",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The house has a lovely garden."
+   ]
+  },
+  {
+   "id": "listening:avenue",
+   "word": "avenue",
+   "pos": "n",
+   "fa": "خیابان پهن، بلوار",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The museum is on Fifth Avenue."
+   ]
+  },
+  {
+   "id": "listening:local library",
+   "word": "local library",
+   "pos": "n",
+   "fa": "کتابخانه محلی",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "You can borrow books from the local library."
+   ]
+  },
+  {
+   "id": "listening:swimming pool",
+   "word": "swimming pool",
+   "pos": "n",
+   "fa": "استخر شنا",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The swimming pool is open until nine."
+   ]
+  },
+  {
+   "id": "listening:cafeteria",
+   "word": "cafeteria",
+   "pos": "n",
+   "fa": "کافه‌تریا",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "Lunch is served in the cafeteria."
+   ]
+  },
+  {
+   "id": "listening:cottage",
+   "word": "cottage",
+   "pos": "n",
+   "fa": "کلبه، خانه روستایی",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "We rented a cottage by the sea."
+   ]
+  },
+  {
+   "id": "listening:parliament",
+   "word": "parliament",
+   "pos": "n",
+   "fa": "مجلس، پارلمان",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The parliament building is open to visitors."
+   ]
+  },
+  {
+   "id": "listening:restaurant",
+   "word": "restaurant",
+   "pos": "n",
+   "fa": "رستوران",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "Let's book a table at the restaurant."
+   ]
+  },
+  {
+   "id": "listening:canteen",
+   "word": "canteen",
+   "pos": "n",
+   "fa": "غذاخوری (محل کار یا مدرسه)",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The staff canteen serves hot meals."
+   ]
+  },
+  {
+   "id": "listening:cafe",
+   "word": "cafe",
+   "pos": "n",
+   "fa": "کافه",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "Let's meet at the cafe."
+   ]
+  },
+  {
+   "id": "listening:bookshop",
+   "word": "bookshop",
+   "pos": "n",
+   "fa": "کتاب‌فروشی",
+   "def_": "AmE: bookstore",
+   "level": 13,
+   "exs": [
+    "The bookshop sells second-hand books."
+   ]
+  },
+  {
+   "id": "listening:sports centre",
+   "word": "sports centre",
+   "pos": "n",
+   "fa": "مرکز ورزشی",
+   "def_": "AmE: sports center",
+   "level": 13,
+   "exs": [
+    "The sports centre has a new gym."
+   ]
+  },
+  {
+   "id": "listening:city council",
+   "word": "city council",
+   "pos": "n",
+   "fa": "شورای شهر",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "The city council plans to build a new park."
+   ]
+  },
+  {
+   "id": "listening:dance studio",
+   "word": "dance studio",
+   "pos": "n",
+   "fa": "استودیوی رقص",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "Classes are held in the dance studio."
+   ]
+  },
+  {
+   "id": "listening:park",
+   "word": "park",
+   "pos": "n",
+   "fa": "پارک",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "Children play in the park."
+   ]
+  },
+  {
+   "id": "listening:conversation club",
+   "word": "conversation club",
+   "pos": "n",
+   "fa": "باشگاه مکالمه",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "Join the conversation club to practise English."
+   ]
+  },
+  {
+   "id": "listening:kindergarten",
+   "word": "kindergarten",
+   "pos": "n",
+   "fa": "کودکستان، پیش‌دبستانی",
+   "def_": "",
+   "level": 13,
+   "exs": [
+    "My son goes to kindergarten."
+   ]
+  },
+  {
+   "id": "listening:clinic",
+   "word": "clinic",
+   "pos": "n",
+   "fa": "درمانگاه، کلینیک",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "The clinic opens at 8.30."
+   ]
+  },
+  {
+   "id": "listening:dentist",
+   "word": "dentist",
+   "pos": "n",
+   "fa": "دندان‌پزشک",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "I have an appointment with the dentist."
+   ]
+  },
+  {
+   "id": "listening:reception",
+   "word": "reception",
+   "pos": "n",
+   "fa": "پذیرش",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "Please sign in at reception."
+   ]
+  },
+  {
+   "id": "listening:appointment",
+   "word": "appointment",
+   "pos": "n",
+   "fa": "وقت ملاقات، قرار",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "I'd like to make an appointment."
+   ]
+  },
+  {
+   "id": "listening:staff selection",
+   "word": "staff selection",
+   "pos": "n",
+   "fa": "گزینش کارکنان",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "Staff selection is based on interviews."
+   ]
+  },
+  {
+   "id": "listening:colleague",
+   "word": "colleague",
+   "pos": "n",
+   "fa": "همکار",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "My colleagues are very helpful."
+   ]
+  },
+  {
+   "id": "listening:workshop",
+   "word": "workshop",
+   "pos": "n",
+   "fa": "کارگاه",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "There is a writing workshop on Friday."
+   ]
+  },
+  {
+   "id": "listening:showroom",
+   "word": "showroom",
+   "pos": "n",
+   "fa": "نمایشگاه (فروش)",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "The cars are on display in the showroom."
+   ]
+  },
+  {
+   "id": "listening:information desk",
+   "word": "information desk",
+   "pos": "n",
+   "fa": "میز اطلاعات",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "Ask at the information desk."
+   ]
+  },
+  {
+   "id": "listening:employer",
+   "word": "employer",
+   "pos": "n",
+   "fa": "کارفرما",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "My employer pays for my training."
+   ]
+  },
+  {
+   "id": "listening:employment",
+   "word": "employment",
+   "pos": "n",
+   "fa": "اشتغال، استخدام",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "The factory provides employment for 500 people."
+   ]
+  },
+  {
+   "id": "listening:unemployed",
+   "word": "unemployed",
+   "pos": "adj",
+   "fa": "بیکار",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "He has been unemployed for six months."
+   ]
+  },
+  {
+   "id": "listening:technical cooperation",
+   "word": "technical cooperation",
+   "pos": "n",
+   "fa": "همکاری فنی",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "The two companies signed a technical cooperation agreement."
+   ]
+  },
+  {
+   "id": "listening:team leaders",
+   "word": "team leaders",
+   "pos": "n",
+   "fa": "سرپرستان تیم",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "Team leaders meet every Monday."
+   ]
+  },
+  {
+   "id": "listening:stress",
+   "word": "stress",
+   "pos": "n",
+   "fa": "استرس، فشار روانی",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "Too much work causes stress."
+   ]
+  },
+  {
+   "id": "listening:ability",
+   "word": "ability",
+   "pos": "n",
+   "fa": "توانایی",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "She has the ability to solve problems quickly."
+   ]
+  },
+  {
+   "id": "listening:vision",
+   "word": "vision",
+   "pos": "n",
+   "fa": "چشم‌انداز، دیدگاه",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "The manager has a clear vision for the company."
+   ]
+  },
+  {
+   "id": "listening:confidence",
+   "word": "confidence",
+   "pos": "n",
+   "fa": "اعتماد به نفس",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "The training gave me more confidence."
+   ]
+  },
+  {
+   "id": "listening:employee",
+   "word": "employee",
+   "pos": "n",
+   "fa": "کارمند",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "The company has 200 employees."
+   ]
+  },
+  {
+   "id": "listening:internship",
+   "word": "internship",
+   "pos": "n",
+   "fa": "دوره کارآموزی",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "She did a three-month internship at a bank."
+   ]
+  },
+  {
+   "id": "listening:occupation",
+   "word": "occupation",
+   "pos": "n",
+   "fa": "شغل، پیشه",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "Please write your name and occupation."
+   ]
+  },
+  {
+   "id": "listening:profession",
+   "word": "profession",
+   "pos": "n",
+   "fa": "حرفه",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "Teaching is a respected profession."
+   ]
+  },
+  {
+   "id": "listening:designer",
+   "word": "designer",
+   "pos": "n",
+   "fa": "طراح",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "She is a fashion designer."
+   ]
+  },
+  {
+   "id": "listening:decorator",
+   "word": "decorator",
+   "pos": "n",
+   "fa": "نقاش ساختمان، دکوراتور",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "We hired a decorator to paint the house."
+   ]
+  },
+  {
+   "id": "listening:architect",
+   "word": "architect",
+   "pos": "n",
+   "fa": "معمار",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "The architect designed a modern library."
+   ]
+  },
+  {
+   "id": "listening:engineer",
+   "word": "engineer",
+   "pos": "n",
+   "fa": "مهندس",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "He works as a civil engineer."
+   ]
+  },
+  {
+   "id": "listening:manager",
+   "word": "manager",
+   "pos": "n",
+   "fa": "مدیر",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "I'd like to speak to the manager."
+   ]
+  },
+  {
+   "id": "listening:waitress",
+   "word": "waitress",
+   "pos": "n",
+   "fa": "پیشخدمت (زن)",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "The waitress brought us the menu."
+   ]
+  },
+  {
+   "id": "listening:waiter",
+   "word": "waiter",
+   "pos": "n",
+   "fa": "پیشخدمت (مرد)",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "The waiter recommended the fish."
+   ]
+  },
+  {
+   "id": "listening:teacher",
+   "word": "teacher",
+   "pos": "n",
+   "fa": "معلم",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "My English teacher is very patient."
+   ]
+  },
+  {
+   "id": "listening:vacancy",
+   "word": "vacancy",
+   "pos": "n",
+   "fa": "جای خالی، موقعیت شغلی خالی",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "There is a vacancy for a receptionist."
+   ]
+  },
+  {
+   "id": "listening:professor",
+   "word": "professor",
+   "pos": "n",
+   "fa": "استاد دانشگاه",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "Professor Smith teaches economics."
+   ]
+  },
+  {
+   "id": "listening:psychologist",
+   "word": "psychologist",
+   "pos": "n",
+   "fa": "روان‌شناس",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "She works as a school psychologist."
+   ]
+  },
+  {
+   "id": "listening:volunteer",
+   "word": "volunteer",
+   "pos": "n",
+   "fa": "داوطلب",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "We need volunteers to help at the festival."
+   ]
+  },
+  {
+   "id": "listening:freelance",
+   "word": "freelance",
+   "pos": "adj",
+   "fa": "آزادکار، مستقل",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "He works as a freelance photographer."
+   ]
+  },
+  {
+   "id": "listening:secretary",
+   "word": "secretary",
+   "pos": "n",
+   "fa": "منشی",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "Leave a message with my secretary."
+   ]
+  },
+  {
+   "id": "listening:craftsman",
+   "word": "craftsman",
+   "pos": "n",
+   "fa": "صنعتگر، استادکار",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "The furniture was made by a local craftsman."
+   ]
+  },
+  {
+   "id": "listening:work experience",
+   "word": "work experience",
+   "pos": "n",
+   "fa": "سابقه کار، تجربه کاری",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "Students do two weeks of work experience."
+   ]
+  },
+  {
+   "id": "listening:curriculum vitae",
+   "word": "curriculum vitae",
+   "pos": "n",
+   "fa": "رزومه، شرح حال (CV)",
+   "def_": "AmE: résumé",
+   "level": 15,
+   "exs": [
+    "Please send your curriculum vitae by email."
+   ]
+  },
+  {
+   "id": "listening:mailing address",
+   "word": "mailing address",
+   "pos": "n",
+   "fa": "نشانی پستی",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "Please write your mailing address on the form."
+   ]
+  },
+  {
+   "id": "listening:receptionist",
+   "word": "receptionist",
+   "pos": "n",
+   "fa": "متصدی پذیرش",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "The receptionist will give you a key."
+   ]
+  },
+  {
+   "id": "listening:pilot",
+   "word": "pilot",
+   "pos": "n",
+   "fa": "خلبان",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "The pilot announced that we would land soon."
+   ]
+  },
+  {
+   "id": "listening:guard",
+   "word": "guard",
+   "pos": "n",
+   "fa": "نگهبان",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "A security guard stood at the door."
+   ]
+  },
+  {
+   "id": "listening:flight attendant",
+   "word": "flight attendant",
+   "pos": "n",
+   "fa": "مهماندار هواپیما",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "The flight attendant served drinks."
+   ]
+  },
+  {
+   "id": "listening:lecturer",
+   "word": "lecturer",
+   "pos": "n",
+   "fa": "مدرس دانشگاه",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "She is a lecturer in biology."
+   ]
+  },
+  {
+   "id": "listening:office assistant",
+   "word": "office assistant",
+   "pos": "n",
+   "fa": "دستیار اداری",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "The office assistant answers the phone."
+   ]
+  },
+  {
+   "id": "listening:clerk",
+   "word": "clerk",
+   "pos": "n",
+   "fa": "کارمند دفتری",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "The bank clerk counted the money."
+   ]
+  },
+  {
+   "id": "listening:accountant",
+   "word": "accountant",
+   "pos": "n",
+   "fa": "حسابدار",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "Our accountant checks the company accounts."
+   ]
+  },
+  {
+   "id": "listening:cashier",
+   "word": "cashier",
+   "pos": "n",
+   "fa": "صندوق‌دار",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "Pay the cashier at the front of the shop."
+   ]
+  },
+  {
+   "id": "listening:captain",
+   "word": "captain",
+   "pos": "n",
+   "fa": "کاپیتان، ناخدا",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "The captain welcomed us on board."
+   ]
+  },
+  {
+   "id": "listening:tourist",
+   "word": "tourist",
+   "pos": "n",
+   "fa": "گردشگر، توریست",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "The city is full of tourists in summer."
+   ]
+  },
+  {
+   "id": "listening:guided tour",
+   "word": "guided tour",
+   "pos": "n",
+   "fa": "تور با راهنما",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "We took a guided tour of the castle."
+   ]
+  },
+  {
+   "id": "listening:ticket office",
+   "word": "ticket office",
+   "pos": "n",
+   "fa": "باجه بلیت فروشی",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "Buy your tickets at the ticket office."
+   ]
+  },
+  {
+   "id": "listening:souvenir",
+   "word": "souvenir",
+   "pos": "n",
+   "fa": "سوغاتی، یادگاری",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "I bought a souvenir for my sister."
+   ]
+  },
+  {
+   "id": "listening:trip",
+   "word": "trip",
+   "pos": "n",
+   "fa": "سفر، گردش",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "We went on a day trip to the coast."
+   ]
+  },
+  {
+   "id": "listening:guest",
+   "word": "guest",
+   "pos": "n",
+   "fa": "مهمان",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "Hotel guests can use the pool for free."
+   ]
+  },
+  {
+   "id": "listening:reservation",
+   "word": "reservation",
+   "pos": "n",
+   "fa": "رزرو",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "I'd like to make a reservation for two nights."
+   ]
+  },
+  {
+   "id": "listening:view",
+   "word": "view",
+   "pos": "n",
+   "fa": "منظره، چشم‌انداز",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "The room has a lovely view of the sea."
+   ]
+  },
+  {
+   "id": "listening:culture",
+   "word": "culture",
+   "pos": "n",
+   "fa": "فرهنگ",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "Travelling helps you learn about other cultures."
+   ]
+  },
+  {
+   "id": "listening:memorable",
+   "word": "memorable",
+   "pos": "adj",
+   "fa": "به یاد ماندنی",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "It was a memorable holiday."
+   ]
+  },
+  {
+   "id": "listening:single room",
+   "word": "single room",
+   "pos": "n",
+   "fa": "اتاق یک‌تخته",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "A single room costs sixty pounds a night."
+   ]
+  },
+  {
+   "id": "listening:double room",
+   "word": "double room",
+   "pos": "n",
+   "fa": "اتاق دوتخته (با تخت دونفره)",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "We booked a double room with a sea view."
+   ]
+  },
+  {
+   "id": "listening:picnic",
+   "word": "picnic",
+   "pos": "n",
+   "fa": "پیک‌نیک",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "Let's have a picnic by the lake."
+   ]
+  },
+  {
+   "id": "listening:tourist attraction",
+   "word": "tourist attraction",
+   "pos": "n",
+   "fa": "جاذبه گردشگری",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "The tower is a popular tourist attraction."
+   ]
+  },
+  {
+   "id": "listening:hostel",
+   "word": "hostel",
+   "pos": "n",
+   "fa": "مسافرخانه، هاستل",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "We stayed in a youth hostel."
+   ]
+  },
+  {
+   "id": "listening:suite",
+   "word": "suite",
+   "pos": "n",
+   "fa": "سوئیت",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "The hotel suite has a private balcony."
+   ]
+  },
+  {
+   "id": "listening:aquarium",
+   "word": "aquarium",
+   "pos": "n",
+   "fa": "آکواریوم",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "The children loved the sharks at the aquarium."
+   ]
+  },
+  {
+   "id": "listening:cargo plane",
+   "word": "cargo plane",
+   "pos": "n",
+   "fa": "هواپیمای باری",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The goods were sent by cargo plane."
+   ]
+  },
+  {
+   "id": "listening:shipment",
+   "word": "shipment",
+   "pos": "n",
+   "fa": "محموله",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The shipment will arrive next week."
+   ]
+  },
+  {
+   "id": "listening:container ship",
+   "word": "container ship",
+   "pos": "n",
+   "fa": "کشتی کانتینربر",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "A huge container ship entered the port."
+   ]
+  },
+  {
+   "id": "listening:boat",
+   "word": "boat",
+   "pos": "n",
+   "fa": "قایق",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "We crossed the lake by boat."
+   ]
+  },
+  {
+   "id": "listening:lifeboat",
+   "word": "lifeboat",
+   "pos": "n",
+   "fa": "قایق نجات",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The passengers got into the lifeboats."
+   ]
+  },
+  {
+   "id": "listening:ferry",
+   "word": "ferry",
+   "pos": "n",
+   "fa": "کشتی مسافربری، فِری",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "We took the ferry to the island."
+   ]
+  },
+  {
+   "id": "listening:hovercraft",
+   "word": "hovercraft",
+   "pos": "n",
+   "fa": "هاورکرافت",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The hovercraft travels over water and land."
+   ]
+  },
+  {
+   "id": "listening:hydrofoil",
+   "word": "hydrofoil",
+   "pos": "n",
+   "fa": "قایق بال‌دار (هیدروفویل)",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The hydrofoil is faster than the ferry."
+   ]
+  },
+  {
+   "id": "listening:liner",
+   "word": "liner",
+   "pos": "n",
+   "fa": "کشتی مسافربری بزرگ",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "They went on a cruise on an ocean liner."
+   ]
+  },
+  {
+   "id": "listening:canal boat",
+   "word": "canal boat",
+   "pos": "n",
+   "fa": "قایق کانال‌رو",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "We spent a week on a canal boat."
+   ]
+  },
+  {
+   "id": "listening:narrowboat",
+   "word": "narrowboat",
+   "pos": "n",
+   "fa": "قایق باریک کانال",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "Narrowboats are common on British canals."
+   ]
+  },
+  {
+   "id": "listening:dinghy sailing",
+   "word": "dinghy sailing",
+   "pos": "n",
+   "fa": "قایقرانی با قایق بادبانی کوچک",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The club offers dinghy sailing lessons."
+   ]
+  },
+  {
+   "id": "listening:sailboat",
+   "word": "sailboat",
+   "pos": "n",
+   "fa": "قایق بادبانی",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "They sailed around the bay in a sailboat."
+   ]
+  },
+  {
+   "id": "listening:paddle steamer",
+   "word": "paddle steamer",
+   "pos": "n",
+   "fa": "کشتی بخار پره‌دار",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "You can take a trip on an old paddle steamer."
+   ]
+  },
+  {
+   "id": "listening:cabin cruiser",
+   "word": "cabin cruiser",
+   "pos": "n",
+   "fa": "قایق موتوری کابین‌دار",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "They hired a cabin cruiser for the weekend."
+   ]
+  },
+  {
+   "id": "listening:rowing boat",
+   "word": "rowing boat",
+   "pos": "n",
+   "fa": "قایق پارویی",
+   "def_": "AmE: rowboat",
+   "level": 17,
+   "exs": [
+    "You can hire a rowing boat on the lake."
+   ]
+  },
+  {
+   "id": "listening:rowboat",
+   "word": "rowboat",
+   "pos": "n",
+   "fa": "قایق پارویی (آمریکایی)",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "We rented a rowboat for an hour."
+   ]
+  },
+  {
+   "id": "listening:kayak",
+   "word": "kayak",
+   "pos": "n",
+   "fa": "کایاک",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "He paddled down the river in a kayak."
+   ]
+  },
+  {
+   "id": "listening:canoe",
+   "word": "canoe",
+   "pos": "n",
+   "fa": "کانو (قایق سبک پارویی)",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "We went down the river by canoe."
+   ]
+  },
+  {
+   "id": "listening:punt",
+   "word": "punt",
+   "pos": "n",
+   "fa": "قایق ته‌پهن (پانت)",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "Tourists enjoy punting on the river in Cambridge."
+   ]
+  },
+  {
+   "id": "listening:gondola",
+   "word": "gondola",
+   "pos": "n",
+   "fa": "گوندولا (قایق ونیزی)",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "We took a gondola ride in Venice."
+   ]
+  },
+  {
+   "id": "listening:aircraft",
+   "word": "aircraft",
+   "pos": "n",
+   "fa": "هواپیما، هواگرد",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The aircraft landed safely."
+   ]
+  },
+  {
+   "id": "listening:helicopter",
+   "word": "helicopter",
+   "pos": "n",
+   "fa": "بالگرد، هلیکوپتر",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The injured man was taken to hospital by helicopter."
+   ]
+  },
+  {
+   "id": "listening:seaplane",
+   "word": "seaplane",
+   "pos": "n",
+   "fa": "هواپیمای دریایی",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "A seaplane can land on water."
+   ]
+  },
+  {
+   "id": "listening:airship",
+   "word": "airship",
+   "pos": "n",
+   "fa": "کشتی هوایی (بالن موتوری)",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "Airships were used before planes became common."
+   ]
+  },
+  {
+   "id": "listening:hot-air balloon",
+   "word": "hot-air balloon",
+   "pos": "n",
+   "fa": "بالن هوای گرم",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "We flew over the valley in a hot-air balloon."
+   ]
+  },
+  {
+   "id": "listening:airport",
+   "word": "airport",
+   "pos": "n",
+   "fa": "فرودگاه",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The airport is twenty kilometres from the city."
+   ]
+  },
+  {
+   "id": "listening:crew",
+   "word": "crew",
+   "pos": "n",
+   "fa": "خدمه",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The crew welcomed the passengers on board."
+   ]
+  },
+  {
+   "id": "listening:passenger",
+   "word": "passenger",
+   "pos": "n",
+   "fa": "مسافر",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The bus can carry fifty passengers."
+   ]
+  },
+  {
+   "id": "listening:platform",
+   "word": "platform",
+   "pos": "n",
+   "fa": "سکو (ایستگاه)",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The train leaves from platform 4."
+   ]
+  },
+  {
+   "id": "listening:hire a car",
+   "word": "hire a car",
+   "pos": "phr",
+   "fa": "کرایه کردن ماشین",
+   "def_": "AmE: rent a car",
+   "level": 17,
+   "exs": [
+    "We decided to hire a car at the airport."
+   ]
+  },
+  {
+   "id": "listening:automobile",
+   "word": "automobile",
+   "pos": "n",
+   "fa": "خودرو، اتومبیل",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The automobile changed the way people live."
+   ]
+  },
+  {
+   "id": "listening:double-decker bus",
+   "word": "double-decker bus",
+   "pos": "n",
+   "fa": "اتوبوس دوطبقه",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "London is famous for its red double-decker buses."
+   ]
+  },
+  {
+   "id": "listening:single-decker",
+   "word": "single-decker",
+   "pos": "n",
+   "fa": "اتوبوس یک‌طبقه",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "Only single-deckers can go under the bridge."
+   ]
+  },
+  {
+   "id": "listening:minibus",
+   "word": "minibus",
+   "pos": "n",
+   "fa": "مینی‌بوس",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "The school hired a minibus for the trip."
+   ]
+  },
+  {
+   "id": "listening:school bus",
+   "word": "school bus",
+   "pos": "n",
+   "fa": "اتوبوس مدرسه",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "The school bus picks up children at 7.30."
+   ]
+  },
+  {
+   "id": "listening:coach",
+   "word": "coach",
+   "pos": "n",
+   "fa": "اتوبوس بین‌شهری",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "We travelled to Edinburgh by coach."
+   ]
+  },
+  {
+   "id": "listening:truck",
+   "word": "truck",
+   "pos": "n",
+   "fa": "کامیون",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "A truck was blocking the road."
+   ]
+  },
+  {
+   "id": "listening:tanker",
+   "word": "tanker",
+   "pos": "n",
+   "fa": "نفتکش، تانکر",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "An oil tanker hit the rocks."
+   ]
+  },
+  {
+   "id": "listening:van",
+   "word": "van",
+   "pos": "n",
+   "fa": "ون، وانت",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "The delivery van arrived at noon."
+   ]
+  },
+  {
+   "id": "listening:lorry",
+   "word": "lorry",
+   "pos": "n",
+   "fa": "کامیون (بریتانیایی)",
+   "def_": "AmE: truck",
+   "level": 18,
+   "exs": [
+    "Heavy lorries are not allowed in the town centre."
+   ]
+  },
+  {
+   "id": "listening:transporter",
+   "word": "transporter",
+   "pos": "n",
+   "fa": "خودروبر، تریلی حمل خودرو",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "A car transporter delivered the new cars."
+   ]
+  },
+  {
+   "id": "listening:forklift truck",
+   "word": "forklift truck",
+   "pos": "n",
+   "fa": "لیفتراک",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "He uses a forklift truck in the warehouse."
+   ]
+  },
+  {
+   "id": "listening:tow truck",
+   "word": "tow truck",
+   "pos": "n",
+   "fa": "یدک‌کش",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "The tow truck took my car to the garage."
+   ]
+  },
+  {
+   "id": "listening:breakdown truck",
+   "word": "breakdown truck",
+   "pos": "n",
+   "fa": "خودرو امداد (یدک‌کش)",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "We called a breakdown truck when the car stopped."
+   ]
+  },
+  {
+   "id": "listening:pickup",
+   "word": "pickup",
+   "pos": "n",
+   "fa": "وانت",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "He carries his tools in a pickup."
+   ]
+  },
+  {
+   "id": "listening:jeep",
+   "word": "jeep",
+   "pos": "n",
+   "fa": "جیپ",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "We drove through the desert in a jeep."
+   ]
+  },
+  {
+   "id": "listening:caravan",
+   "word": "caravan",
+   "pos": "n",
+   "fa": "کاروان (تریلر مسکونی)",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "They spent the summer in a caravan by the sea."
+   ]
+  },
+  {
+   "id": "listening:camper",
+   "word": "camper",
+   "pos": "n",
+   "fa": "کمپر، خودروی کاروانی",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "We travelled around Europe in a camper."
+   ]
+  },
+  {
+   "id": "listening:tractor",
+   "word": "tractor",
+   "pos": "n",
+   "fa": "تراکتور",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "The farmer drove his tractor across the field."
+   ]
+  },
+  {
+   "id": "listening:taxi",
+   "word": "taxi",
+   "pos": "n",
+   "fa": "تاکسی",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "Let's take a taxi to the station."
+   ]
+  },
+  {
+   "id": "listening:cab",
+   "word": "cab",
+   "pos": "n",
+   "fa": "تاکسی",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "I'll call a cab for you."
+   ]
+  },
+  {
+   "id": "listening:tram",
+   "word": "tram",
+   "pos": "n",
+   "fa": "تراموا",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "You can get to the museum by tram."
+   ]
+  },
+  {
+   "id": "listening:underground",
+   "word": "underground",
+   "pos": "n",
+   "fa": "مترو (بریتانیایی)",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "The fastest way across London is by underground."
+   ]
+  },
+  {
+   "id": "listening:subway",
+   "word": "subway",
+   "pos": "n",
+   "fa": "مترو (آمریکایی)؛ زیرگذر",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "Take the subway to Central Park."
+   ]
+  },
+  {
+   "id": "listening:steam train",
+   "word": "steam train",
+   "pos": "n",
+   "fa": "قطار بخار",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "You can ride an old steam train in the summer."
+   ]
+  },
+  {
+   "id": "listening:freight train",
+   "word": "freight train",
+   "pos": "n",
+   "fa": "قطار باری",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "A freight train carries goods across the country."
+   ]
+  },
+  {
+   "id": "listening:goods train",
+   "word": "goods train",
+   "pos": "n",
+   "fa": "قطار باری (بریتانیایی)",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "The goods train was carrying coal."
+   ]
+  },
+  {
+   "id": "listening:humid",
+   "word": "humid",
+   "pos": "adj",
+   "fa": "مرطوب، شرجی",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "The weather is hot and humid in July."
+   ]
+  },
+  {
+   "id": "listening:hot",
+   "word": "hot",
+   "pos": "adj",
+   "fa": "گرم، داغ",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "It's too hot to go outside."
+   ]
+  },
+  {
+   "id": "listening:sticky",
+   "word": "sticky",
+   "pos": "adj",
+   "fa": "شرجی، دم‌کرده؛ چسبناک",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "It's a hot, sticky day."
+   ]
+  },
+  {
+   "id": "listening:breeze",
+   "word": "breeze",
+   "pos": "n",
+   "fa": "نسیم",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "A cool breeze was blowing from the sea."
+   ]
+  },
+  {
+   "id": "listening:chilly",
+   "word": "chilly",
+   "pos": "adj",
+   "fa": "سرد، خنک (ناخوشایند)",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "It's a bit chilly this morning."
+   ]
+  },
+  {
+   "id": "listening:cold",
+   "word": "cold",
+   "pos": "adj",
+   "fa": "سرد",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "Winters here are long and cold."
+   ]
+  },
+  {
+   "id": "listening:cool",
+   "word": "cool",
+   "pos": "adj",
+   "fa": "خنک",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "The evenings are cool in spring."
+   ]
+  },
+  {
+   "id": "listening:dry",
+   "word": "dry",
+   "pos": "adj",
+   "fa": "خشک",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "The summer was very dry."
+   ]
+  },
+  {
+   "id": "listening:dusty",
+   "word": "dusty",
+   "pos": "adj",
+   "fa": "غبارآلود، خاکی",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "The roads were hot and dusty."
+   ]
+  },
+  {
+   "id": "listening:freezing",
+   "word": "freezing",
+   "pos": "adj",
+   "fa": "یخبندان، بسیار سرد",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "It's freezing outside."
+   ]
+  },
+  {
+   "id": "listening:warm",
+   "word": "warm",
+   "pos": "adj",
+   "fa": "گرم (ملایم)",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "It's warm enough to sit outside."
+   ]
+  },
+  {
+   "id": "listening:wet",
+   "word": "wet",
+   "pos": "adj",
+   "fa": "خیس، بارانی",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "It was a wet and windy day."
+   ]
+  },
+  {
+   "id": "listening:weather forecast",
+   "word": "weather forecast",
+   "pos": "n",
+   "fa": "پیش‌بینی وضع هوا",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "The weather forecast says it will rain."
+   ]
+  },
+  {
+   "id": "listening:antenna",
+   "word": "antenna",
+   "pos": "n",
+   "fa": "آنتن",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "The antenna on the roof was damaged in the storm."
+   ]
+  },
+  {
+   "id": "listening:moisture",
+   "word": "moisture",
+   "pos": "n",
+   "fa": "رطوبت",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "The soil holds moisture well."
+   ]
+  },
+  {
+   "id": "listening:orienteering",
+   "word": "orienteering",
+   "pos": "n",
+   "fa": "جهت‌یابی (ورزش مسیریابی با نقشه)",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Orienteering involves finding your way with a map and compass."
+   ]
+  },
+  {
+   "id": "listening:caving",
+   "word": "caving",
+   "pos": "n",
+   "fa": "غارنوردی",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Caving can be dangerous without a guide."
+   ]
+  },
+  {
+   "id": "listening:spelunking",
+   "word": "spelunking",
+   "pos": "n",
+   "fa": "غارنوردی (آمریکایی)",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Spelunking is another word for caving."
+   ]
+  },
+  {
+   "id": "listening:archery",
+   "word": "archery",
+   "pos": "n",
+   "fa": "تیراندازی با کمان",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "She won a medal in archery."
+   ]
+  },
+  {
+   "id": "listening:ice skating",
+   "word": "ice skating",
+   "pos": "n",
+   "fa": "اسکیت روی یخ",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "We went ice skating at the new rink."
+   ]
+  },
+  {
+   "id": "listening:scuba-diving",
+   "word": "scuba-diving",
+   "pos": "n",
+   "fa": "غواصی با کپسول",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Scuba-diving lessons start at the pool."
+   ]
+  },
+  {
+   "id": "listening:snorkeling",
+   "word": "snorkeling",
+   "pos": "n",
+   "fa": "غواصی سطحی (اسنورکلینگ)",
+   "def_": "BrE: snorkelling",
+   "level": 20,
+   "exs": [
+    "We went snorkeling near the reef."
+   ]
+  },
+  {
+   "id": "listening:skateboarding",
+   "word": "skateboarding",
+   "pos": "n",
+   "fa": "اسکیت‌بورد سواری",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Skateboarding is popular with teenagers."
+   ]
+  },
+  {
+   "id": "listening:bowls",
+   "word": "bowls",
+   "pos": "n",
+   "fa": "بولز (بازی چمنی پرتاب گوی)",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "My grandfather plays bowls every Sunday."
+   ]
+  },
+  {
+   "id": "listening:darts",
+   "word": "darts",
+   "pos": "n",
+   "fa": "دارت",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "They played darts in the pub."
+   ]
+  },
+  {
+   "id": "listening:golf",
+   "word": "golf",
+   "pos": "n",
+   "fa": "گلف",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "He plays golf at the weekend."
+   ]
+  },
+  {
+   "id": "listening:billiards",
+   "word": "billiards",
+   "pos": "n",
+   "fa": "بیلیارد",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "There is a billiards table in the club."
+   ]
+  },
+  {
+   "id": "listening:photography",
+   "word": "photography",
+   "pos": "n",
+   "fa": "عکاسی",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Her hobby is photography."
+   ]
+  },
+  {
+   "id": "listening:painting",
+   "word": "painting",
+   "pos": "n",
+   "fa": "نقاشی",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "She took up painting after she retired."
+   ]
+  },
+  {
+   "id": "listening:pottery",
+   "word": "pottery",
+   "pos": "n",
+   "fa": "سفالگری",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "The pottery class meets on Tuesdays."
+   ]
+  },
+  {
+   "id": "listening:woodcarving",
+   "word": "woodcarving",
+   "pos": "n",
+   "fa": "منبت‌کاری، کنده‌کاری روی چوب",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "He learned woodcarving from his father."
+   ]
+  },
+  {
+   "id": "listening:gardening",
+   "word": "gardening",
+   "pos": "n",
+   "fa": "باغبانی",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Gardening helps me relax."
+   ]
+  },
+  {
+   "id": "listening:stamp collection",
+   "word": "stamp collection",
+   "pos": "n",
+   "fa": "مجموعه تمبر",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "He has a huge stamp collection."
+   ]
+  },
+  {
+   "id": "listening:embroidery",
+   "word": "embroidery",
+   "pos": "n",
+   "fa": "گلدوزی",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "She does embroidery in the evenings."
+   ]
+  },
+  {
+   "id": "listening:climbing",
+   "word": "climbing",
+   "pos": "n",
+   "fa": "کوهنوردی، صخره‌نوردی",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Climbing requires a lot of strength."
+   ]
+  },
+  {
+   "id": "listening:chess",
+   "word": "chess",
+   "pos": "n",
+   "fa": "شطرنج",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Do you play chess?"
+   ]
+  },
+  {
+   "id": "listening:parachute",
+   "word": "parachute",
+   "pos": "n",
+   "fa": "چتر نجات",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "He jumped from the plane with a parachute."
+   ]
+  },
+  {
+   "id": "listening:cricket",
+   "word": "cricket",
+   "pos": "n",
+   "fa": "کریکت",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Cricket is very popular in India."
+   ]
+  },
+  {
+   "id": "listening:baseball",
+   "word": "baseball",
+   "pos": "n",
+   "fa": "بیسبال",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Baseball is America's national sport."
+   ]
+  },
+  {
+   "id": "listening:basketball",
+   "word": "basketball",
+   "pos": "n",
+   "fa": "بسکتبال",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "He plays basketball for the college team."
+   ]
+  },
+  {
+   "id": "listening:rugby",
+   "word": "rugby",
+   "pos": "n",
+   "fa": "راگبی",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Rugby is a rough game."
+   ]
+  },
+  {
+   "id": "listening:soccer",
+   "word": "soccer",
+   "pos": "n",
+   "fa": "فوتبال",
+   "def_": "BrE: football",
+   "level": 21,
+   "exs": [
+    "Soccer is the most popular sport in the world."
+   ]
+  },
+  {
+   "id": "listening:american football",
+   "word": "American football",
+   "pos": "n",
+   "fa": "فوتبال آمریکایی",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "American football is played with an oval ball."
+   ]
+  },
+  {
+   "id": "listening:hockey",
+   "word": "hockey",
+   "pos": "n",
+   "fa": "هاکی",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "She plays hockey for the school team."
+   ]
+  },
+  {
+   "id": "listening:swimming",
+   "word": "swimming",
+   "pos": "n",
+   "fa": "شنا",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Swimming is good exercise."
+   ]
+  },
+  {
+   "id": "listening:tennis",
+   "word": "tennis",
+   "pos": "n",
+   "fa": "تنیس",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Let's play tennis this afternoon."
+   ]
+  },
+  {
+   "id": "listening:squash",
+   "word": "squash",
+   "pos": "n",
+   "fa": "اسکواش",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Squash is played in a small indoor court."
+   ]
+  },
+  {
+   "id": "listening:badminton",
+   "word": "badminton",
+   "pos": "n",
+   "fa": "بدمینتون",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "We play badminton in the sports hall."
+   ]
+  },
+  {
+   "id": "listening:ping-pong",
+   "word": "ping-pong",
+   "pos": "n",
+   "fa": "پینگ‌پنگ، تنیس روی میز",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "There's a ping-pong table in the common room."
+   ]
+  },
+  {
+   "id": "listening:court",
+   "word": "court",
+   "pos": "n",
+   "fa": "زمین (تنیس، بسکتبال و...)",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "The tennis courts are behind the gym."
+   ]
+  },
+  {
+   "id": "listening:pitch",
+   "word": "pitch",
+   "pos": "n",
+   "fa": "زمین (فوتبال، راگبی)",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "The football pitch was wet after the rain."
+   ]
+  },
+  {
+   "id": "listening:stadium",
+   "word": "stadium",
+   "pos": "n",
+   "fa": "استادیوم، ورزشگاه",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "The stadium holds 60,000 people."
+   ]
+  },
+  {
+   "id": "listening:team",
+   "word": "team",
+   "pos": "n",
+   "fa": "تیم",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Our team won the match."
+   ]
+  },
+  {
+   "id": "listening:the discus",
+   "word": "the discus",
+   "pos": "n",
+   "fa": "پرتاب دیسک",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "She won gold in the discus."
+   ]
+  },
+  {
+   "id": "listening:the javelin",
+   "word": "the javelin",
+   "pos": "n",
+   "fa": "پرتاب نیزه",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "He threw the javelin eighty metres."
+   ]
+  },
+  {
+   "id": "listening:the hammer",
+   "word": "the hammer",
+   "pos": "n",
+   "fa": "پرتاب چکش",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "The hammer is a difficult event."
+   ]
+  },
+  {
+   "id": "listening:the high jump",
+   "word": "the high jump",
+   "pos": "n",
+   "fa": "پرش ارتفاع",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "He came first in the high jump."
+   ]
+  },
+  {
+   "id": "listening:horse racing",
+   "word": "horse racing",
+   "pos": "n",
+   "fa": "اسب‌دوانی",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Horse racing is popular in Britain."
+   ]
+  },
+  {
+   "id": "listening:show jumping",
+   "word": "show jumping",
+   "pos": "n",
+   "fa": "پرش با اسب",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "She has competed in show jumping since she was a child."
+   ]
+  },
+  {
+   "id": "listening:polo",
+   "word": "polo",
+   "pos": "n",
+   "fa": "چوگان",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Polo is played on horseback."
+   ]
+  },
+  {
+   "id": "listening:cycling",
+   "word": "cycling",
+   "pos": "n",
+   "fa": "دوچرخه‌سواری",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Cycling to work keeps me fit."
+   ]
+  },
+  {
+   "id": "listening:gymnasium",
+   "word": "gymnasium",
+   "pos": "n",
+   "fa": "ورزشگاه سرپوشیده، سالن ورزش",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "The gymnasium has new equipment."
+   ]
+  },
+  {
+   "id": "listening:athlete",
+   "word": "athlete",
+   "pos": "n",
+   "fa": "ورزشکار (دوومیدانی)",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Athletes train for many hours a day."
+   ]
+  },
+  {
+   "id": "listening:gym",
+   "word": "gym",
+   "pos": "n",
+   "fa": "باشگاه ورزشی",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "I go to the gym three times a week."
+   ]
+  },
+  {
+   "id": "listening:extreme sports",
+   "word": "extreme sports",
+   "pos": "n",
+   "fa": "ورزش‌های پرخطر",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Extreme sports are becoming more popular."
+   ]
+  },
+  {
+   "id": "listening:paragliding",
+   "word": "paragliding",
+   "pos": "n",
+   "fa": "پاراگلایدر سواری",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Paragliding gives you a great view of the valley."
+   ]
+  },
+  {
+   "id": "listening:hang-gliding",
+   "word": "hang-gliding",
+   "pos": "n",
+   "fa": "پرواز با بال آویز (هنگ‌گلایدر)",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Hang-gliding needs good weather."
+   ]
+  },
+  {
+   "id": "listening:skydiving",
+   "word": "skydiving",
+   "pos": "n",
+   "fa": "چتربازی، سقوط آزاد",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "She went skydiving for her birthday."
+   ]
+  },
+  {
+   "id": "listening:abseiling",
+   "word": "abseiling",
+   "pos": "n",
+   "fa": "فرود با طناب",
+   "def_": "AmE: rappelling",
+   "level": 21,
+   "exs": [
+    "Abseiling down the cliff was exciting."
+   ]
+  },
+  {
+   "id": "listening:snowboarding",
+   "word": "snowboarding",
+   "pos": "n",
+   "fa": "اسنوبرد سواری",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Snowboarding is popular in the Alps."
+   ]
+  },
+  {
+   "id": "listening:bungee jumping",
+   "word": "bungee jumping",
+   "pos": "n",
+   "fa": "بانجی‌جامپینگ",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Bungee jumping is not for everyone."
+   ]
+  },
+  {
+   "id": "listening:surfing",
+   "word": "surfing",
+   "pos": "n",
+   "fa": "موج‌سواری",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "The beach is great for surfing."
+   ]
+  },
+  {
+   "id": "listening:windsurfing",
+   "word": "windsurfing",
+   "pos": "n",
+   "fa": "موج‌سواری با بادبان",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "You can hire windsurfing equipment at the beach."
+   ]
+  },
+  {
+   "id": "listening:jet-skiing",
+   "word": "jet-skiing",
+   "pos": "n",
+   "fa": "جت‌اسکی سواری",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Jet-skiing is not allowed in this bay."
+   ]
+  },
+  {
+   "id": "listening:bodyboarding",
+   "word": "bodyboarding",
+   "pos": "n",
+   "fa": "بادی‌بورد (موج‌سواری درازکش)",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Bodyboarding is easier than surfing."
+   ]
+  },
+  {
+   "id": "listening:white-water rafting",
+   "word": "white-water rafting",
+   "pos": "n",
+   "fa": "قایقرانی در آب‌های خروشان",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "We went white-water rafting on the river."
+   ]
+  },
+  {
+   "id": "listening:kitesurfing",
+   "word": "kitesurfing",
+   "pos": "n",
+   "fa": "کایت‌سواری روی آب",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Kitesurfing needs strong winds."
+   ]
+  },
+  {
+   "id": "listening:mountain biking",
+   "word": "mountain biking",
+   "pos": "n",
+   "fa": "دوچرخه‌سواری کوهستان",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "There are trails for mountain biking in the forest."
+   ]
+  },
+  {
+   "id": "listening:jogging",
+   "word": "jogging",
+   "pos": "n",
+   "fa": "آهسته‌دویدن",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "He goes jogging every morning."
+   ]
+  },
+  {
+   "id": "listening:press-up",
+   "word": "press-up",
+   "pos": "n",
+   "fa": "شنای سوئدی",
+   "def_": "AmE: push-up",
+   "level": 21,
+   "exs": [
+    "Do twenty press-ups every day."
+   ]
+  },
+  {
+   "id": "listening:push-up",
+   "word": "push-up",
+   "pos": "n",
+   "fa": "شنای سوئدی (آمریکایی)",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "She can do fifty push-ups."
+   ]
+  },
+  {
+   "id": "listening:barbell",
+   "word": "barbell",
+   "pos": "n",
+   "fa": "هالتر",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "He lifted a heavy barbell."
+   ]
+  },
+  {
+   "id": "listening:treadmill",
+   "word": "treadmill",
+   "pos": "n",
+   "fa": "تردمیل",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "I run on the treadmill when it rains."
+   ]
+  },
+  {
+   "id": "listening:judo",
+   "word": "judo",
+   "pos": "n",
+   "fa": "جودو",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "He has a black belt in judo."
+   ]
+  },
+  {
+   "id": "listening:recreation",
+   "word": "recreation",
+   "pos": "n",
+   "fa": "تفریح، سرگرمی",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "The park is used for recreation."
+   ]
+  },
+  {
+   "id": "listening:snooker",
+   "word": "snooker",
+   "pos": "n",
+   "fa": "اسنوکر",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "They watched the snooker final on TV."
+   ]
+  },
+  {
+   "id": "listening:walking",
+   "word": "walking",
+   "pos": "n",
+   "fa": "پیاده‌روی",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Walking is the cheapest form of exercise."
+   ]
+  },
+  {
+   "id": "listening:championship",
+   "word": "championship",
+   "pos": "n",
+   "fa": "قهرمانی، مسابقات قهرمانی",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "They won the national championship."
+   ]
+  },
+  {
+   "id": "listening:canoeing",
+   "word": "canoeing",
+   "pos": "n",
+   "fa": "قایقرانی با کانو",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Canoeing is offered at the summer camp."
+   ]
+  },
+  {
+   "id": "listening:refreshment",
+   "word": "refreshment",
+   "pos": "n",
+   "fa": "نوشیدنی و خوراکی سبک",
+   "def_": "",
+   "level": 21,
+   "exs": [
+    "Refreshments will be served after the match."
+   ]
+  },
+  {
+   "id": "listening:opera",
+   "word": "opera",
+   "pos": "n",
+   "fa": "اپرا",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "We went to the opera last night."
+   ]
+  },
+  {
+   "id": "listening:orchestra",
+   "word": "orchestra",
+   "pos": "n",
+   "fa": "ارکستر",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "She plays the violin in an orchestra."
+   ]
+  },
+  {
+   "id": "listening:concert",
+   "word": "concert",
+   "pos": "n",
+   "fa": "کنسرت",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The concert starts at eight."
+   ]
+  },
+  {
+   "id": "listening:symphony",
+   "word": "symphony",
+   "pos": "n",
+   "fa": "سمفونی",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The orchestra played Beethoven's Fifth Symphony."
+   ]
+  },
+  {
+   "id": "listening:the press",
+   "word": "the press",
+   "pos": "n",
+   "fa": "مطبوعات",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The minister refused to speak to the press."
+   ]
+  },
+  {
+   "id": "listening:conductor",
+   "word": "conductor",
+   "pos": "n",
+   "fa": "رهبر ارکستر",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The conductor raised his baton."
+   ]
+  },
+  {
+   "id": "listening:vocalist",
+   "word": "vocalist",
+   "pos": "n",
+   "fa": "خواننده",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The band needs a new vocalist."
+   ]
+  },
+  {
+   "id": "listening:audience",
+   "word": "audience",
+   "pos": "n",
+   "fa": "حضار، مخاطبان",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The audience clapped loudly."
+   ]
+  },
+  {
+   "id": "listening:festival",
+   "word": "festival",
+   "pos": "n",
+   "fa": "جشنواره",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The film festival takes place in May."
+   ]
+  },
+  {
+   "id": "listening:carnival",
+   "word": "carnival",
+   "pos": "n",
+   "fa": "کارناوال",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The carnival has music and dancing in the streets."
+   ]
+  },
+  {
+   "id": "listening:exhibition",
+   "word": "exhibition",
+   "pos": "n",
+   "fa": "نمایشگاه",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "There is an exhibition of modern art at the gallery."
+   ]
+  },
+  {
+   "id": "listening:classical music",
+   "word": "classical music",
+   "pos": "n",
+   "fa": "موسیقی کلاسیک",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "She enjoys listening to classical music."
+   ]
+  },
+  {
+   "id": "listening:theatre",
+   "word": "theatre",
+   "pos": "n",
+   "fa": "تئاتر، سالن نمایش",
+   "def_": "AmE: theater",
+   "level": 22,
+   "exs": [
+    "We have tickets for the theatre tonight."
+   ]
+  },
+  {
+   "id": "listening:cinemas",
+   "word": "cinemas",
+   "pos": "n",
+   "fa": "سینماها",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The film is showing in cinemas now."
+   ]
+  },
+  {
+   "id": "listening:art gallery",
+   "word": "art gallery",
+   "pos": "n",
+   "fa": "نگارخانه، گالری هنری",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The art gallery is free to enter."
+   ]
+  },
+  {
+   "id": "listening:museum",
+   "word": "museum",
+   "pos": "n",
+   "fa": "موزه",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The museum has a large collection of coins."
+   ]
+  },
+  {
+   "id": "listening:ballet",
+   "word": "ballet",
+   "pos": "n",
+   "fa": "باله",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "They went to see a ballet."
+   ]
+  },
+  {
+   "id": "listening:television",
+   "word": "television",
+   "pos": "n",
+   "fa": "تلویزیون",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The match will be shown on television."
+   ]
+  },
+  {
+   "id": "listening:radio",
+   "word": "radio",
+   "pos": "n",
+   "fa": "رادیو",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "I heard the news on the radio."
+   ]
+  },
+  {
+   "id": "listening:graphics",
+   "word": "graphics",
+   "pos": "n",
+   "fa": "گرافیک",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "The website has excellent graphics."
+   ]
+  },
+  {
+   "id": "listening:newspaper",
+   "word": "newspaper",
+   "pos": "n",
+   "fa": "روزنامه",
+   "def_": "",
+   "level": 22,
+   "exs": [
+    "He reads the newspaper every morning."
+   ]
+  },
+  {
+   "id": "listening:fur",
+   "word": "fur",
+   "pos": "n",
+   "fa": "خز، پوست حیوان",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The coat is made of fur."
+   ]
+  },
+  {
+   "id": "listening:metal",
+   "word": "metal",
+   "pos": "n",
+   "fa": "فلز",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The box is made of metal."
+   ]
+  },
+  {
+   "id": "listening:steel",
+   "word": "steel",
+   "pos": "n",
+   "fa": "فولاد",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The bridge is made of steel."
+   ]
+  },
+  {
+   "id": "listening:aluminum",
+   "word": "aluminum",
+   "pos": "n",
+   "fa": "آلومینیوم",
+   "def_": "BrE: aluminium",
+   "level": 23,
+   "exs": [
+    "Drink cans are made of aluminum."
+   ]
+  },
+  {
+   "id": "listening:copper",
+   "word": "copper",
+   "pos": "n",
+   "fa": "مس",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Electric wires are made of copper."
+   ]
+  },
+  {
+   "id": "listening:rubber",
+   "word": "rubber",
+   "pos": "n",
+   "fa": "لاستیک، کائوچو",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Tyres are made of rubber."
+   ]
+  },
+  {
+   "id": "listening:plastic",
+   "word": "plastic",
+   "pos": "n",
+   "fa": "پلاستیک",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Plastic bags are bad for the environment."
+   ]
+  },
+  {
+   "id": "listening:ceramics",
+   "word": "ceramics",
+   "pos": "n",
+   "fa": "سرامیک",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "She studies ceramics at art school."
+   ]
+  },
+  {
+   "id": "listening:glass",
+   "word": "glass",
+   "pos": "n",
+   "fa": "شیشه",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The bottles are made of glass."
+   ]
+  },
+  {
+   "id": "listening:cement",
+   "word": "cement",
+   "pos": "n",
+   "fa": "سیمان",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Mix the cement with water and sand."
+   ]
+  },
+  {
+   "id": "listening:stone",
+   "word": "stone",
+   "pos": "n",
+   "fa": "سنگ",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The church is built of stone."
+   ]
+  },
+  {
+   "id": "listening:textile",
+   "word": "textile",
+   "pos": "n",
+   "fa": "منسوجات، پارچه",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The town was famous for its textile industry."
+   ]
+  },
+  {
+   "id": "listening:cotton",
+   "word": "cotton",
+   "pos": "n",
+   "fa": "پنبه، نخ پنبه‌ای",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "This shirt is 100% cotton."
+   ]
+  },
+  {
+   "id": "listening:fabric",
+   "word": "fabric",
+   "pos": "n",
+   "fa": "پارچه",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The curtains are made of a light fabric."
+   ]
+  },
+  {
+   "id": "listening:wool",
+   "word": "wool",
+   "pos": "n",
+   "fa": "پشم",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The sweater is made of wool."
+   ]
+  },
+  {
+   "id": "listening:leather",
+   "word": "leather",
+   "pos": "n",
+   "fa": "چرم",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "She bought a leather bag."
+   ]
+  },
+  {
+   "id": "listening:bone",
+   "word": "bone",
+   "pos": "n",
+   "fa": "استخوان",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The tools were made of bone."
+   ]
+  },
+  {
+   "id": "listening:paper",
+   "word": "paper",
+   "pos": "n",
+   "fa": "کاغذ",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Paper is made from wood."
+   ]
+  },
+  {
+   "id": "listening:lumber",
+   "word": "lumber",
+   "pos": "n",
+   "fa": "الوار، چوب بریده",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The lumber is used to build houses."
+   ]
+  },
+  {
+   "id": "listening:wood",
+   "word": "wood",
+   "pos": "n",
+   "fa": "چوب",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The table is made of wood."
+   ]
+  },
+  {
+   "id": "listening:glue",
+   "word": "glue",
+   "pos": "n",
+   "fa": "چسب",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Use glue to stick the pieces together."
+   ]
+  },
+  {
+   "id": "listening:composite",
+   "word": "composite",
+   "pos": "n",
+   "fa": "ماده مرکب، کامپوزیت",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The frame is made of a carbon composite."
+   ]
+  },
+  {
+   "id": "listening:fiberglass",
+   "word": "fiberglass",
+   "pos": "n",
+   "fa": "فایبرگلاس",
+   "def_": "BrE: fibreglass",
+   "level": 23,
+   "exs": [
+    "The boat is made of fiberglass."
+   ]
+  },
+  {
+   "id": "listening:concrete",
+   "word": "concrete",
+   "pos": "n",
+   "fa": "بتن",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The building is made of concrete."
+   ]
+  },
+  {
+   "id": "listening:wax",
+   "word": "wax",
+   "pos": "n",
+   "fa": "موم",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Candles are made of wax."
+   ]
+  },
+  {
+   "id": "listening:silver",
+   "word": "silver",
+   "pos": "n",
+   "fa": "نقره",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "She wore a silver ring."
+   ]
+  },
+  {
+   "id": "listening:gold",
+   "word": "gold",
+   "pos": "n",
+   "fa": "طلا",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The medal is made of gold."
+   ]
+  },
+  {
+   "id": "listening:feather",
+   "word": "feather",
+   "pos": "n",
+   "fa": "پَر",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The pillow is filled with feathers."
+   ]
+  },
+  {
+   "id": "listening:helmet",
+   "word": "helmet",
+   "pos": "n",
+   "fa": "کلاه ایمنی",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Always wear a helmet when cycling."
+   ]
+  },
+  {
+   "id": "listening:light",
+   "word": "light",
+   "pos": "n",
+   "fa": "چراغ، نور",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Turn off the light when you leave."
+   ]
+  },
+  {
+   "id": "listening:musical instrument",
+   "word": "musical instrument",
+   "pos": "n",
+   "fa": "ساز موسیقی",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Do you play a musical instrument?"
+   ]
+  },
+  {
+   "id": "listening:cassette",
+   "word": "cassette",
+   "pos": "n",
+   "fa": "نوار کاست",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "My father still has his old cassettes."
+   ]
+  },
+  {
+   "id": "listening:silicon chip",
+   "word": "silicon chip",
+   "pos": "n",
+   "fa": "تراشه سیلیکونی",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "A silicon chip controls the machine."
+   ]
+  },
+  {
+   "id": "listening:digital monitor",
+   "word": "digital monitor",
+   "pos": "n",
+   "fa": "نمایشگر دیجیتال",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The digital monitor shows your heart rate."
+   ]
+  },
+  {
+   "id": "listening:gadget",
+   "word": "gadget",
+   "pos": "n",
+   "fa": "ابزار کوچک، وسیله",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "This kitchen gadget peels potatoes."
+   ]
+  },
+  {
+   "id": "listening:device",
+   "word": "device",
+   "pos": "n",
+   "fa": "دستگاه، وسیله",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "This device measures air quality."
+   ]
+  },
+  {
+   "id": "listening:screen",
+   "word": "screen",
+   "pos": "n",
+   "fa": "صفحه نمایش",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The screen is too small to read."
+   ]
+  },
+  {
+   "id": "listening:brakes",
+   "word": "brakes",
+   "pos": "n",
+   "fa": "ترمزها",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Check the brakes on your bike."
+   ]
+  },
+  {
+   "id": "listening:wheels",
+   "word": "wheels",
+   "pos": "n",
+   "fa": "چرخ‌ها",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "The suitcase has four wheels."
+   ]
+  },
+  {
+   "id": "listening:mechanical pencil",
+   "word": "mechanical pencil",
+   "pos": "n",
+   "fa": "مداد نوکی (اتود)",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Use a mechanical pencil for technical drawing."
+   ]
+  },
+  {
+   "id": "listening:disk",
+   "word": "disk",
+   "pos": "n",
+   "fa": "دیسک",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Save the file on a disk."
+   ]
+  },
+  {
+   "id": "listening:backpack",
+   "word": "backpack",
+   "pos": "n",
+   "fa": "کوله‌پشتی",
+   "def_": "",
+   "level": 23,
+   "exs": [
+    "Put your water bottle in your backpack."
+   ]
+  },
+  {
+   "id": "listening:blue",
+   "word": "blue",
+   "pos": "adj",
+   "fa": "آبی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The sky is blue."
+   ]
+  },
+  {
+   "id": "listening:white",
+   "word": "white",
+   "pos": "adj",
+   "fa": "سفید",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The walls are painted white."
+   ]
+  },
+  {
+   "id": "listening:orange",
+   "word": "orange",
+   "pos": "adj",
+   "fa": "نارنجی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "He wore an orange jacket."
+   ]
+  },
+  {
+   "id": "listening:green",
+   "word": "green",
+   "pos": "adj",
+   "fa": "سبز",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The fields are green in spring."
+   ]
+  },
+  {
+   "id": "listening:grey",
+   "word": "grey",
+   "pos": "adj",
+   "fa": "خاکستری",
+   "def_": "AmE: gray",
+   "level": 24,
+   "exs": [
+    "She has grey hair."
+   ]
+  },
+  {
+   "id": "listening:black",
+   "word": "black",
+   "pos": "adj",
+   "fa": "سیاه، مشکی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "He was wearing a black suit."
+   ]
+  },
+  {
+   "id": "listening:red",
+   "word": "red",
+   "pos": "adj",
+   "fa": "قرمز",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The bus is red."
+   ]
+  },
+  {
+   "id": "listening:yellow",
+   "word": "yellow",
+   "pos": "adj",
+   "fa": "زرد",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The flowers are bright yellow."
+   ]
+  },
+  {
+   "id": "listening:purple",
+   "word": "purple",
+   "pos": "adj",
+   "fa": "بنفش",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "She painted her room purple."
+   ]
+  },
+  {
+   "id": "listening:brown",
+   "word": "brown",
+   "pos": "adj",
+   "fa": "قهوه‌ای",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "He has brown eyes."
+   ]
+  },
+  {
+   "id": "listening:pink",
+   "word": "pink",
+   "pos": "adj",
+   "fa": "صورتی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The baby wore a pink dress."
+   ]
+  },
+  {
+   "id": "listening:square",
+   "word": "square",
+   "pos": "adj",
+   "fa": "مربع، مربعی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The room is square."
+   ]
+  },
+  {
+   "id": "listening:rectangular",
+   "word": "rectangular",
+   "pos": "adj",
+   "fa": "مستطیلی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The table is rectangular."
+   ]
+  },
+  {
+   "id": "listening:triangular",
+   "word": "triangular",
+   "pos": "adj",
+   "fa": "مثلثی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The sign is triangular."
+   ]
+  },
+  {
+   "id": "listening:polygon",
+   "word": "polygon",
+   "pos": "n",
+   "fa": "چندضلعی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "A hexagon is a polygon with six sides."
+   ]
+  },
+  {
+   "id": "listening:oval",
+   "word": "oval",
+   "pos": "adj",
+   "fa": "بیضی، بیضی‌شکل",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The mirror is oval."
+   ]
+  },
+  {
+   "id": "listening:spherical",
+   "word": "spherical",
+   "pos": "adj",
+   "fa": "کروی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The Earth is almost spherical."
+   ]
+  },
+  {
+   "id": "listening:spiral",
+   "word": "spiral",
+   "pos": "adj",
+   "fa": "مارپیچ",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "A spiral staircase leads to the tower."
+   ]
+  },
+  {
+   "id": "listening:circular",
+   "word": "circular",
+   "pos": "adj",
+   "fa": "دایره‌ای، گرد",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The building has a circular shape."
+   ]
+  },
+  {
+   "id": "listening:curved",
+   "word": "curved",
+   "pos": "adj",
+   "fa": "خمیده، منحنی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The bridge has a curved roof."
+   ]
+  },
+  {
+   "id": "listening:cylindrical",
+   "word": "cylindrical",
+   "pos": "adj",
+   "fa": "استوانه‌ای",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The container is cylindrical."
+   ]
+  },
+  {
+   "id": "listening:width",
+   "word": "width",
+   "pos": "n",
+   "fa": "پهنا، عرض",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "What is the width of the room?"
+   ]
+  },
+  {
+   "id": "listening:length",
+   "word": "length",
+   "pos": "n",
+   "fa": "طول",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The length of the bridge is 300 metres."
+   ]
+  },
+  {
+   "id": "listening:altitude",
+   "word": "altitude",
+   "pos": "n",
+   "fa": "ارتفاع (از سطح دریا)",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The plane is flying at an altitude of 10,000 metres."
+   ]
+  },
+  {
+   "id": "listening:imperial system",
+   "word": "imperial system",
+   "pos": "n",
+   "fa": "سیستم اندازه‌گیری بریتانیایی (اینچ، پوند)",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The imperial system uses inches and pounds."
+   ]
+  },
+  {
+   "id": "listening:metric system",
+   "word": "metric system",
+   "pos": "n",
+   "fa": "سیستم متریک",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "Most countries use the metric system."
+   ]
+  },
+  {
+   "id": "listening:mass",
+   "word": "mass",
+   "pos": "n",
+   "fa": "جرم",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "Mass is measured in kilograms."
+   ]
+  },
+  {
+   "id": "listening:depth",
+   "word": "depth",
+   "pos": "n",
+   "fa": "عمق",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The depth of the lake is 20 metres."
+   ]
+  },
+  {
+   "id": "listening:breadth",
+   "word": "breadth",
+   "pos": "n",
+   "fa": "پهنا، عرض",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The breadth of the river is about 50 metres."
+   ]
+  },
+  {
+   "id": "listening:height",
+   "word": "height",
+   "pos": "n",
+   "fa": "ارتفاع، قد",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "What is the height of the tower?"
+   ]
+  },
+  {
+   "id": "listening:three dimensions",
+   "word": "three dimensions",
+   "pos": "n",
+   "fa": "سه‌بعد",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The model shows the building in three dimensions."
+   ]
+  },
+  {
+   "id": "listening:frequency",
+   "word": "frequency",
+   "pos": "n",
+   "fa": "بسامد، فراوانی",
+   "def_": "",
+   "level": 24,
+   "exs": [
+    "The frequency of buses increases at rush hour."
+   ]
+  },
+  {
+   "id": "listening:train",
+   "word": "train",
+   "pos": "v",
+   "fa": "آموزش دادن، تمرین کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "All staff are trained in first aid."
+   ]
+  },
+  {
+   "id": "listening:develop",
+   "word": "develop",
+   "pos": "v",
+   "fa": "توسعه دادن، رشد کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "The company is developing new software."
+   ]
+  },
+  {
+   "id": "listening:collect",
+   "word": "collect",
+   "pos": "v",
+   "fa": "جمع‌آوری کردن، تحویل گرفتن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "You can collect your tickets at the door."
+   ]
+  },
+  {
+   "id": "listening:supervise",
+   "word": "supervise",
+   "pos": "v",
+   "fa": "نظارت کردن، سرپرستی کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "Teachers supervise the children at lunchtime."
+   ]
+  },
+  {
+   "id": "listening:mark",
+   "word": "mark",
+   "pos": "v",
+   "fa": "تصحیح کردن، نمره دادن؛ علامت زدن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "The essays will be marked by next week."
+   ]
+  },
+  {
+   "id": "listening:edit",
+   "word": "edit",
+   "pos": "v",
+   "fa": "ویرایش کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "She edits the university magazine."
+   ]
+  },
+  {
+   "id": "listening:revise",
+   "word": "revise",
+   "pos": "v",
+   "fa": "مرور کردن (برای امتحان)؛ اصلاح کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "I need to revise for my exams."
+   ]
+  },
+  {
+   "id": "listening:exhibit",
+   "word": "exhibit",
+   "pos": "v",
+   "fa": "به نمایش گذاشتن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "The museum exhibits ancient coins."
+   ]
+  },
+  {
+   "id": "listening:donate",
+   "word": "donate",
+   "pos": "v",
+   "fa": "اهدا کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "He donated money to the hospital."
+   ]
+  },
+  {
+   "id": "listening:surpass",
+   "word": "surpass",
+   "pos": "v",
+   "fa": "فراتر رفتن از، پیشی گرفتن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "Sales surpassed our expectations."
+   ]
+  },
+  {
+   "id": "listening:register",
+   "word": "register",
+   "pos": "v",
+   "fa": "ثبت‌نام کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "You must register before the course starts."
+   ]
+  },
+  {
+   "id": "listening:support",
+   "word": "support",
+   "pos": "v",
+   "fa": "حمایت کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "The project is supported by the city council."
+   ]
+  },
+  {
+   "id": "listening:hunt",
+   "word": "hunt",
+   "pos": "v",
+   "fa": "شکار کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "Owls hunt at night."
+   ]
+  },
+  {
+   "id": "listening:persuade",
+   "word": "persuade",
+   "pos": "v",
+   "fa": "متقاعد کردن، ترغیب کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "She persuaded me to join the club."
+   ]
+  },
+  {
+   "id": "listening:concentrate",
+   "word": "concentrate",
+   "pos": "v",
+   "fa": "تمرکز کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "I can't concentrate with this noise."
+   ]
+  },
+  {
+   "id": "listening:discuss",
+   "word": "discuss",
+   "pos": "v",
+   "fa": "بحث کردن، گفتگو کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "We need to discuss the project."
+   ]
+  },
+  {
+   "id": "listening:suggest",
+   "word": "suggest",
+   "pos": "v",
+   "fa": "پیشنهاد کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "I suggest we meet at the library."
+   ]
+  },
+  {
+   "id": "listening:arrange",
+   "word": "arrange",
+   "pos": "v",
+   "fa": "ترتیب دادن، برنامه‌ریزی کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "Can we arrange a meeting for Monday?"
+   ]
+  },
+  {
+   "id": "listening:borrow",
+   "word": "borrow",
+   "pos": "v",
+   "fa": "قرض گرفتن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "You can borrow up to six books."
+   ]
+  },
+  {
+   "id": "listening:immigrate",
+   "word": "immigrate",
+   "pos": "v",
+   "fa": "مهاجرت کردن (به کشوری)",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "His parents immigrated to Canada in 1990."
+   ]
+  },
+  {
+   "id": "listening:review",
+   "word": "review",
+   "pos": "v",
+   "fa": "بررسی کردن، مرور کردن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "The committee will review your application."
+   ]
+  },
+  {
+   "id": "listening:learn",
+   "word": "learn",
+   "pos": "v",
+   "fa": "یاد گرفتن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "She is learning to drive."
+   ]
+  },
+  {
+   "id": "listening:touch",
+   "word": "touch",
+   "pos": "v",
+   "fa": "لمس کردن، دست زدن",
+   "def_": "",
+   "level": 25,
+   "exs": [
+    "Please don't touch the paintings."
+   ]
+  },
+  {
+   "id": "listening:reasonable",
+   "word": "reasonable",
+   "pos": "adj",
+   "fa": "منطقی؛ (قیمت) مناسب",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The prices are very reasonable."
+   ]
+  },
+  {
+   "id": "listening:satisfactory",
+   "word": "satisfactory",
+   "pos": "adj",
+   "fa": "رضایت‌بخش",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The results were satisfactory."
+   ]
+  },
+  {
+   "id": "listening:dangerous",
+   "word": "dangerous",
+   "pos": "adj",
+   "fa": "خطرناک",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "It's dangerous to swim here."
+   ]
+  },
+  {
+   "id": "listening:safe",
+   "word": "safe",
+   "pos": "adj",
+   "fa": "امن، بی‌خطر",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Is it safe to walk here at night?"
+   ]
+  },
+  {
+   "id": "listening:strongly recommended",
+   "word": "strongly recommended",
+   "pos": "phr",
+   "fa": "شدیداً توصیه‌شده",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Booking in advance is strongly recommended."
+   ]
+  },
+  {
+   "id": "listening:poor quality",
+   "word": "poor quality",
+   "pos": "phr",
+   "fa": "کیفیت پایین",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The food was of poor quality."
+   ]
+  },
+  {
+   "id": "listening:satisfied",
+   "word": "satisfied",
+   "pos": "adj",
+   "fa": "راضی",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Most customers were satisfied with the service."
+   ]
+  },
+  {
+   "id": "listening:disappointed",
+   "word": "disappointed",
+   "pos": "adj",
+   "fa": "ناامید، دلسرد",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "I was disappointed with the hotel."
+   ]
+  },
+  {
+   "id": "listening:efficient",
+   "word": "efficient",
+   "pos": "adj",
+   "fa": "کارآمد، بهره‌ور",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The new system is more efficient."
+   ]
+  },
+  {
+   "id": "listening:luxurious",
+   "word": "luxurious",
+   "pos": "adj",
+   "fa": "مجلل، لوکس",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "They stayed in a luxurious hotel."
+   ]
+  },
+  {
+   "id": "listening:colored",
+   "word": "colored",
+   "pos": "adj",
+   "fa": "رنگی",
+   "def_": "BrE: coloured",
+   "level": 26,
+   "exs": [
+    "Use colored pens to mark the map."
+   ]
+  },
+  {
+   "id": "listening:spotted",
+   "word": "spotted",
+   "pos": "adj",
+   "fa": "خال‌خالی",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "She wore a spotted dress."
+   ]
+  },
+  {
+   "id": "listening:striped",
+   "word": "striped",
+   "pos": "adj",
+   "fa": "راه‌راه",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "He has a blue and white striped shirt."
+   ]
+  },
+  {
+   "id": "listening:expensive",
+   "word": "expensive",
+   "pos": "adj",
+   "fa": "گران",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The hotel was too expensive."
+   ]
+  },
+  {
+   "id": "listening:cheap",
+   "word": "cheap",
+   "pos": "adj",
+   "fa": "ارزان",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The bus is the cheapest way to travel."
+   ]
+  },
+  {
+   "id": "listening:energetic",
+   "word": "energetic",
+   "pos": "adj",
+   "fa": "پرانرژی، فعال",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The children are very energetic."
+   ]
+  },
+  {
+   "id": "listening:social",
+   "word": "social",
+   "pos": "adj",
+   "fa": "اجتماعی",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The club organises social events."
+   ]
+  },
+  {
+   "id": "listening:ancient",
+   "word": "ancient",
+   "pos": "adj",
+   "fa": "باستانی، کهن",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "We visited the ruins of an ancient city."
+   ]
+  },
+  {
+   "id": "listening:necessary",
+   "word": "necessary",
+   "pos": "adj",
+   "fa": "لازم، ضروری",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Is it necessary to book in advance?"
+   ]
+  },
+  {
+   "id": "listening:fantastic",
+   "word": "fantastic",
+   "pos": "adj",
+   "fa": "فوق‌العاده",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The view from the top is fantastic."
+   ]
+  },
+  {
+   "id": "listening:exciting",
+   "word": "exciting",
+   "pos": "adj",
+   "fa": "هیجان‌انگیز",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "It was an exciting match."
+   ]
+  },
+  {
+   "id": "listening:fabulous",
+   "word": "fabulous",
+   "pos": "adj",
+   "fa": "عالی، شگفت‌انگیز",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "We had a fabulous time."
+   ]
+  },
+  {
+   "id": "listening:dull",
+   "word": "dull",
+   "pos": "adj",
+   "fa": "کسل‌کننده، خسته‌کننده؛ تیره",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The lecture was rather dull."
+   ]
+  },
+  {
+   "id": "listening:comfortable",
+   "word": "comfortable",
+   "pos": "adj",
+   "fa": "راحت",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The beds are very comfortable."
+   ]
+  },
+  {
+   "id": "listening:convenient",
+   "word": "convenient",
+   "pos": "adj",
+   "fa": "مناسب، راحت (از نظر زمان یا مکان)",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Is Monday convenient for you?"
+   ]
+  },
+  {
+   "id": "listening:suitable",
+   "word": "suitable",
+   "pos": "adj",
+   "fa": "مناسب",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The film is not suitable for children."
+   ]
+  },
+  {
+   "id": "listening:affordable",
+   "word": "affordable",
+   "pos": "adj",
+   "fa": "مقرون‌به‌صرفه",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "We are looking for affordable housing."
+   ]
+  },
+  {
+   "id": "listening:voluntary",
+   "word": "voluntary",
+   "pos": "adj",
+   "fa": "داوطلبانه، اختیاری",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Attendance at the workshop is voluntary."
+   ]
+  },
+  {
+   "id": "listening:mandatory",
+   "word": "mandatory",
+   "pos": "adj",
+   "fa": "اجباری",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Wearing a helmet is mandatory."
+   ]
+  },
+  {
+   "id": "listening:compulsory",
+   "word": "compulsory",
+   "pos": "adj",
+   "fa": "اجباری",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Attendance at lectures is compulsory."
+   ]
+  },
+  {
+   "id": "listening:temporary",
+   "word": "temporary",
+   "pos": "adj",
+   "fa": "موقت",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "She has a temporary job for the summer."
+   ]
+  },
+  {
+   "id": "listening:permanent",
+   "word": "permanent",
+   "pos": "adj",
+   "fa": "دائمی",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "He is looking for a permanent position."
+   ]
+  },
+  {
+   "id": "listening:immense",
+   "word": "immense",
+   "pos": "adj",
+   "fa": "عظیم، بی‌کران",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The project was an immense success."
+   ]
+  },
+  {
+   "id": "listening:vast",
+   "word": "vast",
+   "pos": "adj",
+   "fa": "وسیع، پهناور",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The desert covers a vast area."
+   ]
+  },
+  {
+   "id": "listening:salty",
+   "word": "salty",
+   "pos": "adj",
+   "fa": "شور",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Sea water is salty."
+   ]
+  },
+  {
+   "id": "listening:extinct",
+   "word": "extinct",
+   "pos": "adj",
+   "fa": "منقرض",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Dinosaurs have been extinct for millions of years."
+   ]
+  },
+  {
+   "id": "listening:vulnerable",
+   "word": "vulnerable",
+   "pos": "adj",
+   "fa": "آسیب‌پذیر",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "Old people are vulnerable to the cold."
+   ]
+  },
+  {
+   "id": "listening:pessimistic",
+   "word": "pessimistic",
+   "pos": "adj",
+   "fa": "بدبین",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "He is pessimistic about the future."
+   ]
+  },
+  {
+   "id": "listening:optimistic",
+   "word": "optimistic",
+   "pos": "adj",
+   "fa": "خوش‌بین",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "She is optimistic about passing the exam."
+   ]
+  },
+  {
+   "id": "listening:realistic",
+   "word": "realistic",
+   "pos": "adj",
+   "fa": "واقع‌بینانه",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "We need a realistic plan."
+   ]
+  },
+  {
+   "id": "listening:practical",
+   "word": "practical",
+   "pos": "adj",
+   "fa": "عملی، کاربردی",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The course gives you practical experience."
+   ]
+  },
+  {
+   "id": "listening:knowledgeable",
+   "word": "knowledgeable",
+   "pos": "adj",
+   "fa": "آگاه، مطلع",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The guide was very knowledgeable."
+   ]
+  },
+  {
+   "id": "listening:flexible",
+   "word": "flexible",
+   "pos": "adj",
+   "fa": "انعطاف‌پذیر",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The job has flexible working hours."
+   ]
+  },
+  {
+   "id": "listening:confident",
+   "word": "confident",
+   "pos": "adj",
+   "fa": "مطمئن، با اعتماد به نفس",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "She is confident about the interview."
+   ]
+  },
+  {
+   "id": "listening:western",
+   "word": "Western",
+   "pos": "adj",
+   "fa": "غربی",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The film is about Western culture."
+   ]
+  },
+  {
+   "id": "listening:intensive",
+   "word": "intensive",
+   "pos": "adj",
+   "fa": "فشرده",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "She took an intensive English course."
+   ]
+  },
+  {
+   "id": "listening:tranquil",
+   "word": "tranquil",
+   "pos": "adj",
+   "fa": "آرام، ساکت",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The hotel is in a tranquil village."
+   ]
+  },
+  {
+   "id": "listening:spectacular",
+   "word": "spectacular",
+   "pos": "adj",
+   "fa": "تماشایی، چشمگیر",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "There is a spectacular view of the mountains."
+   ]
+  },
+  {
+   "id": "listening:intact",
+   "word": "intact",
+   "pos": "adj",
+   "fa": "سالم، دست‌نخورده",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The ancient walls are still intact."
+   ]
+  },
+  {
+   "id": "listening:various",
+   "word": "various",
+   "pos": "adj",
+   "fa": "گوناگون، مختلف",
+   "def_": "",
+   "level": 26,
+   "exs": [
+    "The shop sells various kinds of tea."
+   ]
+  },
+  {
+   "id": "listening:passport photo",
+   "word": "passport photo",
+   "pos": "n",
+   "fa": "عکس پرسنلی (گذرنامه)",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Bring two passport photos with your application."
+   ]
+  },
+  {
+   "id": "listening:state",
+   "word": "state",
+   "pos": "n",
+   "fa": "ایالت؛ دولت؛ وضعیت",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Texas is a large state."
+   ]
+  },
+  {
+   "id": "listening:government",
+   "word": "government",
+   "pos": "n",
+   "fa": "دولت، حکومت",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The government plans to build new schools."
+   ]
+  },
+  {
+   "id": "listening:individual",
+   "word": "individual",
+   "pos": "n",
+   "fa": "فرد",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Each individual has a different learning style."
+   ]
+  },
+  {
+   "id": "listening:variety",
+   "word": "variety",
+   "pos": "n",
+   "fa": "تنوع، گوناگونی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The shop sells a wide variety of food."
+   ]
+  },
+  {
+   "id": "listening:private sector",
+   "word": "private sector",
+   "pos": "n",
+   "fa": "بخش خصوصی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "She works in the private sector."
+   ]
+  },
+  {
+   "id": "listening:practice",
+   "word": "practice",
+   "pos": "n",
+   "fa": "تمرین؛ روال، رویه",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Practice makes perfect."
+   ]
+  },
+  {
+   "id": "listening:gender",
+   "word": "gender",
+   "pos": "n",
+   "fa": "جنسیت",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The survey asked about age and gender."
+   ]
+  },
+  {
+   "id": "listening:creativity",
+   "word": "creativity",
+   "pos": "n",
+   "fa": "خلاقیت",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The course encourages creativity."
+   ]
+  },
+  {
+   "id": "listening:original inhabitant",
+   "word": "original inhabitant",
+   "pos": "n",
+   "fa": "ساکن اصلی (بومی)",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The original inhabitants of the island were fishermen."
+   ]
+  },
+  {
+   "id": "listening:indigenous",
+   "word": "indigenous",
+   "pos": "adj",
+   "fa": "بومی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The indigenous people of Australia have a rich culture."
+   ]
+  },
+  {
+   "id": "listening:demonstration",
+   "word": "demonstration",
+   "pos": "n",
+   "fa": "تظاهرات؛ نمایش عملی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "There will be a cooking demonstration at noon."
+   ]
+  },
+  {
+   "id": "listening:strike",
+   "word": "strike",
+   "pos": "n",
+   "fa": "اعتصاب",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The train drivers are on strike."
+   ]
+  },
+  {
+   "id": "listening:entrance",
+   "word": "entrance",
+   "pos": "n",
+   "fa": "ورودی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Meet me at the main entrance."
+   ]
+  },
+  {
+   "id": "listening:circuit",
+   "word": "circuit",
+   "pos": "n",
+   "fa": "مدار؛ مسیر دایره‌ای",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The electric circuit was broken."
+   ]
+  },
+  {
+   "id": "listening:guarantee",
+   "word": "guarantee",
+   "pos": "n",
+   "fa": "ضمانت، گارانتی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The TV comes with a two-year guarantee."
+   ]
+  },
+  {
+   "id": "listening:dialogue",
+   "word": "dialogue",
+   "pos": "n",
+   "fa": "گفتگو",
+   "def_": "AmE: dialog",
+   "level": 27,
+   "exs": [
+    "Listen to the dialogue and answer the questions."
+   ]
+  },
+  {
+   "id": "listening:commerce",
+   "word": "commerce",
+   "pos": "n",
+   "fa": "تجارت، بازرگانی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The city is a centre of commerce."
+   ]
+  },
+  {
+   "id": "listening:carriage",
+   "word": "carriage",
+   "pos": "n",
+   "fa": "واگن قطار؛ کالسکه",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The first carriage is for first-class passengers."
+   ]
+  },
+  {
+   "id": "listening:narrative",
+   "word": "narrative",
+   "pos": "n",
+   "fa": "روایت، داستان",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The book is a narrative of his travels."
+   ]
+  },
+  {
+   "id": "listening:chocolate",
+   "word": "chocolate",
+   "pos": "n",
+   "fa": "شکلات",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "She bought a box of chocolates."
+   ]
+  },
+  {
+   "id": "listening:satellite",
+   "word": "satellite",
+   "pos": "n",
+   "fa": "ماهواره",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The satellite sends pictures of the Earth."
+   ]
+  },
+  {
+   "id": "listening:decision",
+   "word": "decision",
+   "pos": "n",
+   "fa": "تصمیم",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "We have to make a decision soon."
+   ]
+  },
+  {
+   "id": "listening:prototype",
+   "word": "prototype",
+   "pos": "n",
+   "fa": "نمونه اولیه",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The engineers built a prototype of the new car."
+   ]
+  },
+  {
+   "id": "listening:attitude",
+   "word": "attitude",
+   "pos": "n",
+   "fa": "نگرش، طرز برخورد",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "She has a positive attitude to work."
+   ]
+  },
+  {
+   "id": "listening:daily routine",
+   "word": "daily routine",
+   "pos": "n",
+   "fa": "کارهای روزمره",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Exercise is part of my daily routine."
+   ]
+  },
+  {
+   "id": "listening:personal fulfillment",
+   "word": "personal fulfillment",
+   "pos": "n",
+   "fa": "رضایت و کمال شخصی",
+   "def_": "BrE: personal fulfilment",
+   "level": 27,
+   "exs": [
+    "Many people volunteer for personal fulfillment."
+   ]
+  },
+  {
+   "id": "listening:activity",
+   "word": "activity",
+   "pos": "n",
+   "fa": "فعالیت",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The centre offers activities for children."
+   ]
+  },
+  {
+   "id": "listening:recipient",
+   "word": "recipient",
+   "pos": "n",
+   "fa": "دریافت‌کننده",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The recipient of the award is a young scientist."
+   ]
+  },
+  {
+   "id": "listening:ultrasound",
+   "word": "ultrasound",
+   "pos": "n",
+   "fa": "سونوگرافی، فراصوت",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The doctor did an ultrasound scan."
+   ]
+  },
+  {
+   "id": "listening:pedestrian safety",
+   "word": "pedestrian safety",
+   "pos": "n",
+   "fa": "ایمنی عابران پیاده",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "New traffic lights will improve pedestrian safety."
+   ]
+  },
+  {
+   "id": "listening:traffic jams",
+   "word": "traffic jams",
+   "pos": "n",
+   "fa": "ترافیک سنگین، راه‌بندان",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "There are traffic jams every morning."
+   ]
+  },
+  {
+   "id": "listening:procedures",
+   "word": "procedures",
+   "pos": "n",
+   "fa": "رویه‌ها، روال‌ها",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Follow the safety procedures carefully."
+   ]
+  },
+  {
+   "id": "listening:creation",
+   "word": "creation",
+   "pos": "n",
+   "fa": "آفرینش، ایجاد",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The plan led to the creation of 500 jobs."
+   ]
+  },
+  {
+   "id": "listening:prize",
+   "word": "prize",
+   "pos": "n",
+   "fa": "جایزه",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "She won first prize in the competition."
+   ]
+  },
+  {
+   "id": "listening:junior",
+   "word": "junior",
+   "pos": "adj",
+   "fa": "کوچک‌تر، رده پایین‌تر",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "He is a junior doctor at the hospital."
+   ]
+  },
+  {
+   "id": "listening:senior",
+   "word": "senior",
+   "pos": "adj",
+   "fa": "ارشد، بزرگ‌تر",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "She is a senior manager."
+   ]
+  },
+  {
+   "id": "listening:opportunity",
+   "word": "opportunity",
+   "pos": "n",
+   "fa": "فرصت",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "This job is a great opportunity."
+   ]
+  },
+  {
+   "id": "listening:driving license",
+   "word": "driving license",
+   "pos": "n",
+   "fa": "گواهینامه رانندگی",
+   "def_": "BrE: driving licence; AmE: driver's license",
+   "level": 27,
+   "exs": [
+    "You need a driving license to hire a car."
+   ]
+  },
+  {
+   "id": "listening:process",
+   "word": "process",
+   "pos": "n",
+   "fa": "فرایند",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The application process takes two weeks."
+   ]
+  },
+  {
+   "id": "listening:literary",
+   "word": "literary",
+   "pos": "adj",
+   "fa": "ادبی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The magazine publishes literary reviews."
+   ]
+  },
+  {
+   "id": "listening:man-made",
+   "word": "man-made",
+   "pos": "adj",
+   "fa": "ساخت بشر، مصنوعی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The lake is man-made."
+   ]
+  },
+  {
+   "id": "listening:republicans",
+   "word": "republicans",
+   "pos": "n",
+   "fa": "جمهوری‌خواهان",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The republicans won the election."
+   ]
+  },
+  {
+   "id": "listening:umbrella",
+   "word": "umbrella",
+   "pos": "n",
+   "fa": "چتر",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Take an umbrella in case it rains."
+   ]
+  },
+  {
+   "id": "listening:frequently updated",
+   "word": "frequently updated",
+   "pos": "phr",
+   "fa": "مرتباً به‌روزرسانی‌شده",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The website is frequently updated."
+   ]
+  },
+  {
+   "id": "listening:waiting list",
+   "word": "waiting list",
+   "pos": "n",
+   "fa": "فهرست انتظار",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "There is a long waiting list for the course."
+   ]
+  },
+  {
+   "id": "listening:sewer systems",
+   "word": "sewer systems",
+   "pos": "n",
+   "fa": "سیستم‌های فاضلاب",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Old cities need new sewer systems."
+   ]
+  },
+  {
+   "id": "listening:liberal democracy",
+   "word": "liberal democracy",
+   "pos": "n",
+   "fa": "دموکراسی لیبرال",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Britain is a liberal democracy."
+   ]
+  },
+  {
+   "id": "listening:democrats",
+   "word": "democrats",
+   "pos": "n",
+   "fa": "دموکرات‌ها",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The democrats proposed a new law."
+   ]
+  },
+  {
+   "id": "listening:lunar calendar",
+   "word": "lunar calendar",
+   "pos": "n",
+   "fa": "تقویم قمری",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The festival date follows the lunar calendar."
+   ]
+  },
+  {
+   "id": "listening:libertarian",
+   "word": "libertarian",
+   "pos": "n",
+   "fa": "آزادی‌خواه (لیبرتارین)",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "He describes himself as a libertarian."
+   ]
+  },
+  {
+   "id": "listening:burger",
+   "word": "burger",
+   "pos": "n",
+   "fa": "همبرگر",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "I'd like a burger and chips, please."
+   ]
+  },
+  {
+   "id": "listening:videos",
+   "word": "videos",
+   "pos": "n",
+   "fa": "ویدیوها",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The course includes online videos."
+   ]
+  },
+  {
+   "id": "listening:nature conservation",
+   "word": "nature conservation",
+   "pos": "n",
+   "fa": "حفاظت از طبیعت",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "She works for a nature conservation group."
+   ]
+  },
+  {
+   "id": "listening:life expectancy",
+   "word": "life expectancy",
+   "pos": "n",
+   "fa": "امید به زندگی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Life expectancy has increased in most countries."
+   ]
+  },
+  {
+   "id": "listening:fund-raising event",
+   "word": "fund-raising event",
+   "pos": "n",
+   "fa": "رویداد جمع‌آوری کمک مالی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The school held a fund-raising event."
+   ]
+  },
+  {
+   "id": "listening:magnet",
+   "word": "magnet",
+   "pos": "n",
+   "fa": "آهن‌ربا",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "A magnet attracts iron."
+   ]
+  },
+  {
+   "id": "listening:dialect",
+   "word": "dialect",
+   "pos": "n",
+   "fa": "گویش، لهجه",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "They speak a local dialect."
+   ]
+  },
+  {
+   "id": "listening:ramification",
+   "word": "ramification",
+   "pos": "n",
+   "fa": "پیامد، عواقب",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The decision has serious ramifications."
+   ]
+  },
+  {
+   "id": "listening:straight",
+   "word": "straight",
+   "pos": "adj",
+   "fa": "مستقیم، صاف",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Go straight on and turn left."
+   ]
+  },
+  {
+   "id": "listening:farewell",
+   "word": "farewell",
+   "pos": "n",
+   "fa": "خداحافظی، بدرود",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "We had a farewell party for our teacher."
+   ]
+  },
+  {
+   "id": "listening:welfare",
+   "word": "welfare",
+   "pos": "n",
+   "fa": "رفاه",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The government is responsible for public welfare."
+   ]
+  },
+  {
+   "id": "listening:encyclopedia",
+   "word": "encyclopedia",
+   "pos": "n",
+   "fa": "دانشنامه، دایرةالمعارف",
+   "def_": "BrE also: encyclopaedia",
+   "level": 27,
+   "exs": [
+    "You can find the answer in an encyclopedia."
+   ]
+  },
+  {
+   "id": "listening:evolution",
+   "word": "evolution",
+   "pos": "n",
+   "fa": "تکامل",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Darwin wrote about evolution."
+   ]
+  },
+  {
+   "id": "listening:revolution",
+   "word": "revolution",
+   "pos": "n",
+   "fa": "انقلاب",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The Industrial Revolution began in Britain."
+   ]
+  },
+  {
+   "id": "listening:illiteracy",
+   "word": "illiteracy",
+   "pos": "n",
+   "fa": "بی‌سوادی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "The charity fights illiteracy."
+   ]
+  },
+  {
+   "id": "listening:robot",
+   "word": "robot",
+   "pos": "n",
+   "fa": "ربات",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "Robots are used in car factories."
+   ]
+  },
+  {
+   "id": "listening:proficiency",
+   "word": "proficiency",
+   "pos": "n",
+   "fa": "مهارت، تسلط",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "You need a certificate of English proficiency."
+   ]
+  },
+  {
+   "id": "listening:sufficient",
+   "word": "sufficient",
+   "pos": "adj",
+   "fa": "کافی",
+   "def_": "",
+   "level": 27,
+   "exs": [
+    "We have sufficient time to finish."
+   ]
+  }
+ ]
+}

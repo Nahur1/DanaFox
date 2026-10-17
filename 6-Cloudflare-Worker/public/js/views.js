@@ -172,15 +172,18 @@ document.addEventListener('keydown', e => { if(VY.current==='games' && VY.G && V
 /* ================= DICTIONARY ================= */
 V.dictionary = {title:'dictionary', render(){
   const D = VY.dict = Object.assign({q:'', cat:'all', level:0, status:'all', limit:60}, VY.dict||{});
-  const cats = ['all','general','ielts','toefl','custom'];
+  if(D.cat!=='all' && !VY.CATS[D.cat]) D.cat = 'all';
+  const cats = ['all', ...VY.allCats(), 'custom'], LV = D.cat!=='all' ? VY.CATS[D.cat].levels : [];
   return `<div class="card" style="padding:18px">
     <div class="search"><input class="input" id="d-q" placeholder="${t('searchWords')}" value="${esc(D.q)}">${icon('search')}</div>
     <div class="row wrap mt12"><div class="seg">${cats.map(c=>`<button class="${D.cat===c?'on':''}" data-act="dset" data-k="cat" data-v="${c}">${c==='all'?t('all'):VY.catName(c)}</button>`).join('')}</div>
-    ${D.cat!=='all' && VY.CATS[D.cat].levels.length>1 ? `<div class="seg">${[0,...VY.CATS[D.cat].levels.map((_,i)=>i+1)].map(l=>`<button class="${D.level===l?'on':''}" data-act="dset" data-k="level" data-v="${l}">${l?VY.levelName(D.cat,l):t('allLevels')}</button>`).join('')}</div>`:''}</div>
+    ${LV.length > 7 ? `<select class="input" id="d-lv" style="width:auto;max-width:100%">${[0,...LV.map((_,i)=>i+1)].map(l=>`<option value="${l}" ${D.level===l?'selected':''}>${l?esc(VY.levelName(D.cat,l)):t('allLevels')}</option>`).join('')}</select>` :
+      LV.length > 1 ? `<div class="seg">${[0,...LV.map((_,i)=>i+1)].map(l=>`<button class="${D.level===l?'on':''}" data-act="dset" data-k="level" data-v="${l}">${l?VY.levelName(D.cat,l):t('allLevels')}</button>`).join('')}</div>`:''}</div>
     <div class="row wrap mt12"><div class="seg">${['all','new','learning','review','mastered','starred'].map(s=>`<button class="${D.status===s?'on':''}" data-act="dset" data-k="status" data-v="${s}">${s==='all'?t('all'):t(s==='starred'?'starred':s+'W')}</button>`).join('')}</div></div>
   </div>
   <div class="card mt16" id="d-list"></div>`;
-}, after(){ const q = document.getElementById('d-q'); q.addEventListener('input', () => { VY.dict.q = q.value; VY.dict.limit = 60; dictList(); }); dictList(); }};
+}, after(){ const q = document.getElementById('d-q'); q.addEventListener('input', () => { VY.dict.q = q.value; VY.dict.limit = 60; dictList(); });
+  const lv = document.getElementById('d-lv'); if(lv) lv.addEventListener('change', () => { VY.dict.level = +lv.value; VY.dict.limit = 60; dictList(); }); dictList(); }};
 function dictFiltered(){ const D = VY.dict, q = D.q.trim().toLowerCase();
   return VY.words.filter(w => (D.cat==='all' || w.cat===D.cat) && (!D.level || w.level===D.level)
     && (D.status==='all' || (D.status==='starred' ? (VY.P(w.id)&&VY.P(w.id).star) : VY.status(w.id)===D.status))
@@ -275,7 +278,7 @@ V.stats = {title:'stats', render(){
     <div class="card"><h3>${t('last14')}</h3><div class="bars">${last14.map((d,i)=>`<div class="bar ${i===13?'today':''}"><span>${d.v?n(d.v):''}</span><i style="height:${d.v/mx*110}px"></i><span>${n(+d.k.slice(8))}</span></div>`).join('')}</div></div>
     <div class="card"><h3>${t('forecast')}</h3><div class="bars">${fc.map((v,i)=>`<div class="bar ${i===0?'today':''}"><span>${n(v)}</span><i style="height:${v/fmx*110}px"></i><span>${i===0?t('today'):i===1?t('tomorrow'):'+'+n(i)}</span></div>`).join('')}</div></div>
     <div class="card"><h3>${t('boxes')}</h3>${[1,2,3,4,5,6].map(b=>`<div class="hbar"><span class="muted">${boxNames[b]}</span><div class="progress ${b===6?'yellow':''}"><i style="width:${boxes[b]/bmx*100}%"></i></div><b>${n(boxes[b])}</b></div>`).join('')}<div class="hbar"><span class="muted">${t('newW')}</span><div class="progress"><i style="width:0"></i></div><b>${n(boxes[0])}</b></div></div>
-    <div class="card"><h3>${t('catProgress')}</h3>${['general','ielts','toefl','custom'].map(c=>{const ws=VY.deckWords(c); const s=ws.filter(w=>VY.P(w.id)&&VY.P(w.id).seen).length; return `<div class="hbar"><span>${VY.CATS[c].icon} ${VY.catName(c)}</span><div class="progress"><i style="width:${ws.length?s/ws.length*100:0}%"></i></div><b>${n(ws.length?Math.round(s*100/ws.length):0)}${VY.lang()==='fa'?'٪':'%'}</b></div>`;}).join('')}</div>
+    <div class="card"><h3>${t('catProgress')}</h3>${[...VY.allCats(),'custom'].map(c=>{const ws=VY.deckWords(c); const s=ws.filter(w=>VY.P(w.id)&&VY.P(w.id).seen).length; return `<div class="hbar"><span>${VY.CATS[c].icon} ${VY.catName(c)}</span><div class="progress"><i style="width:${ws.length?s/ws.length*100:0}%"></i></div><b>${n(ws.length?Math.round(s*100/ws.length):0)}${VY.lang()==='fa'?'٪':'%'}</b></div>`;}).join('')}</div>
   </div>
   <div class="card mt16"><h3>${t('heatmap')}</h3><div class="heat mt12" dir="ltr">${heat}</div></div>
   <div class="section-title"><h2>${t('achievements')}</h2><span class="chip yellow">${n(Object.keys(S.ach).length)} / ${n(VY.ACH.length)}</span></div>

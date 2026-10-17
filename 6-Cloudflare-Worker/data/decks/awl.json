@@ -1,0 +1,6685 @@
+{
+ "cat": "awl",
+ "words": [
+  {
+   "id": "awl:analysis",
+   "word": "analysis",
+   "pos": "n",
+   "fa": "تحلیل، تجزیه و تحلیل",
+   "def_": "/əˈnælɪsɪs/ · a careful examination",
+   "level": 1,
+   "exs": [
+    "a detailed analysis of the week's news"
+   ]
+  },
+  {
+   "id": "awl:approach",
+   "word": "approach",
+   "pos": "v",
+   "fa": "نزدیک شدن؛ رویکرد، روش",
+   "def_": "/əˈproʊtʃ/ · v., n. · move nearer; method",
+   "level": 1,
+   "exs": [
+    "He approached the issue from a historical perspective.",
+    "We need a new approach to the problem.",
+    "Her approach to teaching is very creative."
+   ]
+  },
+  {
+   "id": "awl:area",
+   "word": "area",
+   "pos": "n",
+   "fa": "منطقه، ناحیه؛ حوزه",
+   "def_": "/ˈeriə/ · region, zone",
+   "level": 1,
+   "exs": [
+    "Crime rates are much higher in urban areas."
+   ]
+  },
+  {
+   "id": "awl:assess",
+   "word": "assess",
+   "pos": "v",
+   "fa": "ارزیابی کردن، سنجیدن",
+   "def_": "/əˈses/ · evaluate; judge",
+   "level": 1,
+   "exs": [
+    "a report to assess the impact of advertising on children",
+    "Teachers assess students regularly.",
+    "Teachers assess students' work every week."
+   ]
+  },
+  {
+   "id": "awl:assume",
+   "word": "assume",
+   "pos": "v",
+   "fa": "فرض کردن، پنداشتن",
+   "def_": "/əˈsuːm/ · presume",
+   "level": 1,
+   "exs": [
+    "I think we can safely assume that he is out of town.",
+    "I assume you have heard the news.",
+    "I assumed that you already knew."
+   ]
+  },
+  {
+   "id": "awl:authority",
+   "word": "authority",
+   "pos": "n",
+   "fa": "اقتدار، اختیار؛ مقامات، مسئولان",
+   "def_": "/əˈθɒrəti/ · power; people in charge",
+   "level": 1,
+   "exs": [
+    "The French authorities have refused to issue him a visa.",
+    "Local authorities closed the road.",
+    "Parents need to have authority over young children."
+   ]
+  },
+  {
+   "id": "awl:available",
+   "word": "available",
+   "pos": "adj",
+   "fa": "در دسترس، موجود",
+   "def_": "/əˈveɪləbəl/ · accessible",
+   "level": 1,
+   "exs": [
+    "Tickets are available from the box office.",
+    "Is this room available tonight?",
+    "Is this seat available?"
+   ]
+  },
+  {
+   "id": "awl:benefit",
+   "word": "benefit",
+   "pos": "n",
+   "fa": "سود، مزیت، فایده",
+   "def_": "/ˈbenəfɪt/ · advantage",
+   "level": 1,
+   "exs": [
+    "the benefits of a university education",
+    "Exercise has many benefits.",
+    "The new law will be of benefit to everyone."
+   ]
+  },
+  {
+   "id": "awl:concept",
+   "word": "concept",
+   "pos": "n",
+   "fa": "مفهوم، انگاره",
+   "def_": "/ˈkɒnsept/ · idea",
+   "level": 1,
+   "exs": [
+    "She is familiar with basic concepts of psychology.",
+    "The concept of time is difficult to explain.",
+    "Children learn basic mathematical concepts."
+   ]
+  },
+  {
+   "id": "awl:consistent",
+   "word": "consistent",
+   "pos": "adj",
+   "fa": "سازگار، ثابت، پیوسته؛ استوار",
+   "def_": "/kənˈsɪstənt/ · continuous",
+   "level": 1,
+   "exs": [
+    "We need to be consistent in our approach."
+   ]
+  },
+  {
+   "id": "awl:constitutional",
+   "word": "constitutional",
+   "pos": "adj",
+   "fa": "قانونی، مطابق قانون اساسی",
+   "def_": "/ˌkɒnstəˈtjuːʃənəl/ · legal",
+   "level": 1,
+   "exs": [
+    "Whatever procedure we follow, it must be constitutional."
+   ]
+  },
+  {
+   "id": "awl:context",
+   "word": "context",
+   "pos": "n",
+   "fa": "زمینه، بافت، شرایط",
+   "def_": "/ˈkɒntekst/ · situation",
+   "level": 1,
+   "exs": [
+    "the political context of the election"
+   ]
+  },
+  {
+   "id": "awl:contract",
+   "word": "contract",
+   "pos": "n",
+   "fa": "قرارداد",
+   "def_": "/ˈkɒntrækt/ · a legal written agreement",
+   "level": 1,
+   "exs": [
+    "The contract requires him to finish work by this year."
+   ]
+  },
+  {
+   "id": "awl:create",
+   "word": "create",
+   "pos": "v",
+   "fa": "ایجاد کردن، خلق کردن، ساختن",
+   "def_": "/kriˈeɪt/ · make, produce",
+   "level": 1,
+   "exs": [
+    "He believes the universe was created by a big explosion."
+   ]
+  },
+  {
+   "id": "awl:data",
+   "word": "data",
+   "pos": "n",
+   "fa": "داده‌ها، اطلاعات",
+   "def_": "/ˈdeɪtə, ˈdɑːtə/ · information or facts",
+   "level": 1,
+   "exs": [
+    "The analysis was based on data collected in the field.",
+    "The data show a clear pattern.",
+    "The data show a clear increase in temperature."
+   ]
+  },
+  {
+   "id": "awl:define",
+   "word": "define",
+   "pos": "v",
+   "fa": "تعریف کردن، مشخص کردن",
+   "def_": "/dɪˈfaɪn/ · describe",
+   "level": 1,
+   "exs": [
+    "There are many definitions of the word 'feminism'.",
+    "How do you define success?",
+    "How would you define happiness?"
+   ]
+  },
+  {
+   "id": "awl:derive",
+   "word": "derive",
+   "pos": "v",
+   "fa": "به دست آوردن، مشتق شدن (از)",
+   "def_": "/dɪˈraɪv/ · get sth from sth",
+   "level": 1,
+   "exs": [
+    "Dairy products are derived from milk."
+   ]
+  },
+  {
+   "id": "awl:distribute",
+   "word": "distribute",
+   "pos": "v",
+   "fa": "توزیع کردن، پخش کردن",
+   "def_": "/dɪˈstrɪbjuːt/ · give, pass, hand",
+   "level": 1,
+   "exs": [
+    "She was responsible for product distribution.",
+    "Seeds are distributed by the wind.",
+    "Volunteers distributed food to the families."
+   ]
+  },
+  {
+   "id": "awl:economic",
+   "word": "economic",
+   "pos": "adj",
+   "fa": "اقتصادی",
+   "def_": "/ˌekəˈnɒmɪk/ · relating to money",
+   "level": 1,
+   "exs": [
+    "Economic growth is slow."
+   ]
+  },
+  {
+   "id": "awl:environment",
+   "word": "environment",
+   "pos": "n",
+   "fa": "محیط، محیط زیست",
+   "def_": "/ɪnˈvaɪrənmənt/ · surroundings; the natural world",
+   "level": 1,
+   "exs": [
+    "We're trying to create a better business environment.",
+    "We must protect the environment.",
+    "We must protect the environment for future generations."
+   ]
+  },
+  {
+   "id": "awl:establish",
+   "word": "establish",
+   "pos": "v",
+   "fa": "تأسیس کردن، برقرار کردن",
+   "def_": "/ɪˈstæblɪʃ/ · set up, found",
+   "level": 1,
+   "exs": [
+    "The company was established in 1899."
+   ]
+  },
+  {
+   "id": "awl:estimate",
+   "word": "estimate",
+   "pos": "n",
+   "fa": "تخمین؛ برآورد کردن",
+   "def_": "/ˈestəmət/ · n., v. · calculate, judge",
+   "level": 1,
+   "exs": [
+    "It is not easy to estimate how many people have the disease.",
+    "Scientists estimate that the tree is 2,000 years old.",
+    "It is estimated that a million people visited the exhibition."
+   ]
+  },
+  {
+   "id": "awl:evidence",
+   "word": "evidence",
+   "pos": "n",
+   "fa": "شواهد، مدرک",
+   "def_": "/ˈevɪdəns/ · proof, document",
+   "level": 1,
+   "exs": [
+    "Evidence shows that global warming is definitely occurring.",
+    "There is no evidence of life on Mars.",
+    "There is no evidence that he stole the money."
+   ]
+  },
+  {
+   "id": "awl:export",
+   "word": "export",
+   "pos": "n",
+   "fa": "صادرات؛ صادر کردن",
+   "def_": "/ˈekspɔːt/ · n., v. · sell goods to another country · ≠ import",
+   "level": 1,
+   "exs": [
+    "Wheat is one of the country's chief exports.",
+    "Iran exports pistachios to many countries.",
+    "The country exports oil and gas."
+   ]
+  },
+  {
+   "id": "awl:factor",
+   "word": "factor",
+   "pos": "n",
+   "fa": "عامل",
+   "def_": "/ˈfæktər/ · one of several things that influence sth",
+   "level": 1,
+   "exs": [
+    "Obesity is a major risk factor for heart disease.",
+    "Diet is a key factor in health.",
+    "Price is an important factor when buying a house."
+   ]
+  },
+  {
+   "id": "awl:financial",
+   "word": "financial",
+   "pos": "adj",
+   "fa": "مالی",
+   "def_": "/fəˈnænʃəl, faɪ-/ · relating to money or its management",
+   "level": 1,
+   "exs": [
+    "financial advisor, financial aid"
+   ]
+  },
+  {
+   "id": "awl:formula",
+   "word": "formula",
+   "pos": "n",
+   "fa": "فرمول، دستور",
+   "def_": "/ˈfɔːrmjələ/ · a set of rules",
+   "level": 1,
+   "exs": [
+    "His investment strategy is based on a simple formula."
+   ]
+  },
+  {
+   "id": "awl:function",
+   "word": "function",
+   "pos": "n",
+   "fa": "کارکرد، عملکرد؛ مراسم",
+   "def_": "/ˈfʌŋkʃən/ · purpose, event",
+   "level": 1,
+   "exs": [
+    "The church fulfils a valuable social function.",
+    "The function of the heart is to pump blood.",
+    "This button has several functions."
+   ]
+  },
+  {
+   "id": "awl:identify",
+   "word": "identify",
+   "pos": "v",
+   "fa": "شناسایی کردن، تشخیص دادن",
+   "def_": "/aɪˈdentɪfaɪ/ · recognize",
+   "level": 1,
+   "exs": [
+    "The corpse was identified on the basis of dental records.",
+    "Can you identify this plant?",
+    "The police identified the man from the photo."
+   ]
+  },
+  {
+   "id": "awl:income",
+   "word": "income",
+   "pos": "n",
+   "fa": "درآمد",
+   "def_": "/ˈɪŋkʌm/ · money you earn from working",
+   "level": 1,
+   "exs": [
+    "He earns a good income as a consultant.",
+    "Average income has increased.",
+    "Families on low incomes need more support."
+   ]
+  },
+  {
+   "id": "awl:indicate",
+   "word": "indicate",
+   "pos": "v",
+   "fa": "نشان دادن، حاکی بودن از",
+   "def_": "/ˈɪndɪkeɪt/ · show, demonstrate",
+   "level": 1,
+   "exs": [
+    "Research indicates that teachers are dissatisfied with their salary.",
+    "The results indicate a strong link.",
+    "Dark clouds indicate that rain is coming."
+   ]
+  },
+  {
+   "id": "awl:individual",
+   "word": "individual",
+   "pos": "n",
+   "fa": "فرد؛ فردی، شخصی",
+   "def_": "/ˌɪndəˈvɪdʒuəl/ · n., adj. · belonging to one person",
+   "level": 1,
+   "exs": [
+    "The competition is open to both teams and individuals.",
+    "Every individual has the right to education.",
+    "Every individual has the right to free speech."
+   ]
+  },
+  {
+   "id": "awl:interpret",
+   "word": "interpret",
+   "pos": "v",
+   "fa": "تفسیر کردن، تعبیر کردن؛ ترجمه کردن",
+   "def_": "/ɪnˈtɜːprɪt/ · translate, explain",
+   "level": 1,
+   "exs": [
+    "This writer's work demands interpretation.",
+    "How do you interpret this poem?",
+    "She interpreted his silence as agreement."
+   ]
+  },
+  {
+   "id": "awl:involve",
+   "word": "involve",
+   "pos": "v",
+   "fa": "شامل شدن، در بر داشتن؛ درگیر کردن",
+   "def_": "/ɪnˈvɒlv/ · include",
+   "level": 1,
+   "exs": [
+    "More than 30 software firms were involved in the project."
+   ]
+  },
+  {
+   "id": "awl:issue",
+   "word": "issue",
+   "pos": "n",
+   "fa": "موضوع، مسئله؛ صادر کردن",
+   "def_": "/ˈɪʃuː/ · n., v. · an important topic",
+   "level": 1,
+   "exs": [
+    "Water purity is a public health issue.",
+    "Climate change is a global issue.",
+    "We discussed several issues at the meeting."
+   ]
+  },
+  {
+   "id": "awl:labor",
+   "word": "labor",
+   "pos": "n",
+   "fa": "کار، نیروی کار؛ زحمت کشیدن",
+   "def_": "/ˈleɪbər/ · n., v. · work, worker",
+   "level": 1,
+   "exs": [
+    "Many women do hard manual labour."
+   ]
+  },
+  {
+   "id": "awl:legal",
+   "word": "legal",
+   "pos": "adj",
+   "fa": "قانونی، حقوقی",
+   "def_": "/ˈliːɡəl/ · allowed by law",
+   "level": 1,
+   "exs": [
+    "What the company has done is perfectly legal."
+   ]
+  },
+  {
+   "id": "awl:legislation",
+   "word": "legislation",
+   "pos": "n",
+   "fa": "قانون‌گذاری، قوانین",
+   "def_": "/ˌledʒəˈsleɪʃən/ · a law or set of laws",
+   "level": 1,
+   "exs": [
+    "the legislation on abortion",
+    "New legislation bans smoking indoors.",
+    "New legislation will protect endangered animals."
+   ]
+  },
+  {
+   "id": "awl:major",
+   "word": "major",
+   "pos": "adj",
+   "fa": "اصلی، مهم، عمده",
+   "def_": "/ˈmeɪdʒər/ · main, important",
+   "level": 1,
+   "exs": [
+    "The use of drugs is a major problem."
+   ]
+  },
+  {
+   "id": "awl:method",
+   "word": "method",
+   "pos": "n",
+   "fa": "روش، شیوه",
+   "def_": "/ˈmeθəd/ · way, approach",
+   "level": 1,
+   "exs": [
+    "traditional teaching methods",
+    "This is an effective teaching method.",
+    "There are many methods of learning vocabulary."
+   ]
+  },
+  {
+   "id": "awl:occur",
+   "word": "occur",
+   "pos": "v",
+   "fa": "رخ دادن، اتفاق افتادن",
+   "def_": "/əˈkɜːr/ · happen",
+   "level": 1,
+   "exs": [
+    "The disease tends to occur in children under five.",
+    "Earthquakes occur along fault lines.",
+    "Earthquakes often occur in this region."
+   ]
+  },
+  {
+   "id": "awl:percent",
+   "word": "percent",
+   "pos": "n",
+   "fa": "درصد",
+   "def_": "/pərˈsent/ · per hundred (%)",
+   "level": 1,
+   "exs": [
+    "New car sales may be down nineteen percent."
+   ]
+  },
+  {
+   "id": "awl:period",
+   "word": "period",
+   "pos": "n",
+   "fa": "دوره، مدت",
+   "def_": "/ˈpɪəriəd/ · a length of time",
+   "level": 1,
+   "exs": [
+    "We had two power failures in a five-month period.",
+    "The Victorian period lasted over 60 years.",
+    "The Safavid period was a golden age for Persian art."
+   ]
+  },
+  {
+   "id": "awl:policy",
+   "word": "policy",
+   "pos": "n",
+   "fa": "سیاست، خط‌مشی",
+   "def_": "/ˈpɒləsi/ · a way of doing sth",
+   "level": 1,
+   "exs": [
+    "the government's controversial economic policies"
+   ]
+  },
+  {
+   "id": "awl:principle",
+   "word": "principle",
+   "pos": "n",
+   "fa": "اصل، قاعده",
+   "def_": "/ˈprɪnsəpəl/ · rule",
+   "level": 1,
+   "exs": [
+    "the basic principles of business management",
+    "The machine works on a simple principle.",
+    "Equality is a fundamental principle of democracy."
+   ]
+  },
+  {
+   "id": "awl:proceed",
+   "word": "proceed",
+   "pos": "v",
+   "fa": "ادامه دادن، پیش رفتن",
+   "def_": "/prəˈsiːd/ · continue to do sth",
+   "level": 1,
+   "exs": [
+    "Work is proceeding according to plan."
+   ]
+  },
+  {
+   "id": "awl:process",
+   "word": "process",
+   "pos": "n",
+   "fa": "فرایند، روند",
+   "def_": "/ˈprəʊses/ · a series of actions or steps",
+   "level": 1,
+   "exs": [
+    "the aging process",
+    "Photosynthesis is a complex process.",
+    "Learning a language is a slow process."
+   ]
+  },
+  {
+   "id": "awl:require",
+   "word": "require",
+   "pos": "v",
+   "fa": "نیاز داشتن، لازم داشتن",
+   "def_": "/rɪˈkwaɪər/ · need",
+   "level": 1,
+   "exs": [
+    "Most houseplants require regular watering.",
+    "The job requires good English.",
+    "This job requires a lot of patience."
+   ]
+  },
+  {
+   "id": "awl:research",
+   "word": "research",
+   "pos": "n",
+   "fa": "پژوهش، تحقیق؛ تحقیق کردن",
+   "def_": "/rɪˈsɜːtʃ/ · n., v. · serious study",
+   "level": 1,
+   "exs": [
+    "I'm still doing research for my thesis.",
+    "Research shows that sleep improves memory.",
+    "She is doing research on climate change."
+   ]
+  },
+  {
+   "id": "awl:response",
+   "word": "response",
+   "pos": "n",
+   "fa": "پاسخ، واکنش",
+   "def_": "/rɪˈspɒns/ · n., v. · answer, reply",
+   "level": 1,
+   "exs": [
+    "I am writing in response to your letter of July 17."
+   ]
+  },
+  {
+   "id": "awl:role",
+   "word": "role",
+   "pos": "n",
+   "fa": "نقش",
+   "def_": "/roʊl/ · part",
+   "level": 1,
+   "exs": [
+    "They want to limit the role of government."
+   ]
+  },
+  {
+   "id": "awl:section",
+   "word": "section",
+   "pos": "n",
+   "fa": "بخش، قسمت",
+   "def_": "/ˈsekʃən/ · part, piece",
+   "level": 1,
+   "exs": [
+    "She taught three sections of English composition."
+   ]
+  },
+  {
+   "id": "awl:sector",
+   "word": "sector",
+   "pos": "n",
+   "fa": "بخش (اقتصادی)، حوزه",
+   "def_": "/ˈsektər/ · part of an area of business",
+   "level": 1,
+   "exs": [
+    "the agricultural sector of the economy"
+   ]
+  },
+  {
+   "id": "awl:significant",
+   "word": "significant",
+   "pos": "adj",
+   "fa": "قابل توجه، مهم",
+   "def_": "/sɪɡˈnɪfɪkənt/ · important, major",
+   "level": 1,
+   "exs": [
+    "a significant increase in sales",
+    "There was a significant drop in crime.",
+    "There has been a significant increase in prices."
+   ]
+  },
+  {
+   "id": "awl:similar",
+   "word": "similar",
+   "pos": "adj",
+   "fa": "مشابه، همانند",
+   "def_": "/ˈsɪmələr/ · almost the same",
+   "level": 1,
+   "exs": [
+    "We have similar tastes in music."
+   ]
+  },
+  {
+   "id": "awl:source",
+   "word": "source",
+   "pos": "n",
+   "fa": "منبع، سرچشمه",
+   "def_": "/sɔːrs/ · origin",
+   "level": 1,
+   "exs": [
+    "The sun is our source of energy.",
+    "Tourism is the main source of income for the island."
+   ]
+  },
+  {
+   "id": "awl:specific",
+   "word": "specific",
+   "pos": "adj",
+   "fa": "خاص، مشخص، ویژه",
+   "def_": "/spəˈsɪfɪk/ · particular",
+   "level": 1,
+   "exs": [
+    "Could you be more specific about what you're looking for?"
+   ]
+  },
+  {
+   "id": "awl:structure",
+   "word": "structure",
+   "pos": "n",
+   "fa": "ساختار، ساختمان",
+   "def_": "/ˈstrʌktʃər/ · n., v. · building or form",
+   "level": 1,
+   "exs": [
+    "the structure of an atom",
+    "The structure of DNA is a double helix.",
+    "The structure of the human brain is very complex."
+   ]
+  },
+  {
+   "id": "awl:theory",
+   "word": "theory",
+   "pos": "n",
+   "fa": "نظریه، تئوری",
+   "def_": "/ˈθɪəri/ · hypothesis",
+   "level": 1,
+   "exs": [
+    "Darwin's theory of evolution",
+    "Darwin developed the theory of evolution.",
+    "In theory, the plan should work."
+   ]
+  },
+  {
+   "id": "awl:variable",
+   "word": "variable",
+   "pos": "adj",
+   "fa": "متغیر، تغییرپذیر",
+   "def_": "/ˈveriəbəl/ · changeable",
+   "level": 1,
+   "exs": [
+    "variable climate"
+   ]
+  },
+  {
+   "id": "awl:achieve",
+   "word": "achieve",
+   "pos": "v",
+   "fa": "دست یافتن، به دست آوردن",
+   "def_": "/əˈtʃiːv/ · get, attain",
+   "level": 2,
+   "exs": [
+    "They achieved high scores on their math tests.",
+    "She achieved her goal of running a marathon.",
+    "You can achieve a lot if you work hard."
+   ]
+  },
+  {
+   "id": "awl:administration",
+   "word": "administration",
+   "pos": "n",
+   "fa": "مدیریت، اداره (امور)",
+   "def_": "/ədˌmɪnɪˈstreɪʃn/ · management; the people who run an organization",
+   "level": 2,
+   "exs": [
+    "She works in the hospital administration."
+   ]
+  },
+  {
+   "id": "awl:acquisition",
+   "word": "acquisition",
+   "pos": "n",
+   "fa": "اکتساب، فراگیری، به‌دست‌آوری",
+   "def_": "/ˌækwɪˈzɪʃn/ · achievement",
+   "level": 2,
+   "exs": [
+    "the acquisition of language",
+    "Language acquisition starts at birth.",
+    "Language acquisition is fastest in early childhood."
+   ]
+  },
+  {
+   "id": "awl:affect",
+   "word": "affect",
+   "pos": "v",
+   "fa": "تأثیر گذاشتن بر",
+   "def_": "/əˈfekt/ · influence",
+   "level": 2,
+   "exs": [
+    "the areas affected by the hurricane",
+    "Lack of sleep can affect your mood.",
+    "The cold weather affected the crops."
+   ]
+  },
+  {
+   "id": "awl:appropriate",
+   "word": "appropriate",
+   "pos": "adj",
+   "fa": "مناسب، شایسته",
+   "def_": "/əˈprəʊpriət/ · suitable",
+   "level": 2,
+   "exs": [
+    "appropriate to the needs of the students"
+   ]
+  },
+  {
+   "id": "awl:aspect",
+   "word": "aspect",
+   "pos": "n",
+   "fa": "جنبه، وجه",
+   "def_": "/ˈæspekt/ · a particular part or feature of a situation",
+   "level": 2,
+   "exs": [
+    "a book about all aspects of life",
+    "Cost is an important aspect of the plan.",
+    "Money is only one aspect of a good job."
+   ]
+  },
+  {
+   "id": "awl:assistance",
+   "word": "assistance",
+   "pos": "n",
+   "fa": "کمک، یاری",
+   "def_": "/əˈsɪstəns/ · help",
+   "level": 2,
+   "exs": [
+    "The work was completed with the assistance of carpenters."
+   ]
+  },
+  {
+   "id": "awl:category",
+   "word": "category",
+   "pos": "n",
+   "fa": "دسته، طبقه، رده",
+   "def_": "/ˈkætəɡɔːri/ · group, classification",
+   "level": 2,
+   "exs": [
+    "There are five categories of workers."
+   ]
+  },
+  {
+   "id": "awl:chapter",
+   "word": "chapter",
+   "pos": "n",
+   "fa": "فصل (کتاب)",
+   "def_": "/ˈtʃæptər/ · section",
+   "level": 2,
+   "exs": [
+    "Chapter three deals with the country's economy."
+   ]
+  },
+  {
+   "id": "awl:commission",
+   "word": "commission",
+   "pos": "n",
+   "fa": "کمیسیون، هیئت",
+   "def_": "/kəˈmɪʃn/ · a group of people",
+   "level": 2,
+   "exs": [
+    "A commission was appointed to investigate his murder."
+   ]
+  },
+  {
+   "id": "awl:community",
+   "word": "community",
+   "pos": "n",
+   "fa": "جامعه، اجتماع",
+   "def_": "/kəˈmjuːnəti/ · society",
+   "level": 2,
+   "exs": [
+    "The festival was a great way for the local community to get together.",
+    "The community built a new park.",
+    "The library is the heart of our community."
+   ]
+  },
+  {
+   "id": "awl:complex",
+   "word": "complex",
+   "pos": "adj",
+   "fa": "پیچیده",
+   "def_": "/ˈkɑːmpleks/ · complicated",
+   "level": 2,
+   "exs": [
+    "Photosynthesis is a highly complex process."
+   ]
+  },
+  {
+   "id": "awl:computer",
+   "word": "computer",
+   "pos": "n",
+   "fa": "رایانه، کامپیوتر",
+   "def_": "/kəmˈpjuːtər/ · an electronic machine that processes data",
+   "level": 2,
+   "exs": [
+    "He spends all day playing on his computer."
+   ]
+  },
+  {
+   "id": "awl:conclusion",
+   "word": "conclusion",
+   "pos": "n",
+   "fa": "نتیجه‌گیری، پایان",
+   "def_": "/kənˈkluːʒn/ · end",
+   "level": 2,
+   "exs": [
+    "It is still too early to reach a conclusion on this point."
+   ]
+  },
+  {
+   "id": "awl:conduct",
+   "word": "conduct",
+   "pos": "v",
+   "fa": "اجرا کردن، انجام دادن؛ رفتار",
+   "def_": "/kənˈdʌkt/ · v., n. · manage, behavior",
+   "level": 2,
+   "exs": [
+    "We are conducting a survey of consumer attitudes towards organic food."
+   ]
+  },
+  {
+   "id": "awl:consequence",
+   "word": "consequence",
+   "pos": "n",
+   "fa": "پیامد، نتیجه",
+   "def_": "/ˈkɑːnsɪkwens/ · result",
+   "level": 2,
+   "exs": [
+    "What were the economic consequences of the war?",
+    "Every decision has consequences.",
+    "If you break the rules, you must accept the consequences."
+   ]
+  },
+  {
+   "id": "awl:construct",
+   "word": "construct",
+   "pos": "v",
+   "fa": "ساختن، بنا کردن",
+   "def_": "/kənˈstrʌkt/ · build",
+   "level": 2,
+   "exs": [
+    "The hotel is currently under construction.",
+    "The bridge was constructed in 1890.",
+    "Birds construct nests from twigs and grass."
+   ]
+  },
+  {
+   "id": "awl:consume",
+   "word": "consume",
+   "pos": "v",
+   "fa": "مصرف کردن",
+   "def_": "/kənˈsuːm/ · use",
+   "level": 2,
+   "exs": [
+    "Many consumers are not comfortable making purchases on the Internet.",
+    "Cows consume a lot of grass.",
+    "Cars consume a lot of fuel."
+   ]
+  },
+  {
+   "id": "awl:credit",
+   "word": "credit",
+   "pos": "n",
+   "fa": "اعتبار؛ نسیه",
+   "def_": "/ˈkredɪt/ · buying now and paying later; trust; recognition",
+   "level": 2,
+   "exs": [
+    "Most new cars are bought on credit."
+   ]
+  },
+  {
+   "id": "awl:cultural",
+   "word": "cultural",
+   "pos": "adj",
+   "fa": "فرهنگی",
+   "def_": "/ˈkʌltʃərəl/ · relating to a culture",
+   "level": 2,
+   "exs": [
+    "people who share the same cultural background"
+   ]
+  },
+  {
+   "id": "awl:design",
+   "word": "design",
+   "pos": "v",
+   "fa": "طراحی کردن",
+   "def_": "/dɪˈzaɪn/ · plan",
+   "level": 2,
+   "exs": [
+    "She designed a new logo for the company."
+   ]
+  },
+  {
+   "id": "awl:distinction",
+   "word": "distinction",
+   "pos": "n",
+   "fa": "تمایز، تفاوت",
+   "def_": "/dɪˈstɪŋkʃən/ · difference",
+   "level": 2,
+   "exs": [
+    "the distinction between formal and informal language"
+   ]
+  },
+  {
+   "id": "awl:element",
+   "word": "element",
+   "pos": "n",
+   "fa": "عنصر، جزء",
+   "def_": "/ˈeləmənt/ · part",
+   "level": 2,
+   "exs": [
+    "Honesty is a vital element of her success.",
+    "Oxygen is a chemical element.",
+    "Trust is an important element of friendship."
+   ]
+  },
+  {
+   "id": "awl:equation",
+   "word": "equation",
+   "pos": "n",
+   "fa": "معادله",
+   "def_": "/ɪˈkweɪʒən/ · equality",
+   "level": 2,
+   "exs": [
+    "The equation of wealth with happiness can be dangerous."
+   ]
+  },
+  {
+   "id": "awl:evaluate",
+   "word": "evaluate",
+   "pos": "v",
+   "fa": "ارزیابی کردن",
+   "def_": "/ɪˈvæljueɪt/ · assess",
+   "level": 2,
+   "exs": [
+    "We need to evaluate our options.",
+    "We need to evaluate the results.",
+    "Teachers evaluate students' progress every term."
+   ]
+  },
+  {
+   "id": "awl:feature",
+   "word": "feature",
+   "pos": "n",
+   "fa": "ویژگی، خصوصیت",
+   "def_": "/ˈfiːtʃər/ · characteristic",
+   "level": 2,
+   "exs": [
+    "Air bags are a standard feature in most new cars.",
+    "The app has many useful features.",
+    "The tall towers are a feature of the city."
+   ]
+  },
+  {
+   "id": "awl:final",
+   "word": "final",
+   "pos": "adj",
+   "fa": "نهایی، آخر",
+   "def_": "/ˈfaɪnəl/ · last",
+   "level": 2,
+   "exs": [
+    "The final episode will be shown tonight."
+   ]
+  },
+  {
+   "id": "awl:focus",
+   "word": "focus",
+   "pos": "v",
+   "fa": "تمرکز کردن",
+   "def_": "/ˈfəʊkəs/ · concentrate",
+   "level": 2,
+   "exs": [
+    "She tried to focus her mind on her work."
+   ]
+  },
+  {
+   "id": "awl:impact",
+   "word": "impact",
+   "pos": "n",
+   "fa": "تأثیر، اثر",
+   "def_": "/ˈɪmpækt/ · influence",
+   "level": 2,
+   "exs": [
+    "We need to assess the impact on climate change.",
+    "Tourism has a big impact on the economy.",
+    "Technology has a huge impact on our lives."
+   ]
+  },
+  {
+   "id": "awl:injury",
+   "word": "injury",
+   "pos": "n",
+   "fa": "آسیب، جراحت",
+   "def_": "/ˈɪndʒəri/ · damage",
+   "level": 2,
+   "exs": [
+    "She's concerned about the risk of injury to her reputation."
+   ]
+  },
+  {
+   "id": "awl:institute",
+   "word": "institute",
+   "pos": "v",
+   "fa": "برقرار کردن، راه‌اندازی کردن",
+   "def_": "/ˈɪnstɪtuːt/ · establish",
+   "level": 2,
+   "exs": [
+    "They have instituted new policies to increase public safety."
+   ]
+  },
+  {
+   "id": "awl:invest",
+   "word": "invest",
+   "pos": "v",
+   "fa": "سرمایه‌گذاری کردن",
+   "def_": "/ɪnˈvest/ · put money in sth",
+   "level": 2,
+   "exs": [
+    "I've got a few thousand dollars to invest.",
+    "The country invested heavily in railways.",
+    "He invested all his savings in the company."
+   ]
+  },
+  {
+   "id": "awl:item",
+   "word": "item",
+   "pos": "n",
+   "fa": "مورد، قلم (در فهرست)",
+   "def_": "/ˈaɪtəm/ · one thing on a list",
+   "level": 2,
+   "exs": [
+    "I need to buy a few household items like soap."
+   ]
+  },
+  {
+   "id": "awl:journal",
+   "word": "journal",
+   "pos": "n",
+   "fa": "مجله (علمی)؛ دفتر خاطرات",
+   "def_": "/ˈdʒɜːrnl/ · diary",
+   "level": 2,
+   "exs": [
+    "He decided to keep a journal."
+   ]
+  },
+  {
+   "id": "awl:maintenance",
+   "word": "maintenance",
+   "pos": "n",
+   "fa": "نگهداری، حفظ",
+   "def_": "/ˈmeɪntənəns/ · preservation",
+   "level": 2,
+   "exs": [
+    "The caretaker is responsible for the maintenance of the school buildings"
+   ]
+  },
+  {
+   "id": "awl:normal",
+   "word": "normal",
+   "pos": "adj",
+   "fa": "عادی، معمولی",
+   "def_": "/ˈnɔːrməl/ · usual",
+   "level": 2,
+   "exs": [
+    "Despite her illness, she was able to lead a normal life."
+   ]
+  },
+  {
+   "id": "awl:obtain",
+   "word": "obtain",
+   "pos": "v",
+   "fa": "به دست آوردن، کسب کردن",
+   "def_": "/əbˈteɪn/ · get, achieve",
+   "level": 2,
+   "exs": [
+    "You will need to obtain permission from the principal."
+   ]
+  },
+  {
+   "id": "awl:participate",
+   "word": "participate",
+   "pos": "v",
+   "fa": "شرکت کردن، مشارکت کردن",
+   "def_": "/pɑːrˈtɪsəpeɪt/ · take part",
+   "level": 2,
+   "exs": [
+    "We want more participation in the decision-making."
+   ]
+  },
+  {
+   "id": "awl:perceive",
+   "word": "perceive",
+   "pos": "v",
+   "fa": "درک کردن، فهمیدن",
+   "def_": "/pərˈsiːv/ · notice, sense",
+   "level": 2,
+   "exs": [
+    "I perceived a change in his behavior.",
+    "How do others perceive you?",
+    "Colors are perceived differently by different people."
+   ]
+  },
+  {
+   "id": "awl:positive",
+   "word": "positive",
+   "pos": "adj",
+   "fa": "مثبت",
+   "def_": "/ˈpɒzətɪv/ · good, hopeful; certain · ≠ negative",
+   "level": 2,
+   "exs": [
+    "You've got to be more positive about your work."
+   ]
+  },
+  {
+   "id": "awl:potential",
+   "word": "potential",
+   "pos": "adj",
+   "fa": "بالقوه، احتمالی",
+   "def_": "/pəˈtenʃəl/ · possible",
+   "level": 2,
+   "exs": [
+    "potential customers",
+    "This student has great potential.",
+    "This young player has great potential."
+   ]
+  },
+  {
+   "id": "awl:previous",
+   "word": "previous",
+   "pos": "adj",
+   "fa": "قبلی، پیشین",
+   "def_": "/ˈpriːviəs/ · past, former",
+   "level": 2,
+   "exs": [
+    "I had met them the previous day."
+   ]
+  },
+  {
+   "id": "awl:primary",
+   "word": "primary",
+   "pos": "adj",
+   "fa": "اصلی، اولیه",
+   "def_": "/ˈpraɪməri/ · main",
+   "level": 2,
+   "exs": [
+    "Their primary objective is to make money."
+   ]
+  },
+  {
+   "id": "awl:purchase",
+   "word": "purchase",
+   "pos": "v",
+   "fa": "خریدن، خریداری کردن",
+   "def_": "/ˈpɜːrtʃɪs/ · buy",
+   "level": 2,
+   "exs": [
+    "Tickets may be purchased in advance from the box office."
+   ]
+  },
+  {
+   "id": "awl:range",
+   "word": "range",
+   "pos": "n",
+   "fa": "گستره، دامنه",
+   "def_": "/reɪndʒ/ · extent",
+   "level": 2,
+   "exs": [
+    "The drug is effective against a range of bacteria."
+   ]
+  },
+  {
+   "id": "awl:region",
+   "word": "region",
+   "pos": "n",
+   "fa": "منطقه، ناحیه",
+   "def_": "/ˈriːdʒən/ · area",
+   "level": 2,
+   "exs": [
+    "Flooding is likely in some coastal regions.",
+    "This region is famous for its wine.",
+    "The northern regions of Iran are green and rainy."
+   ]
+  },
+  {
+   "id": "awl:regulation",
+   "word": "regulation",
+   "pos": "n",
+   "fa": "مقررات، قانون",
+   "def_": "/ˌreɡjəˈleɪʃən/ · rule",
+   "level": 2,
+   "exs": [
+    "Smoke detectors must be installed to comply with fire regulations."
+   ]
+  },
+  {
+   "id": "awl:relevant",
+   "word": "relevant",
+   "pos": "adj",
+   "fa": "مرتبط، مربوط",
+   "def_": "/ˈreləvənt/ · related",
+   "level": 2,
+   "exs": [
+    "Relevant documents were presented in court."
+   ]
+  },
+  {
+   "id": "awl:resident",
+   "word": "resident",
+   "pos": "n",
+   "fa": "ساکن، مقیم",
+   "def_": "/ˈrezɪdənt/ · inhabitant",
+   "level": 2,
+   "exs": [
+    "Many local inhabitants have objected to the scheme."
+   ]
+  },
+  {
+   "id": "awl:resource",
+   "word": "resource",
+   "pos": "n",
+   "fa": "منبع (منابع)",
+   "def_": "/ˈriːsɔːrs/ · source",
+   "level": 2,
+   "exs": [
+    "She had no financial resources.",
+    "Water is a precious natural resource.",
+    "The school lacks the resources to buy new computers."
+   ]
+  },
+  {
+   "id": "awl:restrict",
+   "word": "restrict",
+   "pos": "v",
+   "fa": "محدود کردن",
+   "def_": "/rɪˈstrɪkt/ · limit",
+   "level": 2,
+   "exs": [
+    "He is on a severely restricted diet."
+   ]
+  },
+  {
+   "id": "awl:security",
+   "word": "security",
+   "pos": "n",
+   "fa": "امنیت",
+   "def_": "/sɪˈkjʊərəti/ · safety",
+   "level": 2,
+   "exs": [
+    "We must insure our national security."
+   ]
+  },
+  {
+   "id": "awl:seek",
+   "word": "seek",
+   "pos": "v",
+   "fa": "جستجو کردن، به دنبال چیزی بودن",
+   "def_": "/siːk/ · search, try to get (past: sought /sɔːt/)",
+   "level": 2,
+   "exs": [
+    "During the war, she sought asylum in Spain."
+   ]
+  },
+  {
+   "id": "awl:select",
+   "word": "select",
+   "pos": "v",
+   "fa": "انتخاب کردن، برگزیدن",
+   "def_": "/səˈlekt/ · choose, pick",
+   "level": 2,
+   "exs": [
+    "The school will only select 12 applicants."
+   ]
+  },
+  {
+   "id": "awl:site",
+   "word": "site",
+   "pos": "n",
+   "fa": "محل، مکان",
+   "def_": "/saɪt/ · place",
+   "level": 2,
+   "exs": [
+    "Hard hats must be worn on the construction site."
+   ]
+  },
+  {
+   "id": "awl:strategy",
+   "word": "strategy",
+   "pos": "n",
+   "fa": "راهبرد، استراتژی",
+   "def_": "/ˈstrætɪdʒi/ · skilful planning",
+   "level": 2,
+   "exs": [
+    "He was a genius when it came to military strategy."
+   ]
+  },
+  {
+   "id": "awl:survey",
+   "word": "survey",
+   "pos": "n",
+   "fa": "نظرسنجی، بررسی؛ بررسی کردن",
+   "def_": "/ˈsɜːrveɪ/ · n., v. · poll",
+   "level": 2,
+   "exs": [
+    "We conducted a survey of parents in the village.",
+    "A survey of 500 people was carried out.",
+    "A recent survey showed that most people want more parks."
+   ]
+  },
+  {
+   "id": "awl:text",
+   "word": "text",
+   "pos": "n",
+   "fa": "متن",
+   "def_": "/tekst/ · textbook, passage",
+   "level": 2,
+   "exs": [
+    "Students will read and discuss various literary texts."
+   ]
+  },
+  {
+   "id": "awl:traditional",
+   "word": "traditional",
+   "pos": "adj",
+   "fa": "سنتی",
+   "def_": "/trəˈdɪʃənl/ · following old customs or beliefs · ≠ modern",
+   "level": 2,
+   "exs": [
+    "He has a traditional view of women.",
+    "Nowruz is a traditional celebration.",
+    "We wore traditional clothes for the festival."
+   ]
+  },
+  {
+   "id": "awl:transfer",
+   "word": "transfer",
+   "pos": "v",
+   "fa": "منتقل کردن، انتقال دادن",
+   "def_": "/trænsˈfɜːr/ · move",
+   "level": 2,
+   "exs": [
+    "I'd like to transfer $500 to my checking account."
+   ]
+  },
+  {
+   "id": "awl:alternative",
+   "word": "alternative",
+   "pos": "adj",
+   "fa": "جایگزین، گزینه",
+   "def_": "/ɒːlˈtɜːrnətɪv/ · adj., n. · option, choice",
+   "level": 3,
+   "exs": [
+    "Have you any alternative suggestions?",
+    "Cycling is a healthy alternative to driving.",
+    "We need to find an alternative to plastic bags."
+   ]
+  },
+  {
+   "id": "awl:circumstance",
+   "word": "circumstance",
+   "pos": "n",
+   "fa": "شرایط، موقعیت",
+   "def_": "/ˈsɜːrkəmstæns/ · situation",
+   "level": 3,
+   "exs": [
+    "The circumstances of his death are suspicious."
+   ]
+  },
+  {
+   "id": "awl:comment",
+   "word": "comment",
+   "pos": "v",
+   "fa": "اظهار نظر، توضیح؛ نظر دادن",
+   "def_": "/ˈkɒment/ · v., n. · note, remark",
+   "level": 3,
+   "exs": [
+    "The plans were sent to the council for comment."
+   ]
+  },
+  {
+   "id": "awl:compensate",
+   "word": "compensate",
+   "pos": "v",
+   "fa": "جبران کردن",
+   "def_": "/ˈkɒmpənseɪt/ · make up for",
+   "level": 3,
+   "exs": [
+    "He is seeking compensation for injuries suffered at work.",
+    "Some animals compensate for poor sight with hearing.",
+    "Nothing can compensate for the loss of a child."
+   ]
+  },
+  {
+   "id": "awl:component",
+   "word": "component",
+   "pos": "n",
+   "fa": "جزء، مؤلفه",
+   "def_": "/kəmˈpəʊnənt/ · element, part",
+   "level": 3,
+   "exs": [
+    "Companies make electronic components for computers.",
+    "The factory produces components for cars.",
+    "Trust is a key component of any relationship."
+   ]
+  },
+  {
+   "id": "awl:consent",
+   "word": "consent",
+   "pos": "v",
+   "fa": "رضایت؛ رضایت دادن",
+   "def_": "/kənˈsent/ · v., n. · allow, permit",
+   "level": 3,
+   "exs": [
+    "He was reluctant at first but finally consented."
+   ]
+  },
+  {
+   "id": "awl:considerable",
+   "word": "considerable",
+   "pos": "adj",
+   "fa": "قابل توجه، زیاد",
+   "def_": "/kənˈsɪdərəbəl/ · noticeable",
+   "level": 3,
+   "exs": [
+    "We've saved a considerable amount of money.",
+    "The project needs considerable investment.",
+    "The project cost a considerable amount of money."
+   ]
+  },
+  {
+   "id": "awl:constant",
+   "word": "constant",
+   "pos": "adj",
+   "fa": "ثابت، مداوم",
+   "def_": "/ˈkɒnstənt/ · continuous",
+   "level": 3,
+   "exs": [
+    "The house is in constant need of repairs."
+   ]
+  },
+  {
+   "id": "awl:constraint",
+   "word": "constraint",
+   "pos": "n",
+   "fa": "محدودیت، قید",
+   "def_": "/kənˈstreɪnt/ · restriction",
+   "level": 3,
+   "exs": [
+    "Constraints on spending have forced the company to rethink its plans."
+   ]
+  },
+  {
+   "id": "awl:contribute",
+   "word": "contribute",
+   "pos": "v",
+   "fa": "کمک کردن، سهم داشتن",
+   "def_": "/kənˈtrɪbjuːt/ · participate, support",
+   "level": 3,
+   "exs": [
+    "The agency is mainly financed from voluntary contributions.",
+    "Everyone contributed to the project.",
+    "Pollution contributes to climate change."
+   ]
+  },
+  {
+   "id": "awl:convention",
+   "word": "convention",
+   "pos": "n",
+   "fa": "عرف، رسم؛ کنوانسیون، پیمان",
+   "def_": "/kənˈvenʃən/ · custom, agreement, contract",
+   "level": 3,
+   "exs": [
+    "social conventions"
+   ]
+  },
+  {
+   "id": "awl:coordination",
+   "word": "coordination",
+   "pos": "n",
+   "fa": "هماهنگی",
+   "def_": "/koʊˌɔːrdɪˈneɪʃn/ · working together",
+   "level": 3,
+   "exs": [
+    "There needs to be better coordination between departments."
+   ]
+  },
+  {
+   "id": "awl:core",
+   "word": "core",
+   "pos": "n",
+   "fa": "هسته، مرکز",
+   "def_": "/kɔːr/ · central part of sth",
+   "level": 3,
+   "exs": [
+    "Debt is at the core of the problem.",
+    "The Earth's core is extremely hot.",
+    "Reading is at the core of the program."
+   ]
+  },
+  {
+   "id": "awl:corporation",
+   "word": "corporation",
+   "pos": "n",
+   "fa": "شرکت (بزرگ)، بنگاه",
+   "def_": "/ˌkɔːpəˈreɪʃən/ · large business company",
+   "level": 3,
+   "exs": [
+    "multinational corporations"
+   ]
+  },
+  {
+   "id": "awl:correspond",
+   "word": "correspond",
+   "pos": "v",
+   "fa": "مطابقت داشتن، متناظر بودن",
+   "def_": "/kɔːrəˈspɑːnd/ · agree, match",
+   "level": 3,
+   "exs": [
+    "Your story corresponds with your neighbor's."
+   ]
+  },
+  {
+   "id": "awl:criteria",
+   "word": "criteria",
+   "pos": "n",
+   "fa": "معیارها، ملاک‌ها",
+   "def_": "/kraɪˈtɪəriə/ · standards",
+   "level": 3,
+   "exs": [
+    "the criteria we use to select candidates",
+    "Applicants must meet strict criteria.",
+    "What criteria are used to judge the competition?"
+   ]
+  },
+  {
+   "id": "awl:deduce",
+   "word": "deduce",
+   "pos": "v",
+   "fa": "استنتاج کردن، نتیجه گرفتن",
+   "def_": "/dɪˈduːs/ · infer",
+   "level": 3,
+   "exs": [
+    "We can infer from your silence that you disagree."
+   ]
+  },
+  {
+   "id": "awl:demonstrate",
+   "word": "demonstrate",
+   "pos": "v",
+   "fa": "نشان دادن، اثبات کردن",
+   "def_": "/ˈdemənstreɪt/ · show",
+   "level": 3,
+   "exs": [
+    "These figures clearly demonstrate the size of the economic problem.",
+    "The study demonstrates the value of exercise.",
+    "The teacher demonstrated how to use the microscope."
+   ]
+  },
+  {
+   "id": "awl:document",
+   "word": "document",
+   "pos": "n",
+   "fa": "سند، مدرک",
+   "def_": "/ˈdɒkjəmənt/ · data",
+   "level": 3,
+   "exs": [
+    "They are charged with using forged documents."
+   ]
+  },
+  {
+   "id": "awl:dominant",
+   "word": "dominant",
+   "pos": "adj",
+   "fa": "غالب، مسلط",
+   "def_": "/ˈdɒmɪnənt/ · superior",
+   "level": 3,
+   "exs": [
+    "The company is now dominant in its market.",
+    "The lion is the dominant animal in the group.",
+    "Lions are the dominant animals in the savanna."
+   ]
+  },
+  {
+   "id": "awl:emphasis",
+   "word": "emphasis",
+   "pos": "n",
+   "fa": "تأکید",
+   "def_": "/ˈemfəsɪs/ · stress",
+   "level": 3,
+   "exs": [
+    "They placed great emphasis on the individual's freedom."
+   ]
+  },
+  {
+   "id": "awl:ensure",
+   "word": "ensure",
+   "pos": "v",
+   "fa": "اطمینان حاصل کردن، تضمین کردن",
+   "def_": "/ɪnˈʃʊər/ · make sure",
+   "level": 3,
+   "exs": [
+    "The book ensured his success.",
+    "Please ensure that all windows are closed.",
+    "The law ensures equal rights for all."
+   ]
+  },
+  {
+   "id": "awl:exclude",
+   "word": "exclude",
+   "pos": "v",
+   "fa": "حذف کردن، کنار گذاشتن",
+   "def_": "/ɪkˈskluːd/ · leave out, keep out · ≠ include",
+   "level": 3,
+   "exs": [
+    "The public were excluded from the board meeting."
+   ]
+  },
+  {
+   "id": "awl:framework",
+   "word": "framework",
+   "pos": "n",
+   "fa": "چارچوب، ساختار",
+   "def_": "/ˈfreɪmwɜːk/ · structure",
+   "level": 3,
+   "exs": [
+    "This paper provides a framework for future research."
+   ]
+  },
+  {
+   "id": "awl:fund",
+   "word": "fund",
+   "pos": "n",
+   "fa": "بودجه، سرمایه، صندوق",
+   "def_": "/fʌnd/ · money",
+   "level": 3,
+   "exs": [
+    "government/public funds"
+   ]
+  },
+  {
+   "id": "awl:illustrate",
+   "word": "illustrate",
+   "pos": "v",
+   "fa": "نشان دادن، توضیح دادن (با مثال)",
+   "def_": "/ˈɪləstreɪt/ · show",
+   "level": 3,
+   "exs": [
+    "She illustrated her discussion with diagrams."
+   ]
+  },
+  {
+   "id": "awl:immigration",
+   "word": "immigration",
+   "pos": "n",
+   "fa": "مهاجرت (به کشوری)",
+   "def_": "/ˌɪmɪˈɡreɪʃən/ · the process of entering another country",
+   "level": 3,
+   "exs": [
+    "There are strict limits on immigration."
+   ]
+  },
+  {
+   "id": "awl:imply",
+   "word": "imply",
+   "pos": "v",
+   "fa": "دلالت کردن، به‌طور ضمنی اشاره کردن",
+   "def_": "/ɪmˈplaɪ/ · hint, suggest",
+   "level": 3,
+   "exs": [
+    "Early reports implied that the judge's death was not an accident.",
+    "His silence implied agreement.",
+    "The results imply that the drug is effective."
+   ]
+  },
+  {
+   "id": "awl:initial",
+   "word": "initial",
+   "pos": "adj",
+   "fa": "اولیه، آغازین",
+   "def_": "/ɪˈnɪʃəl/ · first, primary",
+   "level": 3,
+   "exs": [
+    "What was his initial reaction?"
+   ]
+  },
+  {
+   "id": "awl:instance",
+   "word": "instance",
+   "pos": "n",
+   "fa": "مورد، نمونه",
+   "def_": "/ˈɪnstəns/ · example",
+   "level": 3,
+   "exs": [
+    "for instance"
+   ]
+  },
+  {
+   "id": "awl:interaction",
+   "word": "interaction",
+   "pos": "n",
+   "fa": "تعامل، کنش متقابل",
+   "def_": "/ˌɪntərˈækʃən/ · a mutual action",
+   "level": 3,
+   "exs": [
+    "Price is determined through the interaction of demand and supply.",
+    "Social interaction is vital for children.",
+    "Online learning reduces face-to-face interaction."
+   ]
+  },
+  {
+   "id": "awl:justify",
+   "word": "justify",
+   "pos": "v",
+   "fa": "توجیه کردن",
+   "def_": "/ˈdʒʌstɪfaɪ/ · explain, rationalize",
+   "level": 3,
+   "exs": [
+    "He tried to present a justification for his behavior.",
+    "Can the high cost be justified?",
+    "How can you justify spending so much money?"
+   ]
+  },
+  {
+   "id": "awl:layer",
+   "word": "layer",
+   "pos": "n",
+   "fa": "لایه",
+   "def_": "/ˈleɪər/ · covering",
+   "level": 3,
+   "exs": [
+    "The moon was shining through a thin layer of cloud."
+   ]
+  },
+  {
+   "id": "awl:link",
+   "word": "link",
+   "pos": "n",
+   "fa": "پیوند، ارتباط",
+   "def_": "/lɪŋk/ · a connection, relation",
+   "level": 3,
+   "exs": [
+    "He retained strong links with the media."
+   ]
+  },
+  {
+   "id": "awl:location",
+   "word": "location",
+   "pos": "n",
+   "fa": "مکان، موقعیت",
+   "def_": "/loʊˈkeɪʃən/ · place",
+   "level": 3,
+   "exs": [
+    "The map shows the precise location of the crash."
+   ]
+  },
+  {
+   "id": "awl:maximum",
+   "word": "maximum",
+   "pos": "n",
+   "fa": "حداکثر، بیشینه",
+   "def_": "/ˈmæksəməm/ · the largest possible amount · ≠ minimum",
+   "level": 3,
+   "exs": [
+    "He faces a maximum of seven years in prison."
+   ]
+  },
+  {
+   "id": "awl:minority",
+   "word": "minority",
+   "pos": "n",
+   "fa": "اقلیت",
+   "def_": "/maɪˈnɒrəti/ · the smaller part of a group · ≠ majority",
+   "level": 3,
+   "exs": [
+    "Only a minority of people support these new laws."
+   ]
+  },
+  {
+   "id": "awl:negative",
+   "word": "negative",
+   "pos": "adj",
+   "fa": "منفی",
+   "def_": "/ˈneɡətɪv/ · bad, harmful; meaning \"no\" · ≠ positive",
+   "level": 3,
+   "exs": [
+    "Car exhaust has a negative effect on the environment."
+   ]
+  },
+  {
+   "id": "awl:outcome",
+   "word": "outcome",
+   "pos": "n",
+   "fa": "نتیجه، پیامد",
+   "def_": "/ˈaʊtkʌm/ · result",
+   "level": 3,
+   "exs": [
+    "It was impossible to predict the outcome of the election.",
+    "The outcome of the experiment was surprising.",
+    "Nobody can predict the outcome of the election."
+   ]
+  },
+  {
+   "id": "awl:partnership",
+   "word": "partnership",
+   "pos": "n",
+   "fa": "مشارکت، همکاری",
+   "def_": "/ˈpɑːtnərʃɪp/ · cooperation",
+   "level": 3,
+   "exs": [
+    "It's one of the most successful partnerships in the country."
+   ]
+  },
+  {
+   "id": "awl:philosophy",
+   "word": "philosophy",
+   "pos": "n",
+   "fa": "فلسفه",
+   "def_": "/fəˈlɒsəfi/ · the study of ideas about knowledge, life and truth",
+   "level": 3,
+   "exs": [
+    "Her Phd. degree is in philosophy and religion."
+   ]
+  },
+  {
+   "id": "awl:physical",
+   "word": "physical",
+   "pos": "adj",
+   "fa": "جسمی، بدنی؛ فیزیکی",
+   "def_": "/ˈfɪzɪkəl/ · related to someone's body · ≠ mental",
+   "level": 3,
+   "exs": [
+    "She was in constant physical pain."
+   ]
+  },
+  {
+   "id": "awl:proportion",
+   "word": "proportion",
+   "pos": "n",
+   "fa": "نسبت، بخش",
+   "def_": "/prəˈpɔːʃən/ · ratio",
+   "level": 3,
+   "exs": [
+    "The decision affects a significant proportion of the population.",
+    "A large proportion of students live at home.",
+    "A large proportion of the students are women."
+   ]
+  },
+  {
+   "id": "awl:publish",
+   "word": "publish",
+   "pos": "v",
+   "fa": "منتشر کردن، چاپ کردن",
+   "def_": "/ˈpʌblɪʃ/ · print",
+   "level": 3,
+   "exs": [
+    "The first edition was published in 1765."
+   ]
+  },
+  {
+   "id": "awl:reaction",
+   "word": "reaction",
+   "pos": "n",
+   "fa": "واکنش",
+   "def_": "/riˈækʃən/ · response",
+   "level": 3,
+   "exs": [
+    "What was Jeff's reaction?"
+   ]
+  },
+  {
+   "id": "awl:register",
+   "word": "register",
+   "pos": "v",
+   "fa": "ثبت‌نام کردن، ثبت کردن",
+   "def_": "/ˈredʒɪstər/ · enroll",
+   "level": 3,
+   "exs": [
+    "How many students have registered for English classes?"
+   ]
+  },
+  {
+   "id": "awl:reliance",
+   "word": "reliance",
+   "pos": "n",
+   "fa": "اتکا، وابستگی",
+   "def_": "/rɪˈlaɪəns/ · dependence",
+   "level": 3,
+   "exs": [
+    "The region's reliance on tourism has only grown in recent years.",
+    "Our reliance on fossil fuels must end.",
+    "Our reliance on cars causes pollution."
+   ]
+  },
+  {
+   "id": "awl:remove",
+   "word": "remove",
+   "pos": "v",
+   "fa": "برداشتن، حذف کردن",
+   "def_": "/rɪˈmuːv/ · omit, cut out",
+   "level": 3,
+   "exs": [
+    "Remove the old wallpaper and fill any holes in the walls."
+   ]
+  },
+  {
+   "id": "awl:scheme",
+   "word": "scheme",
+   "pos": "n",
+   "fa": "طرح، برنامه",
+   "def_": "/skiːm/ · plan",
+   "level": 3,
+   "exs": [
+    "The company has a new scheme for insurance coverage.",
+    "The government introduced a recycling scheme.",
+    "A new pension scheme was launched."
+   ]
+  },
+  {
+   "id": "awl:sequence",
+   "word": "sequence",
+   "pos": "n",
+   "fa": "توالی، ترتیب",
+   "def_": "/ˈsiːkwəns/ · order",
+   "level": 3,
+   "exs": [
+    "Be careful to perform the actions in the correct sequence.",
+    "Put the events in the correct sequence.",
+    "The DNA sequence of the virus has been identified."
+   ]
+  },
+  {
+   "id": "awl:shift",
+   "word": "shift",
+   "pos": "n",
+   "fa": "تغییر، جابه‌جایی؛ شیفت",
+   "def_": "/ʃɪft/ · change",
+   "level": 3,
+   "exs": [
+    "a marked shift in attitudes towards women"
+   ]
+  },
+  {
+   "id": "awl:specify",
+   "word": "specify",
+   "pos": "v",
+   "fa": "مشخص کردن، تعیین کردن",
+   "def_": "/ˈspesɪfaɪ/ · mark",
+   "level": 3,
+   "exs": [
+    "Payments will be made for a specified month."
+   ]
+  },
+  {
+   "id": "awl:sufficient",
+   "word": "sufficient",
+   "pos": "adj",
+   "fa": "کافی",
+   "def_": "/səˈfɪʃənt/ · enough · ≠ insufficient",
+   "level": 3,
+   "exs": [
+    "He had an income which was sufficient for his needs.",
+    "We have sufficient food for a week.",
+    "We have sufficient time to finish the project."
+   ]
+  },
+  {
+   "id": "awl:task",
+   "word": "task",
+   "pos": "n",
+   "fa": "وظیفه، تکلیف",
+   "def_": "/tæsk/ · duty",
+   "level": 3,
+   "exs": [
+    "perform/ complete a task"
+   ]
+  },
+  {
+   "id": "awl:technical",
+   "word": "technical",
+   "pos": "adj",
+   "fa": "فنی",
+   "def_": "/ˈteknɪkəl/ · relating to a complex process",
+   "level": 3,
+   "exs": [
+    "Our staff will be available to give you technical support."
+   ]
+  },
+  {
+   "id": "awl:technique",
+   "word": "technique",
+   "pos": "n",
+   "fa": "فن، تکنیک، روش",
+   "def_": "/tekˈniːk/ · method",
+   "level": 3,
+   "exs": [
+    "We learned some techniques for relieving stress."
+   ]
+  },
+  {
+   "id": "awl:technology",
+   "word": "technology",
+   "pos": "n",
+   "fa": "فناوری، تکنولوژی",
+   "def_": "/tekˈnɒlədʒi/ · application of science to business",
+   "level": 3,
+   "exs": [
+    "major new developments in satellite technology",
+    "Technology makes communication easier.",
+    "Technology has changed the way we learn."
+   ]
+  },
+  {
+   "id": "awl:valid",
+   "word": "valid",
+   "pos": "adj",
+   "fa": "معتبر، موجه",
+   "def_": "/ˈvælɪd/ · true, authentic",
+   "level": 3,
+   "exs": [
+    "a valid password/ excuse"
+   ]
+  },
+  {
+   "id": "awl:volume",
+   "word": "volume",
+   "pos": "n",
+   "fa": "حجم، مقدار؛ جلد (کتاب)",
+   "def_": "/ˈvɑːljəm/ · amount",
+   "level": 3,
+   "exs": [
+    "The volume is too loud. Can you turn the volume down?"
+   ]
+  },
+  {
+   "id": "awl:access",
+   "word": "access",
+   "pos": "n",
+   "fa": "دسترسی",
+   "def_": "/ˈækses/ · right to use something",
+   "level": 4,
+   "exs": [
+    "High-speed internet access has become a necessity.",
+    "Many villages still lack access to clean water.",
+    "Students have free access to the library."
+   ]
+  },
+  {
+   "id": "awl:adequate",
+   "word": "adequate",
+   "pos": "adj",
+   "fa": "کافی، مناسب",
+   "def_": "/ˈædɪkwət/ · sufficient · ≠ inadequate",
+   "level": 4,
+   "exs": [
+    "He didn't give an adequate answer to the question.",
+    "The hotel offers adequate parking.",
+    "The room was small but adequate for our needs."
+   ]
+  },
+  {
+   "id": "awl:annual",
+   "word": "annual",
+   "pos": "adj",
+   "fa": "سالانه",
+   "def_": "/ˈænjuəl/ · yearly, once a year",
+   "level": 4,
+   "exs": [
+    "The school trip has become an annual event.",
+    "The annual rainfall here is low.",
+    "The company holds an annual meeting in March."
+   ]
+  },
+  {
+   "id": "awl:apparent",
+   "word": "apparent",
+   "pos": "adj",
+   "fa": "آشکار، ظاهری",
+   "def_": "/əˈpærənt/ · evident",
+   "level": 4,
+   "exs": [
+    "The other team's superiority was apparent in the game.",
+    "For no apparent reason, he left.",
+    "It was apparent that he was tired."
+   ]
+  },
+  {
+   "id": "awl:approximate",
+   "word": "approximate",
+   "pos": "adj",
+   "fa": "تقریبی",
+   "def_": "/əˈprɑːksɪmət/ · estimated",
+   "level": 4,
+   "exs": [
+    "What is the approximate number of students in a class?"
+   ]
+  },
+  {
+   "id": "awl:attitude",
+   "word": "attitude",
+   "pos": "n",
+   "fa": "نگرش، طرز فکر",
+   "def_": "/ˈætɪtuːd/ · opinion and feeling",
+   "level": 4,
+   "exs": [
+    "Pete's attitude towards women really scares me.",
+    "She has a positive attitude.",
+    "She has a positive attitude towards her work."
+   ]
+  },
+  {
+   "id": "awl:attribute",
+   "word": "attribute",
+   "pos": "v",
+   "fa": "نسبت دادن",
+   "def_": "/əˈtrɪbjuːt/ · assign, allocate",
+   "level": 4,
+   "exs": [
+    "She attributes her success to hard work and a little luck.",
+    "Scientists attribute the change to pollution.",
+    "He attributes his success to hard work."
+   ]
+  },
+  {
+   "id": "awl:civil",
+   "word": "civil",
+   "pos": "adj",
+   "fa": "مدنی، غیرنظامی؛ مؤدب",
+   "def_": "/ˈsɪvl/ · polite, nonmilitary",
+   "level": 4,
+   "exs": [
+    "She was barely civil to me."
+   ]
+  },
+  {
+   "id": "awl:code",
+   "word": "code",
+   "pos": "n",
+   "fa": "کد، مجموعه قوانین",
+   "def_": "/kəʊd/ · a set of rules",
+   "level": 4,
+   "exs": [
+    "Everyone has to follow code of ethics."
+   ]
+  },
+  {
+   "id": "awl:commitment",
+   "word": "commitment",
+   "pos": "n",
+   "fa": "تعهد",
+   "def_": "/kəˈmɪtmənt/ · promise, obligation",
+   "level": 4,
+   "exs": [
+    "Are you ready to make a long-term commitment?",
+    "Learning a language requires commitment.",
+    "The company has a strong commitment to quality."
+   ]
+  },
+  {
+   "id": "awl:communication",
+   "word": "communication",
+   "pos": "n",
+   "fa": "ارتباط، برقراری ارتباط",
+   "def_": "/kəˌmjuːnɪˈkeɪʃn/ · the process by which people exchange information",
+   "level": 4,
+   "exs": [
+    "Good communication is vital in a large organization."
+   ]
+  },
+  {
+   "id": "awl:concentration",
+   "word": "concentration",
+   "pos": "n",
+   "fa": "تمرکز؛ غلظت",
+   "def_": "/ˌkɒnsənˈtreɪʃən/ · focus",
+   "level": 4,
+   "exs": [
+    "Lack of concentration was a real problem."
+   ]
+  },
+  {
+   "id": "awl:conference",
+   "word": "conference",
+   "pos": "n",
+   "fa": "کنفرانس، همایش",
+   "def_": "/ˈkɑːnfərəns/ · a large formal meeting",
+   "level": 4,
+   "exs": [
+    "After a brief conference with his aides, he left for the airport."
+   ]
+  },
+  {
+   "id": "awl:contrast",
+   "word": "contrast",
+   "pos": "n",
+   "fa": "تضاد، تقابل؛ مقایسه کردن",
+   "def_": "/ˈkɒntrɑːst/ · n., v. · find the differences",
+   "level": 4,
+   "exs": [
+    "Compare and contrast the two novels.",
+    "In contrast, sales in Asia rose.",
+    "There is a sharp contrast between rich and poor areas."
+   ]
+  },
+  {
+   "id": "awl:cycle",
+   "word": "cycle",
+   "pos": "n",
+   "fa": "چرخه",
+   "def_": "/ˈsaɪkəl/ · circle",
+   "level": 4,
+   "exs": [
+    "The water is circled through the machine and reused."
+   ]
+  },
+  {
+   "id": "awl:debate",
+   "word": "debate",
+   "pos": "v",
+   "fa": "بحث کردن، مناظره کردن",
+   "def_": "/dɪˈbeɪt/ · discuss",
+   "level": 4,
+   "exs": [
+    "There has been much discussion about prices.",
+    "There is a heated debate about nuclear power.",
+    "The debate lasted two hours."
+   ]
+  },
+  {
+   "id": "awl:despite",
+   "word": "despite",
+   "pos": "prep",
+   "fa": "با وجود، علی‌رغم",
+   "def_": "/dɪˈspaɪt/ · in spite of",
+   "level": 4,
+   "exs": [
+    "He won despite being injured."
+   ]
+  },
+  {
+   "id": "awl:dimension",
+   "word": "dimension",
+   "pos": "n",
+   "fa": "بُعد، جنبه",
+   "def_": "/daɪˈmenʃən, də-/ · aspect",
+   "level": 4,
+   "exs": [
+    "His coaching has added another dimension to my game."
+   ]
+  },
+  {
+   "id": "awl:domestic",
+   "word": "domestic",
+   "pos": "adj",
+   "fa": "داخلی؛ خانگی",
+   "def_": "/dəˈmestɪk/ · family, internal",
+   "level": 4,
+   "exs": [
+    "Unfortunately his domestic life wasn't very happy."
+   ]
+  },
+  {
+   "id": "awl:emerge",
+   "word": "emerge",
+   "pos": "v",
+   "fa": "پدیدار شدن، ظاهر شدن",
+   "def_": "/ɪˈmɜːrdʒ/ · appear",
+   "level": 4,
+   "exs": [
+    "The facts emerged after a lengthy investigation.",
+    "New species emerged after the ice age.",
+    "The sun emerged from behind the clouds."
+   ]
+  },
+  {
+   "id": "awl:error",
+   "word": "error",
+   "pos": "n",
+   "fa": "خطا، اشتباه",
+   "def_": "/ˈerər/ · mistake",
+   "level": 4,
+   "exs": [
+    "I made an error in my calculations."
+   ]
+  },
+  {
+   "id": "awl:ethnic",
+   "word": "ethnic",
+   "pos": "adj",
+   "fa": "قومی، نژادی",
+   "def_": "/ˈeθnɪk/ · racial, tribal",
+   "level": 4,
+   "exs": [
+    "The school teaches pupils from different ethnic groups.",
+    "The city has many ethnic groups.",
+    "Ethnic food is popular in big cities."
+   ]
+  },
+  {
+   "id": "awl:goal",
+   "word": "goal",
+   "pos": "n",
+   "fa": "هدف",
+   "def_": "/ɡoʊl/ · aim, target, objective",
+   "level": 4,
+   "exs": [
+    "They achieved their aim of increasing sales by 5%.",
+    "My goal is to learn 1000 words.",
+    "My goal is to speak English fluently."
+   ]
+  },
+  {
+   "id": "awl:grant",
+   "word": "grant",
+   "pos": "v",
+   "fa": "اعطا کردن، پذیرفتن؛ کمک‌هزینه",
+   "def_": "/ɡrænt/ · admit, permit",
+   "level": 4,
+   "exs": [
+    "My request was granted."
+   ]
+  },
+  {
+   "id": "awl:hence",
+   "word": "hence",
+   "pos": "adv",
+   "fa": "از این رو، بنابراین",
+   "def_": "/hens/ · for this reason",
+   "level": 4,
+   "exs": [
+    "His mother was Italian, hence his name - Luca."
+   ]
+  },
+  {
+   "id": "awl:hypothesis",
+   "word": "hypothesis",
+   "pos": "n",
+   "fa": "فرضیه",
+   "def_": "/haɪˈpɒθəsɪs/ · theory",
+   "level": 4,
+   "exs": [
+    "One hypothesis is that the victim fell asleep while driving.",
+    "The experiment supported their hypothesis.",
+    "The scientists tested their hypothesis in the lab."
+   ]
+  },
+  {
+   "id": "awl:implement",
+   "word": "implement",
+   "pos": "v",
+   "fa": "اجرا کردن، پیاده‌سازی کردن",
+   "def_": "/ˈɪmpləment/ · do, carry out",
+   "level": 4,
+   "exs": [
+    "We have decided to implement the committee's recommendations in full.",
+    "The policy was implemented in 2019.",
+    "The school will implement the new rules next year."
+   ]
+  },
+  {
+   "id": "awl:implication",
+   "word": "implication",
+   "pos": "n",
+   "fa": "پیامد، دلالت ضمنی",
+   "def_": "/ˌɪmplɪˈkeɪʃn/ · consequence",
+   "level": 4,
+   "exs": [
+    "What are the implications of these proposals?",
+    "The new law has serious implications for farmers.",
+    "What are the implications of the study?"
+   ]
+  },
+  {
+   "id": "awl:impose",
+   "word": "impose",
+   "pos": "v",
+   "fa": "تحمیل کردن، وضع کردن",
+   "def_": "/ɪmˈpəʊz/ · force",
+   "level": 4,
+   "exs": [
+    "The government imposed a ban on the sale of ivory."
+   ]
+  },
+  {
+   "id": "awl:integration",
+   "word": "integration",
+   "pos": "n",
+   "fa": "یکپارچه‌سازی، ادغام",
+   "def_": "/ˌɪntɪˈɡreɪʃn/ · combination",
+   "level": 4,
+   "exs": [
+    "the integration of data from other surveys"
+   ]
+  },
+  {
+   "id": "awl:internal",
+   "word": "internal",
+   "pos": "adj",
+   "fa": "داخلی، درونی",
+   "def_": "/ɪnˈtɜːrnl/ · inside, within · ≠ external",
+   "level": 4,
+   "exs": [
+    "the threat to internal security"
+   ]
+  },
+  {
+   "id": "awl:investigate",
+   "word": "investigate",
+   "pos": "v",
+   "fa": "بررسی کردن، تحقیق کردن",
+   "def_": "/ɪnˈvestɪɡeɪt/ · examine, inspect",
+   "level": 4,
+   "exs": [
+    "The police are still investigating the murder."
+   ]
+  },
+  {
+   "id": "awl:job",
+   "word": "job",
+   "pos": "n",
+   "fa": "شغل، کار",
+   "def_": "/dʒɑːb/ · regular paid work",
+   "level": 4,
+   "exs": [
+    "It's a temporary job, but I'm hoping it will be made permanent."
+   ]
+  },
+  {
+   "id": "awl:label",
+   "word": "label",
+   "pos": "n",
+   "fa": "برچسب",
+   "def_": "/ˈleɪbl/ · tag",
+   "level": 4,
+   "exs": [
+    "The name is prominently displayed on the label."
+   ]
+  },
+  {
+   "id": "awl:mechanism",
+   "word": "mechanism",
+   "pos": "n",
+   "fa": "سازوکار، مکانیسم",
+   "def_": "/ˈmekənɪzəm/ · a system",
+   "level": 4,
+   "exs": [
+    "existing mechanisms for decision-making",
+    "Sweating is the body's cooling mechanism.",
+    "There is no mechanism for solving such disputes."
+   ]
+  },
+  {
+   "id": "awl:obvious",
+   "word": "obvious",
+   "pos": "adj",
+   "fa": "آشکار، واضح",
+   "def_": "/ˈɑːbviəs/ · clear",
+   "level": 4,
+   "exs": [
+    "Her doctor noticed the obvious signs of the disease.",
+    "The answer is obvious.",
+    "It's obvious that she is very talented."
+   ]
+  },
+  {
+   "id": "awl:occupy",
+   "word": "occupy",
+   "pos": "v",
+   "fa": "اشغال کردن، ساکن بودن در",
+   "def_": "/ˈɑːkjupaɪ/ · reside, inhabit",
+   "level": 4,
+   "exs": [
+    "They occupied the house for 35 years."
+   ]
+  },
+  {
+   "id": "awl:option",
+   "word": "option",
+   "pos": "n",
+   "fa": "گزینه، انتخاب",
+   "def_": "/ˈɑːpʃn/ · choice",
+   "level": 4,
+   "exs": [
+    "You have the options of staying home or coming with us."
+   ]
+  },
+  {
+   "id": "awl:output",
+   "word": "output",
+   "pos": "n",
+   "fa": "خروجی، تولید",
+   "def_": "/ˈaʊtpʊt/ · the amount produced · ≠ input",
+   "level": 4,
+   "exs": [
+    "Manufacturing output has increased."
+   ]
+  },
+  {
+   "id": "awl:overall",
+   "word": "overall",
+   "pos": "adj",
+   "fa": "کلی، روی‌هم‌رفته",
+   "def_": "/ˌəʊvərˈɔːl/ · in general",
+   "level": 4,
+   "exs": [
+    "Overall, the project was successful."
+   ]
+  },
+  {
+   "id": "awl:parallel",
+   "word": "parallel",
+   "pos": "adj",
+   "fa": "موازی، مشابه",
+   "def_": "/ˈpærəlel/ · side by side",
+   "level": 4,
+   "exs": [
+    "Two parallel lines never meet."
+   ]
+  },
+  {
+   "id": "awl:parameter",
+   "word": "parameter",
+   "pos": "n",
+   "fa": "پارامتر، حد و مرز",
+   "def_": "/pəˈræmɪtər/ · a set of limits",
+   "level": 4,
+   "exs": [
+    "First we need to set/define the parameters of the project."
+   ]
+  },
+  {
+   "id": "awl:phase",
+   "word": "phase",
+   "pos": "n",
+   "fa": "مرحله، فاز",
+   "def_": "/feɪz/ · stage",
+   "level": 4,
+   "exs": [
+    "The project will be done in three phases."
+   ]
+  },
+  {
+   "id": "awl:predict",
+   "word": "predict",
+   "pos": "v",
+   "fa": "پیش‌بینی کردن",
+   "def_": "/prɪˈdɪkt/ · foretell, forecast",
+   "level": 4,
+   "exs": [
+    "Newspapers predicted that Davis would be re- elected.",
+    "Experts predict more rain.",
+    "Nobody can predict the future."
+   ]
+  },
+  {
+   "id": "awl:principal",
+   "word": "principal",
+   "pos": "adj",
+   "fa": "اصلی، عمده؛ مدیر (مدرسه)",
+   "def_": "/ˈprɪnsəpl/ · main, manager",
+   "level": 4,
+   "exs": [
+    "His principal reason for making the journey was to visit his family."
+   ]
+  },
+  {
+   "id": "awl:prior",
+   "word": "prior",
+   "pos": "adj",
+   "fa": "قبلی، پیشین",
+   "def_": "/ˈpraɪər/ · previous",
+   "level": 4,
+   "exs": [
+    "The defendant had a prior record of convictions."
+   ]
+  },
+  {
+   "id": "awl:professional",
+   "word": "professional",
+   "pos": "adj",
+   "fa": "حرفه‌ای، متخصص",
+   "def_": "/prəˈfeʃənl/ · expert",
+   "level": 4,
+   "exs": [
+    "Their music is both memorable and professional."
+   ]
+  },
+  {
+   "id": "awl:project",
+   "word": "project",
+   "pos": "n",
+   "fa": "پروژه، طرح",
+   "def_": "/ˈprɑːdʒekt/ · a planned piece of work",
+   "level": 4,
+   "exs": [
+    "The scheme will now be extended after a successful pilot project."
+   ]
+  },
+  {
+   "id": "awl:promote",
+   "word": "promote",
+   "pos": "v",
+   "fa": "ترفیع دادن؛ ترویج کردن",
+   "def_": "/prəˈməʊt/ · move to higher rank",
+   "level": 4,
+   "exs": [
+    "He was promoted to senior editor.",
+    "The campaign promotes healthy eating.",
+    "The campaign aims to promote healthy eating."
+   ]
+  },
+  {
+   "id": "awl:regime",
+   "word": "regime",
+   "pos": "n",
+   "fa": "رژیم، نظام حکومتی",
+   "def_": "/reɪˈʒiːm/ · government, diet",
+   "level": 4,
+   "exs": [
+    "The new regime is sure to fall."
+   ]
+  },
+  {
+   "id": "awl:resolution",
+   "word": "resolution",
+   "pos": "n",
+   "fa": "قطعنامه، تصمیم؛ حل (مسئله)",
+   "def_": "/ˌrezəˈluːʃn/ · a formal decision",
+   "level": 4,
+   "exs": [
+    "The resolution was passed by a two-thirds majority."
+   ]
+  },
+  {
+   "id": "awl:retain",
+   "word": "retain",
+   "pos": "v",
+   "fa": "حفظ کردن، نگه داشتن",
+   "def_": "/rɪˈteɪn/ · keep",
+   "level": 4,
+   "exs": [
+    "You have the right to retain possession of the goods.",
+    "Clay soil retains water well.",
+    "The town has retained its traditional character."
+   ]
+  },
+  {
+   "id": "awl:series",
+   "word": "series",
+   "pos": "n",
+   "fa": "سری، مجموعه، رشته",
+   "def_": "/ˈsɪriːz/ · events coming one after another",
+   "level": 4,
+   "exs": [
+    "The series of events that led to the outbreak of war"
+   ]
+  },
+  {
+   "id": "awl:statistics",
+   "word": "statistics",
+   "pos": "n",
+   "fa": "آمار",
+   "def_": "/stəˈtɪstɪks/ · a collection of numbers",
+   "level": 4,
+   "exs": [
+    "There is no statistical evidence that the economy is recovering.",
+    "Statistics show that crime has fallen.",
+    "According to official statistics, unemployment is rising."
+   ]
+  },
+  {
+   "id": "awl:status",
+   "word": "status",
+   "pos": "n",
+   "fa": "وضعیت، جایگاه",
+   "def_": "/ˈsteɪtəs, ˈstætəs/ · position",
+   "level": 4,
+   "exs": [
+    "These documents have no legal position in Britain."
+   ]
+  },
+  {
+   "id": "awl:stress",
+   "word": "stress",
+   "pos": "v",
+   "fa": "تأکید کردن",
+   "def_": "/stres/ · emphasize",
+   "level": 4,
+   "exs": [
+    "The report stressed that student math skills need to improve."
+   ]
+  },
+  {
+   "id": "awl:subsequent",
+   "word": "subsequent",
+   "pos": "adj",
+   "fa": "بعدی، متعاقب",
+   "def_": "/ˈsʌbsɪkwənt/ · next, later",
+   "level": 4,
+   "exs": [
+    "Subsequently, the drug was found to cause cancer.",
+    "Subsequent studies confirmed the result.",
+    "Subsequent research confirmed the results."
+   ]
+  },
+  {
+   "id": "awl:sum",
+   "word": "sum",
+   "pos": "n",
+   "fa": "مبلغ، مقدار؛ مجموع",
+   "def_": "/sʌm/ · amount",
+   "level": 4,
+   "exs": [
+    "We donated a small sum (of money) to the charity."
+   ]
+  },
+  {
+   "id": "awl:summary",
+   "word": "summary",
+   "pos": "n",
+   "fa": "خلاصه",
+   "def_": "/ˈsʌməri/ · abstract",
+   "level": 4,
+   "exs": [
+    "A brief summary is given on a separate sheet."
+   ]
+  },
+  {
+   "id": "awl:undertake",
+   "word": "undertake",
+   "pos": "v",
+   "fa": "بر عهده گرفتن، متعهد شدن",
+   "def_": "/ˌʌndərˈteɪk/ · promise to do",
+   "level": 4,
+   "exs": [
+    "Sometimes I undertake more projects than I can finish.",
+    "The university undertook a major research project.",
+    "She undertook to finish the work by Friday."
+   ]
+  },
+  {
+   "id": "awl:academic",
+   "word": "academic",
+   "pos": "adj",
+   "fa": "دانشگاهی، آکادمیک",
+   "def_": "/ˌækəˈdemɪk/ · relating to education",
+   "level": 5,
+   "exs": [
+    "He possessed no academic qualifications."
+   ]
+  },
+  {
+   "id": "awl:adjust",
+   "word": "adjust",
+   "pos": "v",
+   "fa": "تنظیم کردن، تطبیق دادن",
+   "def_": "/əˈdʒʌst/ · adapt",
+   "level": 5,
+   "exs": [
+    "It took time to adjust myself to motherhood."
+   ]
+  },
+  {
+   "id": "awl:alter",
+   "word": "alter",
+   "pos": "v",
+   "fa": "تغییر دادن",
+   "def_": "/ˈɔːltər/ · change, adjust",
+   "level": 5,
+   "exs": [
+    "The place has altered in the 10 years since I left.",
+    "Climate change alters habitats.",
+    "Climate change could alter the ecosystem."
+   ]
+  },
+  {
+   "id": "awl:amendment",
+   "word": "amendment",
+   "pos": "n",
+   "fa": "اصلاحیه، اصلاح",
+   "def_": "/əˈmendmənt/ · revision, modification",
+   "level": 5,
+   "exs": [
+    "Parliament approved an amendment to the Constitution."
+   ]
+  },
+  {
+   "id": "awl:aware",
+   "word": "aware",
+   "pos": "adj",
+   "fa": "آگاه، مطلع",
+   "def_": "/əˈwer/ · conscious, informed",
+   "level": 5,
+   "exs": [
+    "The children are aware of the danger of taking drugs.",
+    "Are you aware of the risks?",
+    "I wasn't aware that the shop was closed."
+   ]
+  },
+  {
+   "id": "awl:capacity",
+   "word": "capacity",
+   "pos": "n",
+   "fa": "ظرفیت، گنجایش؛ توانایی",
+   "def_": "/kəˈpæsəti/ · ability, size",
+   "level": 5,
+   "exs": [
+    "The fuel tank has a capacity of 40 liters."
+   ]
+  },
+  {
+   "id": "awl:challenge",
+   "word": "challenge",
+   "pos": "n",
+   "fa": "چالش",
+   "def_": "/ˈtʃælɪndʒ/ · a demanding situation",
+   "level": 5,
+   "exs": [
+    "The new lawsuit challenges the lower court's decision.",
+    "Learning a new language is a challenge.",
+    "The new manager faces many challenges."
+   ]
+  },
+  {
+   "id": "awl:clause",
+   "word": "clause",
+   "pos": "n",
+   "fa": "بند، ماده (قانون)",
+   "def_": "/klɔːz/ · an item in a legal document",
+   "level": 5,
+   "exs": [
+    "A confidentiality clause was added to the contract."
+   ]
+  },
+  {
+   "id": "awl:compound",
+   "word": "compound",
+   "pos": "n",
+   "fa": "ترکیب، ماده مرکب",
+   "def_": "/ˈkɑːmpaʊnd/ · combination",
+   "level": 5,
+   "exs": [
+    "Teaching is a compound of several different skills.",
+    "Water is a compound of hydrogen and oxygen.",
+    "Scientists discovered a new compound."
+   ]
+  },
+  {
+   "id": "awl:conflict",
+   "word": "conflict",
+   "pos": "n",
+   "fa": "تعارض، درگیری",
+   "def_": "/ˈkɒnflɪkt/ · opposition",
+   "level": 5,
+   "exs": [
+    "Normal kids who are in conflict with their parents."
+   ]
+  },
+  {
+   "id": "awl:consult",
+   "word": "consult",
+   "pos": "v",
+   "fa": "مشورت کردن، رجوع کردن به",
+   "def_": "/kənˈsʌlt/ · exchange views, confer",
+   "level": 5,
+   "exs": [
+    "I need to consult with my lawyer."
+   ]
+  },
+  {
+   "id": "awl:contact",
+   "word": "contact",
+   "pos": "n",
+   "fa": "تماس، ارتباط",
+   "def_": "/ˈkɒntækt/ · the act of communicating with somebody",
+   "level": 5,
+   "exs": [
+    "Many of us have no direct contact with elderly people."
+   ]
+  },
+  {
+   "id": "awl:decline",
+   "word": "decline",
+   "pos": "n",
+   "fa": "کاهش؛ کاهش یافتن",
+   "def_": "/dɪˈklaɪn/ · n., v. · decrease",
+   "level": 5,
+   "exs": [
+    "There has been a decline in the size of families.",
+    "The number of visitors declined in 2020.",
+    "The number of birds has declined sharply."
+   ]
+  },
+  {
+   "id": "awl:discrete",
+   "word": "discrete",
+   "pos": "adj",
+   "fa": "مجزا، جداگانه",
+   "def_": "/dɪˈskriːt/ · separate",
+   "level": 5,
+   "exs": [
+    "The organisms can be divided into discrete categories."
+   ]
+  },
+  {
+   "id": "awl:draft",
+   "word": "draft",
+   "pos": "n",
+   "fa": "پیش‌نویس",
+   "def_": "/dræft/ · first rough version",
+   "level": 5,
+   "exs": [
+    "The published poem differs quite a bit from earlier drafts."
+   ]
+  },
+  {
+   "id": "awl:enable",
+   "word": "enable",
+   "pos": "v",
+   "fa": "قادر ساختن، امکان دادن",
+   "def_": "/ɪˈneɪbəl/ · make able",
+   "level": 5,
+   "exs": [
+    "The loan enabled Jan to buy the house."
+   ]
+  },
+  {
+   "id": "awl:energy",
+   "word": "energy",
+   "pos": "n",
+   "fa": "انرژی، نیرو",
+   "def_": "/ˈenərdʒi/ · the ability to do work",
+   "level": 5,
+   "exs": [
+    "Helping people takes time and energy.",
+    "Solar energy is becoming cheaper.",
+    "Solar energy is clean and renewable."
+   ]
+  },
+  {
+   "id": "awl:enforce",
+   "word": "enforce",
+   "pos": "v",
+   "fa": "اجرا کردن (قانون)، به اجرا گذاشتن",
+   "def_": "/ɪnˈfɔːrs/ · cause a law to be obeyed",
+   "level": 5,
+   "exs": [
+    "The legislation will be difficult to enforce."
+   ]
+  },
+  {
+   "id": "awl:entity",
+   "word": "entity",
+   "pos": "n",
+   "fa": "موجودیت، هستی",
+   "def_": "/ˈentəti/ · sth that exist as a single & complete unit",
+   "level": 5,
+   "exs": [
+    "Church and empire were fused in a single entity."
+   ]
+  },
+  {
+   "id": "awl:equivalent",
+   "word": "equivalent",
+   "pos": "adj",
+   "fa": "معادل، هم‌ارز",
+   "def_": "/ɪˈkwɪvələnt/ · equal",
+   "level": 5,
+   "exs": [
+    "Some regulations are equivalent to censorship.",
+    "One kilometre is equivalent to about 0.62 miles.",
+    "There is no equivalent word in Persian."
+   ]
+  },
+  {
+   "id": "awl:evolution",
+   "word": "evolution",
+   "pos": "n",
+   "fa": "تکامل",
+   "def_": "/ˌevəˈluːʃn/ · gradual development",
+   "level": 5,
+   "exs": [
+    "Darwin's theory of evolution",
+    "Darwin developed the theory of evolution.",
+    "The evolution of birds from dinosaurs is well documented."
+   ]
+  },
+  {
+   "id": "awl:expand",
+   "word": "expand",
+   "pos": "v",
+   "fa": "گسترش دادن، گسترش یافتن",
+   "def_": "/ɪkˈspænd/ · grow, extend",
+   "level": 5,
+   "exs": [
+    "a period of rapid economic expansion",
+    "The company plans to expand overseas.",
+    "The company plans to expand into Asia."
+   ]
+  },
+  {
+   "id": "awl:exposure",
+   "word": "exposure",
+   "pos": "n",
+   "fa": "در معرض قرار گرفتن؛ آشکارسازی",
+   "def_": "/ɪkˈspəʊʒər/ · presentation",
+   "level": 5,
+   "exs": [
+    "children's exposure to violence on television",
+    "Exposure to sunlight is good for plants.",
+    "Long exposure to noise can damage hearing."
+   ]
+  },
+  {
+   "id": "awl:external",
+   "word": "external",
+   "pos": "adj",
+   "fa": "خارجی، بیرونی",
+   "def_": "/ɪkˈstɜːrnl/ · outside",
+   "level": 5,
+   "exs": [
+    "The external walls of the building"
+   ]
+  },
+  {
+   "id": "awl:facilitate",
+   "word": "facilitate",
+   "pos": "v",
+   "fa": "تسهیل کردن",
+   "def_": "/fəˈsɪlɪteɪt/ · make easier, ease",
+   "level": 5,
+   "exs": [
+    "Cutting taxes may facilitate economic recovery.",
+    "The internet facilitates global trade.",
+    "The new software will facilitate communication."
+   ]
+  },
+  {
+   "id": "awl:fundamental",
+   "word": "fundamental",
+   "pos": "adj",
+   "fa": "بنیادی، اساسی",
+   "def_": "/ˌfʌndəˈmentl/ · basic, essential",
+   "level": 5,
+   "exs": [
+    "We have to tackle the fundamental cause of the problem.",
+    "Education is a fundamental right.",
+    "There are fundamental differences between the two systems."
+   ]
+  },
+  {
+   "id": "awl:generate",
+   "word": "generate",
+   "pos": "v",
+   "fa": "تولید کردن، ایجاد کردن",
+   "def_": "/ˈdʒenəreɪt/ · produce",
+   "level": 5,
+   "exs": [
+    "The wind turbines are used to generate electricity.",
+    "The new factory will generate hundreds of jobs.",
+    "Solar panels generate power from sunlight."
+   ]
+  },
+  {
+   "id": "awl:generation",
+   "word": "generation",
+   "pos": "n",
+   "fa": "نسل",
+   "def_": "/ˌdʒenəˈreɪʃn/ · same age group",
+   "level": 5,
+   "exs": [
+    "My generation have grown up with the internet.",
+    "The younger generation uses smartphones daily.",
+    "The younger generation uses technology every day."
+   ]
+  },
+  {
+   "id": "awl:image",
+   "word": "image",
+   "pos": "n",
+   "fa": "تصویر؛ وجهه",
+   "def_": "/ˈɪmɪdʒ/ · public opinion",
+   "level": 5,
+   "exs": [
+    "attempts to improve the image of the police"
+   ]
+  },
+  {
+   "id": "awl:liberal",
+   "word": "liberal",
+   "pos": "adj",
+   "fa": "آزادی‌خواه، لیبرال",
+   "def_": "/ˈlɪbərəl/ · with a lot of political & economic freedom",
+   "level": 5,
+   "exs": [
+    "liberal attitudes/views/ policies"
+   ]
+  },
+  {
+   "id": "awl:license",
+   "word": "license",
+   "pos": "n",
+   "fa": "مجوز، گواهینامه",
+   "def_": "/ˈlaɪsns/ · official permission",
+   "level": 5,
+   "exs": [
+    "a restaurant with license to sell alcohol"
+   ]
+  },
+  {
+   "id": "awl:logic",
+   "word": "logic",
+   "pos": "n",
+   "fa": "منطق",
+   "def_": "/ˈlɑːdʒɪk/ · a system of reasoning",
+   "level": 5,
+   "exs": [
+    "If you just use a little logic, you'll see I'm right."
+   ]
+  },
+  {
+   "id": "awl:marginal",
+   "word": "marginal",
+   "pos": "adj",
+   "fa": "حاشیه‌ای، جزئی",
+   "def_": "/ˈmɑːrdʒɪnl/ · small and not important",
+   "level": 5,
+   "exs": [
+    "His reading and writing abilities are marginal."
+   ]
+  },
+  {
+   "id": "awl:medical",
+   "word": "medical",
+   "pos": "adj",
+   "fa": "پزشکی",
+   "def_": "/ˈmedɪkl/ · relating to the study of medicine",
+   "level": 5,
+   "exs": [
+    "The injury required urgent medical attention."
+   ]
+  },
+  {
+   "id": "awl:mental",
+   "word": "mental",
+   "pos": "adj",
+   "fa": "ذهنی، روانی",
+   "def_": "/ˈmentl/ · involving the mind or intellectual processes",
+   "level": 5,
+   "exs": [
+    "The very old man still had all his mental powers."
+   ]
+  },
+  {
+   "id": "awl:modify",
+   "word": "modify",
+   "pos": "v",
+   "fa": "اصلاح کردن، تغییر دادن",
+   "def_": "/ˈmɑːdɪfaɪ/ · change",
+   "level": 5,
+   "exs": [
+    "The regulations can only be modified by a special committee.",
+    "The plan was modified after the test.",
+    "Scientists modified the genes of the plant."
+   ]
+  },
+  {
+   "id": "awl:monitor",
+   "word": "monitor",
+   "pos": "v",
+   "fa": "نظارت کردن، پایش کردن",
+   "def_": "/ˈmɑːnɪtər/ · supervise, observe",
+   "level": 5,
+   "exs": [
+    "The temperature is carefully monitored."
+   ]
+  },
+  {
+   "id": "awl:network",
+   "word": "network",
+   "pos": "n",
+   "fa": "شبکه",
+   "def_": "/ˈnetwɜːrk/ · net, web",
+   "level": 5,
+   "exs": [
+    "The Internet is a huge computer network."
+   ]
+  },
+  {
+   "id": "awl:notion",
+   "word": "notion",
+   "pos": "n",
+   "fa": "مفهوم، تصور",
+   "def_": "/ˈnəʊʃn/ · concept",
+   "level": 5,
+   "exs": [
+    "He has some pretty strange notions.",
+    "The notion that the Earth is flat was rejected.",
+    "I have no notion of what he means."
+   ]
+  },
+  {
+   "id": "awl:objective",
+   "word": "objective",
+   "pos": "n",
+   "fa": "هدف؛ عینی، بی‌طرف",
+   "def_": "/əbˈdʒektɪv/ · goal, unbiased",
+   "level": 5,
+   "exs": [
+    "to achieve/meet/accomplish your objectives"
+   ]
+  },
+  {
+   "id": "awl:orientation",
+   "word": "orientation",
+   "pos": "n",
+   "fa": "جهت‌گیری، گرایش",
+   "def_": "/ˌɒriənˈteɪʃən/ · location or direction",
+   "level": 5,
+   "exs": [
+    "How can we get students to adopt a serious orientation to learning?"
+   ]
+  },
+  {
+   "id": "awl:perspective",
+   "word": "perspective",
+   "pos": "n",
+   "fa": "دیدگاه، چشم‌انداز",
+   "def_": "/pəˈspektɪv/ · viewpoint",
+   "level": 5,
+   "exs": [
+    "His father's death gave him a whole new perspective on life.",
+    "Travel gives you a new perspective.",
+    "Try to see the problem from a different perspective."
+   ]
+  },
+  {
+   "id": "awl:precise",
+   "word": "precise",
+   "pos": "adj",
+   "fa": "دقیق",
+   "def_": "/prɪˈsaɪs/ · exact",
+   "level": 5,
+   "exs": [
+    "It was difficult to get precise information.",
+    "We need precise measurements.",
+    "At that precise moment, the phone rang."
+   ]
+  },
+  {
+   "id": "awl:prime",
+   "word": "prime",
+   "pos": "adj",
+   "fa": "اصلی، اساسی، عمده",
+   "def_": "/praɪm/ · main, basic",
+   "level": 5,
+   "exs": [
+    "Smoking is the prime cause of lung disease."
+   ]
+  },
+  {
+   "id": "awl:psychology",
+   "word": "psychology",
+   "pos": "n",
+   "fa": "روان‌شناسی",
+   "def_": "/saɪˈkɑːlədʒi/ · the study of the mind and people's feeling",
+   "level": 5,
+   "exs": [
+    "She studied psychology in college."
+   ]
+  },
+  {
+   "id": "awl:pursue",
+   "word": "pursue",
+   "pos": "v",
+   "fa": "دنبال کردن، پیگیری کردن",
+   "def_": "/pərˈsuː/ · follow, chase",
+   "level": 5,
+   "exs": [
+    "The criminal is being pursued by police.",
+    "He wants to pursue a career in medicine.",
+    "She left her job to pursue a career in music."
+   ]
+  },
+  {
+   "id": "awl:ratio",
+   "word": "ratio",
+   "pos": "n",
+   "fa": "نسبت",
+   "def_": "/ˈreɪʃiəʊ/ · rate, proportion",
+   "level": 5,
+   "exs": [
+    "Women outnumbered men by a ratio of 3 to 2."
+   ]
+  },
+  {
+   "id": "awl:reject",
+   "word": "reject",
+   "pos": "v",
+   "fa": "رد کردن، نپذیرفتن",
+   "def_": "/rɪˈdʒekt/ · refuse, dismiss",
+   "level": 5,
+   "exs": [
+    "It's obvious why his application was rejected."
+   ]
+  },
+  {
+   "id": "awl:revenue",
+   "word": "revenue",
+   "pos": "n",
+   "fa": "درآمد (دولت یا شرکت)",
+   "def_": "/ˈrevənuː/ · income",
+   "level": 5,
+   "exs": [
+    "advertising revenue"
+   ]
+  },
+  {
+   "id": "awl:stable",
+   "word": "stable",
+   "pos": "adj",
+   "fa": "پایدار، ثابت",
+   "def_": "/ˈsteɪbl/ · steady, fixed",
+   "level": 5,
+   "exs": [
+    "It could threaten the peace and stability of the region."
+   ]
+  },
+  {
+   "id": "awl:style",
+   "word": "style",
+   "pos": "n",
+   "fa": "سبک، شیوه",
+   "def_": "/staɪl/ · mode, fashion",
+   "level": 5,
+   "exs": [
+    "The car is available in several different styles."
+   ]
+  },
+  {
+   "id": "awl:substitution",
+   "word": "substitution",
+   "pos": "n",
+   "fa": "جایگزینی",
+   "def_": "/ˌsʌbstɪˈtuːʃən/ · replacing",
+   "level": 5,
+   "exs": [
+    "The football coach made two substitutions in the second half."
+   ]
+  },
+  {
+   "id": "awl:sustainable",
+   "word": "sustainable",
+   "pos": "adj",
+   "fa": "پایدار",
+   "def_": "/səˈsteɪnəbl/ · continuing without damaging environment",
+   "level": 5,
+   "exs": [
+    "The government promotes sustainable agriculture.",
+    "We need sustainable sources of energy.",
+    "The company is committed to sustainable farming."
+   ]
+  },
+  {
+   "id": "awl:symbol",
+   "word": "symbol",
+   "pos": "n",
+   "fa": "نماد",
+   "def_": "/ˈsɪmbl/ · an object or picture that represents sth else",
+   "level": 5,
+   "exs": [
+    "Wedding rings are symbols of eternal love."
+   ]
+  },
+  {
+   "id": "awl:target",
+   "word": "target",
+   "pos": "n",
+   "fa": "هدف",
+   "def_": "/ˈtɑːrɡɪt/ · goal, objective",
+   "level": 5,
+   "exs": [
+    "They set a target date of May 31."
+   ]
+  },
+  {
+   "id": "awl:transition",
+   "word": "transition",
+   "pos": "n",
+   "fa": "گذار، انتقال",
+   "def_": "/trænˈzɪʃn/ · change",
+   "level": 5,
+   "exs": [
+    "the transition from youth to adulthood"
+   ]
+  },
+  {
+   "id": "awl:trend",
+   "word": "trend",
+   "pos": "n",
+   "fa": "روند، گرایش",
+   "def_": "/trend/ · general direction, tendency",
+   "level": 5,
+   "exs": [
+    "There is a growing trend towards later retirement.",
+    "The graph shows an upward trend.",
+    "There is a growing trend toward online shopping."
+   ]
+  },
+  {
+   "id": "awl:version",
+   "word": "version",
+   "pos": "n",
+   "fa": "نسخه، روایت",
+   "def_": "/ˈvɜːrʒn/ · form",
+   "level": 5,
+   "exs": [
+    "I think I preferred the television version."
+   ]
+  },
+  {
+   "id": "awl:welfare",
+   "word": "welfare",
+   "pos": "n",
+   "fa": "رفاه، آسایش",
+   "def_": "/ˈwelfer/ · health & happiness",
+   "level": 5,
+   "exs": [
+    "The welfare of all the orphans was at stake.",
+    "The organization works for animal welfare.",
+    "Parents are concerned about their children's welfare."
+   ]
+  },
+  {
+   "id": "awl:whereas",
+   "word": "whereas",
+   "pos": "conj",
+   "fa": "در حالی که، درحالی‌که (در مقابل)",
+   "def_": "/ˌwerˈæz/ · while, however",
+   "level": 5,
+   "exs": [
+    "He is kind, whereas she is cruel."
+   ]
+  },
+  {
+   "id": "awl:abstract",
+   "word": "abstract",
+   "pos": "adj",
+   "fa": "انتزاعی؛ چکیده",
+   "def_": "/ˈæbstrækt/ · conceptual, summary",
+   "level": 6,
+   "exs": [
+    "Truth and beauty are abstract concepts."
+   ]
+  },
+  {
+   "id": "awl:accurate",
+   "word": "accurate",
+   "pos": "adj",
+   "fa": "دقیق، درست",
+   "def_": "/ˈækjərət/ · exact; correct",
+   "level": 6,
+   "exs": [
+    "The film is not historically accurate.",
+    "The report gives an accurate picture.",
+    "Make sure your measurements are accurate."
+   ]
+  },
+  {
+   "id": "awl:acknowledge",
+   "word": "acknowledge",
+   "pos": "v",
+   "fa": "تصدیق کردن، اذعان کردن",
+   "def_": "/əkˈnɒlɪdʒ/ · admit, recognize",
+   "level": 6,
+   "exs": [
+    "Claire acknowledged that she was guilty.",
+    "He acknowledged his mistake.",
+    "He acknowledged that he had made a mistake."
+   ]
+  },
+  {
+   "id": "awl:aggregate",
+   "word": "aggregate",
+   "pos": "v",
+   "fa": "مجموع، کل؛ جمع کردن",
+   "def_": "/ˈæɡrɪɡət/ · v., n. · collect, amount",
+   "level": 6,
+   "exs": [
+    "They purchased an aggregate of 3000 shares in the company."
+   ]
+  },
+  {
+   "id": "awl:allocate",
+   "word": "allocate",
+   "pos": "v",
+   "fa": "تخصیص دادن، اختصاص دادن",
+   "def_": "/ˈæləkeɪt/ · give,assign",
+   "level": 6,
+   "exs": [
+    "The government allocated enough funds to infrastructures.",
+    "The council allocated funds to new schools.",
+    "The government allocated more money to education."
+   ]
+  },
+  {
+   "id": "awl:assign",
+   "word": "assign",
+   "pos": "v",
+   "fa": "واگذار کردن، تعیین کردن",
+   "def_": "/əˈsaɪn/ · designate",
+   "level": 6,
+   "exs": [
+    "UN troops were assigned the task of rebuilding the hospital."
+   ]
+  },
+  {
+   "id": "awl:attach",
+   "word": "attach",
+   "pos": "v",
+   "fa": "پیوست کردن، ضمیمه کردن",
+   "def_": "/əˈtætʃ/ · v., n. · fasten, join · ≠ detach",
+   "level": 6,
+   "exs": [
+    "Please complete the attached form."
+   ]
+  },
+  {
+   "id": "awl:author",
+   "word": "author",
+   "pos": "n",
+   "fa": "نویسنده، مؤلف",
+   "def_": "/ˈɒːθər/ · writer",
+   "level": 6,
+   "exs": [
+    "He is the author of three books on art."
+   ]
+  },
+  {
+   "id": "awl:bond",
+   "word": "bond",
+   "pos": "n",
+   "fa": "پیوند، رابطه",
+   "def_": "/bɑːnd/ · relationship, friendship",
+   "level": 6,
+   "exs": [
+    "In societies with strong family bonds, people tend to live longer."
+   ]
+  },
+  {
+   "id": "awl:brief",
+   "word": "brief",
+   "pos": "adj",
+   "fa": "کوتاه، مختصر",
+   "def_": "/briːf/ · short, quick",
+   "level": 6,
+   "exs": [
+    "We had a brief conversation because he was in a hurry."
+   ]
+  },
+  {
+   "id": "awl:capable",
+   "word": "capable",
+   "pos": "adj",
+   "fa": "توانا، قادر",
+   "def_": "/ˈkeɪpəbl/ · able",
+   "level": 6,
+   "exs": [
+    "She's a very capable woman/worker/judge."
+   ]
+  },
+  {
+   "id": "awl:cite",
+   "word": "cite",
+   "pos": "v",
+   "fa": "استناد کردن، ذکر کردن",
+   "def_": "/saɪt/ · mention, quote",
+   "level": 6,
+   "exs": [
+    "She cited 3 reasons why people get into debt.",
+    "The report cites several studies.",
+    "She cited lack of time as the reason."
+   ]
+  },
+  {
+   "id": "awl:cooperative",
+   "word": "cooperative",
+   "pos": "adj",
+   "fa": "همکار، تعاونی؛ همکاری‌کننده",
+   "def_": "/kəʊˈɑːpərətɪv/ · collaborative, synergic",
+   "level": 6,
+   "exs": [
+    "A cooperative international effort is needed."
+   ]
+  },
+  {
+   "id": "awl:discrimination",
+   "word": "discrimination",
+   "pos": "n",
+   "fa": "تبعیض",
+   "def_": "/dɪˌskrɪmɪˈneɪʃn/ · prejudice, bias",
+   "level": 6,
+   "exs": [
+    "victims of racial discrimination",
+    "Laws protect workers against discrimination.",
+    "Discrimination based on gender is illegal."
+   ]
+  },
+  {
+   "id": "awl:display",
+   "word": "display",
+   "pos": "v",
+   "fa": "نمایش دادن",
+   "def_": "/dɪˈspleɪ/ · exhibit, show",
+   "level": 6,
+   "exs": [
+    "Family photographs were displayed on the wall."
+   ]
+  },
+  {
+   "id": "awl:diversity",
+   "word": "diversity",
+   "pos": "n",
+   "fa": "تنوع",
+   "def_": "/daɪˈvɜːrsəti/ · variety",
+   "level": 6,
+   "exs": [
+    "There was considerable diversity in the style of the reports.",
+    "The rainforest has an amazing diversity of plants.",
+    "The city is proud of its cultural diversity."
+   ]
+  },
+  {
+   "id": "awl:domain",
+   "word": "domain",
+   "pos": "n",
+   "fa": "حوزه، قلمرو",
+   "def_": "/dəʊˈmeɪn/ · area, realm",
+   "level": 6,
+   "exs": [
+    "These documents are in the public domain."
+   ]
+  },
+  {
+   "id": "awl:edition",
+   "word": "edition",
+   "pos": "n",
+   "fa": "ویرایش، چاپ",
+   "def_": "/ɪˈdɪʃn/ · printing, revision",
+   "level": 6,
+   "exs": [
+    "The fifth edition of IELTS Success appeared in 1401."
+   ]
+  },
+  {
+   "id": "awl:enhance",
+   "word": "enhance",
+   "pos": "v",
+   "fa": "افزایش دادن، بهبود بخشیدن",
+   "def_": "/ɪnˈhæns/ · increase, improve",
+   "level": 6,
+   "exs": [
+    "Rarity enhances the worth of old coins.",
+    "Technology can enhance learning.",
+    "Good lighting can enhance the beauty of a room."
+   ]
+  },
+  {
+   "id": "awl:estate",
+   "word": "estate",
+   "pos": "n",
+   "fa": "املاک، دارایی",
+   "def_": "/ɪˈsteɪt/ · money and property",
+   "level": 6,
+   "exs": [
+    "She left her entire estate to her niece."
+   ]
+  },
+  {
+   "id": "awl:exceed",
+   "word": "exceed",
+   "pos": "v",
+   "fa": "فراتر رفتن از، تجاوز کردن از",
+   "def_": "/ɪkˈsiːd/ · go beyond, surpass",
+   "level": 6,
+   "exs": [
+    "Economic growth exceeded expectations this year.",
+    "The cost exceeded our budget.",
+    "Do not exceed the speed limit."
+   ]
+  },
+  {
+   "id": "awl:expert",
+   "word": "expert",
+   "pos": "adj",
+   "fa": "متخصص، کارشناس",
+   "def_": "/ˈekspɜːrt/ · professional",
+   "level": 6,
+   "exs": [
+    "I have a friend who is very expert at the language"
+   ]
+  },
+  {
+   "id": "awl:explicit",
+   "word": "explicit",
+   "pos": "adj",
+   "fa": "صریح، روشن",
+   "def_": "/ɪkˈsplɪsɪt/ · clear",
+   "level": 6,
+   "exs": [
+    "He was quite explicit as to what he expected us to do for him.",
+    "The instructions were explicit.",
+    "He made an explicit promise."
+   ]
+  },
+  {
+   "id": "awl:federal",
+   "word": "federal",
+   "pos": "adj",
+   "fa": "فدرال، مربوط به دولت مرکزی",
+   "def_": "/ˈfedərəl/ · relating to the central government of a country",
+   "level": 6,
+   "exs": [
+    "The US has local, state, and federal courts."
+   ]
+  },
+  {
+   "id": "awl:fee",
+   "word": "fee",
+   "pos": "n",
+   "fa": "هزینه، کارمزد، شهریه",
+   "def_": "/fiː/ · price, charge",
+   "level": 6,
+   "exs": [
+    "Tuition fees have now reached $9000 a year."
+   ]
+  },
+  {
+   "id": "awl:flexible",
+   "word": "flexible",
+   "pos": "adj",
+   "fa": "انعطاف‌پذیر",
+   "def_": "/ˈfleksəbl/ · adaptable, elastic",
+   "level": 6,
+   "exs": [
+    "My schedule is quite flexible.",
+    "I have a flexible work schedule.",
+    "My working hours are very flexible."
+   ]
+  },
+  {
+   "id": "awl:furthermore",
+   "word": "furthermore",
+   "pos": "adv",
+   "fa": "علاوه بر این، به‌علاوه",
+   "def_": "/ˌfɜːrðərˈmɔːr/ · moreover",
+   "level": 6,
+   "exs": [
+    "Candy costs money; furthermore, it's bad for you."
+   ]
+  },
+  {
+   "id": "awl:gender",
+   "word": "gender",
+   "pos": "n",
+   "fa": "جنسیت",
+   "def_": "/ˈdʒendər/ · sex",
+   "level": 6,
+   "exs": [
+    "discrimination on the basis of race, gender or age"
+   ]
+  },
+  {
+   "id": "awl:ignore",
+   "word": "ignore",
+   "pos": "v",
+   "fa": "نادیده گرفتن",
+   "def_": "/ɪɡˈnɔːr/ · neglect, pay no attention to",
+   "level": 6,
+   "exs": [
+    "She can be really irritating but I try to ignore her.",
+    "She ignored his rude comment.",
+    "She ignored my advice and went anyway."
+   ]
+  },
+  {
+   "id": "awl:incentive",
+   "word": "incentive",
+   "pos": "n",
+   "fa": "انگیزه، مشوق",
+   "def_": "/ɪnˈsentɪv/ · motivation",
+   "level": 6,
+   "exs": [
+    "There is no incentive for people to save fuel.",
+    "Tax incentives encourage green energy.",
+    "Tax breaks are an incentive for companies to invest."
+   ]
+  },
+  {
+   "id": "awl:incidence",
+   "word": "incidence",
+   "pos": "n",
+   "fa": "میزان وقوع، شیوع",
+   "def_": "/ˈɪnsɪdəns/ · occurrence, rate",
+   "level": 6,
+   "exs": [
+    "an area with a high incidence of crime",
+    "The incidence of heart disease is higher in cities.",
+    "There is a low incidence of crime in the village."
+   ]
+  },
+  {
+   "id": "awl:incorporate",
+   "word": "incorporate",
+   "pos": "v",
+   "fa": "گنجاندن، ادغام کردن",
+   "def_": "/ɪnˈkɔːrpəreɪt/ · include, contain",
+   "level": 6,
+   "exs": [
+    "His book incorporates all his thinking on the subject.",
+    "The new design incorporates solar panels.",
+    "The course incorporates practical training."
+   ]
+  },
+  {
+   "id": "awl:index",
+   "word": "index",
+   "pos": "n",
+   "fa": "فهرست، نمایه؛ شاخص",
+   "def_": "/ˈɪndeks/ · list, directory",
+   "level": 6,
+   "exs": [
+    "Try looking up 'heart disease' in the index."
+   ]
+  },
+  {
+   "id": "awl:inhibit",
+   "word": "inhibit",
+   "pos": "v",
+   "fa": "مانع شدن، بازداشتن",
+   "def_": "/ɪnˈhɪbɪt/ · prevent, prohibit",
+   "level": 6,
+   "exs": [
+    "the obstacles which inhibit change"
+   ]
+  },
+  {
+   "id": "awl:initiative",
+   "word": "initiative",
+   "pos": "n",
+   "fa": "ابتکار عمل، ابتکار",
+   "def_": "/ɪˈnɪʃətɪv/ · the power, energy, or ability to organize or accomplish something",
+   "level": 6,
+   "exs": [
+    "use your initiative, imagination, and common sense",
+    "The recycling initiative was a success.",
+    "The new initiative aims to reduce youth unemployment."
+   ]
+  },
+  {
+   "id": "awl:input",
+   "word": "input",
+   "pos": "n",
+   "fa": "ورودی، داده",
+   "def_": "/ˈɪnpʊt/ · data, feed in",
+   "level": 6,
+   "exs": [
+    "The power input will come largely from hydroelectricity."
+   ]
+  },
+  {
+   "id": "awl:instructions",
+   "word": "instructions",
+   "pos": "n",
+   "fa": "دستورالعمل‌ها",
+   "def_": "/ɪnˈstrʌkʃən/ · directions, orders",
+   "level": 6,
+   "exs": [
+    "Always read the instructions before switching on the machine."
+   ]
+  },
+  {
+   "id": "awl:intelligent",
+   "word": "intelligent",
+   "pos": "adj",
+   "fa": "باهوش",
+   "def_": "/ɪnˈtelədʒənt/ · smart, clever, bright",
+   "level": 6,
+   "exs": [
+    "She asked a lot of intelligent questions."
+   ]
+  },
+  {
+   "id": "awl:interval",
+   "word": "interval",
+   "pos": "n",
+   "fa": "فاصله، وقفه",
+   "def_": "/ˈɪntərvəl/ · period of time between 2 events",
+   "level": 6,
+   "exs": [
+    "We see each other at regular intervals -once a month.",
+    "Trees were planted at regular intervals.",
+    "The buses run at ten-minute intervals."
+   ]
+  },
+  {
+   "id": "awl:lecture",
+   "word": "lecture",
+   "pos": "n",
+   "fa": "سخنرانی، درس",
+   "def_": "/ˈlektʃər/ · speech or talk",
+   "level": 6,
+   "exs": [
+    "He spent the year lecturing to various student groups."
+   ]
+  },
+  {
+   "id": "awl:migrate",
+   "word": "migrate",
+   "pos": "v",
+   "fa": "مهاجرت کردن، کوچ کردن",
+   "def_": "/ˈmaɪɡreɪt/ · to move from one place to another",
+   "level": 6,
+   "exs": [
+    "Swallows migrate south in winter.",
+    "Many birds migrate south in winter.",
+    "Salmon migrate up rivers to lay their eggs."
+   ]
+  },
+  {
+   "id": "awl:minimum",
+   "word": "minimum",
+   "pos": "adj",
+   "fa": "حداقل، کمینه",
+   "def_": "/ˈmɪnɪməm/ · adj., adv. · least",
+   "level": 6,
+   "exs": [
+    "This can be done with the minimum amount of effort."
+   ]
+  },
+  {
+   "id": "awl:ministry",
+   "word": "ministry",
+   "pos": "n",
+   "fa": "وزارتخانه",
+   "def_": "/ˈmɪnɪstri/ · government department",
+   "level": 6,
+   "exs": [
+    "the ministry of Defense"
+   ]
+  },
+  {
+   "id": "awl:motivation",
+   "word": "motivation",
+   "pos": "n",
+   "fa": "انگیزه",
+   "def_": "/ˌməʊtɪˈveɪʃn/ · incentive, force",
+   "level": 6,
+   "exs": [
+    "Her motivation for quitting her job was unclear."
+   ]
+  },
+  {
+   "id": "awl:neutral",
+   "word": "neutral",
+   "pos": "adj",
+   "fa": "بی‌طرف، خنثی",
+   "def_": "/ˈnuːtrəl/ · impartial, unbiased",
+   "level": 6,
+   "exs": [
+    "When her friends had a quarrel, she remained neutral.",
+    "Switzerland remained neutral during the war.",
+    "Pure water is chemically neutral."
+   ]
+  },
+  {
+   "id": "awl:nevertheless",
+   "word": "nevertheless",
+   "pos": "adv",
+   "fa": "با این حال، با وجود این",
+   "def_": "/ˌnevərðəˈles/ · in spite of, despite",
+   "level": 6,
+   "exs": [
+    "He forgot to study; nevertheless, he must take the exam.",
+    "It was raining; nevertheless, we went out.",
+    "The task was difficult; nevertheless, they finished it."
+   ]
+  },
+  {
+   "id": "awl:overseas",
+   "word": "overseas",
+   "pos": "adj",
+   "fa": "خارجی، ماورای دریا",
+   "def_": "/ˌəʊvərˈsiːz/ · abroad, foreign",
+   "level": 6,
+   "exs": [
+    "There are a lot of overseas students in Cambridge."
+   ]
+  },
+  {
+   "id": "awl:precede",
+   "word": "precede",
+   "pos": "v",
+   "fa": "مقدم بودن بر، پیش از چیزی آمدن",
+   "def_": "/prɪˈsiːd/ · come before, come first",
+   "level": 6,
+   "exs": [
+    "in the moments which immediately preceded the earthquake"
+   ]
+  },
+  {
+   "id": "awl:presume",
+   "word": "presume",
+   "pos": "v",
+   "fa": "فرض کردن، گمان کردن",
+   "def_": "/prɪˈzuːm/ · assume, suppose",
+   "level": 6,
+   "exs": [
+    "There is no scientific evidence to support such presumptions.",
+    "I presume you have read the report.",
+    "The ship was presumed lost."
+   ]
+  },
+  {
+   "id": "awl:rational",
+   "word": "rational",
+   "pos": "adj",
+   "fa": "منطقی، معقول",
+   "def_": "/ˈræʃnəl/ · reasonable, logical",
+   "level": 6,
+   "exs": [
+    "There is no rational explanation for his actions."
+   ]
+  },
+  {
+   "id": "awl:recovery",
+   "word": "recovery",
+   "pos": "n",
+   "fa": "بهبود، بازیابی",
+   "def_": "/rɪˈkʌvəri/ · return to health, comeback",
+   "level": 6,
+   "exs": [
+    "Doctors expect him to make a full recovery."
+   ]
+  },
+  {
+   "id": "awl:reveal",
+   "word": "reveal",
+   "pos": "v",
+   "fa": "آشکار کردن، فاش کردن",
+   "def_": "/rɪˈviːl/ · make known, describe",
+   "level": 6,
+   "exs": [
+    "A series of flashbacks reveal the details of the tragedy.",
+    "The report revealed some surprising facts.",
+    "The investigation revealed new information."
+   ]
+  },
+  {
+   "id": "awl:scope",
+   "word": "scope",
+   "pos": "n",
+   "fa": "دامنه، گستره",
+   "def_": "/skəʊp/ · potential, range",
+   "level": 6,
+   "exs": [
+    "A full discussion of that issue is beyond the scope of this book."
+   ]
+  },
+  {
+   "id": "awl:subside",
+   "word": "subside",
+   "pos": "v",
+   "fa": "فروکش کردن، فرو نشستن",
+   "def_": "/səbˈsaɪd/ · go back, sink",
+   "level": 6,
+   "exs": [
+    "She waited for his anger subside."
+   ]
+  },
+  {
+   "id": "awl:tape",
+   "word": "tape",
+   "pos": "n",
+   "fa": "نوار",
+   "def_": "/teɪp/ · cassette",
+   "level": 6,
+   "exs": [
+    "Bring me a blank tape and I'll record it for you."
+   ]
+  },
+  {
+   "id": "awl:trace",
+   "word": "trace",
+   "pos": "v",
+   "fa": "ردیابی کردن، پیدا کردن",
+   "def_": "/treɪs/ · find, detect",
+   "level": 6,
+   "exs": [
+    "We finally traced him to an address in Mashhad!"
+   ]
+  },
+  {
+   "id": "awl:transformation",
+   "word": "transformation",
+   "pos": "n",
+   "fa": "دگرگونی، تحول",
+   "def_": "/ˌtrænsfəˈmeɪʃən/ · change, convert",
+   "level": 6,
+   "exs": [
+    "transformation from dictatorship to democracy",
+    "The city has undergone a complete transformation.",
+    "The transformation of a caterpillar into a butterfly is amazing."
+   ]
+  },
+  {
+   "id": "awl:transport",
+   "word": "transport",
+   "pos": "v",
+   "fa": "حمل کردن، جابه‌جا کردن",
+   "def_": "/ˈtrænspɔːrt/ · carry, transfer",
+   "level": 6,
+   "exs": [
+    "The company will arrange transport from the airport.",
+    "Public transport should be free.",
+    "Public transport in the city is cheap and fast."
+   ]
+  },
+  {
+   "id": "awl:underlying",
+   "word": "underlying",
+   "pos": "adj",
+   "fa": "اساسی، زیربنایی",
+   "def_": "/ˌʌndərˈlaɪɪŋ/ · basic, essential",
+   "level": 6,
+   "exs": [
+    "Stress is the underlying cause of many illnesses.",
+    "The underlying cause of the problem is poverty.",
+    "We need to understand the underlying principles."
+   ]
+  },
+  {
+   "id": "awl:utilize",
+   "word": "utilize",
+   "pos": "v",
+   "fa": "استفاده کردن، به کار بردن",
+   "def_": "/ˈjuːtəlaɪz/ · use",
+   "level": 6,
+   "exs": [
+    "The Romans utilized concrete as a building material."
+   ]
+  },
+  {
+   "id": "awl:adapt",
+   "word": "adapt",
+   "pos": "v",
+   "fa": "سازگار شدن، تطبیق دادن",
+   "def_": "/əˈdæpt/ · adjust, modify",
+   "level": 7,
+   "exs": [
+    "The play is an adaptation of a short novel",
+    "Animals adapt to their environment.",
+    "Animals must adapt to changes in their environment."
+   ]
+  },
+  {
+   "id": "awl:adult",
+   "word": "adult",
+   "pos": "n",
+   "fa": "بزرگسال",
+   "def_": "/ˈædʌlt, əˈdʌlt/ · n., adj. · grown-up",
+   "level": 7,
+   "exs": [
+    "Children should be accompanied by an adult."
+   ]
+  },
+  {
+   "id": "awl:advocate",
+   "word": "advocate",
+   "pos": "n",
+   "fa": "طرفدار، مدافع؛ حمایت کردن",
+   "def_": "/ˈædvəkeɪt/ · n., v. · support, back",
+   "level": 7,
+   "exs": [
+    "He was an untiring advocate of economic reform.",
+    "She advocates for animal rights.",
+    "Doctors advocate a diet rich in vegetables."
+   ]
+  },
+  {
+   "id": "awl:aid",
+   "word": "aid",
+   "pos": "n",
+   "fa": "کمک، یاری",
+   "def_": "/eɪd/ · assist, help",
+   "level": 7,
+   "exs": [
+    "economic/ financial/legal/emergency aid"
+   ]
+  },
+  {
+   "id": "awl:channel",
+   "word": "channel",
+   "pos": "n",
+   "fa": "کانال، مجرا",
+   "def_": "/ˈtʃænl/ · canal",
+   "level": 7,
+   "exs": [
+    "the river is confined in a narrow channel"
+   ]
+  },
+  {
+   "id": "awl:chemical",
+   "word": "chemical",
+   "pos": "n",
+   "fa": "ماده شیمیایی؛ شیمیایی",
+   "def_": "/ˈkemɪkl/ · n., adj. · a substance produced by a chemical process",
+   "level": 7,
+   "exs": [
+    "The teacher showed us two kinds of chemical reactions today.",
+    "Farmers use chemicals to protect their crops.",
+    "The factory released dangerous chemicals into the river."
+   ]
+  },
+  {
+   "id": "awl:classical",
+   "word": "classical",
+   "pos": "adj",
+   "fa": "کلاسیک، سنتی",
+   "def_": "/ˈklæsɪkl/ · traditional, ancient",
+   "level": 7,
+   "exs": [
+    "classical methods of navigation."
+   ]
+  },
+  {
+   "id": "awl:comprehensive",
+   "word": "comprehensive",
+   "pos": "adj",
+   "fa": "جامع، کامل",
+   "def_": "/ˌkɑːmprɪˈhensɪv/ · thorough, complete, full",
+   "level": 7,
+   "exs": [
+    "a comprehensive history of the revolution.",
+    "The report gives a comprehensive overview.",
+    "The book gives a comprehensive guide to the city."
+   ]
+  },
+  {
+   "id": "awl:comprise",
+   "word": "comprise",
+   "pos": "v",
+   "fa": "شامل بودن، تشکیل شدن از",
+   "def_": "/kəmˈpraɪz/ · consist of, contain",
+   "level": 7,
+   "exs": [
+    "The Soviet Union comprised several socialist republics.",
+    "The team comprises ten scientists.",
+    "The committee comprises ten members."
+   ]
+  },
+  {
+   "id": "awl:confirm",
+   "word": "confirm",
+   "pos": "v",
+   "fa": "تأیید کردن",
+   "def_": "/kənˈfɜːrm/ · accept, approve",
+   "level": 7,
+   "exs": [
+    "Research has confirmed that the risk is higher for kids."
+   ]
+  },
+  {
+   "id": "awl:contrary",
+   "word": "contrary",
+   "pos": "adj",
+   "fa": "مخالف، متضاد",
+   "def_": "/ˈkɑːntreri/ · different, opposite",
+   "level": 7,
+   "exs": [
+    "Contrary to popular belief, many cats dislike milk."
+   ]
+  },
+  {
+   "id": "awl:convert",
+   "word": "convert",
+   "pos": "v",
+   "fa": "تبدیل کردن",
+   "def_": "/kənˈvɜːrt/ · change",
+   "level": 7,
+   "exs": [
+    "The sofa converts to a bed."
+   ]
+  },
+  {
+   "id": "awl:couple",
+   "word": "couple",
+   "pos": "n",
+   "fa": "زوج، یک جفت",
+   "def_": "/ˈkʌpl/ · two, pair",
+   "level": 7,
+   "exs": [
+    "They make a handsome couple."
+   ]
+  },
+  {
+   "id": "awl:decade",
+   "word": "decade",
+   "pos": "n",
+   "fa": "دهه",
+   "def_": "/ˈdekeɪd, deˈkeɪd/ · ten years",
+   "level": 7,
+   "exs": [
+    "The fourth decade of the nineteenth century",
+    "The city has grown rapidly over the last decade.",
+    "Prices have doubled in a decade."
+   ]
+  },
+  {
+   "id": "awl:definite",
+   "word": "definite",
+   "pos": "adj",
+   "fa": "قطعی، مشخص",
+   "def_": "/ˈdefɪnət, ˈdefənət/ · certain, sure",
+   "level": 7,
+   "exs": [
+    "It is definite that he will take the job."
+   ]
+  },
+  {
+   "id": "awl:deny",
+   "word": "deny",
+   "pos": "v",
+   "fa": "انکار کردن، رد کردن",
+   "def_": "/dɪˈnaɪ/ · refuse, reject",
+   "level": 7,
+   "exs": [
+    "Both firms deny any responsibility for the tragedy.",
+    "He denied breaking the window.",
+    "He denied taking the money."
+   ]
+  },
+  {
+   "id": "awl:differentiate",
+   "word": "differentiate",
+   "pos": "v",
+   "fa": "متمایز کردن، فرق گذاشتن",
+   "def_": "/ˌdɪfəˈrenʃieɪt/ · distinguish, discriminate",
+   "level": 7,
+   "exs": [
+    "It's important to differentiate between fact and opinion."
+   ]
+  },
+  {
+   "id": "awl:disposal",
+   "word": "disposal",
+   "pos": "n",
+   "fa": "دور ریختن، دفع",
+   "def_": "/dɪˈspəʊzəl/ · throwing away",
+   "level": 7,
+   "exs": [
+    "the disposal of radioactive waste."
+   ]
+  },
+  {
+   "id": "awl:dynamic",
+   "word": "dynamic",
+   "pos": "adj",
+   "fa": "پویا",
+   "def_": "/daɪˈnæmɪk/ · continuously moving or changing # static",
+   "level": 7,
+   "exs": [
+    "dynamic and ambitious people."
+   ]
+  },
+  {
+   "id": "awl:eliminate",
+   "word": "eliminate",
+   "pos": "v",
+   "fa": "حذف کردن، از بین بردن",
+   "def_": "/ɪˈlɪməneɪt/ · remove, omit",
+   "level": 7,
+   "exs": [
+    "Fatty foods should be eliminated from the diet.",
+    "We must eliminate errors from the report.",
+    "The team was eliminated in the first round."
+   ]
+  },
+  {
+   "id": "awl:empirical",
+   "word": "empirical",
+   "pos": "adj",
+   "fa": "تجربی",
+   "def_": "/ɪmˈpɪrɪkəl/ · practical, experimental",
+   "level": 7,
+   "exs": [
+    "They provided empirical evidence to support their argument.",
+    "There is little empirical evidence.",
+    "The theory is supported by empirical evidence."
+   ]
+  },
+  {
+   "id": "awl:equipment",
+   "word": "equipment",
+   "pos": "n",
+   "fa": "تجهیزات، وسایل",
+   "def_": "/ɪˈkwɪpmənt/ · tool",
+   "level": 7,
+   "exs": [
+    "a shop selling camping equipment",
+    "The gym has modern equipment.",
+    "We need new camping equipment."
+   ]
+  },
+  {
+   "id": "awl:extract",
+   "word": "extract",
+   "pos": "v",
+   "fa": "استخراج کردن، بیرون کشیدن",
+   "def_": "/ɪkˈstrækt/ · remove, take out",
+   "level": 7,
+   "exs": [
+    "extract oils from plants"
+   ]
+  },
+  {
+   "id": "awl:file",
+   "word": "file",
+   "pos": "n",
+   "fa": "پرونده، فایل",
+   "def_": "/faɪl/ · report, document",
+   "level": 7,
+   "exs": [
+    "She noticed that two employees' files were missing."
+   ]
+  },
+  {
+   "id": "awl:finite",
+   "word": "finite",
+   "pos": "adj",
+   "fa": "محدود، متناهی",
+   "def_": "/ˈfaɪnaɪt/ · limited",
+   "level": 7,
+   "exs": [
+    "the earth's finite supply of natural resources"
+   ]
+  },
+  {
+   "id": "awl:foundation",
+   "word": "foundation",
+   "pos": "n",
+   "fa": "بنیاد؛ پایه، اساس",
+   "def_": "/faʊnˈdeɪʃn/ · organization",
+   "level": 7,
+   "exs": [
+    "They established a foundation to help orphaned children."
+   ]
+  },
+  {
+   "id": "awl:global",
+   "word": "global",
+   "pos": "adj",
+   "fa": "جهانی",
+   "def_": "/ˈɡləʊbl/ · universal, worldwide",
+   "level": 7,
+   "exs": [
+    "There is no obstacle to making our company global.",
+    "Global warming affects every country.",
+    "Climate change is a global problem."
+   ]
+  },
+  {
+   "id": "awl:grade",
+   "word": "grade",
+   "pos": "n",
+   "fa": "درجه، رتبه؛ نمره",
+   "def_": "/ɡreɪd/ · level, rank",
+   "level": 7,
+   "exs": [
+    "You need to improve your grades."
+   ]
+  },
+  {
+   "id": "awl:guarantee",
+   "word": "guarantee",
+   "pos": "n",
+   "fa": "ضمانت، تضمین",
+   "def_": "/ˌɡærənˈtiː/ · assurance",
+   "level": 7,
+   "exs": [
+    "They wanted a guarantee that the document was authentic."
+   ]
+  },
+  {
+   "id": "awl:hierarchy",
+   "word": "hierarchy",
+   "pos": "n",
+   "fa": "سلسله‌مراتب",
+   "def_": "/ˈhaɪərɑːrki/ · ranking, grading",
+   "level": 7,
+   "exs": [
+    "the hierarchical structure of medieval society",
+    "Wolves live in a strict hierarchy.",
+    "There is a strict hierarchy in the army."
+   ]
+  },
+  {
+   "id": "awl:identical",
+   "word": "identical",
+   "pos": "adj",
+   "fa": "یکسان، همانند",
+   "def_": "/aɪˈdentɪkl/ · very similar, equal",
+   "level": 7,
+   "exs": [
+    "The results were identical to those of the first test."
+   ]
+  },
+  {
+   "id": "awl:ideology",
+   "word": "ideology",
+   "pos": "n",
+   "fa": "ایدئولوژی، مسلک",
+   "def_": "/ˌaɪdiˈɑːlədʒi/ · ideas, beliefs",
+   "level": 7,
+   "exs": [
+    "Marxist/socialist/revolutionary ideology"
+   ]
+  },
+  {
+   "id": "awl:infer",
+   "word": "infer",
+   "pos": "v",
+   "fa": "استنباط کردن، نتیجه گرفتن",
+   "def_": "/ɪnˈfɜːr/ · deduce, conclude",
+   "level": 7,
+   "exs": [
+    "From these facts we can infer that crime has been increasing."
+   ]
+  },
+  {
+   "id": "awl:innovative",
+   "word": "innovative",
+   "pos": "adj",
+   "fa": "نوآورانه، خلاق",
+   "def_": "/ˈɪnəveɪtɪv/ · creative",
+   "level": 7,
+   "exs": [
+    "technological innovations designed to save energy",
+    "The company is known for its innovative products.",
+    "She came up with an innovative solution."
+   ]
+  },
+  {
+   "id": "awl:insert",
+   "word": "insert",
+   "pos": "v",
+   "fa": "وارد کردن، داخل کردن",
+   "def_": "/ɪnˈsɜːrt/ · put into, inject",
+   "level": 7,
+   "exs": [
+    "Insert your credit card here."
+   ]
+  },
+  {
+   "id": "awl:intervene",
+   "word": "intervene",
+   "pos": "v",
+   "fa": "مداخله کردن، میانجی‌گری کردن",
+   "def_": "/ˌɪntərˈviːn/ · involve, intercede",
+   "level": 7,
+   "exs": [
+    "We do not need further government intervention.",
+    "The government intervened to stop prices rising.",
+    "The teacher intervened in the fight."
+   ]
+  },
+  {
+   "id": "awl:isolate",
+   "word": "isolate",
+   "pos": "v",
+   "fa": "جدا کردن، منزوی کردن",
+   "def_": "/ˈaɪsəleɪt/ · separate",
+   "level": 7,
+   "exs": [
+    "The camp is located in an isolated area."
+   ]
+  },
+  {
+   "id": "awl:media",
+   "word": "media",
+   "pos": "n",
+   "fa": "رسانه‌ها",
+   "def_": "/ˈmiːdiə/ · press, mass media",
+   "level": 7,
+   "exs": [
+    "The media are covering the speech tonight.",
+    "The media has a strong influence on opinion.",
+    "The media play an important role in society."
+   ]
+  },
+  {
+   "id": "awl:mode",
+   "word": "mode",
+   "pos": "n",
+   "fa": "حالت، شیوه",
+   "def_": "/məʊd/ · way, method",
+   "level": 7,
+   "exs": [
+    "Cars, buses, and trains are popular modes of transportation."
+   ]
+  },
+  {
+   "id": "awl:paradigm",
+   "word": "paradigm",
+   "pos": "n",
+   "fa": "الگو، پارادایم",
+   "def_": "/ˈpærədaɪm/ · example, model, pattern",
+   "level": 7,
+   "exs": [
+    "a new study that challenges the current evolutionary paradigm",
+    "The discovery caused a paradigm shift.",
+    "The old paradigm of education is changing."
+   ]
+  },
+  {
+   "id": "awl:phenomenon",
+   "word": "phenomenon",
+   "pos": "n",
+   "fa": "پدیده",
+   "def_": "/fəˈnɑːmɪnən/ · event, happening",
+   "level": 7,
+   "exs": [
+    "natural phenomena like lightning and earthquakes",
+    "Globalization is a modern phenomenon.",
+    "Northern lights are a natural phenomenon."
+   ]
+  },
+  {
+   "id": "awl:priority",
+   "word": "priority",
+   "pos": "n",
+   "fa": "اولویت",
+   "def_": "/praɪˈɔːrəti/ · greater importance",
+   "level": 7,
+   "exs": [
+    "Education is a top priority.",
+    "Safety is our top priority.",
+    "My family is my top priority."
+   ]
+  },
+  {
+   "id": "awl:prohibit",
+   "word": "prohibit",
+   "pos": "v",
+   "fa": "ممنوع کردن، منع کردن",
+   "def_": "/prəˈhɪbɪt, prəʊˈhɪbɪt/ · ban, forbid",
+   "level": 7,
+   "exs": [
+    "Smoking is prohibited in all areas of the building.",
+    "Smoking is prohibited in public buildings.",
+    "The law prohibits the sale of alcohol to minors."
+   ]
+  },
+  {
+   "id": "awl:publication",
+   "word": "publication",
+   "pos": "n",
+   "fa": "انتشار، نشریه",
+   "def_": "/ˌpʌblɪˈkeɪʃn/ · printing",
+   "level": 7,
+   "exs": [
+    "She became famous after the publication of her first novel."
+   ]
+  },
+  {
+   "id": "awl:quote",
+   "word": "quote",
+   "pos": "n",
+   "fa": "نقل قول؛ نقل قول کردن",
+   "def_": "/kwəʊt/ · reference",
+   "level": 7,
+   "exs": [
+    "a well-known quotation attributed to Hafez"
+   ]
+  },
+  {
+   "id": "awl:release",
+   "word": "release",
+   "pos": "v",
+   "fa": "آزاد کردن، منتشر کردن",
+   "def_": "/rɪˈliːs/ · set free, give up",
+   "level": 7,
+   "exs": [
+    "The hostages have been released.",
+    "Volcanoes release gases into the air.",
+    "The prisoner was released after five years."
+   ]
+  },
+  {
+   "id": "awl:reverse",
+   "word": "reverse",
+   "pos": "adj",
+   "fa": "معکوس، وارونه",
+   "def_": "/rɪˈvɜːrs/ · backwards",
+   "level": 7,
+   "exs": [
+    "Can you say the alphabet in reverse order?"
+   ]
+  },
+  {
+   "id": "awl:simulate",
+   "word": "simulate",
+   "pos": "v",
+   "fa": "شبیه‌سازی کردن، تقلید کردن",
+   "def_": "/ˈsɪmjuleɪt/ · copy, imitate",
+   "level": 7,
+   "exs": [
+    "Pilots training with flight simulation."
+   ]
+  },
+  {
+   "id": "awl:solely",
+   "word": "solely",
+   "pos": "adv",
+   "fa": "فقط، صرفاً",
+   "def_": "/ˈsəʊlli/ · only, merely",
+   "level": 7,
+   "exs": [
+    "You will be held solely responsible for any damage."
+   ]
+  },
+  {
+   "id": "awl:somewhat",
+   "word": "somewhat",
+   "pos": "adv",
+   "fa": "تا حدی، کمی",
+   "def_": "/ˈsʌmwʌt/ · to some extent, slightly",
+   "level": 7,
+   "exs": [
+    "She is somewhat lazy."
+   ]
+  },
+  {
+   "id": "awl:submit",
+   "word": "submit",
+   "pos": "v",
+   "fa": "ارائه دادن، تسلیم کردن؛ تسلیم شدن",
+   "def_": "/səbˈmɪt/ · give in, accept",
+   "level": 7,
+   "exs": [
+    "All countries in the EU must submit to its laws."
+   ]
+  },
+  {
+   "id": "awl:successive",
+   "word": "successive",
+   "pos": "adj",
+   "fa": "پیاپی، متوالی",
+   "def_": "/səkˈsesɪv/ · consecutive, sequential",
+   "level": 7,
+   "exs": [
+    "The team has won three successive championships."
+   ]
+  },
+  {
+   "id": "awl:survive",
+   "word": "survive",
+   "pos": "v",
+   "fa": "زنده ماندن، جان سالم به در بردن",
+   "def_": "/sərˈvaɪv/ · remain alive, outlive",
+   "level": 7,
+   "exs": [
+    "Just eight passengers survived the plane crash.",
+    "Camels can survive without water for days.",
+    "Only three people survived the crash."
+   ]
+  },
+  {
+   "id": "awl:thesis",
+   "word": "thesis",
+   "pos": "n",
+   "fa": "پایان‌نامه؛ نظریه، تز",
+   "def_": "/ˈθiːsɪs/ · theory, assumption",
+   "level": 7,
+   "exs": [
+    "Research confirms her thesis that not all women enjoy shopping.",
+    "She wrote her thesis on Persian poetry.",
+    "The main thesis of the book is simple."
+   ]
+  },
+  {
+   "id": "awl:topic",
+   "word": "topic",
+   "pos": "n",
+   "fa": "موضوع",
+   "def_": "/ˈtɑːpɪk/ · subject, issue",
+   "level": 7,
+   "exs": [
+    "She tried to think of another topic of conversation."
+   ]
+  },
+  {
+   "id": "awl:transmit",
+   "word": "transmit",
+   "pos": "v",
+   "fa": "انتقال دادن، فرستادن",
+   "def_": "/trænzˈmɪt/ · carry, transfer, pass",
+   "level": 7,
+   "exs": [
+    "The equipment is used for the transmission of television signals."
+   ]
+  },
+  {
+   "id": "awl:ultimately",
+   "word": "ultimately",
+   "pos": "adv",
+   "fa": "سرانجام، در نهایت",
+   "def_": "/ˈʌltɪmətli/ · in the end",
+   "level": 7,
+   "exs": [
+    "Ultimately, he has only himself to blame.",
+    "Ultimately, the decision is yours.",
+    "The plan ultimately failed."
+   ]
+  },
+  {
+   "id": "awl:unique",
+   "word": "unique",
+   "pos": "adj",
+   "fa": "منحصربه‌فرد، بی‌نظیر",
+   "def_": "/juˈniːk/ · be the only one of its kind",
+   "level": 7,
+   "exs": [
+    "Each person's DNA is unique.",
+    "Every person's fingerprints are unique.",
+    "The island has a unique ecosystem."
+   ]
+  },
+  {
+   "id": "awl:visible",
+   "word": "visible",
+   "pos": "adj",
+   "fa": "قابل مشاهده، مرئی",
+   "def_": "/ˈvɪzəbl/ · viewable, obvious",
+   "level": 7,
+   "exs": [
+    "The house is visible from the road."
+   ]
+  },
+  {
+   "id": "awl:voluntary",
+   "word": "voluntary",
+   "pos": "adj",
+   "fa": "داوطلبانه",
+   "def_": "/ˈvɑːlənteri/ · of your own free will",
+   "level": 7,
+   "exs": [
+    "She made a voluntary decision to go back to school."
+   ]
+  },
+  {
+   "id": "awl:abandon",
+   "word": "abandon",
+   "pos": "v",
+   "fa": "رها کردن، ترک کردن",
+   "def_": "/əˈbændən/ · quit, leave, give up",
+   "level": 8,
+   "exs": [
+    "How could she abandon her own child?",
+    "They abandoned the old car in the desert.",
+    "They had to abandon their car in the snow."
+   ]
+  },
+  {
+   "id": "awl:accompany",
+   "word": "accompany",
+   "pos": "v",
+   "fa": "همراهی کردن",
+   "def_": "/əˈkʌmpəni/ · go with sb, escort",
+   "level": 8,
+   "exs": [
+    "Children under 14 must be accompanied by an adult."
+   ]
+  },
+  {
+   "id": "awl:accumulation",
+   "word": "accumulation",
+   "pos": "n",
+   "fa": "انباشت، جمع‌آوری",
+   "def_": "/əˌkjuːmjəˈleɪʃn/ · collection, mass",
+   "level": 8,
+   "exs": [
+    "the accumulation of paperwork on her desk"
+   ]
+  },
+  {
+   "id": "awl:ambiguous",
+   "word": "ambiguous",
+   "pos": "adj",
+   "fa": "مبهم، دوپهلو",
+   "def_": "/æmˈbɪɡjuəs/ · unclear, obscure",
+   "level": 8,
+   "exs": [
+    "Their position in society remains ambiguous.",
+    "The question was ambiguous.",
+    "The instructions were ambiguous."
+   ]
+  },
+  {
+   "id": "awl:appendix",
+   "word": "appendix",
+   "pos": "n",
+   "fa": "پیوست، ضمیمه",
+   "def_": "/əˈpendɪks/ · supplement, addition",
+   "level": 8,
+   "exs": [
+    "Technical specifications are included in the appendix to Chapter 9."
+   ]
+  },
+  {
+   "id": "awl:appreciation",
+   "word": "appreciation",
+   "pos": "n",
+   "fa": "قدردانی؛ درک؛ لذت بردن",
+   "def_": "/əˌpriːʃiˈeɪʃn/ · pleasure, gratitude",
+   "level": 8,
+   "exs": [
+    "It helps children to develop an appreciation of literature."
+   ]
+  },
+  {
+   "id": "awl:arbitrary",
+   "word": "arbitrary",
+   "pos": "adj",
+   "fa": "دلبخواهی، اختیاری، بی‌قاعده",
+   "def_": "/ˈɑːrbɪtreri/ · random, casual",
+   "level": 8,
+   "exs": [
+    "He makes unpredictable, arbitrary decisions.",
+    "The rules seemed arbitrary.",
+    "The rules seem completely arbitrary."
+   ]
+  },
+  {
+   "id": "awl:automatically",
+   "word": "automatically",
+   "pos": "adv",
+   "fa": "به‌طور خودکار",
+   "def_": "/ˌɒːtəˈmætɪkli/ · done without thinking about it",
+   "level": 8,
+   "exs": [
+    "I just automatically said 'Yes'."
+   ]
+  },
+  {
+   "id": "awl:bias",
+   "word": "bias",
+   "pos": "n",
+   "fa": "سوگیری، تعصب، جانبداری",
+   "def_": "/ˈbaɪəs/ · n., v. · prejudice, tendency",
+   "level": 8,
+   "exs": [
+    "political/gender/racial bias",
+    "The report shows clear bias.",
+    "The judge must not show any bias."
+   ]
+  },
+  {
+   "id": "awl:chart",
+   "word": "chart",
+   "pos": "n",
+   "fa": "نمودار",
+   "def_": "/tʃɑːrt/ · a visual display of information",
+   "level": 8,
+   "exs": [
+    "a sales chart, bar/flow/pie chart"
+   ]
+  },
+  {
+   "id": "awl:clarity",
+   "word": "clarity",
+   "pos": "n",
+   "fa": "وضوح، روشنی",
+   "def_": "/ˈklærəti/ · clearness",
+   "level": 8,
+   "exs": [
+    "The clarity of the teacher's lessons makes learning easy."
+   ]
+  },
+  {
+   "id": "awl:conform",
+   "word": "conform",
+   "pos": "v",
+   "fa": "مطابقت کردن، پیروی کردن",
+   "def_": "/kənˈfɔːrm/ · v., n. · comply; adjust",
+   "level": 8,
+   "exs": [
+    "The building does not conform with safety regulations."
+   ]
+  },
+  {
+   "id": "awl:commodity",
+   "word": "commodity",
+   "pos": "n",
+   "fa": "کالا",
+   "def_": "/kəˈmɑːdəti/ · goods, product",
+   "level": 8,
+   "exs": [
+    "Time is a precious commodity.",
+    "Water is becoming a valuable commodity.",
+    "Oil is a valuable commodity."
+   ]
+  },
+  {
+   "id": "awl:complement",
+   "word": "complement",
+   "pos": "v",
+   "fa": "مکمل؛ تکمیل کردن",
+   "def_": "/ˈkɑːmplɪment/ · v., adj. · complete, accompany",
+   "level": 8,
+   "exs": [
+    "Fruit would be a good complement for this meal."
+   ]
+  },
+  {
+   "id": "awl:contemporary",
+   "word": "contemporary",
+   "pos": "adj",
+   "fa": "معاصر، هم‌دوره",
+   "def_": "/kənˈtempəreri/ · belonging to the same time",
+   "level": 8,
+   "exs": [
+    "He doesn't like contemporary art.",
+    "He was a contemporary of Shakespeare.",
+    "She is a famous contemporary artist."
+   ]
+  },
+  {
+   "id": "awl:contradiction",
+   "word": "contradiction",
+   "pos": "n",
+   "fa": "تناقض",
+   "def_": "/ˌkɑːntrəˈdɪkʃn/ · opposition, disagreement",
+   "level": 8,
+   "exs": [
+    "a contradiction between the gov's ideas and its actual policy"
+   ]
+  },
+  {
+   "id": "awl:crucial",
+   "word": "crucial",
+   "pos": "adj",
+   "fa": "بسیار مهم، حیاتی",
+   "def_": "/ˈkruːʃl/ · vital, critical",
+   "level": 8,
+   "exs": [
+    "Parents play a crucial role in preparing their child for school.",
+    "Sleep is crucial for good health.",
+    "This is a crucial moment in the game."
+   ]
+  },
+  {
+   "id": "awl:currency",
+   "word": "currency",
+   "pos": "n",
+   "fa": "ارز، پول رایج",
+   "def_": "/ˈkɜːrənsi/ · cash, money",
+   "level": 8,
+   "exs": [
+    "the buying and selling of foreign currency"
+   ]
+  },
+  {
+   "id": "awl:denote",
+   "word": "denote",
+   "pos": "v",
+   "fa": "دلالت داشتن بر، نشان دادن",
+   "def_": "/dɪˈnəʊt/ · mean, indicate, represent",
+   "level": 8,
+   "exs": [
+    "This mark denotes purity and quality."
+   ]
+  },
+  {
+   "id": "awl:detect",
+   "word": "detect",
+   "pos": "v",
+   "fa": "کشف کردن، تشخیص دادن",
+   "def_": "/dɪˈtekt/ · discover, solve",
+   "level": 8,
+   "exs": [
+    "the public can help the police to detect crime"
+   ]
+  },
+  {
+   "id": "awl:deviate",
+   "word": "deviate",
+   "pos": "v",
+   "fa": "منحرف شدن",
+   "def_": "/ˈdiːvieɪt/ · diverge, stray",
+   "level": 8,
+   "exs": [
+    "deviate from the normal procedure"
+   ]
+  },
+  {
+   "id": "awl:displace",
+   "word": "displace",
+   "pos": "v",
+   "fa": "جابه‌جا کردن، آواره کردن",
+   "def_": "/dɪsˈpleɪs/ · replace, shift",
+   "level": 8,
+   "exs": [
+    "The building of a new dam will displace a lot of people.",
+    "The flood displaced thousands.",
+    "The war displaced thousands of families."
+   ]
+  },
+  {
+   "id": "awl:dramatic",
+   "word": "dramatic",
+   "pos": "adj",
+   "fa": "چشمگیر، ناگهانی؛ نمایشی",
+   "def_": "/drəˈmætɪk/ · great and sudden, noticeable",
+   "level": 8,
+   "exs": [
+    "The change in him was dramatic."
+   ]
+  },
+  {
+   "id": "awl:eventually",
+   "word": "eventually",
+   "pos": "adv",
+   "fa": "سرانجام، در نهایت",
+   "def_": "/ɪˈventʃuəli/ · finally",
+   "level": 8,
+   "exs": [
+    "Did they ever pay you?' 'Eventually, yes.'",
+    "He eventually found a job.",
+    "After many attempts, he eventually passed the exam."
+   ]
+  },
+  {
+   "id": "awl:exhibit",
+   "word": "exhibit",
+   "pos": "v",
+   "fa": "نمایش دادن، به نمایش گذاشتن",
+   "def_": "/ɪɡˈzɪbɪt/ · show",
+   "level": 8,
+   "exs": [
+    "They will be exhibiting a collection of paintings."
+   ]
+  },
+  {
+   "id": "awl:exploit",
+   "word": "exploit",
+   "pos": "v",
+   "fa": "بهره‌برداری کردن؛ استثمار کردن",
+   "def_": "/ɪkˈsplɔɪt/ · take advantage of, abuse",
+   "level": 8,
+   "exs": [
+    "the exploitation of migrant workers",
+    "Some firms exploit cheap labor.",
+    "Some companies exploit their workers."
+   ]
+  },
+  {
+   "id": "awl:fluctuate",
+   "word": "fluctuate",
+   "pos": "v",
+   "fa": "نوسان داشتن",
+   "def_": "/ˈflʌktʃueɪt/ · vary, differ",
+   "level": 8,
+   "exs": [
+    "The price of gold continually fluctuates.",
+    "Oil prices fluctuated throughout the year.",
+    "Prices fluctuated wildly during the year."
+   ]
+  },
+  {
+   "id": "awl:guideline",
+   "word": "guideline",
+   "pos": "n",
+   "fa": "رهنمود، دستورالعمل",
+   "def_": "/ˈɡaɪdlaɪn/ · instruction, direction",
+   "level": 8,
+   "exs": [
+    "This chapter gives you some guidlines to help you."
+   ]
+  },
+  {
+   "id": "awl:highlight",
+   "word": "highlight",
+   "pos": "v",
+   "fa": "برجسته کردن، تأکید کردن",
+   "def_": "/ˈhaɪlaɪt/ · emphasize, underline",
+   "level": 8,
+   "exs": [
+    "The teacher highlighted the spelling errors by circling each one."
+   ]
+  },
+  {
+   "id": "awl:implicit",
+   "word": "implicit",
+   "pos": "adj",
+   "fa": "ضمنی، تلویحی",
+   "def_": "/ɪmˈplɪsɪt/ · indirect, hidden",
+   "level": 8,
+   "exs": [
+    "Her words contained an implicit threat.",
+    "There was an implicit criticism in his words.",
+    "The rules are implicit rather than written."
+   ]
+  },
+  {
+   "id": "awl:induce",
+   "word": "induce",
+   "pos": "v",
+   "fa": "وادار کردن، القا کردن",
+   "def_": "/ɪnˈduːs/ · persuade, convince",
+   "level": 8,
+   "exs": [
+    "None of these measures induced a change of policy.",
+    "Some drugs induce sleep.",
+    "Stress can induce headaches."
+   ]
+  },
+  {
+   "id": "awl:inevitably",
+   "word": "inevitably",
+   "pos": "adv",
+   "fa": "ناگزیر، به‌طور اجتناب‌ناپذیر",
+   "def_": "/ɪnˈevɪtəbli/ · certainly, surely",
+   "level": 8,
+   "exs": [
+    "War inevitably has casualties."
+   ]
+  },
+  {
+   "id": "awl:infrastructure",
+   "word": "infrastructure",
+   "pos": "n",
+   "fa": "زیرساخت",
+   "def_": "/ˈɪnfrəstrʌktʃər/ · basis, foundation",
+   "level": 8,
+   "exs": [
+    "Some countries lack a suitable economic infrastructure.",
+    "The country needs better infrastructure.",
+    "The country needs to invest in its infrastructure."
+   ]
+  },
+  {
+   "id": "awl:inspect",
+   "word": "inspect",
+   "pos": "v",
+   "fa": "بازرسی کردن",
+   "def_": "/ɪnˈspekt/ · examine, investigate",
+   "level": 8,
+   "exs": [
+    "Please have your tickets ready for inspection."
+   ]
+  },
+  {
+   "id": "awl:intensity",
+   "word": "intensity",
+   "pos": "n",
+   "fa": "شدت",
+   "def_": "/ɪnˈtensəti/ · power, force",
+   "level": 8,
+   "exs": [
+    "The intensity of the hurricane was frightening."
+   ]
+  },
+  {
+   "id": "awl:manipulate",
+   "word": "manipulate",
+   "pos": "v",
+   "fa": "دستکاری کردن؛ اداره کردن",
+   "def_": "/məˈnɪpjuleɪt/ · handle, exploit",
+   "level": 8,
+   "exs": [
+    "She knows how to manipulate her parents to get what she wants."
+   ]
+  },
+  {
+   "id": "awl:minimize",
+   "word": "minimize",
+   "pos": "v",
+   "fa": "به حداقل رساندن",
+   "def_": "/ˈmɪnɪmaɪz/ · reduced to the smallest size",
+   "level": 8,
+   "exs": [
+    "The aim is to minimize costs."
+   ]
+  },
+  {
+   "id": "awl:nuclear",
+   "word": "nuclear",
+   "pos": "adj",
+   "fa": "هسته‌ای",
+   "def_": "/ˈnuːkliər/ · atomic",
+   "level": 8,
+   "exs": [
+    "the threat of nuclear attack"
+   ]
+  },
+  {
+   "id": "awl:offset",
+   "word": "offset",
+   "pos": "v",
+   "fa": "جبران کردن، خنثی کردن",
+   "def_": "/ˈɒfset/ · balance, compensate for",
+   "level": 8,
+   "exs": [
+    "Higher prices were offset by better quality."
+   ]
+  },
+  {
+   "id": "awl:paragraph",
+   "word": "paragraph",
+   "pos": "n",
+   "fa": "بند، پاراگراف",
+   "def_": "/ˈpærəɡræf/ · a section of a piece of writing",
+   "level": 8,
+   "exs": [
+    "Please refer to paragraph 4 for the appropriate info."
+   ]
+  },
+  {
+   "id": "awl:plus",
+   "word": "plus",
+   "pos": "prep",
+   "fa": "به‌علاوه، بعلاوه",
+   "def_": "/plʌs/ · add to",
+   "level": 8,
+   "exs": [
+    "Two plus five is sevsn."
+   ]
+  },
+  {
+   "id": "awl:practitioner",
+   "word": "practitioner",
+   "pos": "n",
+   "fa": "متخصص شاغل (پزشک یا وکیل)",
+   "def_": "/prækˈtɪʃənər/ · sb who works as a doctor or lawyer",
+   "level": 8,
+   "exs": [
+    "Patients are treated by skilled practitioners."
+   ]
+  },
+  {
+   "id": "awl:predominantly",
+   "word": "predominantly",
+   "pos": "adv",
+   "fa": "عمدتاً، بیشتر",
+   "def_": "/prɪˈdɑːmɪnəntli/ · mostly",
+   "level": 8,
+   "exs": [
+    "The people in that neighborhood are predominantly older.",
+    "The area is predominantly residential.",
+    "The town's population is predominantly young."
+   ]
+  },
+  {
+   "id": "awl:prospect",
+   "word": "prospect",
+   "pos": "n",
+   "fa": "چشم‌انداز، احتمال",
+   "def_": "/ˈprɑːspekt/ · view, future",
+   "level": 8,
+   "exs": [
+    "the frightening prospect of going to war",
+    "Graduates face poor job prospects.",
+    "There is little prospect of finding a job here."
+   ]
+  },
+  {
+   "id": "awl:radical",
+   "word": "radical",
+   "pos": "adj",
+   "fa": "بنیادی، ریشه‌ای؛ افراطی",
+   "def_": "/ˈrædɪkl/ · extreme; fundamental, thorough",
+   "level": 8,
+   "exs": [
+    "The government introduced radical changes to the education system."
+   ]
+  },
+  {
+   "id": "awl:random",
+   "word": "random",
+   "pos": "adj",
+   "fa": "تصادفی",
+   "def_": "/ˈrændəm/ · by chance",
+   "level": 8,
+   "exs": [
+    "The computer will generate apparently random numbers."
+   ]
+  },
+  {
+   "id": "awl:reinforce",
+   "word": "reinforce",
+   "pos": "v",
+   "fa": "تقویت کردن",
+   "def_": "/ˌriːɪnˈfɔːrs/ · strengthen",
+   "level": 8,
+   "exs": [
+    "You should reinforce your argument by giving more facts.",
+    "The walls were reinforced with steel.",
+    "The results reinforce the idea that exercise helps memory."
+   ]
+  },
+  {
+   "id": "awl:restore",
+   "word": "restore",
+   "pos": "v",
+   "fa": "بازگرداندن، مرمت کردن",
+   "def_": "/rɪˈstɔːr/ · bring back, fix",
+   "level": 8,
+   "exs": [
+    "The queen's wise rule restored peace in the land.",
+    "They restored the old palace.",
+    "The old palace has been restored."
+   ]
+  },
+  {
+   "id": "awl:revise",
+   "word": "revise",
+   "pos": "v",
+   "fa": "بازبینی کردن، اصلاح کردن",
+   "def_": "/rɪˈvaɪz/ · review, reassess",
+   "level": 8,
+   "exs": [
+    "The article, of course, is subject to revision by the editors."
+   ]
+  },
+  {
+   "id": "awl:schedule",
+   "word": "schedule",
+   "pos": "n",
+   "fa": "برنامه، جدول زمانی",
+   "def_": "/ˈskedʒuːl/ · scheme, timetable",
+   "level": 8,
+   "exs": [
+    "I have a hectic schedule for the next few days."
+   ]
+  },
+  {
+   "id": "awl:tension",
+   "word": "tension",
+   "pos": "n",
+   "fa": "تنش، فشار عصبی",
+   "def_": "/ˈtenʃn/ · nervous feeling",
+   "level": 8,
+   "exs": [
+    "Exercise is the ideal way to relieve tension after a hard day."
+   ]
+  },
+  {
+   "id": "awl:terminate",
+   "word": "terminate",
+   "pos": "v",
+   "fa": "خاتمه دادن، پایان دادن",
+   "def_": "/ˈtɜːrmɪneɪt/ · end, complete",
+   "level": 8,
+   "exs": [
+    "You may face a reduction or terminate of benefits."
+   ]
+  },
+  {
+   "id": "awl:theme",
+   "word": "theme",
+   "pos": "n",
+   "fa": "مضمون، موضوع اصلی",
+   "def_": "/θiːm/ · main idea",
+   "level": 8,
+   "exs": [
+    "The book's theme is the conflict between love and duty."
+   ]
+  },
+  {
+   "id": "awl:thereby",
+   "word": "thereby",
+   "pos": "adv",
+   "fa": "بدین وسیله، در نتیجه",
+   "def_": "/ˌðerˈbaɪ/ · in consequence of",
+   "level": 8,
+   "exs": [
+    "She studied hard, thereby making sure she was ready for the test.",
+    "He stopped smoking, thereby improving his health.",
+    "Trees absorb carbon, thereby reducing pollution."
+   ]
+  },
+  {
+   "id": "awl:uniform",
+   "word": "uniform",
+   "pos": "n",
+   "fa": "یونیفرم؛ یکنواخت",
+   "def_": "/ˈjuːnɪfɔːrm/ · special clothes worn by a group; the same everywhere",
+   "level": 8,
+   "exs": [
+    "He was on duty and in uniform."
+   ]
+  },
+  {
+   "id": "awl:vehicle",
+   "word": "vehicle",
+   "pos": "n",
+   "fa": "وسیله نقلیه، خودرو",
+   "def_": "/ˈviːəkl/ · motor vehicle, car",
+   "level": 8,
+   "exs": [
+    "A truck driver died last night when his vehicle overturned."
+   ]
+  },
+  {
+   "id": "awl:via",
+   "word": "via",
+   "pos": "prep",
+   "fa": "از طریق، به واسطهٔ",
+   "def_": "/ˈvaɪə, ˈviːə/ · by way of",
+   "level": 8,
+   "exs": [
+    "They came to Europe via Turkey."
+   ]
+  },
+  {
+   "id": "awl:virtually",
+   "word": "virtually",
+   "pos": "adv",
+   "fa": "عملاً، تقریباً",
+   "def_": "/ˈvɜːrtʃuəli/ · practically",
+   "level": 8,
+   "exs": [
+    "We spent virtually all day shopping."
+   ]
+  },
+  {
+   "id": "awl:widespread",
+   "word": "widespread",
+   "pos": "adj",
+   "fa": "گسترده، فراگیر",
+   "def_": "/ˈwaɪdspred/ · common, routine",
+   "level": 8,
+   "exs": [
+    "She enjoyed widespread fame after her new film came out.",
+    "There is widespread support for the plan.",
+    "There is widespread concern about the economy."
+   ]
+  },
+  {
+   "id": "awl:visual",
+   "word": "visual",
+   "pos": "adj",
+   "fa": "بصری، دیداری",
+   "def_": "/ˈvɪʒuəl/ · related to sight",
+   "level": 8,
+   "exs": [
+    "Maps are a visual tool for learning."
+   ]
+  },
+  {
+   "id": "awl:accommodation",
+   "word": "accommodation",
+   "pos": "n",
+   "fa": "محل اقامت",
+   "def_": "/əˌkɑːməˈdeɪʃn/ · shelter",
+   "level": 9,
+   "exs": [
+    "The price includes flights & accommodation."
+   ]
+  },
+  {
+   "id": "awl:analogous",
+   "word": "analogous",
+   "pos": "adj",
+   "fa": "مشابه، قابل قیاس",
+   "def_": "/əˈnæləɡəs/ · similar, alike",
+   "level": 9,
+   "exs": [
+    "The report's findings are analogous with our own."
+   ]
+  },
+  {
+   "id": "awl:anticipate",
+   "word": "anticipate",
+   "pos": "v",
+   "fa": "پیش‌بینی کردن، انتظار داشتن",
+   "def_": "/ænˈtɪsɪpeɪt/ · expect, predict",
+   "level": 9,
+   "exs": [
+    "Are you anticipating a lot of people at the party tonight?",
+    "We anticipate a busy summer.",
+    "We don't anticipate any problems with the new system."
+   ]
+  },
+  {
+   "id": "awl:assurance",
+   "word": "assurance",
+   "pos": "n",
+   "fa": "اطمینان، تضمین",
+   "def_": "/əˈʃʊrəns/ · confidence, promise",
+   "level": 9,
+   "exs": [
+    "He spoke with quiet assurance about his future plans."
+   ]
+  },
+  {
+   "id": "awl:attain",
+   "word": "attain",
+   "pos": "v",
+   "fa": "دست یافتن، رسیدن به",
+   "def_": "/əˈteɪn/ · succeed in doing sth, accomplish",
+   "level": 9,
+   "exs": [
+    "He has attained the highest grade in his music exams.",
+    "Few students attain a perfect score.",
+    "She attained the highest score in the class."
+   ]
+  },
+  {
+   "id": "awl:behalf",
+   "word": "behalf",
+   "pos": "n",
+   "fa": "از طرف، به نمایندگی از",
+   "def_": "/bɪˈhæf/ · as a representative",
+   "level": 9,
+   "exs": [
+    "She asked the doctor to speak to her parents on her behalf."
+   ]
+  },
+  {
+   "id": "awl:bulk",
+   "word": "bulk",
+   "pos": "n",
+   "fa": "حجم، بخش عمده",
+   "def_": "/bʌlk/ · the main part",
+   "level": 9,
+   "exs": [
+    "We spent the bulk of the summer at the beach."
+   ]
+  },
+  {
+   "id": "awl:cease",
+   "word": "cease",
+   "pos": "v",
+   "fa": "متوقف کردن، دست کشیدن",
+   "def_": "/siːs/ · stop",
+   "level": 9,
+   "exs": [
+    "The factory ceased operations last year."
+   ]
+  },
+  {
+   "id": "awl:coherence",
+   "word": "coherence",
+   "pos": "n",
+   "fa": "انسجام، پیوستگی",
+   "def_": "/kəʊˈhɪrəns/ · consistency",
+   "level": 9,
+   "exs": [
+    "There was no coherence between the 1st and the 2nd half of the film."
+   ]
+  },
+  {
+   "id": "awl:coincide",
+   "word": "coincide",
+   "pos": "v",
+   "fa": "همزمان شدن، مصادف شدن",
+   "def_": "/ˌkəʊɪnˈsaɪd/ · happen at the same time",
+   "level": 9,
+   "exs": [
+    "The goals of the business partners coincide.",
+    "The festival coincides with the harvest.",
+    "My birthday coincides with the holiday this year."
+   ]
+  },
+  {
+   "id": "awl:commence",
+   "word": "commence",
+   "pos": "v",
+   "fa": "آغاز کردن، شروع شدن",
+   "def_": "/kəˈmens/ · start",
+   "level": 9,
+   "exs": [
+    "Shall we let the meeting commence, gentlemen?"
+   ]
+  },
+  {
+   "id": "awl:incompatible",
+   "word": "incompatible",
+   "pos": "adj",
+   "fa": "ناسازگار",
+   "def_": "/ˌɪnkəmˈpætəbl/ · mismatched, opposite",
+   "level": 9,
+   "exs": [
+    "I don't know why they ever got married. They're totally incompatible."
+   ]
+  },
+  {
+   "id": "awl:concurrent",
+   "word": "concurrent",
+   "pos": "adj",
+   "fa": "همزمان",
+   "def_": "/kənˈkɜːrənt/ · occurring at the same time",
+   "level": 9,
+   "exs": [
+    "The exhibition reflected concurrent developments abroad."
+   ]
+  },
+  {
+   "id": "awl:confine",
+   "word": "confine",
+   "pos": "v",
+   "fa": "محدود کردن، محصور کردن",
+   "def_": "/kənˈfaɪn/ · restrict",
+   "level": 9,
+   "exs": [
+    "It wasn't easy to sleep in such a confined space."
+   ]
+  },
+  {
+   "id": "awl:controversy",
+   "word": "controversy",
+   "pos": "n",
+   "fa": "جدل، مناقشه",
+   "def_": "/ˈkɑːntrəvɜːrsi/ · dispute, debate",
+   "level": 9,
+   "exs": [
+    "The judges' decision provoked controversy.",
+    "The decision caused controversy.",
+    "There is controversy over the use of animals in research."
+   ]
+  },
+  {
+   "id": "awl:conversely",
+   "word": "conversely",
+   "pos": "adv",
+   "fa": "برعکس، در مقابل",
+   "def_": "/ˈkɑːnvɜːrsli/ · contrary, vice versa",
+   "level": 9,
+   "exs": [
+    "We prefer white eggs; conversely, British buyers like brown eggs.",
+    "Conversely, rural areas saw a decline.",
+    "Some people love city life; conversely, others prefer the countryside."
+   ]
+  },
+  {
+   "id": "awl:device",
+   "word": "device",
+   "pos": "n",
+   "fa": "دستگاه، وسیله",
+   "def_": "/dɪˈvaɪs/ · tool",
+   "level": 9,
+   "exs": [
+    "a device for separating metal from garbage."
+   ]
+  },
+  {
+   "id": "awl:devoted",
+   "word": "devoted",
+   "pos": "adj",
+   "fa": "فداکار، وفادار، مخلص",
+   "def_": "/dɪˈvəʊtɪd/ · committed, faithful, loyal",
+   "level": 9,
+   "exs": [
+    "Lucy is devoted to her cats."
+   ]
+  },
+  {
+   "id": "awl:diminish",
+   "word": "diminish",
+   "pos": "v",
+   "fa": "کاهش یافتن، کم کردن",
+   "def_": "/dɪˈmɪnɪʃ/ · reduce, decline",
+   "level": 9,
+   "exs": [
+    "a diminished role for local government",
+    "The pain diminished after an hour.",
+    "The pain gradually diminished."
+   ]
+  },
+  {
+   "id": "awl:distort",
+   "word": "distort",
+   "pos": "v",
+   "fa": "تحریف کردن",
+   "def_": "/dɪˈstɔːrt/ · deform, misrepresent",
+   "level": 9,
+   "exs": [
+    "The virus causes distortion of the leaves."
+   ]
+  },
+  {
+   "id": "awl:duration",
+   "word": "duration",
+   "pos": "n",
+   "fa": "مدت، طول زمان",
+   "def_": "/duˈreɪʃn/ · length of time",
+   "level": 9,
+   "exs": [
+    "The course is of three years' duration."
+   ]
+  },
+  {
+   "id": "awl:erode",
+   "word": "erode",
+   "pos": "v",
+   "fa": "فرسایش یافتن، فرسودن",
+   "def_": "/ɪˈrəʊd/ · wear away, rot",
+   "level": 9,
+   "exs": [
+    "the gradual erosion of our civil liberties",
+    "Waves eroded the cliffs.",
+    "Wind and rain have eroded the cliffs."
+   ]
+  },
+  {
+   "id": "awl:ethical",
+   "word": "ethical",
+   "pos": "adj",
+   "fa": "اخلاقی",
+   "def_": "/ˈeθɪkl/ · moral, proper",
+   "level": 9,
+   "exs": [
+    "Some doctors feel that this procedure is not medically ethical.",
+    "Animal testing raises ethical questions.",
+    "The company follows strict ethical standards."
+   ]
+  },
+  {
+   "id": "awl:format",
+   "word": "format",
+   "pos": "n",
+   "fa": "قالب، فرمت",
+   "def_": "/ˈfɔːrmæt/ · design, form",
+   "level": 9,
+   "exs": [
+    "The courses were run to a consistent format."
+   ]
+  },
+  {
+   "id": "awl:found",
+   "word": "found",
+   "pos": "v",
+   "fa": "بنیان نهادن، تأسیس کردن",
+   "def_": "/faʊnd/ · establish, build",
+   "level": 9,
+   "exs": [
+    "The castle is established on solid rock.",
+    "The university was founded in 1934.",
+    "The city was founded by traders."
+   ]
+  },
+  {
+   "id": "awl:inherent",
+   "word": "inherent",
+   "pos": "adj",
+   "fa": "ذاتی، درونی",
+   "def_": "/ɪnˈherənt/ · intrinsic, innate",
+   "level": 9,
+   "exs": [
+    "Every business has its own inherent risks.",
+    "There are risks inherent in any business.",
+    "There are risks inherent in every investment."
+   ]
+  },
+  {
+   "id": "awl:insight",
+   "word": "insight",
+   "pos": "n",
+   "fa": "بینش، بصیرت",
+   "def_": "/ˈɪnsaɪt/ · awareness, perception",
+   "level": 9,
+   "exs": [
+    "There are many valuable insights in her book.",
+    "The study gives new insight into animal behavior.",
+    "Her book offers valuable insights into Persian culture."
+   ]
+  },
+  {
+   "id": "awl:integral",
+   "word": "integral",
+   "pos": "adj",
+   "fa": "جدایی‌ناپذیر، ضروری",
+   "def_": "/ˈɪntɪɡrəl, ɪnˈteɡrəl/ · vital, essential",
+   "level": 9,
+   "exs": [
+    "Games are an integral part of the school's curriculum.",
+    "Sport is an integral part of school life.",
+    "Exercise is an integral part of a healthy lifestyle."
+   ]
+  },
+  {
+   "id": "awl:intermediate",
+   "word": "intermediate",
+   "pos": "adj",
+   "fa": "متوسط، میانی",
+   "def_": "/ˌɪntərˈmiːdiət/ · middle, midway",
+   "level": 9,
+   "exs": [
+    "intermediate learners of English"
+   ]
+  },
+  {
+   "id": "awl:manual",
+   "word": "manual",
+   "pos": "adj",
+   "fa": "دستی؛ دفترچه راهنما",
+   "def_": "/ˈmænjuəl/ · by hand, guidebook",
+   "level": 9,
+   "exs": [
+    "In the past, people used only manual skills to make clothing."
+   ]
+  },
+  {
+   "id": "awl:mature",
+   "word": "mature",
+   "pos": "adj",
+   "fa": "بالغ، پخته",
+   "def_": "/məˈtʃʊr/ · grown-up, adult",
+   "level": 9,
+   "exs": [
+    "Laura is very mature for her age."
+   ]
+  },
+  {
+   "id": "awl:mediation",
+   "word": "mediation",
+   "pos": "n",
+   "fa": "میانجیگری، وساطت",
+   "def_": "/ˌmiːdiˈeɪʃən/ · negotiation",
+   "level": 9,
+   "exs": [
+    "The parties have sought mediation and it has failed."
+   ]
+  },
+  {
+   "id": "awl:medium",
+   "word": "medium",
+   "pos": "n",
+   "fa": "رسانه، وسیله، واسطه",
+   "def_": "/ˈmiːdiəm/ · means, method",
+   "level": 9,
+   "exs": [
+    "using the latest technology as a medium for job creation"
+   ]
+  },
+  {
+   "id": "awl:military",
+   "word": "military",
+   "pos": "adj",
+   "fa": "نظامی",
+   "def_": "/ˈmɪləteri/ · related to the army",
+   "level": 9,
+   "exs": [
+    "We may have to take military action."
+   ]
+  },
+  {
+   "id": "awl:minimal",
+   "word": "minimal",
+   "pos": "adj",
+   "fa": "حداقل، بسیار کم",
+   "def_": "/ˈmɪnɪml/ · least",
+   "level": 9,
+   "exs": [
+    "This is a practical course, with only a minimal amount of theory."
+   ]
+  },
+  {
+   "id": "awl:mutual",
+   "word": "mutual",
+   "pos": "adj",
+   "fa": "متقابل، دوجانبه",
+   "def_": "/ˈmjuːtʃuəl/ · interactive, joint",
+   "level": 9,
+   "exs": [
+    "We were introduced by a mutual friend."
+   ]
+  },
+  {
+   "id": "awl:norm",
+   "word": "norm",
+   "pos": "n",
+   "fa": "هنجار، معیار",
+   "def_": "/nɔːrm/ · rule, standard",
+   "level": 9,
+   "exs": [
+    "Short term contracts are now the norm with big companies."
+   ]
+  },
+  {
+   "id": "awl:overlap",
+   "word": "overlap",
+   "pos": "v",
+   "fa": "همپوشانی داشتن",
+   "def_": "/ˌoʊvərˈlæp/ · cover, overlie",
+   "level": 9,
+   "exs": [
+    "My vacation overlaps with yours."
+   ]
+  },
+  {
+   "id": "awl:passive",
+   "word": "passive",
+   "pos": "adj",
+   "fa": "منفعل، غیرفعال",
+   "def_": "/ˈpæsɪv/ · inactive",
+   "level": 9,
+   "exs": [
+    "He's very passive in the relationship."
+   ]
+  },
+  {
+   "id": "awl:portion",
+   "word": "portion",
+   "pos": "n",
+   "fa": "بخش، سهم",
+   "def_": "/ˈpɔːʃən/ · part, piece",
+   "level": 9,
+   "exs": [
+    "I accept my portion of the blame."
+   ]
+  },
+  {
+   "id": "awl:preliminary",
+   "word": "preliminary",
+   "pos": "adj",
+   "fa": "مقدماتی",
+   "def_": "/prɪˈlɪmɪneri/ · initial, prior",
+   "level": 9,
+   "exs": [
+    "We've decided to change the design based on our preliminary findings."
+   ]
+  },
+  {
+   "id": "awl:protocol",
+   "word": "protocol",
+   "pos": "n",
+   "fa": "پروتکل، آداب رسمی",
+   "def_": "/ˈprəʊtəkɑːl/ · customs, rituals, treaty",
+   "level": 9,
+   "exs": [
+    "The soldier's actions constitute a breach of military protocol."
+   ]
+  },
+  {
+   "id": "awl:qualitative",
+   "word": "qualitative",
+   "pos": "adj",
+   "fa": "کیفی",
+   "def_": "/ˈkwɑːlɪteɪtɪv/ · related to quality",
+   "level": 9,
+   "exs": [
+    "Women's experiences are qualitatively different from men's."
+   ]
+  },
+  {
+   "id": "awl:refine",
+   "word": "refine",
+   "pos": "v",
+   "fa": "پالایش کردن، اصلاح کردن",
+   "def_": "/rɪˈfaɪn/ · purify",
+   "level": 9,
+   "exs": [
+    "Engineers spent many months refining the software."
+   ]
+  },
+  {
+   "id": "awl:relax",
+   "word": "relax",
+   "pos": "v",
+   "fa": "آرام شدن، استراحت کردن",
+   "def_": "/rɪˈlæks/ · be without anxiety",
+   "level": 9,
+   "exs": [
+    "Just relax and enjoy the movie."
+   ]
+  },
+  {
+   "id": "awl:restraint",
+   "word": "restraint",
+   "pos": "n",
+   "fa": "خویشتن‌داری؛ محدودیت",
+   "def_": "/rɪˈstreɪnt/ · self-control, limitation",
+   "level": 9,
+   "exs": [
+    "social restraints on drinking alcohol"
+   ]
+  },
+  {
+   "id": "awl:revolution",
+   "word": "revolution",
+   "pos": "n",
+   "fa": "انقلاب",
+   "def_": "/ˌrevəˈluːʃn/ · complete change, revolt",
+   "level": 9,
+   "exs": [
+    "The king knew that there was a threat of revolution."
+   ]
+  },
+  {
+   "id": "awl:rigid",
+   "word": "rigid",
+   "pos": "adj",
+   "fa": "سخت، انعطاف‌ناپذیر",
+   "def_": "/ˈrɪdʒɪd/ · fixed, firm",
+   "level": 9,
+   "exs": [
+    "She maintained rigid control over her emotional and sexual life.",
+    "The rules are too rigid.",
+    "The school has rigid rules about uniforms."
+   ]
+  },
+  {
+   "id": "awl:route",
+   "word": "route",
+   "pos": "n",
+   "fa": "مسیر، راه",
+   "def_": "/ruːt/ · way, road",
+   "level": 9,
+   "exs": [
+    "We live on a rural route.",
+    "The Silk Road was a famous trade route.",
+    "Birds follow the same route every year."
+   ]
+  },
+  {
+   "id": "awl:scenario",
+   "word": "scenario",
+   "pos": "n",
+   "fa": "سناریو",
+   "def_": "/səˈnæriəʊ/ · storyline, chain of events",
+   "level": 9,
+   "exs": [
+    "There are several possible scenarios."
+   ]
+  },
+  {
+   "id": "awl:sphere",
+   "word": "sphere",
+   "pos": "n",
+   "fa": "کره؛ حوزه، قلمرو",
+   "def_": "/sfɪr/ · ball, domain",
+   "level": 9,
+   "exs": [
+    "the political sphere"
+   ]
+  },
+  {
+   "id": "awl:subordinate",
+   "word": "subordinate",
+   "pos": "adj",
+   "fa": "زیردست، فرعی",
+   "def_": "/səˈbɔːrdɪnət/ · secondary, inferior",
+   "level": 9,
+   "exs": [
+    "As a captain, he is the general's subordinate."
+   ]
+  },
+  {
+   "id": "awl:supplementary",
+   "word": "supplementary",
+   "pos": "adj",
+   "fa": "تکمیلی، اضافی",
+   "def_": "/ˌsʌplɪˈmentri/ · added to complete",
+   "level": 9,
+   "exs": [
+    "The program offers supplementary information about the news."
+   ]
+  },
+  {
+   "id": "awl:suspend",
+   "word": "suspend",
+   "pos": "v",
+   "fa": "معلق کردن، به تعویق انداختن",
+   "def_": "/səˈspend/ · temporarily inactive",
+   "level": 9,
+   "exs": [
+    "The judge suspended judgment until January 15."
+   ]
+  },
+  {
+   "id": "awl:team",
+   "word": "team",
+   "pos": "n",
+   "fa": "تیم، گروه",
+   "def_": "/tiːm/ · a group of people",
+   "level": 9,
+   "exs": [
+    "The company hired a team of lawyers to advise them."
+   ]
+  },
+  {
+   "id": "awl:temporary",
+   "word": "temporary",
+   "pos": "adj",
+   "fa": "موقت",
+   "def_": "/ˈtempəreri/ · not permanent",
+   "level": 9,
+   "exs": [
+    "The ceasefire will only provide a temporary solution to the crisis."
+   ]
+  },
+  {
+   "id": "awl:trigger",
+   "word": "trigger",
+   "pos": "v",
+   "fa": "موجب شدن، راه انداختن؛ ماشه",
+   "def_": "/ˈtrɪɡər/ · v., n. · cause, start",
+   "level": 9,
+   "exs": [
+    "His speech triggered the riot.",
+    "The earthquake triggered a tsunami.",
+    "Loud noises can trigger a panic attack."
+   ]
+  },
+  {
+   "id": "awl:unify",
+   "word": "unify",
+   "pos": "v",
+   "fa": "متحد کردن، یکپارچه کردن",
+   "def_": "/ˈjuːnɪfaɪ/ · unite",
+   "level": 9,
+   "exs": [
+    "The creation of the national railroad system unified the country."
+   ]
+  },
+  {
+   "id": "awl:violation",
+   "word": "violation",
+   "pos": "n",
+   "fa": "نقض، تخلف",
+   "def_": "/ˌvaɪəˈleɪʃn/ · breach, break a law",
+   "level": 9,
+   "exs": [
+    "They protested the government's violation of human rights."
+   ]
+  },
+  {
+   "id": "awl:vision",
+   "word": "vision",
+   "pos": "n",
+   "fa": "بینایی؛ چشم‌انداز",
+   "def_": "/ˈvɪʒn/ · ability to see",
+   "level": 9,
+   "exs": [
+    "Cats have good night vision."
+   ]
+  },
+  {
+   "id": "awl:adjacent",
+   "word": "adjacent",
+   "pos": "adj",
+   "fa": "مجاور، همسایه",
+   "def_": "/əˈdʒeɪsnt/ · near or close to",
+   "level": 10,
+   "exs": [
+    "They lived in a house adjacent to the railway.",
+    "The lab is adjacent to the library.",
+    "They live in adjacent apartments."
+   ]
+  },
+  {
+   "id": "awl:albeit",
+   "word": "albeit",
+   "pos": "conj",
+   "fa": "اگرچه، هرچند",
+   "def_": "/ˌɔːlˈbiːɪt/ · although",
+   "level": 10,
+   "exs": [
+    "He was making progress, albeit rather slowly.",
+    "It was a success, albeit a small one.",
+    "The plan worked, albeit slowly."
+   ]
+  },
+  {
+   "id": "awl:assembly",
+   "word": "assembly",
+   "pos": "n",
+   "fa": "مونتاژ؛ مجمع",
+   "def_": "/əˈsembli/ · the process of putting together",
+   "level": 10,
+   "exs": [
+    "a car assembly plant"
+   ]
+  },
+  {
+   "id": "awl:collapse",
+   "word": "collapse",
+   "pos": "v",
+   "fa": "فروریختن؛ فروپاشی",
+   "def_": "/kəˈlæps/ · v., n. · break down",
+   "level": 10,
+   "exs": [
+    "He collapsed with a heart attack while he was dancing."
+   ]
+  },
+  {
+   "id": "awl:colleague",
+   "word": "colleague",
+   "pos": "n",
+   "fa": "همکار",
+   "def_": "/ˈkɑːliːɡ/ · coworker",
+   "level": 10,
+   "exs": [
+    "A colleague of mine will be speaking at the conference."
+   ]
+  },
+  {
+   "id": "awl:compile",
+   "word": "compile",
+   "pos": "v",
+   "fa": "گردآوری کردن",
+   "def_": "/kəmˈpaɪl/ · gather together",
+   "level": 10,
+   "exs": [
+    "He compiled a book of poems."
+   ]
+  },
+  {
+   "id": "awl:conceive",
+   "word": "conceive",
+   "pos": "v",
+   "fa": "تصور کردن، طراحی کردن (ایده)",
+   "def_": "/kənˈsiːv/ · form or devise",
+   "level": 10,
+   "exs": [
+    "The project was conceived in 2019."
+   ]
+  },
+  {
+   "id": "awl:convince",
+   "word": "convince",
+   "pos": "v",
+   "fa": "متقاعد کردن",
+   "def_": "/kənˈvɪns/ · persuade, induce",
+   "level": 10,
+   "exs": [
+    "I am convinced the war will be over in a month.",
+    "She convinced me to join the club.",
+    "I'm not convinced that this is a good idea."
+   ]
+  },
+  {
+   "id": "awl:depression",
+   "word": "depression",
+   "pos": "n",
+   "fa": "افسردگی؛ رکود",
+   "def_": "/dɪˈpreʃn/ · sadness",
+   "level": 10,
+   "exs": [
+    "His depression about losing his job lasted for weeks."
+   ]
+  },
+  {
+   "id": "awl:encounter",
+   "word": "encounter",
+   "pos": "v",
+   "fa": "مواجه شدن، روبه‌رو شدن",
+   "def_": "/ɪnˈkaʊntər/ · face, meet",
+   "level": 10,
+   "exs": [
+    "Her suggestion has encountered a lot of opposition."
+   ]
+  },
+  {
+   "id": "awl:enormous",
+   "word": "enormous",
+   "pos": "adj",
+   "fa": "عظیم، بسیار بزرگ",
+   "def_": "/ɪˈnɔːrməs/ · very large, huge",
+   "level": 10,
+   "exs": [
+    "They live in an enormous house.",
+    "The project was an enormous success.",
+    "An enormous crowd gathered in the square."
+   ]
+  },
+  {
+   "id": "awl:forthcoming",
+   "word": "forthcoming",
+   "pos": "adj",
+   "fa": "آینده، پیش رو",
+   "def_": "/ˌfɔːrθˈkʌmɪŋ/ · upcoming, approaching",
+   "level": 10,
+   "exs": [
+    "the forthcoming elections"
+   ]
+  },
+  {
+   "id": "awl:inclination",
+   "word": "inclination",
+   "pos": "n",
+   "fa": "تمایل، گرایش",
+   "def_": "/ˌɪnklɪˈneɪʃn/ · tendency",
+   "level": 10,
+   "exs": [
+    "Her inclination to tell lies left her with few friends."
+   ]
+  },
+  {
+   "id": "awl:integrity",
+   "word": "integrity",
+   "pos": "n",
+   "fa": "صداقت، درستکاری؛ یکپارچگی",
+   "def_": "/ɪnˈteɡrəti/ · honesty, unity",
+   "level": 10,
+   "exs": [
+    "She behaved with absolute integrity."
+   ]
+  },
+  {
+   "id": "awl:intrinsic",
+   "word": "intrinsic",
+   "pos": "adj",
+   "fa": "ذاتی، درونی",
+   "def_": "/ɪnˈtrɪnzɪk/ · innate",
+   "level": 10,
+   "exs": [
+    "Flexibility is intrinsic to creative management.",
+    "The painting has little intrinsic value.",
+    "Curiosity is an intrinsic part of learning."
+   ]
+  },
+  {
+   "id": "awl:invoke",
+   "word": "invoke",
+   "pos": "v",
+   "fa": "استناد کردن به؛ برانگیختن",
+   "def_": "/ɪnˈvəʊk/ · implement, evoke",
+   "level": 10,
+   "exs": [
+    "The UN threatened to invoke economic sanctions."
+   ]
+  },
+  {
+   "id": "awl:levy",
+   "word": "levy",
+   "pos": "n",
+   "fa": "مالیات، عوارض",
+   "def_": "/ˈlevi/ · tax",
+   "level": 10,
+   "exs": [
+    "The government imposed a levy on gasoline."
+   ]
+  },
+  {
+   "id": "awl:likewise",
+   "word": "likewise",
+   "pos": "adv",
+   "fa": "همچنین، به همین ترتیب",
+   "def_": "/ˈlaɪkwaɪz/ · similar",
+   "level": 10,
+   "exs": [
+    "The fish was delicious. Likewise, the eggplant was excellent."
+   ]
+  },
+  {
+   "id": "awl:nonetheless",
+   "word": "nonetheless",
+   "pos": "adv",
+   "fa": "با این حال، با وجود این",
+   "def_": "/ˌnʌnðəˈles/ · however",
+   "level": 10,
+   "exs": [
+    "The paintings are complex, but have plenty of appeal nonetheless."
+   ]
+  },
+  {
+   "id": "awl:notwithstanding",
+   "word": "notwithstanding",
+   "pos": "prep",
+   "fa": "با وجود، علی‌رغم",
+   "def_": "/ˌnɑːtwɪθˈstændɪŋ/ · in spite of",
+   "level": 10,
+   "exs": [
+    "Notwithstanding his parents objections; he left of the house.",
+    "Notwithstanding the costs, the project continued.",
+    "Notwithstanding the bad weather, the event was a success."
+   ]
+  },
+  {
+   "id": "awl:odd",
+   "word": "odd",
+   "pos": "adj",
+   "fa": "عجیب، غیرعادی",
+   "def_": "/ɑːd/ · strange, unusual",
+   "level": 10,
+   "exs": [
+    "That drawer is full of odd socks."
+   ]
+  },
+  {
+   "id": "awl:ongoing",
+   "word": "ongoing",
+   "pos": "adj",
+   "fa": "جاری، در جریان",
+   "def_": "/ˈɑːnɡəʊɪŋ/ · continuous",
+   "level": 10,
+   "exs": [
+    "The negotiations are still ongoing.",
+    "Research into the disease is ongoing.",
+    "There is an ongoing debate about the issue."
+   ]
+  },
+  {
+   "id": "awl:panel",
+   "word": "panel",
+   "pos": "n",
+   "fa": "هیئت، پنل؛ صفحه",
+   "def_": "/ˈpænl/ · a board; a group of experts",
+   "level": 10,
+   "exs": [
+    "The roof is covered with solar panels that absorb the sun's rays."
+   ]
+  },
+  {
+   "id": "awl:persistent",
+   "word": "persistent",
+   "pos": "adj",
+   "fa": "سرسخت، مداوم",
+   "def_": "/pərˈsɪstənt/ · continuing, determined",
+   "level": 10,
+   "exs": [
+    "Persistent reports of human rights abuses by the military",
+    "He has a persistent cough.",
+    "Persistent rain caused flooding."
+   ]
+  },
+  {
+   "id": "awl:pose",
+   "word": "pose",
+   "pos": "v",
+   "fa": "ایجاد کردن (مشکل)، مطرح کردن",
+   "def_": "/pəʊz/ · cause, create",
+   "level": 10,
+   "exs": [
+    "Pollution poses a threat to health."
+   ]
+  },
+  {
+   "id": "awl:reluctant",
+   "word": "reluctant",
+   "pos": "adj",
+   "fa": "بی‌میل، اکراه‌دار",
+   "def_": "/rɪˈlʌktənt/ · unwilling",
+   "level": 10,
+   "exs": [
+    "She seemed reluctant to answer.",
+    "She was reluctant to lend him money.",
+    "Many people are reluctant to change their habits."
+   ]
+  },
+  {
+   "id": "awl:so-called",
+   "word": "so-called",
+   "pos": "adj",
+   "fa": "به‌اصطلاح",
+   "def_": "/ˌsəʊ ˈkɔːld/ · supposed",
+   "level": 10,
+   "exs": [
+    "The so-called manager had no idea how to manage."
+   ]
+  },
+  {
+   "id": "awl:straightforward",
+   "word": "straightforward",
+   "pos": "adj",
+   "fa": "ساده، سرراست",
+   "def_": "/ˌstreɪtˈfɔːrwərd/ · easy, direct",
+   "level": 10,
+   "exs": [
+    "She gave a straightforward account of what happened."
+   ]
+  },
+  {
+   "id": "awl:undergo",
+   "word": "undergo",
+   "pos": "v",
+   "fa": "متحمل شدن، تحت (چیزی) قرار گرفتن",
+   "def_": "/ˌʌndərˈɡəʊ/ · experience, encounter",
+   "level": 10,
+   "exs": [
+    "My mother underwent major surgery last year.",
+    "The city has undergone major changes.",
+    "The city is undergoing major changes."
+   ]
+  },
+  {
+   "id": "awl:whereby",
+   "word": "whereby",
+   "pos": "adv",
+   "fa": "که به‌وسیلهٔ آن، به موجب آن",
+   "def_": "/werˈbaɪ/ · by which",
+   "level": 10,
+   "exs": [
+    "A plan whereby we can make lots of money."
+   ]
+  }
+ ]
+}

@@ -5,7 +5,7 @@ export const POS = new Set(['n', 'v', 'adj', 'adv', 'prep', 'conj', 'phr']);
 const POS_ALIASES = { noun: 'n', verb: 'v', adjective: 'adj', adverb: 'adv', preposition: 'prep', conjunction: 'conj', phrase: 'phr', idiom: 'phr', 'اسم': 'n', 'فعل': 'v', 'صفت': 'adj', 'قید': 'adv' };
 const KEY_ALIASES = { meaning_fa: 'fa', meaning: 'fa', persian: 'fa', 'معنی': 'fa', definition: 'def', df: 'def', example: 'ex', category: 'cat', category_id: 'cat',
   level_no: 'level', part_of_speech: 'pos', type: 'pos', english: 'word', 'لغت': 'word' };
-export const LEVELS = { general: 4, ielts: 6, toefl: 3 };
+export const LEVELS = { general: 4, ielts: 6, toefl: 3, awl: 10, cambridge: 13, listening: 27 };
 
 const exsOf = r => { try { const a = JSON.parse(r.examples || '[]'); if (Array.isArray(a) && a.length) return a; } catch (e) {} return r.example ? [[r.example, '']] : []; };
 export const toPublic = r => ({ id: r.slug, word: r.word, pos: r.pos, fa: r.meaning_fa, def: r.definition, ex: r.example, exs: exsOf(r), cat: r.category_id, level: r.level_no });
