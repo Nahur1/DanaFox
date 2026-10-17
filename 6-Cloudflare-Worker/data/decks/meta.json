@@ -1,17 +1,186 @@
 {
- "awl": {"sort": 4, "icon": "📚", "section": "reading",
-  "name": {"en": "Academic Word List", "fa": "واژگان آکادمیک (AWL)"}, "short": {"en": "AWL", "fa": "AWL"},
-  "about": {"en": "The Academic Word List — the most frequent words of academic texts in 10 sublists (compiled by Abbas Kadkhodaee, 2022). Each word comes with pronunciation, a short English definition, Persian meaning and examples.",
-            "fa": "فهرست واژگان آکادمیک (Academic Word List) — پرتکرارترین واژه‌های متون دانشگاهی و ریدینگ در ۱۰ فهرست (گردآوری: عباس کدخدایی، ۲۰۲۲). هر واژه با تلفظ، تعریف کوتاه انگلیسی، معنی فارسی و مثال آمده است."},
-  "levels": [["List 1","فهرست ۱","B2"],["List 2","فهرست ۲","B2"],["List 3","فهرست ۳","B2"],["List 4","فهرست ۴","B2–C1"],["List 5","فهرست ۵","B2–C1"],["List 6","فهرست ۶","B2–C1"],["List 7","فهرست ۷","C1"],["List 8","فهرست ۸","C1"],["List 9","فهرست ۹","C1"],["List 10","فهرست ۱۰","C1"]]},
- "cambridge": {"sort": 5, "icon": "📕", "section": "reading",
-  "name": {"en": "Cambridge IELTS Reading 9–20", "fa": "ریدینگ کمبریج ۹ تا ۲۰"}, "short": {"en": "Cambridge", "fa": "کمبریج"},
-  "about": {"en": "Academic reading vocabulary of Cambridge IELTS books 9–20, book by book (collected by Aida Moshiry). Each word shows its synonyms and the test/passage it comes from — review a book's words before doing its tests.",
-            "fa": "واژگان آکادمیک ریدینگ کتاب‌های Cambridge IELTS 9 تا 20 به تفکیک کتاب (گردآوری: آیدا مشیری). در توضیح هر واژه، مترادف‌ها و تست و پسیجی که واژه در آن آمده نوشته شده است؛ پیش از حل تست‌های هر کتاب، واژه‌های همان کتاب را مرور کنید."},
-  "levels": [["Cambridge 9","کمبریج ۹","Tests 1–4",9],["Cambridge 10","کمبریج ۱۰","Tests 1–4",10],["Cambridge 11","کمبریج ۱۱","Tests 1–4",11],["Cambridge 12","کمبریج ۱۲","Tests 1–4",12],["Cambridge 13","کمبریج ۱۳","Tests 1–4",13],["Cambridge 14","کمبریج ۱۴","Tests 1–4",14],["Cambridge 15","کمبریج ۱۵","Tests 1–4",15],["Cambridge 16","کمبریج ۱۶","Tests 1–4",16],["Cambridge 17","کمبریج ۱۷","Tests 1–4",17],["Cambridge 18","کمبریج ۱۸","Tests 1–4",18],["Cambridge 19","کمبریج ۱۹","Tests 1–4",19],["Cambridge 20","کمبریج ۲۰","Tests 1–4",20],["Core academic words","واژگان کلیدی آکادمیک","Verbs · Nouns · Adjectives","★"]]},
- "listening": {"sort": 6, "icon": "🎧", "section": "listening",
-  "name": {"en": "IELTS Listening", "fa": "لغات لیسنینگ آیلتس"}, "short": {"en": "Listening", "fa": "لیسنینگ"},
-  "about": {"en": "The most commonly repeated words and phrases of the IELTS Listening test in 27 topics. Practise the exact spelling (British / American) — in Listening a misspelt answer is a wrong answer.",
-            "fa": "پرتکرارترین واژه‌ها و عبارت‌های آزمون لیسنینگ آیلتس در ۲۷ موضوع. املای دقیق واژه‌ها (بریتانیایی/آمریکایی) را تمرین کنید — در لیسنینگ، پاسخ با غلط املایی، غلط حساب می‌شود."},
-  "levels": "from-file"}
+ "awl": {
+  "sort": 4,
+  "icon": "📚",
+  "section": "reading",
+  "name": {
+   "en": "AWL — Academic Word List",
+   "fa": "AWL — واژگان آکادمیک"
+  },
+  "short": {
+   "en": "AWL",
+   "fa": "AWL"
+  },
+  "about": {
+   "en": "The Academic Word List — the most frequent words of academic texts in 10 sublists (compiled by Abbas Kadkhodaee, 2022). Each word comes with pronunciation, a short English definition, Persian meaning and examples.",
+   "fa": "فهرست واژگان آکادمیک (Academic Word List) — پرتکرارترین واژه‌های متون دانشگاهی و ریدینگ در ۱۰ فهرست (گردآوری: عباس کدخدایی، ۲۰۲۲). هر واژه با تلفظ، تعریف کوتاه انگلیسی، معنی فارسی و مثال آمده است."
+  },
+  "levels": [
+   [
+    "List 1",
+    "فهرست ۱",
+    "B2"
+   ],
+   [
+    "List 2",
+    "فهرست ۲",
+    "B2"
+   ],
+   [
+    "List 3",
+    "فهرست ۳",
+    "B2"
+   ],
+   [
+    "List 4",
+    "فهرست ۴",
+    "B2–C1"
+   ],
+   [
+    "List 5",
+    "فهرست ۵",
+    "B2–C1"
+   ],
+   [
+    "List 6",
+    "فهرست ۶",
+    "B2–C1"
+   ],
+   [
+    "List 7",
+    "فهرست ۷",
+    "C1"
+   ],
+   [
+    "List 8",
+    "فهرست ۸",
+    "C1"
+   ],
+   [
+    "List 9",
+    "فهرست ۹",
+    "C1"
+   ],
+   [
+    "List 10",
+    "فهرست ۱۰",
+    "C1"
+   ]
+  ]
+ },
+ "cambridge": {
+  "sort": 5,
+  "icon": "📕",
+  "section": "reading",
+  "name": {
+   "en": "Key Reading Words — Cambridge IELTS 9–20",
+   "fa": "لغات مهم ریدینگ‌های کمبریج ۹ تا ۲۰"
+  },
+  "short": {
+   "en": "Cambridge 9–20",
+   "fa": "کمبریج ۹ تا ۲۰"
+  },
+  "about": {
+   "en": "Academic reading vocabulary of Cambridge IELTS books 9–20, book by book (collected by Aida Moshiry). Each word shows its synonyms and the test/passage it comes from — review a book's words before doing its tests.",
+   "fa": "واژگان آکادمیک ریدینگ کتاب‌های Cambridge IELTS 9 تا 20 به تفکیک کتاب (گردآوری: آیدا مشیری). در توضیح هر واژه، مترادف‌ها و تست و پسیجی که واژه در آن آمده نوشته شده است؛ پیش از حل تست‌های هر کتاب، واژه‌های همان کتاب را مرور کنید."
+  },
+  "levels": [
+   [
+    "Cambridge 9",
+    "کمبریج ۹",
+    "Tests 1–4",
+    9
+   ],
+   [
+    "Cambridge 10",
+    "کمبریج ۱۰",
+    "Tests 1–4",
+    10
+   ],
+   [
+    "Cambridge 11",
+    "کمبریج ۱۱",
+    "Tests 1–4",
+    11
+   ],
+   [
+    "Cambridge 12",
+    "کمبریج ۱۲",
+    "Tests 1–4",
+    12
+   ],
+   [
+    "Cambridge 13",
+    "کمبریج ۱۳",
+    "Tests 1–4",
+    13
+   ],
+   [
+    "Cambridge 14",
+    "کمبریج ۱۴",
+    "Tests 1–4",
+    14
+   ],
+   [
+    "Cambridge 15",
+    "کمبریج ۱۵",
+    "Tests 1–4",
+    15
+   ],
+   [
+    "Cambridge 16",
+    "کمبریج ۱۶",
+    "Tests 1–4",
+    16
+   ],
+   [
+    "Cambridge 17",
+    "کمبریج ۱۷",
+    "Tests 1–4",
+    17
+   ],
+   [
+    "Cambridge 18",
+    "کمبریج ۱۸",
+    "Tests 1–4",
+    18
+   ],
+   [
+    "Cambridge 19",
+    "کمبریج ۱۹",
+    "Tests 1–4",
+    19
+   ],
+   [
+    "Cambridge 20",
+    "کمبریج ۲۰",
+    "Tests 1–4",
+    20
+   ],
+   [
+    "Core academic words",
+    "واژگان کلیدی آکادمیک",
+    "Verbs · Nouns · Adjectives",
+    "★"
+   ]
+  ]
+ },
+ "listening": {
+  "sort": 6,
+  "icon": "🎧",
+  "section": "listening",
+  "name": {
+   "en": "1200 Most Common IELTS Listening Words",
+   "fa": "۱۲۰۰ لغت پرتکرار لیسنینگ آیلتس"
+  },
+  "short": {
+   "en": "1200 Listening words",
+   "fa": "۱۲۰۰ لغت لیسنینگ"
+  },
+  "about": {
+   "en": "“The 1200 most commonly repeated words in IELTS Listening Test”, grouped by topic. Practise the exact spelling (British / American) — in Listening a misspelt answer is a wrong answer.",
+   "fa": "لغات و عبارت‌های فایل «۱۲۰۰ لغت پرتکرار آزمون لیسنینگ آیلتس»، دسته‌بندی‌شده بر اساس موضوع. املای دقیق واژه‌ها (بریتانیایی/آمریکایی) را تمرین کنید — در لیسنینگ، پاسخ با غلط املایی، غلط حساب می‌شود."
+  },
+  "levels": "from-file"
+ }
 }

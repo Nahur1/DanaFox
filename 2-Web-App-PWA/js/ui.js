@@ -16,7 +16,7 @@ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', VY.applyTh
 VY.applyDir = () => { const fa = VY.lang()==='fa'; document.documentElement.lang = fa?'fa':'en'; document.documentElement.dir = fa?'rtl':'ltr'; document.title = t('appName'); };
 
 /* ---------- Shell ---------- */
-const NAV = [['home','home'],['learn','layers'],['review','repeat'],['reading','bookOpen'],['quiz','quiz'],['duel','zap'],['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']];
+const NAV = [['home','home'],['learn','layers'],['review','repeat'],['reading','bookOpen'],['listening','headphones'],['quiz','quiz'],['duel','zap'],['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']];
 const navLabel = k => k==='mywords' ? t('myWords') : k==='duel' ? t('duelTitle') : t(k);
 VY.MORE = [['quiz','quiz'],['duel','zap'],['placement','target'],['leaderboard','trophy'],['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']];
 VY.renderShell = () => {
@@ -27,7 +27,7 @@ VY.renderShell = () => {
   <div class="app">
     <aside class="sidebar">
       <div class="brand"><div class="brand-logo">${icon('logo')}</div><div><div class="brand-name">${t('appName')}</div><div class="brand-sub">${t('appSub')}</div></div></div>
-      ${NAV.map(([k,ic],i)=>`${i===6?'<div class="nav-sep"></div>':''}<a class="nav-item" href="#/${k}" data-nav="${k}">${icon(ic)}<span>${navLabel(k)}</span>${k==='review'?'<span class="badge hidden" id="due-badge"></span>':''}</a>`).join('')}
+      ${NAV.map(([k,ic],i)=>`${i===7?'<div class="nav-sep"></div>':''}<a class="nav-item" href="#/${k}" data-nav="${k}">${icon(ic)}<span>${navLabel(k)}</span>${k==='review'?'<span class="badge hidden" id="due-badge"></span>':''}</a>`).join('')}
       <button class="nav-item nav-fb" data-act="feedback">${icon('message')}<span>${t('feedback')}</span></button>
       <div class="sidebar-foot" id="side-streak"></div>
     </aside>
@@ -39,7 +39,7 @@ VY.renderShell = () => {
       </header>
       <main class="content" id="view"></main>
     </div>
-    <nav class="mobile-nav">${[['home','home'],['learn','layers'],['review','repeat'],['reading','bookOpen'],['more','grid']].map(([k,ic])=>`<a href="#/${k}" data-nav="${k}">${icon(ic)}<span>${t(k)}</span>${k==='review'?'<i class="mn-badge hidden" id="due-badge-m"></i>':''}</a>`).join('')}</nav>
+    <nav class="mobile-nav">${[['home','home'],['learn','layers'],['review','repeat'],['reading','bookOpen'],['listening','headphones'],['more','grid']].map(([k,ic])=>`<a href="#/${k}" data-nav="${k}">${icon(ic)}<span>${t(k)}</span>${k==='review'?'<i class="mn-badge hidden" id="due-badge-m"></i>':''}</a>`).join('')}</nav>
   </div>`;
   VY.route();
 };
@@ -62,7 +62,7 @@ VY.route = () => {
   const el = document.getElementById('view'); if(!el){ return VY.renderShell(); }
   document.getElementById('page-title').textContent = typeof view.title==='function' ? view.title() : t(view.title||name);
   el.innerHTML = view.render();
-  document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('active', a.dataset.nav===name || (name==='study' && a.dataset.nav==='learn') || (a.dataset.nav==='more' && VY.MORE.map(x=>x[0]).concat('more').includes(name))));
+  document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('active', a.dataset.nav===name || (name==='study' && a.dataset.nav===((VY.session && VY.session.sec) || 'learn')) || (a.dataset.nav==='more' && VY.MORE.map(x=>x[0]).concat('more').includes(name))));
   view.after && view.after();
   VY.refreshChrome();
   window.scrollTo(0,0);
@@ -162,21 +162,19 @@ function catCard(c, cur){ const ws = VY.deckWords(c), seen = ws.filter(w=>VY.P(w
 function deckCard(c, l, s){
   s = s || VY.deckStats(c, l); const pct = s.total ? s.seen/s.total : 0;
   return `<div class="card deck" data-act="startLearn" data-cat="${c}" data-level="${l}">
-    <div class="deck-head"><div class="deck-num ${lvCls(c,l)}">${lvNum(c,l)}</div><div style="flex:1;min-width:0"><h3>${VY.levelName(c,l)}</h3><div class="sub">${VY.catName(c)}${VY.CATS[c].levels[l-1].tag ? ` · <span class="en" dir="ltr">${esc(VY.CATS[c].levels[l-1].tag)}</span>` : ''}</div></div>${s.due?`<span class="badge">${n(s.due)}</span>`:''}</div>
+    <div class="deck-head"><div class="deck-num ${lvCls(c,l)}">${lvNum(c,l)}</div><div style="flex:1;min-width:0"><h3>${VY.levelName(c,l)}</h3><div class="sub">${VY.CATS[c].short ? esc(VY.L(VY.CATS[c].short)) : VY.catName(c)}${VY.CATS[c].levels[l-1].tag ? ` · <span class="en" dir="ltr">${esc(VY.CATS[c].levels[l-1].tag)}</span>` : ''}</div></div>${s.due?`<span class="badge">${n(s.due)}</span>`:''}</div>
     <div class="progress"><i style="width:${pct*100}%"></i></div>
     <div class="deck-meta"><span><b>${n(s.total)}</b> ${t('words')}</span><span><b>${n(s.seen)}</b> ${t('learned')}</span><span><b>${n(s.mast)}</b> ${t('mastered')}</span></div>
     <div class="row"><button class="btn btn-primary btn-sm" style="flex:1">${icon('sparkles')} ${t('study')}</button><button class="btn btn-ghost btn-sm" data-act="browseDeck" data-cat="${c}" data-level="${l}">${icon('book')}</button></div>
   </div>`;
 }
 V.learn = {title:'learn', render(){
-  let cat = VY.params[0] || VY.learnCat || VY.S.settings.track || 'general'; if(!VY.CATS[cat]) cat = 'general'; VY.learnCat = cat;
+  /* reading / listening vocabulary files live in their own sections (#/reading, #/listening), not here */
+  let cat = VY.params[0] || VY.learnCat || VY.S.settings.track || 'general'; if(!VY.CATS[cat] || VY.CATS[cat].section) cat = 'general'; VY.learnCat = cat;
   const cats = ['general','ielts','toefl','custom'], C = VY.CATS[cat];
-  const sec = (k, e) => { const cs = VY.deckCats(k); return cs.length ? `<div class="section-title sub-sec"><h3>${e} ${t(k + 'Vocab')}</h3><span class="muted small">${t(k + 'VocabS')}</span></div><div class="grid g4">${cs.map(c => catCard(c, cat)).join('')}</div>` : ''; };
   return `
   <div class="grid g4">${cats.map(c => catCard(c, cat)).join('')}</div>
-  ${sec('reading', '📖')}${sec('listening', '🎧')}
-  <div class="section-title" id="deck-list"><h2>${C.icon && C.section ? C.icon + ' ' : ''}${VY.catName(cat)}</h2><span class="muted small">${cat==='custom'?'':C.about ? '' : t('easyToHard')}</span></div>
-  ${C.about ? `<p class="muted small deck-about">${esc(VY.L(C.about))}</p>` : ''}
+  <div class="section-title"><h2>${VY.catName(cat)}</h2><span class="muted small">${cat==='custom'?'':t('easyToHard')}</span></div>
   ${cat==='custom' && !VY.deckWords('custom').length ? `<div class="card empty"><div class="em">✍️</div><p>${t('customEmpty')}</p><button class="btn btn-primary" data-act="go" data-to="mywords">${icon('plus')} ${t('addWord')}</button></div>` :
   `<div class="grid g3">${C.levels.map((_,i) => deckCard(cat, i+1)).join('')}</div>`}
   <div class="section-title"><h2>${t('more')}</h2></div>
@@ -189,8 +187,30 @@ V.learn = {title:'learn', render(){
     <div class="card deck" data-act="go" data-to="placement"><div class="deck-head"><div class="deck-num l2">🎯</div><div><h3>${t('placementTest')}</h3><div class="sub">${VY.kvGet('placement') ? t('yourLevel') + ': ' + esc(VY.kvGet('placement').cefr) : t('placementS')}</div></div></div></div>
   </div>`;
 }};
+/* ================= SECTION VOCABULARY =================
+   Every vocabulary file gets its own sub-section inside its skill section (deck meta "section"):
+   Reading → AWL, Cambridge 9–20 key words …   Listening → 1200 IELTS Listening words …
+   and inside each sub-section its own categories (deck levels). Route: #/<section>/@<deck> */
+VY.secTabs = (sec, active, first) => {
+  const tabs = (first ? [first] : []).concat(VY.deckCats(sec).map(c => { const ws = VY.deckWords(c); return {k:'@'+c, e:VY.CATS[c].icon, label:VY.catName(c), sub:`${n(ws.length)} ${t('words')} · ${n(VY.CATS[c].levels.length)} ${t('secN')}`, cls:c}; }));
+  return `<div class="sec-tabs">${tabs.map(x => `<button class="sec-tab ${x.cls||''} ${x.k===active?'on':''}" data-act="go" data-to="${sec}${x.k ? '/'+x.k : ''}"><span class="st-ic">${x.e}</span><span class="st-tx"><b>${esc(x.label)}</b><small>${x.sub}</small></span></button>`).join('')}</div>`;
+};
+VY.deckSection = c => {
+  const C = VY.CATS[c], ws = VY.deckWords(c), seen = ws.filter(w => VY.P(w.id) && VY.P(w.id).seen).length, mast = ws.filter(w => VY.status(w.id)==='mastered').length;
+  return `<section class="card sec-hero ${c}"><div class="sec-ic">${C.icon}</div><div style="flex:1;min-width:0"><h2>${VY.catName(c)}</h2>${C.about ? `<p>${esc(VY.L(C.about))}</p>` : ''}
+    <div class="row wrap mt12" style="gap:6px"><span class="chip">${n(ws.length)} ${t('words')}</span><span class="chip">${n(C.levels.length)} ${t('secN')}</span><span class="chip">${n(seen)} ${t('learned')}</span><span class="chip">${n(mast)} ${t('mastered')}</span></div>
+    <div class="progress mt12"><i style="width:${ws.length ? seen/ws.length*100 : 0}%"></i></div></div></section>
+  <div class="section-title"><h2>${t('secCats')}</h2><span class="muted small">${t('secCatsS')}</span></div>
+  <div class="grid g3">${C.levels.map((_,i) => deckCard(c, i+1)).join('')}</div>`;
+};
+V.listening = {title: () => { const a = VY.params && (VY.params[0]||'').replace(/^@/, ''); return VY.CATS[a] && VY.CATS[a].short ? t('listening') + ' · ' + VY.L(VY.CATS[a].short) : t('listening'); }, render(){
+  const cs = VY.deckCats('listening'); let a = (VY.params[0] || '').replace(/^@/, ''); if(!cs.includes(a)) a = cs[0];
+  return `<section class="card rd-hero"><div style="flex:1;min-width:0"><h2>🎧 ${t('listeningTitle')}</h2><p class="muted">${t('listeningSub')}</p></div></section>
+  ${VY.secTabs('listening', '@' + a)}
+  ${a ? VY.deckSection(a) : `<div class="card empty mt16"><div class="em">🎧</div><p>${t('rdEmpty')}</p></div>`}`;
+}};
 const difficultIds = VY.difficultIds = () => VY.words.filter(w => { const p = VY.P(w.id); return p && p.seen && (p.lapses>=1 || p.bad > p.ok); }).map(w=>w.id);
-ACT.pickCat = el => { VY.learnCat = el.dataset.cat; VY.go('learn/'+el.dataset.cat); if(VY.CATS[el.dataset.cat].section) setTimeout(() => { const d = document.getElementById('deck-list'); if(d) d.scrollIntoView({behavior:'smooth', block:'start'}); }, 80); };
+ACT.pickCat = el => { const c = el.dataset.cat, C = VY.CATS[c]; if(C && C.section){ VY.go(C.section + '/@' + c); return; } VY.learnCat = c; VY.go('learn/'+c); };
 ACT.browseDeck = (el, e) => { e.stopPropagation(); VY.dict = {q:'', cat:el.dataset.cat, level:+el.dataset.level, status:'all', limit:60}; VY.go('dictionary'); };
 ACT.startLearn = el => {
   const c = el.dataset.cat, l = +el.dataset.level, ws = VY.deckWords(c, l);
@@ -211,7 +231,7 @@ V.review = {title:'review', render(){
 }};
 
 /* ================= STUDY (flashcards) ================= */
-VY.startSession = (ids, title) => { VY.session = {queue:ids.slice(), title, done:0, total:ids.length, good:0, again:0, xp0:VY.S.xp, flipped:false, dir:{}}; VY.go('study'); };
+VY.startSession = (ids, title) => { const from = location.hash.replace(/^#\/?/, ''), sec = from.split('/')[0]; VY.session = {from, sec: ['reading','listening'].includes(sec) ? sec : '', queue:ids.slice(), title, done:0, total:ids.length, good:0, again:0, xp0:VY.S.xp, flipped:false, dir:{}}; VY.go('study'); };
 V.study = {title:()=> (VY.session && VY.session.title) || t('learn'), render(){
   const s = VY.session;
   if(!s){ setTimeout(()=>VY.go('learn'),0); return ''; }
@@ -281,7 +301,7 @@ function studyDone(s){
   return `<div class="study"><div class="card" style="text-align:center;padding:40px 26px">
     <div style="font-size:56px">🏆</div><h2 style="margin:8px 0 4px">${t('sessionDone')}</h2><p class="muted">${t('sessionDoneSub')}</p>
     <div class="kv mt24"><div><b>${n(s.done)}</b><span>${t('reviewed')}</span></div><div><b style="color:var(--green)">${n(s.good)}</b><span>${t('gotItCount')}</span></div><div><b style="color:var(--red)">${n(s.again)}</b><span>${t('againCount')}</span></div><div><b style="color:var(--yellow-strong)">+${n(xp)}</b><span>${t('xpEarned')}</span></div></div>
-    <div class="row mt24" style="justify-content:center"><button class="btn btn-ghost" data-act="go" data-to="home">${t('backHome')}</button><button class="btn btn-primary" data-act="go" data-to="learn">${t('studyMore')}</button><button class="btn btn-yellow" data-act="quickQuiz">${icon('quiz')} ${t('startQuiz')}</button></div>
+    <div class="row mt24" style="justify-content:center"><button class="btn btn-ghost" data-act="go" data-to="home">${t('backHome')}</button><button class="btn btn-primary" data-act="go" data-to="${s.sec ? esc(s.from) : 'learn'}">${t('studyMore')}</button><button class="btn btn-yellow" data-act="quickQuiz">${icon('quiz')} ${t('startQuiz')}</button></div>
   </div></div>`;
 }
 ACT.flip = () => { const s = VY.session; if(!s || !s.queue.length) return; if(s.flipped){ document.getElementById('flash').classList.toggle('flipped'); return; } s.flipped = true; s.anim = true; VY.rerender(); s.anim = false; requestAnimationFrame(()=>requestAnimationFrame(()=>{ const f=document.getElementById('flash'); if(f) f.classList.add('flipped'); })); };
@@ -293,7 +313,7 @@ ACT.rate = el => {
   else { s.good++; s.done++; VY.sound('ok'); }
   s.flipped = false; VY.rerender();
 };
-ACT.exitStudy = () => { VY.session = null; VY.go('home'); };
+ACT.exitStudy = () => { const s = VY.session; VY.session = null; VY.go(s && s.sec ? s.from : 'home'); };
 
 /* ---------- Keyboard ---------- */
 document.addEventListener('keydown', e => {

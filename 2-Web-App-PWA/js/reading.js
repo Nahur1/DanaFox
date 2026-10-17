@@ -63,6 +63,10 @@ function rdCard(r){
   </a>`;
 }
 function listView(){
+  return VY.secTabs('reading', '', {k:'', e:'📄', label:t('rdTexts'), sub:`${n(VY.readings().length)} ${t('rdTextsS')}`}) + textsView();
+}
+function deckView(c){ return VY.secTabs('reading', '@' + c, {k:'', e:'📄', label:t('rdTexts'), sub:`${n(VY.readings().length)} ${t('rdTextsS')}`}) + VY.deckSection(c); }
+function textsView(){
   const all = VY.readings(), ex = VY.rdExam = VY.rdExam || trackExam(), st = VY.readingStats();
   const items = all.filter(r => r.exam === ex), nx = VY.nextReading();
   return `<section class="card rd-hero">
@@ -195,8 +199,8 @@ function readerView(id){
     </div>
   </div>`;
 }
-V.reading = {title: () => { const id = VY.params && VY.params[0]; const r = id && VY.readingById(decodeURIComponent(id)); return r ? t('reading') + ' · ' + VY.examName(r.exam) : t('reading'); },
-  render(){ const id = VY.params && VY.params[0]; return id ? readerView(decodeURIComponent(id)) : listView(); },
+V.reading = {title: () => { const id = VY.params && VY.params[0]; if(id && id[0] === '@'){ const C = VY.CATS[id.slice(1)]; return t('reading') + (C && C.short ? ' · ' + VY.L(C.short) : ''); } const r = id && VY.readingById(decodeURIComponent(id)); return r ? t('reading') + ' · ' + VY.examName(r.exam) : t('reading'); },
+  render(){ const id = VY.params && VY.params[0]; if(id && id[0] === '@'){ const c = id.slice(1); return VY.deckCats('reading').includes(c) ? deckView(c) : listView(); } return id ? readerView(decodeURIComponent(id)) : listView(); },
   after(){
     const id = VY.params && VY.params[0] ? decodeURIComponent(VY.params[0]) : null;
     if(!id){ VY.fetchReadings().then(ch => { if(ch && VY.current === 'reading' && !(VY.params||[])[0]) VY.rerender(); }); return; }

@@ -109,14 +109,16 @@ Object.assign(I18N.fa, {
  fbContact:'ایمیل یا آیدی تلگرام (اختیاری، برای پاسخ)', fbMine:'پیام‌های من', fbQueued:'ذخیره شد — وقتی آنلاین شوید ارسال می‌شود', fbThanks:'ممنون! پیام شما ارسال شد.',
  fbst_new:'دریافت شد', fbst_seen:'دیده شد', fbst_planned:'در برنامه', fbst_done:'انجام شد', fbst_rejected:'در برنامه نیست', fbReply:'پاسخ', fbNone:'هنوز پیامی ندارید.'
 });
-/* v3.1 — reading & listening vocabulary sections */
+/* v3.1 — sections: Reading (texts · AWL · Cambridge 9–20 …) and Listening (1200 IELTS Listening words …) */
 Object.assign(I18N.en, {
- readingVocab:'Reading vocabulary', readingVocabS:'Academic Word List · Cambridge IELTS 9–20',
- listeningVocab:'Listening vocabulary', listeningVocabS:'The most repeated words in IELTS Listening, by topic',
+ listening:'Listening', listeningTitle:'Listening', listeningSub:'Vocabulary for the Listening test — each file is its own section, split into categories.',
+ rdTexts:'Reading passages', rdTextsS:'passages with questions',
+ secN:'categories', secCats:'Categories', secCatsS:'Pick a category to study its words',
  deckSource:'Source'
 });
 Object.assign(I18N.fa, {
- readingVocab:'لغات ریدینگ', readingVocabS:'واژگان آکادمیک AWL · ریدینگ کمبریج ۹ تا ۲۰',
- listeningVocab:'لغات لیسنینگ', listeningVocabS:'پرتکرارترین لغات لیسنینگ آیلتس، موضوع‌بندی‌شده',
+ listening:'لیسنینگ', listeningTitle:'لیسنینگ', listeningSub:'لغات آزمون لیسنینگ — هر مجموعه بخش جداگانهٔ خودش را دارد و به دسته‌های کوچک‌تر تقسیم شده است.',
+ rdTexts:'متن‌های ریدینگ', rdTextsS:'متن همراه با سؤال',
+ secN:'دسته', secCats:'دسته‌بندی‌ها', secCatsS:'یک دسته را انتخاب کنید و لغاتش را یاد بگیرید',
  deckSource:'منبع'
 });

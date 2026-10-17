@@ -1,5 +1,5 @@
 """Builds the extra vocabulary decks (data/decks/*.json: AWL, Cambridge Reading 9–20, IELTS Listening …)
-   → public/js/decks_data.js (offline bundle, appended to VY_WORDS) and migrations/0007_seed_decks.sql (D1).
+   → public/js/decks_data.js (offline bundle, appended to VY_WORDS) and, on request, D1 migrations (see --migrate / --cats below).
    Example translations come from data/fa_cache.json (english sentence -> persian)."""
 import json, pathlib, re, time
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -46,14 +46,23 @@ for w in words:
     out.append(f"INSERT INTO words(slug,word,pos,meaning_fa,definition,example,examples,category_id,level_no,created_at,updated_at) VALUES({q(w['id'])},{q(w['word'])},{q(w['pos'])},{q(w['fa'])},{q(w['def'])},{q(ex1)},{q(exj)},{q(w['cat'])},{w['level']},{t},{t}) "
                "ON CONFLICT(slug) DO UPDATE SET word=excluded.word, pos=excluded.pos, meaning_fa=excluded.meaning_fa, definition=excluded.definition, example=excluded.example, examples=excluded.examples, category_id=excluded.category_id, level_no=excluded.level_no, updated_at=excluded.updated_at;")
 out.append(f"INSERT OR REPLACE INTO meta(key,value) VALUES('words_version','{t}');")
-# split into migrations of ≤ ~600 KB each (D1 friendly): 0007_seed_decks_1.sql, 0008_seed_decks_2.sql, …
-for f in (ROOT / 'migrations').glob('*_seed_decks*.sql'): f.unlink()
+import sys
+# migrations are only written on request (already-applied migrations must never be rewritten):
+#   --migrate N  → full seed split into N_seed_decks_1.sql, N+1_seed_decks_2.sql … (≤ ~600 KB each, D1 friendly)
+#   --cats N     → only categories/levels (names, icons, sort) → N_deck_categories.sql
+args = sys.argv[1:]
+if '--cats' in args:
+    n = int(args[args.index('--cats') + 1])
+    (ROOT / f'migrations/{n:04d}_deck_categories.sql').write_text('\n'.join([l for l in out if l.startswith(('--', 'INSERT INTO categories', 'INSERT OR REPLACE INTO levels', 'INSERT OR REPLACE INTO meta'))]) + '\n', encoding='utf8')
+    print('categories migration', n); sys.exit()
+if '--migrate' not in args: print('ok (decks_data.js only)'); sys.exit()
+START = int(args[args.index('--migrate') + 1])
 chunks, cur, size = [], [], 0
 for line in out:
     if cur and size + len(line.encode()) > 600_000: chunks.append(cur); cur, size = [], 0
     cur.append(line); size += len(line.encode()) + 1
 chunks.append(cur)
 for i, c in enumerate(chunks):
-    (ROOT / f'migrations/{7 + i:04d}_seed_decks_{i + 1}.sql').write_text('\n'.join(c) + '\n', encoding='utf8')
+    (ROOT / f'migrations/{START + i:04d}_seed_decks_{i + 1}.sql').write_text('\n'.join(c) + '\n', encoding='utf8')
 print(len(chunks), 'migration files')
 print('ok')

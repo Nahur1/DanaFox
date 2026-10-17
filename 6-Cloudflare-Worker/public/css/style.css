@@ -797,7 +797,23 @@ textarea.input{padding:12px 14px;line-height:1.7;resize:vertical}
 .cat-card.awl{background:linear-gradient(135deg,#6FCF97,#2E9E6A)}
 .cat-card.cambridge{background:linear-gradient(135deg,#FF9A8B,#E0525F)}
 .cat-card.listening{background:linear-gradient(135deg,#7FB8FF,#3A6FE0)}
-.section-title.sub-sec{margin:22px 0 10px;flex-wrap:wrap;gap:4px 12px}
-.section-title.sub-sec h3{margin:0;font-size:calc(15.5px*var(--fs,1));font-weight:800}
-.deck-about{margin:-4px 0 14px;line-height:1.8}
-#deck-list{scroll-margin-top:84px}
+/* v3.1 — section vocabulary (Reading → AWL / Cambridge, Listening → 1200 words) */
+.sec-tabs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:16px}
+.sec-tab{display:flex;align-items:center;gap:10px;text-align:start;border:2px solid var(--border);background:var(--surface);color:inherit;border-radius:16px;padding:10px 14px;cursor:pointer;font:inherit;box-shadow:var(--shadow);min-width:0}
+.sec-tab .st-ic{font-size:26px;line-height:1}
+.sec-tab .st-tx{display:flex;flex-direction:column;min-width:0}
+.sec-tab b{font-size:calc(14px*var(--fs,1));line-height:1.5}
+.sec-tab small{color:var(--muted);font-size:calc(12px*var(--fs,1))}
+.sec-tab.on{border-color:var(--primary);background:var(--primary-soft,var(--surface))}
+.sec-hero{display:flex;gap:16px;align-items:flex-start;color:#fff;border:0}
+.sec-hero h2{margin:0;font-size:calc(21px*var(--fs,1))}
+.sec-hero p{margin:6px 0 0;line-height:1.8;opacity:.95;font-size:calc(13.5px*var(--fs,1))}
+.sec-hero .chip{background:rgba(255,255,255,.25);color:#fff}
+.sec-hero .progress{background:rgba(255,255,255,.3)}.sec-hero .progress i{background:#fff}
+.sec-hero .sec-ic{font-size:40px;line-height:1}
+.sec-hero.awl{background:linear-gradient(135deg,#4FBF85,#2E8F62)}
+.sec-hero.cambridge{background:linear-gradient(135deg,#F2847A,#C9444F)}
+.sec-hero.listening{background:linear-gradient(135deg,#6AA8FF,#3A62D6)}
+@media (max-width:640px){.sec-hero{flex-direction:column;gap:8px}.sec-hero .sec-ic{font-size:32px}}
+.mobile-nav a span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.rd-hero + .sec-tabs{margin-top:16px}
