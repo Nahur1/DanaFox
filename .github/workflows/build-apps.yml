@@ -140,3 +140,5 @@ jobs:
           make_latest: true
           body_path: RELEASE_NOTES.md
           files: dist/*
+          # if the repository blocks GITHUB_TOKEN from creating releases, add a personal access token as the RELEASE_TOKEN secret
+          token: ${{ secrets.RELEASE_TOKEN || github.token }}
