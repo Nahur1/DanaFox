@@ -1,6 +1,6 @@
 {
   "name": "vajeyar-cloudflare",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "description": "VajeYar \u2014 Cloudflare Worker (API, Telegram bot, admin panel, web app)",
   "main": "index.js",
   "scripts": {

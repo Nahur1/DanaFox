@@ -1,12 +1,14 @@
 /* VajeYar service worker — offline-first.
    App shell: served from the cache at once (works with no connection), refreshed in the background (stale-while-revalidate);
    a new version is picked up on the next start. API calls (/api/…) and the admin panel are never cached here. */
-const CACHE = 'vajeyar-v11';
+const CACHE = 'vajeyar-v12';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./css/style.css','./js/icons.js','./js/i18n.js','./js/i18n3.js','./js/words_data.js','./js/decks_data.js','./js/reading_data.js','./js/core.js','./js/ui.js','./js/config.js','./js/account.js','./js/views.js','./js/smart.js','./js/reading.js','./js/inside.js','./js/inside_data.js','./js/grammar.js','./js/grammar_data.js','./js/vbooks.js','./js/vbooks_data.js','./js/placement.js','./js/duel.js','./js/social.js','./js/boot.js','./js/telegram.js','./js/telegram-web-app.js','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png',
  './fonts/vazirmatn-arabic-400-normal.woff2','./fonts/vazirmatn-arabic-500-normal.woff2','./fonts/vazirmatn-arabic-700-normal.woff2','./fonts/vazirmatn-arabic-800-normal.woff2','./fonts/vazirmatn-latin-400-normal.woff2','./fonts/vazirmatn-latin-500-normal.woff2','./fonts/vazirmatn-latin-700-normal.woff2','./fonts/vazirmatn-latin-800-normal.woff2'];
 self.addEventListener('install', e => {
   // cache: 'reload' skips the HTTP cache so a new version never installs stale files
-  e.waitUntil(caches.open(CACHE).then(c => Promise.all(ASSETS.map(u => fetch(new Request(u, {cache: 'reload'})).then(r => r.ok && c.put(u, r)).catch(() => {})))).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then(c => Promise.all(ASSETS.map(u => fetch(new Request(u, {cache: 'reload'})).then(r => r.ok && c.put(u, r)).catch(() => {})))
+    // Grammar in Use pictures (~4 MB) so exercises work offline
+    .then(() => fetch('./gr/list.json').then(r => r.json()).then(l => Promise.all(l.map(f => './gr/' + f).map(u => c.match(u).then(h => h || fetch(u).then(r => r.ok && c.put(u, r)).catch(() => {}))))).catch(() => {}))).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k.startsWith('vajeyar-') && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 const fresh = (req, key) => fetch(req).then(res => { if(res && res.ok && res.type === 'basic'){ const c = res.clone(); caches.open(CACHE).then(x => x.put(key || req, c)); } return res; });

@@ -52,7 +52,8 @@ function exCard(e, id, opts = {}){
     if(S.show || open) return `<div class="gr-ans" dir="ltr">${open ? '💡 ' : '✓ '}${esc(a)}</div>`;
     return correct(gather(S, k, a), a) ? '' : `<div class="gr-ans bad" dir="ltr">✓ ${esc(a)}</div>`; };
   let body = '';
-  if(e.m === 'gap'){
+  if(e.L) body = exLayout(e, id, S);
+  else if(e.m === 'gap'){
     body = e.body.split('\n').map(line => {
       if(!line.trim()) return '<div class="gr-sp"></div>';
       const m = line.match(ITEM), k = m && m[1];
@@ -65,7 +66,7 @@ function exCard(e, id, opts = {}){
       return `<div class="gr-line gr-item"><b class="gr-no">${esc(k)}</b><div class="gr-tx">${html}${fb(k)}</div></div>`;
     }).join('');
   } else body = `<pre class="gr-pre" dir="ltr">${esc(e.body)}</pre>`;
-  const rest = e.key.filter(([k]) => !used.has(String(k)));
+  const rest = e.L ? [] : e.key.filter(([k]) => !used.has(String(k)));
   if(rest.length) body += `<div class="gr-grid">${rest.map(([k, a]) => `<label class="gr-cell"><b class="gr-no">${esc(String(k))}</b>${isOpen(e, a) ? `<textarea class="gr-in gr-ta" dir="ltr" data-gx="${esc(id)}" data-k="${esc(String(k))}" rows="2">${esc(S.v[k] || '')}</textarea>` : inp(String(k))}${fb(String(k))}</label>`).join('')}</div>`;
   const sc = S.checked ? score(e, S) : null;
   return `<div class="card gr-ex" id="gx-${esc(id.replace(/\W/g, '_'))}">
@@ -80,8 +81,122 @@ function exCard(e, id, opts = {}){
       ${sc ? `<span class="gr-score ${sc.total && sc.score / sc.total >= .8 ? 'good' : ''}">${sc.total ? t('grScore', {a: n(sc.score), b: n(sc.total)}) : '✓'}</span>` : ''}</div>
   </div>`;
 }
+/* ---------- layout-faithful exercises (from the book's page layout: dotted lines, example answers, pictures, choices) ---------- */
+const FIGS = ents => `<div class="gx-figs">${ents.map(f => `<img class="gx-fig" src="gr/${esc(f.s)}" alt="" loading="lazy" decoding="async" width="${Math.round(f.w * 1.35)}" height="${Math.round(f.h * 1.35)}" style="width:${Math.round(f.w * 1.35)}px" data-act="grZoom">`).join('')}</div>`;
+ACT.grZoom = el => { const o = document.createElement('div'); o.className = 'gx-zoom'; o.innerHTML = `<img src="${esc(el.getAttribute('src'))}" alt="">`; o.addEventListener('click', () => o.remove()); document.body.appendChild(o); };
+const isChoice = tk => tk[0] === 't' && /u/.test(tk[2]) && / \/ |\//.test(tk[1]) && tk[1].split('/').length <= 5;
+function subKeys(a, subs){
+  // "a Light b a light" → {a:'Light', b:'a light'}; "b there’s a lot of noise" → {b:…} (a = example)
+  const out = {}; let rest = String(a).trim();
+  subs.forEach((l, i) => {
+    if(!rest.startsWith(l + ' ')) return;
+    rest = rest.slice(l.length + 1);
+    const nx = subs.slice(i + 1).map(m => rest.indexOf(' ' + m + ' ')).filter(x => x >= 0).sort((x, y) => x - y)[0];
+    out[l] = (nx != null ? rest.slice(0, nx) : rest).trim(); rest = nx != null ? rest.slice(nx + 1) : '';
+  });
+  return out;
+}
+function model(e){
+  // groups of answer slots per item / sub-item, in reading order
+  if(e._m) return e._m;
+  const M = {};
+  (e.L.cols || []).forEach(c => c.kind === 'n' && c.i.forEach(it => {
+    const m = M[it.k] = {groups: [], subs: []}; let cur = {sub: '', slots: []}; m.groups.push(cur);
+    let pre = '', last = null;
+    it.r.forEach(row => row.forEach(tk => {
+      if(tk[0] === 't' && !isChoice(tk)){ pre += tk[1]; if(last){ last.post = (last.post || '') + tk[1]; } return; }
+      if(tk[0] === 'l'){ cur = {sub: tk[1], slots: []}; m.groups.push(cur); m.subs.push(tk[1]); pre = ''; last = null; }
+      else if(tk[0] === 'g'){ last = {t: 'g', pre}; cur.slots.push(last); pre = ''; }
+      else if(isChoice(tk)) cur.slots.push({t: 'c', o: tk[1].split('/').map(x => x.trim()).filter(Boolean)});
+    }));
+    m.groups = m.groups.filter(g => g.slots.length);
+  }));
+  return (e._m = M);
+}
+function groupAns(e, k){
+  const a = keyOf(e, k); if(a == null) return null; const m = model(e)[k];
+  if(!m || !m.groups.some(g => g.sub)) return m && m.groups.length ? {'': a} : {'': a};
+  const subs = m.groups.map(g => g.sub), sk = subKeys(a, subs);
+  if(!Object.keys(sk).length) return {[subs[0]]: a};
+  return sk;
+}
+const keyOf = (e, k) => { const x = e.key.find(([kk]) => String(kk) === String(k)); return x ? x[1] : null; };
+function slotVals(S, k, g){ return g.slots.map((_, j) => S.v[`${k}|${g.sub}|${j}`] || ''); }
+// the key often repeats words printed around the blank ("He’s tying" for "He …… a shoelace") → accept the blank part alone
+function okCtx(v, a, sl){
+  if(correct(v, a)) return true; if(!norm(v) || !sl) return false;
+  const P = norm(sl.pre || '').split(' ').filter(Boolean).slice(-3), Q = norm(sl.post || '').split(' ').filter(Boolean).slice(0, 3);
+  for(let i = 0; i <= P.length; i++) for(let j = 0; j <= Q.length; j++){ if(!i && !j) continue;
+    if(correct([...P.slice(P.length - i), v, ...Q.slice(0, j)].join(' '), a)) return true; }
+  return false;
+}
+function groupOk(S, k, g, a){
+  const vals = slotVals(S, k, g), parts = String(a).split(/\s*…\s*|\s*\.\.\.\s*/).filter(Boolean);
+  if(vals.length === 1) return [okCtx(vals[0], a, g.slots[0])];
+  if(parts.length === vals.length) return vals.map((v, j) => okCtx(v, parts[j], g.slots[j]));
+  const all = correct(vals.join(' '), a); return vals.map(() => all);
+}
+function itemState(e, S, k){
+  // → {ok: bool|null, slots: {key: true/false}, ans: string}
+  const a = keyOf(e, k); if(a == null || isOpen(e, a)) return {ok: null, slots: {}, ans: a};
+  const m = model(e)[k], ga = groupAns(e, k), slots = {}; let ok = true;
+  if(!m || !m.groups.length){ const v = S.v[`${k}||x`] || ''; const r = correct(v, a); slots[`${k}||x`] = r; return {ok: r, slots, ans: a}; }
+  m.groups.forEach(g => { const ga1 = ga[g.sub] != null ? ga[g.sub] : (m.groups.length === 1 ? a : null); if(ga1 == null) return;
+    groupOk(S, k, g, ga1).forEach((r, j) => { slots[`${k}|${g.sub}|${j}`] = r; if(!r) ok = false; }); });
+  return {ok, slots, ans: a};
+}
+function exLayout(e, id, S){
+  const L = e.L, M = model(e), st = {};
+  const checked = S.checked;
+  const inp = (key, w, cls = '') => `<input class="gr-in gx-in ${cls}" dir="ltr" autocomplete="off" autocapitalize="off" spellcheck="false" data-gx="${esc(id)}" data-k="${esc(key)}" value="${esc(S.v[key] || '')}" style="width:${Math.max(64, Math.min(520, Math.round(w * 1.15)))}px">`;
+  const rowHTML = (row, k, ctx) => row.map(tk => {
+    const [ty, a, b] = tk;
+    if(ty === 's') return `<span class="gx-s" style="width:${Math.min(48, Math.round(a * .6))}px"></span>`;
+    if(ty === 'l'){ ctx.sub = a; ctx.j = 0; return `<b class="gx-sub">${esc(a)}</b>`; }
+    if(ty === 'h') return `<span class="gx-h" style="min-width:min(${b ? Math.min(400, Math.round(b * 1.1)) : 0}px,100%)">${esc(a)}</span>`;
+    const hasAns = k != null && keyOf(e, k) != null && (() => { const ga = groupAns(e, k); return ga && ga[ctx.sub] != null; })();
+    if(ty === 'g'){ if(k == null || (keyOf(e, k) != null && !hasAns)){ if(k != null) ctx.j++; return `<span class="gx-dots" style="width:${Math.min(300, Math.round(a * 1.1))}px"></span>`; }
+      const key = `${k}|${ctx.sub}|${ctx.j++}`, r = ctx.state.slots[key]; return inp(key, a, checked && r != null ? (r ? 'ok' : 'bad') : ''); }
+    if(isChoice(tk) && hasAns){
+      const pm = a.match(/[.,;:!?]+\s*$/), punct = pm ? pm[0] : '', body = punct ? a.slice(0, -punct.length) : a;
+      const key = `${k}|${ctx.sub}|${ctx.j++}`, val = S.v[key], r = ctx.state.slots[key];
+      return ` <span class="gx-ch">${body.split('/').map(x => x.trim()).filter(Boolean).map((o, i, arr) => `<button class="gx-opt ${val === o ? 'on' : ''} ${checked && val === o && r != null ? (r ? 'ok' : 'bad') : ''}" data-act="grOpt" data-id="${esc(id)}" data-k="${esc(key)}" data-o="${esc(o)}">${esc(o)}</button>${i < arr.length - 1 ? '<span class="gx-sl">/</span>' : ''}`).join('')}</span>${esc(punct)}`;
+    }
+    const cls = (b || '').split('').map(c => 'gx-' + c).join(' ');
+    if(!cls) return esc(a);
+    const lead = a.match(/^\s*/)[0];
+    return `${lead}<span class="${cls}">${esc(a.slice(lead.length))}</span>`;
+  }).join('');
+  const fbk = (k, state) => { if(!(checked || S.show) || state.ans == null) return '';
+    const open = state.ok === null;
+    if(S.show || open) return `<div class="gr-ans" dir="ltr">${open ? '💡 ' : '✓ '}${esc(state.ans)}</div>`;
+    return state.ok ? '' : `<div class="gr-ans bad" dir="ltr">✓ ${esc(state.ans)}</div>`; };
+  let html = '';
+  (L.pre || []).forEach(([kind, v]) => {
+    if(kind === 'box') html += `<div class="gx-box">${v.map(c => `<span>${esc(c)}</span>`).join('')}</div>`;
+    else if(kind === 'fig') html += FIGS(v);
+    else html += `<div class="gx-row gx-pre">${rowHTML(v, null, {sub: '', j: 0, state: {slots: {}}})}</div>`;
+  });
+  const used = new Set();
+  html += `<div class="gx-cols">${(L.cols || []).map(c => `<div class="gx-col ${c.kind === 'l' ? 'gx-lc' : ''}" style="flex:1 1 ${Math.round(c.w * 1.3)}px">${c.i.map(it => {
+    const k = c.kind === 'n' ? it.k : null; if(k != null) used.add(String(k));
+    const state = k != null ? itemState(e, S, k) : {slots: {}}, ctx = {sub: '', j: 0, state};
+    // book lines flow together (wraps naturally on phones); sub-items, dialogue turns and table-like lines stay on their own line
+    const brk = r => !r.length || r[0][0] === 'l' || r.some(x => x[0] === 's') || (r[0][0] === 't' && /^\s*([A-Za-z]{1,6}:|[–—-]\s)/.test(r[0][1]));
+    const lines = []; it.r.forEach((r, i) => { if(i && !brk(r) && !it.r[i - 1].some(x => x[0] === 's')) lines[lines.length - 1].push(['t', ' ', ''], ...r); else lines.push(r.slice()); });
+    let rows = lines.map(r => `<div class="gx-row">${rowHTML(r, k, ctx)}</div>`).join('');
+    if(k != null && keyOf(e, k) != null && !(M[k] && M[k].groups.length)){ const key = `${k}||x`, r = state.slots[key]; rows += `<div class="gx-row">${inp(key, 260, checked && r != null ? (r ? 'ok' : 'bad') : '')}</div>`; }
+    return `<div class="gx-it ${checked && state.ok != null ? (state.ok ? 'ok' : 'bad') : ''}"><b class="gr-no ${c.kind === 'l' ? 'gx-ln' : ''}">${esc(it.k)}</b><div class="gx-tx">${it.f && it.f.length ? it.f.map(FIGS).join('') : ''}${rows}${k != null ? fbk(k, state) : ''}</div></div>`;
+  }).join('')}</div>`).join('')}</div>`;
+  const rest = e.key.filter(([k]) => !used.has(String(k)));
+  if(rest.length) html += `<div class="gr-grid">${rest.map(([k, a]) => { const key = `${k}||x`, state = itemState(e, S, String(k)), r = state.slots[key];
+    return `<label class="gr-cell"><b class="gr-no">${esc(String(k))}</b>${isOpen(e, a) ? `<textarea class="gr-in gr-ta" dir="ltr" data-gx="${esc(id)}" data-k="${esc(key)}" rows="2">${esc(S.v[key] || '')}</textarea>` : inp(key, 200, checked && r != null ? (r ? 'ok' : 'bad') : '')}${fbk(String(k), state)}</label>`; }).join('')}</div>`;
+  return html;
+}
+ACT.grOpt = el => { const id = el.dataset.id, S = ST(id); grab(id); S.v[el.dataset.k] = S.v[el.dataset.k] === el.dataset.o ? '' : el.dataset.o; keepY(() => VY.rerender()); };
 function gather(S, k, a){ const parts = String(a).split(/\s*…\s*/); if(S.v[k] != null) return S.v[k]; if(parts.length > 1) return parts.map((_, j) => S.v[k + '.' + j] || '').join(' '); return ''; }
-function score(e, S){ let s = 0, tot = 0; e.key.forEach(([k, a]) => { if(isOpen(e, a)) return; tot++; if(correct(gather(S, String(k), a), a)) s++; }); return {score: s, total: tot}; }
+function score(e, S){ if(e.L){ let s = 0, tot = 0; e.key.forEach(([k]) => { const r = itemState(e, S, String(k)); if(r.ok === null) return; tot++; if(r.ok) s++; }); return {score: s, total: tot}; }
+  let s = 0, tot = 0; e.key.forEach(([k, a]) => { if(isOpen(e, a)) return; tot++; if(correct(gather(S, String(k), a), a)) s++; }); return {score: s, total: tot}; }
 const findEx = id => { const D = G(); if(!D) return null; if(id.startsWith('add')) return D.add.find(x => 'add' + x.no === id); for(const u of D.units){ const e = u.exs.find(x => x.no === id); if(e) return e; } return null; };
 const grab = id => document.querySelectorAll(`[data-gx="${CSS.escape(id)}"]`).forEach(el => { ST(id).v[el.dataset.k] = el.value; });
 ACT.grCheck = el => { const id = el.dataset.id, e = findEx(id); if(!e) return; grab(id); const S = ST(id); S.checked = true; const sc = score(e, S);
@@ -123,12 +238,26 @@ function unitView(un, tab){
   <div class="mt16">${tab === 'ex' ? exercisesView(u) : lessonView(u, S)}</div>
   <div class="row between wrap mt16" style="gap:8px">${tab === 'lesson' ? `<a class="btn btn-primary" href="#/grammar/u/${u.n}/ex">✏️ ${t('grGoEx')} ${icon('arrow')}</a>` : `<a class="btn btn-ghost" href="#/grammar/u/${u.n}">📖 ${t('grLesson')}</a>`}${next ? `<a class="btn btn-soft" href="#/grammar/u/${next.n}">${t('irUnit')} ${n(next.n)} ${icon('arrow')}</a>` : ''}</div>`;
 }
+function tblHTML(x){
+  const ls = String(x).split('\n'), rows = ls.map(l => l.trim() ? l.trim().split(/\s{2,}/) : null);
+  const cells = rows.filter(Boolean), nc = Math.max(...cells.map(r => r.length));
+  if(cells.length && nc > 1 && cells.filter(r => r.length === nc).length >= cells.length * .6)
+    return `<div class="gr-tw"><table class="gr-tbl">${rows.map(r => r ? `<tr>${r.map((c, i) => `<td${r.length < nc && i === r.length - 1 ? ` colspan="${nc - r.length + 1}"` : ''}>${esc(c)}</td>`).join('')}</tr>` : `<tr class="gr-tsp"><td colspan="${nc}"></td></tr>`).join('')}</table></div>`;
+  return `<pre class="gr-pre">${esc(x)}</pre>`;
+}
+const rich = r => r.map(([x, f]) => f ? `<span class="${f.split('').map(c => 'gx-' + c).join(' ')}">${esc(x)}</span>` : esc(x)).join('');
+function lessonBlock(b, S){
+  const tr = S.fa && b.fa ? `<div class="gr-fa" dir="rtl">${esc(b.fa)}</div>` : '';
+  if(b.t === 'fig') return FIGS(b.f);
+  if(b.t === 'tbl') return tblHTML(b.x);
+  if(b.t === 'tb') return `<div class="gr-tw ${b.box ? 'box' : ''}"><table class="gr-tbl">${b.rows.map(r => `<tr>${r.map(c => `<td>${rich(c)}</td>`).join('')}</tr>`).join('')}</table></div>`;
+  if(b.t === 'ex') return `<div class="gr-eg"><span class="gr-dot">▸</span><div style="flex:1;min-width:0">${b.r ? b.r.map(l => `<div>${rich(l)}</div>`).join('') : `<span>${esc(b.x)}</span>`}${tr}</div><button class="speak sm" data-act="speak" data-text="${esc(b.x)}" aria-label="speak">${icon('volume')}</button></div>`;
+  return `<p class="gr-p">${b.r ? rich(b.r) : esc(b.x)}${tr}</p>`;
+}
 function lessonView(u, S){
   const hasFa = u.secs.some(s => s.b.some(b => b.fa));
   return `<div class="row between wrap mb12" style="gap:8px"><span class="small muted">📖 ${t('grLessonHint')}</span>${hasFa ? `<button class="btn btn-ghost btn-sm" data-act="grFa" data-u="${u.n}">${S.fa ? '✓ ' : ''}فا · ${t('translation')}</button>` : ''}</div>
-  ${u.secs.map(s => `<div class="card gr-sec"><div class="gr-sl">${esc(s.l)}</div><div class="gr-sb en" dir="ltr">${s.b.map(b => b.t === 'tbl' ? `<pre class="gr-pre">${esc(b.x)}</pre>`
-    : b.t === 'ex' ? `<div class="gr-eg"><span class="gr-dot">▸</span><div style="flex:1;min-width:0"><span>${esc(b.x)}</span>${S.fa && b.fa ? `<div class="gr-fa" dir="rtl">${esc(b.fa)}</div>` : ''}</div><button class="speak sm" data-act="speak" data-text="${esc(b.x)}" aria-label="speak">${icon('volume')}</button></div>`
-    : `<p class="gr-p">${esc(b.x)}${S.fa && b.fa ? `<span class="gr-fa" dir="rtl">${esc(b.fa)}</span>` : ''}</p>`).join('')}</div></div>`).join('')}
+  ${u.secs.map(s => `<div class="card gr-sec"><div class="gr-sl">${esc(s.l)}</div><div class="gr-sb en" dir="ltr">${s.b.map(b => lessonBlock(b, S)).join('')}</div></div>`).join('')}
   ${u.refs && u.refs.length ? `<div class="card gr-refs"><b>🔗 ${t('grSee')}</b>${u.refs.map(([a, b]) => { const m = String(b).match(/Units?\s+(\d+)/); return `<div class="small en" dir="ltr">${m ? `<a href="#/grammar/u/${m[1]}">${esc(a)} → ${esc(b)}</a>` : esc(a + ' → ' + b)}</div>`; }).join('')}</div>` : ''}`;
 }
 ACT.grFa = el => { const S = VY.GRS['u' + el.dataset.u]; S.fa = !S.fa; keepY(() => VY.rerender()); };

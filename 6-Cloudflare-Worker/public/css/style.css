@@ -913,3 +913,45 @@ input.gr-in{width:11em}
 .sec-hero.vi1{background:linear-gradient(135deg,#8E7CF0,#5A45C8);color:#fff}
 .sec-hero.vi2{background:linear-gradient(135deg,#E87FB0,#B23F78);color:#fff}
 .sec-hero.gr-hero h2,.sec-hero.vi1 h2,.sec-hero.vi2 h2{color:#fff}
+
+/* v3.3.1 grammar: book-faithful exercises + pictures, overflow fixes */
+.gr-sec,.gr-sb,.gr-body,.gr-ex,.gx-tx,.gx-col{min-width:0;max-width:100%}
+@media (max-width:640px){.gr-sec{align-items:stretch}.gr-sb{width:100%}}
+.gr-tw{overflow-x:auto;max-width:100%;margin:8px 0;border-radius:10px;background:var(--bg2)}
+.gr-tbl{border-collapse:collapse;font-size:calc(13.5px*var(--fs,1));line-height:1.6}
+.gr-tbl td{padding:3px 12px;vertical-align:top;white-space:normal;overflow-wrap:normal;word-break:normal}
+.gr-tbl .gr-tsp td{height:6px;padding:0}
+.gx-figs{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0;justify-content:flex-start}
+.gx-fig{max-width:100%;height:auto;border-radius:6px;background:#fff;cursor:zoom-in;display:block}
+.gx-zoom{position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.85);display:flex;align-items:center;justify-content:center;padding:12px;cursor:zoom-out}
+.gx-zoom img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;background:#fff;border-radius:8px;image-rendering:auto}
+@media (orientation:portrait){.gx-zoom img{width:100%}}
+.gx-box{display:inline-flex;flex-wrap:wrap;gap:6px 14px;padding:8px 14px;margin:6px 0 10px;border:1.5px solid #E8C468;border-radius:12px;font-weight:700;max-width:100%}
+.gx-cols{display:flex;flex-wrap:wrap;gap:4px 22px}
+.gx-col{flex:1 1 300px}
+.gx-it{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:1px dashed var(--border)}
+.gx-col .gx-it:last-child{border-bottom:0}
+.gx-it.ok{background:color-mix(in srgb,var(--green,#22a06b) 7%,transparent)}.gx-it.bad{background:color-mix(in srgb,var(--red,#e5484d) 6%,transparent)}
+.gx-it .gr-no{color:#2BA9A3;margin-top:4px}
+.gx-ln{background:transparent!important;color:#2BA9A3}
+.gx-row{line-height:2.25;overflow-wrap:anywhere}
+.gx-pre{margin:2px 0}
+.gx-s{display:inline-block}
+.gx-sub{color:#2BA9A3;margin-inline-end:6px}
+.gx-b{font-weight:700}.gx-i{font-style:italic}.gx-u{text-decoration:underline;text-underline-offset:3px}.gx-x{text-decoration:line-through}.gx-c{color:#2BA9A3}
+.gx-h{display:inline-block;font-family:"Comic Sans MS","Segoe Print","Bradley Hand",cursive;color:#3857A7;border-bottom:1.5px dotted #556;padding:0 4px;line-height:1.5;margin:0 2px}
+.gx-dots{display:inline-block;max-width:100%;border-bottom:1.5px dotted #556;height:1.1em;vertical-align:baseline;margin:0 2px}
+input.gr-in.gx-in{max-width:100%;border:0;border-bottom:2px dotted #6b7280;border-radius:4px 4px 0 0;background:color-mix(in srgb,var(--primary) 5%,transparent);padding:1px 6px;margin:0 3px;line-height:1.5;vertical-align:baseline}
+input.gr-in.gx-in:focus{border-bottom-color:var(--primary);background:color-mix(in srgb,var(--primary) 10%,transparent)}
+input.gr-in.gx-in.ok{border-bottom-color:var(--green,#22a06b);background:color-mix(in srgb,var(--green,#22a06b) 14%,transparent)}
+input.gr-in.gx-in.bad{border-bottom-color:var(--red,#e5484d);background:color-mix(in srgb,var(--red,#e5484d) 12%,transparent)}
+.gx-ch{display:inline-flex;flex-wrap:wrap;align-items:center;gap:2px 4px;vertical-align:middle}
+.gx-opt{font:inherit;border:1.5px solid var(--border);background:var(--surface);color:var(--text);border-radius:8px;padding:0 8px;line-height:1.7;cursor:pointer}
+.gx-opt.on{border-color:var(--primary);background:color-mix(in srgb,var(--primary) 14%,var(--surface));font-weight:700}
+.gx-opt.ok{border-color:var(--green,#22a06b);background:color-mix(in srgb,var(--green,#22a06b) 16%,var(--surface))}
+.gx-opt.bad{border-color:var(--red,#e5484d);background:color-mix(in srgb,var(--red,#e5484d) 12%,var(--surface))}
+.gx-sl{color:var(--muted)}
+.gx-h,.gx-dots,input.gr-in.gx-in{max-width:100%;box-sizing:border-box}
+.gr-tw.box{background:transparent;border:1.5px solid #F5C04A;display:inline-block;max-width:100%}
+.gr-p .gx-b,.gr-eg .gx-b,.gr-tbl .gx-b{font-weight:800}
+.gr-p{font-weight:400}
