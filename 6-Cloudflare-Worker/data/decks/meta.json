@@ -389,5 +389,243 @@
     ""
    ]
   ]
+ },
+ "vi1": {
+  "sort": 10,
+  "icon": "🎓",
+  "section": "ielts",
+  "name": {
+   "en": "Cambridge Vocabulary for IELTS",
+   "fa": "Cambridge Vocabulary for IELTS (متوسط)"
+  },
+  "short": {
+   "en": "Vocabulary for IELTS",
+   "fa": "Vocabulary for IELTS"
+  },
+  "about": {
+   "en": "Cambridge Vocabulary for IELTS by Pauline Cullen (Intermediate, band 5–6.5): 25 units on IELTS topics with exercises, readings and test practice, 5 tests, the answer key, recording scripts and the wordlist of every unit.",
+   "fa": "کتاب Cambridge Vocabulary for IELTS اثر Pauline Cullen (سطح متوسط، باند ۵ تا ۶٫۵): ۲۵ یونیت با موضوعات آیلتس همراه با تمرین، متن و Test practice، ۵ آزمون، پاسخ‌نامه، متن فایل‌های صوتی و فهرست لغات هر یونیت."
+  },
+  "levels": [
+   [
+    "Unit 1 · Growing up",
+    "یونیت ۱ · بزرگ شدن",
+    ""
+   ],
+   [
+    "Unit 2 · Mental and physical development",
+    "یونیت ۲ · رشد ذهنی و جسمی",
+    ""
+   ],
+   [
+    "Unit 3 · Keeping fit",
+    "یونیت ۳ · تناسب اندام",
+    ""
+   ],
+   [
+    "Unit 4 · Lifestyles",
+    "یونیت ۴ · سبک‌های زندگی",
+    ""
+   ],
+   [
+    "Unit 5 · Student life",
+    "یونیت ۵ · زندگی دانشجویی",
+    ""
+   ],
+   [
+    "Unit 6 · Effective communication",
+    "یونیت ۶ · ارتباط مؤثر",
+    ""
+   ],
+   [
+    "Unit 7 · On the move",
+    "یونیت ۷ · در سفر",
+    ""
+   ],
+   [
+    "Unit 8 · Through the ages",
+    "یونیت ۸ · در گذر زمان",
+    ""
+   ],
+   [
+    "Unit 9 · The natural world",
+    "یونیت ۹ · جهان طبیعی",
+    ""
+   ],
+   [
+    "Unit 10 · Reaching for the skies",
+    "یونیت ۱۰ · رسیدن به آسمان‌ها",
+    ""
+   ],
+   [
+    "Unit 11 · Design and innovation",
+    "یونیت ۱۱ · طراحی و نوآوری",
+    ""
+   ],
+   [
+    "Unit 12 · Information technology",
+    "یونیت ۱۲ · فناوری اطلاعات",
+    ""
+   ],
+   [
+    "Unit 13 · The modern world",
+    "یونیت ۱۳ · دنیای مدرن",
+    ""
+   ],
+   [
+    "Unit 14 · Urbanisation",
+    "یونیت ۱۴ · شهرنشینی",
+    ""
+   ],
+   [
+    "Unit 15 · The green revolution",
+    "یونیت ۱۵ · انقلاب سبز",
+    ""
+   ],
+   [
+    "Unit 16 · The energy crisis",
+    "یونیت ۱۶ · بحران انرژی",
+    ""
+   ],
+   [
+    "Unit 17 · Talking business",
+    "یونیت ۱۷ · گفت‌وگوی تجاری",
+    ""
+   ],
+   [
+    "Unit 18 · The law",
+    "یونیت ۱۸ · قانون",
+    ""
+   ],
+   [
+    "Unit 19 · The media",
+    "یونیت ۱۹ · رسانه‌ها",
+    ""
+   ],
+   [
+    "Unit 20 · The arts",
+    "یونیت ۲۰ · هنرها",
+    ""
+   ]
+  ]
+ },
+ "vi2": {
+  "sort": 11,
+  "icon": "🏅",
+  "section": "ielts",
+  "name": {
+   "en": "Cambridge Vocabulary for IELTS Advanced",
+   "fa": "Cambridge Vocabulary for IELTS Advanced (پیشرفته)"
+  },
+  "short": {
+   "en": "Vocabulary for IELTS Advanced",
+   "fa": "Vocabulary for IELTS Advanced"
+  },
+  "about": {
+   "en": "Cambridge Vocabulary for IELTS Advanced by Pauline Cullen (band 6.5 and above): 25 units with exercises, readings and test practice, 5 tests, the answer key, recording scripts and the wordlist of every unit.",
+   "fa": "کتاب Cambridge Vocabulary for IELTS Advanced اثر Pauline Cullen (باند ۶٫۵ به بالا): ۲۵ یونیت همراه با تمرین، متن و Test practice، ۵ آزمون، پاسخ‌نامه، متن فایل‌های صوتی و فهرست لغات هر یونیت."
+  },
+  "levels": [
+   [
+    "Unit 1 · Human nature",
+    "یونیت ۱ · طبیعت انسان",
+    ""
+   ],
+   [
+    "Unit 2 · Time for a change",
+    "یونیت ۲ · زمان تغییر",
+    ""
+   ],
+   [
+    "Unit 3 · No man is an island",
+    "یونیت ۳ · هیچ انسانی جزیره نیست",
+    ""
+   ],
+   [
+    "Unit 4 · Scientific discovery",
+    "یونیت ۴ · کشف علمی",
+    ""
+   ],
+   [
+    "Unit 5 · Striving to achieve",
+    "یونیت ۵ · تلاش برای موفقیت",
+    ""
+   ],
+   [
+    "Unit 6 · Powers of persuasion",
+    "یونیت ۶ · قدرت متقاعدسازی",
+    ""
+   ],
+   [
+    "Unit 7 · Ways and means",
+    "یونیت ۷ · راه‌ها و وسایل",
+    ""
+   ],
+   [
+    "Unit 8 · State control",
+    "یونیت ۸ · کنترل دولتی",
+    ""
+   ],
+   [
+    "Unit 9 · Natural history",
+    "یونیت ۹ · تاریخ طبیعی",
+    ""
+   ],
+   [
+    "Unit 10 · Rocket science",
+    "یونیت ۱۰ · علم موشک",
+    ""
+   ],
+   [
+    "Unit 11 · Progress",
+    "یونیت ۱۱ · پیشرفت",
+    ""
+   ],
+   [
+    "Unit 12 · The latest thing",
+    "یونیت ۱۲ · جدیدترین مُد",
+    ""
+   ],
+   [
+    "Unit 13 · Urban jungle",
+    "یونیت ۱۳ · جنگل شهری",
+    ""
+   ],
+   [
+    "Unit 14 · Tackling issues",
+    "یونیت ۱۴ · مقابله با مسائل",
+    ""
+   ],
+   [
+    "Unit 15 · This Earth",
+    "یونیت ۱۵ · این کرهٔ زمین",
+    ""
+   ],
+   [
+    "Unit 16 · Energy efficient",
+    "یونیت ۱۶ · بهره‌وری انرژی",
+    ""
+   ],
+   [
+    "Unit 17 · Getting down to business",
+    "یونیت ۱۷ · سر اصل مطلب در کسب‌وکار",
+    ""
+   ],
+   [
+    "Unit 18 · Law enforcement",
+    "یونیت ۱۸ · اجرای قانون",
+    ""
+   ],
+   [
+    "Unit 19 · The media",
+    "یونیت ۱۹ · رسانه‌ها",
+    ""
+   ],
+   [
+    "Unit 20 · A matter of taste",
+    "یونیت ۲۰ · مسئلهٔ سلیقه",
+    ""
+   ]
+  ]
  }
 }

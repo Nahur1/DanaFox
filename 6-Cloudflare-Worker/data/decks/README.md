@@ -11,12 +11,16 @@ and its words are split into **its own categories** (levels). Never merge a file
 | `ir0.json` | `reading` | اینساید ریدینگ اینترو (Inside Reading Intro) | Unit 1–10 |
 | `ir1.json` | `reading` | اینساید ریدینگ ۱ (Inside Reading 1) | Unit 1–10 |
 | `ir2.json` | `reading` | اینساید ریدینگ ۲ (Inside Reading 2) | Unit 1–10 |
+| `vi1.json` | `ielts` (Learn → IELTS tab) | Cambridge Vocabulary for IELTS (Intermediate) | Unit 1–20 |
+| `vi2.json` | `ielts` (Learn → IELTS tab) | Cambridge Vocabulary for IELTS Advanced | Unit 1–20 |
 | `listening.json` | `listening` | ۱۲۰۰ لغت پرتکرار لیسنینگ آیلتس | 27 topics |
 
 UI: `#/reading` (tabs: passages · each reading deck) and `#/listening` (tabs: each listening deck);
 route of a deck = `#/<section>/@<deck-id>`.
 Books with passages & exercises (Inside Reading `ir0`–`ir2`) also have `public/js/inside_data.js` (lazy-loaded by `public/js/inside.js`):
 book → units (`#/reading/@ir1/3`) → 2 readings (True/False) · exercises with answer key · the unit's target-word deck.
+IELTS vocabulary books (`vi1`, `vi2`) have `public/js/vbooks_data.js` (lazy-loaded by `public/js/vbooks.js`): `#/learn/ielts/@vi1` → units/tests (`/u3`, `/t2`) with page scans (`public/bp/<id>/NNN.webp`, online only, not bundled in apps) + OCR text (offline), answer key, recording scripts and unit word deck.
+Grammar (English Grammar in Use, not a word deck): `public/js/grammar_data.js` + `public/js/grammar.js`, route `#/grammar`.
 Seed only new decks with `python3 scripts/build_decks.py --migrate N --only id1,id2` (never rewrite applied migrations). A new section (e.g. `writing`) needs a view like `V.listening` in `public/js/ui.js`.
 
 Add a file: write `data/decks/<id>.json` + an entry in `meta.json`, then

@@ -1,0 +1,4102 @@
+{
+ "cat": "vi2",
+ "words": [
+  {
+   "id": "vi2:adolescent",
+   "word": "adolescent",
+   "pos": "n",
+   "fa": "نوجوان",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "It found that adolescents saw being popular and being well-liked as two very different things, and that young people may not see popularity as a desirable trait."
+   ]
+  },
+  {
+   "id": "vi2:characteristic",
+   "word": "characteristic",
+   "pos": "n",
+   "fa": "ویژگی",
+   "def_": "a typical quality",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:trait",
+   "word": "trait",
+   "pos": "n",
+   "fa": "ویژگی، خصیصه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "It found that adolescents saw being popular and being well-liked as two very different things, and that young people may not see popularity as a desirable trait."
+   ]
+  },
+  {
+   "id": "vi2:apprehensive",
+   "word": "apprehensive",
+   "pos": "adj",
+   "fa": "نگران، بیمناک",
+   "def_": "anxious about the future",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:assertive",
+   "word": "assertive",
+   "pos": "adj",
+   "fa": "قاطع، با اعتمادبه‌نفس",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:clumsy",
+   "word": "clumsy",
+   "pos": "adj",
+   "fa": "دست‌وپاچلفتی",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:cynical",
+   "word": "cynical",
+   "pos": "adj",
+   "fa": "بدبین، بدگمان",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:desirable",
+   "word": "desirable",
+   "pos": "adj",
+   "fa": "مطلوب، دلخواه",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "It found that adolescents saw being popular and being well-liked as two very different things, and that young people may not see popularity as a desirable trait."
+   ]
+  },
+  {
+   "id": "vi2:eccentric",
+   "word": "eccentric",
+   "pos": "adj",
+   "fa": "عجیب‌وغریب، غیرعادی",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:egotistical",
+   "word": "egotistical",
+   "pos": "adj",
+   "fa": "خودخواه، خودبزرگ‌بین",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:gullible",
+   "word": "gullible",
+   "pos": "adj",
+   "fa": "زودباور، ساده‌لوح",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:idealised",
+   "word": "idealised",
+   "pos": "adj",
+   "fa": "آرمانی‌شده",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:inconsiderate",
+   "word": "inconsiderate",
+   "pos": "adj",
+   "fa": "بی‌ملاحظه",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:indecisive",
+   "word": "indecisive",
+   "pos": "adj",
+   "fa": "دودل، بی‌اراده",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:self-assured",
+   "word": "self-assured",
+   "pos": "adj",
+   "fa": "با اعتمادبه‌نفس",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:self-absorbed",
+   "word": "self-absorbed",
+   "pos": "adj",
+   "fa": "خودشیفته، غرق در خود",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:self-centred",
+   "word": "self-centred",
+   "pos": "adj",
+   "fa": "خودمحور",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:self-congratulatory",
+   "word": "self-congratulatory",
+   "pos": "adj",
+   "fa": "از خود راضی",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:self-deprecating",
+   "word": "self-deprecating",
+   "pos": "adj",
+   "fa": "فروتن (تحقیرکنندهٔ خود)",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:self-important",
+   "word": "self-important",
+   "pos": "adj",
+   "fa": "خودبزرگ‌بین",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:tactful",
+   "word": "tactful",
+   "pos": "adj",
+   "fa": "باملاحظه، سنجیده",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:well-adjusted",
+   "word": "well-adjusted",
+   "pos": "adj",
+   "fa": "متعادل (از نظر روانی)",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:well-bred",
+   "word": "well-bred",
+   "pos": "adj",
+   "fa": "بااصالت، مؤدب",
+   "def_": "",
+   "level": 1,
+   "exs": [
+    "According to Ms Hawke, students who are well-liked tend to mix with others who are well-liked."
+   ]
+  },
+  {
+   "id": "vi2:well-brought-up",
+   "word": "well-brought-up",
+   "pos": "adj",
+   "fa": "خوب تربیت‌شده",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:well-dressed",
+   "word": "well-dressed",
+   "pos": "adj",
+   "fa": "خوش‌پوش",
+   "def_": "",
+   "level": 1,
+   "exs": []
+  },
+  {
+   "id": "vi2:era",
+   "word": "era",
+   "pos": "n",
+   "fa": "دوره، عصر",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Analyses have revealed decorative patterns indicating that at least some of the now-faded Hopewell-era textiles had been coloured."
+   ]
+  },
+  {
+   "id": "vi2:evolution",
+   "word": "evolution",
+   "pos": "n",
+   "fa": "تکامل",
+   "def_": "/ˌevəˈluːʃn/ · gradual development",
+   "level": 2,
+   "exs": [
+    "But it is a necessary part of our evolution. 6 Weare slowly witnessing a movement in favour of surveillance."
+   ]
+  },
+  {
+   "id": "vi2:finds",
+   "word": "finds",
+   "pos": "n",
+   "fa": "یافته‌ها (اشیای کشف‌شده)",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:pioneer",
+   "word": "pioneer",
+   "pos": "n",
+   "fa": "پیشگام",
+   "def_": "≈ trailblazer, innovator — Cambridge 9 · Test 3 · Passage 1: The History of the Telegraph | Cambridge 13 · Test 1 · Passage 3: The Art of Photography",
+   "level": 2,
+   "exs": [
+    "He is a pioneer in the use of analytical-chemical techniques for the study of archaeological materials."
+   ]
+  },
+  {
+   "id": "vi2:remnants",
+   "word": "remnants",
+   "pos": "n",
+   "fa": "باقی‌مانده‌ها",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Remnants of the past In a museum laboratory, Irene Good is studying pieces of silk from long-lost cloth found at archaeological sites in western Europe and central and south Asia."
+   ]
+  },
+  {
+   "id": "vi2:retrospect",
+   "word": "retrospect",
+   "pos": "n",
+   "fa": "نگاه به گذشته",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:status-quo",
+   "word": "status quo",
+   "pos": "n",
+   "fa": "وضع موجود",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:transition",
+   "word": "transition",
+   "pos": "n",
+   "fa": "گذار، انتقال",
+   "def_": "/trænˈzɪʃn/ · change",
+   "level": 2,
+   "exs": [
+    "Then complete the sentences with erbig-change adjectives from the box. smooth gradual turbulent abrupt sudden rapid temporary Everyone was grateful that there had been a very transition between governments."
+   ]
+  },
+  {
+   "id": "vi2:trend",
+   "word": "trend",
+   "pos": "n",
+   "fa": "روند",
+   "def_": "a general direction of change",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:abrupt",
+   "word": "abrupt",
+   "pos": "adj",
+   "fa": "ناگهانی، یکباره",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Then complete the sentences with erbig-change adjectives from the box. smooth gradual turbulent abrupt sudden rapid temporary Everyone was grateful that there had been a very transition between governments."
+   ]
+  },
+  {
+   "id": "vi2:bygone",
+   "word": "bygone",
+   "pos": "adj",
+   "fa": "گذشته، سپری‌شده",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:fleeting",
+   "word": "fleeting",
+   "pos": "adj",
+   "fa": "زودگذر",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:immense",
+   "word": "immense",
+   "pos": "adj",
+   "fa": "عظیم، بی‌کران",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:infinitesimal",
+   "word": "infinitesimal",
+   "pos": "adj",
+   "fa": "بی‌نهایت کوچک",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:moderate",
+   "word": "moderate",
+   "pos": "adj",
+   "fa": "معتدل، متوسط",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:periodic",
+   "word": "periodic",
+   "pos": "adj",
+   "fa": "دوره‌ای",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "In contrast, there was a marked difference in the price of fresh fruits and vegetables, which, despite $ fluctuations, rose 7___EE _ throughout this period."
+   ]
+  },
+  {
+   "id": "vi2:preceding",
+   "word": "preceding",
+   "pos": "adj",
+   "fa": "قبلی، پیشین",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:prehistoric",
+   "word": "prehistoric",
+   "pos": "adj",
+   "fa": "ماقبل تاریخ",
+   "def_": "before written history",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:profound",
+   "word": "profound",
+   "pos": "adj",
+   "fa": "عمیق",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:rapid",
+   "word": "rapid",
+   "pos": "adj",
+   "fa": "سریع",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Then complete the sentences with erbig-change adjectives from the box. smooth gradual turbulent abrupt sudden rapid temporary Everyone was grateful that there had been a very transition between governments."
+   ]
+  },
+  {
+   "id": "vi2:topical",
+   "word": "topical",
+   "pos": "adj",
+   "fa": "مرتبط با رویدادهای روز",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:tremendous",
+   "word": "tremendous",
+   "pos": "adj",
+   "fa": "فوق‌العاده، عظیم",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:turbulent",
+   "word": "turbulent",
+   "pos": "adj",
+   "fa": "پرتلاطم",
+   "def_": "",
+   "level": 2,
+   "exs": [
+    "Then complete the sentences with erbig-change adjectives from the box. smooth gradual turbulent abrupt sudden rapid temporary Everyone was grateful that there had been a very transition between governments."
+   ]
+  },
+  {
+   "id": "vi2:pressed-for-time",
+   "word": "pressed for time",
+   "pos": "phr",
+   "fa": "در تنگنای زمانی",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:have-the-time-of-your-life",
+   "word": "have the time of your life",
+   "pos": "phr",
+   "fa": "بهترین اوقات زندگی را گذراندن",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:have-time-on-your-hands",
+   "word": "have time on your hands",
+   "pos": "phr",
+   "fa": "وقت آزاد زیادی داشتن",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:in-next-to-no-time",
+   "word": "in next to no time",
+   "pos": "phr",
+   "fa": "در کمترین زمان",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:in-the-blink-of-an-eye",
+   "word": "in the blink of an eye",
+   "pos": "phr",
+   "fa": "در یک چشم برهم زدن",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:hours-in-the-day",
+   "word": "hours in the day",
+   "pos": "phr",
+   "fa": "ساعت‌های روز",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:time-goes-so-fast",
+   "word": "time goes so fast",
+   "pos": "phr",
+   "fa": "زمان خیلی سریع می‌گذرد",
+   "def_": "",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:excavate",
+   "word": "excavate",
+   "pos": "v",
+   "fa": "کاوش کردن",
+   "def_": "to dig up",
+   "level": 2,
+   "exs": []
+  },
+  {
+   "id": "vi2:behaviour",
+   "word": "behaviour",
+   "pos": "n",
+   "fa": "رفتار",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "The words individuality and behaviour blendin with stand outfrom fitin with are almost always used in the singular, not the plural: 7 . ."
+   ]
+  },
+  {
+   "id": "vi2:demographics",
+   "word": "demographics",
+   "pos": "n",
+   "fa": "آمار جمعیتی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "The market demographics for tattoo services are now skewed heavily toward mainstream customers."
+   ]
+  },
+  {
+   "id": "vi2:heritage",
+   "word": "heritage",
+   "pos": "n",
+   "fa": "میراث فرهنگی",
+   "def_": "≈ tradition, legacy — Cambridge 13 · Test 1 · Passage 1: Tourism & Global Development",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:interaction",
+   "word": "interaction",
+   "pos": "n",
+   "fa": "تعامل",
+   "def_": "communication between people",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:minority",
+   "word": "minority",
+   "pos": "n",
+   "fa": "اقلیت",
+   "def_": "/maɪˈnɒrəti/ · the smaller part of a group · ≠ majority",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:norm",
+   "word": "norm",
+   "pos": "n",
+   "fa": "هنجار، معیار",
+   "def_": "/nɔːrm/ · rule, standard",
+   "level": 3,
+   "exs": [
+    "As time passes, our idea of what is normal changes."
+   ]
+  },
+  {
+   "id": "vi2:peer",
+   "word": "peer",
+   "pos": "n",
+   "fa": "همسال",
+   "def_": "",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:pressure",
+   "word": "pressure",
+   "pos": "n",
+   "fa": "فشار",
+   "def_": "stress caused by demands",
+   "level": 3,
+   "exs": [
+    "Listen to a talk and tick the opinions you hear expressed."
+   ]
+  },
+  {
+   "id": "vi2:segment",
+   "word": "segment",
+   "pos": "n",
+   "fa": "بخش",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "First adopted and flaunted by influential rock stars like the Rolling Stones in the early 1970s, tattooing had, by the late 1980s, become accepted by ever-broader segments of mainstream society."
+   ]
+  },
+  {
+   "id": "vi2:standard",
+   "word": "standard",
+   "pos": "n",
+   "fa": "استاندارد، معیار",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "The words individuality and behaviour blendin with stand outfrom fitin with are almost always used in the singular, not the plural: 7 . ."
+   ]
+  },
+  {
+   "id": "vi2:status",
+   "word": "status",
+   "pos": "n",
+   "fa": "وضعیت، جایگاه",
+   "def_": "/ˈsteɪtəs, ˈstætəs/ · position",
+   "level": 3,
+   "exs": [
+    "Then use them to complete the sentences below. suburban influential skewed status flaunt segment Not everyone dreams of a quiet, life."
+   ]
+  },
+  {
+   "id": "vi2:anti-social",
+   "word": "anti-social",
+   "pos": "adj",
+   "fa": "ضداجتماعی",
+   "def_": "",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:conservative",
+   "word": "conservative",
+   "pos": "adj",
+   "fa": "محافظه‌کار",
+   "def_": "",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:conventional",
+   "word": "conventional",
+   "pos": "adj",
+   "fa": "متعارف، سنتی",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "Conventional people help keep our traditions alive."
+   ]
+  },
+  {
+   "id": "vi2:harmonious",
+   "word": "harmonious",
+   "pos": "adj",
+   "fa": "هماهنگ، موزون",
+   "def_": "",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:influential",
+   "word": "influential",
+   "pos": "adj",
+   "fa": "تأثیرگذار، بانفوذ",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "First adopted and flaunted by influential rock stars like the Rolling Stones in the early 1970s, tattooing had, by the late 1980s, become accepted by ever-broader segments of mainstream society."
+   ]
+  },
+  {
+   "id": "vi2:multicultural",
+   "word": "multicultural",
+   "pos": "adj",
+   "fa": "چندفرهنگی",
+   "def_": "≈ diverse, multiethnic — Cambridge 12 · Test 2 · Passage 3: Global English",
+   "level": 3,
+   "exs": [
+    "Some multicultural societies focus more on developing traditional ways than others."
+   ]
+  },
+  {
+   "id": "vi2:suburban",
+   "word": "suburban",
+   "pos": "adj",
+   "fa": "حومه‌ای",
+   "def_": "≈ outskirt, peripheral — Cambridge 12 · Test 4 · Passage 1: Urban Development & City Design",
+   "level": 3,
+   "exs": [
+    "The single fastest- growing demographic group seeking tattoo services is, to the surprise of many, middle-class suburban women."
+   ]
+  },
+  {
+   "id": "vi2:unconventional",
+   "word": "unconventional",
+   "pos": "adj",
+   "fa": "غیرمتعارف",
+   "def_": "",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:follow-accepted-behaviour",
+   "word": "follow accepted behaviour",
+   "pos": "phr",
+   "fa": "از رفتارهای پذیرفته‌شده پیروی کردن",
+   "def_": "",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:shun-mainstream",
+   "word": "shun mainstream",
+   "pos": "phr",
+   "fa": "از جریان اصلی دوری کردن",
+   "def_": "",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:values",
+   "word": "values",
+   "pos": "phr",
+   "fa": "ارزش‌ها",
+   "def_": "",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:conform",
+   "word": "conform",
+   "pos": "v",
+   "fa": "مطابقت کردن، پیروی کردن",
+   "def_": "/kənˈfɔːrm/ · v., n. · comply; adjust",
+   "level": 3,
+   "exs": [
+    "When people conform, it helps make society more peaceful."
+   ]
+  },
+  {
+   "id": "vi2:exclude",
+   "word": "exclude",
+   "pos": "v",
+   "fa": "حذف کردن، کنار گذاشتن",
+   "def_": "/ɪkˈskluːd/ · leave out, keep out · ≠ include",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:flaunt",
+   "word": "flaunt",
+   "pos": "v",
+   "fa": "به رخ کشیدن، خودنمایی کردن",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "First adopted and flaunted by influential rock stars like the Rolling Stones in the early 1970s, tattooing had, by the late 1980s, become accepted by ever-broader segments of mainstream society."
+   ]
+  },
+  {
+   "id": "vi2:obey",
+   "word": "obey",
+   "pos": "v",
+   "fa": "اطاعت کردن",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "Some people obey social customs without question."
+   ]
+  },
+  {
+   "id": "vi2:skew",
+   "word": "skew",
+   "pos": "v",
+   "fa": "منحرف کردن، تحریف کردن",
+   "def_": "",
+   "level": 3,
+   "exs": [
+    "The market demographics for tattoo services are now skewed heavily toward mainstream customers."
+   ]
+  },
+  {
+   "id": "vi2:capsule",
+   "word": "capsule",
+   "pos": "n",
+   "fa": "کپسول",
+   "def_": "",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:carbon-dioxide",
+   "word": "carbon dioxide",
+   "pos": "n",
+   "fa": "دی‌اکسید کربن",
+   "def_": "",
+   "level": 3,
+   "exs": []
+  },
+  {
+   "id": "vi2:compound",
+   "word": "compound",
+   "pos": "n",
+   "fa": "ترکیب، ماده مرکب",
+   "def_": "/ˈkɑːmpaʊnd/ · combination",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:consequences",
+   "word": "consequences",
+   "pos": "n",
+   "fa": "پیامدها",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:dose",
+   "word": "dose",
+   "pos": "n",
+   "fa": "دوز، مقدار مصرف",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:emissions",
+   "word": "emissions",
+   "pos": "n",
+   "fa": "انتشار گازها",
+   "def_": "≈ discharge, output — Cambridge 11 · Test 4 · Passage 1: Renewable Energy Resources",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:exposure",
+   "word": "exposure",
+   "pos": "n",
+   "fa": "در معرض قرار گرفتن؛ آشکارسازی",
+   "def_": "/ɪkˈspəʊʒər/ · presentation",
+   "level": 4,
+   "exs": [
+    "He asserts that the notion that a single exposure to a chemical mixture automatically places a person into a higher risk category is an “urban myth that has no foundation."
+   ]
+  },
+  {
+   "id": "vi2:food-chain",
+   "word": "food chain",
+   "pos": "n",
+   "fa": "زنجیرهٔ غذایی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "It was also the first time a food company purposely added a medically beneficial ingredient to food to help market that product."
+   ]
+  },
+  {
+   "id": "vi2:infection",
+   "word": "infection",
+   "pos": "n",
+   "fa": "عفونت",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:pesticide",
+   "word": "pesticide",
+   "pos": "n",
+   "fa": "آفت‌کش",
+   "def_": "≈ insecticide, chemical spray — Cambridge 11 · Test 1 · Passage 1: Vertical Farming | Cambridge 15 · Test 2 · Passage 2: Bees and Agriculture",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:protein",
+   "word": "protein",
+   "pos": "n",
+   "fa": "پروتئین",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Soy protein, which can help prevent heart disease, is being added to new breakfast cereals."
+   ]
+  },
+  {
+   "id": "vi2:reaction",
+   "word": "reaction",
+   "pos": "n",
+   "fa": "واکنش",
+   "def_": "/riˈækʃən/ · response",
+   "level": 4,
+   "exs": [
+    "Sometimes these reactions can make a substance more, or less, toxic."
+   ]
+  },
+  {
+   "id": "vi2:side-effects",
+   "word": "side effects",
+   "pos": "n",
+   "fa": "عوارض جانبی",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:bacterial",
+   "word": "bacterial",
+   "pos": "adj",
+   "fa": "باکتریایی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "Major food giants are actively unveiling products overseas, including yogurt with probiotic bacteria, to aid digestion."
+   ]
+  },
+  {
+   "id": "vi2:contagious",
+   "word": "contagious",
+   "pos": "adj",
+   "fa": "واگیردار، مسری",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:contaminated",
+   "word": "contaminated",
+   "pos": "adj",
+   "fa": "آلوده",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:controversial",
+   "word": "controversial",
+   "pos": "adj",
+   "fa": "بحث‌برانگیز",
+   "def_": "causing disagreement",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:crucial",
+   "word": "crucial",
+   "pos": "adj",
+   "fa": "حیاتی، بسیار مهم",
+   "def_": "extremely important",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:essential",
+   "word": "essential",
+   "pos": "adj",
+   "fa": "ضروری",
+   "def_": "absolutely necessary",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:natural",
+   "word": "natural",
+   "pos": "adj",
+   "fa": "طبیعی",
+   "def_": "",
+   "level": 4,
+   "exs": [
+    "The field of medical science is taking an interest in phytochemicals (i.e. chemical * found naturally in plants)."
+   ]
+  },
+  {
+   "id": "vi2:organic",
+   "word": "organic",
+   "pos": "adj",
+   "fa": "ارگانیک، طبیعی",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:petrochemicals",
+   "word": "petrochemicals",
+   "pos": "adj",
+   "fa": "پتروشیمی‌ها",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:absorb",
+   "word": "absorb",
+   "pos": "v",
+   "fa": "جذب کردن",
+   "def_": "to take in a liquid or gas",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:contaminate",
+   "word": "contaminate",
+   "pos": "v",
+   "fa": "آلوده کردن",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:release",
+   "word": "release",
+   "pos": "v",
+   "fa": "آزاد کردن",
+   "def_": "to let go; to set free",
+   "level": 4,
+   "exs": [
+    "They are using nanotechnology to make a a: that will slowly release the medicine."
+   ]
+  },
+  {
+   "id": "vi2:accounting",
+   "word": "accounting",
+   "pos": "n",
+   "fa": "حسابداری",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:apprenticeship",
+   "word": "apprenticeship",
+   "pos": "n",
+   "fa": "دورهٔ کارآموزی، شاگردی",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:conceptualisation",
+   "word": "conceptualisation",
+   "pos": "n",
+   "fa": "مفهوم‌سازی",
+   "def_": "",
+   "level": 4,
+   "exs": []
+  },
+  {
+   "id": "vi2:consistency",
+   "word": "consistency",
+   "pos": "n",
+   "fa": "ثبات، یکنواختی",
+   "def_": "",
+   "level": 5,
+   "exs": []
+  },
+  {
+   "id": "vi2:give-yourself",
+   "word": "give yourself",
+   "pos": "phr",
+   "fa": "به خودت (فرصت) دادن",
+   "def_": "",
+   "level": 5,
+   "exs": []
+  },
+  {
+   "id": "vi2:aim-for",
+   "word": "aim for",
+   "pos": "phr",
+   "fa": "هدف گرفتن، در پی چیزی بودن",
+   "def_": "",
+   "level": 5,
+   "exs": []
+  },
+  {
+   "id": "vi2:monetary",
+   "word": "monetary",
+   "pos": "adj",
+   "fa": "مالی، پولی",
+   "def_": "≈ financial — Cambridge 14 · Test 1 · Passage 3: Workplace Motivation & Productivity",
+   "level": 6,
+   "exs": [
+    "B Janda was not surprised to find that in order to create a relationship, consumers have to perceive it will pay off, monetarily or otherwise."
+   ]
+  },
+  {
+   "id": "vi2:persuasive",
+   "word": "persuasive",
+   "pos": "adj",
+   "fa": "متقاعدکننده",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "In the eighteenth century, in colonial America, advertisements were most frequently announcements of available goods, but even in this early period, persuasive appeals accompanied dry descriptions."
+   ]
+  },
+  {
+   "id": "vi2:promotional",
+   "word": "promotional",
+   "pos": "adj",
+   "fa": "تبلیغاتی",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "The study found that promotional events designed to counter customers’ negative attitudes can significantly enhance the customers’ likelihood of engaging in a long-term relationship with the business."
+   ]
+  },
+  {
+   "id": "vi2:repetitive",
+   "word": "repetitive",
+   "pos": "adj",
+   "fa": "تکراری",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:slick",
+   "word": "slick",
+   "pos": "adj",
+   "fa": "زیرکانه، شیک و حرفه‌ای",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:ubiquitous",
+   "word": "ubiquitous",
+   "pos": "adj",
+   "fa": "همه‌جا حاضر",
+   "def_": "found everywhere",
+   "level": 6,
+   "exs": [
+    "Despite or because of its ubiquity, advertising is not an easy term to define."
+   ]
+  },
+  {
+   "id": "vi2:unavoidable",
+   "word": "unavoidable",
+   "pos": "adj",
+   "fa": "اجتناب‌ناپذیر",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:assure",
+   "word": "assure",
+   "pos": "v",
+   "fa": "اطمینان دادن",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "This can be accomplished by providing assurances thar personal and credit card information is secure."
+   ]
+  },
+  {
+   "id": "vi2:cultivate",
+   "word": "cultivate",
+   "pos": "v",
+   "fa": "کشت کردن، پرورش دادن",
+   "def_": "to grow crops; to develop",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:entice",
+   "word": "entice",
+   "pos": "v",
+   "fa": "وسوسه کردن، ترغیب کردن",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Department stores often use smells and sounds to induce / entice shoppers into their stores."
+   ]
+  },
+  {
+   "id": "vi2:induce",
+   "word": "induce",
+   "pos": "v",
+   "fa": "وادار کردن، القا کردن",
+   "def_": "/ɪnˈduːs/ · persuade, convince",
+   "level": 6,
+   "exs": [
+    "Department stores often use smells and sounds to induce / entice shoppers into their stores."
+   ]
+  },
+  {
+   "id": "vi2:oblige",
+   "word": "oblige",
+   "pos": "v",
+   "fa": "مجبور کردن؛ لطف کردن",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:reassure",
+   "word": "reassure",
+   "pos": "v",
+   "fa": "اطمینان دادن",
+   "def_": "to make someone less worried",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:tempt",
+   "word": "tempt",
+   "pos": "v",
+   "fa": "وسوسه کردن",
+   "def_": "",
+   "level": 6,
+   "exs": [
+    "Usually, advertising attempts to persuade its audience to purchase a product or a service."
+   ]
+  },
+  {
+   "id": "vi2:urge",
+   "word": "urge",
+   "pos": "v",
+   "fa": "ترغیب کردن؛ میل شدید",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:breathtaking",
+   "word": "breathtaking",
+   "pos": "adj",
+   "fa": "نفس‌گیر، خیره‌کننده",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:charming",
+   "word": "charming",
+   "pos": "adj",
+   "fa": "جذاب، دلربا",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:comfortable",
+   "word": "comfortable",
+   "pos": "adj",
+   "fa": "راحت",
+   "def_": "giving physical ease",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:dramatic",
+   "word": "dramatic",
+   "pos": "adj",
+   "fa": "چشمگیر، ناگهانی؛ نمایشی",
+   "def_": "/drəˈmætɪk/ · great and sudden, noticeable",
+   "level": 6,
+   "exs": [
+    "In an era when conventional medicine seldom provided cures, these manufacturers vied for consumer attention with large, often outrageous, promises and colourful, dramatic advertisements."
+   ]
+  },
+  {
+   "id": "vi2:magnificent",
+   "word": "magnificent",
+   "pos": "adj",
+   "fa": "باشکوه",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:memorable",
+   "word": "memorable",
+   "pos": "adj",
+   "fa": "به یاد ماندنی",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:mountainous",
+   "word": "mountainous",
+   "pos": "adj",
+   "fa": "کوهستانی",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:precarious",
+   "word": "precarious",
+   "pos": "adj",
+   "fa": "متزلزل، ناپایدار",
+   "def_": "not secure",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:remote",
+   "word": "remote",
+   "pos": "adj",
+   "fa": "دورافتاده",
+   "def_": "≈ isolated, distant — Cambridge 13 · Test 1 · Passage 1: Tourism & Global Development",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:rustic",
+   "word": "rustic",
+   "pos": "adj",
+   "fa": "روستایی",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:spectacular",
+   "word": "spectacular",
+   "pos": "adj",
+   "fa": "تماشایی، چشمگیر",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:stunning",
+   "word": "stunning",
+   "pos": "adj",
+   "fa": "خیره‌کننده",
+   "def_": "",
+   "level": 6,
+   "exs": []
+  },
+  {
+   "id": "vi2:attract",
+   "word": "attract",
+   "pos": "v",
+   "fa": "جذب کردن",
+   "def_": "to cause to come or be interested",
+   "level": 7,
+   "exs": [
+    "The king was keen to change his country to attract more tourists."
+   ]
+  },
+  {
+   "id": "vi2:damage",
+   "word": "damage",
+   "pos": "v",
+   "fa": "آسیب، خسارت",
+   "def_": "physical harm",
+   "level": 7,
+   "exs": [
+    "The need for a clean water supply and good ’transports / transport takes its toll and inevitably leads to environmental *damage / damages."
+   ]
+  },
+  {
+   "id": "vi2:outweigh",
+   "word": "outweigh",
+   "pos": "v",
+   "fa": "بیشتر بودن (از نظر اهمیت)",
+   "def_": "to be greater than",
+   "level": 7,
+   "exs": []
+  },
+  {
+   "id": "vi2:bureaucrat",
+   "word": "bureaucrat",
+   "pos": "n",
+   "fa": "دیوان‌سالار، کارمند دولت",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:civil-servant",
+   "word": "civil servant",
+   "pos": "n",
+   "fa": "کارمند دولت",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:community",
+   "word": "community",
+   "pos": "n",
+   "fa": "جامعه، اجتماع",
+   "def_": "people living in one area",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:healthcare",
+   "word": "healthcare",
+   "pos": "n",
+   "fa": "مراقبت‌های بهداشتی",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:mayor",
+   "word": "mayor",
+   "pos": "n",
+   "fa": "شهردار",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:member-of-parliament",
+   "word": "member of parliament",
+   "pos": "n",
+   "fa": "نمایندهٔ مجلس",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:military-service",
+   "word": "military service",
+   "pos": "n",
+   "fa": "خدمت سربازی",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:notion",
+   "word": "notion",
+   "pos": "n",
+   "fa": "مفهوم، تصور",
+   "def_": "/ˈnəʊʃn/ · concept",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:old-age-pension",
+   "word": "old-age pension",
+   "pos": "n",
+   "fa": "مستمری بازنشستگی",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:safety-net",
+   "word": "safety net",
+   "pos": "n",
+   "fa": "تور ایمنی (حمایت)",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Alternatively, a welfare state can refer to the creation of a safety net to provide social services such as free childcare."
+   ]
+  },
+  {
+   "id": "vi2:social-services",
+   "word": "social services",
+   "pos": "n",
+   "fa": "خدمات اجتماعی",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "Alternatively, a welfare state can refer to the creation of a safety net to provide social services such as free childcare."
+   ]
+  },
+  {
+   "id": "vi2:state",
+   "word": "state",
+   "pos": "n",
+   "fa": "ایالت؛ دولت؛ وضعیت",
+   "def_": "",
+   "level": 8,
+   "exs": [
+    "There are two main interpretations of the idea of a welfare state."
+   ]
+  },
+  {
+   "id": "vi2:unemployment",
+   "word": "unemployment",
+   "pos": "n",
+   "fa": "بیکاری",
+   "def_": "the state of not having a job",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:benefit",
+   "word": "benefit",
+   "pos": "n",
+   "fa": "سود، فایده",
+   "def_": "a helpful effect",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:leader-of-the-opposition",
+   "word": "leader of the Opposition",
+   "pos": "phr",
+   "fa": "رهبر اپوزیسیون",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:lose-control-of",
+   "word": "lose control of",
+   "pos": "phr",
+   "fa": "کنترل چیزی را از دست دادن",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:means-tested",
+   "word": "means tested",
+   "pos": "phr",
+   "fa": "وابسته به سطح درآمد",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:social-welfare",
+   "word": "social welfare",
+   "pos": "phr",
+   "fa": "رفاه اجتماعی",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:social-well-being",
+   "word": "social well-being",
+   "pos": "phr",
+   "fa": "بهزیستی اجتماعی",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:miscalculate",
+   "word": "miscalculate",
+   "pos": "v",
+   "fa": "اشتباه محاسبه کردن",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:misinform",
+   "word": "misinform",
+   "pos": "v",
+   "fa": "اطلاعات نادرست دادن",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:misdiagnose",
+   "word": "misdiagnose",
+   "pos": "v",
+   "fa": "اشتباه تشخیص دادن",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:mismanage",
+   "word": "mismanage",
+   "pos": "v",
+   "fa": "بد مدیریت کردن",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:misunderstand",
+   "word": "misunderstand",
+   "pos": "v",
+   "fa": "بد فهمیدن",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:misinterpret",
+   "word": "misinterpret",
+   "pos": "v",
+   "fa": "اشتباه تفسیر کردن",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:mislead",
+   "word": "mislead",
+   "pos": "v",
+   "fa": "گمراه کردن",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:misjudge",
+   "word": "misjudge",
+   "pos": "v",
+   "fa": "اشتباه قضاوت کردن",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:mistrust",
+   "word": "mistrust",
+   "pos": "v",
+   "fa": "بی‌اعتمادی",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:subsidise",
+   "word": "subsidise",
+   "pos": "v",
+   "fa": "یارانه دادن",
+   "def_": "",
+   "level": 8,
+   "exs": []
+  },
+  {
+   "id": "vi2:burrow",
+   "word": "burrow",
+   "pos": "n",
+   "fa": "لانه (زیرزمینی)؛ نقب زدن",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:colony",
+   "word": "colony",
+   "pos": "n",
+   "fa": "مستعمره، کلونی",
+   "def_": "a group living together",
+   "level": 9,
+   "exs": [
+    "A colony can solve problems unthinkable to individual ants, such as finding the shortest path to the best food source, allocating workers to different tasks, or defending territory from neighbours."
+   ]
+  },
+  {
+   "id": "vi2:deforestation",
+   "word": "deforestation",
+   "pos": "n",
+   "fa": "جنگل‌زدایی",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:degradation",
+   "word": "degradation",
+   "pos": "n",
+   "fa": "تخریب، تنزل",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:demise",
+   "word": "demise",
+   "pos": "n",
+   "fa": "زوال، مرگ",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "It was the demise of the dinosaurs that let mammals flourish, and humans emerge."
+   ]
+  },
+  {
+   "id": "vi2:devastation",
+   "word": "devastation",
+   "pos": "n",
+   "fa": "ویرانی",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:flooding",
+   "word": "flooding",
+   "pos": "n",
+   "fa": "سیل‌گرفتگی",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:habitat",
+   "word": "habitat",
+   "pos": "n",
+   "fa": "زیستگاه",
+   "def_": "the natural home of an animal or plant",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:harm",
+   "word": "harm",
+   "pos": "n",
+   "fa": "آسیب، ضرر؛ آسیب رساندن",
+   "def_": "/hɑːm/ · damage or injury; to hurt or damage",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:herd",
+   "word": "herd",
+   "pos": "n",
+   "fa": "گله",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:hive",
+   "word": "hive",
+   "pos": "n",
+   "fa": "کندو",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "How do hundreds of honeybees make a critical decision about their hive if many of them disagree?"
+   ]
+  },
+  {
+   "id": "vi2:lifespan",
+   "word": "lifespan",
+   "pos": "n",
+   "fa": "طول عمر",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Their speed of life defies imagination — they have the fastest heartbeat (1,200 per minute) and shortest lifespans (11 to 13 months) of any mammal."
+   ]
+  },
+  {
+   "id": "vi2:pack",
+   "word": "pack",
+   "pos": "n",
+   "fa": "بسته‌بندی کردن؛ گله",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:parasite",
+   "word": "parasite",
+   "pos": "n",
+   "fa": "انگل",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:prey",
+   "word": "prey",
+   "pos": "n",
+   "fa": "طعمه",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "To stay alive, the pygmy shrew has to eat three times its body weight daily, which means capturing a prey every 15 to 30 minutes, day and night."
+   ]
+  },
+  {
+   "id": "vi2:rival",
+   "word": "rival",
+   "pos": "n",
+   "fa": "رقیب",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "But with an estimated 130 species disappearing each day, the world is on the brink of another mass extinction that could rival the one that saw the dinosaurs disappear."
+   ]
+  },
+  {
+   "id": "vi2:swarm",
+   "word": "swarm",
+   "pos": "n",
+   "fa": "دسته (حشرات)، ازدحام",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Swarm theory used to think that ants knew what they were doing."
+   ]
+  },
+  {
+   "id": "vi2:threshold",
+   "word": "threshold",
+   "pos": "n",
+   "fa": "آستانه",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:appalling",
+   "word": "appalling",
+   "pos": "adj",
+   "fa": "وحشتناک، تکان‌دهنده",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:aquatic",
+   "word": "aquatic",
+   "pos": "adj",
+   "fa": "آبزی، آبی",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:hypocritical",
+   "word": "hypocritical",
+   "pos": "adj",
+   "fa": "ریاکارانه",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:impartial",
+   "word": "impartial",
+   "pos": "adj",
+   "fa": "بی‌طرف",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:irresponsible",
+   "word": "irresponsible",
+   "pos": "adj",
+   "fa": "بی‌مسئولیت",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:nocturnal",
+   "word": "nocturnal",
+   "pos": "adj",
+   "fa": "شب‌زی",
+   "def_": "active at night",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:outrageous",
+   "word": "outrageous",
+   "pos": "adj",
+   "fa": "افتضاح، زننده",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:risky",
+   "word": "risky",
+   "pos": "adj",
+   "fa": "پرخطر",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "Environmentalists warn that the record rate of extinction due to human activity is putting the natural systems necessary for our survival at risk."
+   ]
+  },
+  {
+   "id": "vi2:venomous",
+   "word": "venomous",
+   "pos": "adj",
+   "fa": "زهرآگین",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:flourish",
+   "word": "flourish",
+   "pos": "v",
+   "fa": "شکوفا شدن",
+   "def_": "≈ prosper, thrive — Cambridge 9 · Test 1 · Passage 1: William Henry Perkin",
+   "level": 9,
+   "exs": [
+    "It was the demise of the dinosaurs that let mammals flourish, and humans emerge."
+   ]
+  },
+  {
+   "id": "vi2:forage",
+   "word": "forage",
+   "pos": "v",
+   "fa": "جست‌وجوی غذا",
+   "def_": "≈ search, hunt — Cambridge 12 · Test 2 · Passage 1: The Intelligence of Ants",
+   "level": 9,
+   "exs": [
+    "Instead, their brief life is spent foraging."
+   ]
+  },
+  {
+   "id": "vi2:hibernate",
+   "word": "hibernate",
+   "pos": "v",
+   "fa": "به خواب زمستانی رفتن",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "They don't sleep for more than a few minutes at a time and never hibernate."
+   ]
+  },
+  {
+   "id": "vi2:lay",
+   "word": "lay",
+   "pos": "v",
+   "fa": "قرار دادن؛ تخم گذاشتن",
+   "def_": "",
+   "level": 9,
+   "exs": [
+    "The queen plays no role except to lay eggs."
+   ]
+  },
+  {
+   "id": "vi2:poach",
+   "word": "poach",
+   "pos": "v",
+   "fa": "شکار غیرقانونی کردن",
+   "def_": "",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:thrive",
+   "word": "thrive",
+   "pos": "v",
+   "fa": "رشد کردن، شکوفا شدن",
+   "def_": "to grow well",
+   "level": 9,
+   "exs": []
+  },
+  {
+   "id": "vi2:condensation",
+   "word": "condensation",
+   "pos": "n",
+   "fa": "میعان",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:debris",
+   "word": "debris",
+   "pos": "n",
+   "fa": "آوار، تکه‌پاره‌ها",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:eclipse",
+   "word": "eclipse",
+   "pos": "n",
+   "fa": "کسوف یا خسوف؛ تحت‌الشعاع قرار دادن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:evaporation",
+   "word": "evaporation",
+   "pos": "n",
+   "fa": "تبخیر",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:gravity",
+   "word": "gravity",
+   "pos": "n",
+   "fa": "جاذبه",
+   "def_": "the force that pulls objects down",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:harbour",
+   "word": "harbour",
+   "pos": "n",
+   "fa": "بندر؛ در خود جای دادن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:light-year",
+   "word": "light year",
+   "pos": "n",
+   "fa": "سال نوری",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:astronomical",
+   "word": "astronomical",
+   "pos": "adj",
+   "fa": "نجومی",
+   "def_": "≈ celestial, cosmic — Cambridge 10 · Test 1 · Passage 1: The History of Timekeeping",
+   "level": 10,
+   "exs": [
+    "The surface of the planet is covered in colossal / astronomical volcanoes, much larger than any on Earth."
+   ]
+  },
+  {
+   "id": "vi2:climatic",
+   "word": "climatic",
+   "pos": "adj",
+   "fa": "اقلیمی، آب‌وهوایی",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:colossal",
+   "word": "colossal",
+   "pos": "adj",
+   "fa": "عظیم، غول‌پیکر",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "The surface of the planet is covered in colossal / astronomical volcanoes, much larger than any on Earth."
+   ]
+  },
+  {
+   "id": "vi2:fascinating",
+   "word": "fascinating",
+   "pos": "adj",
+   "fa": "جذاب، شگفت‌انگیز",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "I'm fascinated by the idea of life on another planet."
+   ]
+  },
+  {
+   "id": "vi2:immeasurable",
+   "word": "immeasurable",
+   "pos": "adj",
+   "fa": "بی‌اندازه، بی‌حد",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:imperceptible",
+   "word": "imperceptible",
+   "pos": "adj",
+   "fa": "نامحسوس",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "Space programmes require vast / imperceptible sums of money."
+   ]
+  },
+  {
+   "id": "vi2:magnetic",
+   "word": "magnetic",
+   "pos": "adj",
+   "fa": "مغناطیسی",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:minuscule",
+   "word": "minuscule",
+   "pos": "adj",
+   "fa": "بسیار ریز",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:transient",
+   "word": "transient",
+   "pos": "adj",
+   "fa": "گذرا، موقتی",
+   "def_": "",
+   "level": 10,
+   "exs": [
+    "The shooting star was only visible for a very transient / brief period before it disappeared."
+   ]
+  },
+  {
+   "id": "vi2:vast",
+   "word": "vast",
+   "pos": "adj",
+   "fa": "پهناور، وسیع",
+   "def_": "very large",
+   "level": 10,
+   "exs": [
+    "Space programmes require vast / imperceptible sums of money."
+   ]
+  },
+  {
+   "id": "vi2:activate",
+   "word": "activate",
+   "pos": "v",
+   "fa": "فعال کردن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:burst",
+   "word": "burst",
+   "pos": "v",
+   "fa": "ترکیدن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:collide",
+   "word": "collide",
+   "pos": "v",
+   "fa": "برخورد کردن، تصادم کردن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:dilute",
+   "word": "dilute",
+   "pos": "v",
+   "fa": "رقیق کردن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:dissolve",
+   "word": "dissolve",
+   "pos": "v",
+   "fa": "حل شدن، حل کردن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:penetrate",
+   "word": "penetrate",
+   "pos": "v",
+   "fa": "نفوذ کردن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:pierce",
+   "word": "pierce",
+   "pos": "v",
+   "fa": "سوراخ کردن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:reflect",
+   "word": "reflect",
+   "pos": "v",
+   "fa": "بازتاب دادن؛ نشان دادن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:repel",
+   "word": "repel",
+   "pos": "v",
+   "fa": "دفع کردن",
+   "def_": "≈ resist, push away — Cambridge 12 · Test 1 · Passage 1: Cork",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:solidify",
+   "word": "solidify",
+   "pos": "v",
+   "fa": "جامد شدن؛ تحکیم کردن",
+   "def_": "",
+   "level": 10,
+   "exs": []
+  },
+  {
+   "id": "vi2:expense",
+   "word": "expense",
+   "pos": "n",
+   "fa": "هزینه",
+   "def_": "",
+   "level": 11,
+   "exs": []
+  },
+  {
+   "id": "vi2:the-latest-trend",
+   "word": "the latest trend",
+   "pos": "phr",
+   "fa": "جدیدترین مد",
+   "def_": "",
+   "level": 11,
+   "exs": []
+  },
+  {
+   "id": "vi2:traditional-dress",
+   "word": "traditional dress",
+   "pos": "phr",
+   "fa": "لباس سنتی",
+   "def_": "",
+   "level": 11,
+   "exs": []
+  },
+  {
+   "id": "vi2:abandon",
+   "word": "abandon",
+   "pos": "v",
+   "fa": "رها کردن، ترک کردن",
+   "def_": "to leave and never return",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:conserve",
+   "word": "conserve",
+   "pos": "v",
+   "fa": "حفظ کردن، صرفه‌جویی کردن",
+   "def_": "",
+   "level": 12,
+   "exs": [
+    "The US government’s conservation campaign used slogans such as ‘Make economy fashionable lest it become obligatory’ and resulted in an approximate 10% reduction in the production of trash."
+   ]
+  },
+  {
+   "id": "vi2:consume",
+   "word": "consume",
+   "pos": "v",
+   "fa": "مصرف کردن",
+   "def_": "to use or eat",
+   "level": 12,
+   "exs": [
+    "As the United States became the economic leader around the turn of the 20\" century, it also took the lead in consumerism."
+   ]
+  },
+  {
+   "id": "vi2:discard",
+   "word": "discard",
+   "pos": "v",
+   "fa": "دور انداختن",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:dump",
+   "word": "dump",
+   "pos": "v",
+   "fa": "ریختن، تخلیه کردن (زباله)",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:eradicate",
+   "word": "eradicate",
+   "pos": "v",
+   "fa": "ریشه‌کن کردن",
+   "def_": "to destroy completely",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:hoard",
+   "word": "hoard",
+   "pos": "v",
+   "fa": "احتکار کردن، اندوختن",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:maintain",
+   "word": "maintain",
+   "pos": "v",
+   "fa": "حفظ کردن، نگه داشتن",
+   "def_": "to keep in good condition",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:preserve",
+   "word": "preserve",
+   "pos": "v",
+   "fa": "حفظ کردن",
+   "def_": "≈ protect, maintain — Cambridge 10 · Test 4 · Passage 3: The Globalization of English",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:retain",
+   "word": "retain",
+   "pos": "v",
+   "fa": "حفظ کردن، نگه داشتن",
+   "def_": "/rɪˈteɪn/ · keep",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:concrete-jungle",
+   "word": "concrete jungle",
+   "pos": "n",
+   "fa": "جنگل بتنی (شهر شلوغ و بی‌روح)",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:employment",
+   "word": "employment",
+   "pos": "n",
+   "fa": "اشتغال",
+   "def_": "the state of having paid work",
+   "level": 12,
+   "exs": [
+    "During World War Il, consumption rose with increased employment as the United States mobilised for the war."
+   ]
+  },
+  {
+   "id": "vi2:opportunities",
+   "word": "opportunities",
+   "pos": "n",
+   "fa": "فرصت‌ها",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:garbage-collection",
+   "word": "garbage collection",
+   "pos": "n",
+   "fa": "جمع‌آوری زباله",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:high-rise-building",
+   "word": "high-rise building",
+   "pos": "n",
+   "fa": "ساختمان بلندمرتبه",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:housing-estate",
+   "word": "housing estate",
+   "pos": "n",
+   "fa": "مجتمع مسکونی",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:inner-city-slum",
+   "word": "inner-city slum",
+   "pos": "n",
+   "fa": "محلهٔ فقیرنشین درون‌شهری",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:noise-pollution",
+   "word": "noise pollution",
+   "pos": "n",
+   "fa": "آلودگی صوتی",
+   "def_": "≈ sound disturbance — Cambridge 14 · Test 4 · Passage 1: Urban Planning & Green Spaces | Cambridge 15 · Test 4 · Passage 2: Urban Noise & Health Impacts",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:outer-suburbs",
+   "word": "outer suburbs",
+   "pos": "n",
+   "fa": "حومه‌های دوردست",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:sewage-system",
+   "word": "sewage system",
+   "pos": "n",
+   "fa": "سیستم فاضلاب",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:traffic-congestion",
+   "word": "traffic congestion",
+   "pos": "n",
+   "fa": "ترافیک سنگین",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:urban-sprawl",
+   "word": "urban sprawl",
+   "pos": "n",
+   "fa": "گسترش بی‌رویهٔ شهری",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:frantic",
+   "word": "frantic",
+   "pos": "adj",
+   "fa": "دیوانه‌وار، شتاب‌زده",
+   "def_": "",
+   "level": 12,
+   "exs": []
+  },
+  {
+   "id": "vi2:high-rise",
+   "word": "high-rise",
+   "pos": "adj",
+   "fa": "بلندمرتبه",
+   "def_": "",
+   "level": 13,
+   "exs": []
+  },
+  {
+   "id": "vi2:isolated",
+   "word": "isolated",
+   "pos": "adj",
+   "fa": "منزوی، دورافتاده",
+   "def_": "",
+   "level": 13,
+   "exs": []
+  },
+  {
+   "id": "vi2:overpopulated",
+   "word": "overpopulated",
+   "pos": "adj",
+   "fa": "پرجمعیت (بیش از حد)",
+   "def_": "",
+   "level": 13,
+   "exs": []
+  },
+  {
+   "id": "vi2:migrate",
+   "word": "migrate",
+   "pos": "adj",
+   "fa": "مهاجرت کردن",
+   "def_": "to move from one region to another",
+   "level": 13,
+   "exs": []
+  },
+  {
+   "id": "vi2:settle",
+   "word": "settle",
+   "pos": "adj",
+   "fa": "ساکن شدن؛ حل‌وفصل کردن",
+   "def_": "",
+   "level": 13,
+   "exs": []
+  },
+  {
+   "id": "vi2:tranquil",
+   "word": "tranquil",
+   "pos": "adj",
+   "fa": "آرام، ساکت",
+   "def_": "",
+   "level": 13,
+   "exs": []
+  },
+  {
+   "id": "vi2:catastrophe",
+   "word": "catastrophe",
+   "pos": "n",
+   "fa": "فاجعه بزرگ",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:cloning",
+   "word": "cloning",
+   "pos": "n",
+   "fa": "شبیه‌سازی (ژنتیکی)",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:controversy",
+   "word": "controversy",
+   "pos": "n",
+   "fa": "جدل، مناقشه",
+   "def_": "/ˈkɑːntrəvɜːrsi/ · dispute, debate",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:crisis",
+   "word": "crisis",
+   "pos": "n",
+   "fa": "بحران",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:dilemma",
+   "word": "dilemma",
+   "pos": "n",
+   "fa": "دوراهی، معضل",
+   "def_": "a difficult choice",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:disaster",
+   "word": "disaster",
+   "pos": "n",
+   "fa": "فاجعه، بلا",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:hurdle",
+   "word": "hurdle",
+   "pos": "n",
+   "fa": "مانع",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:obstacle",
+   "word": "obstacle",
+   "pos": "n",
+   "fa": "مانع",
+   "def_": "something that blocks progress",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:predicament",
+   "word": "predicament",
+   "pos": "n",
+   "fa": "مخمصه، گرفتاری",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:setback",
+   "word": "setback",
+   "pos": "n",
+   "fa": "عقب‌گرد، مانع",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:catastrophic",
+   "word": "catastrophic",
+   "pos": "adj",
+   "fa": "فاجعه‌بار",
+   "def_": "≈ disastrous, devastating — Cambridge 13 · Test 1 · Passage 2: Climate Change & Environmental Policy",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:daunting",
+   "word": "daunting",
+   "pos": "adj",
+   "fa": "دلهره‌آور، دشوار",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "Indeed, when you are faced with a daunting problem, feeling depressed is often a useful response that may help you analyse and solve it."
+   ]
+  },
+  {
+   "id": "vi2:disastrous",
+   "word": "disastrous",
+   "pos": "adj",
+   "fa": "فاجعه‌بار",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:insurmountable",
+   "word": "insurmountable",
+   "pos": "adj",
+   "fa": "غیرقابل‌عبور",
+   "def_": "too great to overcome",
+   "level": 14,
+   "exs": [
+    "Each individual component is less problematic, so what begins as an insurmountable problem is far less difficult."
+   ]
+  },
+  {
+   "id": "vi2:ongoing",
+   "word": "ongoing",
+   "pos": "adj",
+   "fa": "جاری، در جریان",
+   "def_": "/ˈɑːnɡəʊɪŋ/ · continuous",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:pervasive",
+   "word": "pervasive",
+   "pos": "adj",
+   "fa": "فراگیر",
+   "def_": "spreading widely",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:problematic",
+   "word": "problematic",
+   "pos": "adj",
+   "fa": "مشکل‌ساز",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "Each individual component is less problematic, so what begins as an insurmountable problem is far less difficult."
+   ]
+  },
+  {
+   "id": "vi2:do-more-harm-than-good",
+   "word": "do more harm than good",
+   "pos": "phr",
+   "fa": "بیشتر ضرر دارد تا فایده",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:dwell-on",
+   "word": "dwell on",
+   "pos": "phr",
+   "fa": "مدام فکر کردن به",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "Depressed people dwell on personal problems, breaking them down into smaller components."
+   ]
+  },
+  {
+   "id": "vi2:energy-crisis",
+   "word": "energy crisis",
+   "pos": "phr",
+   "fa": "بحران انرژی",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:gain-insight-into",
+   "word": "gain insight into",
+   "pos": "phr",
+   "fa": "درک عمیقی از چیزی به دست آوردن",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "This type of thinking allows people to gain insight into their problems."
+   ]
+  },
+  {
+   "id": "vi2:genetically",
+   "word": "genetically",
+   "pos": "phr",
+   "fa": "از نظر ژنتیکی",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:modified-food",
+   "word": "modified food",
+   "pos": "phr",
+   "fa": "غذای اصلاح‌شده (ژنتیکی)",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:take-stock",
+   "word": "take stock",
+   "pos": "phr",
+   "fa": "ارزیابی کردن (وضعیت)",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:aggravate",
+   "word": "aggravate",
+   "pos": "v",
+   "fa": "تشدید کردن",
+   "def_": "to make worse",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:alleviate",
+   "word": "alleviate",
+   "pos": "v",
+   "fa": "تسکین دادن",
+   "def_": "to make suffering less severe",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:arise",
+   "word": "arise",
+   "pos": "v",
+   "fa": "پیش آمدن، بروز کردن",
+   "def_": "",
+   "level": 14,
+   "exs": [
+    "Perhaps depression is like obesity — a recent problem that has arisen because modern conditions are so different from those in which we evolved."
+   ]
+  },
+  {
+   "id": "vi2:exacerbate",
+   "word": "exacerbate",
+   "pos": "v",
+   "fa": "وخیم‌تر کردن",
+   "def_": "to make a problem worse",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:hinder",
+   "word": "hinder",
+   "pos": "v",
+   "fa": "مانع شدن",
+   "def_": "to make difficult",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:ignore",
+   "word": "ignore",
+   "pos": "v",
+   "fa": "نادیده گرفتن",
+   "def_": "to pay no attention to",
+   "level": 14,
+   "exs": [
+    "A People should try to ignore depression."
+   ]
+  },
+  {
+   "id": "vi2:improve",
+   "word": "improve",
+   "pos": "v",
+   "fa": "بهبود بخشیدن",
+   "def_": "to make better",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:mitigate",
+   "word": "mitigate",
+   "pos": "v",
+   "fa": "کاهش دادن (شدت)",
+   "def_": "to make less severe",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:rectify",
+   "word": "rectify",
+   "pos": "v",
+   "fa": "اصلاح کردن",
+   "def_": "",
+   "level": 14,
+   "exs": []
+  },
+  {
+   "id": "vi2:acid-rain",
+   "word": "acid rain",
+   "pos": "n",
+   "fa": "باران اسیدی",
+   "def_": "",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:aftershock",
+   "word": "aftershock",
+   "pos": "n",
+   "fa": "پس‌لرزه",
+   "def_": "",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:agriculture",
+   "word": "agriculture",
+   "pos": "n",
+   "fa": "کشاورزی",
+   "def_": "farming",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:cattle",
+   "word": "cattle",
+   "pos": "n",
+   "fa": "گاو و گوساله، احشام",
+   "def_": "",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:coast",
+   "word": "coast",
+   "pos": "n",
+   "fa": "ساحل، کرانه",
+   "def_": "",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:desalination",
+   "word": "desalination",
+   "pos": "n",
+   "fa": "نمک‌زدایی (آب شیرین‌کن)",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "If we choose desalination of seawater as a possible solution, large amounts of energy will be required."
+   ]
+  },
+  {
+   "id": "vi2:draft",
+   "word": "draft",
+   "pos": "n",
+   "fa": "پیش‌نویس",
+   "def_": "/dræft/ · first rough version",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:erosion",
+   "word": "erosion",
+   "pos": "n",
+   "fa": "فرسایش",
+   "def_": "",
+   "level": 15,
+   "exs": [
+    "As a result, the earth dries out, causing soil erosion, and our crop yields decline, meaning that new sources of water need to be sought."
+   ]
+  },
+  {
+   "id": "vi2:fungus",
+   "word": "fungus",
+   "pos": "n",
+   "fa": "قارچ (عمومی)",
+   "def_": "",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:herbivore",
+   "word": "herbivore",
+   "pos": "n",
+   "fa": "گیاه‌خوار",
+   "def_": "",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:lava",
+   "word": "lava",
+   "pos": "n",
+   "fa": "گدازه آتشفشانی",
+   "def_": "≈ molten rock — Cambridge 10 · Test 3 · Passage 2: The Power of Nature: Volcanic Eruptions",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:petal",
+   "word": "petal",
+   "pos": "n",
+   "fa": "گلبرگ",
+   "def_": "",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:productivity",
+   "word": "productivity",
+   "pos": "n",
+   "fa": "بهره وری",
+   "def_": "≈ efficiency, performance — Cambridge 15 · Test 3 · Passage 2: Business Strategy & Market Competition",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:puddle",
+   "word": "puddle",
+   "pos": "n",
+   "fa": "چاله آب",
+   "def_": "",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:reservoir",
+   "word": "reservoir",
+   "pos": "n",
+   "fa": "مخزن آب",
+   "def_": "≈ storage, basin — Cambridge 11 · Test 2 · Passage 1: Irrigation in Ancient Civilisations",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:shore",
+   "word": "shore",
+   "pos": "n",
+   "fa": "ساحل",
+   "def_": "",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:species",
+   "word": "species",
+   "pos": "n",
+   "fa": "گونه",
+   "def_": "a group of similar living things",
+   "level": 15,
+   "exs": []
+  },
+  {
+   "id": "vi2:natural-resources",
+   "word": "natural resources",
+   "pos": "n",
+   "fa": "منابع طبیعی",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "Energy, natural resources ; — —— ; oa Te a ry , COLLOCATION The words in box A all collocate with power."
+   ]
+  },
+  {
+   "id": "vi2:precious-metal",
+   "word": "precious metal",
+   "pos": "n",
+   "fa": "فلز گران‌بها",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:scale",
+   "word": "scale",
+   "pos": "n",
+   "fa": "مقیاس نقشه",
+   "def_": "≈ proportion, ratio — Cambridge 12 · Test 3 · Passage 2: The History of Cartography",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:wind-farm",
+   "word": "wind farm",
+   "pos": "n",
+   "fa": "مزرعهٔ بادی",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:carbon-neutral",
+   "word": "carbon neutral",
+   "pos": "adj",
+   "fa": "بدون ردپای کربن، کربن‌خنثی",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:eco-friendly",
+   "word": "eco-friendly",
+   "pos": "adj",
+   "fa": "سازگار با محیط زیست",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:rechargeable",
+   "word": "rechargeable",
+   "pos": "adj",
+   "fa": "قابل شارژ",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:recyclable",
+   "word": "recyclable",
+   "pos": "adj",
+   "fa": "قابل بازیافت",
+   "def_": "",
+   "level": 16,
+   "exs": [
+    "This is produced when there is a fire. 13 able to be recycled ho causing little or no damage to the environment 15 Demand for."
+   ]
+  },
+  {
+   "id": "vi2:renewable",
+   "word": "renewable",
+   "pos": "adj",
+   "fa": "تجدیدپذیر",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:precious",
+   "word": "precious",
+   "pos": "adj",
+   "fa": "گران‌بها",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:sustainable",
+   "word": "sustainable",
+   "pos": "adj",
+   "fa": "پایدار",
+   "def_": "able to continue without harm",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:unleaded",
+   "word": "unleaded",
+   "pos": "adj",
+   "fa": "بدون سرب",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:capture",
+   "word": "capture",
+   "pos": "v",
+   "fa": "به دام انداختن؛ ثبت کردن",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:curb",
+   "word": "curb",
+   "pos": "v",
+   "fa": "مهار کردن",
+   "def_": "to control or limit",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:emit",
+   "word": "emit",
+   "pos": "v",
+   "fa": "ساطع کردن، منتشر کردن",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:exhaust",
+   "word": "exhaust",
+   "pos": "v",
+   "fa": "دود اگزوز؛ خسته کردن",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:harness",
+   "word": "harness",
+   "pos": "v",
+   "fa": "مهار کردن (انرژی)",
+   "def_": "",
+   "level": 16,
+   "exs": []
+  },
+  {
+   "id": "vi2:assets",
+   "word": "assets",
+   "pos": "n",
+   "fa": "دارایی‌ها",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The researchers found that mid-level lottery winners did not in fact pay off their debt or increase equity in new or existing assets."
+   ]
+  },
+  {
+   "id": "vi2:bankruptcy",
+   "word": "bankruptcy",
+   "pos": "n",
+   "fa": "ورشکستگی",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "But new research from Vanderbilt Law School found that people who won between $50,000 and $150,000 only postponed bankruptcy."
+   ]
+  },
+  {
+   "id": "vi2:bottom-line",
+   "word": "bottom line",
+   "pos": "n",
+   "fa": "نتیجهٔ نهایی؛ سود یا زیان خالص",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:budget",
+   "word": "budget",
+   "pos": "n",
+   "fa": "بودجه",
+   "def_": "a plan of money to spend",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:client",
+   "word": "client",
+   "pos": "n",
+   "fa": "مشتری، موکل",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "We decided to set down / set up an office near the airport as many of our biggest clients were based there."
+   ]
+  },
+  {
+   "id": "vi2:credit-rating",
+   "word": "credit rating",
+   "pos": "n",
+   "fa": "رتبهٔ اعتباری",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:cutback",
+   "word": "cutback",
+   "pos": "n",
+   "fa": "کاهش (هزینه)",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:earnings",
+   "word": "earnings",
+   "pos": "n",
+   "fa": "درآمدها",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:equity",
+   "word": "equity",
+   "pos": "n",
+   "fa": "برابری، انصاف؛ سهام",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "The researchers found that mid-level lottery winners did not in fact pay off their debt or increase equity in new or existing assets."
+   ]
+  },
+  {
+   "id": "vi2:household-name",
+   "word": "household name",
+   "pos": "n",
+   "fa": "نام آشنا برای همه",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:luxury-goods",
+   "word": "luxury goods",
+   "pos": "n",
+   "fa": "کالاهای لوکس",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:bankrupt",
+   "word": "bankrupt",
+   "pos": "adj",
+   "fa": "ورشکسته",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "But new research from Vanderbilt Law School found that people who won between $50,000 and $150,000 only postponed bankruptcy."
+   ]
+  },
+  {
+   "id": "vi2:hands-on",
+   "word": "hands-on",
+   "pos": "adj",
+   "fa": "عملی",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:managerial",
+   "word": "managerial",
+   "pos": "adj",
+   "fa": "مدیریتی",
+   "def_": "",
+   "level": 17,
+   "exs": [
+    "Moreover, long-term employees are more likely to be promoted to a °managing / managerial \"position / place within the company."
+   ]
+  },
+  {
+   "id": "vi2:calculated-risk",
+   "word": "calculated risk",
+   "pos": "phr",
+   "fa": "ریسک حساب‌شده",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:chair-a-meeting",
+   "word": "chair a meeting",
+   "pos": "phr",
+   "fa": "ریاست جلسه را بر عهده داشتن",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:golden",
+   "word": "golden",
+   "pos": "phr",
+   "fa": "طلایی",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:opportunity",
+   "word": "Opportunity",
+   "pos": "phr",
+   "fa": "فرصت",
+   "def_": "a chance to do something",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:keep-track-of",
+   "word": "keep track of",
+   "pos": "phr",
+   "fa": "پیگیری کردن، در جریان بودن",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:make-a-name-for-yourself",
+   "word": "make a name for yourself",
+   "pos": "phr",
+   "fa": "برای خود اسم و رسمی دست‌وپا کردن",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:win-win-situation",
+   "word": "win-win situation",
+   "pos": "phr",
+   "fa": "وضعیت برد-برد",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:amalgamate",
+   "word": "amalgamate",
+   "pos": "v",
+   "fa": "ادغام کردن، یکی کردن",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:life-sentence",
+   "word": "life sentence",
+   "pos": "n",
+   "fa": "حبس ابد",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:mugging",
+   "word": "mugging",
+   "pos": "n",
+   "fa": "زورگیری",
+   "def_": "",
+   "level": 17,
+   "exs": []
+  },
+  {
+   "id": "vi2:offence",
+   "word": "offence",
+   "pos": "n",
+   "fa": "جرم، تخلف",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:organised-crime",
+   "word": "organised crime",
+   "pos": "n",
+   "fa": "جرائم سازمان‌یافته",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:peer-pressure",
+   "word": "peer pressure",
+   "pos": "n",
+   "fa": "فشار همسالان",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:petty-crime",
+   "word": "petty crime",
+   "pos": "n",
+   "fa": "جرم جزئی",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:robbery",
+   "word": "robbery",
+   "pos": "n",
+   "fa": "سرقت",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:vandalism",
+   "word": "vandalism",
+   "pos": "n",
+   "fa": "خرابکاری",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:violence",
+   "word": "violence",
+   "pos": "n",
+   "fa": "خشونت",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:hostile",
+   "word": "hostile",
+   "pos": "adj",
+   "fa": "خصمانه، نامساعد",
+   "def_": "unfriendly; harsh",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:lenient",
+   "word": "lenient",
+   "pos": "adj",
+   "fa": "سهل‌گیر، ملایم",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:accept-the-consequences-of",
+   "word": "accept the consequences of",
+   "pos": "phr",
+   "fa": "پیامدهای چیزی را پذیرفتن",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:accuse-someone-of",
+   "word": "accuse someone of",
+   "pos": "phr",
+   "fa": "کسی را به چیزی متهم کردن",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:arrest-someone-for",
+   "word": "arrest someone for",
+   "pos": "phr",
+   "fa": "کسی را به جرم چیزی دستگیر کردن",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:be",
+   "word": "be (held)",
+   "pos": "phr",
+   "fa": "بودن",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "Not all of the verbs require a preposition and the prepositions can be used more than once."
+   ]
+  },
+  {
+   "id": "vi2:responsible-for",
+   "word": "responsible for",
+   "pos": "phr",
+   "fa": "مسئول",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:be-a-victim-of",
+   "word": "be a victim of",
+   "pos": "phr",
+   "fa": "قربانی چیزی شدن",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:convicted-criminal",
+   "word": "convicted criminal",
+   "pos": "phr",
+   "fa": "مجرم محکوم‌شده",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:criminal-activity",
+   "word": "criminal activity",
+   "pos": "phr",
+   "fa": "فعالیت مجرمانه",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "Write at least two types of criminal activity each speaker mentions."
+   ]
+  },
+  {
+   "id": "vi2:criminal-offence",
+   "word": "criminal offence",
+   "pos": "phr",
+   "fa": "جرم کیفری",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:criminal-record",
+   "word": "criminal record",
+   "pos": "phr",
+   "fa": "سابقهٔ کیفری",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:hardened-criminal",
+   "word": "hardened criminal",
+   "pos": "phr",
+   "fa": "مجرم کارکشته",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:juvenile-crime",
+   "word": "juvenile crime",
+   "pos": "phr",
+   "fa": "بزهکاری نوجوانان",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:underlying-causes",
+   "word": "underlying causes",
+   "pos": "phr",
+   "fa": "علل ریشه‌ای",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:jail",
+   "word": "jail",
+   "pos": "v",
+   "fa": "زندان",
+   "def_": "",
+   "level": 18,
+   "exs": []
+  },
+  {
+   "id": "vi2:punish",
+   "word": "punish",
+   "pos": "v",
+   "fa": "مجازات کردن",
+   "def_": "",
+   "level": 18,
+   "exs": [
+    "I’m totally worrying concerning underlying troubling disturbing opposed to capital punishment. 5.2 The phrases on the right show support for or opposition to an idea."
+   ]
+  },
+  {
+   "id": "vi2:bias",
+   "word": "bias",
+   "pos": "n",
+   "fa": "سوگیری، تعصب",
+   "def_": "unfair preference",
+   "level": 19,
+   "exs": [
+    "According to Baxter, the general public is biased against the idea of female leaders."
+   ]
+  },
+  {
+   "id": "vi2:broadcaster",
+   "word": "broadcaster",
+   "pos": "n",
+   "fa": "پخش‌کننده، شبکهٔ پخش؛ گوینده",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "We use the preposition for with the word famous: New Orleans is famous article reporter broadcaster viewer reader series print for its music."
+   ]
+  },
+  {
+   "id": "vi2:episode",
+   "word": "episode",
+   "pos": "n",
+   "fa": "قسمت (برنامه)؛ رویداد",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "NOT publication listener tabloid episode publisher screen on."
+   ]
+  },
+  {
+   "id": "vi2:headline",
+   "word": "headline",
+   "pos": "n",
+   "fa": "تیتر",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:paparazzi",
+   "word": "Paparazzi",
+   "pos": "n",
+   "fa": "پاپاراتزی (عکاسان مزاحم افراد مشهور)",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:press",
+   "word": "press",
+   "pos": "n",
+   "fa": "مطبوعات",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "Baxter warns that the attitude of the media may lead to fewer women in politics, Baxter suggests that the press try to show thar female politicians make poor leaders."
+   ]
+  },
+  {
+   "id": "vi2:viewer",
+   "word": "viewer",
+   "pos": "n",
+   "fa": "بیننده",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "We use the preposition for with the word famous: New Orleans is famous article reporter broadcaster viewer reader series print for its music."
+   ]
+  },
+  {
+   "id": "vi2:biased",
+   "word": "biased",
+   "pos": "adj",
+   "fa": "جانب‌دارانه، مغرضانه",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "According to Baxter, the general public is biased against the idea of female leaders."
+   ]
+  },
+  {
+   "id": "vi2:eminent",
+   "word": "eminent",
+   "pos": "adj",
+   "fa": "برجسته، سرشناس",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:high-profile",
+   "word": "high-profile",
+   "pos": "adj",
+   "fa": "پرسروصدا، سرشناس",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:prejudiced",
+   "word": "prejudiced",
+   "pos": "adj",
+   "fa": "متعصب، دارای پیش‌داوری",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "She claims thar this blatant media prejudice against women contradicts opinion polls char indicate voters would actually support a female candidate."
+   ]
+  },
+  {
+   "id": "vi2:prominent",
+   "word": "prominent",
+   "pos": "adj",
+   "fa": "برجسته",
+   "def_": "important or well known",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:subjective",
+   "word": "subjective",
+   "pos": "adj",
+   "fa": "ذهنی، شخصی",
+   "def_": "≈ personal, emotional — Cambridge 9 · Test 2 · Passage 2: The Nature of History",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:world-famous",
+   "word": "world-famous",
+   "pos": "adj",
+   "fa": "مشهور در جهان",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:become-famous",
+   "word": "become famous",
+   "pos": "phr",
+   "fa": "مشهور شدن",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:overnight",
+   "word": "overnight",
+   "pos": "phr",
+   "fa": "یک‌شبه",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:chief-claim-to-fame",
+   "word": "chief claim to fame",
+   "pos": "phr",
+   "fa": "مهم‌ترین دلیل شهرت",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:in-the-public-eye",
+   "word": "in the public eye",
+   "pos": "phr",
+   "fa": "در معرض توجه عموم",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:instant-celebrities",
+   "word": "instant celebrities",
+   "pos": "phr",
+   "fa": "افراد یک‌شبه مشهور",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:making-headlines",
+   "word": "making headlines",
+   "pos": "phr",
+   "fa": "تیتر خبرها شدن",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:media-attention",
+   "word": "media attention",
+   "pos": "phr",
+   "fa": "توجه رسانه‌ها",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:new-found-fame",
+   "word": "new-found fame",
+   "pos": "phr",
+   "fa": "شهرت تازه‌به‌دست‌آمده",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:tabloid-press",
+   "word": "tabloid press",
+   "pos": "phr",
+   "fa": "مطبوعات زرد",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:assert",
+   "word": "assert",
+   "pos": "v",
+   "fa": "با اطمینان اظهار کردن",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:broadcast",
+   "word": "broadcast",
+   "pos": "v",
+   "fa": "پخش کردن (رادیو و تلویزیون)",
+   "def_": "",
+   "level": 19,
+   "exs": [
+    "We use the preposition for with the word famous: New Orleans is famous article reporter broadcaster viewer reader series print for its music."
+   ]
+  },
+  {
+   "id": "vi2:contend",
+   "word": "contend",
+   "pos": "v",
+   "fa": "ادعا داشتن",
+   "def_": "≈ argue, claim — Core academic verbs",
+   "level": 19,
+   "exs": [
+    "For example, they should make sure that unsuitable content is kept away from children."
+   ]
+  },
+  {
+   "id": "vi2:gossip",
+   "word": "gossip",
+   "pos": "v",
+   "fa": "شایعه، غیبت",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:indicate",
+   "word": "indicate",
+   "pos": "v",
+   "fa": "نشان دادن",
+   "def_": "to point out or show",
+   "level": 19,
+   "exs": [
+    "She claims thar this blatant media prejudice against women contradicts opinion polls char indicate voters would actually support a female candidate."
+   ]
+  },
+  {
+   "id": "vi2:speculate",
+   "word": "speculate",
+   "pos": "v",
+   "fa": "گمانه‌زنی کردن",
+   "def_": "",
+   "level": 19,
+   "exs": []
+  },
+  {
+   "id": "vi2:animation",
+   "word": "animation",
+   "pos": "n",
+   "fa": "پویانمایی، انیمیشن",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:culture",
+   "word": "culture",
+   "pos": "n",
+   "fa": "فرهنگ",
+   "def_": "customs and beliefs of a group",
+   "level": 20,
+   "exs": [
+    "Noun Adjective Noun Adjective figure art creation poetry imagination music inspiration fiction 7 culture drama originality tradition 104."
+   ]
+  },
+  {
+   "id": "vi2:drama",
+   "word": "drama",
+   "pos": "n",
+   "fa": "نمایش، درام",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Noun Adjective Noun Adjective figure art creation poetry imagination music inspiration fiction 7 culture drama originality tradition 104."
+   ]
+  },
+  {
+   "id": "vi2:echo",
+   "word": "echo",
+   "pos": "n",
+   "fa": "پژواک",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:engraving",
+   "word": "engraving",
+   "pos": "n",
+   "fa": "حکاکی",
+   "def_": "≈ carving, etching — Cambridge 15 · Test 3 · Passage 1: Ancient Cave Paintings & Human Expression",
+   "level": 20,
+   "exs": [
+    "Rock engravings from the Copper Age found all over Europe in remote, hidden locations, indicate the artwork of the period was more than mere visual images, researchers believe."
+   ]
+  },
+  {
+   "id": "vi2:fiction",
+   "word": "fiction",
+   "pos": "n",
+   "fa": "داستان، ادبیات داستانی",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Noun Adjective Noun Adjective figure art creation poetry imagination music inspiration fiction 7 culture drama originality tradition 104."
+   ]
+  },
+  {
+   "id": "vi2:imagination",
+   "word": "imagination",
+   "pos": "n",
+   "fa": "تخیل",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Noun Adjective Noun Adjective figure art creation poetry imagination music inspiration fiction 7 culture drama originality tradition 104."
+   ]
+  },
+  {
+   "id": "vi2:inspiration",
+   "word": "inspiration",
+   "pos": "n",
+   "fa": "الهام",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Noun Adjective Noun Adjective figure art creation poetry imagination music inspiration fiction 7 culture drama originality tradition 104."
+   ]
+  },
+  {
+   "id": "vi2:abominable",
+   "word": "abominable",
+   "pos": "adj",
+   "fa": "نفرت‌انگیز، افتضاح",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:abysmal",
+   "word": "abysmal",
+   "pos": "adj",
+   "fa": "بسیار بد، افتضاح",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:dismal",
+   "word": "dismal",
+   "pos": "adj",
+   "fa": "دلگیر، افتضاح",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:fictional",
+   "word": "fictional",
+   "pos": "adj",
+   "fa": "خیالی، داستانی",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Noun Adjective Noun Adjective figure art creation poetry imagination music inspiration fiction 7 culture drama originality tradition 104."
+   ]
+  },
+  {
+   "id": "vi2:figurative",
+   "word": "figurative",
+   "pos": "adj",
+   "fa": "تمثیلی، مجازی",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:hilarious",
+   "word": "hilarious",
+   "pos": "adj",
+   "fa": "بسیار خنده‌دار",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:inspirational",
+   "word": "inspirational",
+   "pos": "adj",
+   "fa": "الهام‌بخش",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "Noun Adjective Noun Adjective figure art creation poetry imagination music inspiration fiction 7 culture drama originality tradition 104."
+   ]
+  },
+  {
+   "id": "vi2:petrified",
+   "word": "petrified",
+   "pos": "adj",
+   "fa": "وحشت‌زده",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:talented",
+   "word": "talented",
+   "pos": "adj",
+   "fa": "بااستعداد",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:tedious",
+   "word": "tedious",
+   "pos": "adj",
+   "fa": "کسل‌کننده",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:terrified",
+   "word": "terrified",
+   "pos": "adj",
+   "fa": "وحشت‌زده",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:terrifying",
+   "word": "terrifying",
+   "pos": "adj",
+   "fa": "وحشتناک",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:thrilling",
+   "word": "thrilling",
+   "pos": "adj",
+   "fa": "هیجان‌انگیز",
+   "def_": "",
+   "level": 20,
+   "exs": []
+  },
+  {
+   "id": "vi2:taste",
+   "word": "taste",
+   "pos": "phr",
+   "fa": "سلیقه؛ مزه",
+   "def_": "",
+   "level": 20,
+   "exs": [
+    "I love the taste of chocolate, or to the things that a person likes."
+   ]
+  }
+ ]
+}

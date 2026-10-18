@@ -10,7 +10,7 @@ const SRC = join('..', '6-Cloudflare-Worker', 'public');
 const DEST = 'www';
 
 rmSync(DEST, { recursive: true, force: true });
-cpSync(SRC, DEST, { recursive: true, filter: s => !/[\\/](admin|_headers|_redirects)$/.test(s) });
+cpSync(SRC, DEST, { recursive: true, filter: s => !/[\\/](admin|bp|_headers|_redirects)$/.test(s) });
 
 const file = join(DEST, 'index.html');
 const html = readFileSync(file, 'utf8');

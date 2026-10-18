@@ -137,3 +137,39 @@ Object.assign(I18N.fa, {
  irK_byr:'پیش از خواندن', irK_skill:'مهارت ریدینگ', irK_review:'مرور مهارت', irK_voc:'تمرین واژگان', irK_rcx:'درک مطلب', irK_wd:'نوشتن و بحث', irK_sar:'خودارزیابی',
  rh_tf:'TRUE = متن همین را می‌گوید · FALSE = متن با آن موافق نیست.'
 });
+/* v3.3 — Grammar section (English Grammar in Use) */
+Object.assign(I18N.en, {
+ grammar:'Grammar', grSub:'English Grammar in Use (5th edition) — every unit with its lesson and interactive exercises with answer key.',
+ grUnits:'Units', grUnitsN:'units', grExN:'exercises', grExS:'ex.', grUnitsR:'Units {a}–{b}', grTest:'Study guide test', grAdd:'Additional exercises', grApp:'Appendices',
+ grHowT:'How to study', grHow:'Open a unit, read the lesson (sections A, B, C …, Persian translation available), then do the exercises and press Check. Not sure where to start? Take the Study guide test.',
+ grLesson:'Lesson', grExercises:'Exercises', grSecs:'sections', grGoEx:'Go to exercises', grLessonHint:'Read the explanations and examples. Tap 🔊 to hear an example.',
+ grEx:'Exercise', grExHint:'Type your answers in the boxes, then press Check. Enter jumps to the next box.', grCheck:'Check', grReset:'Reset', grScore:'{a} / {b} correct',
+ grPerfect:'All correct!', grExample:'Example answers — your answer may be different.', grSee:'See also', grAddS:'Mixed practice from the back of the book, grouped by topic.',
+ grTestT:'Which units do you need?', grTestS:'Choose the right alternative(s) — sometimes more than one is correct. After checking, you get the list of units to study.',
+ grLast:'Last result', grStudy:'Study', grStudyList:'Units to study:'
+});
+Object.assign(I18N.fa, {
+ grammar:'گرامر', grSub:'کتاب English Grammar in Use (ویرایش پنجم): درس همهٔ یونیت‌ها، همراه با تمرین‌های تعاملی و پاسخ‌نامه.',
+ grUnits:'یونیت‌ها', grUnitsN:'یونیت', grExN:'تمرین', grExS:'تمرین', grUnitsR:'یونیت {a} تا {b}', grTest:'آزمون تعیین سطح (Study guide)', grAdd:'تمرین‌های تکمیلی', grApp:'پیوست‌ها',
+ grHowT:'روش مطالعه', grHow:'یک یونیت را باز کنید و درس را بخوانید (بخش‌های A، B، C و…؛ ترجمهٔ فارسی هم دارد). بعد تمرین‌ها را حل کنید و «بررسی» را بزنید. نمی‌دانید از کجا شروع کنید؟ آزمون Study guide را بدهید.',
+ grLesson:'درس', grExercises:'تمرین‌ها', grSecs:'بخش', grGoEx:'رفتن به تمرین‌ها', grLessonHint:'توضیح‌ها و مثال‌ها را بخوانید. برای شنیدن هر مثال 🔊 را بزنید.',
+ grEx:'تمرین', grExHint:'جواب‌ها را در کادرها بنویسید و «بررسی» را بزنید. با Enter به کادر بعدی می‌روید.', grCheck:'بررسی', grReset:'از نو', grScore:'{a} از {b} درست',
+ grPerfect:'همه درست بود!', grExample:'پاسخ‌ها نمونه هستند؛ جواب شما می‌تواند متفاوت باشد.', grSee:'همچنین ببینید', grAddS:'تمرین‌های ترکیبی انتهای کتاب، دسته‌بندی‌شده بر اساس موضوع.',
+ grTestT:'کدام یونیت‌ها را باید بخوانید؟', grTestS:'گزینهٔ درست را انتخاب کنید؛ گاهی بیش از یک گزینه درست است. بعد از بررسی، فهرست یونیت‌هایی که باید مطالعه کنید نمایش داده می‌شود.',
+ grLast:'آخرین نتیجه', grStudy:'مطالعه کنید', grStudyList:'یونیت‌هایی که باید بخوانید:'
+});
+/* v3.3 — IELTS vocabulary books (Learn → IELTS) */
+Object.assign(I18N.en, {
+ vbBands:'IELTS words by band', vbTests:'tests', vbUnitsS:'Each unit: book pages · answer key · recordings · word deck',
+ vbHow:'Open a unit and work through its pages (exercises, readings, test practice). Write your answers, then check them in the Answer key tab. Learn the unit’s words with flashcards in the Words tab. After every 5 units, do the test.',
+ vbScripts:'Recording scripts', vbTracks:'recordings', vbTestS:'vocabulary test', vbPages:'pages', vbPagesT:'Book pages', vbKey:'Answer key',
+ vbShowImg:'Page image', vbShowTxt:'Text', vbPagesHint:'Tap a page to zoom. Use “Text” to see the page as text (also works offline).',
+ vbKeyHint:'Check your answers after doing the exercises.', vbKeyPages:'Key pages', vbImgErr:'The page image needs an internet connection.'
+});
+Object.assign(I18N.fa, {
+ vbBands:'لغات آیلتس بر اساس باند', vbTests:'آزمون', vbUnitsS:'هر یونیت: صفحه‌های کتاب · پاسخ‌نامه · متن فایل‌های صوتی · لغات',
+ vbHow:'یک یونیت را باز کنید و صفحه‌هایش را کار کنید (تمرین‌ها، متن‌ها و Test practice). جواب‌ها را بنویسید و در زبانهٔ «پاسخ‌نامه» بررسی کنید. لغات یونیت را در زبانهٔ «لغات» با فلش‌کارت یاد بگیرید. بعد از هر ۵ یونیت، آزمون را بدهید.',
+ vbScripts:'متن فایل‌های صوتی', vbTracks:'فایل صوتی', vbTestS:'آزمون واژگان', vbPages:'صفحه', vbPagesT:'صفحه‌های کتاب', vbKey:'پاسخ‌نامه',
+ vbShowImg:'تصویر صفحه', vbShowTxt:'متن', vbPagesHint:'برای بزرگ‌نمایی روی صفحه بزنید. با «متن» صفحه را به صورت متنی ببینید (بدون اینترنت هم کار می‌کند).',
+ vbKeyHint:'بعد از حل تمرین‌ها جواب‌هایتان را بررسی کنید.', vbKeyPages:'صفحه‌های پاسخ‌نامه', vbImgErr:'نمایش تصویر صفحه به اینترنت نیاز دارد.'
+});

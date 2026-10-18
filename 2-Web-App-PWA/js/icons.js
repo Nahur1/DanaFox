@@ -24,6 +24,7 @@ flame:'<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.4-.5-2-1-3-1.1-2.1-.2-4 2-6 .5
 trophy:'<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16M10 14.7V17c0 .6-.5 1-1 1.2C7.8 18.8 7 20.2 7 22M14 14.7V17c0 .6.5 1 1 1.2 1.2.6 2 2 2 3.8"/><path d="M18 2H6v7a6 6 0 0 0 12 0z"/>',
 x:'<path d="M18 6 6 18M6 6l12 12"/>',
 check:'<path d="M20 6 9 17l-5-5"/>',
+grammar:'<path d="M3.5 19 8.5 5l5 14M5.3 14h6.4"/><path d="m14.5 15.5 2.5 2.5 4.5-6"/>',
 search:'<circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>',
 trash:'<path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6"/>',
 download:'<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5M12 15V3"/>',
@@ -51,4 +52,4 @@ bookOpen:'<path d="M2.5 5.5c3-1.3 6.2-1.2 9.5.8v13.2c-3.3-2-6.5-2.1-9.5-.8z"/><p
 message:'<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12z"/><path d="M8.5 10.5h7M8.5 13.5h4.5"/>',
 logo:'<path d="M4 5h6.5a3.5 3.5 0 0 1 3.5 3.5V20a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M20 5h-3a3 3 0 0 0-3 3"/><path d="m17 11 1 2 2 .5-1.5 1.5.4 2.1-1.9-1-1.9 1 .4-2.1L14 13.5l2-.5z" fill="currentColor"/>'
 };
-window.icon = (n, cls='') => `<svg class="${cls} ${n==='arrow'||n==='back'?'dir-flip':''}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${ICONS[n]||''}</svg>`;
+window.icon = (n, cls='') => `<svg class="${cls} ${n==='arrow'||n==='back'?'dir-flip':''}" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${ICONS[n]||''}</svg>`;

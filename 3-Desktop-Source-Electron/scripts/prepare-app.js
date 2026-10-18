@@ -5,7 +5,7 @@ const SERVER = process.env.VAJEYAR_SERVER || 'https://vajeyar.mohammadfakhari59.
 const SRC = path.join(__dirname, '..', '..', '6-Cloudflare-Worker', 'public');
 const DEST = path.join(__dirname, '..', 'app');
 fs.rmSync(DEST, { recursive: true, force: true });
-fs.cpSync(SRC, DEST, { recursive: true, filter: s => !/[\\/](admin|_headers|_redirects)$/.test(s) });
+fs.cpSync(SRC, DEST, { recursive: true, filter: s => !/[\\/](admin|bp|_headers|_redirects)$/.test(s) });
 const file = path.join(DEST, 'index.html');
 const html = fs.readFileSync(file, 'utf8');
 if (!/js\/config\.js/.test(html)) throw new Error('index.html does not load js/config.js');

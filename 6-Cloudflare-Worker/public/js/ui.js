@@ -16,9 +16,9 @@ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', VY.applyTh
 VY.applyDir = () => { const fa = VY.lang()==='fa'; document.documentElement.lang = fa?'fa':'en'; document.documentElement.dir = fa?'rtl':'ltr'; document.title = t('appName'); };
 
 /* ---------- Shell ---------- */
-const NAV = [['home','home'],['learn','layers'],['review','repeat'],['reading','bookOpen'],['listening','headphones'],['quiz','quiz'],['duel','zap'],['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']];
+const NAV = [['home','home'],['learn','layers'],['review','repeat'],['reading','bookOpen'],['listening','headphones'],['grammar','grammar'],['quiz','quiz'],['duel','zap'],['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']];
 const navLabel = k => k==='mywords' ? t('myWords') : k==='duel' ? t('duelTitle') : t(k);
-VY.MORE = [['quiz','quiz'],['duel','zap'],['placement','target'],['leaderboard','trophy'],['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']];
+VY.MORE = [['grammar','grammar'],['quiz','quiz'],['duel','zap'],['placement','target'],['leaderboard','trophy'],['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']];
 VY.renderShell = () => {
   VY.applyDir(); VY.applyTheme();
   const app = document.getElementById('app');
@@ -173,8 +173,12 @@ V.learn = {title:'learn', render(){
   /* reading / listening vocabulary files live in their own sections (#/reading, #/listening), not here */
   let cat = VY.params[0] || VY.learnCat || VY.S.settings.track || 'general'; if(!VY.CATS[cat] || VY.CATS[cat].section) cat = 'general'; VY.learnCat = cat;
   const cats = ['general','ielts','toefl','custom'], C = VY.CATS[cat];
+  /* Learn → IELTS: the band decks + each IELTS vocabulary book as its own sub-section (#/learn/ielts/@vi1 …) */
+  const sub = cat === 'ielts' ? (VY.params[1] || '') : '', vb = sub[0] === '@' && VY.isVBook && VY.isVBook(sub.slice(1)) ? sub.slice(1) : '';
+  if(vb) return `<div class="grid g4">${cats.map(c => catCard(c, cat)).join('')}</div>${VY.ieltsTabs('@' + vb)}<div class="mt16">${VY.vbView(vb, VY.params[2])}</div>`;
   return `
   <div class="grid g4">${cats.map(c => catCard(c, cat)).join('')}</div>
+  ${cat === 'ielts' && VY.ieltsTabs ? VY.ieltsTabs('') : ''}
   <div class="section-title"><h2>${VY.catName(cat)}</h2><span class="muted small">${cat==='custom'?'':t('easyToHard')}</span></div>
   ${cat==='custom' && !VY.deckWords('custom').length ? `<div class="card empty"><div class="em">✍️</div><p>${t('customEmpty')}</p><button class="btn btn-primary" data-act="go" data-to="mywords">${icon('plus')} ${t('addWord')}</button></div>` :
   `<div class="grid g3">${C.levels.map((_,i) => deckCard(cat, i+1)).join('')}</div>`}
@@ -211,7 +215,7 @@ V.listening = {title: () => { const a = VY.params && (VY.params[0]||'').replace(
   ${a ? VY.deckSection(a) : `<div class="card empty mt16"><div class="em">🎧</div><p>${t('rdEmpty')}</p></div>`}`;
 }};
 const difficultIds = VY.difficultIds = () => VY.words.filter(w => { const p = VY.P(w.id); return p && p.seen && (p.lapses>=1 || p.bad > p.ok); }).map(w=>w.id);
-ACT.pickCat = el => { const c = el.dataset.cat, C = VY.CATS[c]; if(C && C.section){ VY.go(C.section + '/@' + c); return; } VY.learnCat = c; VY.go('learn/'+c); };
+ACT.pickCat = el => { const c = el.dataset.cat, C = VY.CATS[c]; if(C && C.section === 'ielts'){ VY.go('learn/ielts/@' + c); return; } if(C && C.section){ VY.go(C.section + '/@' + c); return; } VY.learnCat = c; VY.go('learn/'+c); };
 ACT.browseDeck = (el, e) => { e.stopPropagation(); VY.dict = {q:'', cat:el.dataset.cat, level:+el.dataset.level, status:'all', limit:60}; VY.go('dictionary'); };
 ACT.startLearn = el => {
   const c = el.dataset.cat, l = +el.dataset.level, ws = VY.deckWords(c, l);
