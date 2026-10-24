@@ -20,7 +20,7 @@ for cat, m in meta.items():
         levels = [{'en': l['en'], 'fa': l['fa'], 'tag': ''} for l in sorted(data['levels'], key=lambda l: l['no'])]
     else:
         levels = [dict({'en': l[0], 'fa': l[1], 'tag': l[2]}, **({'num': l[3]} if len(l) > 3 else {})) for l in m['levels']]
-    decks[cat] = {'icon': m['icon'], 'section': m['section'], 'name': m['name'], 'short': m['short'], 'about': m['about'], 'levels': levels}
+    decks[cat] = dict({'icon': m['icon'], 'section': m['section'], 'name': m['name'], 'short': m['short'], 'about': m['about'], 'levels': levels}, **({'also': m['also']} if m.get('also') else {}))
     m['_levels'] = levels
     for w in data['words']:
         exs = [[e, fix_fa(fa.get(e, ''))] for e in w['exs'] if e]

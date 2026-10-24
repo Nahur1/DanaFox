@@ -13,10 +13,12 @@ and its words are split into **its own categories** (levels). Never merge a file
 | `ir2.json` | `reading` | اینساید ریدینگ ۲ (Inside Reading 2) | Unit 1–10 |
 | `vi1.json` | `ielts` (Learn → IELTS tab) | Cambridge Vocabulary for IELTS (Intermediate) | Unit 1–20 |
 | `vi2.json` | `ielts` (Learn → IELTS tab) | Cambridge Vocabulary for IELTS Advanced | Unit 1–20 |
+| `t1212.json` | `toefl` + `also: ["ielts"]` (Learn → TOEFL tab **and** Learn → IELTS tab) | ۱۲۱۲ لغت ضروری تافل (1212 Words You Need to Pass the TOEFL, edited) | B1–B2 / B2 / C1 / C2 · Part 1…N (≈50 words each, levelled by word frequency) |
 | `listening.json` | `listening` | ۱۲۰۰ لغت پرتکرار لیسنینگ آیلتس | 27 topics |
 
 UI: `#/reading` (tabs: passages · each reading deck) and `#/listening` (tabs: each listening deck);
 route of a deck = `#/<section>/@<deck-id>`.
+Decks with `section` `toefl`/`ielts` live inside Learn: `#/learn/toefl/@t1212`, `#/learn/ielts/@t1212`; the optional `also: [sections]` shows the same deck (same words & progress) as a sub-section of other sections too.
 Books with passages & exercises (Inside Reading `ir0`–`ir2`) also have `public/js/inside_data.js` (lazy-loaded by `public/js/inside.js`):
 book → units (`#/reading/@ir1/3`) → 2 readings (True/False) · exercises with answer key · the unit's target-word deck.
 IELTS vocabulary books (`vi1`, `vi2`) have `public/js/vbooks_data.js` (lazy-loaded by `public/js/vbooks.js`): `#/learn/ielts/@vi1` → units/tests (`/u3`, `/t2`) with page scans (`public/bp/<id>/NNN.webp`, online only, not bundled in apps) + OCR text (offline), answer key, recording scripts and unit word deck.

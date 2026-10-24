@@ -627,5 +627,152 @@
     ""
    ]
   ]
+ },
+ "t1212": {
+  "sort": 12,
+  "icon": "📗",
+  "section": "toefl",
+  "also": [
+   "ielts"
+  ],
+  "name": {
+   "en": "1212 Words You Need to Pass the TOEFL",
+   "fa": "۱۲۱۲ لغت ضروری تافل"
+  },
+  "short": {
+   "en": "1212 TOEFL words",
+   "fa": "۱۲۱۲ لغت تافل"
+  },
+  "about": {
+   "en": "Every word of “1212 Words You Need to Pass the TOEFL” (edited edition) with its Persian meaning, an English synonym, pronunciation and example sentences — grouped by difficulty from B1–B2 to C2, about 50 words per section.",
+   "fa": "همهٔ لغات کتاب «۱۲۱۲ لغت ضروری برای قبولی در تافل» (ویرایش‌شده) با معنی فارسی، مترادف انگلیسی، تلفظ و جملهٔ مثال — دسته‌بندی‌شده بر اساس سطح دشواری از B1–B2 تا C2، هر بخش حدود ۵۰ لغت."
+  },
+  "levels": [
+   [
+    "B1–B2 · Part 1",
+    "B1–B2 · بخش ۱",
+    "B1 · A–B"
+   ],
+   [
+    "B1–B2 · Part 2",
+    "B1–B2 · بخش ۲",
+    "B1 · C–D"
+   ],
+   [
+    "B1–B2 · Part 3",
+    "B1–B2 · بخش ۳",
+    "B1 · E–G"
+   ],
+   [
+    "B1–B2 · Part 4",
+    "B1–B2 · بخش ۴",
+    "B1 · H–N"
+   ],
+   [
+    "B1–B2 · Part 5",
+    "B1–B2 · بخش ۵",
+    "B1 · N–R"
+   ],
+   [
+    "B1–B2 · Part 6",
+    "B1–B2 · بخش ۶",
+    "B1 · R–S"
+   ],
+   [
+    "B1–B2 · Part 7",
+    "B1–B2 · بخش ۷",
+    "B1 · S–Y"
+   ],
+   [
+    "B2 · Part 1",
+    "B2 · بخش ۱",
+    "B2 · A–C"
+   ],
+   [
+    "B2 · Part 2",
+    "B2 · بخش ۲",
+    "B2 · C–E"
+   ],
+   [
+    "B2 · Part 3",
+    "B2 · بخش ۳",
+    "B2 · E–I"
+   ],
+   [
+    "B2 · Part 4",
+    "B2 · بخش ۴",
+    "B2 · I–P"
+   ],
+   [
+    "B2 · Part 5",
+    "B2 · بخش ۵",
+    "B2 · P–S"
+   ],
+   [
+    "B2 · Part 6",
+    "B2 · بخش ۶",
+    "B2 · S–Y"
+   ],
+   [
+    "C1 · Part 1",
+    "C1 · بخش ۱",
+    "C1 · A–C"
+   ],
+   [
+    "C1 · Part 2",
+    "C1 · بخش ۲",
+    "C1 · C–E"
+   ],
+   [
+    "C1 · Part 3",
+    "C1 · بخش ۳",
+    "C1 · E–I"
+   ],
+   [
+    "C1 · Part 4",
+    "C1 · بخش ۴",
+    "C1 · I–P"
+   ],
+   [
+    "C1 · Part 5",
+    "C1 · بخش ۵",
+    "C1 · P–S"
+   ],
+   [
+    "C1 · Part 6",
+    "C1 · بخش ۶",
+    "C1 · S–W"
+   ],
+   [
+    "C2 · Part 1",
+    "C2 · بخش ۱",
+    "C2 · A–C"
+   ],
+   [
+    "C2 · Part 2",
+    "C2 · بخش ۲",
+    "C2 · C–E"
+   ],
+   [
+    "C2 · Part 3",
+    "C2 · بخش ۳",
+    "C2 · E–I"
+   ],
+   [
+    "C2 · Part 4",
+    "C2 · بخش ۴",
+    "C2 · I–P"
+   ],
+   [
+    "C2 · Part 5",
+    "C2 · بخش ۵",
+    "C2 · P–S"
+   ],
+   [
+    "C2 · Part 6",
+    "C2 · بخش ۶",
+    "C2 · S–Y"
+   ]
+  ]
  }
 }

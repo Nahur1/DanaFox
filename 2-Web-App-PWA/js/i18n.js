@@ -50,7 +50,7 @@ en:{
  casual:'Casual', regular:'Regular', serious:'Serious', intense:'Intense', perDay:'cards / day', continue:'Continue', letsGo:"Let's start", back:'Back',
  trackGeneral:'Everyday English', trackIelts:'IELTS exam', trackToefl:'TOEFL exam',
  freeze:'Streak freeze', freezeS:'Protects your streak if you miss a day', levelUp:'Level up!', achUnlocked:'Achievement unlocked',
- listen:'Listen', of:'of', perfect:'Perfect!', good:'Good job!', keep:'Keep practising!', min:'min', sec:'s', noVoice:'No English voice is installed on this device.'
+ listen:'Listen', of:'of', perfect:'Perfect!', good:'Good job!', keep:'Keep practising!', min:'min', sec:'s', noAudio:'Could not play the pronunciation right now — please check your internet connection.', noAudioOff:'You are offline — pronunciation will play once you are back online.'
 },
 fa:{
  appName:'دانافاکس', appSub:'مربی هوشمند لغت',
@@ -102,5 +102,5 @@ fa:{
  casual:'سبک', regular:'معمولی', serious:'جدی', intense:'فشرده', perDay:'کارت در روز', continue:'ادامه', letsGo:'بزن بریم', back:'بازگشت',
  trackGeneral:'انگلیسی عمومی', trackIelts:'آزمون آیلتس', trackToefl:'آزمون تافل',
  freeze:'محافظ رکورد', freezeS:'اگر یک روز جا بماند، رکورد پیاپی شما حفظ می‌شود', levelUp:'سطح شما بالا رفت!', achUnlocked:'دستاورد جدید',
- listen:'گوش دادن', of:'از', perfect:'بی‌نقص!', good:'آفرین!', keep:'به تمرین ادامه دهید!', min:'دقیقه', sec:'ث', noVoice:'صدای انگلیسی روی این دستگاه نصب نیست.'
+ listen:'گوش دادن', of:'از', perfect:'بی‌نقص!', good:'آفرین!', keep:'به تمرین ادامه دهید!', min:'دقیقه', sec:'ث', noAudio:'پخش تلفظ الان ممکن نشد — اتصال اینترنت را بررسی کنید.', noAudioOff:'آفلاین هستید — با وصل شدن اینترنت، تلفظ پخش می‌شود.'
 }};

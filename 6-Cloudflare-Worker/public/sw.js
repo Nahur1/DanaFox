@@ -1,7 +1,7 @@
 /* DanaFox service worker — offline-first.
    App shell: served from the cache at once (works with no connection), refreshed in the background (stale-while-revalidate);
    a new version is picked up on the next start. API calls (/api/…) and the admin panel are never cached here. */
-const CACHE = 'vajeyar-v13';
+const CACHE = 'vajeyar-v14';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./icons/mark.png','./icons/icon-192.png','./css/style.css','./js/icons.js','./js/i18n.js','./js/i18n3.js','./js/words_data.js','./js/decks_data.js','./js/reading_data.js','./js/core.js','./js/ui.js','./js/config.js','./js/account.js','./js/views.js','./js/smart.js','./js/reading.js','./js/inside.js','./js/inside_data.js','./js/grammar.js','./js/grammar_data.js','./js/vbooks.js','./js/vbooks_data.js','./js/placement.js','./js/duel.js','./js/social.js','./js/boot.js','./js/telegram.js','./js/telegram-web-app.js','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png',
  './fonts/vazirmatn-arabic-400-normal.woff2','./fonts/vazirmatn-arabic-500-normal.woff2','./fonts/vazirmatn-arabic-700-normal.woff2','./fonts/vazirmatn-arabic-800-normal.woff2','./fonts/vazirmatn-latin-400-normal.woff2','./fonts/vazirmatn-latin-500-normal.woff2','./fonts/vazirmatn-latin-700-normal.woff2','./fonts/vazirmatn-latin-800-normal.woff2'];
 self.addEventListener('install', e => {

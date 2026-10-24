@@ -160,14 +160,14 @@ Object.assign(I18N.fa, {
 });
 /* v3.3 — IELTS vocabulary books (Learn → IELTS) */
 Object.assign(I18N.en, {
- vbBands:'IELTS words by band', vbTests:'tests', vbUnitsS:'Each unit: book pages · answer key · recordings · word deck',
+ tfLevels:'TOEFL words by level', vbBands:'IELTS words by band', vbTests:'tests', vbUnitsS:'Each unit: book pages · answer key · recordings · word deck',
  vbHow:'Open a unit and work through its pages (exercises, readings, test practice). Write your answers, then check them in the Answer key tab. Learn the unit’s words with flashcards in the Words tab. After every 5 units, do the test.',
  vbScripts:'Recording scripts', vbTracks:'recordings', vbTestS:'vocabulary test', vbPages:'pages', vbPagesT:'Book pages', vbKey:'Answer key',
  vbShowImg:'Page image', vbShowTxt:'Text', vbPagesHint:'Tap a page to zoom. Use “Text” to see the page as text (also works offline).',
  vbKeyHint:'Check your answers after doing the exercises.', vbKeyPages:'Key pages', vbImgErr:'The page image needs an internet connection.'
 });
 Object.assign(I18N.fa, {
- vbBands:'لغات آیلتس بر اساس باند', vbTests:'آزمون', vbUnitsS:'هر یونیت: صفحه‌های کتاب · پاسخ‌نامه · متن فایل‌های صوتی · لغات',
+ tfLevels:'لغات تافل بر اساس سطح', vbBands:'لغات آیلتس بر اساس باند', vbTests:'آزمون', vbUnitsS:'هر یونیت: صفحه‌های کتاب · پاسخ‌نامه · متن فایل‌های صوتی · لغات',
  vbHow:'یک یونیت را باز کنید و صفحه‌هایش را کار کنید (تمرین‌ها، متن‌ها و Test practice). جواب‌ها را بنویسید و در زبانهٔ «پاسخ‌نامه» بررسی کنید. لغات یونیت را در زبانهٔ «لغات» با فلش‌کارت یاد بگیرید. بعد از هر ۵ یونیت، آزمون را بدهید.',
  vbScripts:'متن فایل‌های صوتی', vbTracks:'فایل صوتی', vbTestS:'آزمون واژگان', vbPages:'صفحه', vbPagesT:'صفحه‌های کتاب', vbKey:'پاسخ‌نامه',
  vbShowImg:'تصویر صفحه', vbShowTxt:'متن', vbPagesHint:'برای بزرگ‌نمایی روی صفحه بزنید. با «متن» صفحه را به صورت متنی ببینید (بدون اینترنت هم کار می‌کند).',

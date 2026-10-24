@@ -16,10 +16,10 @@ input:focus-visible,textarea:focus-visible,select:focus-visible{outline:none}
 @font-face{font-family:Vazirmatn;font-weight:500;font-display:swap;src:url(../fonts/vazirmatn-arabic-500-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+200C-200E,U+FB50-FDFF,U+FE70-FEFF}
 @font-face{font-family:Vazirmatn;font-weight:700;font-display:swap;src:url(../fonts/vazirmatn-arabic-700-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+200C-200E,U+FB50-FDFF,U+FE70-FEFF}
 @font-face{font-family:Vazirmatn;font-weight:800;font-display:swap;src:url(../fonts/vazirmatn-arabic-800-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+200C-200E,U+FB50-FDFF,U+FE70-FEFF}
-@font-face{font-family:Vazirmatn;font-weight:400;font-display:swap;src:url(../fonts/vazirmatn-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
-@font-face{font-family:Vazirmatn;font-weight:500;font-display:swap;src:url(../fonts/vazirmatn-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
-@font-face{font-family:Vazirmatn;font-weight:700;font-display:swap;src:url(../fonts/vazirmatn-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
-@font-face{font-family:Vazirmatn;font-weight:800;font-display:swap;src:url(../fonts/vazirmatn-latin-800-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:Vazirmatn;font-weight:400;font-display:swap;src:url(../fonts/vazirmatn-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-200B,U+2010-206F}
+@font-face{font-family:Vazirmatn;font-weight:500;font-display:swap;src:url(../fonts/vazirmatn-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-200B,U+2010-206F}
+@font-face{font-family:Vazirmatn;font-weight:700;font-display:swap;src:url(../fonts/vazirmatn-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-200B,U+2010-206F}
+@font-face{font-family:Vazirmatn;font-weight:800;font-display:swap;src:url(../fonts/vazirmatn-latin-800-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-200B,U+2010-206F}
 
 :root{
   --bg:#F8F6FF; --bg2:#F1EDFE; --surface:#FFFFFF; --surface2:#FAF9FF;
@@ -236,6 +236,8 @@ label.lbl{display:block;font-size:calc(13px*var(--fs,1));font-weight:700;margin:
 .speak:active{transform:scale(.9)}
 .speak svg{width:20px;height:20px}
 .speak.sm{width:32px;height:32px}.speak.sm svg{width:16px;height:16px}
+.speak.loading{animation:spk-pulse 1s ease-in-out infinite}
+@keyframes spk-pulse{50%{opacity:.45;transform:scale(.92)}}
 .syn{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:12px}
 .rate{margin-top:22px}
 .rate-main{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
@@ -913,6 +915,7 @@ input.gr-in{width:11em}
 .sec-hero.vi1{background:linear-gradient(135deg,#8E7CF0,#5A45C8);color:#fff}
 .sec-hero.vi2{background:linear-gradient(135deg,#E87FB0,#B23F78);color:#fff}
 .sec-hero.gr-hero h2,.sec-hero.vi1 h2,.sec-hero.vi2 h2{color:#fff}
+.sec-hero.t1212{background:linear-gradient(135deg,#2BB3A3,#13756C);color:#fff}.sec-hero.t1212 h2{color:#fff}
 
 /* v3.3.1 grammar: book-faithful exercises + pictures, overflow fixes */
 .gr-sec,.gr-sb,.gr-body,.gr-ex,.gx-tx,.gx-col{min-width:0;max-width:100%}
@@ -956,3 +959,12 @@ input.gr-in.gx-in.bad{border-bottom-color:var(--red,#e5484d);background:color-mi
 .gr-p .gx-b,.gr-eg .gx-b,.gr-tbl .gx-b{font-weight:800}
 .gr-p{font-weight:400}
 .brand-logo{overflow:hidden;background:#8B5CF6}.brand-logo img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* v3.5 — consistent Persian text in every control (some mobile browsers style buttons with their own system font) */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{text-rendering:optimizeLegibility;font-synthesis:none;font-kerning:normal}
+button,input,select,textarea,.btn,.chip,.opt{font-family:Vazirmatn,"Segoe UI",system-ui,-apple-system,Roboto,Tahoma,sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;font-synthesis:none;-webkit-font-smoothing:antialiased}
+button{-webkit-appearance:none;appearance:none}
+.btn{line-height:1.5}
+/* Persian letters must never be letter-spaced — it breaks the joins between letters */
+html[dir=rtl] :is(.brand-name,.topbar h1,.hero h2,.auth-hero h1,.auth-card h2){letter-spacing:0}

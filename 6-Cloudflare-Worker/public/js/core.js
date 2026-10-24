@@ -15,7 +15,7 @@ VY.CATS = {
 /* extra decks shipped in js/decks_data.js (AWL, Cambridge Reading, IELTS Listening …) — section: 'reading' | 'listening' */
 (function(){ const D = window.VY_DECKS || {}, c = VY.CATS.custom; delete VY.CATS.custom; for(const k in D) VY.CATS[k] = D[k]; VY.CATS.custom = c; })();
 VY.MAIN_CATS = ['general','ielts','toefl'];
-VY.deckCats = sec => Object.keys(VY.CATS).filter(k => VY.CATS[k].section === sec);
+VY.deckCats = sec => Object.keys(VY.CATS).filter(k => VY.CATS[k].section === sec || (VY.CATS[k].also || []).includes(sec));
 VY.allCats = () => [...VY.MAIN_CATS, ...Object.keys(VY.CATS).filter(k => VY.CATS[k].section)];
 VY.POS = {n:{en:'noun',fa:'اسم'},v:{en:'verb',fa:'فعل'},adj:{en:'adjective',fa:'صفت'},adv:{en:'adverb',fa:'قید'},prep:{en:'preposition',fa:'حرف اضافه'},conj:{en:'conjunction',fa:'حرف ربط'},phr:{en:'phrase',fa:'عبارت'}};
 
@@ -218,42 +218,78 @@ VY.checkAch = () => { VY.ACH.forEach(a => { if(!VY.S.ach[a.id] && a.ok()){ VY.S.
 /* ---------- Toast ---------- */
 VY.toast = msg => { let box = document.querySelector('.toasts'); if(!box){ box = document.createElement('div'); box.className='toasts'; document.body.appendChild(box); } const el = document.createElement('div'); el.className='toast'; el.textContent = msg; box.appendChild(el); setTimeout(()=>{ el.style.opacity='0'; el.style.transition='opacity .3s'; setTimeout(()=>el.remove(), 300); }, 2400); };
 
-/* ---------- Text to speech: real audio from the server first, the device engine as fallback ---------- */
+/* ---------- Text to speech ----------
+   1) natural audio from our server (/api/tts) — kept in memory and in Cache Storage, so replays are instant and work offline
+   2) Google's TTS directly, when our server cannot be reached
+   3) the device engine (speechSynthesis) — only if it really has an English voice
+   Android WebViews (the APK, Telegram) have no speechSynthesis at all, so 1–2 are the main path there. */
 let voices = [];
-const loadVoices = () => { voices = (window.speechSynthesis && speechSynthesis.getVoices()) || []; };
-if(window.speechSynthesis){ loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
-VY.hasTTS = () => !!window.speechSynthesis || !!(VY.isServer && VY.isServer());
+const loadVoices = () => { try{ voices = (window.speechSynthesis && speechSynthesis.getVoices()) || []; }catch(e){ voices = []; } };
+if(window.speechSynthesis){ loadVoices(); try{ speechSynthesis.onvoiceschanged = loadVoices; }catch(e){} }
+VY.hasTTS = () => true;
 VY.pickVoice = () => {
-  const acc = VY.S.settings.accent; const en = voices.filter(v => /^en[-_]/i.test(v.lang));
+  const acc = VY.S.settings.accent; const en = voices.filter(v => /^en([-_]|$)/i.test(v.lang));
   const score = v => (v.lang.replace('_','-').toLowerCase()===acc.toLowerCase()?10:0) + (/natural|online|neural/i.test(v.name)?4:0) + (/google|microsoft/i.test(v.name)?2:0) + (v.localService?1:0);
   return en.sort((a,b)=>score(b)-score(a))[0] || null;
 };
-VY.ttsUrl = (text, rate) => { const s = VY.S.settings;
-  return (VY.apiBase || '') + '/api/tts?text=' + encodeURIComponent(text) + '&accent=' + encodeURIComponent(s.accent) + '&rate=' + +(rate || s.rate || 1); };
-VY.speak = async (text, rate) => {
-  text = String(text || '').trim(); if(!text) return;
-  if(navigator.onLine && VY.isServer && VY.isServer()){
-    const a = new Audio(VY.ttsUrl(text, rate));
-    let r;
-    try{
-      r = await new Promise(res => {
-        a.onplaying = () => res('played');
-        a.onerror = () => res('failed');
-        a.play().catch(e => res(e && e.name === 'NotAllowedError' ? 'blocked' : 'failed'));
-        setTimeout(() => res('timeout'), 6000);
-      });
-    }catch(e){ r = 'failed'; }
-    if(r !== 'played') a.pause();
-    // 'blocked' = the browser refuses sound before the first tap; the device engine is refused too, so stay quiet
-    if(r === 'played' || r === 'blocked') return;
-  }
-  if(!window.speechSynthesis){ VY.toast(VY.t('noVoice')); return; }
-  speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  const v = VY.pickVoice(); if(v) u.voice = v; u.lang = v ? v.lang : VY.S.settings.accent;
-  u.rate = rate || VY.S.settings.rate; speechSynthesis.speak(u);
+const slowRate = rate => +(rate || VY.S.settings.rate || 1) < 0.9;
+VY.ttsUrl = (text, rate) => (VY.apiBase || '') + '/api/tts?text=' + encodeURIComponent(text) + '&accent=' + encodeURIComponent(VY.S.settings.accent) + '&rate=' + (slowRate(rate) ? 0.6 : 1);
+const gttsUrl = (text, rate) => 'https://translate.google.' + (VY.S.settings.accent === 'en-GB' ? 'co.uk' : 'com') + '/translate_tts?ie=UTF-8&client=tw-ob&tl=en&ttsspeed=' + (slowRate(rate) ? '0.3' : '1') + '&q=' + encodeURIComponent(text);
+const TTS_STORE = 'dfx-tts', ttsMem = new Map();
+const ttsKey = (text, rate) => 'https://tts.local/' + VY.S.settings.accent + '/' + (slowRate(rate) ? 's' : 'n') + '/' + encodeURIComponent(text.toLowerCase());
+const ttsCached = async key => {
+  if(ttsMem.has(key)) return ttsMem.get(key);
+  try{ if(!window.caches) return null; const c = await caches.open(TTS_STORE); const r = await c.match(key); if(!r) return null;
+    const u = URL.createObjectURL(await r.blob()); ttsMem.set(key, u); return u; }catch(e){ return null; }
 };
-VY.playAudio = url => { try{ new Audio(url).play(); }catch(e){} };
+const ttsKeep = (key, url) => {           // after a successful play: store the mp3 (normally served from the HTTP cache, no second download)
+  if(!window.caches || ttsMem.has(key)) return;
+  fetch(url).then(r => r.ok && /audio/.test(r.headers.get('content-type') || '') ? r.blob() : null).then(b => { if(!b) return;
+    ttsMem.set(key, URL.createObjectURL(b)); return caches.open(TTS_STORE).then(c => c.put(key, new Response(b, {headers: {'Content-Type': 'audio/mpeg'}}))); }).catch(() => {});
+};
+let player = null, speakId = 0;
+const playUrl = (url, ms) => new Promise(res => {
+  const a = player || (player = new Audio()); let done = false, tm = 0;
+  const fin = r => { if(done) return; done = true; clearTimeout(tm); a.onplaying = a.onerror = null; if(r !== 'played'){ try{ a.pause(); }catch(e){} } res(r); };
+  a.onplaying = () => fin('played'); a.onerror = () => fin('failed');
+  tm = setTimeout(() => fin('timeout'), ms);
+  try{ a.src = url; const p = a.play(); if(p && p.catch) p.catch(e => fin(e && e.name === 'NotAllowedError' ? 'blocked' : 'failed')); }catch(e){ fin('failed'); }
+});
+const deviceSpeak = (text, rate) => new Promise(res => {
+  const ss = window.speechSynthesis; if(!ss || !window.SpeechSynthesisUtterance) return res(false);
+  loadVoices(); const v = VY.pickVoice();
+  if(!v && voices.length) return res(false);             // voices are known and none is English → it would read the word in another language
+  try{
+    ss.cancel(); const u = new SpeechSynthesisUtterance(text);
+    if(v) u.voice = v; u.lang = v ? v.lang : VY.S.settings.accent; u.rate = rate || VY.S.settings.rate;
+    let ok = false; u.onstart = () => { ok = true; res(true); }; u.onerror = () => { if(!ok) res(false); };
+    ss.speak(u); setTimeout(() => res(ok || ss.speaking), 2500);
+  }catch(e){ res(false); }
+});
+let lastWarn = 0;
+VY.speak = async (text, rate, btn) => {
+  text = String(text || '').replace(/\s+/g, ' ').trim(); if(!text) return;
+  const id = ++speakId, key = ttsKey(text, rate), online = navigator.onLine !== false, server = VY.apiBase !== undefined && VY.apiBase !== null && !(window.VY_SERVER === null);
+  if(btn) btn.classList.add('loading');
+  const done = () => { if(btn) btn.classList.remove('loading'); };
+  try{ window.speechSynthesis && speechSynthesis.cancel(); }catch(e){}
+  const hit = await ttsCached(key);
+  if(id !== speakId) return done();
+  if(hit && await playUrl(hit, 4000) === 'played') return done();
+  const tries = [];
+  if(online && server && text.length <= 190) tries.push([VY.ttsUrl(text, rate), 9000]);
+  if(online && text.length <= 190) tries.push([gttsUrl(text, rate), 7000]);
+  for(const [url, ms] of tries){
+    if(id !== speakId) return done();
+    const r = await playUrl(url, ms);
+    if(r === 'played'){ if(url.includes('/api/tts')) ttsKeep(key, url); return done(); }
+    if(r === 'blocked') return done();                     // sound is not allowed before the first tap — stay quiet
+  }
+  if(id !== speakId) return done();
+  const ok = await deviceSpeak(text, rate); done();
+  if(!ok && id === speakId && Date.now() - lastWarn > 4000){ lastWarn = Date.now(); VY.toast(VY.t(online ? 'noAudio' : 'noAudioOff')); }
+};
+VY.playAudio = url => { playUrl(url, 8000); };
 
 /* ---------- Sounds ---------- */
 let actx;

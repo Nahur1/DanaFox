@@ -32,7 +32,8 @@ const route = (c, x) => `#/learn/ielts/@${c}${x ? '/' + x : ''}`;
 /* sub-tabs inside Learn → IELTS: the IELTS band decks + every book */
 VY.ieltsTabs = active => {
   const tabs = [{k: '', e: '🎯', label: t('vbBands'), sub: `${n(VY.deckWords('ielts').length)} ${t('words')} · ${n(VY.CATS.ielts.levels.length)} ${t('secN')}`}]
-    .concat(VY.VBOOKS.filter(c => VY.CATS[c]).map(c => ({k: '@' + c, e: VY.CATS[c].icon, label: VY.catName(c), sub: `${n(VY.CATS[c].levels.length)} ${t('grUnitsN')} · ${n(VY.deckWords(c).length)} ${t('words')}`, cls: c})));
+    .concat(VY.VBOOKS.filter(c => VY.CATS[c]).map(c => ({k: '@' + c, e: VY.CATS[c].icon, label: VY.catName(c), sub: `${n(VY.CATS[c].levels.length)} ${t('grUnitsN')} · ${n(VY.deckWords(c).length)} ${t('words')}`, cls: c})))
+    .concat(VY.deckCats('ielts').filter(c => !VY.VBOOKS.includes(c)).map(c => ({k: '@' + c, e: VY.CATS[c].icon, label: VY.catName(c), sub: `${n(VY.deckWords(c).length)} ${t('words')} · ${n(VY.CATS[c].levels.length)} ${t('secN')}`, cls: c})));
   return `<div class="sec-tabs mt16">${tabs.map(x => `<button class="sec-tab ${x.cls || ''} ${x.k === active ? 'on' : ''}" data-act="go" data-to="learn/ielts${x.k ? '/' + x.k : ''}"><span class="st-ic">${x.e}</span><span class="st-tx"><b>${esc(x.label)}</b><small>${x.sub}</small></span></button>`).join('')}</div>`;
 };
 /* ---------- book ---------- */
