@@ -1,4 +1,4 @@
-# VajeYar on Cloudflare: web app + admin panel (static assets), API, sync and the Telegram bot — one Worker + one D1 database.
+# DanaFox on Cloudflare: web app + admin panel (static assets), API, sync and the Telegram bot — one Worker + one D1 database.
 name = "vajeyar"
 main = "src/index.js"
 compatibility_date = "2025-09-01"
@@ -21,7 +21,7 @@ migrations_dir = "migrations"
 crons = ["*/15 * * * *"]
 
 [vars]
-APP_NAME = "VajeYar"
+APP_NAME = "DanaFox"
 ALLOW_REGISTRATION = "true"
 ALLOW_GUEST = "true"
 SESSION_DAYS = "90"

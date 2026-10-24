@@ -27,7 +27,7 @@ class FakeSession(BaseSession):
         CALLS.append((name, data))
         ret = method.__returning__
         if name == "GetMe":
-            return User(id=1, is_bot=True, first_name="VajeYar", username="VajeYarBot")
+            return User(id=1, is_bot=True, first_name="DanaFox", username="VajeYarBot")
         if name in ("SendMessage", "SendPhoto", "EditMessageText", "EditMessageMedia", "EditMessageCaption", "SendVoice", "SendAudio", "SendDocument", "CopyMessage"):
             m = {"message_id": data.get("message_id") or next(MID), "date": int(time.time()), "chat": {"id": UID, "type": "private"}}
             if name in ("SendPhoto", "EditMessageMedia") or (name == "EditMessageCaption"):

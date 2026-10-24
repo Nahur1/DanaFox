@@ -1,7 +1,9 @@
-// VajeYar — Electron desktop shell
+// DanaFox — Electron desktop shell
 const { app, BrowserWindow, shell, Menu, nativeTheme } = require('electron');
 const path = require('path');
 
+// keep the progress saved by older versions (the app was called VajeYar before 3.4)
+app.setPath('userData', path.join(app.getPath('appData'), 'VajeYar'));
 app.setAppUserModelId('com.vajeyar.app');
 if (!app.requestSingleInstanceLock()) { app.quit(); }
 
@@ -9,7 +11,7 @@ let win;
 function createWindow() {
   win = new BrowserWindow({
     width: 1280, height: 840, minWidth: 380, minHeight: 600,
-    title: 'VajeYar', backgroundColor: nativeTheme.shouldUseDarkColors ? '#13111C' : '#F8F6FF',
+    title: 'DanaFox', backgroundColor: nativeTheme.shouldUseDarkColors ? '#13111C' : '#F8F6FF',
     icon: path.join(__dirname, 'app', 'icons', 'icon-512.png'),
     autoHideMenuBar: true, show: false,
     webPreferences: { contextIsolation: true, nodeIntegration: false, spellcheck: false }

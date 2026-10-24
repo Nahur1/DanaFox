@@ -1,4 +1,4 @@
-/* VajeYar Worker: static web app + admin panel (assets), JSON API, Telegram webhook and cron */
+/* DanaFox Worker: static web app + admin panel (assets), JSON API, Telegram webhook and cron */
 import { ApiError } from './util.js';
 import { handleApi } from './router.js';
 import './api.js';

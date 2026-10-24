@@ -1,4 +1,4 @@
-/* ===== VajeYar account: login / register, word bank from the server and two-way progress sync ===== */
+/* ===== DanaFox account: login / register, word bank from the server and two-way progress sync ===== */
 (function(){
 const TKEY = 'vajeyar_token', SKEY = 'vajeyar_sync_v1', WKEY = 'vajeyar_words_v1', GKEY = 'vajeyar_guest',
       AKEY = 'vajeyar_autosync', CKEY = 'vajeyar_cfg', UKEY = 'vajeyar_user';
@@ -383,7 +383,7 @@ VY.boot = async () => {
 /* ---------- splash ---------- */
 function showSplash(msg){
   VY.applyDir(); VY.applyTheme();
-  document.getElementById('app').innerHTML = `<div class="auth-splash"><div class="brand-logo big">${icon('logo')}</div><div class="spinner"></div><div class="muted">${esc(msg||'')}</div></div>`;
+  document.getElementById('app').innerHTML = `<div class="auth-splash"><div class="brand-logo big"><img src="icons/mark.png" alt=""></div><div class="spinner"></div><div class="muted">${esc(msg||'')}</div></div>`;
 }
 
 /* ---------- login / register screen ---------- */
@@ -395,7 +395,7 @@ function showLogin(){
   app.innerHTML = `
   <div class="auth">
     <section class="auth-hero">
-      <div class="brand"><div class="brand-logo">${icon('logo')}</div><div><div class="brand-name">${VY.t('appName')}</div><div class="brand-sub">${VY.t('appSub')}</div></div></div>
+      <div class="brand"><div class="brand-logo"><img src="icons/mark.png" alt=""></div><div><div class="brand-name">${VY.t('appName')}</div><div class="brand-sub">${VY.t('appSub')}</div></div></div>
       <div class="auth-hero-body">
         <h1>${T('heroT')}</h1><p>${T('heroS')}</p>
         <div class="auth-demo">
@@ -411,7 +411,7 @@ function showLogin(){
     <section class="auth-side">
       <div class="auth-top"><button class="lang-btn" id="au-lang">${VY.lang()==='fa'?'EN':'فا'}</button><button class="icon-btn" id="au-theme">${icon(document.documentElement.dataset.theme==='dark'?'sun':'moon')}</button></div>
       <form class="auth-card" id="au-form" novalidate autocomplete="on">
-        <div class="brand-logo mobile-only">${icon('logo')}</div>
+        <div class="brand-logo mobile-only"><img src="icons/mark.png" alt=""></div>
         <h2>${reg ? T('createAcc') : T('welcomeBack')}</h2>
         <p class="muted">${reg ? T('registerSub') : T('loginSub')}</p>
         <div class="seg auth-tabs"><button type="button" class="${reg?'':'on'}" data-mode="login">${T('login')}</button>${cfg.registration!==false?`<button type="button" class="${reg?'on':''}" data-mode="register">${T('register')}</button>`:''}</div>

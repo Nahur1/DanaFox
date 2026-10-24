@@ -1,4 +1,4 @@
-/* ===== VajeYar smart layer: examples with Persian, daily plan, insights, smart sessions, AI tutor, translation ===== */
+/* ===== DanaFox smart layer: examples with Persian, daily plan, insights, smart sessions, AI tutor, translation ===== */
 (function(){
 const {t, n, esc} = VY; const ACT = VY.ACT, V = VY.V;
 const pct = x => n(Math.round(x)) + (VY.lang()==='fa' ? '٪' : '%');

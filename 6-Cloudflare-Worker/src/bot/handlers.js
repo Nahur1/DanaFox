@@ -1,4 +1,4 @@
-/* VajeYar Telegram bot — webhook handler. Every user's data lives in the same D1 tables as the web app,
+/* DanaFox Telegram bot — webhook handler. Every user's data lives in the same D1 tables as the web app,
    so the bot, the in-Telegram mini app, the web app and the desktop app all share one account. */
 import { one, all, run, now } from '../util.js';
 import { newCode } from '../security.js';
@@ -541,7 +541,7 @@ async function adminHome(ctx, fresh) {
   const a = await one(env, 'SELECT COUNT(DISTINCT CASE WHEN day=?1 THEN user_id END) td, COUNT(DISTINCT user_id) d7, COALESCE(SUM(CASE WHEN day=?1 THEN reviews END),0) rv FROM user_daily_activity WHERE day>=?2', today, tehranDay(now() - 6 * E.DAY));
   const br = (await one(env, "SELECT COUNT(*) c FROM broadcasts WHERE status='running'")).c;
   const st = await getSettings(env), o = await publicOrigin(env), x = v => n(ctx, v || 0);
-  const text = (fa ? '🛠 <b>پنل مدیریت واژه‌یار</b>\n\n' : '🛠 <b>VajeYar admin</b>\n\n') +
+  const text = (fa ? '🛠 <b>پنل مدیریت دانافاکس</b>\n\n' : '🛠 <b>DanaFox admin</b>\n\n') +
     `👥 ${fa ? 'کاربران' : 'Users'}: <b>${x(k.users)}</b>  ·  🆕 ${fa ? 'امروز' : 'today'} <b>${x(k.nt)}</b>  ·  ${fa ? '۷ روز' : '7 days'} <b>${x(k.n7)}</b>\n` +
     `✈️ ${fa ? 'تلگرام' : 'Telegram'}: <b>${x(k.tgc)}</b>  ·  🌐 ${fa ? 'وب' : 'Web'}: <b>${x(k.web)}</b>  ·  🚫 ${fa ? 'ربات را بسته‌اند' : 'blocked the bot'}: <b>${x(k.bb)}</b>\n` +
     `🔥 ${fa ? 'فعال امروز' : 'Active today'}: <b>${x(a.td)}</b>  ·  ${fa ? 'فعال ۷ روز' : 'active 7d'}: <b>${x(a.d7)}</b>\n` +
@@ -583,7 +583,7 @@ async function onCommand(ctx, cmd, arg) {
   if (cmd === 'admin' && ctx.admin) return adminHome(ctx, true);
   if (cmd === 'start') {                                   // pin the Mini App menu button in this chat (the bot-wide default isn't always applied by Telegram)
     const o = await publicOrigin(ctx.env);
-    if (o) await tg(ctx.env, 'setChatMenuButton', { chat_id: ctx.chat, menu_button: { type: 'web_app', text: 'واژه‌یار', web_app: { url: `${o}/?tg=1` } } }).catch(() => {});
+    if (o) await tg(ctx.env, 'setChatMenuButton', { chat_id: ctx.chat, menu_button: { type: 'web_app', text: 'دانافاکس', web_app: { url: `${o}/?tg=1` } } }).catch(() => {});
     if (ctx.admin) await adminCommands(ctx.env, ctx.chat).catch(() => {});
   }
   if (cmd === 'start' && arg && arg.startsWith('link_')) return linkAccount(ctx, arg.slice(5));
@@ -759,7 +759,7 @@ async function inlineQuery(env, iq) {
   await tg(env, 'answerInlineQuery', { inline_query_id: iq.id, cache_time: 60, results: res.map(w => ({
     type: 'article', id: String(w.pk), title: `${w.word} — ${w.fa}`.slice(0, 100), description: w.def.slice(0, 120),
     input_message_content: { parse_mode: 'HTML', message_text: `🔤 <b>${esc(w.word)}</b> <i>(${(E.POS_NAMES[w.pos] || [w.pos])[0]})</i>\n🇮🇷 ${esc(w.fa)}` + (w.def ? `\n📘 <i>${esc(w.def)}</i>` : '') + (w.ex ? `\n💬 ${esc(w.ex)}` : '') },
-    reply_markup: bot ? { inline_keyboard: [[{ text: '📚 VajeYar', url: `https://t.me/${bot}?start=w` }]] } : undefined,
+    reply_markup: bot ? { inline_keyboard: [[{ text: '📚 DanaFox', url: `https://t.me/${bot}?start=w` }]] } : undefined,
   })) }).catch(e => console.error('inline', e.message));
 }
 

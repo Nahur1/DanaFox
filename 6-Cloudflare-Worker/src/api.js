@@ -8,13 +8,13 @@ import { route } from './router.js';
 import { publicUser, currentUser, startSession, checkCredentials, telegramUser } from './auth.js';
 import { getSettings } from './settings.js';
 
-export const VERSION = '3.3.1';
+export const VERSION = '3.4.0';
 
 /* ---------- handlers ---------- */
 
 route('GET', '/api/config', async (env) => {
   const bot = await botUsername(env), s = await getSettings(env);
-  return { app: env.APP_NAME || 'VajeYar', version: VERSION, registration: s.registration, guest: s.guest,
+  return { app: env.APP_NAME || 'DanaFox', version: VERSION, registration: s.registration, guest: s.guest,
     words_version: await meta(env, 'words_version', '0'), telegram: bot ? { bot } : null,
     notice: s.notice ? { text: s.notice, level: s.notice_level } : null, maintenance: s.maintenance ? (s.maintenance_msg || true) : null,
     readings_version: await meta(env, 'readings_version', '0'), features: { duel: true, leaderboard: true, feedback: true, ai: !!env.AI, translate: true } };

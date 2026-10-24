@@ -1,4 +1,4 @@
-/* ===== VajeYar views: quiz, games, dictionary, my words, stats, settings, onboarding ===== */
+/* ===== DanaFox views: quiz, games, dictionary, my words, stats, settings, onboarding ===== */
 (function(){
 const {t, n, esc} = VY; const ACT = VY.ACT, V = VY.V;
 let timers = [];
@@ -240,7 +240,7 @@ ACT.cTranslate = async () => { const w = document.getElementById('c-word').value
   if(!document.getElementById('c-def').value){ const d = await VY.fetchDict(w); if(d && !d.none && d.defs[0]){ document.getElementById('c-def').value = d.defs[0].def; if(d.defs.find(x=>x.ex)) document.getElementById('c-ex').value = d.defs.find(x=>x.ex).ex; const ps = {noun:'n',verb:'v',adjective:'adj',adverb:'adv'}[d.defs[0].pos]; if(ps) document.getElementById('c-pos').value = ps; } } };
 ACT.cDel = (el, e) => { e.stopPropagation(); VY.S.custom = VY.S.custom.filter(c=>c.id!==el.dataset.id); delete VY.S.progress[el.dataset.id]; VY.save(); VY.buildWords(); VY.toast(t('deleted')); VY.rerender(); };
 const csvCell = s => '"'+String(s||'').replace(/"/g,'""')+'"';
-ACT.cExport = () => VY.download('vajeyar-words.csv', '\ufeff'+VY.S.custom.map(c=>[c.word,c.fa,c.def,c.ex].map(csvCell).join(',')).join('\n'), 'text/csv');
+ACT.cExport = () => VY.download('danafox-words.csv', '\ufeff'+VY.S.custom.map(c=>[c.word,c.fa,c.def,c.ex].map(csvCell).join(',')).join('\n'), 'text/csv');
 function parseCSV(text){ const rows = []; let row = [], cur = '', q = false; for(let i=0;i<text.length;i++){ const ch = text[i]; if(q){ if(ch==='"' && text[i+1]==='"'){ cur+='"'; i++; } else if(ch==='"') q = false; else cur += ch; } else { if(ch==='"') q = true; else if(ch===',' || ch===';' || ch==='\t'){ row.push(cur); cur=''; } else if(ch==='\n'){ row.push(cur); rows.push(row); row=[]; cur=''; } else if(ch!=='\r') cur += ch; } } if(cur || row.length){ row.push(cur); rows.push(row); } return rows; }
 ACT.cImport = () => VY.pickFile('.csv,.txt,.tsv', text => { let k = 0; parseCSV(text.replace(/^\ufeff/,'')).forEach(r => { if(r[0] && !/^word$/i.test(r[0].trim()) && addCustom(r[0], r[1], 'n', r[2], r[3])) k++; }); VY.save(); VY.buildWords(); VY.checkAch(); VY.toast('✓ '+n(k)+' '+t('words')); VY.rerender(); });
 
@@ -316,7 +316,7 @@ V.settings = {title:'settings', render(){
   const tm = document.getElementById('s-time'); tm.onchange = () => { VY.S.settings.reminderTime = tm.value; VY.S.notified = null; VY.save(); };
 }};
 ACT.setv = el => { const k = el.dataset.k, v = el.dataset.v; VY.S.settings[k] = /^\d+$/.test(v) ? +v : v; VY.save(); if(k==='lang' || k==='theme') VY.renderShell(); else VY.rerender(); };
-ACT.bExport = () => { VY.saveNow(); VY.download('vajeyar-backup-'+VY.dayKey()+'.json', JSON.stringify(VY.S)); VY.toast('✓ '+t('exported')); };
+ACT.bExport = () => { VY.saveNow(); VY.download('danafox-backup-'+VY.dayKey()+'.json', JSON.stringify(VY.S)); VY.toast('✓ '+t('exported')); };
 ACT.bImport = () => VY.pickFile('.json', text => { try{ const s = JSON.parse(text); if(!s || !s.v) throw 0; localStorage.setItem('vajeyar_state_v1', text); location.reload(); }catch(e){ VY.toast('✗ Invalid file'); } });
 ACT.resetAll = () => { if(confirm(t('confirmReset'))){ VY.resetAll(); VY.renderShell(); } };
 ACT.install = async () => { if(deferredPrompt){ deferredPrompt.prompt(); deferredPrompt = null; VY.rerender(); } };
@@ -336,7 +336,7 @@ V.onboarding = {render(){
   if(st===1) body = `<h1>${t('chooseTrack')}</h1>${[['general','🌍','trackGeneral'],['ielts','🎓','trackIelts'],['toefl','🏛️','trackToefl']].map(([k,e,l])=>`<button class="choice ${s.track===k?'on':''}" data-act="onbSet" data-k="track" data-v="${k}"><span class="ce">${e}</span><div><b>${t(l)}</b><span>${n(VY.deckWords(k).length)} ${t('words')} · ${n(VY.CATS[k].levels.length)} ${t('level')}</span></div></button>`).join('')}`;
   if(st===2) body = `<h1>${t('chooseGoal')}</h1>${[[10,'🙂','casual'],[20,'💪','regular'],[30,'🔥','serious'],[50,'🚀','intense']].map(([g,e,l])=>`<button class="choice ${s.goal===g?'on':''}" data-act="onbSet" data-k="goal" data-v="${g}"><span class="ce">${e}</span><div><b>${t(l)}</b><span>${n(g)} ${t('perDay')}</span></div></button>`).join('')}`;
   return `<div class="onb"><div class="onb-card">
-    <div class="row between"><div class="brand" style="padding:0"><div class="brand-logo">${icon('logo')}</div><div><div class="brand-name">${t('appName')}</div><div class="brand-sub">${t('appSub')}</div></div></div><button class="icon-btn" data-act="toggleThemeOnb">${icon(document.documentElement.dataset.theme==='dark'?'sun':'moon')}</button></div>
+    <div class="row between"><div class="brand" style="padding:0"><div class="brand-logo"><img src="icons/mark.png" alt=""></div><div><div class="brand-name">${t('appName')}</div><div class="brand-sub">${t('appSub')}</div></div></div><button class="icon-btn" data-act="toggleThemeOnb">${icon(document.documentElement.dataset.theme==='dark'?'sun':'moon')}</button></div>
     <div class="mt24">${steps}</div>
     ${body}
     <div class="row mt24">${st>0?`<button class="btn btn-ghost" data-act="onbBack">${t('back')}</button>`:''}<div style="flex:1"></div><button class="btn btn-primary btn-lg" data-act="onbNext">${st<2?t('continue'):t('letsGo')} ${icon('arrow')}</button></div>

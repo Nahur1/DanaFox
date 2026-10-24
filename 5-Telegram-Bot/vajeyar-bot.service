@@ -1,7 +1,7 @@
 # systemd unit — copy to /etc/systemd/system/vajeyar-bot.service, then:
 #   sudo systemctl daemon-reload && sudo systemctl enable --now vajeyar-bot
 [Unit]
-Description=VajeYar Telegram bot
+Description=DanaFox Telegram bot
 After=network-online.target
 Wants=network-online.target
 

@@ -103,7 +103,7 @@ async def speak(bot: Bot, u: dict, text: str, accent=None, slow=None, caption=No
             if not isinstance(src, BufferedInputFile):
                 data = await media.tts(text, accent, slow)
                 src = BufferedInputFile(data, filename="voice.mp3")
-            m = await bot.send_audio(u["id"], src, caption=caption, title=text[:60], performer="VajeYar", disable_notification=True)
+            m = await bot.send_audio(u["id"], src, caption=caption, title=text[:60], performer="DanaFox", disable_notification=True)
         add_eph(u["id"], m.message_id)
         return m
     except TelegramForbiddenError:

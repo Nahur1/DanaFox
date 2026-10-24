@@ -152,10 +152,10 @@ async def cb_export(cb: CallbackQuery, bot: Bot, u: dict):
     for r in await db.list_custom(u["id"]):
         wr.writerow([r["word"], r["fa"], r["def"], r["ex"]])
     await ack(cb)
-    await bot.send_document(u["id"], BufferedInputFile(("\ufeff" + out.getvalue()).encode("utf-8"), filename="vajeyar-my-words.csv"),
+    await bot.send_document(u["id"], BufferedInputFile(("\ufeff" + out.getvalue()).encode("utf-8"), filename="danafox-my-words.csv"),
                             caption="📤 " + cb_label(u))
     await mywords_screen(bot, u, new=True)
 
 
 def cb_label(u):
-    return "لغات من — واژه‌یار" if u["lang"] == "fa" else "My words — VajeYar"
+    return "لغات من — دانافاکس" if u["lang"] == "fa" else "My words — DanaFox"

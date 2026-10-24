@@ -1,11 +1,11 @@
 {
   "name": "vajeyar",
-  "productName": "VajeYar",
-  "version": "3.3.1",
-  "description": "VajeYar - English vocabulary, reading & exam trainer (IELTS, TOEFL, GRE, PTE, General)",
+  "productName": "DanaFox",
+  "version": "3.4.0",
+  "description": "DanaFox - English vocabulary, reading & exam trainer (IELTS, TOEFL, GRE, PTE, General)",
   "main": "main.js",
   "author": {
-    "name": "VajeYar",
+    "name": "DanaFox",
     "email": "nahuram7798@gmail.com"
   },
   "license": "MIT",
@@ -26,8 +26,8 @@
   },
   "build": {
     "appId": "com.vajeyar.app",
-    "productName": "VajeYar",
-    "copyright": "VajeYar",
+    "productName": "DanaFox",
+    "copyright": "DanaFox",
     "directories": {
       "output": "dist",
       "buildResources": "build"
@@ -57,7 +57,7 @@
       "signAndEditExecutable": false
     },
     "portable": {
-      "artifactName": "VajeYar-Portable-${version}.exe"
+      "artifactName": "DanaFox-Portable-${version}.exe"
     },
     "nsis": {
       "oneClick": false,
@@ -65,8 +65,8 @@
       "perMachine": false,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "VajeYar",
-      "artifactName": "VajeYar-Setup-${version}.exe",
+      "shortcutName": "DanaFox",
+      "artifactName": "DanaFox-Setup-${version}.exe",
       "installerIcon": "build/icon.ico",
       "uninstallerIcon": "build/icon.ico"
     },
@@ -80,10 +80,10 @@
       "identity": "-",
       "hardenedRuntime": false,
       "gatekeeperAssess": false,
-      "artifactName": "VajeYar-${version}-mac-${arch}.${ext}"
+      "artifactName": "DanaFox-${version}-mac-${arch}.${ext}"
     },
     "dmg": {
-      "artifactName": "VajeYar-${version}-mac.dmg"
+      "artifactName": "DanaFox-${version}-mac.dmg"
     },
     "linux": {
       "target": [
@@ -93,11 +93,11 @@
       "icon": "build/icon-512.png",
       "category": "Education",
       "synopsis": "English vocabulary & reading trainer",
-      "maintainer": "VajeYar <nahuram7798@gmail.com>",
-      "artifactName": "VajeYar-${version}-linux-${arch}.${ext}"
+      "maintainer": "DanaFox <nahuram7798@gmail.com>",
+      "artifactName": "DanaFox-${version}-linux-${arch}.${ext}"
     },
     "deb": {
-      "artifactName": "VajeYar-${version}-linux-amd64.deb"
+      "artifactName": "DanaFox-${version}-linux-amd64.deb"
     }
   },
   "homepage": "https://vajeyar.mohammadfakhari59.workers.dev"

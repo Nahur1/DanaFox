@@ -1,4 +1,4 @@
-# Builds every VajeYar app from the same frontend (6-Cloudflare-Worker/public) and publishes a GitHub release.
+# Builds every DanaFox app from the same frontend (6-Cloudflare-Worker/public) and publishes a GitHub release.
 #   • Android APK (signed with the release key stored in the repository secrets)
 #   • Windows: installer + portable exe   • macOS: dmg + zip (universal)   • Linux: AppImage + deb
 #   • Web/PWA bundle (zip)
@@ -55,7 +55,7 @@ jobs:
         run: |
           V=$(node -p "require('./package.json').version")
           mkdir -p out
-          cp android/app/build/outputs/apk/release/*.apk "out/VajeYar-$V.apk"
+          cp android/app/build/outputs/apk/release/*.apk "out/DanaFox-$V.apk"
           ls -la out
       - uses: actions/upload-artifact@v4
         with: { name: android, path: 4-Android-APK-Capacitor/out/*.apk, if-no-files-found: error }
@@ -116,7 +116,7 @@ jobs:
         run: |
           V=$(node -p "require('./6-Cloudflare-Worker/package.json').version")
           mkdir -p out
-          cd 6-Cloudflare-Worker/public && zip -qr "../../out/VajeYar-Web-$V.zip" . -x 'admin/*' -x 'bp/*'
+          cd 6-Cloudflare-Worker/public && zip -qr "../../out/DanaFox-Web-$V.zip" . -x 'admin/*' -x 'bp/*'
       - uses: actions/upload-artifact@v4
         with: { name: web, path: out/*.zip }
 
@@ -135,7 +135,7 @@ jobs:
       - uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ startsWith(github.ref, 'refs/tags/v') && github.ref_name || steps.v.outputs.tag }}
-          name: VajeYar ${{ startsWith(github.ref, 'refs/tags/v') && github.ref_name || steps.v.outputs.tag }}
+          name: DanaFox ${{ startsWith(github.ref, 'refs/tags/v') && github.ref_name || steps.v.outputs.tag }}
           target_commitish: ${{ github.sha }}
           make_latest: true
           body_path: RELEASE_NOTES.md

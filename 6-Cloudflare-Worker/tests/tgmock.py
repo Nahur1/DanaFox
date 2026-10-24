@@ -12,7 +12,7 @@ class H(http.server.BaseHTTPRequestHandler):
         try: body = json.loads(raw) if 'json' in ct else {'_multipart': len(raw)}
         except Exception: body = {'_raw': len(raw)}
         with open(LOG, 'a') as f: f.write(json.dumps({'m': method, 'b': body}, ensure_ascii=False) + '\n')
-        if method == 'getMe': res = {'id': 999, 'is_bot': True, 'first_name': 'VajeYar Test', 'username': 'vajeyar_test_bot', 'supports_inline_queries': True}
+        if method == 'getMe': res = {'id': 999, 'is_bot': True, 'first_name': 'DanaFox Test', 'username': 'vajeyar_test_bot', 'supports_inline_queries': True}
         elif method == 'getWebhookInfo': res = {'url': 'http://x/tg/webhook', 'pending_update_count': 0}
         elif method in ('sendMessage', 'sendVoice', 'sendAudio', 'editMessageText', 'sendPhoto'):
             res = {'message_id': next(mid), 'chat': {'id': body.get('chat_id', 0) if isinstance(body, dict) else 0}, 'date': 0}

@@ -1,4 +1,4 @@
-/* VajeYar · Telegram Mini App bridge
+/* DanaFox · Telegram Mini App bridge
    Runs only inside Telegram: follows Telegram's light/dark theme, expands to full height,
    adds haptic feedback and a native Back button. Outside Telegram this file does nothing. */
 (function () {

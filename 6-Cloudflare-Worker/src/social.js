@@ -1,4 +1,4 @@
-/* VajeYar v3 user features: usernames, user search, leaderboards, language duels, reading passages, feedback, AI tutor */
+/* DanaFox v3 user features: usernames, user search, leaderboards, language duels, reading passages, feedback, AI tutor */
 import { ApiError, json, one, all, run, now, int, str, body, meta, setMeta, tehranDay, clientIp } from './util.js';
 import { newCode, isBlocked, failAttempt } from './security.js';
 import { route } from './router.js';
@@ -8,7 +8,7 @@ import { tg, publicOrigin } from './bot/telegram.js';
 const DAY = 86400000;
 const J = JSON.stringify;
 const P = s => { try { return JSON.parse(s); } catch (e) { return null; } };
-const nameOf = r => (r.display_name || '').split(' ')[0] || (r.username ? '@' + r.username : '') || (r.tg_name || '').split(' ')[0] || 'VajeYar #' + r.id;
+const nameOf = r => (r.display_name || '').split(' ')[0] || (r.username ? '@' + r.username : '') || (r.tg_name || '').split(' ')[0] || 'DanaFox #' + r.id;
 const card = (r, rating) => ({ id: r.id, username: r.username || null, name: nameOf(r), rating: rating ?? r.rating ?? 1000 });
 
 /* ---------- username ---------- */

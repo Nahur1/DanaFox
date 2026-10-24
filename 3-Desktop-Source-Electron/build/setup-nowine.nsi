@@ -1,4 +1,4 @@
-; Windows installer for VajeYar built WITHOUT Wine (electron-builder's own NSIS target needs Wine on Linux).
+; Windows installer for DanaFox built WITHOUT Wine (electron-builder's own NSIS target needs Wine on Linux).
 ; Usage (after `npx electron-builder --win dir --x64` produced dist/win-unpacked):
 ;   NSISDIR=<electron-builder cache>/nsis/nsis-3.0.4.1 <same>/linux/makensis -DVERSION=1.0.0 build/setup-nowine.nsi
 Unicode true
@@ -7,20 +7,20 @@ SetCompressor /SOLID lzma
 !ifndef VERSION
   !define VERSION "1.0.0"
 !endif
-!define APP "VajeYar"
+!define APP "DanaFox"
 !define UNINST "Software\Microsoft\Windows\CurrentVersion\Uninstall\com.vajeyar.app"
 Name "${APP}"
-OutFile "..\dist\VajeYar-Setup-${VERSION}.exe"
+OutFile "..\dist\DanaFox-Setup-${VERSION}.exe"
 InstallDir "$LOCALAPPDATA\Programs\${APP}"
 InstallDirRegKey HKCU "Software\${APP}" "InstallDir"
 RequestExecutionLevel user
 BrandingText "${APP} ${VERSION}"
 VIProductVersion "${VERSION}.0"
 VIAddVersionKey "ProductName" "${APP}"
-VIAddVersionKey "FileDescription" "VajeYar Setup"
+VIAddVersionKey "FileDescription" "DanaFox Setup"
 VIAddVersionKey "FileVersion" "${VERSION}"
 VIAddVersionKey "ProductVersion" "${VERSION}"
-VIAddVersionKey "LegalCopyright" "VajeYar"
+VIAddVersionKey "LegalCopyright" "DanaFox"
 !define MUI_ICON "icon.ico"
 !define MUI_UNICON "icon.ico"
 !define MUI_ABORTWARNING
@@ -36,7 +36,13 @@ VIAddVersionKey "LegalCopyright" "VajeYar"
 Section "Install"
   ; close a running copy so its files can be replaced
   nsExec::Exec 'taskkill /F /IM "${APP}.exe"'
+  nsExec::Exec 'taskkill /F /IM "VajeYar.exe"'
   Sleep 500
+  ; the app used to be called VajeYar: remove the old copy and its shortcuts (progress in %APPDATA%\VajeYar stays)
+  Delete "$DESKTOP\VajeYar.lnk"
+  Delete "$SMPROGRAMS\VajeYar.lnk"
+  RMDir /r "$LOCALAPPDATA\Programs\VajeYar"
+  DeleteRegKey HKCU "Software\VajeYar"
   SetOutPath "$INSTDIR"
   RMDir /r "$INSTDIR\resources"
   File /r "..\dist\win-unpacked\*.*"

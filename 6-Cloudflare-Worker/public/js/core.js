@@ -1,4 +1,4 @@
-/* ===== VajeYar core: state, SRS, i18n, TTS, utils ===== */
+/* ===== DanaFox core: state, SRS, i18n, TTS, utils ===== */
 (function(){
 const VY = window.VY = {};
 const DAY = 86400000;

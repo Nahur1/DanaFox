@@ -1,7 +1,7 @@
 /* UI strings (English / Persian) */
 window.I18N = {
 en:{
- appName:'VajeYar', appSub:'Vocabulary trainer',
+ appName:'DanaFox', appSub:'Vocabulary trainer',
  home:'Home', learn:'Learn', review:'Review', quiz:'Quiz', games:'Games', dictionary:'Dictionary', myWords:'My Words', stats:'Statistics', settings:'Settings', more:'More',
  goodMorning:'Good morning', goodAfternoon:'Good afternoon', goodEvening:'Good evening',
  heroSub:'Small daily steps build a big vocabulary.', startReview:'Start review', learnNew:'Learn new words', due:'due',
@@ -44,16 +44,16 @@ en:{
  accent:'Voice accent', accentS:'Text-to-speech voice', us:'American', uk:'British', speed:'Speech speed', autoplay:'Auto-play pronunciation', autoplayS:'Speak the word when a card appears',
  online:'Online dictionary', onlineS:'Load phonetics, audio and synonyms when online', reminder:'Daily reminder', reminderS:'Show a notification at this time (while the app is open)',
  sounds:'Sound effects', soundsS:'Play a soft sound for correct and wrong answers', backup:'Backup & restore', backupS:'Export or import all your progress as a file', exportB:'Export', importB:'Import',
- resetAll:'Reset all progress', resetAllS:'Delete progress, statistics and custom words', confirmReset:'Are you sure? This cannot be undone.', about:'About', aboutS:'VajeYar 1.0 — works fully offline.',
+ resetAll:'Reset all progress', resetAllS:'Delete progress, statistics and custom words', confirmReset:'Are you sure? This cannot be undone.', about:'About', aboutS:'DanaFox 1.0 — works fully offline.',
  shortcuts:'Keyboard shortcuts', imported:'Backup imported', exported:'Backup exported', notifTitle:'Time to practise!', notifBody:'You have {n} words waiting for review.',
- welcome:'Welcome to VajeYar', welcomeSub:'Your smart companion for English vocabulary.', chooseLang:'Choose your app language', chooseGoal:'Pick your daily goal', chooseTrack:'What are you preparing for?',
+ welcome:'Welcome to DanaFox', welcomeSub:'Your smart companion for English vocabulary.', chooseLang:'Choose your app language', chooseGoal:'Pick your daily goal', chooseTrack:'What are you preparing for?',
  casual:'Casual', regular:'Regular', serious:'Serious', intense:'Intense', perDay:'cards / day', continue:'Continue', letsGo:"Let's start", back:'Back',
  trackGeneral:'Everyday English', trackIelts:'IELTS exam', trackToefl:'TOEFL exam',
  freeze:'Streak freeze', freezeS:'Protects your streak if you miss a day', levelUp:'Level up!', achUnlocked:'Achievement unlocked',
  listen:'Listen', of:'of', perfect:'Perfect!', good:'Good job!', keep:'Keep practising!', min:'min', sec:'s', noVoice:'No English voice is installed on this device.'
 },
 fa:{
- appName:'واژه‌یار', appSub:'مربی هوشمند لغت',
+ appName:'دانافاکس', appSub:'مربی هوشمند لغت',
  home:'خانه', learn:'یادگیری', review:'مرور', quiz:'آزمون', games:'بازی‌ها', dictionary:'دیکشنری', myWords:'لغات من', stats:'آمار', settings:'تنظیمات', more:'بیشتر',
  goodMorning:'صبح بخیر', goodAfternoon:'ظهر بخیر', goodEvening:'عصر بخیر',
  heroSub:'قدم‌های کوچک روزانه، دایرهٔ لغات بزرگ می‌سازند.', startReview:'شروع مرور', learnNew:'یادگیری لغات جدید', due:'آمادهٔ مرور',
@@ -96,9 +96,9 @@ fa:{
  accent:'لهجهٔ تلفظ', accentS:'صدای متن‌به‌گفتار', us:'آمریکایی', uk:'بریتانیایی', speed:'سرعت تلفظ', autoplay:'پخش خودکار تلفظ', autoplayS:'با نمایش هر کارت، لغت خوانده شود',
  online:'دیکشنری آنلاین', onlineS:'دریافت آوانگاری، صدا و مترادف‌ها هنگام اتصال به اینترنت', reminder:'یادآور روزانه', reminderS:'در این ساعت اعلان نمایش داده شود (وقتی برنامه باز است)',
  sounds:'جلوه‌های صوتی', soundsS:'پخش صدای ملایم برای پاسخ درست و غلط', backup:'پشتیبان‌گیری و بازیابی', backupS:'خروجی یا ورود همهٔ پیشرفت شما به صورت فایل', exportB:'خروجی', importB:'ورود',
- resetAll:'بازنشانی کامل', resetAllS:'حذف پیشرفت، آمار و لغات شخصی', confirmReset:'مطمئن هستید؟ این کار قابل بازگشت نیست.', about:'درباره', aboutS:'واژه‌یار ۱٫۰ — کاملاً آفلاین کار می‌کند.',
+ resetAll:'بازنشانی کامل', resetAllS:'حذف پیشرفت، آمار و لغات شخصی', confirmReset:'مطمئن هستید؟ این کار قابل بازگشت نیست.', about:'درباره', aboutS:'دانافاکس ۱٫۰ — کاملاً آفلاین کار می‌کند.',
  shortcuts:'میانبرهای صفحه‌کلید', imported:'پشتیبان بازیابی شد', exported:'فایل پشتیبان ذخیره شد', notifTitle:'وقت تمرین است!', notifBody:'{n} لغت منتظر مرور شماست.',
- welcome:'به واژه‌یار خوش آمدید', welcomeSub:'همراه هوشمند شما برای یادگیری لغات انگلیسی.', chooseLang:'زبان برنامه را انتخاب کنید', chooseGoal:'هدف روزانه‌تان را انتخاب کنید', chooseTrack:'برای چه چیزی آماده می‌شوید؟',
+ welcome:'به دانافاکس خوش آمدید', welcomeSub:'همراه هوشمند شما برای یادگیری لغات انگلیسی.', chooseLang:'زبان برنامه را انتخاب کنید', chooseGoal:'هدف روزانه‌تان را انتخاب کنید', chooseTrack:'برای چه چیزی آماده می‌شوید؟',
  casual:'سبک', regular:'معمولی', serious:'جدی', intense:'فشرده', perDay:'کارت در روز', continue:'ادامه', letsGo:'بزن بریم', back:'بازگشت',
  trackGeneral:'انگلیسی عمومی', trackIelts:'آزمون آیلتس', trackToefl:'آزمون تافل',
  freeze:'محافظ رکورد', freezeS:'اگر یک روز جا بماند، رکورد پیاپی شما حفظ می‌شود', levelUp:'سطح شما بالا رفت!', achUnlocked:'دستاورد جدید',

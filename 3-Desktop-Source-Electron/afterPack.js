@@ -13,7 +13,7 @@ exports.default = async function (ctx) {
   ResEdit.Resource.IconGroupEntry.replaceIconsForResource(res.entries, gid, lang, ico.icons.map(i => i.data));
   const vi = ResEdit.Resource.VersionInfo.fromEntries(res.entries)[0];
   if (vi) {
-    vi.setStringValues({ lang: 1033, codepage: 1200 }, { ProductName: 'VajeYar', FileDescription: 'VajeYar - English Vocabulary Trainer', CompanyName: 'VajeYar', LegalCopyright: 'VajeYar', OriginalFilename: 'VajeYar.exe', InternalName: 'VajeYar' });
+    vi.setStringValues({ lang: 1033, codepage: 1200 }, { ProductName: 'DanaFox', FileDescription: 'DanaFox - English Vocabulary Trainer', CompanyName: 'DanaFox', LegalCopyright: 'DanaFox', OriginalFilename: 'DanaFox.exe', InternalName: 'DanaFox' });
     const [a, b, c] = String(ctx.packager.appInfo.version || '1.0.0').split('.').map(n => parseInt(n, 10) || 0);
     vi.setFileVersion(a, b, c, 0, 1033); vi.setProductVersion(a, b, c, 0, 1033);
     vi.outputToResourceEntries(res.entries);

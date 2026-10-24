@@ -1,4 +1,4 @@
-/* ===== VajeYar · Inside Reading Intro / 1 / 2 — each book is its own sub-section of Reading (#/reading/@ir0 … @ir2)
+/* ===== DanaFox · Inside Reading Intro / 1 / 2 — each book is its own sub-section of Reading (#/reading/@ir0 … @ir2)
    book → 10 units → (2 readings with True/False questions · reading skill & vocabulary exercises with answer key · target-word deck)
    Book data (passages + exercises, ~1 MB) is loaded lazily from js/inside_data.js the first time it is needed. ===== */
 (function(){

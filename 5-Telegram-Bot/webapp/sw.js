@@ -1,4 +1,4 @@
-/* VajeYar service worker — offline-first cache */
+/* DanaFox service worker — offline-first cache */
 const CACHE = 'vajeyar-v2-tg';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./css/style.css','./js/icons.js','./js/i18n.js','./js/words_general.js','./js/words_ielts.js','./js/words_toefl.js','./js/words_extra.js','./js/core.js','./js/ui.js','./js/views.js','./js/telegram.js','./js/telegram-web-app.js','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png',
  './fonts/vazirmatn-arabic-400-normal.woff2','./fonts/vazirmatn-arabic-500-normal.woff2','./fonts/vazirmatn-arabic-700-normal.woff2','./fonts/vazirmatn-arabic-800-normal.woff2','./fonts/vazirmatn-latin-400-normal.woff2','./fonts/vazirmatn-latin-500-normal.woff2','./fonts/vazirmatn-latin-700-normal.woff2','./fonts/vazirmatn-latin-800-normal.woff2'];

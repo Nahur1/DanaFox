@@ -1,4 +1,4 @@
--- ===== VajeYar v3: examples with translations, IELTS Reading vocabulary, usernames, generic sync store,
+-- ===== DanaFox v3: examples with translations, IELTS Reading vocabulary, usernames, generic sync store,
 --       reading passages (CMS), language duels, feedback, placement results =====
 ALTER TABLE words ADD COLUMN examples TEXT NOT NULL DEFAULT '[]';          -- JSON [[english, persian], ...]
 INSERT OR IGNORE INTO levels(category_id,level_no,name_en,name_fa,cefr) VALUES

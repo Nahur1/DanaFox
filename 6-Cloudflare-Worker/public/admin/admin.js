@@ -1,4 +1,4 @@
-/* ===== VajeYar · admin panel (works in the browser and as a Telegram Mini App) ===== */
+/* ===== DanaFox · admin panel (works in the browser and as a Telegram Mini App) ===== */
 (function () {
 'use strict';
 const W = window.Telegram && window.Telegram.WebApp;
@@ -11,14 +11,14 @@ const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&a
 /* ---------- texts ---------- */
 const L = {
 fa: {
-  panel: 'پنل مدیریت', sendBtn: 'ارسال', app: 'واژه‌یار', dash: 'داشبورد', users: 'کاربران', words: 'بانک لغات', bc: 'پیام همگانی', bot: 'ربات تلگرام', settings: 'تنظیمات برنامه', security: 'امنیت',
+  panel: 'پنل مدیریت', sendBtn: 'ارسال', app: 'دانافاکس', dash: 'داشبورد', users: 'کاربران', words: 'بانک لغات', bc: 'پیام همگانی', bot: 'ربات تلگرام', settings: 'تنظیمات برنامه', security: 'امنیت',
   loading: 'در حال بارگذاری…', retry: 'تلاش دوباره', save: 'ذخیره', cancel: 'انصراف', close: 'بستن', confirm: 'تأیید', del: 'حذف', edit: 'ویرایش', add: 'افزودن', search: 'جستجو…', yes: 'بله', back: 'بازگشت',
   logout: 'خروج', expiresIn: '{h} مانده', hours: '{n} ساعت', minutes: '{n} دقیقه', signedAs: 'وارد شده با', today: 'امروز', d7: '۷ روز', d30: '۳۰ روز', total: 'کل',
   loginT: 'ورود به پنل مدیریت', loginS: 'این پنل فقط برای حساب تلگرام مدیر باز می‌شود.',
   way1: '<b>از داخل تلگرام (پیشنهادی):</b> در ربات {bot} دستور <span class="code">/admin</span> را بفرستید و «باز کردن پنل مدیریت» را بزنید.',
   way2: '<b>در مرورگر:</b> در ربات <span class="code">/admin</span> ← «لینک ورود یک‌بارمصرف». لینک فقط ۵ دقیقه و یک بار کار می‌کند.',
   way3: '<b>با رمز:</b> فقط برای حساب سایتی که به تلگرام مدیر وصل است.', pwLogin: 'ورود با ایمیل/موبایل و رمز', idL: 'ایمیل یا موبایل', passL: 'رمز عبور', signIn: 'ورود',
-  deniedT: 'دسترسی ندارید', deniedS: 'این پنل فقط برای مالک واژه‌یار در دسترس است. این تلاش ثبت شد.', expired: 'نشست شما تمام شد؛ دوباره وارد شوید.', reopen: 'نشست تلگرام قدیمی است؛ پنل را دوباره از ربات باز کنید.',
+  deniedT: 'دسترسی ندارید', deniedS: 'این پنل فقط برای مالک دانافاکس در دسترس است. این تلاش ثبت شد.', expired: 'نشست شما تمام شد؛ دوباره وارد شوید.', reopen: 'نشست تلگرام قدیمی است؛ پنل را دوباره از ربات باز کنید.',
   k_users: 'کاربران', k_active: 'فعال امروز', k_tg: 'کاربران تلگرام', k_reviews: 'مرورهای امروز', k_learned: 'لغات یادگرفته', k_words: 'لغات بانک', k_quiz: 'آزمون‌ها', k_new30: 'عضو جدید ۳۰ روز',
   s_new: '+{a} امروز · +{b} هفته', s_act: '۷ روز {a} · ۳۰ روز {b}', s_tg: 'متصل {a} · فقط تلگرام {b}', s_rev: 'کل {a}', s_learn: 'تسلط کامل {a}', s_words: 'لغات شخصی {a}', s_quiz: '', s_new30: 'ربات را بسته‌اند {a}',
   ch_act: 'فعالیت ۳۰ روز اخیر', ch_sign: 'ثبت‌نام‌ها', ch_plat: 'کاربران بر اساس نوع حساب', ch_top: 'برترین زبان‌آموزان', ch_recent: 'تازه‌واردها', ch_cats: 'لغات هر دسته',
@@ -30,7 +30,7 @@ fa: {
   u_mastered: 'تسلط کامل', u_due: 'آمادهٔ مرور', u_reviews: 'مرورها', u_days: 'روز فعال', u_quiz: 'آزمون', u_custom: 'لغت شخصی', u_ach: 'مدال', u_sessions: 'دستگاه‌های وارد شده', u_best: 'بهترین',
   u_email: 'ایمیل', u_phone: 'موبایل', u_tg: 'تلگرام', u_lang: 'زبان', u_track: 'مسیر', u_goal: 'هدف روزانه', u_lastLogin: 'آخرین ورود', u_lastSync: 'آخرین همگام‌سازی', u_lastBot: 'آخرین استفاده از ربات', u_act30: 'مرورهای ۳۰ روز اخیر', u_quizzes: 'آزمون‌های اخیر',
   a_msg: 'ارسال پیام در تلگرام', a_pass: 'تعیین رمز جدید', a_logout: 'خروج از همهٔ دستگاه‌ها', a_block: 'مسدود کردن', a_unblock: 'رفع مسدودی', a_reset: 'صفر کردن پیشرفت', a_delete: 'حذف حساب',
-  msgT: 'پیام به {n}', msgS: 'از طرف ربات ارسال می‌شود. قالب HTML تلگرام مجاز است.', withApp: 'دکمهٔ «باز کردن واژه‌یار» زیر پیام', sent: 'ارسال شد ✓',
+  msgT: 'پیام به {n}', msgS: 'از طرف ربات ارسال می‌شود. قالب HTML تلگرام مجاز است.', withApp: 'دکمهٔ «باز کردن دانافاکس» زیر پیام', sent: 'ارسال شد ✓',
   passT: 'رمز جدید برای {n}', passS: 'همهٔ نشست‌های این کاربر بسته می‌شود.', newPass: 'رمز جدید (حداقل ۶ کاراکتر)', gen: 'ساخت رمز تصادفی',
   logoutQ: 'این کاربر از همهٔ دستگاه‌ها خارج شود؟', blockQ: 'حساب {n} مسدود شود؟ از همه‌جا خارج می‌شود و ربات هم برایش کار نمی‌کند.', unblockQ: 'مسدودی {n} برداشته شود؟',
   resetQ: 'همهٔ پیشرفت، مرورها و لغات شخصی {n} پاک می‌شود. این کار برگشت‌پذیر نیست.', deleteQ: 'حساب {n} و همهٔ اطلاعاتش برای همیشه حذف می‌شود.', typeDel: 'برای تأیید «{w}» را تایپ کنید', delWord: 'حذف',
@@ -39,7 +39,7 @@ fa: {
   w_catL: 'دسته', w_levelL: 'سطح', w_activeL: 'نمایش در برنامه', w_hide: 'پنهان کردن', w_restore: 'بازگرداندن', w_delQ: 'لغت «{w}» برای همیشه حذف شود؟ پیشرفت کاربران روی این لغت بی‌اثر می‌شود.', nWords: '{n} لغت', noWords: 'لغتی پیدا نشد',
   imp_t: 'وارد کردن لغات', imp_s: 'هر خط یک لغت: <span class="code">word | pos | معنی | definition | example</span> — CSV با سطر عنوان (word,pos,meaning_fa,definition,example,category,level) هم قبول است.',
   imp_up: 'لغات تکراری به‌روزرسانی شوند', imp_go: 'وارد کن', imp_res: '{a} جدید · {b} به‌روزرسانی · {c} رد شد', imp_err: '{n} خط خطا داشت', w_inact: 'شامل لغات پنهان',
-  bc_new: 'نوشتن پیام همگانی', bc_text: 'متن پیام', bc_ph: 'سلام! 👋\nلغات جدید آیلتس اضافه شد…', bc_aud: 'گیرندگان', bc_btn: 'دکمهٔ لینک (اختیاری)', bc_btnText: 'متن دکمه', bc_btnUrl: 'آدرس https://…', bc_app: 'دکمهٔ باز کردن اپ واژه‌یار',
+  bc_new: 'نوشتن پیام همگانی', bc_text: 'متن پیام', bc_ph: 'سلام! 👋\nلغات جدید آیلتس اضافه شد…', bc_aud: 'گیرندگان', bc_btn: 'دکمهٔ لینک (اختیاری)', bc_btnText: 'متن دکمه', bc_btnUrl: 'آدرس https://…', bc_app: 'دکمهٔ باز کردن اپ دانافاکس',
   bc_test: 'ارسال آزمایشی برای من', bc_send: 'ارسال برای {n} نفر', bc_prev: 'پیش‌نمایش در تلگرام', bc_hist: 'پیام‌های قبلی', bc_none: 'هنوز پیامی ارسال نشده', bc_sendQ: 'این پیام برای {n} کاربر تلگرام ارسال شود؟',
   bc_testOk: 'پیام آزمایشی در تلگرام شما ارسال شد ✓', bc_cancel: 'توقف ارسال', bc_resume: 'ادامهٔ ارسال', bc_sent: 'ارسال‌شده', bc_failed: 'ناموفق', bc_blocked: 'ربات را بسته‌اند', bc_of: 'از {n}',
   st_running: 'در حال ارسال', st_done: 'تمام شد', st_cancelled: 'متوقف شد', bc_note: 'ارسال در دسته‌های ۲۵تایی انجام می‌شود. اگر صفحه را ببندید، ادامهٔ ارسال هر ۱۵ دقیقه به‌صورت خودکار انجام می‌شود.',
@@ -70,14 +70,14 @@ fa: {
   theme: 'تم', lang: 'English', ago_now: 'همین الان', ago_m: '{n} دقیقه پیش', ago_h: '{n} ساعت پیش', ago_d: '{n} روز پیش',
 },
 en: {
-  panel: 'Admin panel', sendBtn: 'Send', app: 'VajeYar', dash: 'Dashboard', users: 'Users', words: 'Word bank', bc: 'Broadcast', bot: 'Telegram bot', settings: 'App settings', security: 'Security',
+  panel: 'Admin panel', sendBtn: 'Send', app: 'DanaFox', dash: 'Dashboard', users: 'Users', words: 'Word bank', bc: 'Broadcast', bot: 'Telegram bot', settings: 'App settings', security: 'Security',
   loading: 'Loading…', retry: 'Retry', save: 'Save', cancel: 'Cancel', close: 'Close', confirm: 'Confirm', del: 'Delete', edit: 'Edit', add: 'Add', search: 'Search…', yes: 'Yes', back: 'Back',
   logout: 'Sign out', expiresIn: '{h} left', hours: '{n} h', minutes: '{n} min', signedAs: 'Signed in as', today: 'Today', d7: '7 days', d30: '30 days', total: 'Total',
   loginT: 'Admin sign-in', loginS: 'This panel opens only for the admin’s Telegram account.',
   way1: '<b>Inside Telegram (recommended):</b> send <span class="code">/admin</span> to {bot} and tap “Open admin panel”.',
   way2: '<b>In a browser:</b> in the bot send <span class="code">/admin</span> → “One-time browser sign-in link”. It works once, for 5 minutes.',
   way3: '<b>Password:</b> only for a site account that is linked to the admin Telegram.', pwLogin: 'Sign in with email/mobile & password', idL: 'Email or mobile', passL: 'Password', signIn: 'Sign in',
-  deniedT: 'Access denied', deniedS: 'This panel is only available to the owner of VajeYar. This attempt was logged.', expired: 'Your session ended; please sign in again.', reopen: 'The Telegram session is old; reopen the panel from the bot.',
+  deniedT: 'Access denied', deniedS: 'This panel is only available to the owner of DanaFox. This attempt was logged.', expired: 'Your session ended; please sign in again.', reopen: 'The Telegram session is old; reopen the panel from the bot.',
   k_users: 'Users', k_active: 'Active today', k_tg: 'Telegram users', k_reviews: 'Reviews today', k_learned: 'Words learned', k_words: 'Words in bank', k_quiz: 'Quizzes', k_new30: 'New in 30 days',
   s_new: '+{a} today · +{b} this week', s_act: '7d {a} · 30d {b}', s_tg: 'linked {a} · Telegram-only {b}', s_rev: 'total {a}', s_learn: 'mastered {a}', s_words: 'personal words {a}', s_quiz: '', s_new30: 'blocked the bot {a}',
   ch_act: 'Activity — last 30 days', ch_sign: 'Sign-ups', ch_plat: 'Users by account type', ch_top: 'Top learners', ch_recent: 'Newest users', ch_cats: 'Words per category',
@@ -89,7 +89,7 @@ en: {
   u_mastered: 'Mastered', u_due: 'Due now', u_reviews: 'Reviews', u_days: 'Active days', u_quiz: 'Quizzes', u_custom: 'Personal words', u_ach: 'Badges', u_sessions: 'Signed-in devices', u_best: 'best',
   u_email: 'Email', u_phone: 'Mobile', u_tg: 'Telegram', u_lang: 'Language', u_track: 'Track', u_goal: 'Daily goal', u_lastLogin: 'Last sign-in', u_lastSync: 'Last sync', u_lastBot: 'Last bot use', u_act30: 'Reviews — last 30 days', u_quizzes: 'Recent quizzes',
   a_msg: 'Message on Telegram', a_pass: 'Set a new password', a_logout: 'Sign out everywhere', a_block: 'Block', a_unblock: 'Unblock', a_reset: 'Reset progress', a_delete: 'Delete account',
-  msgT: 'Message to {n}', msgS: 'Sent by the bot. Telegram HTML formatting is allowed.', withApp: 'Add an “Open VajeYar” button', sent: 'Sent ✓',
+  msgT: 'Message to {n}', msgS: 'Sent by the bot. Telegram HTML formatting is allowed.', withApp: 'Add an “Open DanaFox” button', sent: 'Sent ✓',
   passT: 'New password for {n}', passS: 'All of this user’s sessions will be signed out.', newPass: 'New password (min. 6 characters)', gen: 'Generate random',
   logoutQ: 'Sign this user out on every device?', blockQ: 'Block {n}? They are signed out everywhere and the bot stops working for them.', unblockQ: 'Unblock {n}?',
   resetQ: 'All progress, reviews and personal words of {n} will be erased. This can’t be undone.', deleteQ: 'The account of {n} and all its data will be deleted forever.', typeDel: 'Type “{w}” to confirm', delWord: 'DELETE',
@@ -98,7 +98,7 @@ en: {
   w_catL: 'Category', w_levelL: 'Level', w_activeL: 'Visible in the apps', w_hide: 'Hide', w_restore: 'Restore', w_delQ: 'Delete “{w}” forever? Users’ progress on this word stops counting.', nWords: '{n} words', noWords: 'No words found',
   imp_t: 'Import words', imp_s: 'One word per line: <span class="code">word | pos | meaning | definition | example</span> — CSV with a header row (word,pos,meaning_fa,definition,example,category,level) also works.',
   imp_up: 'Update words that already exist', imp_go: 'Import', imp_res: '{a} new · {b} updated · {c} skipped', imp_err: '{n} lines had errors', w_inact: 'Include hidden words',
-  bc_new: 'Write a broadcast', bc_text: 'Message', bc_ph: 'Hi! 👋\nNew IELTS words were added…', bc_aud: 'Audience', bc_btn: 'Link button (optional)', bc_btnText: 'Button text', bc_btnUrl: 'URL https://…', bc_app: '“Open VajeYar” app button',
+  bc_new: 'Write a broadcast', bc_text: 'Message', bc_ph: 'Hi! 👋\nNew IELTS words were added…', bc_aud: 'Audience', bc_btn: 'Link button (optional)', bc_btnText: 'Button text', bc_btnUrl: 'URL https://…', bc_app: '“Open DanaFox” app button',
   bc_test: 'Send a test to me', bc_send: 'Send to {n} people', bc_prev: 'Telegram preview', bc_hist: 'Previous broadcasts', bc_none: 'No broadcasts yet', bc_sendQ: 'Send this message to {n} Telegram users?',
   bc_testOk: 'Test message sent to your Telegram ✓', bc_cancel: 'Stop', bc_resume: 'Resume', bc_sent: 'sent', bc_failed: 'failed', bc_blocked: 'blocked the bot', bc_of: 'of {n}',
   st_running: 'sending', st_done: 'finished', st_cancelled: 'stopped', bc_note: 'Messages go out in batches of 25. If you close this page, sending continues automatically every 15 minutes.',
@@ -518,7 +518,7 @@ async function exportFile(kind, extra = '') {
   if (tg) { await api('/export/telegram', { method: 'POST', body: { kind, all: extra === 'all' } }); return toast(t('sentTg'), 'ok'); }
   const r = await api(kind === 'users' ? '/users.csv' : '/words/export.csv' + (extra === 'all' ? '?all=1' : ''), { raw: true });
   const blob = await r.blob(), a = document.createElement('a');
-  a.href = URL.createObjectURL(blob); a.download = `vajeyar-${kind}.csv`; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  a.href = URL.createObjectURL(blob); a.download = `danafox-${kind}.csv`; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
 }
 ACT.usersExport = el => busy(el, () => exportFile('users'));
 
@@ -735,7 +735,7 @@ VIEWS.bc = async p => {
   const upd = () => {
     read();
     $('#bc-pv').innerHTML = (dr.text.trim() ? tgHtml(dr.text) : `<span style="opacity:.45">${esc(t('bc_ph'))}</span>`) + `<span class="tm">${new Intl.DateTimeFormat(fa() ? 'fa-IR' : 'en-GB', { hour: '2-digit', minute: '2-digit' }).format(new Date())}</span>`;
-    $('#bc-kb').innerHTML = (dr.button_url ? `<div>${esc(dr.button_text || '🔗 Open')} ↗</div>` : '') + (dr.open_app ? `<div>${esc(dr.button_url ? '📚 واژه‌یار' : (dr.button_text || '📚 باز کردن واژه‌یار'))}</div>` : '');
+    $('#bc-kb').innerHTML = (dr.button_url ? `<div>${esc(dr.button_text || '🔗 Open')} ↗</div>` : '') + (dr.open_app ? `<div>${esc(dr.button_url ? '📚 دانافاکس' : (dr.button_text || '📚 باز کردن دانافاکس'))}</div>` : '');
     $('#bc-n').textContent = t('chars', { a: N(dr.text.length) });
     $('#bc-go span').textContent = t('bc_send', { n: N(r.audiences[dr.audience] || 0) });
   };
@@ -928,7 +928,7 @@ const hbars = (rows, fmt = N) => { const m = Math.max(1, ...rows.map(r => r.v ||
 async function dlExport(kind) {
   const r = await api('/export/' + kind, { raw: true });
   const blob = await r.blob(), a = document.createElement('a');
-  a.href = URL.createObjectURL(blob); a.download = `vajeyar-${kind}-${tehToday()}.${kind === 'readings' ? 'json' : 'csv'}`; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  a.href = URL.createObjectURL(blob); a.download = `danafox-${kind}-${tehToday()}.${kind === 'readings' ? 'json' : 'csv'}`; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
 }
 ACT.exp = el => busy(el, () => dlExport(el.dataset.k));
 

@@ -75,7 +75,7 @@ export async function setupBot(env, token, origin, { store = false } = {}) {
     await tg(env, 'setMyDescription', { description: L.bot_desc, ...lc }, token).catch(() => {});
     await tg(env, 'setMyShortDescription', { short_description: L.bot_short, ...lc }, token).catch(() => {});
   }
-  await tg(env, 'setChatMenuButton', { menu_button: { type: 'web_app', text: 'واژه‌یار', web_app: { url: `${origin}/?tg=1` } } }, token).catch(() => {});
+  await tg(env, 'setChatMenuButton', { menu_button: { type: 'web_app', text: 'دانافاکس', web_app: { url: `${origin}/?tg=1` } } }, token).catch(() => {});
   for (const id of adminIds(env)) await adminCommands(env, id, token);
   await env.DB.batch([['tg_setup', await setupHash(token, origin)], ['tg_setup_at', String(Date.now())]].map(([k, v]) => env.DB.prepare('INSERT OR REPLACE INTO meta(key,value) VALUES(?,?)').bind(k, v)));   // only after every step ran
   return botInfo(env);

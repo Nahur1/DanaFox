@@ -50,7 +50,7 @@ Object.assign(I18N.en, {
  getReady:'Get ready!', waitOpponent:'Waiting for your opponent…', opProgress:'Opponent: {a} of {b}', leave:'Leave duel', opponent:'Opponent', rematch:'Rematch', duelReview:'Questions', forfeitQ:'Leave the duel? It counts as a loss.', botName:'VajeBot',
  lbWeek:'This week', lbAll:'All time', lbDuel:'Duels', lbOffline:'The leaderboard needs a connection to the server.', lbEmpty:'No one here yet — be the first!', lbS_week:'XP earned in the last 7 days.', lbS_xp:'Total XP.', lbS_duel:'Duel rating (Elo).',
  fbSentQueued:'Your saved feedback was sent', fb_idea:'Idea', fb_bug:'Bug', fb_content:'Content', fb_praise:'Praise', fb_other:'Other',
- fbPh_idea:'What would make VajeYar better for you?', fbPh_bug:'What happened, and what did you expect? (device, page…)', fbPh_content:'Wrong translation or example? Tell us the word and the fix.', fbPh_praise:'What do you like most?', fbPh_other:'Your message…',
+ fbPh_idea:'What would make DanaFox better for you?', fbPh_bug:'What happened, and what did you expect? (device, page…)', fbPh_content:'Wrong translation or example? Tell us the word and the fix.', fbPh_praise:'What do you like most?', fbPh_other:'Your message…',
  fbContact:'Email or Telegram ID (optional, for a reply)', fbMine:'My messages', fbQueued:'Saved — it will be sent when you are online', fbThanks:'Thank you! Your message was sent.',
  fbst_new:'Received', fbst_seen:'Seen', fbst_planned:'Planned', fbst_done:'Done', fbst_rejected:'Not planned', fbReply:'Reply', fbNone:'No messages yet.'
 });
@@ -105,7 +105,7 @@ Object.assign(I18N.fa, {
  getReady:'آماده باشید!', waitOpponent:'منتظر حریف…', opProgress:'حریف: {a} از {b}', leave:'ترک دوئل', opponent:'حریف', rematch:'بازی دوباره', duelReview:'سؤال‌ها', forfeitQ:'دوئل را ترک می‌کنید؟ باخت حساب می‌شود.', botName:'واژه‌بات',
  lbWeek:'این هفته', lbAll:'همهٔ زمان‌ها', lbDuel:'دوئل', lbOffline:'جدول برترین‌ها به اتصال سرور نیاز دارد.', lbEmpty:'هنوز کسی اینجا نیست — اولین نفر باشید!', lbS_week:'امتیاز (XP) هفت روز اخیر.', lbS_xp:'مجموع امتیاز (XP).', lbS_duel:'ریتینگ دوئل (Elo).',
  fbSentQueued:'بازخوردهای ذخیره‌شدهٔ شما ارسال شد', fb_idea:'ایده', fb_bug:'مشکل', fb_content:'محتوا', fb_praise:'تشکر', fb_other:'سایر',
- fbPh_idea:'چه چیزی واژه‌یار را برای شما بهتر می‌کند؟', fbPh_bug:'چه اتفاقی افتاد و انتظار چه چیزی داشتید؟ (دستگاه، صفحه…)', fbPh_content:'ترجمه یا مثال اشتباه؟ لغت و اصلاحش را بنویسید.', fbPh_praise:'چه چیزی را بیشتر دوست دارید؟', fbPh_other:'پیام شما…',
+ fbPh_idea:'چه چیزی دانافاکس را برای شما بهتر می‌کند؟', fbPh_bug:'چه اتفاقی افتاد و انتظار چه چیزی داشتید؟ (دستگاه، صفحه…)', fbPh_content:'ترجمه یا مثال اشتباه؟ لغت و اصلاحش را بنویسید.', fbPh_praise:'چه چیزی را بیشتر دوست دارید؟', fbPh_other:'پیام شما…',
  fbContact:'ایمیل یا آیدی تلگرام (اختیاری، برای پاسخ)', fbMine:'پیام‌های من', fbQueued:'ذخیره شد — وقتی آنلاین شوید ارسال می‌شود', fbThanks:'ممنون! پیام شما ارسال شد.',
  fbst_new:'دریافت شد', fbst_seen:'دیده شد', fbst_planned:'در برنامه', fbst_done:'انجام شد', fbst_rejected:'در برنامه نیست', fbReply:'پاسخ', fbNone:'هنوز پیامی ندارید.'
 });

@@ -1,4 +1,4 @@
-/* ===== VajeYar language duels: quick match, invite by username, live 1-v-1 rounds, Elo rating, offline practice vs. bot ===== */
+/* ===== DanaFox language duels: quick match, invite by username, live 1-v-1 rounds, Elo rating, offline practice vs. bot ===== */
 (function(){
 const {t, n, esc} = VY; const ACT = VY.ACT, V = VY.V;
 const D = VY.DUEL = {cat:'mix', n:10, lobby:null, g:null, search:'', results:null, busy:false};

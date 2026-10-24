@@ -1,4 +1,4 @@
--- ===== VajeYar · admin panel v2: audit log, broadcasts, blocked users, admin-only sessions =====
+-- ===== DanaFox · admin panel v2: audit log, broadcasts, blocked users, admin-only sessions =====
 ALTER TABLE users ADD COLUMN blocked INTEGER NOT NULL DEFAULT 0;          -- 1 = account blocked by the admin
 ALTER TABLE sessions ADD COLUMN is_admin INTEGER NOT NULL DEFAULT 0;     -- admin-panel sessions (short-lived, separate from app sessions)
 ALTER TABLE sessions ADD COLUMN ip TEXT NOT NULL DEFAULT '';

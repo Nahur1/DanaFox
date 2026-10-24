@@ -38,7 +38,7 @@ async def cmd_start(msg: Message, bot: Bot, u: dict, command: CommandObject):
 
 
 async def onboarding_lang(bot, u, msg=None, new=False):
-    text = "🟣 <b>واژه‌یار · VajeYar</b>\n\n" + "به <b>واژه‌یار</b> خوش آمدید 👋\nWelcome to <b>VajeYar</b> 👋\n\n<b>زبان برنامه را انتخاب کنید</b>\n<b>Choose your language</b>"
+    text = "🟣 <b>دانافاکس · DanaFox</b>\n\n" + "به <b>دانافاکس</b> خوش آمدید 👋\nWelcome to <b>DanaFox</b> 👋\n\n<b>زبان برنامه را انتخاب کنید</b>\n<b>Choose your language</b>"
     await show(bot, u, text, [[B("🇮🇷 فارسی", "ob:l:fa", "primary"), B("🇬🇧 English", "ob:l:en", "primary")]], msg=msg, new=new)
 
 
@@ -337,7 +337,7 @@ async def cb_backup(cb: CallbackQuery, bot: Bot, u: dict):
             "custom": await db.list_custom(u["id"])}
     raw = json.dumps(data, ensure_ascii=False, indent=1).encode()
     await ack(cb)
-    await bot.send_document(u["id"], BufferedInputFile(raw, filename=f"vajeyar-backup-{logic.day_key(u)}.json"), caption=L(u, "backup_caption"))
+    await bot.send_document(u["id"], BufferedInputFile(raw, filename=f"danafox-backup-{logic.day_key(u)}.json"), caption=L(u, "backup_caption"))
     await settings(bot, u, new=True)
 
 

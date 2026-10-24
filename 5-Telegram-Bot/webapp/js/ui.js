@@ -1,4 +1,4 @@
-/* ===== VajeYar UI: shell, router, dashboard, learn, flashcards ===== */
+/* ===== DanaFox UI: shell, router, dashboard, learn, flashcards ===== */
 (function(){
 const {t, n, esc, en} = VY;
 const ACT = VY.ACT = {};
@@ -24,7 +24,7 @@ VY.renderShell = () => {
   app.innerHTML = `
   <div class="app">
     <aside class="sidebar">
-      <div class="brand"><div class="brand-logo">${icon('logo')}</div><div><div class="brand-name">${t('appName')}</div><div class="brand-sub">${t('appSub')}</div></div></div>
+      <div class="brand"><div class="brand-logo"><img src="icons/mark.png" alt=""></div><div><div class="brand-name">${t('appName')}</div><div class="brand-sub">${t('appSub')}</div></div></div>
       ${NAV.map(([k,ic],i)=>`${i===6?'<div class="nav-sep"></div>':''}<a class="nav-item" href="#/${k}" data-nav="${k}">${icon(ic)}<span>${navLabel(k)}</span>${k==='review'?'<span class="badge hidden" id="due-badge"></span>':''}</a>`).join('')}
       <div class="sidebar-foot" id="side-streak"></div>
     </aside>

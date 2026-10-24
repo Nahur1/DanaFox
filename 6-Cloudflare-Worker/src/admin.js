@@ -197,7 +197,7 @@ route('DELETE', '/api/admin/users/{id}', async (env, req, p) => {
 route('GET', '/api/admin/users.csv', async (env, req) => {
   const a = await requireAdmin(env, req), r = await usersCsv(env);
   await audit(env, req, a, 'users.export', { rows: r.n });
-  return new Response(r.csv, { headers: { 'Content-Type': 'text/csv; charset=utf-8', 'Content-Disposition': 'attachment; filename=vajeyar-users.csv' } });
+  return new Response(r.csv, { headers: { 'Content-Type': 'text/csv; charset=utf-8', 'Content-Disposition': 'attachment; filename=danafox-users.csv' } });
 });
 
 /* ---------- word bank ---------- */
@@ -227,7 +227,7 @@ route('POST', '/api/admin/words/import', async (env, req) => {
 });
 route('GET', '/api/admin/words/export.csv', async (env, req, p, url) => {
   await requireAdmin(env, req);
-  return new Response(await W.exportCsv(env, url.searchParams.get('all') === '1'), { headers: { 'Content-Type': 'text/csv; charset=utf-8', 'Content-Disposition': 'attachment; filename=vajeyar-words.csv' } });
+  return new Response(await W.exportCsv(env, url.searchParams.get('all') === '1'), { headers: { 'Content-Type': 'text/csv; charset=utf-8', 'Content-Disposition': 'attachment; filename=danafox-words.csv' } });
 });
 
 /* ---------- broadcasts ---------- */
@@ -334,8 +334,8 @@ route('POST', '/api/admin/export/telegram', async (env, req) => {
   const fd = new FormData();
   if (!a.telegram_id) throw new ApiError(400, 'no_telegram');
   fd.append('chat_id', String(a.telegram_id));
-  fd.append('caption', kind === 'words' ? '📚 VajeYar — word bank export' : '👥 VajeYar — users export');
-  fd.append('document', new Blob([csv], { type: 'text/csv' }), `vajeyar-${kind}-${tehranDay()}.csv`);
+  fd.append('caption', kind === 'words' ? '📚 DanaFox — word bank export' : '👥 DanaFox — users export');
+  fd.append('document', new Blob([csv], { type: 'text/csv' }), `danafox-${kind}-${tehranDay()}.csv`);
   try { await tg(env, 'sendDocument', fd); } catch (e) { throw new ApiError(400, 'telegram_error', e.message); }
   await audit(env, req, a, kind + '.export', 'sent to Telegram');
   return { ok: true };

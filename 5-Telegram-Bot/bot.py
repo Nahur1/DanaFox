@@ -1,4 +1,4 @@
-"""VajeYar Telegram bot — entry point.   Run:  python bot.py"""
+"""DanaFox Telegram bot — entry point.   Run:  python bot.py"""
 import asyncio
 import logging
 import sys
@@ -31,7 +31,7 @@ async def configure_profile(bot: Bot):
             log.warning("profile setup (%s) failed: %s", lang, e)
     try:
         if config.WEBAPP_URL:
-            await bot.set_chat_menu_button(menu_button=MenuButtonWebApp(text="VajeYar", web_app=WebAppInfo(url=config.WEBAPP_URL)))
+            await bot.set_chat_menu_button(menu_button=MenuButtonWebApp(text="DanaFox", web_app=WebAppInfo(url=config.WEBAPP_URL)))
         else:
             await bot.set_chat_menu_button(menu_button=MenuButtonCommands())
     except Exception as e:

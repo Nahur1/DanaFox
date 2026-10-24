@@ -1,4 +1,4 @@
-# واژه‌یار (VajeYar) — مربی هوشمند لغت و ریدینگ انگلیسی
+# دانافاکس (DanaFox) — مربی هوشمند لغت و ریدینگ انگلیسی
 
 > نسخهٔ ۳٫۰ · دوزبانه (فارسی / انگلیسی) · وب/PWA، اندروید، ویندوز، مک، لینوکس، مینی‌اپ و ربات تلگرام · یک حساب، همگام روی همهٔ دستگاه‌ها · کار کامل آفلاین
 
@@ -58,7 +58,7 @@ npm run dist:win | dist:mac | dist:linux
 
 ---
 
-# VajeYar — English vocabulary & reading trainer (EN)
+# DanaFox — English vocabulary & reading trainer (EN)
 
 One codebase (`6-Cloudflare-Worker/public`) powers the website/PWA, the Android app (Capacitor), the Windows/macOS/Linux apps (Electron) and the Telegram Mini App; accounts sync through a Cloudflare Worker + D1 API that also hosts the Telegram bot and the admin panel.
 

@@ -1,4 +1,4 @@
--- ===== VajeYar · Cloudflare D1 database =====
+-- ===== DanaFox · Cloudflare D1 database =====
 -- All timestamps are milliseconds since epoch unless noted.
 CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
 

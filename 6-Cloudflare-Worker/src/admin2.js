@@ -12,7 +12,7 @@ const platformOf = ua => {
   ua = ua || '';
   if (/Electron/i.test(ua)) return 'desktop';
   if (/Telegram/i.test(ua)) return 'telegram';
-  if (/Android/i.test(ua) && /; wv\)|VajeYar/i.test(ua)) return 'android';
+  if (/Android/i.test(ua) && /; wv\)|VajeYar|DanaFox/i.test(ua)) return 'android';
   if (/Android|iPhone|iPad|Mobile/i.test(ua)) return 'mobile_web';
   return ua ? 'web' : 'other';
 };
@@ -177,7 +177,7 @@ route('PUT', '/api/admin/feedback/{id}', async (env, req, p) => {
   await run(env, 'UPDATE feedback SET status=?, reply=?, updated_at=? WHERE id=?', status, reply, now(), f.id);
   let sent = false;
   if (d.notify && reply && f.telegram_id) {
-    try { await tg(env, 'sendMessage', { chat_id: f.telegram_id, text: `💬 <b>پاسخ تیم واژه‌یار به پیام شما</b>\n\n<i>${f.text.slice(0, 300).replace(/[<>&]/g, '')}</i>\n\n${reply.replace(/[<>&]/g, '')}`, parse_mode: 'HTML' }); sent = true; }
+    try { await tg(env, 'sendMessage', { chat_id: f.telegram_id, text: `💬 <b>پاسخ تیم دانافاکس به پیام شما</b>\n\n<i>${f.text.slice(0, 300).replace(/[<>&]/g, '')}</i>\n\n${reply.replace(/[<>&]/g, '')}`, parse_mode: 'HTML' }); sent = true; }
     catch (e) { /* the user may have blocked the bot */ }
   }
   await audit(env, req, a, 'feedback.update', { id: f.id, status, replied: !!reply, sent });
@@ -227,5 +227,5 @@ route('GET', '/api/admin/export/{kind}', async (env, req, p, url) => {
   else if (kind === 'readings') { type = 'application/json; charset=utf-8'; ext = 'json'; body_ = JSON.stringify((await all(env, 'SELECT * FROM readings ORDER BY exam, level_no, sort, id')).map(r => ({ slug: r.slug, exam: r.exam, level: r.level_no, title: r.title, active: !!r.is_active, data: P(r.data) })), null, 1); }
   else throw new ApiError(404, 'not_found');
   await audit(env, req, a, 'export.' + kind);
-  return new Response(body_, { headers: { 'Content-Type': type, 'Content-Disposition': `attachment; filename=vajeyar-${kind}-${tehranDay()}.${ext}` } });
+  return new Response(body_, { headers: { 'Content-Type': type, 'Content-Disposition': `attachment; filename=danafox-${kind}-${tehranDay()}.${ext}` } });
 });

@@ -25,7 +25,7 @@ export async function audienceCounts(env) {
 export async function messageFor(env, b) {
   const kb = [];
   if (b.button_url) kb.push([{ text: (b.button_text || '🔗 Open').slice(0, 64), url: b.button_url }]);
-  if (b.open_app) { const o = await publicOrigin(env); if (o) kb.push([{ text: (b.button_url ? '📚 واژه‌یار' : (b.button_text || '📚 باز کردن واژه‌یار')).slice(0, 64), web_app: { url: `${o}/?tg=1` } }]); }
+  if (b.open_app) { const o = await publicOrigin(env); if (o) kb.push([{ text: (b.button_url ? '📚 دانافاکس' : (b.button_text || '📚 باز کردن دانافاکس')).slice(0, 64), web_app: { url: `${o}/?tg=1` } }]); }
   return { text: b.text, parse_mode: 'HTML', link_preview_options: { is_disabled: true }, ...(kb.length ? { reply_markup: { inline_keyboard: kb } } : {}) };
 }
 

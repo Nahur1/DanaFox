@@ -24,7 +24,7 @@ async def cmd_admin(msg: Message):
     async with db.conn().execute("SELECT SUM(reviews) r FROM days") as cur:
         rv = (await cur.fetchone())["r"] or 0
     await msg.answer(
-        "🛠 <b>VajeYar · Admin</b>\n\n<blockquote>"
+        "🛠 <b>DanaFox · Admin</b>\n\n<blockquote>"
         f"👥 Users: <b>{len(users)}</b>\n"
         f"🟢 Active today: <b>{active}</b>\n"
         f"🚫 Blocked: <b>{sum(1 for u in users if u.get('blocked'))}</b>\n"

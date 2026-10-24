@@ -83,7 +83,7 @@ def card_image(word: str, pos_en: str, tag: str, cat_label: str, mystery=False) 
     # brand
     d.rounded_rectangle((104, H - 128, 140, H - 92), 10, fill=PURPLE)
     d.text((122, H - 110), "V", font=font("Bold", 22), fill=(255, 255, 255), anchor="mm")
-    d.text((152, H - 110), "VajeYar", font=font("SemiBold", 24), fill=MUTED, anchor="lm")
+    d.text((152, H - 110), "DanaFox", font=font("SemiBold", 24), fill=MUTED, anchor="lm")
     out = io.BytesIO(); img.save(out, "PNG", optimize=True)
     return out.getvalue()
 
@@ -104,7 +104,7 @@ def stats_image(days14, forecast7, boxes, heat, kpis) -> bytes:
     p, y, ink, muted, soft = "#8B6CF6", "#F7C948", "#2A2440", "#7B7591", "#EEE8FF"
     fig = plt.figure(figsize=(12, 7.4), dpi=110, facecolor="#F8F6FF")
     gs = fig.add_gridspec(3, 4, height_ratios=[0.55, 1.25, 1.1], hspace=0.62, wspace=0.42, left=0.075, right=0.97, top=0.9, bottom=0.07)
-    fig.text(0.05, 0.955, "VajeYar  ·  Statistics", fontsize=19, fontweight="bold", color=ink)
+    fig.text(0.05, 0.955, "DanaFox  ·  Statistics", fontsize=19, fontweight="bold", color=ink)
     for i, (val, lab) in enumerate(kpis[:4]):
         ax = fig.add_subplot(gs[0, i]); ax.axis("off")
         ax.add_patch(plt.Rectangle((0, 0), 1, 1, transform=ax.transAxes, color="white", ec="#E9E4F7", lw=1.2, clip_on=False))

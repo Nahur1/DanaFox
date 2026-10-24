@@ -1,4 +1,4 @@
-/* ===== VajeYar start-up (loaded last) ===== */
+/* ===== DanaFox start-up (loaded last) ===== */
 (function(){
   // learning insights (memory strength, at-risk words, pace, level) on top of the statistics page
   if(VY.V && VY.V.stats && VY.insightsCard){ const sr = VY.V.stats.render; VY.V.stats.render = function(){ const h = sr.apply(this, arguments); try{ return typeof h === 'string' ? VY.insightsCard() + h : h; }catch(e){ return h; } }; }

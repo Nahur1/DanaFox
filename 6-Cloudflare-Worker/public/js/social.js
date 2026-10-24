@@ -1,4 +1,4 @@
-/* ===== VajeYar community: leaderboards + feedback (works offline: messages wait in a queue) ===== */
+/* ===== DanaFox community: leaderboards + feedback (works offline: messages wait in a queue) ===== */
 (function(){
 const {t, n, esc} = VY; const ACT = VY.ACT, V = VY.V;
 const FQ = 'vajeyar_fb_queue';

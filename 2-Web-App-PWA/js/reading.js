@@ -1,4 +1,4 @@
-/* ===== VajeYar Reading: exam-style passages (IELTS · TOEFL · GRE · PTE · General) with tap-to-translate ===== */
+/* ===== DanaFox Reading: exam-style passages (IELTS · TOEFL · GRE · PTE · General) with tap-to-translate ===== */
 (function(){
 const {t, n, esc} = VY; const ACT = VY.ACT, V = VY.V;
 const RKEY = 'vajeyar_readings_v1';
