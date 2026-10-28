@@ -336,7 +336,7 @@ ACT.install = async () => { if(deferredPrompt){ deferredPrompt.prompt(); deferre
 
 /* ================= MORE (mobile) ================= */
 V.more = {title:'more', render(){ const pl = VY.kvGet('placement');
-  return `<div class="grid g2 more-grid">${VY.MORE.map(([k,ic])=>`<a class="card stat" href="#/${k}" style="text-decoration:none;color:inherit"><div class="stat-ic p">${icon(ic)}</div><div style="min-width:0"><b>${k==='mywords'?t('myWords'):k==='duel'?t('duelTitle'):k==='placement'?t('placementTest'):t(k)}</b>${k==='placement'&&pl?`<span>${t('yourLevel')}: ${esc(pl.cefr)}</span>`:k==='review'?'':''}</div></a>`).join('')}
+  return `<div class="grid g2 more-grid">${VY.MORE.map(([k,ic])=>`<a class="card stat" href="#/${k}" style="text-decoration:none;color:inherit"><div class="stat-ic p">${icon(ic)}</div><div style="min-width:0"><b>${k==='mywords'?t('myWords'):k==='duel'?t('duelTitle'):k==='placement'?t('placementTest'):k==='exam'&&V.exam?V.exam.title():t(k)}</b>${k==='exam'&&VY.kvGet('exam')?`<span>${t('yourLevel')}: ${esc(VY.kvGet('exam').cefr)}</span>`:k==='placement'&&pl?`<span>${t('yourLevel')}: ${esc(pl.cefr)}</span>`:k==='review'?'':''}</div></a>`).join('')}
   <button class="card stat" data-act="feedback" style="text-align:start;color:inherit;font:inherit;cursor:pointer"><div class="stat-ic y">${icon('message')}</div><div><b>${t('feedback')}</b><span>${t('feedbackShort')}</span></div></button></div>`; }};
 
 /* ================= ONBOARDING ================= */

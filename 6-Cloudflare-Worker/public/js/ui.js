@@ -18,7 +18,7 @@ VY.applyDir = () => { const fa = VY.lang()==='fa'; document.documentElement.lang
 /* ---------- Shell ---------- */
 const NAV = [['home','home'],['learn','layers'],['review','repeat'],['reading','bookOpen'],['listening','headphones'],['grammar','grammar'],['quiz','quiz'],['duel','zap'],['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']];
 const navLabel = k => k==='mywords' ? t('myWords') : k==='duel' ? t('duelTitle') : t(k);
-VY.MORE = [['grammar','grammar'],['quiz','quiz'],['duel','zap'],['placement','target'],['leaderboard','trophy'],['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']];
+VY.MORE = [['exam','star'],['placement','target'],['quiz','quiz'],['duel','zap'],['leaderboard','trophy'],['games','game'],['dictionary','book'],['mywords','plus'],['stats','chart'],['settings','settings']];
 VY.renderShell = () => {
   VY.applyDir(); VY.applyTheme();
   const app = document.getElementById('app');
@@ -39,7 +39,7 @@ VY.renderShell = () => {
       </header>
       <main class="content" id="view"></main>
     </div>
-    <nav class="mobile-nav">${[['home','home'],['learn','layers'],['review','repeat'],['reading','bookOpen'],['listening','headphones'],['more','grid']].map(([k,ic])=>`<a href="#/${k}" data-nav="${k}">${icon(ic)}<span>${t(k)}</span>${k==='review'?'<i class="mn-badge hidden" id="due-badge-m"></i>':''}</a>`).join('')}</nav>
+    <nav class="mobile-nav">${[['home','home'],['learn','layers'],['review','repeat'],['grammar','grammar'],['reading','bookOpen'],['listening','headphones'],['more','grid']].map(([k,ic])=>`<a href="#/${k}" data-nav="${k}">${icon(ic)}<span>${t(k)}</span>${k==='review'?'<i class="mn-badge hidden" id="due-badge-m"></i>':''}</a>`).join('')}</nav>
   </div>`;
   VY.route();
 };
@@ -121,6 +121,7 @@ V.home = {title:'home', render(){
     ${VY.ring(pct, 132, 12, '#FFE58A', 'rgba(255,255,255,.22)', `<div><b>${n(td.reviews)}</b><br><span>${t('of')} ${n(goal)} · ${t('dailyGoal')}</span></div>`)}
   </section>
   ${VY.planCard ? VY.planCard() : ''}
+  ${VY.examCard ? VY.examCard() : ''}
   <div class="grid g4 mt24">
     <div class="card stat"><div class="stat-ic o">${icon('flame')}</div><div><b>${n(VY.streakNow())}</b><span>${t('streak')}${S.streak.freezes?` · 🧊${n(S.streak.freezes)}`:''}</span></div></div>
     <div class="card stat"><div class="stat-ic y">${icon('star')}</div><div><b>${n(S.xp)}</b><span>${t('xp')} · ${t('level')} ${n(VY.levelOf(S.xp))}</span></div></div>

@@ -1,6 +1,6 @@
 {
   "name": "vajeyar-cloudflare",
-  "version": "3.5.0",
+  "version": "3.6.0",
   "description": "DanaFox \u2014 Cloudflare Worker (API, Telegram bot, admin panel, web app)",
   "main": "index.js",
   "scripts": {

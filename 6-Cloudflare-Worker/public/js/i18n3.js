@@ -1,7 +1,7 @@
 /* UI strings for v3 features: reading, placement test, smart plan, AI tutor, duels, leaderboard, feedback */
 Object.assign(I18N.en, {
  reading:'Reading', duelTitle:'Duels', feedback:'Feedback', feedbackS:'Ideas, bugs, wrong translations — tell us anything.', feedbackShort:'Ideas & bug reports', send:'Send',
- aiTutor:'AI tutor', aiTutorS:'Write a sentence with the word and get instant feedback.', weakWords:'Weak words', placementTest:'Placement test', placementS:'Find your level in about 8 minutes',
+ aiTutor:'AI tutor', aiTutorS:'Write a sentence with the word and get instant feedback.', weakWords:'Weak words', placementTest:'Vocabulary level test', placementS:'Find your level in about 8 minutes',
  yourLevel:'Your level', vocabSize:'Vocabulary', hard:'Hard', easy:'Easy', details:'Details', edit:'Edit', open:'Open', done:'Done', you:'You', loading:'Loading…', signIn:'Sign in',
  fontSize:'Text size', fontSizeS:'Make all text larger or smaller', exFa:'Persian under examples', exFaS:'Show the Persian translation under every example sentence',
  newPerDay:'New words per day', newPerDayS:'How many new words the smart plan introduces daily', retention:'Target memory', retentionS:'Higher = more frequent reviews (FSRS scheduler)',
@@ -56,7 +56,7 @@ Object.assign(I18N.en, {
 });
 Object.assign(I18N.fa, {
  reading:'ریدینگ', duelTitle:'دوئل', feedback:'بازخورد', feedbackS:'ایده، مشکل، ترجمهٔ اشتباه — هر چیزی را با ما در میان بگذارید.', feedbackShort:'ایده‌ها و گزارش مشکل', send:'ارسال',
- aiTutor:'مربی هوشمند', aiTutorS:'با لغت یک جمله بنویسید و فوراً بازخورد بگیرید.', weakWords:'لغات ضعیف', placementTest:'آزمون تعیین سطح', placementS:'در حدود ۸ دقیقه سطحتان را پیدا کنید',
+ aiTutor:'مربی هوشمند', aiTutorS:'با لغت یک جمله بنویسید و فوراً بازخورد بگیرید.', weakWords:'لغات ضعیف', placementTest:'آزمون تعیین سطح لغت', placementS:'در حدود ۸ دقیقه سطحتان را پیدا کنید',
  yourLevel:'سطح شما', vocabSize:'دایرهٔ لغات', hard:'سخت بود', easy:'آسان', details:'جزئیات', edit:'ویرایش', open:'باز کردن', done:'انجام شد', you:'شما', loading:'در حال بارگذاری…', signIn:'ورود',
  fontSize:'اندازهٔ متن', fontSizeS:'همهٔ متن‌ها را بزرگ‌تر یا کوچک‌تر کنید', exFa:'ترجمهٔ فارسی زیر مثال‌ها', exFaS:'ترجمهٔ فارسی زیر همهٔ جمله‌های مثال نمایش داده شود',
  newPerDay:'لغت جدید در روز', newPerDayS:'برنامهٔ هوشمند هر روز چند لغت جدید معرفی کند', retention:'هدف حافظه', retentionS:'بیشتر = مرورهای بیشتر (زمان‌بندی FSRS)',
@@ -150,7 +150,7 @@ Object.assign(I18N.en, {
 });
 Object.assign(I18N.fa, {
  grammar:'گرامر', grSub:'کتاب English Grammar in Use (ویرایش پنجم): درس همهٔ یونیت‌ها، همراه با تمرین‌های تعاملی و پاسخ‌نامه.',
- grUnits:'یونیت‌ها', grUnitsN:'یونیت', grExN:'تمرین', grExS:'تمرین', grUnitsR:'یونیت {a} تا {b}', grTest:'آزمون تعیین سطح (Study guide)', grAdd:'تمرین‌های تکمیلی', grApp:'پیوست‌ها',
+ grUnits:'یونیت‌ها', grUnitsN:'یونیت', grExN:'تمرین', grExS:'تمرین', grUnitsR:'یونیت {a} تا {b}', grTest:'آزمون عیب‌یابی (Study guide)', grAdd:'تمرین‌های تکمیلی', grApp:'پیوست‌ها',
  grHowT:'روش مطالعه', grHow:'یک یونیت را باز کنید و درس را بخوانید (بخش‌های A، B، C و…؛ ترجمهٔ فارسی هم دارد). بعد تمرین‌ها را حل کنید و «بررسی» را بزنید. نمی‌دانید از کجا شروع کنید؟ آزمون Study guide را بدهید.',
  grLesson:'درس', grExercises:'تمرین‌ها', grSecs:'بخش', grGoEx:'رفتن به تمرین‌ها', grLessonHint:'توضیح‌ها و مثال‌ها را بخوانید. برای شنیدن هر مثال 🔊 را بزنید.',
  grEx:'تمرین', grExHint:'جواب‌ها را در کادرها بنویسید و «بررسی» را بزنید. با Enter به کادر بعدی می‌روید.', grCheck:'بررسی', grReset:'از نو', grScore:'{a} از {b} درست',

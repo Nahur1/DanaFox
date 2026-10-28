@@ -8,7 +8,7 @@ import { route } from './router.js';
 import { publicUser, currentUser, startSession, checkCredentials, telegramUser } from './auth.js';
 import { getSettings } from './settings.js';
 
-export const VERSION = '3.5.0';
+export const VERSION = '3.6.0';
 
 /* ---------- handlers ---------- */
 

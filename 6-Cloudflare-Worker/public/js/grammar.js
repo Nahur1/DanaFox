@@ -207,18 +207,18 @@ ACT.grShow = el => { const id = el.dataset.id; grab(id); ST(id).show = !ST(id).s
 ACT.grReset = el => { const id = el.dataset.id; VY.GRS[id] = {v: {}, checked: false, show: false}; keepY(() => VY.rerender()); };
 
 /* ---------- home ---------- */
-const TABS = [['units', '📚', 'grUnits'], ['test', '🎯', 'grTest'], ['add', '✏️', 'grAdd'], ['app', '📎', 'grApp']];
+const TABS = [['units', '📚', 'grUnits'], ['level', '🧭', 'gtTab'], ['test', '🎯', 'grTest'], ['add', '✏️', 'grAdd'], ['app', '📎', 'grApp']];
 function home(tab){
   const D = G(), all = D.units.flatMap(u => u.exs), done = all.filter(e => res(e.no)).length;
   return `<section class="card sec-hero gr-hero"><div class="sec-ic">📗</div><div style="flex:1;min-width:0"><h2 class="en" dir="ltr" style="text-align:start">Grammar in Use</h2><p>${t('grSub')}</p>
     <div class="row wrap mt12" style="gap:6px"><span class="chip">${n(D.units.length)} ${t('grUnitsN')}</span><span class="chip">${n(all.length)} ${t('grExN')}</span><span class="chip">${n(D.add.length)} ${t('grAdd')}</span><span class="chip">${n(done)} / ${n(all.length)} ${t('rdDone')}</span></div>
     <div class="progress mt12"><i style="width:${all.length ? done / all.length * 100 : 0}%"></i></div></div></section>
-  <div class="tabs-scroll mt16"><div class="seg">${TABS.map(([k, e, l]) => `<button class="${tab === k ? 'on' : ''}" data-act="go" data-to="grammar${k === 'units' ? '' : '/' + k}">${e} ${t(l)}</button>`).join('')}</div></div>
+  <div class="tabs-scroll mt16"><div class="seg">${TABS.map(([k, e, l]) => `<button class="${tab === k ? 'on' : ''}" data-act="go" data-to="grammar${k === 'units' ? '' : '/' + k}">${e} ${k === 'level' ? VY.gtTabLabel() : t(l)}</button>`).join('')}</div></div>
   <div class="mt16">${tab === 'test' ? testView() : tab === 'add' ? addView() : tab === 'app' ? appList() : unitsView()}</div>`;
 }
 function unitsView(){
   const D = G();
-  return `<div class="card ir-tip"><b>💡 ${t('grHowT')}</b><p class="small muted">${t('grHow')}</p></div>` + D.groups.map(g => `<div class="ir-sec"><b class="en" dir="ltr">${esc(g.t)}</b><span class="muted small">${esc(g.fa)} · ${t('grUnitsR', {a: n(g.from), b: n(g.to)})}</span></div>
+  return (VY.gtBanner ? VY.gtBanner() : '') + `<div class="card ir-tip"><b>💡 ${t('grHowT')}</b><p class="small muted">${t('grHow')}</p></div>` + D.groups.map(g => `<div class="ir-sec"><b class="en" dir="ltr">${esc(g.t)}</b><span class="muted small">${esc(g.fa)} · ${t('grUnitsR', {a: n(g.from), b: n(g.to)})}</span></div>
     <div class="grid g2 gr-units">${D.units.filter(u => u.n >= g.from && u.n <= g.to).map(u => { const s = unitDone(u); return `<a class="card gr-unit" href="#/grammar/u/${u.n}">
       <div class="deck-num ${lv(u.n)}">${n(u.n)}</div><div style="flex:1;min-width:0"><b class="en" dir="ltr">${esc(u.title)}</b>${u.fa && fa() ? `<div class="small muted">${esc(u.fa)}</div>` : ''}
       <div class="progress mt8"><i style="width:${s.total ? s.done / s.total * 100 : 0}%"></i></div></div>${s.done ? pctChip(s.pct, 'tiny') : `<span class="small muted">${n(s.total)} ${t('grExS')}</span>`}</a>`; }).join('')}</div>`).join('');
@@ -297,8 +297,10 @@ function appView(k){ const a = G().app.find(x => x.n === +k); if(!a) return home
   return `<div class="row between wrap mb12"><a class="btn btn-ghost btn-sm" href="#/grammar/app">${icon('back')} ${t('grApp')}</a></div>
   <section class="card"><h2 class="en" dir="ltr" style="text-align:start">Appendix ${a.n} · ${esc(a.title)}</h2>${a.fa ? `<div class="muted">${esc(a.fa)}</div>` : ''}<pre class="gr-pre gr-app mt12" dir="ltr">${esc(a.x).replace(/\(→ Units? ([\d–, A-Z]+)\)|→ Units? (\d+)/g, (m) => { const d = m.match(/\d+/); return d ? `<a href="#/grammar/u/${d[0]}">${m}</a>` : m; })}</pre></section>`; }
 
-V.grammar = {title: () => { const p = VY.params || [], D = G(); if(p[0] === 'u' && D){ const u = D.units.find(x => x.n === +p[1]); if(u) return t('grammar') + ' · ' + t('irUnit') + ' ' + n(u.n); } return t('grammar'); },
-  render(){ if(!window.VY_GRAMMAR) return wait(); const p = VY.params || [];
+V.grammar = {title: () => { const p = VY.params || [], D = G(); if(p[0] === 'level' && VY.gtTitle) return VY.gtTitle(); if(p[0] === 'u' && D){ const u = D.units.find(x => x.n === +p[1]); if(u) return t('grammar') + ' · ' + t('irUnit') + ' ' + n(u.n); } return t('grammar'); },
+  render(){ const p = VY.params || [];
+    if(p[0] === 'level' && VY.gtView) return VY.gtView(p[1]);   /* level test: own question bank (js/gtest.js), no book data needed */
+    if(!window.VY_GRAMMAR) return wait();
     if(p[0] === 'u') return unitView(p[1], p[2]); if(p[0] === 'app' && p[1]) return appView(p[1]);
     return home(['test', 'add', 'app'].includes(p[0]) ? p[0] : 'units'); },
   after(){ document.querySelectorAll('[data-gx]').forEach(el => el.addEventListener('input', () => { ST(el.dataset.gx).v[el.dataset.k] = el.value; }));

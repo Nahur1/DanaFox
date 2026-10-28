@@ -24,8 +24,9 @@ const NV = 16, NYN = 24;
 let P = null;   // running test
 
 function pool(){ return VY.words.filter(w => bandOf(w) != null && w.fa && w.fa !== '—'); }
-function pickVocab(){
-  const used = new Set(P.v.map(x => x.id)), all = pool().filter(w => !used.has(w.id));
+function pickVocab(){ return vocabItem(P.th, new Set(P.v.map(x => x.id))); }
+function vocabItem(th, used){
+  const all = pool().filter(w => !used.has(w.id)), P = {th};
   let c = all.filter(w => Math.abs(bandOf(w) - P.th) <= 0.6); if(c.length < 4) c = all.slice().sort((a, b) => Math.abs(bandOf(a) - P.th) - Math.abs(bandOf(b) - P.th)).slice(0, 30);
   const w = c[Math.floor(Math.random() * c.length)];
   const fa = shortFa(w.fa), seen = new Set([fa]), ds = [];
@@ -41,6 +42,8 @@ function buildYN(){
   const fake = VY.sample(FAKE, NYN - 16).map(w => ({word: w, real: false}));
   return VY.shuffle(real.slice(0, 16).concat(fake));
 }
+/* shared with the overall level exam (js/gtest.js) */
+VY.PL = {pool, bandOf, vocabItem, PASSAGE, RQS, interp, VOC, IELTS, TOEFL, NEXT_VOC};
 ACT.plStart = () => { if(pool().length < 40){ VY.toast(t('notEnough')); return; } if(VY.current !== 'placement' || (VY.params||[])[0]) location.hash = '#/placement'; P = {step:'v', th:3, k:0, v:[], yn:null, yi:0, ya:[], r:[], ri:0, t0:Date.now()}; P.cur = pickVocab(); VY.rerender(); };
 ACT.plAns = el => {
   if(!P || P.lock) return; const c = +el.dataset.v, q = P.cur, ok = c === q.a;
