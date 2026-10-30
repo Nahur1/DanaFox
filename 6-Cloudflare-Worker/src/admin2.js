@@ -13,6 +13,7 @@ const platformOf = ua => {
   if (/Electron/i.test(ua)) return 'desktop';
   if (/Telegram/i.test(ua)) return 'telegram';
   if (/Android/i.test(ua) && /; wv\)|VajeYar|DanaFox/i.test(ua)) return 'android';
+  if (/iPhone|iPad|iPod/i.test(ua) && /DanaFoxiOS/.test(ua)) return 'ios';
   if (/Android|iPhone|iPad|Mobile/i.test(ua)) return 'mobile_web';
   return ua ? 'web' : 'other';
 };

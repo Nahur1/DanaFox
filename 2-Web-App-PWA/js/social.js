@@ -2,7 +2,7 @@
 (function(){
 const {t, n, esc} = VY; const ACT = VY.ACT, V = VY.V;
 const FQ = 'vajeyar_fb_queue';
-VY.platform = () => { const ua = navigator.userAgent || ''; if(window.Telegram && Telegram.WebApp && Telegram.WebApp.initData) return 'telegram'; if(window.Capacitor || /VajeYarAndroid|; wv\)/.test(ua)) return 'android'; if(/Electron/i.test(ua)) return 'desktop'; if(matchMedia('(display-mode: standalone)').matches) return 'pwa'; return 'web'; };
+VY.platform = () => { const ua = navigator.userAgent || ''; if(window.Telegram && Telegram.WebApp && Telegram.WebApp.initData) return 'telegram'; if(window.Capacitor && Capacitor.getPlatform && Capacitor.getPlatform() === 'ios' || /DanaFoxiOS/.test(ua)) return 'ios'; if(window.Capacitor || /VajeYarAndroid|; wv\)/.test(ua)) return 'android'; if(/Electron/i.test(ua)) return 'desktop'; if(matchMedia('(display-mode: standalone)').matches) return 'pwa'; return 'web'; };
 
 /* ---------- leaderboard ---------- */
 const LB = {board:'week', data:{}, err:null};

@@ -2,5 +2,6 @@
   "appId": "com.vajeyar.app",
   "appName": "DanaFox",
   "webDir": "www",
-  "android": { "backgroundColor": "#F8F6FF" }
+  "android": { "backgroundColor": "#F8F6FF" },
+  "ios": { "backgroundColor": "#F8F6FF", "contentInset": "never", "appendUserAgent": "DanaFoxiOS", "preferredContentMode": "mobile" }
 }

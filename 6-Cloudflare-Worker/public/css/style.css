@@ -1089,3 +1089,6 @@ html[dir=ltr] .gt-me small{direction:ltr}
 /* 7 items in the mobile bottom bar */
 @media (max-width:900px){.mobile-nav{padding-inline:2px}.mobile-nav a{padding:6px 0}.mobile-nav a svg{width:21px;height:21px}}
 @media (max-width:380px){.mobile-nav a{font-size:calc(9.5px*var(--fs,1))}.mobile-nav a svg{width:20px;height:20px}}
+/* iPhone app (and any viewport-fit=cover screen with a notch): keep the sticky top bar / sidebar below the status bar */
+.topbar{border-top:env(safe-area-inset-top,0px) solid var(--bg)}
+.sidebar{padding-top:calc(22px + env(safe-area-inset-top,0px))}

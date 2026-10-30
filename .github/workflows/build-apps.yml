@@ -1,5 +1,6 @@
 # Builds every DanaFox app from the same frontend (6-Cloudflare-Worker/public) and publishes a GitHub release.
 #   • Android APK (signed with the release key stored in the repository secrets)
+#   • iPhone/iPad IPA (unsigned — sideload with AltStore / Sideloadly / TrollStore, which sign it with the user's Apple ID)
 #   • Windows: installer + portable exe   • macOS: dmg + zip (universal)   • Linux: AppImage + deb
 #   • Web/PWA bundle (zip)
 # Run it from Actions → "Build apps" → Run workflow, or push a tag like v3.0.0.
@@ -59,6 +60,39 @@ jobs:
           ls -la out
       - uses: actions/upload-artifact@v4
         with: { name: android, path: 4-Android-APK-Capacitor/out/*.apk, if-no-files-found: error }
+
+  ios:
+    runs-on: macos-latest
+    defaults: { run: { working-directory: 4-Android-APK-Capacitor } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm ci
+      - run: npm run copy-web
+      - run: npx cap sync ios
+      - name: Build the unsigned app
+        run: |
+          V=$(node -p "require('./package.json').version")
+          B=$(sed -n 's/.*versionCode *\([0-9]*\).*/\1/p' android/app/build.gradle | head -1)
+          xcodebuild -version
+          xcodebuild -workspace ios/App/App.xcworkspace -scheme App -configuration Release \
+            -destination 'generic/platform=iOS' -archivePath "$RUNNER_TEMP/App.xcarchive" \
+            MARKETING_VERSION="$V" CURRENT_PROJECT_VERSION="${B:-1}" \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" CODE_SIGN_ENTITLEMENTS="" \
+            archive > "$RUNNER_TEMP/xcodebuild.log" 2>&1 || { grep -n "error:" "$RUNNER_TEMP/xcodebuild.log" | head -60; tail -n 80 "$RUNNER_TEMP/xcodebuild.log"; exit 1; }
+          tail -n 5 "$RUNNER_TEMP/xcodebuild.log"
+          test -d "$RUNNER_TEMP/App.xcarchive/Products/Applications/App.app"
+      - name: Package the IPA
+        run: |
+          V=$(node -p "require('./package.json').version")
+          mkdir -p out "$RUNNER_TEMP/ipa/Payload"
+          cp -R "$RUNNER_TEMP/App.xcarchive/Products/Applications/App.app" "$RUNNER_TEMP/ipa/Payload/"
+          /usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' -c 'Print :CFBundleVersion' -c 'Print :CFBundleDisplayName' "$RUNNER_TEMP/ipa/Payload/App.app/Info.plist"
+          (cd "$RUNNER_TEMP/ipa" && zip -qry "$GITHUB_WORKSPACE/4-Android-APK-Capacitor/out/DanaFox-$V.ipa" Payload)
+          ls -la out
+      - uses: actions/upload-artifact@v4
+        with: { name: ios, path: 4-Android-APK-Capacitor/out/*.ipa, if-no-files-found: error }
 
   windows:
     runs-on: windows-latest
@@ -121,7 +155,7 @@ jobs:
         with: { name: web, path: out/*.zip }
 
   release:
-    needs: [android, windows, macos, linux, web]
+    needs: [android, ios, windows, macos, linux, web]
     if: startsWith(github.ref, 'refs/tags/v') || inputs.release
     runs-on: ubuntu-latest
     steps:

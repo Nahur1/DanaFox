@@ -1,3 +1,29 @@
+## دانافاکس ۳٫۶٫۱ 🦊📱
+
+### تازه‌ها
+- **نسخهٔ آیفون/آیپد (IPA)** — فایل `DanaFox-3.6.1.ipa` به دانلودها اضافه شد
+  - نصب با **Sideloadly** (ویندوز/مک) یا **AltStore**: فایل IPA را بدهید و با Apple ID خودتان وارد شوید؛ اکانت پولی توسعه‌دهندهٔ اپل لازم نیست
+  - بعد از نصب: Settings ← General ← VPN & Device Management ← Apple ID خودتان ← Trust
+  - با Apple ID رایگان، برنامه هر ۷ روز باید دوباره امضا شود (AltStore این کار را خودکار انجام می‌دهد)؛ با TrollStore امضای دائمی است
+  - راه جایگزین بدون نصب: سایت را در Safari باز کنید ← دکمهٔ Share ← «Add to Home Screen»
+- نوار بالای صفحه در گوشی‌های دارای ناچ (آیفون) دیگر زیر نوار وضعیت نمی‌رود
+
+### دانلود
+| پلتفرم | فایل |
+|---|---|
+| اندروید | `DanaFox-3.6.1.apk` |
+| آیفون / آیپد | `DanaFox-3.6.1.ipa` (نصب با Sideloadly / AltStore) |
+| ویندوز | `DanaFox-Setup-3.6.1.exe` (نصب) یا `DanaFox-Portable-3.6.1.exe` (بدون نصب) |
+| مک | `DanaFox-3.6.1-mac.dmg` |
+| لینوکس | `DanaFox-3.6.1-linux-x86_64.AppImage` یا `.deb` |
+| وب | <https://vajeyar.mohammadfakhari59.workers.dev> یا `DanaFox-Web-3.6.1.zip` |
+
+> آیفون: فایل IPA امضا نشده است و باید با Sideloadly / AltStore (با Apple ID خودتان) نصب شود.
+> مک: بار اول روی برنامه راست‌کلیک ← Open بزنید (برنامه امضای تجاری Apple ندارد).
+> ویندوز: اگر SmartScreen هشدار داد: More info ← Run anyway.
+
+---
+
 ## دانافاکس ۳٫۶ 🦊🧭
 
 ### تازه‌ها

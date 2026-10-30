@@ -882,7 +882,7 @@ Object.assign(L.fa, {
   an_hard: 'سخت‌ترین لغات', h_err: 'خطا', h_learners: 'نفر', an_decks: 'عملکرد هر بسته', d_deck: 'بسته', d_seen: 'دیده‌شده', d_acc: 'دقت',
   an_quiz: 'نتایج آزمون‌ها', q_n: 'آزمون', q_avg: 'میانگین نمره', an_place: 'تعیین سطح', pl_n: 'آزمون تعیین سطح', pl_vocab: 'دامنهٔ لغات', an_read: 'ریدینگ', rd_n: 'تمرین', rd_avg: 'میانگین', rd_top: 'پرتمرین‌ترین متن‌ها',
   an_duels: 'مسابقه‌ها', du_total: 'کل', du_done: 'تمام‌شده', du_active: 'در جریان', du_invited: 'دعوت', du_dropped: 'لغو/رد', du_draws: 'مساوی', du_starters: 'شروع‌کننده',
-  an_plat: 'پلتفرم‌ها (کاربران فعال)', pf_web: 'وب', pf_mobile_web: 'وب موبایل', pf_android: 'اندروید', pf_desktop: 'دسکتاپ', pf_telegram: 'مینی‌اپ تلگرام', pf_telegram_bot: 'ربات تلگرام', pf_other: 'سایر',
+  an_plat: 'پلتفرم‌ها (کاربران فعال)', pf_web: 'وب', pf_mobile_web: 'وب موبایل', pf_android: 'اندروید', pf_ios: 'آیفون', pf_desktop: 'دسکتاپ', pf_telegram: 'مینی‌اپ تلگرام', pf_telegram_bot: 'ربات تلگرام', pf_other: 'سایر',
   an_streak: 'زنجیره‌ها', st_n: 'زنجیرهٔ فعال', st_avg: 'میانگین', st_best: 'رکورد', st_week: '۷ روز به بالا',
   an_fb: 'پیام‌ها', an_exp: 'خروجی داده‌ها', ex_analytics: 'فعالیت روزانه (۹۰ روز)', ex_retention: 'ماندگاری', ex_hardest: 'سخت‌ترین لغات', ex_feedback: 'پیام‌های کاربران', ex_duels: 'مسابقه‌ها', ex_placement: 'تعیین سطح', ex_readings: 'متن‌های ریدینگ (JSON)',
   rd_new: 'متن جدید', rd_edit: 'ویرایش متن', rd_exam: 'آزمون', rd_level: 'سطح', rd_title: 'عنوان', rd_sort: 'ترتیب', rd_json: 'محتوا (JSON: paras, qs, gl, title_fa, topic, minutes)', rd_active: 'فعال در اپ', rd_attempts: '{n} تمرین', rd_avgS: 'میانگین {n}٪',
@@ -904,7 +904,7 @@ Object.assign(L.en, {
   an_hard: 'Hardest words', h_err: 'error', h_learners: 'learners', an_decks: 'Deck performance', d_deck: 'Deck', d_seen: 'Seen', d_acc: 'Accuracy',
   an_quiz: 'Quiz results', q_n: 'Quizzes', q_avg: 'Average score', an_place: 'Placement', pl_n: 'Placement tests', pl_vocab: 'Vocabulary size', an_read: 'Reading', rd_n: 'Attempts', rd_avg: 'Average', rd_top: 'Most practised passages',
   an_duels: 'Duels', du_total: 'Total', du_done: 'Finished', du_active: 'Live', du_invited: 'Invited', du_dropped: 'Dropped', du_draws: 'Draws', du_starters: 'Starters',
-  an_plat: 'Platforms (active users)', pf_web: 'Web', pf_mobile_web: 'Mobile web', pf_android: 'Android', pf_desktop: 'Desktop', pf_telegram: 'Telegram Mini App', pf_telegram_bot: 'Telegram bot', pf_other: 'Other',
+  an_plat: 'Platforms (active users)', pf_web: 'Web', pf_mobile_web: 'Mobile web', pf_android: 'Android', pf_ios: 'iPhone', pf_desktop: 'Desktop', pf_telegram: 'Telegram Mini App', pf_telegram_bot: 'Telegram bot', pf_other: 'Other',
   an_streak: 'Streaks', st_n: 'Active streaks', st_avg: 'Average', st_best: 'Record', st_week: '7+ days',
   an_fb: 'Feedback', an_exp: 'Data exports', ex_analytics: 'Daily activity (90 days)', ex_retention: 'Retention', ex_hardest: 'Hardest words', ex_feedback: 'User feedback', ex_duels: 'Duels', ex_placement: 'Placement', ex_readings: 'Reading passages (JSON)',
   rd_new: 'New passage', rd_edit: 'Edit passage', rd_exam: 'Exam', rd_level: 'Level', rd_title: 'Title', rd_sort: 'Order', rd_json: 'Content (JSON: paras, qs, gl, title_fa, topic, minutes)', rd_active: 'Active in the apps', rd_attempts: '{n} attempts', rd_avgS: 'avg {n}%',
@@ -939,7 +939,7 @@ VIEWS.stats = async p => {
   const k = d.kpi, days = d.series.map(x => x.day), lr = d.learning || {}, q = d.quiz || {}, du = d.duels || {}, fu = d.funnel || {}, st = d.streaks || {};
   const kpi = (cls, icon, v, l, s = '&nbsp;') => `<div class="kpi ${cls}"><div class="ic">${ic(icon)}</div><div class="v num">${v}</div><div class="l">${l}</div><div class="s">${s}</div></div>`;
   const plat = Object.entries(d.platforms || {}).sort((a, b) => b[1] - a[1]);
-  const PC = { web: '#8B6CF6', mobile_web: '#E2558E', android: '#16A34A', desktop: '#2F80ED', telegram: '#229ED9', telegram_bot: '#0EA5A4', other: '#A0A6B5' };
+  const PC = { web: '#8B6CF6', mobile_web: '#E2558E', android: '#16A34A', ios: '#111827', desktop: '#2F80ED', telegram: '#229ED9', telegram_bot: '#0EA5A4', other: '#A0A6B5' };
   const ret = d.retention || [];
   p.innerHTML = `
   <div class="toolbar"><span class="muted small">${t('an_range')}</span><div class="seg" id="an-d">${[7, 14, 30, 60, 90].map(n => `<button class="${S.an.days === n ? 'on' : ''}" data-d="${n}">${t('an_days', { n: N(n) })}</button>`).join('')}</div>

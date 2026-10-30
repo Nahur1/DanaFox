@@ -1,17 +1,20 @@
 {
   "name": "vajeyar-android",
-  "version": "3.6.0",
+  "version": "3.6.1",
   "private": true,
   "scripts": {
     "copy-web": "node scripts/copy-web.mjs",
     "sync": "npm run copy-web && npx cap sync android",
     "android": "npm run sync && npx cap open android",
     "apk": "npm run sync && cd android && ./gradlew assembleRelease",
-    "apk:win": "npm run sync && cd android && gradlew.bat assembleRelease"
+    "apk:win": "npm run sync && cd android && gradlew.bat assembleRelease",
+    "sync:ios": "npm run copy-web && npx cap sync ios",
+    "ios": "npm run sync:ios && npx cap open ios"
   },
   "dependencies": {
     "@capacitor/android": "^6.1.2",
-    "@capacitor/core": "^6.1.2"
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/ios": "^6.2.3"
   },
   "devDependencies": {
     "@capacitor/cli": "^6.1.2"
